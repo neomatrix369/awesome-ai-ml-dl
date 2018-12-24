@@ -22,6 +22,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
  	- [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)
   - Python & R
   - Misc
+- [Contributing](#contributing)
 
 ### General
 
@@ -118,3 +119,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 ### Julia, Python & R  
 
 ### Misc
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
