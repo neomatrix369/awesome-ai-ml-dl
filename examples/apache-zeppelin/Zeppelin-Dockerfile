@@ -1,0 +1,30 @@
+FROM apache/zeppelin:0.8.0
+
+# Workaround to "fix" https://issues.apache.org/jira/browse/ZEPPELIN-3586
+
+RUN echo "$LOG_TAG Download Spark binary" && \
+    wget -O /tmp/spark-2.3.1-bin-hadoop2.7.tgz http://apache.panu.it/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz && \
+    tar -zxvf /tmp/spark-2.3.1-bin-hadoop2.7.tgz && \
+    rm -rf /tmp/spark-2.3.1-bin-hadoop2.7.tgz && \
+    mv spark-2.3.1-bin-hadoop2.7 /spark-2.3.1-bin-hadoop2.7
+
+ENV SPARK_HOME=/spark-2.3.1-bin-hadoop2.7
+
+RUN rm -fr /usr/lib/jvm/java-1.8.0-openjdk-amd64 /usr/lib/jvm/java-8-openjdk-amd64
+
+RUN wget https://github.com/oracle/graal/releases/download/vm-1.0.0-rc10/graalvm-ce-1.0.0-rc10-linux-amd64.tar.gz 
+
+RUN tar xvzf graalvm-ce-1.0.0-rc10-linux-amd64.tar.gz
+
+RUN mv graalvm-ce-1.0.0-rc10/jre /usr/lib/jvm/graalvm-ce-1.0.0-rc10
+
+ENV JAVA_HOME=/usr/lib/jvm/graalvm-ce-1.0.0-rc10
+
+ENV PATH=$JAVA_HOME/bin:$PATH
+
+RUN java -version
+
+RUN rm graalvm-ce-1.0.0-rc10-linux-amd64.tar.gz
+RUN rm -fr graalvm-ce-1.0.0-rc10
+
+CMD ["bin/zeppelin.sh"]
