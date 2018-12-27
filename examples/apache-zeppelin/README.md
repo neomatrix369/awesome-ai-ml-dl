@@ -8,5 +8,6 @@ Scripts provided:
 - buildZeppelinDockerImage.sh: build the Zeppelin-Dockerfile dockerfile, takes over 45 minutes to finish on a decent connection
 - runZeppelinDockerContainer.sh: run the zeppelin docker image, exposing port 8080 to point your browser to (http://localhost:8080)
 
+See blog post on [Apache Zeppelin: stairway to notes* haven!](https://www.javaadvent.com/2018/12/apache-zeppelin-stairway-to-notes-haven.html) on further illustration on how to use the scripts in this folder.
 
-Enjoy writing prototypes, experiments or do some real work with it, in Java, Scala or any other intepreter of your choice. 
+Enjoy writing prototypes, experiments or do some real work with it, in Java, Scala or any other intepreter of your choice.
