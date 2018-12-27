@@ -20,7 +20,10 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
  	- [Tools & Libraries, Cheatsheets, Resources](#tools--libraries-cheatsheets-resources)
  	- [How-to / Deploy / DevOps / Serverless](#how-to--deploy--devops--serverless)
  	- [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)
-  - Python & R
+  - Julia, Python & R
+  - Notebooks
+    - [Apache Zeppelin notes]()
+    - JuPyter notebooks
   - Misc
 - [Contributing](#contributing)
 
@@ -117,6 +120,11 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
 
 ### Julia, Python & R  
+
+### Notebooks
+  - Apache Zeppelin notes
+    - See [example](examples/apache-zeppelin/README.md) in the `examples/apache-zeppelin` folder
+  - JuPyter notebooks
 
 ### Misc
 
