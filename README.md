@@ -48,6 +48,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Want A Bigger Bang From AI? Embed It Into Your Apps](https://www.forbes.com/sites/oracle/2018/11/27/want-a-bigger-bang-from-ai-embed-it-into-your-apps/#1c07cc7a4e2d) ([Tweet](https://twitter.com/java/status/1068779734337708032))
   - [A Beginner's Guide to Automated Machine Learning & AI](https://t.co/s7lvKY9Y7z) ([Tweet](https://twitter.com/java/status/1051844141808664576))
   - [Five TED Talks on AI to watch](https://enterprisersproject.com/article/2017/10/5-ted-talks-ai-watch) ([Tweet](https://twitter.com/java/status/924260487554043904))
+  - [An ethics checklist for data scientists](http://deon.drivendata.org/)
+  - [Data science competitions to save the world](https://www.drivendata.org/)
+  - [ThinkGradient - Transcending human intelligence through research and development in AI](https://www.thinkgradient.com/)
 
 #### Classifier / decision trees
 
