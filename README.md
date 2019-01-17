@@ -22,7 +22,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
  	- [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)
   - Julia, Python & R
   - Notebooks
-    - [Apache Zeppelin notes]()
+    - [Apache Zeppelin notes](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for Apache Zeppelin notes in this section
     - JuPyter notebooks
   - Misc
 - [Contributing](#contributing)
@@ -51,6 +51,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [An ethics checklist for data scientists](http://deon.drivendata.org/)
   - [Data science competitions to save the world](https://www.drivendata.org/)
   - [ThinkGradient - Transcending human intelligence through research and development in AI](https://www.thinkgradient.com/)
+  - [Two years in the life of AI, ML, DL and Java](https://medium.com/@neomatrix369/two-years-in-the-life-of-ai-ml-dl-and-java-6bfe6eb8182a)
+  - [Apache Zeppelin: stairway to notes* haven!](https://medium.com/@neomatrix369/apache-zeppelin-stairway-to-notes-haven-28ec413a185a)
 
 #### Classifier / decision trees
 
@@ -126,6 +128,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
 
 ### Julia, Python & R  
+  - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
+  - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
 
 ### Notebooks
   - Apache Zeppelin notes
