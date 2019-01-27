@@ -72,7 +72,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 #### Genetic Algorithms
 
-  - [Jenetics is an advanced Genetic Algorithm, respectively an Evolutionary Algorithm, library written in java](jenetics.io) ([Tweet](https://twitter.com/juanantoniobm/status/863871263118381056))
+  - [Jenetics is an advanced Genetic Algorithm, respectively an Evolutionary Algorithm, library written in java](http://jenetics.io) ([Tweet](https://twitter.com/juanantoniobm/status/863871263118381056))
 
 #### Java projects / related technologies
 
