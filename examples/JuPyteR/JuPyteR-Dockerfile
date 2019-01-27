@@ -5,6 +5,8 @@ COPY --from=jdkBuilder /opt/java/openjdk/ /opt/java/openjdk/
 
 ENV JAVA_HOME=/opt/java/openjdk/
 ENV PATH=${JAVA_HOME}/bin:${PATH}
+RUN echo "JDK9, Linux only: We are enabling JVMCI flags (enabling Graal as Tier-2 compiler)"
+RUN echo "Please check docs for higher versions of JDK and other platforms"
 ENV JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
 
 RUN echo "PATH=${PATH}"
@@ -33,6 +35,6 @@ RUN ./install-java-kernel.sh
 
 EXPOSE 8888
 
+COPY runJuPyteRLocal.sh runJuPyteRLocal.sh
 WORKDIR jupyter-notebooks
-COPY runJuPyteR.sh ${WORKDIR}/runJuPyteR.sh
-ENTRYPOINT ["runJuPyteR.sh"]
+ENTRYPOINT ["./../runJuPyteRLocal.sh"]
