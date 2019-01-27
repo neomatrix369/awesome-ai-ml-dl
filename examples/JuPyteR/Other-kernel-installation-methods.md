@@ -3,7 +3,7 @@
 JuPyteR kernels can be installed multiple ways and on variety of JDKs.
 
 **Pre-Java 9 / GraalVM**
-Unfortunately, not possible to build sources under these versions as the source is target for Java 9 and higher.
+Unfortunately, not possible to build sources under these versions as the source is targeted for **Java 9 and higher**.
 
 **Java 9 or higher**
 
@@ -18,7 +18,7 @@ $ ./gradlew clean build
 $ ./gradlew installKernel
 ```
 
-Note: please raise any build or installation issues at https://github.com/SpencerPark/IJava/issues
+Note: please raise any build or installation issues at [https://github.com/SpencerPark/IJava/issues]()
 
 ***Python 2 or 3 (vanilla)***
 

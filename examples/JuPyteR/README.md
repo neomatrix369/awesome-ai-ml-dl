@@ -2,8 +2,10 @@
 
 [JuPyteR notebooks](https://jupyter.org/) also gives us the facility to write notebooks using Java, Scala and other JVM and non-JVM languages in addition to Python, R and Julia.
 
+In theory, the below instructions should work for all operating systems i.e. Linux, MacOS and Windows. Although it has been only tested for Linux and MacOS.
+
 ### Kernels
-These are provided using via kernels, for e.g. the [IJava kernel](https://github.com/SpencerPark/IJava) when installed, provides Java language support in Jupyter notebooks. Take a look at the docs and examples provided on https://github.com/SpencerPark/IJava.
+These are provided using via kernels, for e.g. the [IJava kernel](https://github.com/SpencerPark/IJava) when installed, provides Java language support in Jupyter notebooks. Take a look at the docs and examples provided on [https://github.com/SpencerPark/IJava]().
 
 ### Additional source of kernels
 [beakerx](http://beakerx.com/) Is another source where a wider range of kernels can be found.
@@ -44,9 +46,15 @@ Available kernels:
   python2    /[User home]/[path/to]/share/jupyter/kernels/python2
 ```
 
-### Docker
+### Docker container
 
-...To follow ASAP...
+#### Scripts provided:
+
+- Jupyter-Dockerfile: a dockerfile script to help build a docker image of Jupyter with the IJava kernel running on Java 9 (with Graal enabled)
+- buildJupyterDockerImage.sh: build the Jupyter-Dockerfile dockerfile
+- runJupyterDockerContainer.sh: run the Jupyter docker image, exposing port 8080 to point your browser to (http://localhost:8080)
+
+Note: the Graal compiler can be enabled starting Java 9 but this currently only works for Linux when you use pre-existing releases of Java 9 or Java 10. 
 
 ## Get started: Manual steps (via CLI)
 
@@ -81,7 +89,7 @@ $ unzip ijava-1.2.0.zip
 
 ### Install the kernel
 
-**Pre-requisite:** Java 9 when installing the pre-compiled binary from https://github.com/SpencerPark/IJava/releases/
+**Pre-requisite:** _Java 9_ should be the current JDK your *JAVA_HOME* should point to, when installing the pre-compiled binary from [https://github.com/SpencerPark/IJava/releases/]()
 
 #### Method 1: via the `jupyter` command on the command-line
 
@@ -148,10 +156,12 @@ Remove 1 kernel specs [y/N]: y
 
 Note: destination paths may vary hence `[path/to]`.
 
-## Scripts provided:
+Ensure you are currently in the right python environment to be able to remove the kernel installed in the said environment.
 
-- Jupyter-Dockerfile: a dockerfile script to help build a docker image of Jupyter with the IJava kernel running on Java 9 (with Graal enabled)
-- buildJupyterDockerImage.sh: build the Jupyter-Dockerfile dockerfile
-- runJupyterDockerContainer.sh: run the Jupyter docker image, exposing port 8080 to point your browser to (http://localhost:8080)
+### Usage and examples
 
-Enjoy writing prototypes, experiments or do some real work with it, in Java, Scala or any other kernel of your choice.
+See [README section on SpencerPark/IJava](https://github.com/SpencerPark/IJava) for a whole number of examples and usages.
+
+Also checkout the live links (JuPyteR notebooks online).
+
+**Enjoy writing prototypes, experiments or do some real work with it, in Java, Scala or any other kernel of your choice.**
