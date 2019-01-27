@@ -1,6 +1,6 @@
 # Apache Zeppelin
 
-Just like [JuPyteR notebooks]https://jupyter.org/), [Zeppelin](http://zeppelin.apache.org/) gives us the facility to write notebooks using Java, Scala and other languages or better known as [interpreters](http://zeppelin.apache.org/docs/0.8.0/usage/interpreter/overview.html).
+Just like [JuPyteR notebooks](https://jupyter.org/), [Zeppelin](http://zeppelin.apache.org/) gives us the facility to write notebooks using Java, Scala and other languages or better known as [interpreters](http://zeppelin.apache.org/docs/0.8.0/usage/interpreter/overview.html).
 
 Scripts provided:
 
