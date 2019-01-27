@@ -21,9 +21,10 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
  	- [How-to / Deploy / DevOps / Serverless](#how-to--deploy--devops--serverless)
  	- [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)
   - Julia, Python & R
+    - [An example on how-to install a Java kernel for JuPyteR notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl/examples/JuPyteR/README.md)
   - Notebooks
     - [Apache Zeppelin notes](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for Apache Zeppelin notes in this section
-    - JuPyter notebooks
+    - [JuPyteR notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for JuPyteR notebooks in this section
   - Misc
 - [Contributing](#contributing)
 
@@ -134,7 +135,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 ### Notebooks
   - Apache Zeppelin notes
     - See [example](examples/apache-zeppelin/README.md) in the `examples/apache-zeppelin` folder
-  - JuPyter notebooks
+  - JuPyteR notebooks
+    - See [example](examples/JuPyTeR/README.md) in the `examples/JuPyteR` folder
 
 ### Misc
 
