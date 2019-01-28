@@ -7,6 +7,16 @@ In theory, the below instructions should work for all operating systems i.e. Lin
 ### Kernels
 These are provided using via kernels, for e.g. the [IJava kernel](https://github.com/SpencerPark/IJava) when installed, provides Java language support in Jupyter notebooks. Take a look at the docs and examples provided on [https://github.com/SpencerPark/IJava]().
 
+Pre-requisite: only supports JDK versions 9 and higher
+
+Graal compiler can be enabled for JDK 9 and higher, for platforms where it is supported, see table below:
+
+|JDK/JRE Version  | Platforms             | 
+|----------------:|:----------------------|
+|Java 9           | Linux only            |
+|Java 10          | Linux and MacOS       |
+|Java 11 or higher| Linux, MacOS, Windows |
+
 ### Additional source of kernels
 [beakerx](http://beakerx.com/) Is another source where a wider range of kernels can be found.
 
