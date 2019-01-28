@@ -16,8 +16,9 @@ if [[ "${DEBUG}" == "true" ]]; then
     echo "*************************"
 fi
 
-docker run --rm                                                 \
-           ${DOCKER_DEBUG_PARAMS}                               \
-           --volume ${PWD}/jupyter/kernel:/usr/share/jupyter    \
-           --volume ${PWD}/jupyter/notebooks:/jupyter-notebooks \
+[ ! ${PWD}/jupyter/notebooks ] && mkdir -p ${PWD}/jupyter/notebooks
+
+docker run --rm                                                                 \
+           ${DOCKER_DEBUG_PARAMS}                                               \
+           --volume ${PWD}/jupyter/notebooks:/jupyter-notebooks                 \
            -p 8888:8888 jupyter-java

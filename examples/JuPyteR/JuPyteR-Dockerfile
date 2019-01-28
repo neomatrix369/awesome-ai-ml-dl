@@ -6,7 +6,7 @@ COPY --from=jdkBuilder /opt/java/openjdk/ /opt/java/openjdk/
 ENV JAVA_HOME=/opt/java/openjdk/
 ENV PATH=${JAVA_HOME}/bin:${PATH}
 RUN echo "JDK9, Linux only: We are enabling JVMCI flags (enabling Graal as Tier-2 compiler)"
-RUN echo "Please check docs for higher versions of JDK and other platforms"
+RUN echo "Graal setting: please check docs for higher versions of Java and for other platforms"
 ENV JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
 
 RUN echo "PATH=${PATH}"
@@ -23,15 +23,19 @@ RUN apt-get update &&     \
 		python-setuptools \
 	--no-install-recommends && rm -r /var/lib/apt/lists/
 
-COPY install-java-kernel.sh install-java-kernel.sh
-
 RUN python --version
 RUN pip --version
 
 RUN pip install --upgrade pip 
 RUN pip install jupyter
 
+COPY install-java-kernel.sh install-java-kernel.sh
 RUN ./install-java-kernel.sh
+RUN sed '/\"java\",/a\
+      \"-XX:+UnlockExperimentalVMOptions\",\
+      \"-XX:+EnableJVMCI\",\
+      \"-XX:+UseJVMCICompiler",\
+'  /usr/share/jupyter/kernels/java/kernel.json
 
 EXPOSE 8888
 
