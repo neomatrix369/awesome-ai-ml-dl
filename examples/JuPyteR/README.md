@@ -171,3 +171,12 @@ See [README section on SpencerPark/IJava](https://github.com/SpencerPark/IJava) 
 Also checkout the live links (JuPyteR notebooks online).
 
 **Enjoy writing prototypes, experiments or do some real work with it, in Java, Scala or any other kernel of your choice.**
+
+### Credits for the inspiration
+
+Inspired by these tweets:
+
+- [https://twitter.com/java/status/1081275824492371968]()
+- [https://twitter.com/java/status/1082365504461824000]()
+
+Thank you [@nicolas_frankel](twitter.com/@nicolas_frankel) and the good folks behind [beakerx.com]().
