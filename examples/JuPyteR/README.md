@@ -18,9 +18,19 @@ Graal compiler can be enabled for JDK 9 and higher, for platforms where it is su
 |Java 11 or higher| Linux, MacOS, Windows |
 
 ### Additional source of kernels
-[beakerx](http://beakerx.com/) - Is another source where a wider range of kernels can be found.
+- [beakerx](http://beakerx.com/) - Is another source where a wider range of kernels can be found (covering many JVM languages).
 
 ![beakerx](beakerx-homepage-screenshot.png)
+- [https://github.com/scijava/scijava-jupyter-kernel]() - aims to be a polyglot Jupyter kernel. It uses the [Scijava scripting languages](https://imagej.net/Scripting#Supported_languages) to execute the code in Jupyter client and it's possible to use different languages in the same notebook (covers a number of JVM languages).
+
+- [https://github.com/ligee/kotlin-jupyter]() - Basic kotlin (1.2.21) REPL kernel for jupyter
+![Kotlin for Jupyter](https://github.com/ligee/kotlin-jupyter/raw/master/samples/ScreenShotInJupyter.png)
+
+- [Wikipedia of Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) - a list of available kernels, add yours to the list in case it isn't mentioned.
+
+### Write kernels
+
+Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel]() in order to embark into the world of kernel creation, maybe the [example folder](https://github.com/SpencerPark/jupyter-jvm-basekernel/tree/master/example) is a good one to look at as well.
 
 ## Get started: Automated (via scripts)
 
