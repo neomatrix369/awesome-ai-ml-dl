@@ -18,6 +18,8 @@ jupyter-java                              latest              17c1b2f81304      
 ```
 The whole build process is under 10 minutes depending on the network bandwidth and available machine resources.
 
+`Python 2.7` is going to be installed by [install-java-kernel.sh](), but you can change the [JuPyteR-Dockerfile]() docker script to use another version.
+
 ### Run the docker container
 
 Once the image is built, a one-line command helps run it:
