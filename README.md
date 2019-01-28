@@ -136,7 +136,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - Apache Zeppelin notes
     - See [example](examples/apache-zeppelin/README.md) in the `examples/apache-zeppelin` folder
   - JuPyteR notebooks
-    - See [example](examples/JuPyTeR/README.md) in the `examples/JuPyteR` folder
+    - See [example](examples/JuPyteR/README.md) in the `examples/JuPyteR` folder
 
 ### Misc
 

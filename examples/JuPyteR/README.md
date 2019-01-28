@@ -48,13 +48,7 @@ Available kernels:
 
 ### Docker container
 
-#### Scripts provided:
-
-- Jupyter-Dockerfile: a dockerfile script to help build a docker image of Jupyter with the IJava kernel running on Java 9 (with Graal enabled)
-- buildJupyterDockerImage.sh: build the Jupyter-Dockerfile dockerfile
-- runJupyterDockerContainer.sh: run the Jupyter docker image, exposing port 8080 to point your browser to (http://localhost:8080)
-
-Note: the Graal compiler can be enabled starting Java 9 but this currently only works for Linux when you use pre-existing releases of Java 9 or Java 10. 
+See [Docker container instructions](Docker-container-instructions.md)
 
 ## Get started: Manual steps (via CLI)
 
