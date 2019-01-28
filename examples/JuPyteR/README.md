@@ -18,7 +18,9 @@ Graal compiler can be enabled for JDK 9 and higher, for platforms where it is su
 |Java 11 or higher| Linux, MacOS, Windows |
 
 ### Additional source of kernels
-[beakerx](http://beakerx.com/) Is another source where a wider range of kernels can be found.
+[beakerx](http://beakerx.com/) - Is another source where a wider range of kernels can be found.
+
+![beakerx](beakerx-homepage-screenshot.png)
 
 ## Get started: Automated (via scripts)
 
