@@ -132,6 +132,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
   - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
 
+#### Data
+  - [Data preparation, cleaning, validation, model creation, training resources](data/prep-cleaning-validation-resources.md)
+
 ### Notebooks
   - Apache Zeppelin notes
     - See [example](examples/apache-zeppelin/README.md) in the `examples/apache-zeppelin` folder
