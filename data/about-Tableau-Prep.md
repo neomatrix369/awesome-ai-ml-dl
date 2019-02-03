@@ -18,15 +18,19 @@
     - Was able to transform/extract from the date column into weekday or weekend labels with some effort - had to create a calculated field and then apply an if condition to it
     - Was able to transform/extract from the time column into working hour/non-working hour labels - had to create a calculated field and then apply an if condition to it
 
-[ ] [AI/ML/DL Library / Package / Framework: applicable]
-[ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-[x] **[Data querying: manual / tools available]** 
-[ ] [Data analytics: manual / tools available] 
-[x] **[Data visualisation: manual / tools available]**
-[x] **[Data cleaning: manual]** 
-[x] **[Data validation: sem-automatic/manual]** 
-[x] **[Feature extraction: manual/tools available]** 
-[ ] [Model creation: does not] 
-[ ] [Execute experiments: available]
-[ ] [Hyper parameter tuning: does not] 
-[ ] [Model saving: does not]
+---
+
+- [ ] [AI/ML/DL Library / Package / Framework: applicable]
+- [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
+- [x] **[Data querying: manual / tools available]** 
+- [ ] [Data analytics: manual / tools available] 
+- [x] **[Data visualisation: manual / tools available]**
+- [x] **[Data cleaning: manual]** 
+- [x] **[Data validation: sem-automatic/manual]** 
+- [x] **[Feature extraction: manual/tools available]** 
+- [ ] [Model creation: does not] 
+- [ ] [Execute experiments: available]
+- [ ] [Hyper parameter tuning: does not] 
+- [ ] [Model saving: does not]
+
+Back to [Data preparation, cleaning, validation, model creation, training resources](prep-cleaning-validation-model-creation-training-resources.md).

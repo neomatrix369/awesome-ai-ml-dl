@@ -9,15 +9,19 @@ Additional references
 - https://vast.ai/faq/#Introduction
 - https://vast.ai/console/create/
 
-[ ] [AI/ML/DL Library / Package / Framework: applicable]
-[x] **[Inexpensive crowd-sourced infrastructure sharing: applicable]**
-[ ] [Data querying: manual / tools available] 
-[ ] [Data analytics: manual / tools available] 
-[ ] [Data visualisation: manual / tools available] 
-[ ] [Data cleaning: manual / no tools available] 
-[ ] [Data validation: manual / no tools available] 
-[ ] [Feature extraction: manual / no tools available] 
-[ ] [Model creation: available] 
-[ ] [Execute experiments: available]
-[ ] [Hyper parameter tuning: available] 
-[ ] [Model saving: available]
+---
+
+- [ ] [AI/ML/DL Library / Package / Framework: applicable]
+- [x] **[Inexpensive crowd-sourced infrastructure sharing: applicable]**
+- [ ] [Data querying: manual / tools available] 
+- [ ] [Data analytics: manual / tools available] 
+- [ ] [Data visualisation: manual / tools available] 
+- [ ] [Data cleaning: manual / no tools available] 
+- [ ] [Data validation: manual / no tools available] 
+- [ ] [Feature extraction: manual / no tools available] 
+- [ ] [Model creation: available] 
+- [ ] [Execute experiments: available]
+- [ ] [Hyper parameter tuning: available] 
+- [ ] [Model saving: available]
+
+Back to [Data preparation, cleaning, validation, model creation, training resources](prep-cleaning-validation-model-creation-training-resources.md).

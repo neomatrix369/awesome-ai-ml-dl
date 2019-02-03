@@ -23,15 +23,17 @@
     - Wasn’t able to transform/extract from the date column into weekday or weekend labels
     - Wasn’t able to transform/extract from the time column into working hour/non-working hour labels
 
-[ ] [AI/ML/DL Library / Package / Framework: applicable]
-[ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-[x] **[Data querying: manual / tools available]** 
-[ ] [Data analytics: manual / tools available] 
-[x] **[Data visualisation: manual / tools available]**
-[x] **[Data cleaning: manual]** 
-[x] **[Data validation: semi-automatic/manual]** 
-[x] **[Feature extraction: manual/tools available]** 
-[ ] [Model creation: available] 
-[ ] [Execute experiments: available]
-[ ] [Hyper parameter tuning: available] 
-[ ] [Model saving: available]
+---
+
+- [ ] [AI/ML/DL Library / Package / Framework: applicable]
+- [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
+- [x] **[Data querying: manual / tools available]** 
+- [ ] [Data analytics: manual / tools available] 
+- [x] **[Data visualisation: manual / tools available]**
+- [x] **[Data cleaning: manual]** 
+- [x] **[Data validation: semi-automatic/manual]** 
+- [x] **[Feature extraction: manual/tools available]** 
+- [ ] [Model creation: available] 
+- [ ] [Execute experiments: available]
+- [ ] [Hyper parameter tuning: available] 
+- [ ] [Model saving: available]

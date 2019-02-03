@@ -12,19 +12,22 @@
   - has a lot of bells and wells in terms of parameters for tuning
   - support GPU and TPU (among very few)
 - Cons
-  - UI/UX is not user-friendly, takes up a lot of time and can’t seem to make out what the current progress is
-  - slow in Community mode
+  - UI/UX is less user-friendly, a bit slow in responding back to users and can’t seem to make out what the progress of tasks been submitted
+  - slow in Community mode might have better performance on the paid version
 
-[ ] [AI/ML/DL Library / Package / Framework: applicable]
-[ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-[ ] [Data querying: manual / tools available] 
-[ ] [Data analytics: manual / tools available] 
-[ ] [Data visualisation: manual / tools available] 
-[ ] [Data cleaning: manual / no tools available]  
-[ ] [Data validation: manual / no tools available] 
-[ ] [Feature extraction: manual / no tools available] 
-[x] **[Model creation: available]** 
-[x] **[Execute experiments: available]**
-[x] **[Hyper parameter tuning: available]** 
-[x] **[Model saving: available]**
+---
 
+- [ ] [AI/ML/DL Library / Package / Framework: applicable]
+- [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
+- [ ] [Data querying: manual / tools available] 
+- [ ] [Data analytics: manual / tools available] 
+- [ ] [Data visualisation: manual / tools available] 
+- [ ] [Data cleaning: manual / no tools available]  
+- [ ] [Data validation: manual / no tools available] 
+- [ ] [Feature extraction: manual / no tools available] 
+- [x] **[Model creation: available]** 
+- [x] **[Execute experiments: available]**
+- [x] **[Hyper parameter tuning: available]** 
+- [x] **[Model saving: available]**
+
+Back to [Data preparation, cleaning, validation, model creation, training resources](prep-cleaning-validation-model-creation-training-resources.md).

@@ -26,15 +26,19 @@
 - Videos
   - Tutorial: https://www.wandb.com/classes/intro/overview
 
-[ ] [AI/ML/DL Library / Package / Framework: applicable]
-[ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-[ ] [Data cleaning: manual / no tools available] 
-[ ] [Data querying: manual / tools available] 
-[ ] [Data analytics: manual / tools available]
-[ ] [Data visualisation: manual / tools available] 
-[ ] [Data validation: manual / no tools available] 
-[ ] [Feature extraction: manual / no tools available] 
-[x] **[Model creation: available]**
-[x] **[Execute experiments: available]**
-[x] **[Hyper parameter tuning: available]**
-[x] **[Model saving: available]**
+---
+
+- [ ] [AI/ML/DL Library / Package / Framework: applicable]
+- [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
+- [ ] [Data cleaning: manual / no tools available] 
+- [ ] [Data querying: manual / tools available] 
+- [ ] [Data analytics: manual / tools available]
+- [ ] [Data visualisation: manual / tools available] 
+- [ ] [Data validation: manual / no tools available] 
+- [ ] [Feature extraction: manual / no tools available] 
+- [x] **[Model creation: available]**
+- [x] **[Execute experiments: available]**
+- [x] **[Hyper parameter tuning: available]**
+- [x] **[Model saving: available]**
+
+Back to [Data preparation, cleaning, validation, model creation, training resources](prep-cleaning-validation-model-creation-training-resources.md).

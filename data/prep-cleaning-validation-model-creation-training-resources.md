@@ -1,4 +1,4 @@
-# Data preparation / cleaning / validation resources
+# Data preparation, cleaning, validation, model creation, training resources
 
 ## H2O Driverless AI
 
