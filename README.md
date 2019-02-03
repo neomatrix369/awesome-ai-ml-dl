@@ -22,6 +22,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
  	- [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)
   - Julia, Python & R
     - [An example on how-to install a Java kernel for JuPyteR notebooks (Graal enabled, where platform supports)](examples/JuPyteR/README.md)
+  - [Data](#data)
   - Notebooks
     - [Apache Zeppelin notes](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for Apache Zeppelin notes in this section
     - [JuPyteR notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for JuPyteR notebooks in this section
@@ -132,8 +133,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
   - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
 
-#### Data
-  - [Data preparation, cleaning, validation, model creation, training resources](data/prep-cleaning-validation-resources.md)
+### Data
+  - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
 
 ### Notebooks
   - Apache Zeppelin notes

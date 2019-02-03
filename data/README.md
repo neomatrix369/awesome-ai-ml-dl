@@ -36,9 +36,9 @@ See [About fast.ai](about-fast.ai.md)
 
 See [About vast.ai](about-vast.ai.md)
 
-## Gooogle Data Studio
+## Google Data Studio
 
-See [About Gooogle Data Studio](about-Gooogle-Data-Studio.md)
+See [About Google Data Studio](about-Google-Data-Studio.md)
 
 ### References
 
