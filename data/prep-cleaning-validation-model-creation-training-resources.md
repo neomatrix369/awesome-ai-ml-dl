@@ -39,3 +39,9 @@ See [About vast.ai](about-vast.ai.md)
 ## Gooogle Data Studio
 
 See [About Gooogle Data Studio](about-Gooogle-Data-Studio.md)
+
+### References
+
+- [How to build a data science project from scratch](https://www.kdnuggets.com/2018/12/build-data-science-project-from-scratch.html)
+- [Common mistakes when carrying out machine learning and data science](https://www.kdnuggets.com/2018/12/common-mistakes-data-science.html)
+- [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae)
