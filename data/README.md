@@ -32,10 +32,6 @@ See [About ModeAnalytics](about-ModeAnalytics.md)
 
 See [About fast.ai](about-fast.ai.md)
 
-## vast.ai
-
-See [About vast.ai](about-vast.ai.md)
-
 ## Google Data Studio
 
 See [About Google Data Studio](about-Google-Data-Studio.md)
