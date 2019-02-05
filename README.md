@@ -19,14 +19,15 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Recommendation systems / Collaborative Filtering (CF)](#recommendation-systems--collaborative-filtering-cf)
  	- [Tools & Libraries, Cheatsheets, Resources](#tools--libraries-cheatsheets-resources)
  	- [How-to / Deploy / DevOps / Serverless](#how-to--deploy--devops--serverless)
- 	- [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)
-  - Julia, Python & R
+ 	- [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)  
+  - [Julia, Python & R](#julia-python--r)
     - [An example on how-to install a Java kernel for JuPyteR notebooks (Graal enabled, where platform supports)](examples/JuPyteR/README.md)
+    - [Natural Language Processing (aka NLP)](#natural-language-processing-aka-nlp-1)
   - [Data](#data)
-  - Notebooks
+  - [Notebooks](#notebooks)
     - [Apache Zeppelin notes](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for Apache Zeppelin notes in this section
     - [JuPyteR notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for JuPyteR notebooks in this section
-  - Misc
+  - [Misc](#misc-1)
 - [Contributing](#contributing)
 
 ### General
@@ -129,9 +130,14 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Introduction to interactive Data Lake Queries](https://blogs.oracle.com/bigdata/interactive-data-lake-queries-at-scale) ([Tweet](https://twitter.com/java/status/989047609259151360))
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
 
-### Julia, Python & R  
-  - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
-  - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
+### Julia, Python & R
+  
+  #### General
+   - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
+   - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
+
+  #### Natural Language Processing (aka NLP)
+   - [Keras (bag of words) post - expanded version](keras-bag-of-words-expanded-version/README.md)
 
 ### Data
   - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
