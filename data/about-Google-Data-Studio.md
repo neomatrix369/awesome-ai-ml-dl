@@ -1,4 +1,4 @@
-## Gooogle Data Studio
+## Google Data Studio
 
 - Signup https://datastudio.google.com/
 - Dashboarding & Data Visualization Tools - Google Data Studio - https://marketingplatform.google.com/about/data-studio/

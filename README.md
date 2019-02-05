@@ -22,6 +22,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
  	- [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)
   - Julia, Python & R
     - [An example on how-to install a Java kernel for JuPyteR notebooks (Graal enabled, where platform supports)](examples/JuPyteR/README.md)
+  - [Data](#data)
   - Notebooks
     - [Apache Zeppelin notes](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for Apache Zeppelin notes in this section
     - [JuPyteR notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl#notebooks) - look for JuPyteR notebooks in this section
@@ -122,7 +123,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Adapt DevOps to cognitive and artificial intelligence systems](https://developer.ibm.com/articles/cc-devops-artificial-intelligence-cognitive/) ([Tweet](https://twitter.com/java/status/932593623262269440))
   - [Explore the use of modern Machine Learning and AI techniques in the context of serverless computing](https://medium.com/fnproject/serverless-and-recurrent-neural-networks-with-tensorflow-and-graphpipe-fc73785f1a16) ([Tweet](https://twitter.com/java/status/1043179793431384064))
   - [Disruptive Effects of Cloud Native Machine Learning Systems and Tools](https://www.datascience.com/blog/cloud-native-machine-learning-tools) ([Tweet](https://twitter.com/java/status/1077934809559707650))
-
+  - [vast.ai](infra-cloud-devops/about-vast.ai.md) -  GPU Sharing Economy. One simple interface to find the best cloud GPU rentals. Reduce cloud compute costs by 3X to 5X. 
 
 #### Misc
   - [Introduction to interactive Data Lake Queries](https://blogs.oracle.com/bigdata/interactive-data-lake-queries-at-scale) ([Tweet](https://twitter.com/java/status/989047609259151360))
@@ -133,7 +134,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
 
 ### Data
-  - [Data preparation, cleaning, validation, model creation, training resources](data/prep-cleaning-validation-model-creation-training-resources.md)
+  - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
 
 ### Notebooks
   - Apache Zeppelin notes

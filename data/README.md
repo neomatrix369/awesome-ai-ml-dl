@@ -32,13 +32,9 @@ See [About ModeAnalytics](about-ModeAnalytics.md)
 
 See [About fast.ai](about-fast.ai.md)
 
-## vast.ai
+## Google Data Studio
 
-See [About vast.ai](about-vast.ai.md)
-
-## Gooogle Data Studio
-
-See [About Gooogle Data Studio](about-Gooogle-Data-Studio.md)
+See [About Google Data Studio](about-Google-Data-Studio.md)
 
 ### References
 
