@@ -99,3 +99,7 @@ Increasing the size of the training dataset
 #### Dropout
 
 Adding dropout to one of the layers to prevent the model from overfitting - [https://keras.io/layers/core/]()
+
+## Resources
+
+Original and improvised versions of the notebook, python scripts and data can be found in the folder [data-scripts-notebooks](./data-scripts-notebooks). Also, includes a version with the [Weights and Biases](http://wandb.com) package implemented.
