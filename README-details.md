@@ -50,7 +50,7 @@
   - [GraalVM + Machine Learning](https://www.youtube.com/watch?v=6Q2TP-QO4SU) ([Tweet](https://twitter.com/DevoxxUA/status/1074680378357616640))
   - [Deploying Bespoke AI using fnproj - KADlytics by Miminal](https://blogs.oracle.com/startup/deploying-bespoke-ai-using-fn-project-kadlytics-by-miminal) ([Tweet]( https://twitter.com/java/status/1034474482751221761))
 
-#### Natural Language Processing (aka NLP)
+#### Natural Language Processing (NLP)
 
   - [An introduction to natural language processing and a demo using opensource libraries](https://www.ibm.com/developerworks/library/cc-cognitive-natural-language-processing/index.html?social_post=963789367&fst=Discover) ([Tweet](https://twitter.com/java/status/883174486459248646))
   - [Implementing NLP Attention Mechanisms with DeepLearning4J](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/255622367/) ([Tweet](https://twitter.com/java/status/1058405126988161024))
@@ -105,8 +105,12 @@
   #### General
    - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
    - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
+   - [An example on how-to install a Java kernel for JuPyteR notebooks (Graal enabled, where platform supports)](examples/JuPyteR/README.md)
 
-  #### Natural Language Processing (aka NLP)
+  #### Generative Adversarial Network (GAN)
+   - [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
+
+  #### Natural Language Processing (NLP)
    - [Keras (bag of words) post - expanded version](keras-bag-of-words-expanded-version/README.md)
 
 ### Data
