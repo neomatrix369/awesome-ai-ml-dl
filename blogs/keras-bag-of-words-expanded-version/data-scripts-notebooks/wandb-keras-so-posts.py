@@ -17,7 +17,8 @@ import os
 
 import wandb
 from wandb.keras import WandbCallback
-wandb.init(project="test-wandb")
+# See https://www.wandb.com/classes/intro/getting-started on how you can sign up, and get started, create a project, etc...
+wandb.init(project="name of your project created on wand.com") 
 
 config = wandb.config
 config.epochs = 20
