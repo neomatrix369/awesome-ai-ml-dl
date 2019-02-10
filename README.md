@@ -24,6 +24,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     + [General](README-details.md#general-1)
     + [Generative Adversarial Network (GAN)](README-details.md#generative-adversarial-network-gan)
     + [Natural Language Processing (NLP)](README-details.md#notebooks)
+  - [JavaScript](README-details.md#javascript)
   - [Data](README-details.md#data)
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md)
   - [Notebooks](README-details.md#notebooks)
