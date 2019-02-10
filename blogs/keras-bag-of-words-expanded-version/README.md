@@ -103,3 +103,13 @@ Adding dropout to one of the layers to prevent the model from overfitting - [htt
 ## Resources
 
 Original and improvised versions of the notebook, python scripts and data can be found in the folder [data-scripts-notebooks](./data-scripts-notebooks). Also, includes a version with the [Weights and Biases](http://wandb.com) package implemented.
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](../../README.md)

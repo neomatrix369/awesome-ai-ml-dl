@@ -11,3 +11,13 @@ Scripts provided:
 See blog post on [Apache Zeppelin: stairway to notes* haven!](https://www.javaadvent.com/2018/12/apache-zeppelin-stairway-to-notes-haven.html) on further illustration on how to use the scripts in this folder.
 
 Enjoy writing prototypes, experiments or do some real work with it, in Java, Scala or any other intepreter of your choice.
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](../README.md)

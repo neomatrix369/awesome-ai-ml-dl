@@ -190,3 +190,13 @@ Inspired by these tweets:
 - [https://twitter.com/java/status/1082365504461824000]()
 
 Thank you [@nicolas_frankel](twitter.com/@nicolas_frankel) and the good folks behind [beakerx.com]().
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](../README.md)
