@@ -103,6 +103,7 @@
    - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
    - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
    - [An example on how-to install a Java kernel for JuPyteR notebooks (Graal enabled, where platform supports)](examples/JuPyteR/README.md)
+   - [NeptuneML GitHub repo](https://github.com/neptune-ml) | [NeptuneML - Miverna training material, hint: Kaggle competition booster](https://github.com/neptune-ml/minerva-training-materials)
 
   #### Generative Adversarial Network (GAN)
    - [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
