@@ -20,4 +20,4 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Back to [main page (table of contents)](../README.md)
+Back to [main page (table of contents)](../../README.md)
