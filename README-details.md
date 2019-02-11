@@ -127,6 +127,8 @@
     - See [example](examples/JuPyteR/README.md) in the `examples/JuPyteR` folder
 
 ### Misc
+  + [awesome-machine-learning github repo](https://github.com/josephmisiti/awesome-machine-learning)
+  + [awesome-deep-learning github repo](https://github.com/josephmisiti/awesome-deep-learning)
 
 # Contributing
 
