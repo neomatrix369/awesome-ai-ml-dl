@@ -120,6 +120,10 @@
 ### Data
   - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
 
+### Graphs
+  - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
+  - [Graph databases](./data/README.md#databases)
+
 ### Notebooks
   - Apache Zeppelin notes
     - See [example](examples/apache-zeppelin/README.md) in the `examples/apache-zeppelin` folder

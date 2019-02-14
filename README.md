@@ -26,6 +26,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     + [Natural Language Processing (NLP)](README-details.md#notebooks)
   - [JavaScript](README-details.md#javascript)
   - [Data](README-details.md#data)
+  - [Graphs](README-details.md#graphs)
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md)
   - [Notebooks](README-details.md#notebooks)
     - [Apache Zeppelin notes](README-details.md#notebooks) - look for Apache Zeppelin notes in this section

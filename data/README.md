@@ -1,46 +1,54 @@
 # Data preparation, cleaning, validation, model creation, training resources
 
-## H2O Driverless AI
+## Programs and Tools
+
+### H2O Driverless AI
 
 See [About H2O Driverless AI](about-H2O-Driverless-AI.md)
 
-## Microstrategy
+### Microstrategy
 
 See [About Microstrategy](about-Microstrategy.md)
 
-## Tableau Prep
+### Tableau Prep
 
 See [Tableau Prep](about-Tableau-Prep.md)
 
-## Dataiku
+### Dataiku
 
 See [About Dataiku](about-Dataiku.md)
 
-## Pipeline.ai
+### Pipeline.ai
 
 See [About Pipeline.ai](about-Pipeline.ai.md)
 
-## Weights & Biases
+### Weights & Biases
 
 See [About Weights & Biases](about-Weights-and-Biases.md)
 
-## ModeAnalytics
+### ModeAnalytics
 
 See [About ModeAnalytics](about-ModeAnalytics.md)
 
-## fast.ai
+### fast.ai
 
 See [About fast.ai](about-fast.ai.md)
 
-## Google Data Studio
+### Google Data Studio
 
 See [About Google Data Studio](about-Google-Data-Studio.md)
 
-### References
+## Databases
+- [Grakn and Graql](http://grakn.ai/)
+- [Redis Graph](https://oss.redislabs.com/redisgraph/)
+- [Neo4j](https://neo4j.com/)
+
+#### References
 
 - [How to build a data science project from scratch](https://www.kdnuggets.com/2018/12/build-data-science-project-from-scratch.html)
 - [Common mistakes when carrying out machine learning and data science](https://www.kdnuggets.com/2018/12/common-mistakes-data-science.html)
 - [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae)
+- [A Rubric for ML Production Readiness - Breck et al. 2017 by Jiameng Gao](https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p) | [Original Paper by Google](https://ai.google/research/pubs/pub46555)
 
 # Contributing
 
