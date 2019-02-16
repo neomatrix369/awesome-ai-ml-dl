@@ -29,8 +29,6 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Graphs](README-details.md#graphs)
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md)
   - [Notebooks](README-details.md#notebooks)
-    - [Apache Zeppelin notes](README-details.md#notebooks) - look for Apache Zeppelin notes in this section
-    - [JuPyteR notebooks](README-details.md#notebooks) - look for JuPyteR notebooks in this section
   - [Misc](README-details.md#misc-1)
 - [Contributing](#contributing)
 
