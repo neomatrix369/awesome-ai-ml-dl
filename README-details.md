@@ -124,6 +124,7 @@
    - [Keras (bag of words) post - expanded version](keras-bag-of-words-expanded-version/README.md)
    - [Awesome NLP](https://github.com/keon/awesome-nlp)
    - [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
+   - [BloomburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai)
 
   #### Machine Learning
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
