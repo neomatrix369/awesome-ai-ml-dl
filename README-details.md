@@ -118,17 +118,19 @@
    - [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
 
   #### Machine Learning
-  + [awesome-machine-learning github repo](https://github.com/josephmisiti/awesome-machine-learning)
-  + [Top ML repos](https://github.com/yazdotai/top-machine-learning)
-  + [ML on Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)
-  + [Hands on ML](https://github.com/ageron/handson-ml)
-  + [The "Python Machine Learning (1st edition)" book code repository and info resource](https://github.com/rasbt/python-machine-learning-book)
-  + [ML for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
-  + [PredictionIO, a machine learning server for developers and ML engineers. Built on Apache Spark, HBase and Spray](https://github.com/apache/predictionio)
-  + [Dive into Machine Learning with Python Jupyter notebook and scikit-learn!](https://github.com/hangtwenty/dive-into-machine-learning)
-  + [Machine learning and deep learning tutorials, articles and other resources](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
-  + [Machine Learning From Scratch | NumPy | Aims to cover everything from data mining to deep learning. ](https://github.com/eriklindernoren/ML-From-Scratch)
-  + [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
+  - [awesome-machine-learning github repo](https://github.com/josephmisiti/awesome-machine-learning)
+  - [Top ML repos](https://github.com/yazdotai/top-machine-learning)
+  - [ML on Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)
+  - [Hands on ML](https://github.com/ageron/handson-ml)
+  - [The "Python Machine Learning (1st edition)" book code repository and info resource](https://github.com/rasbt/python-machine-learning-book)
+  - [ML for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+  - [PredictionIO, a machine learning server for developers and ML engineers. Built on Apache Spark, HBase and Spray](https://github.com/apache/predictionio)
+  - [Dive into Machine Learning with Python Jupyter notebook and scikit-learn!](https://github.com/hangtwenty/dive-into-machine-learning)
+  - [Machine learning and deep learning tutorials, articles and other resources](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
+  - [Machine Learning From Scratch | NumPy | Aims to cover everything from data mining to deep learning. ](https://github.com/eriklindernoren/ML-From-Scratch)
+  - [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
+  - [Machine Learning for Forecasting Chaos by Dr. Edward Ott](https://www.youtube.com/watch?v=ZFYdZWadyD4&feature=youtu.be)
+
 
   #### Deep Learning
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
