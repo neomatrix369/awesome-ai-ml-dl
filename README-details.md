@@ -141,7 +141,10 @@
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
   - [Gym: a toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
   - [Dopamine is a research framework for fast prototyping of reinforcement learning algorithms](https://github.com/google/dopamine)
-  - Introduction to Reinforcement learning (using AlphaZero) by [Piotr Januszewski](https://piojanu.github.io/) - [Slides](https://github.com/piojanu/Introduction-to-RL/blob/master/Introduction%20to%20RL.pdf) | [Introduction-to-RL Hands-on code](https://github.com/piojanu/Introduction-to-RL) | [Other slides](https://biostat.wisc.edu/~craven/cs760/lectures/AlphaZero.pdf)
+  - Introduction to Reinforcement learning (using AlphaZero) by [Piotr Januszewski](https://piojanu.github.io/) - [Slides](https://github.com/piojanu/Introduction-to-RL/blob/master/Introduction%20to%20RL.pdf) | [Hands-on code](https://github.com/piojanu/Introduction-to-RL) 
+  - [Reinforcement Learning with DNNs](https://biostat.wisc.edu/~craven/cs760/lectures/AlphaZero.pdf)
+  - [Facebook Open Sources ELF OpenGo: near AlphaZero in the Open](https://research.fb.com/facebook-open-sources-elf-opengo/)
+  - [AlphaZero like repositories on GitHub](https://github.com/topics/alphazero)
 
 ### JavaScript
    - [What effect will AI have on programming languages?](https://medium.com/skills-matter/what-effect-will-ai-have-on-programming-languages-102bbb5f3024)
