@@ -111,6 +111,9 @@
   #### Natural Language Processing (NLP)
    - [Keras (bag of words) post - expanded version](keras-bag-of-words-expanded-version/README.md)
 
+  #### Deep Learning
+   - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
+
 ### JavaScript
    - [What effect will AI have on programming languages?](https://medium.com/skills-matter/what-effect-will-ai-have-on-programming-languages-102bbb5f3024)
    - [Tensorflow.js](https://js.tensorflow.org/) 
