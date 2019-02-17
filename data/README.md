@@ -42,6 +42,8 @@ See [About Google Data Studio](about-Google-Data-Studio.md)
 - [Grakn and Graql](http://grakn.ai/)
 - [Redis Graph](https://oss.redislabs.com/redisgraph/)
 - [Neo4j](https://neo4j.com/)
+- [Gun: A realtime, decentralized, offline-first, mutable graph database engine](https://github.com/amark/gun)
+- [Cayley: An open-source graph database](https://github.com/cayleygraph/cayley)
 
 #### References
 

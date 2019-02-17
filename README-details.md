@@ -104,24 +104,57 @@
    - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
    - [An example on how-to install a Java kernel for JuPyteR notebooks (Graal enabled, where platform supports)](examples/JuPyteR/README.md)
    - [NeptuneML GitHub repo](https://github.com/neptune-ml) | [NeptuneML - Miverna training material, hint: Kaggle competition booster](https://github.com/neptune-ml/minerva-training-materials)
+   - [Large-scale linear classification, regression and ranking in Python](https://github.com/scikit-learn-contrib/lightning)
 
   #### Generative Adversarial Network (GAN)
    - [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
+   - [A tensorflow implementation of "Deep Convolutional Generative Adversarial Networks"](https://github.com/carpedm20/DCGAN-tensorflow)
+   - [Collection of generative models, e.g. GAN, VAE in Pytorch and Tensorflow](https://github.com/wiseodd/generative-models)
+   - [A probabilistic programming language in TensorFlow. Deep generative models, variational inference](https://github.com/blei-lab/edward)
 
   #### Natural Language Processing (NLP)
    - [Keras (bag of words) post - expanded version](keras-bag-of-words-expanded-version/README.md)
+   - [Awesome NLP](https://github.com/keon/awesome-nlp)
+   - [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
+
+  #### Machine Learning
+  + [awesome-machine-learning github repo](https://github.com/josephmisiti/awesome-machine-learning)
+  + [Top ML repos](https://github.com/yazdotai/top-machine-learning)
+  + [ML on Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)
+  + [Hands on ML](https://github.com/ageron/handson-ml)
+  + [The "Python Machine Learning (1st edition)" book code repository and info resource](https://github.com/rasbt/python-machine-learning-book)
+  + [ML for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+  + [PredictionIO, a machine learning server for developers and ML engineers. Built on Apache Spark, HBase and Spray](https://github.com/apache/predictionio)
+  + [Dive into Machine Learning with Python Jupyter notebook and scikit-learn!](https://github.com/hangtwenty/dive-into-machine-learning)
+  + [Machine learning and deep learning tutorials, articles and other resources](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
+  + [Machine Learning From Scratch | NumPy | Aims to cover everything from data mining to deep learning. ](https://github.com/eriklindernoren/ML-From-Scratch)
+  + [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
 
   #### Deep Learning
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
+   - [awesome-deep-learning github repo](https://github.com/josephmisiti/awesome-deep-learning)
+   - [Deep learning library featuring a higher-level API for TensorFlow](https://github.com/tflearn/tflearn)
+   - [A series of Docker images (and their generator) that allows you to quickly set up your deep learning research environment](https://github.com/ufoym/deepo)
+   - [Code examples for the Stanford's course: TensorFlow for Deep Learning Research](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
+  
+  #### Reinforcement Learning
+  - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
+  - [Gym: a toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
+  - [Dopamine is a research framework for fast prototyping of reinforcement learning algorithms](https://github.com/google/dopamine)
 
 ### JavaScript
    - [What effect will AI have on programming languages?](https://medium.com/skills-matter/what-effect-will-ai-have-on-programming-languages-102bbb5f3024)
    - [Tensorflow.js](https://js.tensorflow.org/) 
    - Tensorflow Playground [1](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.87744&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) | [2](http://playground.tensorflow.org/#activation=sigmoid&regularization=L2&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=5,3&seed=0.84062&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=false&discretize_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&playButton_hide=false) | [3](http://playground.tensorflow.org/#activation=linear&regularization=L2&batchSize=10&dataset=gauss&regDataset=reg-plane&learningRate=0.0001&regularizationRate=0&noise=0&networkShape=&seed=0.27124&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=true&discretize_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&playButton_hide=false) | [4](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.29208&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
    - [Bring deep learning into the browser &mdash; In Browser AI](https://inbrowser.ai/)
+   - [Run Keras models in the browser, with GPU support using WebGL](https://github.com/transcranial/keras-js)
 
 ### Data
   - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
+  - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines](https://github.com/donnemartin/data-science-ipython-notebooks)
+  - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line)
+  - [Awesome Datascience](https://github.com/bulutyazilim/awesome-datascience)
+  - [Awesome Learn Datascience](https://github.com/siboehm/awesome-learn-datascience)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
@@ -133,10 +166,14 @@
   - JuPyteR notebooks
     - See [example](examples/JuPyteR/README.md) in the `examples/JuPyteR` folder
 
+### Articles, papers, code, data
+  - [Papers, code, data by Yaz](https://github.com/yazdotai/paper-code-data)
+  - [Awesome AI Papers by Yaz (empty atm)](https://github.com/yazdotai/awesome-ai-papers)
+  - [Awesome DL papers](https://github.com/terryum/awesome-deep-learning-papers)
+  - [List of articles related to deep learning applied to music](https://github.com/ybayle/awesome-deep-learning-music)
+
 ### Misc
-  + [awesome-machine-learning github repo](https://github.com/josephmisiti/awesome-machine-learning)
-  + [awesome-deep-learning github repo](https://github.com/josephmisiti/awesome-deep-learning)
-  + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html)
+  + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai)
   + [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
   + [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
 
