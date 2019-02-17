@@ -97,6 +97,14 @@
   - [Introduction to interactive Data Lake Queries](https://blogs.oracle.com/bigdata/interactive-data-lake-queries-at-scale) ([Tweet](https://twitter.com/java/status/989047609259151360))
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
 
+**See [this link](https://github.com/josephmisiti/awesome-machine-learning#java) for more Java related ML links**
+
+### Clojure
+  - [Clojure related ML links](https://github.com/josephmisiti/awesome-machine-learning#clojure)
+
+### Scala
+  - [Scala related ML links](https://github.com/josephmisiti/awesome-machine-learning#scala)
+
 ### Julia, Python & R
   
   #### General
@@ -131,7 +139,6 @@
   - [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
   - [Machine Learning for Forecasting Chaos by Dr. Edward Ott](https://www.youtube.com/watch?v=ZFYdZWadyD4&feature=youtu.be)
 
-
   #### Deep Learning
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
    - [A curated list of awesome Deep Learning tutorials, projects and communities](https://github.com/josephmisiti/awesome-deep-learning)
@@ -155,6 +162,7 @@
    - Tensorflow Playground [1](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.87744&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) | [2](http://playground.tensorflow.org/#activation=sigmoid&regularization=L2&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=5,3&seed=0.84062&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=false&discretize_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&playButton_hide=false) | [3](http://playground.tensorflow.org/#activation=linear&regularization=L2&batchSize=10&dataset=gauss&regDataset=reg-plane&learningRate=0.0001&regularizationRate=0&noise=0&networkShape=&seed=0.27124&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=true&discretize_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&playButton_hide=false) | [4](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.29208&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
    - [Bring deep learning into the browser &mdash; In Browser AI](https://inbrowser.ai/)
    - [Run Keras models in the browser, with GPU support using WebGL](https://github.com/transcranial/keras-js)
+   - See [this link](https://github.com/josephmisiti/awesome-machine-learning#javascript) for more JavaScript related ML links
 
 ### Data
   - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
