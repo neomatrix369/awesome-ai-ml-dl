@@ -118,7 +118,7 @@
    - [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
 
   #### Machine Learning
-  - [awesome-machine-learning github repo](https://github.com/josephmisiti/awesome-machine-learning)
+  - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
   - [Top ML repos](https://github.com/yazdotai/top-machine-learning)
   - [ML on Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)
   - [Hands on ML](https://github.com/ageron/handson-ml)
