@@ -149,8 +149,8 @@
   #### Reinforcement Learning
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
   - [Gym: a toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
-  - [Dopamine is a research framework for fast prototyping of reinforcement learning algorithms](https://github.com/google/dopamine)
-  - Introduction to Reinforcement learning (using AlphaZero) by [Piotr Januszewski](https://piojanu.github.io/) - [Slides](https://github.com/piojanu/Introduction-to-RL/blob/master/Introduction%20to%20RL.pdf) | [Hands-on code](https://github.com/piojanu/Introduction-to-RL) 
+  - [Dopamine is a research framework for fast prototyping of Reinforcement Learning algorithms](https://github.com/google/dopamine)
+  - Introduction to Reinforcement learning (using AlphaZero) by [Piotr Januszewski](https://piojanu.github.io/) - [Slides](https://github.com/piojanu/Planning-in-Deep-Reinforcement-Learning) | [AlphaZero implementation](https://github.com/piojanu/AlphaZero) | [Framework for RL research (used in AZ implementation)](https://github.com/piojanu/humblerl) | [Experiment with AlphaGo online](https://alphagoteach.deepmind.com)
   - [Reinforcement Learning with DNNs](https://biostat.wisc.edu/~craven/cs760/lectures/AlphaZero.pdf)
   - [Facebook Open Sources ELF OpenGo: near AlphaZero in the Open](https://research.fb.com/facebook-open-sources-elf-opengo/)
   - [AlphaZero like repositories on GitHub](https://github.com/topics/alphazero)
