@@ -147,6 +147,7 @@
   - [Reinforcement Learning with DNNs](https://biostat.wisc.edu/~craven/cs760/lectures/AlphaZero.pdf)
   - [Facebook Open Sources ELF OpenGo: near AlphaZero in the Open](https://research.fb.com/facebook-open-sources-elf-opengo/)
   - [AlphaZero like repositories on GitHub](https://github.com/topics/alphazero)
+  - [A replica of the AlphaZero methodology for deep reinforcement learning in Python](https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning)
 
 ### JavaScript
    - [What effect will AI have on programming languages?](https://medium.com/skills-matter/what-effect-will-ai-have-on-programming-languages-102bbb5f3024)
