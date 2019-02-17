@@ -29,6 +29,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     + [Machine learning](README-details.md#machine-learning)
     + [Deep learning](README-details.md#deep-learning-1)
     + [Reinforcement learning](README-details.md#reinforcement-learning)
+    + Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
+    + Python: See [this link](https://github.com/josephmisiti/awesome-machine-learning#python) for more Python related ML links
+    + R: See [this link](https://github.com/josephmisiti/awesome-machine-learning#r) for more R related ML links
   - [JavaScript](README-details.md#javascript)
   - [Data](README-details.md#data)
   - [Graphs](README-details.md#graphs)
