@@ -134,7 +134,7 @@
 
   #### Deep Learning
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
-   - [awesome-deep-learning github repo](https://github.com/josephmisiti/awesome-deep-learning)
+   - [A curated list of awesome Deep Learning tutorials, projects and communities](https://github.com/josephmisiti/awesome-deep-learning)
    - [Deep learning library featuring a higher-level API for TensorFlow](https://github.com/tflearn/tflearn)
    - [A series of Docker images (and their generator) that allows you to quickly set up your deep learning research environment](https://github.com/ufoym/deepo)
    - [Code examples for the Stanford's course: TensorFlow for Deep Learning Research](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
