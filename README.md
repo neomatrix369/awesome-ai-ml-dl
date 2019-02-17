@@ -11,7 +11,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Deep learning](README-details.md#deep-learning)
  	  - [Genetic Algorithms](README-details.md#genetic-algorithms)
  	  - [Java projects / related technologies](README-details.md#java-projects--related-technologies)
- 	  - [Natural Language Processing (NLP)](README-details.md#natural-language-processing-aka-nlp)
+ 	  - [Natural Language Processing (NLP)](README-details.md#natural-language-processing-nlp)
  	  - [Neural Networks](README-details.md#neural-networks)
  	    - Convolutional Neural Networks (CNN)
  	    - Long Short Term Memory (LSTM)
