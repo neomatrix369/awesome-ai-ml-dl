@@ -125,6 +125,7 @@
    - [Awesome NLP](https://github.com/keon/awesome-nlp)
    - [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
    - [BloomburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai)
+   - [Movie Sentiment Analysis at MaM Study Group - sessions occur once a week](https://github.com/machine-learning-study-group/movie-sentiment-analysis)
 
   #### Machine Learning
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
