@@ -34,7 +34,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [JavaScript](README-details.md#javascript)
   - [Data](README-details.md#data)
   - [Graphs](README-details.md#graphs)
-  - [Cloud, DevOps, Infra](cloud-devops-infra/README.md)
+  - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
   - [Notebooks](README-details.md#notebooks)
   - [Articles, papers, code, data](README-details.md#articles-papers-code-data)
   - [Misc](README-details.md#misc-1)
