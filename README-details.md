@@ -158,6 +158,11 @@
   - [AlphaZero like repositories on GitHub](https://github.com/topics/alphazero)
   - [A replica of the AlphaZero methodology for deep reinforcement learning in Python](https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning)
 
+#### More...
+  - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
+  - Python: See [this link](https://github.com/josephmisiti/awesome-machine-learning#python) for more Python related ML links
+  - R: See [this link](https://github.com/josephmisiti/awesome-machine-learning#r) for more R related ML links
+
 ### JavaScript
    - [What effect will AI have on programming languages?](https://medium.com/skills-matter/what-effect-will-ai-have-on-programming-languages-102bbb5f3024)
    - [Tensorflow.js](https://js.tensorflow.org/) 
