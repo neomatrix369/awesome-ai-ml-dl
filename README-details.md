@@ -157,6 +157,7 @@
   - [Facebook Open Sources ELF OpenGo: near AlphaZero in the Open](https://research.fb.com/facebook-open-sources-elf-opengo/)
   - [AlphaZero like repositories on GitHub](https://github.com/topics/alphazero)
   - [A replica of the AlphaZero methodology for deep reinforcement learning in Python](https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning)
+  - Reinforcement Learning Crash Course by Central London Data Science meetup - [GitHub repo](https://github.com/central-ldn-data-sci/CrashCourseRL) | [Slides](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/Crash%20Course%20in%20Reinforcement%20Learning.pdf)
 
 #### More...
   - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
