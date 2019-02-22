@@ -19,7 +19,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Recommendation systems / Collaborative Filtering (CF)](README-details.md#recommendation-systems--collaborative-filtering-cf)
  	  - [Tools & Libraries, Cheatsheets, Resources](README-details.md#tools--libraries-cheatsheets-resources)
  	  - [How-to / Deploy / DevOps / Serverless](README-details.md#how-to--deploy--devops--serverless)
- 	  - [Misc](https://github.com/neomatrix369/awesome-ai-ml-dl#misc)
+ 	  - [Misc](README-details.md#misc)
   - [Clojure](README-details.md#clojure)
   - [Scala](README-details.md#scala)
   - [Julia, Python & R](README-details.md#julia-python--r)
