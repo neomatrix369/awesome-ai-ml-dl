@@ -96,6 +96,7 @@
 #### Misc
   - [Introduction to interactive Data Lake Queries](https://blogs.oracle.com/bigdata/interactive-data-lake-queries-at-scale) ([Tweet](https://twitter.com/java/status/989047609259151360))
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
+  - [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
 
 **See [this link](https://github.com/josephmisiti/awesome-machine-learning#java) for more Java related ML links**
 
