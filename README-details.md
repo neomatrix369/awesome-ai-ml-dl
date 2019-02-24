@@ -194,11 +194,12 @@
   - JuPyteR notebooks
     - See [example](examples/JuPyteR/README.md) in the `examples/JuPyteR` folder
 
-### Articles, papers, code, data
+### Articles, papers, code, data, courses
   - [Papers, code, data by Yaz](https://github.com/yazdotai/paper-code-data)
   - [Awesome AI Papers by Yaz (empty atm)](https://github.com/yazdotai/awesome-ai-papers)
   - [Awesome DL papers](https://github.com/terryum/awesome-deep-learning-papers)
   - [List of articles related to deep learning applied to music](https://github.com/ybayle/awesome-deep-learning-music)
+  - [Course material by Students of AI (Imperial College, London)](https://github.com/Students-for-AI/The-Academy-of-AI)
 
 ### Misc
   + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai)
