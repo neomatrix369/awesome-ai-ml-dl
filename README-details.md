@@ -100,6 +100,8 @@
   - [Introduction to interactive Data Lake Queries](https://blogs.oracle.com/bigdata/interactive-data-lake-queries-at-scale) ([Tweet](https://twitter.com/java/status/989047609259151360))
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
   - [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
+  - [Videos of various AI/ML related topics by AI Enterprise](https://www.youtube.com/channel/UC1PncmBLZMqlodEt7atfFuw)
+  - [Real-Time Application of Machine Learning to Geolocation using Spark and Kafka](https://www.youtube.com/watch?v=17OUbWR8UKo) | [Slides](https://www.slideshare.net/caroljmcdonald/analysis-of-popular-uber-locations-using-apache-apis-spark-machine-learning-structured-streaming-kafka-with-mapres-and-maprdb) | [Carol's post "Tips and Best Practices to Take Advantage of Spark 2.x"](https://mapr.com/blog/tips-and-best-practices-to-take-advantage-of-spark-2-x/)
 
 **See [this link](https://github.com/josephmisiti/awesome-machine-learning#java) for more Java related ML links**
 
