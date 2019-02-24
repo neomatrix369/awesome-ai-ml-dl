@@ -40,6 +40,9 @@
   - [Free AI Training - Java-based deep-learning tools to analyze and train data, then send the resulting changes back to the server](https://www.youtube.com/watch?v=MXH_nn1dmsE) ([Tweet](https://twitter.com/java/status/1071422649501409280))
   - [Understanding Machine Learning Algorithms with DL4J](https://skymind.ai/wiki/machine-learning-algorithms) ([Tweet](https://twitter.com/java/status/1077947895691673600))
 
+#### Reinforcement Learning 
+  - [Java implementation of Reinforcement Learning algorithms as described in the book "Reinforcement Learning: An Introduction" by Sutton](https://github.com/chen0040/java-reinforcement-learning)
+
 #### Genetic Algorithms
 
   - [Jenetics is an advanced Genetic Algorithm, respectively an Evolutionary Algorithm, library written in java](http://jenetics.io) ([Tweet](https://twitter.com/juanantoniobm/status/863871263118381056))
