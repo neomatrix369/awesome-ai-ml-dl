@@ -153,6 +153,7 @@
    - [Deep learning library featuring a higher-level API for TensorFlow](https://github.com/tflearn/tflearn)
    - [A series of Docker images (and their generator) that allows you to quickly set up your deep learning research environment](https://github.com/ufoym/deepo)
    - [Code examples for the Stanford's course: TensorFlow for Deep Learning Research](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
+   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
   
   #### Reinforcement Learning
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
@@ -164,6 +165,7 @@
   - [AlphaZero like repositories on GitHub](https://github.com/topics/alphazero)
   - [A replica of the AlphaZero methodology for deep reinforcement learning in Python](https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning)
   - Reinforcement Learning Crash Course by Central London Data Science meetup - [GitHub repo](https://github.com/central-ldn-data-sci/CrashCourseRL) | [Slides](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/Crash%20Course%20in%20Reinforcement%20Learning.pdf) [Notebook](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
+  - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
 
 #### More...
   - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
