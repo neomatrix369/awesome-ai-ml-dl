@@ -204,6 +204,7 @@
   - [Awesome DL papers](https://github.com/terryum/awesome-deep-learning-papers)
   - [List of articles related to deep learning applied to music](https://github.com/ybayle/awesome-deep-learning-music)
   - [Course material by Students of AI (Imperial College, London)](https://github.com/Students-for-AI/The-Academy-of-AI)
+  - [Data.world's open data - catalog your data, wake up your hidden data workforce, and build a data-driven culture—faster](https://data.world/)
 
 ### Misc
   + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai)
