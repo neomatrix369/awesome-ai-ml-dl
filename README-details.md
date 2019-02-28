@@ -46,6 +46,8 @@
 #### Genetic Algorithms
 
   - [Jenetics is an advanced Genetic Algorithm, respectively an Evolutionary Algorithm, library written in java](http://jenetics.io) ([Tweet](https://twitter.com/juanantoniobm/status/863871263118381056))
+  - [JGAP is a Genetic Algorithms and Genetic Programming package written in Java](https://sourceforge.net/projects/jgap/)
+  - [JaGa - Genetic Algorithms in Java on a Powerful Generic Pluggable Architecture](http://jaga.sourceforge.net/)
 
 #### Java projects / related technologies
 
