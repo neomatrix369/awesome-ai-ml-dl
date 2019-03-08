@@ -6,9 +6,11 @@ Examples have been used to illustrate the usage as much as possible. Not all the
 
 The idea is to keep the API language as high-level as possible, so its easier to use it easily and stays human-readable.
 
-Libraries covered:
-- SpaCey
-- Texacy
+Libraries / frameworks covered:
+
+- SpaCy
+- Textacy
+- Rasa NLU
 
 ## Requirements
 
@@ -22,6 +24,24 @@ Setup an environment needed to be able to run these programs without having to w
 ### Local environment
 
 For the brave at heart, install the dependencies in your local environment.
+
+#### Linux
+
+```
+./install-linux.sh
+```
+
+#### MacOS
+
+```
+./install-macos.sh
+```
+
+Alternatively please refer to the **Docker environment** section.
+
+#### Windows
+
+In principle, the `install-linux.sh` script should work in the `cygwin` or `git bash` environments - although it has not been tested, please raise PR with fixes if any. Alternatively please refer to the **Docker environment** section.
 
 ### Docker environment
 

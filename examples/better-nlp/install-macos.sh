@@ -6,16 +6,14 @@ set -o pipefail
 
 echo "Please check if you fulfill the requirements mentioned in the README file."
 
-# Install and update necessary Linux packages
+# Install and update necessary MacOS packages
 
-apt-get update && apt-get install -y --fix-missing wget curl liblapack-dev libswscale-dev pkg-config
+brew update && brew install -y wget curl liblapack-dev libswscale-dev pkg-config
 
-apt-get install -y --fix-missing zip vim 
-
-echo "fs.inotify.max_user_watches=100000" > /etc/sysctl.conf
+brew install -y --fix-missing zip vim
 
 # Install node and update npm
-curl --silent --location https://deb.nodesource.com/setup_8.x | bash - && apt-get install nodejs -y
+curl --silent --location https://deb.nodesource.com/setup_8.x | bash - && brew install -y nodejs
 
 npm install -g npm
 
