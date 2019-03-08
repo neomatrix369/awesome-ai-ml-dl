@@ -2,8 +2,6 @@ import time
 
 from org.neomatrix369.better_nlp import BetterNLP
 
-english_nlp_model = BetterNLP().load_nlp_model()
-
 print("Started parsing...")
 startTime = time.time()
 # Can be any factual text or any text to experiment with
@@ -14,7 +12,7 @@ and children math. He is the author of Numbers: The Universal Language and
 of the novel The Parrot's Theorem. He died in Paris. 
 """
 
-parsed_generic_text = english_nlp_model(generic_text)
+parsed_generic_text = BetterNLP().extract_entities(generic_text)
 
 [print(f"{each_entity.text} ({each_entity.label_})") for each_entity in parsed_generic_text.ents if each_entity.text.strip() == each_entity.text]
 

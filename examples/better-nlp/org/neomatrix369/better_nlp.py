@@ -1,8 +1,20 @@
-import spacy  # $ pip install spacy
+import spacy             # $ pip install spacy
 import time
+import textacy.extract   # $ pip install textacy
+
+
+MINIMUM_NUM_OF_WORDS = 1
+MINIMUM_OCCURRENCE_FREQUENCY = 2
 
 
 class BetterNLP:
+
+    MINIMUM_NUM_OF_WORDS = 1
+    minimum_occurrence_frequency = MINIMUM_OCCURRENCE_FREQUENCY
+
+    def __init__(self):
+        self.english_nlp_model = None
+
     @staticmethod
     def load_nlp_model():
         start_time = time.time()
@@ -20,8 +32,20 @@ class BetterNLP:
 
     @staticmethod
     def token_legend():
-        return ['GPE = ', 'FAC = ', 'DATE = calendar date',
+        return ['GPE = Geographic Point Entity', 'FAC = ', 'DATE = calendar date',
                 'NORP = Noun or Pronoun',
                 'PERSON = name of a person (proper noun)',
                 'ORG = Organisation']
+
+    def extract_entities(self, text):
+        if self.english_nlp_model is None:
+            self.english_nlp_model = self.load_nlp_model()
+        return self.english_nlp_model(text)
+
+    def extract_nouns_chunks(self, text):
+        parsed_generic_text = BetterNLP().extract_entities(text)
+        chunks = textacy.extract.noun_chunks(parsed_generic_text, min_freq=self.minimum_occurrence_frequency)
+        chunks = map(str, chunks)
+        return map(str.lower, chunks)
+
 
