@@ -22,7 +22,7 @@ Libraries / frameworks covered:
 
 Setup an environment needed to be able to run these programs without having to worry about the dependencies they use.
 
-Please be aware that even though we are install only a few components, the installation process takes some time (irrespective if you are running in via your local environment or inside a docker container). Give it about 15-20 minutes depending on network bandwith and overall machine performance.
+Please be aware that even though we are install only a few components, the installation process takes some time (irrespective if you are running in via your local environment or inside a docker container). Give it about 20-30 minutes depending on network bandwidth and overall machine performance.
 
 ### Local environment
 
