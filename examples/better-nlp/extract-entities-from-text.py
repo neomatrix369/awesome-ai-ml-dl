@@ -1,9 +1,7 @@
-import time
-
 from org.neomatrix369.better_nlp import BetterNLP
 
 print("Started parsing...")
-startTime = time.time()
+
 # Can be any factual text or any text to experiment with
 generic_text = """Denis Guedj (1940 – April 24, 2010) was a French novelist and 
 a professor of the History of Science at Paris VIII University. He was born 
@@ -17,8 +15,5 @@ parsed_generic_text = BetterNLP().extract_entities(generic_text)
 [print(f"{each_entity.text} ({each_entity.label_})") for each_entity in parsed_generic_text.ents if each_entity.text.strip() == each_entity.text]
 
 print("\nToken types legend: ", BetterNLP.token_legend())
-endTime = time.time()
 
 print("\n")
-print("...Finished parsing\n")
-print("Time taken to process the generic text: {} seconds".format(endTime-startTime))

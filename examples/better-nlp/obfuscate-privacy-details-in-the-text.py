@@ -1,10 +1,7 @@
-import time
-
 from org.neomatrix369.better_nlp import BetterNLP
 
 print("Started parsing...")
 
-startTime = time.time()
 # Can be any factual text or any text to experiment with
 generic_text = """Denis Guedj (1940 – April 24, 2010) was a French novelist and 
 a professor of the History of Science at Paris VIII University. He was born 
@@ -16,9 +13,5 @@ of the novel The Parrot's Theorem. He died in Paris.
 obfuscated_text = BetterNLP().obfuscate_text(generic_text)
 
 print("Obfuscated generic text: ", "".join(obfuscated_text))
-
-endTime = time.time()
-
-print("\n")
 print("...Finished parsing\n")
-print("Time taken to process the generic text: {} seconds".format(endTime-startTime))
+
