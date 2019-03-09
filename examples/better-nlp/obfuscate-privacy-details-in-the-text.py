@@ -11,8 +11,8 @@ of the novel The Parrot's Theorem. He died in Paris.
 """
 
 obfuscated_text = BetterNLP().obfuscate_text(generic_text)
-
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("Obfuscated generic text: ", "".join(obfuscated_text))
-
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("\n")
 print("...Finished parsing ~~~~~~~\n")

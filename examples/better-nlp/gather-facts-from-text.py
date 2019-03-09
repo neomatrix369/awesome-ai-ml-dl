@@ -8,6 +8,7 @@ generic_text = """Denis Guedj (1940 – April 24, 2010) was a French novelist an
 target_topic = "Denis Guedj"
 extracted_facts = BetterNLP().extract_facts(generic_text, target_topic)
 
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("Trying to gather details about " + target_topic)
 
 number_of_facts_found = 0
@@ -18,6 +19,7 @@ for each_fact_statement in extracted_facts:
 
 if number_of_facts_found == 0:
     print("There were no facts on " + target_topic)
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 print("\n")
 print("...Finished parsing ~~~~~~~\n")

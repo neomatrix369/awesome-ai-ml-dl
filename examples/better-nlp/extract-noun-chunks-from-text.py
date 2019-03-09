@@ -7,6 +7,7 @@ generic_text = """Denis Guedj (1940 – April 24, 2010) was a French novelist an
 
 chunks = BetterNLP().extract_nouns_chunks(generic_text)
 
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 set_of_noun_chunks = set(chunks)
 if len(set_of_noun_chunks) == 0:
 	print("Did not find words that belong together.")
@@ -14,6 +15,7 @@ else:
 	print("A list of words that belong together (in lowercase):")
 
 [print(each_noun_chunk) for each_noun_chunk in set_of_noun_chunks if len(each_noun_chunk.split(" ")) > BetterNLP.minimum_occurrence_frequency]
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 print("\n")
 print("...Finished parsing ~~~~~~\n")
