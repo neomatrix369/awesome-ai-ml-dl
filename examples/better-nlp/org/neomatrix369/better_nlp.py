@@ -43,9 +43,13 @@ class BetterNLP:
         return self.english_nlp_model(text)
 
     def extract_nouns_chunks(self, text):
-        parsed_generic_text = BetterNLP().extract_entities(text)
+        parsed_generic_text = self.extract_entities(text)
         chunks = textacy.extract.noun_chunks(parsed_generic_text, min_freq=self.minimum_occurrence_frequency)
         chunks = map(str, chunks)
         return map(str.lower, chunks)
+
+    def extract_facts(self, text, target_topic):
+        parsed_generic_text = self.extract_entities(text)
+        return textacy.extract.semistructured_statements(parsed_generic_text, target_topic)
 
 
