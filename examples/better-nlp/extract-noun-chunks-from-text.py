@@ -15,5 +15,6 @@ else:
 
 [print(each_noun_chunk) for each_noun_chunk in set_of_noun_chunks if len(each_noun_chunk.split(" ")) > BetterNLP.minimum_occurrence_frequency]
 
+print("\n")
 print("...Finished parsing\n")
 

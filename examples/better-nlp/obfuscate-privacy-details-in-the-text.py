@@ -14,4 +14,5 @@ obfuscated_text = BetterNLP().obfuscate_text(generic_text)
 
 print("Obfuscated generic text: ", "".join(obfuscated_text))
 
+print("\n")
 print("...Finished parsing\n")

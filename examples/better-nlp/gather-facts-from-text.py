@@ -19,4 +19,5 @@ for each_fact_statement in extracted_facts:
 if number_of_facts_found == 0:
     print("There were no facts on " + target_topic)
 
+print("\n")
 print("...Finished parsing\n")
