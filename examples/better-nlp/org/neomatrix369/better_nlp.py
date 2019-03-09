@@ -7,6 +7,16 @@ MINIMUM_NUM_OF_WORDS = 1
 MINIMUM_OCCURRENCE_FREQUENCY = 2
 
 
+def obfuscate(token, entity_type="PERSON"):
+    if token.string.strip() not in ['', '\n', '\t']:
+        if token.ent_iob != 0 and token.ent_type_ == entity_type:
+            return "[OBFUSCATED] "
+        else:
+            return token.string
+    else:
+        return ''
+
+
 class BetterNLP:
 
     MINIMUM_NUM_OF_WORDS = 1
@@ -52,4 +62,10 @@ class BetterNLP:
         parsed_generic_text = self.extract_entities(text)
         return textacy.extract.semistructured_statements(parsed_generic_text, target_topic)
 
+    def obfuscate_text(self, text):
+        parsed_generic_text = self.extract_entities(text)
 
+        for each_entity in parsed_generic_text.ents:
+            each_entity.merge()
+
+        return map(obfuscate, parsed_generic_text)
