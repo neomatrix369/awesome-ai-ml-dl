@@ -4,7 +4,7 @@ import textacy.extract   # $ pip install textacy
 
 
 MINIMUM_NUM_OF_WORDS = 1
-MINIMUM_OCCURRENCE_FREQUENCY = 2
+MINIMUM_OCCURRENCE_FREQUENCY = 1
 
 
 def obfuscate(token, entity_type="PERSON"):
