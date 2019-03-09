@@ -1,6 +1,6 @@
 from org.neomatrix369.better_nlp import BetterNLP
 
-print("Started parsing...")
+print("~~~~~~~~ Started parsing...")
 
 # Can be any factual text or any text to experiment with
 generic_text = """Denis Guedj (1940 – April 24, 2010) was a French novelist and 
@@ -17,4 +17,4 @@ parsed_generic_text = BetterNLP().extract_entities(generic_text)
 print("\nToken types legend: ", BetterNLP.token_legend())
 
 print("\n")
-print("...Finished parsing\n")
+print("...Finished parsing ~~~~~~~\n")

@@ -52,8 +52,8 @@ class BetterNLP:
         start_time = time.time()
         parsed_text = self.english_nlp_model(text)
         end_time = time.time()
-        print("\n")
         print("Time taken to process the generic text: {} seconds".format(end_time - start_time))
+        print("\n")
         return parsed_text
 
     def extract_nouns_chunks(self, text):
@@ -62,16 +62,16 @@ class BetterNLP:
         chunks = textacy.extract.noun_chunks(parsed_generic_text, min_freq=self.minimum_occurrence_frequency)
         chunks = map(str, chunks)
         end_time = time.time()
-        print("\n")
         print("Time taken to process the generic text: {} seconds".format(end_time - start_time))
+        print("\n")
         return map(str.lower, chunks)
 
     def extract_facts(self, text, target_topic):
         start_time = time.time()
         parsed_generic_text = self.extract_entities(text)
         end_time = time.time()
-        print("\n")
         print("Time taken to process the generic text: {} seconds".format(end_time - start_time))
+        print("\n")
         return textacy.extract.semistructured_statements(parsed_generic_text, target_topic)
 
     def obfuscate_text(self, text):
@@ -82,6 +82,6 @@ class BetterNLP:
             each_entity.merge()
 
         end_time = time.time()
-        print("\n")
         print("Time taken to process the generic text: {} seconds".format(end_time - start_time))
+        print("\n")
         return map(obfuscate, parsed_generic_text)
