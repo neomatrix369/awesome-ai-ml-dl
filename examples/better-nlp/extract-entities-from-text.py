@@ -17,3 +17,5 @@ parsed_generic_text = BetterNLP().extract_entities(generic_text)
 print("\nToken types legend: ", BetterNLP.token_legend())
 
 print("\n")
+
+print("...Finished parsing\n")
