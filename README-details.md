@@ -61,6 +61,7 @@
   - [Implementing NLP Attention Mechanisms with DeepLearning4J](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/255622367/) ([Tweet](https://twitter.com/java/status/1058405126988161024))
   - [How Stanford CoreNLP, a popular Java natural language tool can help you perform Natural Language Processing tasks](https://stanfordnlp.github.io/CoreNLP/) ([Tweet](https://twitter.com/java/status/945689918289924096))
   - [FREE AI talk on Natural Language Processing NLP using Java with deeplearning4j](https://www.youtube.com/watch?v=XrZ_Y4koV5A&feature=youtu.be) ([Tweet](https://twitter.com/java/status/1062035545394532352))
+  - [Better NLP library (experimental)](./examples/better-nlp/README.md)
 
 #### Neural Networks
 

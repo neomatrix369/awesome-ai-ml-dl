@@ -4,13 +4,13 @@ This is a wrapper program/library that encapsulates a couple of NLP libraries th
 
 Examples have been used to illustrate the usage as much as possible. Not all the APIs of the underlying libraries have been covered.
 
-The idea is to keep the API language as high-level as possible, so its easier to use it easily and stays human-readable.
+The idea is to keep the API language as high-level as possible, so its easier to use and stays human-readable.
 
 Libraries / frameworks covered:
 
-- SpaCy
-- Textacy
-- Rasa NLU
+- SpaCy ([site](https://spacy.io/) | [docs](https://spacy.io/usage/))
+- Textacy ([github](https://github.com/chartbeat-labs/textacy) | [docs](https://chartbeat-labs.github.io/textacy/))
+- Rasa NLU ([site](https://rasa.com/) | [docs](https://rasa.com/docs/nlu/))
 
 ## Requirements
 
