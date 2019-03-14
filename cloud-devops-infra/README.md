@@ -4,6 +4,7 @@
 
   - [vast.ai](about-vast.ai.md) - GPU Sharing Economy. One simple interface to find the best cloud GPU rentals. Reduce cloud compute costs by 3X to 5X
   - [paperspace](https://www.paperspace.com/) - The first cloud built for the future. Powering next-generation applications and cloud ML/AI pipelines. Paperspace is built to scale with your team - pay as you go option for individuals.
+  - [valohai](https://www.valohai.com/) | [docs](https://docs.valohai.com/) - Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
   
 #### Tools
   - [snakemake](https://snakemake.readthedocs.io/en/stable/) - The Snakemake workflow management system is a tool to create reproducible and scalable data analyses. [Slides](https://slides.com/johanneskoester/snakemake-talk-40min#) | [PyPi](https://pypi.org/project/snakemake/)
