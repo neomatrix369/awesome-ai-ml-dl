@@ -2,7 +2,9 @@
 
 Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn it. Study notes and a curated list of awesome resources of such topics.
 
-**This repo is dedicated to engineers, developers, data scientists and all other professions that take interest in AI, ML, DL and related sciences. To make learning interesting and to create a place to easily find all the necessary material. Please contribute, watch, start, fork and share the repo with others.**
+**This repo is dedicated to engineers, developers, data scientists and all other professions that take interest in AI, ML, DL and related sciences. To make learning interesting and to create a place to easily find all the necessary material. Please contribute, watch, star, fork and share the repo with others in your community.**
+
+**Watching the repo will keep you posted of all the changes (commits) that go into the repo.**
 
 - [Awesome AI-ML-DL](README-details.md#awesome-ai-ml-dl) 
   - [General](README-details.md#general)
