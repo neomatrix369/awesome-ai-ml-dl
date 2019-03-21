@@ -61,7 +61,6 @@
   - [Implementing NLP Attention Mechanisms with DeepLearning4J](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/255622367/) ([Tweet](https://twitter.com/java/status/1058405126988161024))
   - [How Stanford CoreNLP, a popular Java natural language tool can help you perform Natural Language Processing tasks](https://stanfordnlp.github.io/CoreNLP/) ([Tweet](https://twitter.com/java/status/945689918289924096))
   - [FREE AI talk on Natural Language Processing NLP using Java with deeplearning4j](https://www.youtube.com/watch?v=XrZ_Y4koV5A&feature=youtu.be) ([Tweet](https://twitter.com/java/status/1062035545394532352))
-  - [Better NLP library (experimental)](./examples/better-nlp/README.md)
 
 #### Neural Networks
 
@@ -136,6 +135,7 @@
    - [BloomburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai)
    - [Movie Sentiment Analysis at MaM Study Group - sessions occur once a week](https://github.com/machine-learning-study-group/movie-sentiment-analysis)
    - [Natural Language Procoessing presentation by Ovidiu S.](./presentations/nlp/Natural_Language_Processing_-_MaM.pdf)
+   - [Better NLP library (experimental)](./examples/better-nlp/README.md)
 
   #### Machine Learning
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
