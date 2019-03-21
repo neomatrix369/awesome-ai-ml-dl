@@ -10,6 +10,20 @@
   - [snakemake](https://snakemake.readthedocs.io/en/stable/) - The Snakemake workflow management system is a tool to create reproducible and scalable data analyses. [Slides](https://slides.com/johanneskoester/snakemake-talk-40min#) | [PyPi](https://pypi.org/project/snakemake/)
   - [plz](http://github.com/prodo-ai/plz) - Plz (pronounced "please") runs your jobs storing code, input, outputs and results so that they can be queried programmatically.
 
+#### CPU
+  - Probing the CPU (Linux/MacOS)
+      + [libcpuid](http://libcpuid.sourceforge.net/index.html)
+      + Zero overhead performance capturing: use `/proc/interrupts` and `/proc/softirqs`
+      + Non-zero overhead, less accurate: use the PMU (capture on- and off-core events)
+  - Probing the CPU (Windows)
+      + [perfview](https://github.com/Microsoft/perfview) - general profiling on Windows
+      + [perfview for .net](https://www.infoq.com/presentations/perfview-net) - excellent overview by Sasha Goldshtein
+ 
+ _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
+
+#### GPU
+  - [Know your GPU](https://gist.github.com/neomatrix369/256913dcf77cdbb5855dd2d7f5d81b84)
+
 #### TPU
   - [How to harness the Powers of the Cloud TPU](https://medium.com/bitgrit-data-science-publication/how-to-harness-the-powers-of-the-cloud-tpu-3939dc363d9f)
 
