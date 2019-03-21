@@ -184,6 +184,25 @@
    - [Run Keras models in the browser, with GPU support using WebGL](https://github.com/transcranial/keras-js)
    - See [this link](https://github.com/josephmisiti/awesome-machine-learning#javascript) for more JavaScript related ML links
 
+### Mathematica
+  - General
+    - [Mathematica](https://www.wolfram.com/mathematica/)
+    - [Mathematica for home/hobbyist/individuals (pricing)](https://www.wolfram.com/mathematica/pricing/home-hobby-individuals.php)
+    - [Mathematica on Stackexchange](https://mathematica.stackexchange.com/)
+    - [Mathematica on Wikipedia](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
+    - [Mathematica for prediction algorithms](https://mathematicaforprediction.wordpress.com/category/artificial-intelligence/)
+  * Stephen Wolfram
+    + [Stephen Wolfram: Knowledge Engine](https://lexfridman.com/stephen-wolfram/)
+    + [Stephen Wolfram: Artificial Intelligence blogs](https://blog.stephenwolfram.com/category/artificial-intelligence/?source=wordcloud)
+  - Wolfram
+    + [Wolfram Language Artificial Intelligence](https://blog.stephenwolfram.com/2015/05/wolfram-language-artificial-intelligence-the-image-identification-project/)
+    + [Wolfram Language & System](https://reference.wolfram.com/language/)
+    + [WolframResearch](https://github.com/WolframResearch)
+    + [Wolfram Community](https://community.wolfram.com/)  
+    + [Open Source materials from Wolfram](https://wolfram.com/open-materials/)
+    + [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
+    - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
+
 ### Data
   - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
   - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines](https://github.com/donnemartin/data-science-ipython-notebooks)
