@@ -34,6 +34,10 @@ Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel]() 
 
 ## Get started: Automated (via scripts)
 
+### Source location
+
+Go to example [project root](./examples/JuPyteR) to perform the commands mentioned in the sections below.
+
 ### Local environment
 
 ```
@@ -199,4 +203,5 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
+Back to example [project root](./examples/JuPyteR) </br>
 Back to [main page (table of contents)](../../README.md)
