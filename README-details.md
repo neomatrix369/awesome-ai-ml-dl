@@ -150,6 +150,8 @@
   - [Machine Learning From Scratch | NumPy | Aims to cover everything from data mining to deep learning. ](https://github.com/eriklindernoren/ML-From-Scratch)
   - [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
   - [Machine Learning for Forecasting Chaos by Dr. Edward Ott](https://www.youtube.com/watch?v=ZFYdZWadyD4&feature=youtu.be)
+  - [Curriculum – Machine Learning Sabbatical](https://coxy1989.com/curriculum.html)
+  - [Curriculum & Log - ML](https://www.alanmartyn.com/)
 
   #### Deep Learning
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
