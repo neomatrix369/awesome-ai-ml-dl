@@ -46,8 +46,8 @@ See [About Google Data Studio](about-Google-Data-Studio.md)
 - [(many other related modules)](https://redis.io/modules)
 
 ## Databases
-- [Grakn and Graql](http://grakn.ai/)
-- [Redis Graph](https://oss.redislabs.com/redisgraph/)
+- [Grakn and Graql](http://grakn.ai/) - not just graphs, or graph database knowledge graphs | [Docs | Quick start](https://dev.grakn.ai/docs/general/quickstart) | [GitHub](https://github.com/graknlabs/grakn)
+- [Redis Graph](https://oss.redislabs.com/redisgraph/) | [Blogs](https://blog.grakn.ai/?gi=d6874fc57ebb) | [Videos](https://www.youtube.com/channel/UCtZKw0RFof3x23KqGtW3yDA)
 - [Neo4j](https://neo4j.com/)
 - [Gun: A realtime, decentralized, offline-first, mutable graph database engine](https://github.com/amark/gun)
 - [Cayley: An open-source graph database](https://github.com/cayleygraph/cayley)

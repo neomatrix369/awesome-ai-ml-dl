@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# Packages
+*.py[a-z]
+*.pyc
+__pycache__/*
+_pycache_/*
+.pylintrc
+
+=======
+*.py[co]
+__pycache__
+*~
+*.bak
+.DS_Store
+\#*#
+.#*
+
+*.swp
+*.map
+.idea/
+
+/.project
+/.pydevproject
