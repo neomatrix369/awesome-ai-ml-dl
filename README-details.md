@@ -215,7 +215,7 @@
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
   - [Graph databases](./data/README.md#databases)
-    + See [Grakn example](./examples/data/databases/graph/grakn/README.md) in the `examples/data/databases/graph/grakn` folder
+    + See the [Grakn example](./examples/data/databases/graph/grakn/README.md) in the `examples/data/databases/graph/grakn` folder
   - [BCS APSG - 2019 02 14 How Graph Technology is Changing AI and ML at BCS London](https://www.youtube.com/watch?v=oMqP3ISPWBY)
 
 ### Notebooks
