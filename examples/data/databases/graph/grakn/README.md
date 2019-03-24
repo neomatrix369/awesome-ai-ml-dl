@@ -15,6 +15,8 @@ On start, useful details including time to startup Grakn and duration for which 
 
 ## Scripts provided
 
+**Go to [the previous folder](../grakn) to find the below scripts.**
+
 - `runGraknInDocker.sh` - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
 - `startGraknAndGraql.sh` - entry point script baked into the docker image
 - `Dockerfile`: a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
@@ -64,5 +66,5 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Back to [Data](../../../../../data/README.md)
+Back to [Data](../../../../../data/README.md)</br>
 Back to [main page (table of contents)](../../../../README.md)
