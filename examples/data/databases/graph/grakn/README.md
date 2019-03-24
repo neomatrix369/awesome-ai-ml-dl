@@ -31,7 +31,7 @@ On start, useful details including time to startup Grakn and duration for which 
 ```
 $ ./runGraknInDocker.sh
 or
-$ USER_NAME="your_docker_username" ./runGraknInDocker.sh
+$ DOCKER_USER_NAME="your_docker_username" ./runGraknInDocker.sh
 or
 $ GRAKN_VERSION="x.y.z" ./runGraknInDocker.sh
 ```
@@ -43,7 +43,7 @@ See [successful run console](successful-run-console.md).
 ```
 $ ./buildDockerImage.sh
 or
-$ USER_NAME="your_docker_username" ./buildDockerImage.sh
+$ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
 or
 $ GRAKN_VERSION="x.y.z" ./buildDockerImage.sh
 ```
@@ -53,7 +53,7 @@ $ GRAKN_VERSION="x.y.z" ./buildDockerImage.sh
 ```
 $ ./push-grakn-docker-image-to-hub.sh
 or
-$ USER_NAME="your_docker_username" ./push-grakn-docker-image-to-hub.sh
+$ DOCKER_USER_NAME="your_docker_username" ./push-grakn-docker-image-to-hub.sh
 or
 $ GRAKN_VERSION="x.y.z" ./push-grakn-docker-image-to-hub.sh
 ```
