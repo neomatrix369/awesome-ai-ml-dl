@@ -26,39 +26,15 @@ On start, useful details including time to startup Grakn and duration for which 
 
 ## Usage
 
-**Run the Grakn docker container:**
+**Setting your environment**
+
+Ensure your environment has the below variable set, or set it in your .bashrc or .bash_profile or the relevant startup script:
 
 ```
-$ ./runGraknInDocker.sh
-or
-$ DOCKER_USER_NAME="your_docker_username" ./runGraknInDocker.sh
-or
-$ GRAKN_VERSION="x.y.z" ./runGraknInDocker.sh
+export DOCKER_USER_NAME="your_docker_username"
 ```
 
-See [successful run console](successful-run-console.md).
-
-**Build the Grakn docker container:**
-
-```
-$ ./buildDockerImage.sh
-or
-$ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
-or
-$ GRAKN_VERSION="x.y.z" ./buildDockerImage.sh
-```
-
-**Push built Grakn docker image to Docker hub:**
-
-```
-$ ./push-grakn-docker-image-to-hub.sh
-or
-$ DOCKER_USER_NAME="your_docker_username" ./push-grakn-docker-image-to-hub.sh
-or
-$ GRAKN_VERSION="x.y.z" ./push-grakn-docker-image-to-hub.sh
-```
-
-The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
+You must have an account on Docker hub under the above user name.
 
 # Contributing
 
