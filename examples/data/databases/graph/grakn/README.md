@@ -36,6 +36,8 @@ or
 $ GRAKN_VERSION="x.y.z" ./runGraknInDocker.sh
 ```
 
+See [successful run console](successful-run-console.md).
+
 **Build the Grakn docker container:**
 
 ```
