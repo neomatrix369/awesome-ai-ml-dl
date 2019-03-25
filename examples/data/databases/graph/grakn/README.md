@@ -6,12 +6,16 @@ Find out more about [Grakn and Graql](http://grakn.ai) from the [Data](../../../
 
 On start, useful details including time to startup Grakn and duration for which Graql was run are printed.
 
+Also, experimental usage of GraalVM, to take advantages of the performance benefits of this JVM. 
+
 ## Goals
 
 - Run Grakn and Graql in a docker container
 - Ability to create custom docker images (scripts & docs provided)
-- Measure startup and execution times
+- Ability to debug the docker container
 - Run using the traditional JDK (OpenJDK or vendor specific versions)
+- Run using the polyglot JVM i.e. GraalVM JDK (Community version from Oracle Labs)
+- Measure startup and execution times for the different JDKs used
 
 ## Scripts provided
 
@@ -20,7 +24,7 @@ On start, useful details including time to startup Grakn and duration for which 
 - `runGraknInDocker.sh` - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
 - `startGraknAndGraql.sh` - entry point script baked into the docker image
 - `Dockerfile`: a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
-- `buildDockerImage.sh`: build the docker image for grakn, takes under 5 minutes to finish on a decent connection
+- `buildDockerImage.sh`: build the docker image for grakn, takes under 10 minutes to finish on a decent connection
 - `push-grakn-docker-image-to-hub.sh` - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
 - `removeUnusedContainersAndImages.sh` - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
 
@@ -35,6 +39,45 @@ export DOCKER_USER_NAME="your_docker_username"
 ```
 
 You must have an account on Docker hub under the above user name.
+
+**Run the Grakn docker container:**
+
+```
+$ ./runGraknInDocker.sh
+or
+$ DOCKER_USER_NAME="your_docker_username" ./runGraknInDocker.sh
+or
+$ GRAKN_VERSION="x.y.z" ./runGraknInDocker.sh
+or in debug mode
+$ DEBUG="true" ./runGraknInDocker.sh
+or run in GraalVM mode
+$ JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
+```
+
+See [successful run console](successful-run-console.md) - includes both outputs from the traditional JDK8 and GraalVM executions. 
+In debug mode, the docker container prompt is returned, the Grakn and Graql instances are not executed.
+
+**Build the Grakn docker container:**
+
+```
+$ ./buildDockerImage.sh
+or
+$ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
+or
+$ GRAKN_VERSION="x.y.z" ./buildDockerImage.sh
+```
+
+**Push built Grakn docker image to Docker hub:**
+
+```
+$ ./push-grakn-docker-image-to-hub.sh
+or
+$ DOCKER_USER_NAME="your_docker_username" ./push-grakn-docker-image-to-hub.sh
+or
+$ GRAKN_VERSION="x.y.z" ./push-grakn-docker-image-to-hub.sh
+```
+
+The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
 
 # Contributing
 

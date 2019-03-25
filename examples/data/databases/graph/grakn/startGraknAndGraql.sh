@@ -4,19 +4,26 @@ set -e
 set -u
 set -o pipefail
 
+DEFAULT_JDK="${JAVA_8_HOME}"
 GRAKN_VERSION=${GRAKN_VERSION:-1.4.3}
 GRAKN_PORT=${GRAKN_PORT:-4567}
 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-java -version
-echo "JAVA_HOME=${JAVA_HOME}"
+export JAVA_HOME=${DEFAULT_JDK}
+if [[ "${JDK_TO_USE:-}"="GRAALVM" ]]; then
+    export JAVA_HOME=${GRAALVM_HOME}
+    export PATH=${GRAALVM_HOME}/bin:${PATH}
+fi
 
-echo "\nGrakn version:"
+echo "JAVA_HOME=${JAVA_HOME}"
+java -version
+
+echo -n "Grakn version:"
 ./grakn-core-${GRAKN_VERSION}/grakn version
-echo "\nGraql version:" 
+echo -n "Graql version:"
 ./grakn-core-${GRAKN_VERSION}/graql version
 
-echo "\nGRAKN_PORT=${GRAKN_PORT}"
+echo -n "GRAKN_PORT=${GRAKN_PORT}"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 time ./grakn-core-${GRAKN_VERSION}/grakn server start 
 echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"

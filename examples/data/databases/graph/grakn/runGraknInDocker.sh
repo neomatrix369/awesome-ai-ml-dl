@@ -14,8 +14,17 @@ GRAKN_DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 WORKDIR=grakn
 
-time docker run --rm             \
-           -it                   \
-           -p 4567:4567          \
-           --workdir /${WORKDIR} \
-           ${GRAKN_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
+if [[ "${DEBUG:-}" = "true" ]]; then
+   docker run --rm                   \
+              --interactive --tty    \
+              -p 4567:4567           \
+              --workdir /${WORKDIR}  \
+              --entrypoint /bin/bash \
+              ${GRAKN_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
+else
+    time docker run --rm                  \
+                    --interactive --tty   \
+                    -p 4567:4567          \
+                    --workdir /${WORKDIR} \
+                    ${GRAKN_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
+fi
