@@ -79,6 +79,10 @@ $ GRAKN_VERSION="x.y.z" ./push-grakn-docker-image-to-hub.sh
 
 The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
 
+**Docker image on Docker Hub**
+
+Find the [Grakn Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/grakn). The `push-grakn-docker-image-to-hub.sh` script pushes the image to the Docker hub and the `runGraknInDocker.sh` script runs it from the local repository. If absent, in the the local repository, it downloads this image from Docker Hub.
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
