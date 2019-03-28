@@ -78,6 +78,8 @@ Run the docker container to start running the programs:
     $ DOCKER_USER_NAME="your_docker_username" ./runDockerImage.sh
     or
     $ IMAGE_VERSION="x.y.z" ./runDockerImage.sh
+    or run in Debug mode
+    $ DEBUG="true" ./runDockerImage.sh
 ```
 
 
@@ -108,15 +110,8 @@ See [better-nlp-spacy-texacy-examples.ipynb](better-nlp-spacy-texacy-examples.ip
 
 The Jupyter lab instance is executed the moment the docker container is run via `runDockerImage.sh`. Look for mesages like these in the docker container terminal:
 
-```
-...
-[I 02:23:16.784 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 02:23:16.792 LabApp]
+![Docker-container-console-Jupyter-lab-loading.png](Docker-container-console-Jupyter-lab-loading.png)
 
-    To access the notebook, open this file in a browser:
-        file:///root/.local/share/jupyter/runtime/nbserver-1-open.html
-    Or copy and paste one of these URLs:
-        http://(faee8756200a or 127.0.0.1):8888/?token=7f5a489e85dd6f5b06232173b946de772e1f2df41c004328
-...
-```
-The above listed URL can be opened in the browser to access the notebook(s) in the current folder.
+The above listed URL can be opened in the browser to access the notebook(s) in the current folder:
+
+![Better-NLP-in-Jupyter-Notebook.png](Better-NLP-in-Jupyter-Notebook.png)
