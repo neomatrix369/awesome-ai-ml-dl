@@ -100,26 +100,23 @@ Find the [Better NLP Image on Docker Hub](https://hub.docker.com/r/neomatrix369/
 
 ## Example code
 
-### Extract noun chunks from text
+See [Examples and results](Examples.md)
+
+## Jupyter Notebook
+
+See [better-nlp-spacy-texacy-examples.ipynb](better-nlp-spacy-texacy-examples.ipynb) to see the examples fleshed out in the notebook. More compact to work with and efficient (model can be loaded only once throughout the life-cycle of the kernel).
+
+The Jupyter lab instance is executed the moment the docker container is run via `runDockerImage.sh`. Look for mesages like these in the docker container terminal:
 
 ```
-    python3 extract-noun-chunks-from-text.py
-```
+...
+[I 02:23:16.784 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 02:23:16.792 LabApp]
 
-### Extracts facts from text
-
+    To access the notebook, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/nbserver-1-open.html
+    Or copy and paste one of these URLs:
+        http://(faee8756200a or 127.0.0.1):8888/?token=7f5a489e85dd6f5b06232173b946de772e1f2df41c004328
+...
 ```
-    python3 gather-facts-from-text.py
-```
-
-### Extracts entities from text
-
-```
-    python3 extract-entities-from-text.py            
-```
-
-### Obfuscate details from text for privacy
-
-```
-    python3 obfuscate-privacy-details-in-the-text.py
-```
+The above listed URL can be opened in the browser to access the notebook(s) in the current folder.

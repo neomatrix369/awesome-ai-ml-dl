@@ -1,5 +1,8 @@
 from org.neomatrix369.better_nlp import BetterNLP
 
+model = BetterNLP().load_nlp_model()
+model = model["model"]
+
 print("~~~~~ Started parsing...")
 
 # Can be any factual text or any text to experiment with
@@ -7,7 +10,8 @@ generic_text = """Denis Guedj (1940 – April 24, 2010) was a French novelist an
 at Paris VIII University. He was born in Setif. He spent many years devising courses and games to teach adults and children math. 
 He is the author of Numbers: The Universal Language and of the novel The Parrot's Theorem. He died in Paris. """
 
-chunks = BetterNLP().extract_nouns_chunks(generic_text)
+chunks = BetterNLP().extract_nouns_chunks(model, generic_text)
+chunks = chunks["noun_chunks"]
 
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 set_of_noun_chunks = set(chunks)
