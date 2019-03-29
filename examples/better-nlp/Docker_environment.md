@@ -1,6 +1,6 @@
 # Docker environment
 
-Setting your environment:
+### Setting your environment
 
 Ensure your environment has the below variable set, or set it in your .bashrc or .bash_profile or the relevant startup script:
 
@@ -11,7 +11,7 @@ export DOCKER_USER_NAME="your_docker_username"
 You must have an account on Docker hub under the above user name.
 
 
-Build a docker image with the necessary dependencies:
+### Build a docker image with the necessary dependencies
 
 ```
     $ ./buildDockerImage.sh
@@ -22,7 +22,7 @@ Build a docker image with the necessary dependencies:
 ```
 
 
-Run the docker container to start running the programs:
+### Run the docker container to start running the programs
 
 ```
     $ ./runDockerImage.sh
@@ -35,7 +35,7 @@ Run the docker container to start running the programs:
 ```
 
 
-Push built Better NLP docker image to Docker hub:
+### Push built Better NLP docker image to Docker hub
 
 ```
 $ ./push-better-nlp-docker-image-to-hub.sh
@@ -48,6 +48,6 @@ $ IMAGE_VERSION="x.y.z" ./push-better-nlp-docker-image-to-hub.sh
 The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
 
 
-Docker image on Docker Hub:
+### Docker image on Docker Hub
 
 Find the [Better NLP Image on Docker Hub](https://hub.docker.com/r/neomatrix369/better-nlp). The `push-better-nlp-docker-image-to-hub.sh` script pushes the image to the Docker hub and the `runDockerImage.sh` script runs it from the local repository. If absent, in the the local repository, it downloads this image from Docker Hub.
