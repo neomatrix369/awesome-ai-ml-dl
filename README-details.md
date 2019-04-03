@@ -236,6 +236,7 @@
   + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai)
   + [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
   + [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
+  + [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
 
 # Contributing
 
