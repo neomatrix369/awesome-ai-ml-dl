@@ -101,6 +101,12 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 - https://twitter.com/analyticbridge/status/1102667686302179336
 - https://www.coursera.org/learn/competitive-data-science
 
+## Best practices / rules / an unordered list of high level or low level guidelines
+- https://go.streamsets.com/dzone-wp-12-best-practices-modern-data-ingestion
+- https://streamsets.com/wp-content/uploads/2018/01/WP-12-best-practices-for-modern-data-ingestion.pdf
+- https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p (Paper: https://ai.google/research/pubs/pub46555)
+- https://developers.google.com/machine-learning/guides/rules-of-ml/ 
+
 ## Notebooks
 
 - https://notebooks.azure.com/jakevdp/projects/PythonDataScienceHandbook/tree/notebooks
