@@ -107,6 +107,26 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 - https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p (Paper: https://ai.google/research/pubs/pub46555)
 - https://developers.google.com/machine-learning/guides/rules-of-ml/ 
 
+## Framework(s) / checklist(s)
+
+- https://elitedatascience.com/primer
+- https://machinelearningmastery.com/how-to-prepare-data-for-machine-learning/
+- https://machinelearningmastery.com/what-is-data-mining-and-kdd/
+- http://shawndra.pbworks.com/f/The%20KDD%20process%20for%20extracting%20useful%20knowledge%20from%20volumes%20of%20data.pdf
+- https://www.wi.hs-wismar.de/~cleve/vorl/projects/dm/ss13/HierarClustern/Literatur/WittenFrank-DM-3rd.pdf
+- https://tdwi.org/~/media/64511A895D86457E964174EDC5C4C7B1.PDF
+https://www.coursera.org/learn/data-science-methodology?aid=true
+    - From Problem to Approach and From Requirements to Collection
+        - Business Understanding
+        - Analytic Approach
+        - Data Requirements
+        - Data Collection
+    - From Understanding to Preparation and From Modeling to Evaluation
+        - Data Understanding
+        - Data Preparation
+        - Modeling 
+        - Model Evaluation
+
 ## Notebooks
 
 - https://notebooks.azure.com/jakevdp/projects/PythonDataScienceHandbook/tree/notebooks
