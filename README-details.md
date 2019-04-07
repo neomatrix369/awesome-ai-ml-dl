@@ -223,6 +223,9 @@
     - See [example](examples/apache-zeppelin/README.md) in the `examples/apache-zeppelin` folder
   - JuPyteR notebooks
     - See [example](examples/JuPyteR/README.md) in the `examples/JuPyteR` folder
+  - [Data notebooks](data/README.md#notebooks)
+  - [Bag of words notebook](keras-bag-of-words-expanded-version/data-scripts-notebooks/)
+  - [Better NLP Notebook](./examples/better-nlp/better-nlp-spacy-texacy-examples.ipynb)
 
 ### Articles, papers, code, data, courses
   - [Papers, code, data by Yaz](https://github.com/yazdotai/paper-code-data)

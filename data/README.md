@@ -1,5 +1,14 @@
 # Data preparation, cleaning, validation, model creation, training resources
 
+## Notebooks
+
+- https://notebooks.azure.com/jakevdp/projects/PythonDataScienceHandbook/tree/notebooks
+- A example notebook: [examples/data/notebooks](examples/data/notebooks/)
+- https://notebooks.azure.com/wesm/projects/python-for-data-analysis
+- Regression example: https://colab.research.google.com/drive/19uoDyGAxJ0zCwPT6cNb1xkYOfySNZChV
+- Classification example: https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt
+- https://jakevdp.github.io/PythonDataScienceHandbook/
+
 ## Programs and Tools
 
 ### H2O Driverless AI
