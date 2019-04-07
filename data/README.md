@@ -13,6 +13,24 @@
 - https://serialmentor.com/dataviz/
 - https://medium.com/@msalmon00/helpful-python-code-snippets-for-data-exploration-in-pandas-b7c5aed5ecb9 
 
+## Data preparation
+
+### Data cleaning
+
+- https://elitedatascience.com/data-cleaning
+- https://www.dataversity.net/spend-less-time-cleaning-data-with-machine-learning/# - give tips on which tools to use
+- https://medium.com/@msalmon00/helpful-python-code-snippets-for-data-exploration-in-pandas-b7c5aed5ecb9 lots of python snippets to select / clean / prepare
+- https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html
+
+### Data preprocessing / Data Wrangling
+
+- https://www.infoq.com/articles/ml-data-processing
+- https://machinelearningmastery.com/improve-model-accuracy-with-data-pre-processing/
+
+### Misc
+
+- See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model
+
 ## Course / books
 
 - https://elitedatascience.com/primer
