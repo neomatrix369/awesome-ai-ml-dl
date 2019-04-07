@@ -31,6 +31,12 @@
 
 - See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model
 
+## Feature engineering  / selection
+- https://machinelearningmastery.com/start-here/
+- http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/
+- https://www.kaggle.com/lauracozma/eda-data-cleaning-feature-engineering
+- https://distill.pub/2018/feature-wise-transformations
+
 ## Course / books
 
 - https://elitedatascience.com/primer
