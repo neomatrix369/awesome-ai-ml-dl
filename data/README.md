@@ -1,4 +1,8 @@
-# Data preparation, cleaning, validation, model creation, training resources
+# Data
+
+Page dedicated to data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics
+
+---
 
 ## Data Exploratory Analysis
 
@@ -65,7 +69,7 @@
 
 - http://www.csun.io/2017/08/31/synthetic-cv-dataset.html (Computer Vision example may or may not help, see code https://github.com/csun/syntrain)
 
-### Generate data using GAN: 
+### Generate data using GAN 
 
 - https://blog.paperspace.com/implementing-gans-in-tensorflow/
 - https://akshaybudhkar.com/2018/03/26/generative-adversarial-networks-gans-for-text-using-word2vec/
@@ -82,7 +86,7 @@
 - https://www.kaggle.com/lauracozma/eda-data-cleaning-feature-engineering
 - https://distill.pub/2018/feature-wise-transformations
 
-## Common mistakes when training models (data related):
+## Common mistakes when training models (data related)
 - Having a lot more training examples of one type of object than the other types
 - Accidentally testing the neural network using images that were in the training set
 - Training the neural network on data that is easier to recognize or more consistent than the real-world data it will be used to classify later on
