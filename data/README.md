@@ -1,5 +1,15 @@
 # Data preparation, cleaning, validation, model creation, training resources
 
+## Course / books
+
+- https://elitedatascience.com/primer
+- https://www.analyticsvidhya.com/blog/2019/01/27-amazing-data-science-books-every-data-scientist-should-read/
+- https://www.coursera.org/learn/data-cleaning?recoOrder=20&utm_medium=email&utm_source=recommendations&utm_campaign=u0faoCsqEemEkbug8nMVQQ
+- https://www.udemy.com/courses/search/?ref=home&src=ukw&q=data
+- https://eu.udacity.com/courses/school-of-data-science
+- https://twitter.com/analyticbridge/status/1102667686302179336
+- https://www.coursera.org/learn/competitive-data-science
+
 ## Notebooks
 
 - https://notebooks.azure.com/jakevdp/projects/PythonDataScienceHandbook/tree/notebooks
