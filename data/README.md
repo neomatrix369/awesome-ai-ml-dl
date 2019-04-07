@@ -1,5 +1,18 @@
 # Data preparation, cleaning, validation, model creation, training resources
 
+## Data Exploratory Analysis
+
+- https://elitedatascience.com/python-seaborn-tutorial
+- https://elitedatascience.com/exploratory-analysis
+- https://machinelearningmastery.com/understand-machine-learning-data-descriptive-statistics-python/
+- https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/
+- https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
+- https://dzone.com/articles/exploring-amp-transforming-h2o-data-frame-in-r-and
+- https://www.slideshare.net/0xdata/machine-learning-with-h2o-114163519 (slide 20 onwards)
+- https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/  
+- https://serialmentor.com/dataviz/
+- https://medium.com/@msalmon00/helpful-python-code-snippets-for-data-exploration-in-pandas-b7c5aed5ecb9 
+
 ## Course / books
 
 - https://elitedatascience.com/primer
