@@ -219,16 +219,17 @@
 
 ### Data
   - [Data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics](data/README.md)
-  - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines](https://github.com/donnemartin/data-science-ipython-notebooks)
+  - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command line tools](https://github.com/donnemartin/data-science-ipython-notebooks)
   - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D)
   - [Awesome Datascience](https://github.com/bulutyazilim/awesome-datascience)
   - [Awesome Learn Datascience](https://github.com/siboehm/awesome-learn-datascience)
   - [Data Science for Dummies](http://file.allitebooks.com/20170304/Data%20Science%20For%20Dummies,%202nd%20Edition.pdf)
+  - [Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
   - [Graph databases](./data/README.md#databases)
-    + See the [Grakn example](./examples/data/databases/graph/grakn/README.md) in the `examples/data/databases/graph/grakn` folder
+    - See the [Grakn example](./examples/data/databases/graph/grakn/README.md) in the `examples/data/databases/graph/grakn` folder
   - [BCS APSG - 2019 02 14 How Graph Technology is Changing AI and ML at BCS London](https://www.youtube.com/watch?v=oMqP3ISPWBY)
 
 ### Notebooks
@@ -248,13 +249,14 @@
   - [Course material by Students of AI (Imperial College, London)](https://github.com/Students-for-AI/The-Academy-of-AI)
   - [Data.world's open data - catalog your data, wake up your hidden data workforce, and build a data-driven culture—faster](https://data.world/)
   - [Browse state-of-the-art](https://paperswithcode.com/sota)
+  - [ML/DL/Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
 
 ### Best Practices
 
 - [Best Practices for ML Engineering by Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
 ### Misc
-  + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) | [DS Cheatsheet by mavericklin.com](https://storage.ning.com/topology/rest/1.0/file/get/1211570060?profile=original) | [AI for All Cheatsheet (Montréal.ai Academy)](http://www.montreal.ai/ai4all.pdf)  | [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf) | [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf) 
+  - Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) | [DS Cheatsheet by mavericklin.com](https://storage.ning.com/topology/rest/1.0/file/get/1211570060?profile=original) | [AI for All Cheatsheet (Montréal.ai Academy)](http://www.montreal.ai/ai4all.pdf)  | [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf) | [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf) 
   - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
   - [Data Analytics to Support Total WSH Management](https://www.osha-singapore.com/pdf/Goh-Yang-Miang--Data-Analytics-to-Support-Total-WSH-Management.pdf)
   - [The Ultimate Learning Path to Become a Data Scientist and Master Machine Learning](https://www.analyticsvidhya.com/blog/2019/01/learning-path-data-scientist-machine-learning-2019/)

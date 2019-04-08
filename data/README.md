@@ -86,10 +86,24 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 - [Zillow Prize - EDA, Data Cleaning & Feature Engineering](https://www.kaggle.com/lauracozma/eda-data-cleaning-feature-engineering)
 - [Feature-wise transformations](https://distill.pub/2018/feature-wise-transformations)
 
+## Statistics
+
+- [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
+- Statistical Inferencing
+    - [Understanding statistical inference [video]](https://www.youtube.com/watch?v=tFRXsngz4UQ)
+    - [Four ideas of Statistical Inference](http://www.bristol.ac.uk/medical-school/media/rms/red/4_ideas_of_statistical_inference.html)
+    - [An Introduction to Statistical Learning [book]](http://www-bcf.usc.edu/~gareth/ISL/)
+    - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
+
 ## Common mistakes when training models (data related)
+
 - Having a lot more training examples of one type of object than the other types
 - Accidentally testing the neural network using images that were in the training set
 - Training the neural network on data that is easier to recognize or more consistent than the real-world data it will be used to classify later on
+
+## Cheatsheets
+
+See under [Data Science and related cheatsheets](../README-details.md#misc-1) and also under [Tools & Libraries, Cheatsheets, Resources](../README-details.md#tools--libraries-cheatsheets-resources)
 
 ## Course / books
 
@@ -142,15 +156,6 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 ## Programs and Tools
 
 See [Programs and Tools](programs-and-tools.md)
-
-## Statistics
-
-- [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
-- Statistical Inferencing
-    - [Understanding statistical inference [video]](https://www.youtube.com/watch?v=tFRXsngz4UQ)
-    - [Four ideas of Statistical Inference](http://www.bristol.ac.uk/medical-school/media/rms/red/4_ideas_of_statistical_inference.html)
-    - [An Introduction to Statistical Learning [book]](http://www-bcf.usc.edu/~gareth/ISL/)
-    - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
 
 ## Databases
 - [Grakn and Graql](http://grakn.ai/) - not just graphs, or graph database knowledge graphs | [Docs | Quick start](https://dev.grakn.ai/docs/general/quickstart) | [GitHub](https://github.com/graknlabs/grakn)
