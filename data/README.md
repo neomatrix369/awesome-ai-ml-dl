@@ -25,13 +25,14 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 - [Spend Less Time Cleaning Data with Machine Learning](https://www.dataversity.net/spend-less-time-cleaning-data-with-machine-learning/#)
 - [Helpful Python Code Snippets for Data Exploration in Pandas](https://medium.com/@msalmon00/helpful-python-code-snippets-for-data-exploration-in-pandas-b7c5aed5ecb9) - lots of python snippets to select / clean / prepare
 - [Working with missing data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html)
+- [Journal of Statistical Software - TidyData](https://www.jstatsoft.org/article/view/v059i10/)
 
 ### Data preprocessing / Data Wrangling
 
 - [Data Preprocessing vs. Data Wrangling in Machine Learning Projects](https://www.infoq.com/articles/ml-data-processing)
 - [Improve Model Accuracy with Data Pre-Processing](https://machinelearningmastery.com/improve-model-accuracy-with-data-pre-processing/)
 
-### Misc
+#### Misc
 
 - See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model
 
@@ -99,6 +100,7 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 - [Data courses on Udemy](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=data)
 [Data courses on Udacity](https://eu.udacity.com/courses/school-of-data-science)
 - [Latest Machine learning, visualization, data mining techniques. Online Masters in Data Analytic from Penn State](https://twitter.com/analyticbridge/status/1102667686302179336)
+- [Data Science Handbook](https://github.com/RishiSankineni/Data-Science-Swag/blob/master/The%20Data%20Science%20Handbook.pdf)
 
 ## Best practices / rules / an unordered list of high level or low level guidelines
 - [12 Best Practices for Modern Data Ingestion](https://go.streamsets.com/dzone-wp-12-best-practices-modern-data-ingestion)
@@ -140,6 +142,15 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 
 See [Programs and Tools](programs-and-tools.md)
 
+## Statistics
+
+- [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
+- Statistical Inferencing
+    - [Understanding statistical inference [video]](https://www.youtube.com/watch?v=tFRXsngz4UQ)
+    - [Four ideas of Statistical Inference](http://www.bristol.ac.uk/medical-school/media/rms/red/4_ideas_of_statistical_inference.html)
+    - [An Introduction to Statistical Learning [book]](http://www-bcf.usc.edu/~gareth/ISL/)
+    - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
+
 ## Databases
 - [Grakn and Graql](http://grakn.ai/) - not just graphs, or graph database knowledge graphs | [Docs | Quick start](https://dev.grakn.ai/docs/general/quickstart) | [GitHub](https://github.com/graknlabs/grakn)
     + See [example](../examples/data/databases/graph/grakn/README.md) in the `../examples/data/databases/graph/grakn` folder
@@ -152,7 +163,6 @@ See [Programs and Tools](programs-and-tools.md)
 
 - [How to build a data science project from scratch](https://www.kdnuggets.com/2018/12/build-data-science-project-from-scratch.html)
 - [Common mistakes when carrying out machine learning and data science](https://www.kdnuggets.com/2018/12/common-mistakes-data-science.html)
-- [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae)
 - [A Rubric for ML Production Readiness - Breck et al. 2017 by Jiameng Gao (28 rules to follow, suggested by Google)](https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p) | [Original Paper by Google](https://ai.google/research/pubs/pub46555)
 
 # Contributing

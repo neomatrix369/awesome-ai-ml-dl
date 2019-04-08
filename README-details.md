@@ -127,6 +127,7 @@
    - [A tensorflow implementation of "Deep Convolutional Generative Adversarial Networks"](https://github.com/carpedm20/DCGAN-tensorflow)
    - [Collection of generative models, e.g. GAN, VAE in Pytorch and Tensorflow](https://github.com/wiseodd/generative-models)
    - [A probabilistic programming language in TensorFlow. Deep generative models, variational inference](https://github.com/blei-lab/edward)
+   - [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/pdf/1805.06605.pdf)
 
   #### Natural Language Processing (NLP)
    - [Keras (bag of words) post - expanded version](keras-bag-of-words-expanded-version/README.md)
@@ -205,12 +206,20 @@
     + [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
     - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
 
+### Mathematics & Statistics
+  - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
+  - [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
+  + [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
+  + [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
+  + [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
+
 ### Data
   - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
   - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines](https://github.com/donnemartin/data-science-ipython-notebooks)
   - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D)
   - [Awesome Datascience](https://github.com/bulutyazilim/awesome-datascience)
   - [Awesome Learn Datascience](https://github.com/siboehm/awesome-learn-datascience)
+  - [Data Science for Dummies](http://file.allitebooks.com/20170304/Data%20Science%20For%20Dummies,%202nd%20Edition.pdf)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
@@ -234,12 +243,17 @@
   - [List of articles related to deep learning applied to music](https://github.com/ybayle/awesome-deep-learning-music)
   - [Course material by Students of AI (Imperial College, London)](https://github.com/Students-for-AI/The-Academy-of-AI)
   - [Data.world's open data - catalog your data, wake up your hidden data workforce, and build a data-driven culture—faster](https://data.world/)
+  - [Browse state-of-the-art](https://paperswithcode.com/sota)
+
+### Best Practices
+
+- [Best Practices for ML Engineering by Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
 ### Misc
-  + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai)
-  + [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
-  + [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
-  + [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
+  + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) | [DS Cheatsheet by mavericklin.com](https://storage.ning.com/topology/rest/1.0/file/get/1211570060?profile=original) | [AI for All Cheatsheet (Montréal.ai Academy)](http://www.montreal.ai/ai4all.pdf)  | [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf) | [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf) 
+  + [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
+  + [Data Analytics to Support Total WSH Management](https://www.osha-singapore.com/pdf/Goh-Yang-Miang--Data-Analytics-to-Support-Total-WSH-Management.pdf)
+  + [The Ultimate Learning Path to Become a Data Scientist and Master Machine Learning](https://www.analyticsvidhya.com/blog/2019/01/learning-path-data-scientist-machine-learning-2019/)
 
 # Contributing
 
