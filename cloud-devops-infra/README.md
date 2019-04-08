@@ -18,12 +18,12 @@
 
 #### CPU
   - Probing the CPU (Linux/MacOS)
-      + [libcpuid](http://libcpuid.sourceforge.net/index.html)
+      - [libcpuid](http://libcpuid.sourceforge.net/index.html)
       + Zero overhead performance capturing: use `/proc/interrupts` and `/proc/softirqs`
       + Non-zero overhead, less accurate: use the PMU (capture on- and off-core events)
   - Probing the CPU (Windows)
-      + [perfview](https://github.com/Microsoft/perfview) - general profiling on Windows
-      + [perfview for .net](https://www.infoq.com/presentations/perfview-net) - excellent overview by Sasha Goldshtein
+      - [perfview](https://github.com/Microsoft/perfview) - general profiling on Windows
+      - [perfview for .net](https://www.infoq.com/presentations/perfview-net) - excellent overview by Sasha Goldshtein
  
  _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
 

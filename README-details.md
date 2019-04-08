@@ -195,23 +195,23 @@
     - [Mathematica on Wikipedia](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
     - [Mathematica for prediction algorithms](https://mathematicaforprediction.wordpress.com/category/artificial-intelligence/)
   * Stephen Wolfram
-    + [Stephen Wolfram: Knowledge Engine](https://lexfridman.com/stephen-wolfram/)
-    + [Stephen Wolfram: Artificial Intelligence blogs](https://blog.stephenwolfram.com/category/artificial-intelligence/?source=wordcloud)
+    - [Stephen Wolfram: Knowledge Engine](https://lexfridman.com/stephen-wolfram/)
+    - [Stephen Wolfram: Artificial Intelligence blogs](https://blog.stephenwolfram.com/category/artificial-intelligence/?source=wordcloud)
   - Wolfram
-    + [Wolfram Language Artificial Intelligence](https://blog.stephenwolfram.com/2015/05/wolfram-language-artificial-intelligence-the-image-identification-project/)
-    + [Wolfram Language & System](https://reference.wolfram.com/language/)
-    + [WolframResearch](https://github.com/WolframResearch)
-    + [Wolfram Community](https://community.wolfram.com/)  
-    + [Open Source materials from Wolfram](https://wolfram.com/open-materials/)
-    + [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
+    - [Wolfram Language Artificial Intelligence](https://blog.stephenwolfram.com/2015/05/wolfram-language-artificial-intelligence-the-image-identification-project/)
+    - [Wolfram Language & System](https://reference.wolfram.com/language/)
+    - [WolframResearch](https://github.com/WolframResearch)
+    - [Wolfram Community](https://community.wolfram.com/)
+    - [Open Source materials from Wolfram](https://wolfram.com/open-materials/)
+    - [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
     - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
 
 ### Mathematics & Statistics
   - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
   - [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
-  + [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
-  + [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
-  + [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
+  - [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
+  - [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
+  - [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
 
 ### Data
   - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
@@ -251,9 +251,9 @@
 
 ### Misc
   + Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) | [DS Cheatsheet by mavericklin.com](https://storage.ning.com/topology/rest/1.0/file/get/1211570060?profile=original) | [AI for All Cheatsheet (Montréal.ai Academy)](http://www.montreal.ai/ai4all.pdf)  | [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf) | [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf) 
-  + [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
-  + [Data Analytics to Support Total WSH Management](https://www.osha-singapore.com/pdf/Goh-Yang-Miang--Data-Analytics-to-Support-Total-WSH-Management.pdf)
-  + [The Ultimate Learning Path to Become a Data Scientist and Master Machine Learning](https://www.analyticsvidhya.com/blog/2019/01/learning-path-data-scientist-machine-learning-2019/)
+  - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
+  - [Data Analytics to Support Total WSH Management](https://www.osha-singapore.com/pdf/Goh-Yang-Miang--Data-Analytics-to-Support-Total-WSH-Management.pdf)
+  - [The Ultimate Learning Path to Become a Data Scientist and Master Machine Learning](https://www.analyticsvidhya.com/blog/2019/01/learning-path-data-scientist-machine-learning-2019/)
 
 # Contributing
 
