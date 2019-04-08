@@ -98,7 +98,8 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 - [Coursera course: Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning?recoOrder=20&utm_medium=email&utm_source=recommendations&utm_campaign=u0faoCsqEemEkbug8nMVQQ)
 - [Data Science courses on Coursera](https://www.coursera.org/learn/competitive-data-science)
 - [Data courses on Udemy](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=data)
-[Data courses on Udacity](https://eu.udacity.com/courses/school-of-data-science)
+- [Data courses on Udacity](https://eu.udacity.com/courses/school-of-data-science)
+- [Learn Data Science by bitgrit](https://github.com/bitgrit-official/learndatascience)
 - [Latest Machine learning, visualization, data mining techniques. Online Masters in Data Analytic from Penn State](https://twitter.com/analyticbridge/status/1102667686302179336)
 - [Data Science Handbook](https://github.com/RishiSankineni/Data-Science-Swag/blob/master/The%20Data%20Science%20Handbook.pdf)
 
