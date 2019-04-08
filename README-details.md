@@ -224,6 +224,7 @@
   - [Awesome Learn Datascience](https://github.com/siboehm/awesome-learn-datascience)
   - [Data Science for Dummies](http://file.allitebooks.com/20170304/Data%20Science%20For%20Dummies,%202nd%20Edition.pdf)
   - [Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
+  - [Learn Data Science by bitgrit](https://github.com/bitgrit-official/learndatascience)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
