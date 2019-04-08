@@ -144,8 +144,8 @@ See under [Cheatsheets](../README-details.md#cheatsheets)
 
 ## Notebooks
 
-- [Python Data Science Handbook on Azure git repo](https://noteboo ks.azure.com/jakevdp/projects/PythonDataScienceHandbook/tree/notebooks)
-- [Python for data analysis](https://notebooks.azure.com/wesm/projects/python-for-data-analysis)
+- [Python Data Science Handbook on Azure git repo](https://notebooks.azure.com/jakevdp/projects/PythonDataScienceHandbook/tree/notebooks)
+- [Python for Data Analysis on Azure git repo](https://notebooks.azure.com/wesm/projects/python-for-data-analysis)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - House prices
     - Old example notebook: [examples/data/notebooks](examples/data/notebooks/)
