@@ -218,7 +218,7 @@
   - [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
 
 ### Data
-  - [Data preparation, cleaning, validation, model creation, training resources](data/README.md)
+  - [Data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics](data/README.md)
   - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines](https://github.com/donnemartin/data-science-ipython-notebooks)
   - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D)
   - [Awesome Datascience](https://github.com/bulutyazilim/awesome-datascience)
