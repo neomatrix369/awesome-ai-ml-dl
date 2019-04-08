@@ -210,6 +210,8 @@
   - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
   - [Statistics for Machine learning (paid book: Packt Publishing)](https://www.packtpub.com/big-data-and-business-intelligence/statistics-machine-learning)
   - [Topic-wise notes: maths & stats](https://www.ctanujit.org/notes.html)
+  - [5 Lesson 5 Measures Of Skewness And Kurtosis](https://sol.du.ac.in/mod/book/view.php?chapterid=1067&id=1317)
+  - [Data Types in Statistics](https://towardsdatascience.com/data-types-in-statistics-347e152e8bee)
   - [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
   - [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
   - [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
