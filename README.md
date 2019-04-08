@@ -21,7 +21,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
  	    - Long Short Term Memory (LSTM)
  	    - Recurrent Neural Network (RNN)
     - [Recommendation systems / Collaborative Filtering (CF)](README-details.md#recommendation-systems--collaborative-filtering-cf)
-    - [Tools & Libraries, Cheatsheets, Resources](README-details.md#tools--libraries-cheatsheets-resources)
+    - [Tools & Libraries, Resources](README-details.md#tools--libraries-other-resources)
     - [How-to / Deploy / DevOps / Serverless](README-details.md#how-to--deploy--devops--serverless)
     - [Misc](README-details.md#misc)
   - [Clojure](README-details.md#clojure)
@@ -42,6 +42,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
   - [Notebooks](README-details.md#notebooks)
   - [Articles, papers, code, data, courses](README-details.md#articles-papers-code-data)
+  - [Cheatsheets](README-details.md#cheatsheets)
   - [Misc](README-details.md#misc-1)
 - [Contributing](#contributing)
 

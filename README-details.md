@@ -81,9 +81,8 @@
 #### Recommendation systems / Collaborative Filtering (CF)
   - [Tutorial on Collaborative Filtering (CF) in Java – a machine learning technique used by recommendation systems](https://www.baeldung.com/java-collaborative-filtering-recommendations) ([Tweet](https://twitter.com/java/status/985150431549632513))
 
-#### Tools & Libraries, Cheatsheets, Resources
+#### Tools & Libraries, Other Resources
   - [Best AI tools and libraries](https://skymind.ai/wiki/automl-automated-machine-learning-ai) ([Tweet](https://twitter.com/java/status/1069459966740836352))
-  - [Cheat Sheets for AI, Neural Networks, MachineLearning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463) ([Tweet](https://twitter.com/java/status/1040928213466198016))
   - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)  ([Tweet](https://twitter.com/java/status/931070584896741377))
   - [Free AI Learning Resources For Beginners](https://www.analyticsindiamag.com/here-are-free-ai-learning-resources-for-beginners/) ([Twitter](https://twitter.com/java/status/1013776554868891648))
   - [Check out 50 most popular massive open online courses](https://www.onlinecoursereport.com/the-50-most-popular-moocs-of-all-time/) ([Tweet](https://twitter.com/java/status/984844161969983489))
@@ -255,8 +254,18 @@
 
 - [Best Practices for ML Engineering by Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
+### Cheatsheets
+  - [Cheat Sheets for AI, Neural Networks, MachineLearning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463) ([Tweet](https://twitter.com/java/status/1040928213466198016))
+  - [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) 
+  - [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) 
+  - [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) 
+  - [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) 
+  - [DS Cheatsheet by mavericklin.com](https://storage.ning.com/topology/rest/1.0/file/get/1211570060?profile=original) 
+  - [AI for All Cheatsheet (Montréal.ai Academy)](http://www.montreal.ai/ai4all.pdf)  
+  - [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf) 
+  - [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf)
+
 ### Misc
-  - Cheatsheets: [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) | [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) | [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) | [DS Cheatsheet by mavericklin.com](https://storage.ning.com/topology/rest/1.0/file/get/1211570060?profile=original) | [AI for All Cheatsheet (Montréal.ai Academy)](http://www.montreal.ai/ai4all.pdf)  | [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf) | [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf) 
   - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
   - [Data Analytics to Support Total WSH Management](https://www.osha-singapore.com/pdf/Goh-Yang-Miang--Data-Analytics-to-Support-Total-WSH-Management.pdf)
   - [The Ultimate Learning Path to Become a Data Scientist and Master Machine Learning](https://www.analyticsvidhya.com/blog/2019/01/learning-path-data-scientist-machine-learning-2019/)

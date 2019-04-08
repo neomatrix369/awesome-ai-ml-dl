@@ -103,7 +103,7 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 
 ## Cheatsheets
 
-See under [Data Science and related cheatsheets](../README-details.md#misc-1) and also under [Tools & Libraries, Cheatsheets, Resources](../README-details.md#tools--libraries-cheatsheets-resources)
+See under [Cheatsheets](../README-details.md#cheatsheets)
 
 ## Course / books
 
