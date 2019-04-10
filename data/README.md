@@ -3,6 +3,9 @@
 Page dedicated to data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics
 
 ---
+## Ethics / altruistic motives
+
+See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motives)
 
 ## Data Exploratory Analysis
 

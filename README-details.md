@@ -7,6 +7,12 @@
 - [Automated Machine Learning - Google search results](https://www.google.com/search?ei=b3ktXKfbEqWAjLsPqdOxiAs&q=automated+machine+learning&oq=automated+machine&gs_l=psy-ab.3.0.0j0i20i263j0l5j0i20i263j0l2.187330.192290..193008...3.0..0.70.1100.20......0....1..gws-wiz.....6..35i39j0i131j0i67.2o6PTTxjJjw)
 - [Automated Machine Learning — An Overview](https://medium.com/thinkgradient/automated-machine-learning-an-overview-5a3595d5c4b5)
 
+### Ethics / altruistic motives
+
+- [Data science competitions to build a better world](https://www.drivendata.org/)
+- [An ethics checklist for data scientists](http://deon.drivendata.org/)
+  - [python package: deon](https://pypi.org/project/deon/)
+
 #### Business / General / Semi-technical
 
   - [Extract business value from DS](https://www.forbes.com/sites/oracle/2018/12/05/how-to-extract-business-value-from-data-science-its-all-about-the-teamwork/#6ad2f23a651c) ([Tweet](https://twitter.com/java/status/1070610044926930944))
