@@ -8,6 +8,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 - [Awesome AI-ML-DL](README-details.md#awesome-ai-ml-dl) 
   - [General](README-details.md#general)
+  - [Automation](README-details.md#automation)
   - [Java](README-details.md#java)
     - [Business / General / Semi-technical](README-details.md#business--general--semi-technical)
     - [Classifier / decision trees](README-details.md#classifier--decision-trees)

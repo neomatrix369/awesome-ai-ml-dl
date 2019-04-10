@@ -85,6 +85,8 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 - [Basic Feature Engineering With Time Series Data in Python](http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/)
 - [Zillow Prize - EDA, Data Cleaning & Feature Engineering](https://www.kaggle.com/lauracozma/eda-data-cleaning-feature-engineering)
 - [Feature-wise transformations](https://distill.pub/2018/feature-wise-transformations)
+- [tsfresh](https://tsfresh.readthedocs.io/en/latest/text/introduction.html) - tsfresh is used to to extract characteristics from time series
+- [featuretools](https://github.com/featuretools/featuretools/) - an open source python framework for automated feature engineering
 
 ## Statistics
 
