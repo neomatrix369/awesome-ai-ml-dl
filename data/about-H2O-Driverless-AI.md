@@ -4,6 +4,13 @@
 - Installation
   - Linux:  https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.4.2-9/docs/userguide/installing.html (See relevant Linux category) (server app via browser)
   - MacOS:  https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.4.2-9/docs/userguide/install/mac-osx.html?highlight=mac (desktop app via Docker container via browser)
+- Resources
+    - https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.4.2-9/docs/booklets/DriverlessAIBooklet.pdf
+    - https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.4.2-9/docs/booklets/MLIBooklet.pdf
+    - Videos
+        - https://www.youtube.com/results?search_query=h2o+driverless
+        - https://www.youtube.com/watch?v=yzAhjinmdzk
+        - https://www.youtube.com/watch?v=axIqeaUhow0
 
 ---
 

@@ -276,6 +276,7 @@
   - [AI for All Cheatsheet (Montréal.ai Academy)](http://www.montreal.ai/ai4all.pdf)  
   - [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf) 
   - [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf)
+  - H2O and R: [1](https://github.com/rstudio/cheatsheets/blob/master/h2o.pdf) [2](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/algo-params/calibrate_model.html#examples)
 
 ### Misc
   - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
