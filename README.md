@@ -42,6 +42,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Data](README-details.md#data)
   - [Graphs](README-details.md#graphs)
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
+  - [Time-series / anamoly detection](time-series_anamoly-detection/README.md)
   - [Notebooks](README-details.md#notebooks)
   - [Articles, papers, code, data, courses](README-details.md#articles-papers-code-data)
   - [Cheatsheets](README-details.md#cheatsheets)
