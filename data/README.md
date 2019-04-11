@@ -7,6 +7,14 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 
 See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motives)
 
+## Datasets and sources of raw data
+
+- [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+- [GeoPlatform Data.gov Search ](https://data.geoplatform.gov/)
+- [Data.gov - Data Catalog](https://catalog.data.gov/dataset)
+- [TidyTuesday projects on GitHub](https://github.com/rfordatascience/tidytuesday)
+- [Enron Email Digest Dataset](https://www.cs.cmu.edu/~enron/)
+
 ## Data Exploratory Analysis
 
 - [The Ultimate Python Seaborn Tutorial: Gotta Catch ‘Em All](https://elitedatascience.com/python-seaborn-tutorial)
