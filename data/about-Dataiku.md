@@ -21,11 +21,11 @@
 - [x] **[Data analytics: manual / tools available]** 
 - [x] **[Data visualisation: manual / tools available]**
 - [x] **[Data cleaning: manual]** 
-- [x] **[Data validation: sem-automatic/manual]** 
+- [x] **[Data validation: semi-automatic/manual]** 
 - [x] **[Feature extraction: manual/tools available]** 
 - [ ] [Model creation: available] 
 - [ ] [Execute experiments: available]
 - [ ] [Hyper parameter tuning: available] 
 - [ ] [Model saving: available]
 
-Back to [Data preparation, cleaning, validation, model creation, training resources](prep-cleaning-validation-model-creation-training-resources.md).
+Back to [Data preparation, cleaning, validation, model creation, training resources](README.md).

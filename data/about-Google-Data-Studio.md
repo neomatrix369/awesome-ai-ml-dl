@@ -38,4 +38,4 @@
 - [ ] [Hyper parameter tuning: available] 
 - [ ] [Model saving: available]
 
-Back to [Data preparation, cleaning, validation, model creation, training resources](prep-cleaning-validation-model-creation-training-resources.md).
+Back to [Data preparation, cleaning, validation, model creation, training resources](README.md).
