@@ -3,13 +3,20 @@
 ## General
 
 - [Awesome NLP](https://github.com/keon/awesome-nlp)
-- [Introductory: NLP for hackers](https://nlpforhackers.io/deep-learning-introduction/)
-- [Intermediate (by Jason Brownlee): Applications of Deep Learning for NLP](https://machinelearningmastery.com/applications-of-deep-learning-for-natural-language-processing/)
-- [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+- [Google open-sources BERT, a state-of-the-art pretraining technique for natural language processing](https://venturebeat.com/2018/11/02/google-open-sources-bert-a-state-of-the-art-training-technique-for-natural-language-processing/)
 - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
 - [Top free software: text analysis, text mining](https://www.predictiveanalyticstoday.com/top-free-software-for-text-analysis-text-mining-text-analytics/)
 - [king - man + woman is queen; but why?](https://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)
 - [The 4 Biggest Open Problems in NLP](http://ruder.io/4-biggest-open-problems-in-nlp/)
+- [OpenAI let us try its state-of-the-art NLP text generator](https://venturebeat.com/2019/02/14/openai-let-us-generate-text-with-an-ai-model-that-achieves-state-of-the-art-performance-in-several-nlp-tasks/)
+
+## Courses, Tutorial, Learning resource
+- [Introductory: NLP for hackers](https://nlpforhackers.io/deep-learning-introduction/)
+- [Intermediate (by Jason Brownlee): Applications of Deep Learning for NLP](https://machinelearningmastery.com/applications-of-deep-learning-for-natural-language-processing/)
+- [Learn Natural Language Processing: From Beginner to Expert](https://www.commonlounge.com/discussion/c1f472553ece4d68bad9bd423fb775cf)
+- [How to Get Started with Deep Learning for Natural Language Processing (7-Day Mini-Course)](https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/)
+- [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
+- [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
 
 ## Cloud
 - [Cloud based-example: NLP API to analyze Harry Potter & The New York Times](https://cloud.google.com/blog/products/gcp/using-the-cloud-natural-language-api-to-analyze-harry-potter-and-the-new-york-times)
@@ -26,6 +33,7 @@
 - [H2O Driverless AI](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/nlp.html) 
    - [Sudalai Rajkumar (SRK), H2O.ai - NLP with H2O Driverless AI - H2O World SF](https://www.youtube.com/watch?v=PJs_2Kyw_RQ&amp;feature=youtu.be)
    - [Carmelo Iaria, AI Academy - How The AI Academy is accelerating NLP projects with Driverless AI](https://www.youtube.com/watch?v=aXPE6IiKRmI&amp;feature=youtu.be)
+- [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/)
 
 ## Sentiment analysis
 
