@@ -126,7 +126,6 @@
 #### Misc
   - [Introduction to interactive Data Lake Queries](https://blogs.oracle.com/bigdata/interactive-data-lake-queries-at-scale) ([Tweet](https://twitter.com/java/status/989047609259151360))
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
-  - [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
   - [Videos of various AI/ML related topics by AI Enterprise](https://www.youtube.com/channel/UC1PncmBLZMqlodEt7atfFuw)
   - [Real-Time Application of Machine Learning to Geolocation using Spark and Kafka](https://www.youtube.com/watch?v=17OUbWR8UKo) | [Slides](https://www.slideshare.net/caroljmcdonald/analysis-of-popular-uber-locations-using-apache-apis-spark-machine-learning-structured-streaming-kafka-with-mapres-and-maprdb) | [Carol's post "Tips and Best Practices to Take Advantage of Spark 2.x"](https://mapr.com/blog/tips-and-best-practices-to-take-advantage-of-spark-2-x/)
 
@@ -241,7 +240,7 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
     - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
 
-### Mathematics & Statistics
+### Mathematics, Statistics, Probability & Probabilistic programming
   - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
   - [Statistics for Machine learning (paid book: Packt Publishing)](https://www.packtpub.com/big-data-and-business-intelligence/statistics-machine-learning)
   - [Topic-wise notes: maths & stats](https://www.ctanujit.org/notes.html)
@@ -256,6 +255,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Colin Carroll’s presentation: Tidy and beautiful - Visualizing Bayesian models with xarray and ArviZ](https://colcarroll.github.io/arviz_pydata_nyc/#/) | [Colin Carroll](https://twitter.com/colindcarroll)
   - [Thomas Wiecki’s presentation: Machine Learning and Statistics - don't mind the gap](https://docs.google.com/presentation/d/1buknIrG5b8u0twrwvlxcTudIOdx68AlqDiST_A_jJ9g/edit#slide=id.g3dc76d9ec1_0_6) | [Thomas Wiecki](https://twitter.com/twiecki)
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
+  - [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
 
 ### Data
   - [Data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics](data/README.md)

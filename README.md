@@ -38,7 +38,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [More...](README-details.md#more)
   - [JavaScript](README-details.md#javascript)
   - [Mathematica](README-details.md#mathematica)
-  - [Mathematics & Statistics](README-details.md#mathematics--statistics)
+  - [Mathematics, Statistics, Probability & Probabilistic programming](README-details.md#mathematics-statistics-probability--probabilistic-programming)
   - [Data](README-details.md#data)
   - [Graphs](README-details.md#graphs)
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)

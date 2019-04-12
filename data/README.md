@@ -107,7 +107,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
     - [Four ideas of Statistical Inference](http://www.bristol.ac.uk/medical-school/media/rms/red/4_ideas_of_statistical_inference.html)
     - [An Introduction to Statistical Learning [book]](http://www-bcf.usc.edu/~gareth/ISL/)
     - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
-- For more, see [Mathematics & Statistics](../README-details.md#mathematics--statistics)
+- For more, see [Mathematics, Statistics, Probability & Probabilistic programming](../README-details.md#mathematics-statistics-probability--probabilistic-programming)
 
 ## Visualisation
 
