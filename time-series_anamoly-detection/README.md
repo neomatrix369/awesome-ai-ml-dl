@@ -1,7 +1,7 @@
-## Time-series / anamoly detection
+## Time-series / anomaly detection
 
 ### Time-series
-- H2O
+  - H2O
     - [Driverless AI's time-series support](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/time-series.html)
     - [Time Series with Driverless AI - Marios Michailidis and Mathias Müller - H2O AI World London 2018](https://www.youtube.com/watch?v=EGVY7-Spv8E)
   - [App that will plot a single time-series sensor history and make predictions using Prophet](https://github.com/robmarkcole/HASS-time-series-prediction)
@@ -9,15 +9,17 @@
   - [PyCon 2017 tutorial on time series analysis ](https://github.com/robmarkcole/pycon_time_series)
   - [The Promise of Recurrent Neural Networks for Time Series Forecasting](https://machinelearningmastery.com/promise-recurrent-neural-networks-time-series-forecasting/)
   - [Anomaly Detection for Time Series Data with Deep Learning](https://www.infoq.com/articles/deep-learning-time-series-anomaly-detection)
-  - [Fuzzy Time series notebook](https://colab.research.google.com/drive/1S1QSZfO3YPVr022nwqJC5bEJvrXbqS_A)
-  - [Python Data Science Handbook: Time series notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.11-Working-with-Time-Series.ipynb)
   - [Google Stock Price Time Series Prediction with RNN(LSTM) using pytorch from Scratch](https://in.pycon.org/cfp/2018/proposals/google-stock-price-time-series-prediction-with-rnnlstm-using-pytorch-from-scratch~b67Rd/)
   - [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
   - [Financial: time series](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
   - [Videos by Ashrith Barthur on Security, Time-series and Anomaly detection](https://www.youtube.com/results?search_query=h2o+ashrith)
   - [Playing with time series data in python](https://towardsdatascience.com/playing-with-time-series-data-in-python-959e2485bff8?source=---------45---------------------)
 
-### Anamoly detection
+#### Notebooks
+  - [Fuzzy Time series notebook](https://colab.research.google.com/drive/1S1QSZfO3YPVr022nwqJC5bEJvrXbqS_A)
+  - [Python Data Science Handbook: Time series notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.11-Working-with-Time-Series.ipynb)
+
+### Anomaly detection
   - H2O
     - [Unsupervised anomaly detection, using H2O-3's Deep Learning autoencoders](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/booklets/DeepLearningBooklet.pdf)
     - [Anomaly Detection via H2O Deep Learning Model](http://docs.h2o.ai/h2o/latest-stable/h2o-r/docs/reference/h2o.anomaly.html)
