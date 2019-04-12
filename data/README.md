@@ -108,6 +108,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
     - [Four ideas of Statistical Inference](http://www.bristol.ac.uk/medical-school/media/rms/red/4_ideas_of_statistical_inference.html)
     - [An Introduction to Statistical Learning [book]](http://www-bcf.usc.edu/~gareth/ISL/)
     - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
+- [Applying Physics functions](Trackener-physics-functions-usage-example.pptx)
 - For more, see [Mathematics, Statistics, Probability & Probabilistic programming](../README-details.md#mathematics-statistics-probability--probabilistic-programming)
 
 ## Visualisation
@@ -171,6 +172,7 @@ See under [Cheatsheets](../README-details.md#cheatsheets)
     - Regression example: https://colab.research.google.com/drive/19uoDyGAxJ0zCwPT6cNb1xkYOfySNZChV
     - Classification example: https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt
 - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command line tools](https://github.com/donnemartin/data-science-ipython-notebooks)
+- [Synthetic features and outliers notebook](https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=syntheticfeatures-colab&hl=en#scrollTo=jnKgkN5fHbGy)
 
 ## Programs and Tools
 
