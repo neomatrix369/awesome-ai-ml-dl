@@ -112,7 +112,7 @@
 - Java ML Framework: [1](https://github.com/datumbox/datumbox-framework) [2](http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/)
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
-
+- [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
 #### How-to / Deploy / DevOps / Serverless
   - [Learn how to deploy and manage machine learning models](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/254240417/) ([Tweet](https://t.co/4lcwns0lgo))
@@ -255,6 +255,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Colin Carroll’s presentation: Tidy and beautiful - Visualizing Bayesian models with xarray and ArviZ](https://colcarroll.github.io/arviz_pydata_nyc/#/) | [Colin Carroll](https://twitter.com/colindcarroll)
   - [Thomas Wiecki’s presentation: Machine Learning and Statistics - don't mind the gap](https://docs.google.com/presentation/d/1buknIrG5b8u0twrwvlxcTudIOdx68AlqDiST_A_jJ9g/edit#slide=id.g3dc76d9ec1_0_6) | [Thomas Wiecki](https://twitter.com/twiecki)
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
+  - [Visualization in Bayesian workflow](https://arxiv.org/abs/1709.01449)
   - [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
 
 ### Data
@@ -271,6 +272,10 @@ See [Visualisation](README-details.md#visualisation-1)
 
   - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) 
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
+  - [Data Visualisation by Kaggle.com](https://www.kaggle.com/learn/data-visualization)
+  - [How the BBC Visual and Data Journalism team works with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
+  - [How to visualize convolutional features in 40 lines of code](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)
+  - [Visualization in Bayesian workflow](https://arxiv.org/abs/1709.01449)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)

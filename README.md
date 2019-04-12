@@ -40,6 +40,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Mathematica](README-details.md#mathematica)
   - [Mathematics, Statistics, Probability & Probabilistic programming](README-details.md#mathematics-statistics-probability--probabilistic-programming)
   - [Data](README-details.md#data)
+  - [Visualisation](README-details.md#visualisation-1)
   - [Graphs](README-details.md#graphs)
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
   - [Time-series / anamoly detection](time-series_anamoly-detection/README.md)
