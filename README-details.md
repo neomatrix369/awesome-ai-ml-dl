@@ -72,6 +72,7 @@
   - [Implementing NLP Attention Mechanisms with DeepLearning4J](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/255622367/) ([Tweet](https://twitter.com/java/status/1058405126988161024))
   - [How Stanford CoreNLP, a popular Java natural language tool can help you perform Natural Language Processing tasks](https://stanfordnlp.github.io/CoreNLP/) ([Tweet](https://twitter.com/java/status/945689918289924096))
   - [FREE AI talk on Natural Language Processing NLP using Java with deeplearning4j](https://www.youtube.com/watch?v=XrZ_Y4koV5A&feature=youtu.be) ([Tweet](https://twitter.com/java/status/1062035545394532352))
+  - [Apache OpenNLP](https://opennlp.apache.org/)
 
 #### Neural Networks
 
@@ -99,16 +100,19 @@
   - [Check out 50 most popular massive open online courses](https://www.onlinecoursereport.com/the-50-most-popular-moocs-of-all-time/) ([Tweet](https://twitter.com/java/status/984844161969983489))
   - [Learn about Marvin AI a set of tools, libraries, an embedded server that exposes microservices](https://www.youtube.com/watch?v=M5_yQCRIftw&feature=youtu.be&t=2m31s) ([Tweet](https://twitter.com/java/status/1040980810231250944))
 
-### Data Science 
+#### Data Science 
 
 - [Data Science for Java Developers](https://www.oreilly.com/library/view/data-science-with/9781491934104/ch01.html)
 
-### Machine Learning
+#### Machine Learning
 
 - [ML for Java Developers](https://www.itworld.com/article/3224505/application-development/machine-learning-for-java-developers.html)
 - [ML for Java Developers Course](http://numahub.com/courses/machine-learning-java-developers)
 - [Java ML Dev Videos on YouTube: Naive Bayes w/ JAVA - Tutorial 01](https://www.youtube.com/watch?v=mrP4CyW4tKA&frags=pl%2Cwn)
 - Java ML Framework: [1](https://github.com/datumbox/datumbox-framework) [2](http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/)
+- [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
+- [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
+
 
 #### How-to / Deploy / DevOps / Serverless
   - [Learn how to deploy and manage machine learning models](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/254240417/) ([Tweet](https://t.co/4lcwns0lgo))
@@ -143,6 +147,7 @@
    - [NeptuneML GitHub repo](https://github.com/neptune-ml) | [NeptuneML - Miverna training material, hint: Kaggle competition booster](https://github.com/neptune-ml/minerva-training-materials)
    - [Large-scale linear classification, regression and ranking in Python](https://github.com/scikit-learn-contrib/lightning)
    - [AutoKeras: The Killer of Google’s AutoML](https://towardsdatascience.com/autokeras-the-killer-of-googles-automl-9e84c552a319)
+   - [A curated list of research, applications and projects built using H2O Machine Learning](https://github.com/h2oai/awesome-h2o) | [H2O GitHub org](https://github.com/h2oai/)
 
   #### Generative Adversarial Network (GAN)
    - [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
@@ -152,13 +157,10 @@
    - [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/pdf/1805.06605.pdf)
 
   #### Natural Language Processing (NLP)
-   - [Keras (bag of words) post - expanded version](keras-bag-of-words-expanded-version/README.md)
-   - [Awesome NLP](https://github.com/keon/awesome-nlp)
-   - [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
-   - [BloomburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai)
-   - [Movie Sentiment Analysis at MaM Study Group - sessions occur once a week](https://github.com/machine-learning-study-group/movie-sentiment-analysis)
-   - [Natural Language Procoessing presentation by Ovidiu S.](./presentations/nlp/Natural_Language_Processing_-_MaM.pdf)
-   - [Better NLP library (experimental)](./examples/better-nlp/README.md)
+  See [Natural Language Processing (NLP)](natural-language-processing/README.md)
+
+  #### Data Science
+  - [Data science intro for math/phys background](https://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html)
 
   #### Machine Learning
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
@@ -175,6 +177,8 @@
   - [Machine Learning for Forecasting Chaos by Dr. Edward Ott](https://www.youtube.com/watch?v=ZFYdZWadyD4&feature=youtu.be)
   - [Curriculum – Machine Learning Sabbatical](https://coxy1989.com/curriculum.html)
   - [Curriculum & Log - ML](https://www.alanmartyn.com/)
+  - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
+  - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
 
   #### Deep Learning
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
@@ -184,6 +188,8 @@
    - [Code examples for the Stanford's course: TensorFlow for Deep Learning Research](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
    - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
    - [H2O's Deep Learning tutorial](https://github.com/h2oai/h2o-tutorials/blob/master/tutorials/deeplearning/deeplearning.py)
+   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
+   - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
   
   #### Reinforcement Learning
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
@@ -209,7 +215,12 @@
    - Tensorflow Playground [1](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.87744&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) | [2](http://playground.tensorflow.org/#activation=sigmoid&regularization=L2&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=5,3&seed=0.84062&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=false&discretize_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&playButton_hide=false) | [3](http://playground.tensorflow.org/#activation=linear&regularization=L2&batchSize=10&dataset=gauss&regDataset=reg-plane&learningRate=0.0001&regularizationRate=0&noise=0&networkShape=&seed=0.27124&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=true&discretize_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&playButton_hide=false) | [4](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.29208&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
    - [Bring deep learning into the browser &mdash; In Browser AI](https://inbrowser.ai/)
    - [Run Keras models in the browser, with GPU support using WebGL](https://github.com/transcranial/keras-js)
+   - [Tensorflow.js: bringing ML into the browser](https://skillsmatter.com/skillscasts/11876-tensorflow-js-bringing-ml-into-the-browser)
    - See [this link](https://github.com/josephmisiti/awesome-machine-learning#javascript) for more JavaScript related ML links
+
+#### Visualisation
+
+See [Visualisation](README-details.md#visualisation-1)
 
 ### Mathematica
   - General
@@ -240,6 +251,11 @@
   - [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
   - [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
   - [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
+  - [Skillsmatter: Precision Medicine With Mechanistic, Bayesian Models](https://skillsmatter.com/skillscasts/12129-bayesian-mixer-london-june)
+  - [Chris Fonnesbeck’s presentation: PyMC's Big Adventure - Lessons Learned from the Development of Open-source Software for Probabilistic Programming](https://gitpitch.com/fonnesbeck/neurips_2018_talk#/) | [Chris Fonnesbeck](https://twitter.com/fonnesbeck)
+  - [Colin Carroll’s presentation: Tidy and beautiful - Visualizing Bayesian models with xarray and ArviZ](https://colcarroll.github.io/arviz_pydata_nyc/#/) | [Colin Carroll](https://twitter.com/colindcarroll)
+  - [Thomas Wiecki’s presentation: Machine Learning and Statistics - don't mind the gap](https://docs.google.com/presentation/d/1buknIrG5b8u0twrwvlxcTudIOdx68AlqDiST_A_jJ9g/edit#slide=id.g3dc76d9ec1_0_6) | [Thomas Wiecki](https://twitter.com/twiecki)
+  - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
 
 ### Data
   - [Data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics](data/README.md)
@@ -250,6 +266,11 @@
   - [Data Science for Dummies](http://file.allitebooks.com/20170304/Data%20Science%20For%20Dummies,%202nd%20Edition.pdf)
   - [Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
   - [Learn Data Science by bitgrit](https://github.com/bitgrit-official/learndatascience)
+
+### Visualisation
+
+  - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) 
+  - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)

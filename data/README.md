@@ -107,6 +107,11 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
     - [Four ideas of Statistical Inference](http://www.bristol.ac.uk/medical-school/media/rms/red/4_ideas_of_statistical_inference.html)
     - [An Introduction to Statistical Learning [book]](http://www-bcf.usc.edu/~gareth/ISL/)
     - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
+- For more, see [Mathematics & Statistics](../README-details.md#mathematics--statistics)
+
+## Visualisation
+
+See [Visualisation](../README-details.md#visualisation-1)
 
 ## Common mistakes when training models (data related)
 
@@ -172,7 +177,7 @@ See [Programs and Tools](programs-and-tools.md)
 ## Databases
 - [Grakn and Graql](http://grakn.ai/) - not just graphs, or graph database knowledge graphs | [Docs | Quick start](https://dev.grakn.ai/docs/general/quickstart) | [GitHub](https://github.com/graknlabs/grakn)
     + See [example](../examples/data/databases/graph/grakn/README.md) in the `../examples/data/databases/graph/grakn` folder
-- [Redis Graph](https://oss.redislabs.com/redisgraph/) | [Blogs](https://blog.grakn.ai/?gi=d6874fc57ebb) | [Videos](https://www.youtube.com/channel/UCtZKw0RFof3x23KqGtW3yDA)
+- [Redis Graph](https://oss.redislabs.com/redisgraph/) | [Blogs](https://blog.grakn.ai/?gi=d6874fc57ebb) | [Videos](https://www.youtube.com/channel/UCtZKw0RFof3x23KqGtW3yDA) | [Skillsmatter: how redis enterprise made redis highly available, scalable, durable and cloudnative](https://skillsmatter.com/skillscasts/11886-how-redis-enterprise-made-redis-highly-available-scalable-durable-and-cloudnative)
 - [Neo4j](https://neo4j.com/)
 - [Gun: A realtime, decentralized, offline-first, mutable graph database engine](https://github.com/amark/gun)
 - [Cayley: An open-source graph database](https://github.com/cayleygraph/cayley)
