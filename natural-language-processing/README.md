@@ -14,7 +14,7 @@
 ## Cloud
 - [Cloud based-example: NLP API to analyze Harry Potter & The New York Times](https://cloud.google.com/blog/products/gcp/using-the-cloud-natural-language-api-to-analyze-harry-potter-and-the-new-york-times)
 
-## Library, Framework, Models
+## Library, Framework, Models, Tools
 
 - [BloomburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai)
 - [Better NLP library (experimental)](./examples/better-nlp/)
@@ -23,6 +23,9 @@
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
 - [Standford NLP Group](https://nlp.stanford.edu/)
 - [Google’s Bert](https://github.com/google-research/bert) | [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
+- [H2O Driverless AI](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/nlp.html) 
+   - [Sudalai Rajkumar (SRK), H2O.ai - NLP with H2O Driverless AI - H2O World SF](https://www.youtube.com/watch?v=PJs_2Kyw_RQ&amp;feature=youtu.be)
+   - [Carmelo Iaria, AI Academy - How The AI Academy is accelerating NLP projects with Driverless AI](https://www.youtube.com/watch?v=aXPE6IiKRmI&amp;feature=youtu.be)
 
 ## Sentiment analysis
 
