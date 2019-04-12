@@ -99,6 +99,17 @@
   - [Check out 50 most popular massive open online courses](https://www.onlinecoursereport.com/the-50-most-popular-moocs-of-all-time/) ([Tweet](https://twitter.com/java/status/984844161969983489))
   - [Learn about Marvin AI a set of tools, libraries, an embedded server that exposes microservices](https://www.youtube.com/watch?v=M5_yQCRIftw&feature=youtu.be&t=2m31s) ([Tweet](https://twitter.com/java/status/1040980810231250944))
 
+### Data Science 
+
+- [Data Science for Java Developers](https://www.oreilly.com/library/view/data-science-with/9781491934104/ch01.html)
+
+### Machine Learning
+
+- [ML for Java Developers](https://www.itworld.com/article/3224505/application-development/machine-learning-for-java-developers.html)
+- [ML for Java Developers Course](http://numahub.com/courses/machine-learning-java-developers)
+- [Java ML Dev Videos on YouTube: Naive Bayes w/ JAVA - Tutorial 01](https://www.youtube.com/watch?v=mrP4CyW4tKA&frags=pl%2Cwn)
+- Java ML Framework: [1](https://github.com/datumbox/datumbox-framework) [2](http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/)
+
 #### How-to / Deploy / DevOps / Serverless
   - [Learn how to deploy and manage machine learning models](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/254240417/) ([Tweet](https://t.co/4lcwns0lgo))
   - [How to prepare unstructured data for BI and data analytics AI and MachineLearning](https://www.infoq.com/presentations/ai-data-extraction) ([Tweet](https://twitter.com/java/status/869572617023488001))
