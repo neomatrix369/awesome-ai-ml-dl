@@ -2,7 +2,6 @@
 
 ## General
 
-- [Awesome NLP](https://github.com/keon/awesome-nlp)
 - [Google open-sources BERT, a state-of-the-art pretraining technique for natural language processing](https://venturebeat.com/2018/11/02/google-open-sources-bert-a-state-of-the-art-training-technique-for-natural-language-processing/)
 - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
 - [Top free software: text analysis, text mining](https://www.predictiveanalyticstoday.com/top-free-software-for-text-analysis-text-mining-text-analytics/)
@@ -34,6 +33,21 @@
    - [Sudalai Rajkumar (SRK), H2O.ai - NLP with H2O Driverless AI - H2O World SF](https://www.youtube.com/watch?v=PJs_2Kyw_RQ&amp;feature=youtu.be)
    - [Carmelo Iaria, AI Academy - How The AI Academy is accelerating NLP projects with Driverless AI](https://www.youtube.com/watch?v=aXPE6IiKRmI&amp;feature=youtu.be)
 - [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/)
+- Metaphor detection
+   - [Code for the paper "Neural Metaphor Detection in Context"](https://github.com/NLPAssignment/metaphor-detection)
+   - [Grasping the Finer Point:A Supervised Similarity Network for Metaphor Detection](https://arxiv.org/pdf/1709.00575)
+   - [Learning to Identify Metaphors from a Corpus of Proverbs](https://aclweb.org/anthology/D16-1220)
+   - [Metaphor Detection with Cross-Lingual Model Transfer](https://www.cs.cmu.edu/~anatoleg/metaphor-acl14.pdf)
+   - [Metaphor Interpretation Using Paraphrases Extracted from the Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3779216/)
+- Top libraries
+  - [5 Heroic Tools for Natural Language Processing](https://towardsdatascience.com/5-heroic-tools-for-natural-language-processing-7f3c1f8fc9f0) | [Top 5 Python NLP Libraries to Build a Human like Applications](https://www.datasciencelearner.com/top-5-python-nlp-libraries-to-build-a-human-like-application/) | [5 Heroic Python NLP Libraries](https://elitedatascience.com/python-nlp-libraries) | [5 open source tools for taming text](https://opensource.com/business/15/7/five-open-source-nlp-tools) | [Comparing the Functionality of Open Source Natural Language Processing Libraries](https://blog.dominodatalab.com/comparing-the-functionality-of-open-source-natural-language-processing-libraries/)
+  - [Comparison of Top 6 Python NLP Libraries](https://www.kdnuggets.com/2018/07/comparison-top-6-python-nlp-libraries.html) | [Comparison of Top 6 Python NLP Libraries](https://activewizards.com/blog/comparison-of-python-nlp-libraries/)
+  - [Top 10 Python Libraries for Natural Language Processing (2018)](https://kleiber.me/blog/2018/02/25/top-10-python-nlp-libraries-2018/)
+  - Quora: best NLP library question: [1](https://www.quora.com/Which-library-is-best-for-NLP) | [2](https://www.quora.com/What-is-the-best-natural-language-processing-API-library-service-today) | [3](https://www.quora.com/Natural-Language-Processing-What-are-the-best-libraries-for-extracting-data-from-PDF-files)
+  - [Awesome NLP](https://github.com/keon/awesome-nlp)
+  - [Python NLP for Hackers](https://nlpforhackers.io/libraries/)
+  - [NLP vs NLU vs NLG (Know what you are trying to achieve) NLP engine (Part-1)](https://towardsdatascience.com/nlp-vs-nlu-vs-nlg-know-what-you-are-trying-to-achieve-nlp-engine-part-1-1487a2c8b696)
+  - [NLP engine(Part-2) -> Best Text Processing tools or libraries for Natural Language Processing](https://towardsdatascience.com/nlp-engine-part-2-best-text-processing-tools-or-libraries-for-natural-language-processing-c7fd80f456e3)
 
 ## Sentiment analysis
 
