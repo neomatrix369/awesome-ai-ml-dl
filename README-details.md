@@ -300,6 +300,7 @@ See [Visualisation](README-details.md#visualisation-1)
 ### Best Practices
 
 - [Best Practices for ML Engineering by Martin Zinkevich](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
+- See also [Best practices / rules / an unordered list of high level or low level guidelines](data/README.md#best-practices--rules--an-unordered-list-of-high-level-or-low-level-guidelines)
 
 ### Cheatsheets
   - [Cheat Sheets for AI, Neural Networks, MachineLearning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463) ([Tweet](https://twitter.com/java/status/1040928213466198016))
