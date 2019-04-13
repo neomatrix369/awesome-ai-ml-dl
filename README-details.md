@@ -161,7 +161,8 @@
   See [Natural Language Processing (NLP)](natural-language-processing/README.md)
 
   #### Data Science
-  - [Data science intro for math/phys background](https://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html)
+  - [Data science intro for math/phys background by Poitr Migdal](https://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html)
+  - [What I do or: science to data science by Poitr Migdal](https://p.migdal.pl/2015/12/14/sci-to-data-sci.html)
 
   #### Machine Learning
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
