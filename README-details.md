@@ -149,6 +149,10 @@
    - [AutoKeras: The Killer of Google’s AutoML](https://towardsdatascience.com/autokeras-the-killer-of-googles-automl-9e84c552a319)
    - [A curated list of research, applications and projects built using H2O Machine Learning](https://github.com/h2oai/awesome-h2o) | [H2O GitHub org](https://github.com/h2oai/)
    - [Tutorial: Advanced Jupyter Notebooks](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/)
+   - [Scipy Lecture Notes: One document to learn numerics, science, and data with Python](http://scipy-lectures.org/)
+   - [Web Scraping - It’s Your Civic Duty](https://pbpython.com/web-scraping-mn-budget.html)
+   - [Python for Computational Science and Engineering (book)](http://www.southampton.ac.uk/~fangohr/teaching/python/book.html)
+   - [PyCon 2015 Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_pycon2015)
 
   #### Generative Adversarial Network (GAN)
    - [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
@@ -157,12 +161,18 @@
    - [A probabilistic programming language in TensorFlow. Deep generative models, variational inference](https://github.com/blei-lab/edward)
    - [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/pdf/1805.06605.pdf)
 
+  #### RNN
+  - [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+  
   #### Natural Language Processing (NLP)
   See [Natural Language Processing (NLP)](natural-language-processing/README.md)
 
   #### Data Science
   - [Data science intro for math/phys background by Poitr Migdal](https://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html)
   - [What I do or: science to data science by Poitr Migdal](https://p.migdal.pl/2015/12/14/sci-to-data-sci.html)
+  - [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI)
+  - [T. Cormen, C. Leiserson, R. Rivest and C. Stein, Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
+  - [David MacKay, Information Theory, Inference, and Learning Algorithms](http://www.inference.phy.cam.ac.uk/itila/book.html)
 
   #### Machine Learning
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
@@ -192,6 +202,8 @@
    - [H2O's Deep Learning tutorial](https://github.com/h2oai/h2o-tutorials/blob/master/tutorials/deeplearning/deeplearning.py)
    - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
    - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
+   - [Learning Deep Learning with Keras](http://p.migdal.pl/2017/04/30/teaching-deep-learning.html)
+   - [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
   
   #### Reinforcement Learning
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
@@ -260,6 +272,9 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
   - [Visualization in Bayesian workflow](https://arxiv.org/abs/1709.01449)
   - [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
+  - [G. James, D. Witten et al., An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
+  - [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
+  - [Probabilistic Programming & Bayesian Methods for Hackers - Cam Davidson-Pilon](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 
 ### Data
   - [Data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics](data/README.md)
@@ -278,6 +293,12 @@ See [Visualisation](README-details.md#visualisation-1)
   - [How the BBC Visual and Data Journalism team works with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
   - [How to visualize convolutional features in 40 lines of code](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)
   - [Visualization in Bayesian workflow](https://arxiv.org/abs/1709.01449)
+  - [Quick Introduction to ggplot2](http://blog.echen.me/2012/01/17/quick-introduction-to-ggplot2/)
+  - [r4stats.com: Graphics, ggplot2](http://r4stats.com/examples/graphics-ggplot2/)
+  - [Overview of Python Visualization Tools](https://pbpython.com/visualization-tools-1.html)
+  - [Pandas: visualisation](http://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+  - [Matplotlib tutorial](https://github.com/rougier/matplotlib-tutorial)
+  - [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
@@ -291,6 +312,8 @@ See [Visualisation](README-details.md#visualisation-1)
   - JuPyteR notebooks
     - See [example](examples/JuPyteR/README.md) in the `examples/JuPyteR` folder
   - [ML Notebooks: hands-on](https://github.com/ageron/handson-ml)
+  - [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
+  - [Dive into Machine Learning with Jupyter notebook, Python, and scikit-learn](http://hangtwenty.github.io/dive-into-machine-learning/)
   - [Data notebooks](data/README.md#notebooks)
   - [Bag of words notebook](keras-bag-of-words-expanded-version/data-scripts-notebooks/)
   - [Better NLP Notebook](./examples/better-nlp/better-nlp-spacy-texacy-examples.ipynb)

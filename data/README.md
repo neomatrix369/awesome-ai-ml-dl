@@ -20,6 +20,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [Data.world datasets](https://data.world)
 - [Microsoft Research Open Data](https://msropendata.com/)
 - [Free Datasets recommended by r-directory](https://r-dir.com/reference/datasets.html)
+- [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 
 ## Data Exploratory Analysis
 
