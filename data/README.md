@@ -10,6 +10,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 ## Datasets and sources of raw data
 
 - [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+- [Kaggle Datasets](https://www.kaggle.com/datasets) | Blogs: [1](https://towardsdatascience.com/interesting-datasets-on-kaggle-com-3a4a250b0b85) [2](http://blog.kaggle.com/2016/01/19/introducing-kaggle-datasets/) [3](https://medium.com/@benhamner/introducing-kaggle-datasets-a935f9f76f5) [4](https://stackoverflow.com/questions/52681196/kaggle-datasets-into-jupyter-notebook)
 - [GeoPlatform Data.gov Search ](https://data.geoplatform.gov/)
 - [Data.gov - Data Catalog](https://catalog.data.gov/dataset)
 - [TidyTuesday projects on GitHub](https://github.com/rfordatascience/tidytuesday)
