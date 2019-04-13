@@ -47,6 +47,7 @@
   - [A short gist for extracting NER + grouping using emma](https://gist.github.com/svenski/a433a823511a0f9a0941deba93fa0d2f)
   - [Spacy Cheatsheet](https://www.datacamp.com/community/blog/spacy-cheatsheet)
   - [NeuralCoref 4.0: Coreference Resolution in spaCy with Neural Networks](https://github.com/huggingface/neuralcoref)
+  - [StarSpace: Learning embeddings for classification, retrieval and ranking](https://github.com/facebookresearch/StarSpace)
 
 ## Metaphor detection
 

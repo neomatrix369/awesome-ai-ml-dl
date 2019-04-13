@@ -11,6 +11,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 
 - [Google Dataset Search](https://toolbox.google.com/datasetsearch)
 - [Kaggle Datasets](https://www.kaggle.com/datasets) | Blogs: [1](https://towardsdatascience.com/interesting-datasets-on-kaggle-com-3a4a250b0b85) [2](http://blog.kaggle.com/2016/01/19/introducing-kaggle-datasets/) [3](https://medium.com/@benhamner/introducing-kaggle-datasets-a935f9f76f5) [4](https://stackoverflow.com/questions/52681196/kaggle-datasets-into-jupyter-notebook)
+- [Carnegie Mellon University Datasets](http://lib.stat.cmu.edu/datasets/)
 - [GeoPlatform Data.gov Search ](https://data.geoplatform.gov/)
 - [Data.gov - Data Catalog](https://catalog.data.gov/dataset)
 - [TidyTuesday projects on GitHub](https://github.com/rfordatascience/tidytuesday)
@@ -94,7 +95,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [Private Synthetic Data Generation via GANs (Supporting PDF)](https://d253pvgap36xx8.cloudfront.net/formsbuilder/files/d1990068969211e8a29a0242ac110002/main.pdf)
 - [GANs (generative adversarial networks) possible for text as well?](https://datascience.stackexchange.com/questions/24878/gans-generative-adversarial-networks-possible-for-text-as-well)
 
-## Feature engineering  / selection
+## Feature engineering / selection
 - [Basic Feature Engineering With Time Series Data in Python](http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/)
 - [Zillow Prize - EDA, Data Cleaning & Feature Engineering](https://www.kaggle.com/lauracozma/eda-data-cleaning-feature-engineering)
 - [Feature-wise transformations](https://distill.pub/2018/feature-wise-transformations)
