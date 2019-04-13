@@ -43,6 +43,10 @@
   - [Python NLP for Hackers](https://nlpforhackers.io/libraries/)
   - [NLP vs NLU vs NLG (Know what you are trying to achieve) NLP engine (Part-1)](https://towardsdatascience.com/nlp-vs-nlu-vs-nlg-know-what-you-are-trying-to-achieve-nlp-engine-part-1-1487a2c8b696)
   - [NLP engine(Part-2) -> Best Text Processing tools or libraries for Natural Language Processing](https://towardsdatascience.com/nlp-engine-part-2-best-text-processing-tools-or-libraries-for-natural-language-processing-c7fd80f456e3)
+  - [Natural Language Extraction- Using spaCy on a set of novels](https://medium.com/@rajat.jain1/natural-language-extraction-using-spacy-on-a-set-of-novels-88b159d68686)
+  - [A short gist for extracting NER + grouping using emma](https://gist.github.com/svenski/a433a823511a0f9a0941deba93fa0d2f)
+  - [Spacy Cheatsheet](https://www.datacamp.com/community/blog/spacy-cheatsheet)
+  - [NeuralCoref 4.0: Coreference Resolution in spaCy with Neural Networks](https://github.com/huggingface/neuralcoref)
 
 ## Metaphor detection
 
@@ -62,9 +66,17 @@
 - [NLP and sentiment analysis with Python](https://www.pythonforengineers.com/natural-language-processing-and-sentiment-analysis-with-python/)
 - [Deep Learning: LSTM Networks for Sentiment Analysis Tutorial](http://deeplearning.net/tutorial/lstm.html)
 - [Emotion sentiment Analysis practitioners guide](https://www.kdnuggets.com/2018/08/emotion-sentiment-analysis-practitioners-guide-nlp-5.html)
+- [Sentiment analysis visualisation](http://awjuliani.github.io/books/)
+- [](https://github.com/central-ldn-data-sci/nlp-using-word-vectors)
 
 ## Presentations
 - [Natural Language Procoessing presentation by Ovidiu S.](./presentations/nlp/Natural_Language_Processing_-_MaM.pdf)
+
+## Notebooks
+
+- [Doc2vec word embeddings and UMAP visualisation notebook](https://colab.research.google.com/drive/1vQMwnKN8OdL6BYtJDTLKcmNGcN8GALkl#scrollTo=heXFC5w_46qS) | [Data](https://drive.google.com/file/d/18H7UHPRxLufONCKz5jFeF27Uy3mSflpz/view)
+- [NLP using word vectors with Spacy notebook](https://github.com/central-ldn-data-sci/nlp-using-word-vectors/blob/master/NLP%20using%20Word%20Vectors%20with%20Spacy.ipynb)
+- [Jupyter notebook for entity recognition and sentiment analysis](../examples/nlp/notebooks/20190411-spacy-and-textblob-nlp-entity-recognition-and-sentiment-analysis.ipynb)
 
 ## Unstructured to structured data
 

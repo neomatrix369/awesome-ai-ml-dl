@@ -169,7 +169,7 @@ See under [Cheatsheets](../README-details.md#cheatsheets)
 - [Python for Data Analysis on Azure git repo](https://notebooks.azure.com/wesm/projects/python-for-data-analysis)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - House prices
-    - [ML End-to-End Tutorial + Pandas notebook](../examples/data/notebooks/)
+    - [ML End-to-End Tutorial + Pandas notebook](../examples/data/notebooks/DSfIOT_Machine_Learning_End_to_End_Tutorial.ipynb)
     - [Regression example notebook](https://colab.research.google.com/drive/19uoDyGAxJ0zCwPT6cNb1xkYOfySNZChV)
     - [Classification example notebook](https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt)
 - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command line tools](https://github.com/donnemartin/data-science-ipython-notebooks)

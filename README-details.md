@@ -323,6 +323,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf)
   - H2O and R: [1](https://github.com/rstudio/cheatsheets/blob/master/h2o.pdf) [2](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/algo-params/calibrate_model.html#examples)
   - [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463?source=---------11-------------------)
+  - [Spacy Cheatsheet](https://www.datacamp.com/community/blog/spacy-cheatsheet)
 
 ### Misc
   - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
