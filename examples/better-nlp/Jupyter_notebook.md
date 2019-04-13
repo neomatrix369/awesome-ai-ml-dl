@@ -1,8 +1,8 @@
 # Jupyter Notebook
 
-See [better-nlp-spacy-texacy-examples.ipynb](better-nlp-spacy-texacy-examples.ipynb) to see the examples fleshed out in the notebook. More compact to work with and efficient (model can be loaded only once throughout the life-cycle of the kernel).
+See [better-nlp-spacy-texacy-examples.ipynb](better-nlp-spacy-texacy-examples.ipynb) to see the examples fleshed out in the notebook. More compact to work with and efficient (model needs to be loaded only once throughout the life-cycle of the kernel).
 
-The Jupyter lab instance is executed the moment the docker container is run via `runDockerImage.sh`. Look for mesages like these in the docker container terminal:
+The Jupyter lab instance is executed immediately on running the `runDockerImage.sh` script. Look for mesages like these in the docker container terminal:
 
 ![Docker-container-console-Jupyter-lab-loading.png](Docker-container-console-Jupyter-lab-loading.png)
 

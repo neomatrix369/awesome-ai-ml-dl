@@ -1,6 +1,8 @@
 from org.neomatrix369.better_nlp import BetterNLP
 
-model = BetterNLP().load_nlp_model()
+betterNLP = BetterNLP()
+
+model = betterNLP.load_nlp_model()
 model = model["model"]
 
 print("~~~~~~~~ Started parsing...")
@@ -20,7 +22,7 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [print(f"{each_entity.text} ({each_entity.label_})") for each_entity in parsed_generic_text.ents if each_entity.text.strip() == each_entity.text]
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-print("\nToken types legend: ", BetterNLP.token_legend())
+print("\nToken types legend: ", BetterNLP.token_entity_types())
 
 print("\n")
 print("...Finished parsing ~~~~~~~\n")

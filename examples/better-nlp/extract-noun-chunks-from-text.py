@@ -1,6 +1,8 @@
 from org.neomatrix369.better_nlp import BetterNLP
 
-model = BetterNLP().load_nlp_model()
+betterNLP = BetterNLP()
+
+model = betterNLP.load_nlp_model()
 model = model["model"]
 
 print("~~~~~ Started parsing...")
@@ -25,4 +27,3 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 print("\n")
 print("...Finished parsing ~~~~~~\n")
-

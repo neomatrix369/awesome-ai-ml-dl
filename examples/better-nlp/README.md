@@ -10,7 +10,6 @@ Libraries / frameworks covered:
 
 - SpaCy ([site](https://spacy.io/) | [docs](https://spacy.io/usage/))
 - Textacy ([github](https://github.com/chartbeat-labs/textacy) | [docs](https://chartbeat-labs.github.io/textacy/))
-- Rasa NLU ([site](https://rasa.com/) | [docs](https://rasa.com/docs/nlu/))
 
 ## Requirements
 

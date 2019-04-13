@@ -2,7 +2,9 @@ from org.neomatrix369.better_nlp import BetterNLP
 
 print("~~~~~~~ Started parsing...")
 
-model = BetterNLP().load_nlp_model()
+betterNLP = BetterNLP()
+
+model = betterNLP.load_nlp_model()
 model = model["model"]
 
 # Can be any factual text or any text to experiment with
