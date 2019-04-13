@@ -168,9 +168,9 @@ See under [Cheatsheets](../README-details.md#cheatsheets)
 - [Python for Data Analysis on Azure git repo](https://notebooks.azure.com/wesm/projects/python-for-data-analysis)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - House prices
-    - Old example notebook: [examples/data/notebooks](examples/data/notebooks/)
-    - Regression example: https://colab.research.google.com/drive/19uoDyGAxJ0zCwPT6cNb1xkYOfySNZChV
-    - Classification example: https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt
+    - [ML End-to-End Tutorial + Pandas notebook](../examples/data/notebooks/)
+    - [Regression example notebook](https://colab.research.google.com/drive/19uoDyGAxJ0zCwPT6cNb1xkYOfySNZChV)
+    - [Classification example notebook](https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt)
 - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command line tools](https://github.com/donnemartin/data-science-ipython-notebooks)
 - [Synthetic features and outliers notebook](https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=syntheticfeatures-colab&hl=en#scrollTo=jnKgkN5fHbGy)
 
