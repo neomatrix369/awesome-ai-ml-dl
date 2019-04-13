@@ -16,7 +16,10 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [Data.gov - Data Catalog](https://catalog.data.gov/dataset)
 - [TidyTuesday projects on GitHub](https://github.com/rfordatascience/tidytuesday)
 - [Enron Email Digest Dataset](https://www.cs.cmu.edu/~enron/)
-- [Mathematics Dataset](https://github.com/deepmind/mathematics_dataset)
+- [Mathematics Datasets](https://github.com/deepmind/mathematics_dataset)
+- [Data.world datasets](https://data.world)
+- [Microsoft Research Open Data](https://msropendata.com/)
+- [Free Datasets recommended by r-directory](https://r-dir.com/reference/datasets.html)
 
 ## Data Exploratory Analysis
 
