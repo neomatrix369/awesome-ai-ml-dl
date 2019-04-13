@@ -23,7 +23,7 @@
 ## Library, Framework, Models, Tools
 
 - [BloomburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai) [Bought out by FB around March/April 2019]
-- [Better NLP library (experimental)](./examples/better-nlp/)
+- [Better NLP library (experimental)](../examples/better-nlp)
 - [Facebook's PyText](https://github.com/facebookresearch/PyText)
 - [Facebook's FastText](https://github.com/facebookresearch/FastText) | [homepage | docs](https://fasttext.cc/)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
