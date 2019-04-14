@@ -9,7 +9,7 @@ if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
 fi
 
 IMAGE_NAME=${IMAGE_NAME:-better-nlp}
-IMAGE_VERSION=${IMAGE_VERSION:-$(cat version.txt)}
+IMAGE_VERSION=${IMAGE_VERSION:-$(cat ../version.txt)}
 BETTER_NLP_DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 findImage() {

@@ -33,9 +33,10 @@ Libraries / frameworks covered:
 ### Linux / MacOS (local environment)
 
 - Clone the repo: `git clone https://github.com/neomatrix369/awesome-ai-ml-dl`
-- `cd /path/to/awesome-ai-ml-dl/examples/better-nlp`
+- `cd /path/to/awesome-ai-ml-dl/examples/better-nlp/build`
 - Run `install-linux.sh` or `install-macos.sh` depending on the OS you are running on
-- Run `install-dependencies.sh` 
+- Run `install-dependencies.sh`
+- Run `cd ..`
 - Run `jupyter-lab notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb`
 - Wait for the JuPyter lab to open in the browser
 - You should see the screen as described in [Jupyter Notebook](./docs/Jupyter_notebook.md).
