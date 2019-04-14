@@ -14,6 +14,7 @@ You must have an account on Docker hub under the above user name.
 ### Build a docker image with the necessary dependencies
 
 ```bash
+    $ cd build
     $ ./buildDockerImage.sh
     or
     $ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
@@ -25,6 +26,7 @@ You must have an account on Docker hub under the above user name.
 ### Run the docker container to start running the programs
 
 ```bash
+    $ cd build
     $ ./runDockerImage.sh
     or
     $ DOCKER_USER_NAME="your_docker_username" ./runDockerImage.sh
@@ -38,11 +40,12 @@ You must have an account on Docker hub under the above user name.
 ### Push built Better NLP docker image to Docker hub
 
 ```bash
-$ ./push-better-nlp-docker-image-to-hub.sh
-or
-$ DOCKER_USER_NAME="your_docker_username" ./push-better-nlp-docker-image-to-hub.sh
-or
-$ IMAGE_VERSION="x.y.z" ./push-better-nlp-docker-image-to-hub.sh
+    $ cd build
+    $ ./push-better-nlp-docker-image-to-hub.sh
+    or
+    $ DOCKER_USER_NAME="your_docker_username" ./push-better-nlp-docker-image-to-hub.sh
+    or
+    $ IMAGE_VERSION="x.y.z" ./push-better-nlp-docker-image-to-hub.sh
 ```
 
 The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
