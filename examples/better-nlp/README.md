@@ -43,6 +43,10 @@ Libraries / frameworks covered:
 
 In theory, the above should work for Windows as well, if run via `git-bash` or `cgywin` with all the necessary requirements installed and available - although it has not been tested, please provide feedback or fixes if you find any.
 
+### Google colab
+
+Load the notebook in directly into [Google Colab](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb).
+
 ## Installation
 
 Setup an environment needed to be able to run these programs without having to worry about the dependencies they use.
