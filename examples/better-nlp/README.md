@@ -36,7 +36,7 @@ Libraries / frameworks covered:
 - `cd /path/to/awesome-ai-ml-dl/examples/better-nlp`
 - Run `install-linux.sh` or `install-macos.sh` depending on the OS you are running on
 - Run `install-dependencies.sh` 
-- Run `jupyter-lab better-nlp-spacy-texacy-examples.ipynb`
+- Run `jupyter-lab better_nlp_spacy_texacy_examples.ipynb`
 - Wait for the JuPyter lab to open in the browser
 - You should see the screen as described in [Jupyter Notebook](Jupyter_notebook.md).
 

@@ -317,7 +317,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [nbdime: Jupyter Notebook Diff and Merge tools - command-line tools](https://github.com/jupyter/nbdime) | [nbdiffex - Jupyter notebook checkpoint differ extension](https://gist.github.com/psychemedia/4a5137cf9a4eddba65c8ff673d19abf2#nbdiffex---jupyter-notebook-checkpoint-differ)
   - [Data notebooks](data/README.md#notebooks)
   - [Bag of words notebook](keras-bag-of-words-expanded-version/data-scripts-notebooks/)
-  - [Better NLP Notebook](./examples/better-nlp/better-nlp-spacy-texacy-examples.ipynb)
+  - [Better NLP Notebook](./examples/better-nlp/better_nlp_spacy_texacy_examples.ipynb)
   - [Time-series / anomaly detection notebooks](./time-series_anomaly-detection/README.md#notebooks)
   - Reinforcement learning notebooks: [1](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/CrashCourseRL.ipynb) | [2](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/crash_course_reinforcement_learning.ipynb) | [3](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
 
