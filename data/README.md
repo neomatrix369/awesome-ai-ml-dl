@@ -9,6 +9,15 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 
 ## Datasets and sources of raw data
 
+### Raw / unclean datasets
+
+- [Datasets for Data cleaning practise](https://makingnoiseandhearingthings.com/2018/04/19/datasets-for-data-cleaning-practice/)
+- [Cleaning up and combining data, a dataset for practice](https://www.r-bloggers.com/cleaning-up-and-combining-data-a-dataset-for-practice/)
+- [(Specific) Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
+- [Quora: What are some dirty/untidy datasets to clean for data analysis? I have just finished datacamp's course on cleaning data using R. I want to practice](https://www.quora.com/What-are-some-dirty-untidy-datasets-to-clean-for-data-analysis-I-have-just-finished-datacamps-course-on-cleaning-data-using-R-I-want-to-practice)
+
+### Clean / ready-to-use datasets
+
 - [Google Dataset Search](https://toolbox.google.com/datasetsearch)
 - [Kaggle Datasets](https://www.kaggle.com/datasets) | Blogs: [1](https://towardsdatascience.com/interesting-datasets-on-kaggle-com-3a4a250b0b85) [2](http://blog.kaggle.com/2016/01/19/introducing-kaggle-datasets/) [3](https://medium.com/@benhamner/introducing-kaggle-datasets-a935f9f76f5) [4](https://stackoverflow.com/questions/52681196/kaggle-datasets-into-jupyter-notebook)
 - [Carnegie Mellon University Datasets](http://lib.stat.cmu.edu/datasets/)
