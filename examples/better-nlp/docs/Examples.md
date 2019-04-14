@@ -102,3 +102,5 @@ Obfuscated generic text:  [OBFUSCATED] (1940 – April 24, 2010) was a French no
 
 ...Finished parsing ~~~~~~~
 ```
+
+[Return to main page](../README.md)

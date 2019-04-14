@@ -9,3 +9,5 @@ The Jupyter lab instance is executed immediately on running the `runDockerImage.
 The above listed URL can be opened in the browser to access the notebook(s) in the current folder:
 
 ![Better-NLP-in-Jupyter-Notebook.png](Better-NLP-in-Jupyter-Notebook.png)
+
+[Return to main page](../README.md)

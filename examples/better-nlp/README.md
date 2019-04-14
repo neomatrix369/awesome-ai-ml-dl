@@ -28,7 +28,7 @@ Libraries / frameworks covered:
 - Wait for the docker image to download (first time, one-off)
 - Wait for the container to get started with the JuPyter notebook running
 - Copy the notebook's url published in the console, should be of the form `http://....?token....)` - you will have to do a tiny bit of amendment to make the url look like `http://localhost:8888?token....`
-- Go to the browser and paste the corrected url: `http://localhost:8888?token....`, you should see the screen as described in [Jupyter Notebook](Jupyter_notebook.md).
+- Go to the browser and paste the corrected url: `http://localhost:8888?token....`, you should see the screen as described in [Jupyter Notebook](./docs/Jupyter_notebook.md).
 
 ### Linux / MacOS (local environment)
 
@@ -38,7 +38,7 @@ Libraries / frameworks covered:
 - Run `install-dependencies.sh` 
 - Run `jupyter-lab notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb`
 - Wait for the JuPyter lab to open in the browser
-- You should see the screen as described in [Jupyter Notebook](Jupyter_notebook.md).
+- You should see the screen as described in [Jupyter Notebook](./docs/Jupyter_notebook.md).
 
 In theory, the above should work for Windows as well, if run via `git-bash` or `cgywin` with all the necessary requirements installed and available - although it has not been tested, please provide feedback or fixes if you find any.
 
@@ -54,13 +54,13 @@ For the brave at heart, install the dependencies in your local environment.
 
 #### Linux
 
-```
+```bash
 ./install-linux.sh
 ```
 
 #### MacOS
 
-```
+```bash
 ./install-macos.sh
 ```
 
@@ -72,12 +72,12 @@ In principle, the `install-linux.sh` script should work in the `cygwin` or `git 
 
 ### Docker environment
 
-See [Docker environment](Docker_environment.md)
+See [Docker environment](./docs/Docker_environment.md)
 
 ## Example code
 
-See [Examples and results](Examples.md)
+See [Examples and results](./docs/Examples.md)
 
 ## Notebooks
 
-See [Jupyter Notebook](Jupyter_notebook.md) or load the notebook in directly into [Google Colab](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
+See [Jupyter Notebook](./docs/Jupyter_notebook.md) or load the notebook in directly into [Google Colab](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
