@@ -72,6 +72,9 @@ class BetterNLP:
             'ORDINAL = “first”, “second”, etc',
             'CARDINAL = Numerals that do not fall under another type'
         ]})
+    
+    def pretty_print(self, data):
+        print(pd.DataFrame(data))
 
     def extract_entities(self, model, text):
         start_time = time.time()
@@ -82,6 +85,26 @@ class BetterNLP:
         result["parsed_text"] = parsed_text
         result["extract_entities_processing_time_in_secs"] = duration
         return result
+
+    def parts_of_speech_tagging(self, model, text):
+        parsed_generic_text = self.extract_entities(model, text).get("parsed_text")
+
+        start_time = time.time()
+        parts_of_speech_tagging = {'token': [token.text for token in parsed_generic_text], 
+                'lemma': [token.lemma_ for token in parsed_generic_text],
+                'parts-of-speech': [token.pos_ for token in parsed_generic_text],
+                'tag': [token.tag_ for token in parsed_generic_text],
+                'dep': [token.dep_ for token in parsed_generic_text],
+                'shape': [token.shape_ for token in parsed_generic_text],        
+                'is_alphanumeric': [token.is_alpha for token in parsed_generic_text],
+                'is_stop_word': [token.is_stop for token in parsed_generic_text]}
+        duration = time.time() - start_time
+
+        result = {}
+        result["parsed_text"] = parsed_generic_text
+        result["parts_of_speech"] = parts_of_speech_tagging
+        result["parts_of_speech_processing_time_in_secs"] = duration
+        return result                
 
     def extract_nouns_chunks(self, model, text):
         parsed_generic_text = self.extract_entities(model, text)
