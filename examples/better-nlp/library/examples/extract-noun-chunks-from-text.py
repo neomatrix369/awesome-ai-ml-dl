@@ -15,18 +15,12 @@ generic_text = """Denis Guedj (1940 – April 24, 2010) was a French novelist an
 at Paris VIII University. He was born in Setif. He spent many years devising courses and games to teach adults and children math. 
 He is the author of Numbers: The Universal Language and of the novel The Parrot's Theorem. He died in Paris. """
 
-chunks = BetterNLP().extract_nouns_chunks(model, generic_text)
+chunks = betterNLP.extract_noun_chunks(model, generic_text)
 chunks = chunks["noun_chunks"]
 
-print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-set_of_noun_chunks = set(chunks)
-if len(set_of_noun_chunks) == 0:
-	print("Did not find words that belong together.")
-else:
-	print("A list of words that belong together (in lowercase):")
-
-[print(each_noun_chunk) for each_noun_chunk in set_of_noun_chunks if len(each_noun_chunk.split(" ")) > BetterNLP.minimum_occurrence_frequency]
-print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-
+chunks = chunks.get("noun_chunks")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+betterNLP.pretty_print(chunks)
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("\n")
 print("...Finished parsing ~~~~~~\n")

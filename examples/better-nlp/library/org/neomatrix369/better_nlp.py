@@ -52,26 +52,48 @@ class BetterNLP:
         return result
 
     def token_entity_types(self):
-        return pd.DataFrame({'Token entity types':[
-            'PERSON = People, including fictional',
-            'NORP = Nationalities or religious or political groups',
-            'FAC = Buildings, airports, highways, bridges, etc',
-            'ORG = Companies, agencies, institutions, etc',
-            'GPE = Countries, cities, states',
-            'LOC = Non-GPE locations, mountain ranges, bodies of water',
-            'PRODUCT = Objects, vehicles, foods, etc. (Not services.',
-            'EVENT = Named hurricanes, battles, wars, sports events, etc',
-            'WORK_OF_ART = Titles of books, songs, etc',
-            'LAW = Named documents made into laws',
-            'LANGUAGE = Any named language',
-            'DATE = Absolute or relative dates or periods',
-            'TIME = Times smaller than a day',
-            'PERCENT = Percentage, including ”%“',
-            'MONEY = Monetary values, including unit',
-            'QUANTITY = Measurements, as of weight or distance',
-            'ORDINAL = “first”, “second”, etc',
-            'CARDINAL = Numerals that do not fall under another type'
-        ]})
+        return {
+            'Entity type':[
+                'PERSON',
+                'NORP',
+                'FAC',
+                'ORG',
+                'GPE',
+                'LOC',
+                'PRODUCT',
+                'EVENT',
+                'WORK_OF_ART',
+                'LAW',
+                'LANGUAGE',
+                'DATE',
+                'TIME',
+                'PERCENT',
+                'MONEY',
+                'QUANTITY',
+                'ORDINAL',
+                'CARDINAL'
+            ],
+            'Description':[
+                'People, including fictional',
+                'Nationalities or religious or political groups',
+                'Buildings, airports, highways, bridges, etc',
+                'Companies, agencies, institutions, etc',
+                'Countries, cities, states',
+                'Non-GPE locations, mountain ranges, bodies of water',
+                'Objects, vehicles, foods, etc. (Not services.',
+                'Named hurricanes, battles, wars, sports events, etc',
+                'Titles of books, songs, etc',
+                'Named documents made into laws',
+                'Any named language',
+                'Absolute or relative dates or periods',
+                'Times smaller than a day',
+                'Percentage, including ”%“',
+                'Monetary values, including unit',
+                'Measurements, as of weight or distance',
+                '“first”, “second”, etc',
+                'Numerals that do not fall under another type'
+            ]
+        }
     
     def pretty_print(self, data):
         print(pd.DataFrame(data))
@@ -79,10 +101,16 @@ class BetterNLP:
     def extract_entities(self, model, text):
         start_time = time.time()
         parsed_text = model(text)
+
+        data = {
+            "text": [each_entity.text for each_entity in parsed_text.ents if each_entity.text.strip() == each_entity.text],
+            "label": [each_entity.label_ for each_entity in parsed_text.ents if each_entity.text.strip() == each_entity.text]
+        }
         duration = time.time() - start_time
 
         result = {}
         result["parsed_text"] = parsed_text
+        result["extracted_entities"] = data
         result["extract_entities_processing_time_in_secs"] = duration
         return result
 
@@ -106,18 +134,22 @@ class BetterNLP:
         result["parts_of_speech_processing_time_in_secs"] = duration
         return result                
 
-    def extract_nouns_chunks(self, model, text):
+    def extract_noun_chunks(self, model, text):
         parsed_generic_text = self.extract_entities(model, text)
         parsed_generic_text = parsed_generic_text.get("parsed_text")
         start_time = time.time()
         noun_chunks = textacy.extract.noun_chunks(parsed_generic_text, min_freq=self.minimum_occurrence_frequency)
         noun_chunks = map(str, noun_chunks)
         noun_chunks = map(str.lower, noun_chunks)
+
+        set_of_noun_chunks = set(noun_chunks)
+
+        data = {'Words belonging together (lowercase)': [each_noun_chunk for each_noun_chunk in set_of_noun_chunks if len(each_noun_chunk.split(" ")) > self.minimum_occurrence_frequency]}
         duration = time.time() - start_time
 
         result = {}
         result["parsed_text"] = parsed_generic_text
-        result["noun_chunks"] = noun_chunks
+        result["noun_chunks"] = data
         result["noun_chunks_processing_time_in_secs"] = duration
         return result
 

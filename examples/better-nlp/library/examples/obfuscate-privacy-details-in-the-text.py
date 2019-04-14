@@ -18,7 +18,7 @@ and children math. He is the author of Numbers: The Universal Language and
 of the novel The Parrot's Theorem. He died in Paris. 
 """
 
-obfuscated_text = BetterNLP().obfuscate_text(model, generic_text)
+obfuscated_text = betterNLP.obfuscate_text(model, generic_text)
 obfuscated_text = obfuscated_text["obfuscated_text"]
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("Obfuscated generic text: ", "".join(obfuscated_text))

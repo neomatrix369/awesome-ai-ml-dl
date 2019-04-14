@@ -18,14 +18,14 @@ and children math. He is the author of Numbers: The Universal Language and
 of the novel The Parrot's Theorem. He died in Paris. 
 """
 
-parsed_generic_text = BetterNLP().extract_entities(model, generic_text)
-parsed_generic_text = parsed_generic_text["parsed_text"]
+extracted_entities = betterNLP.extract_entities(model, generic_text)
+extracted_entities = extracted_entities["extracted_entities"]
 
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-[print(f"{each_entity.text} ({each_entity.label_})") for each_entity in parsed_generic_text.ents if each_entity.text.strip() == each_entity.text]
+betterNLP.pretty_print(extract_entities)
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-print("\nToken types legend: ", BetterNLP.token_entity_types())
+print("\nToken types legend: ", betterNLP.token_entity_types())
 
 print("\n")
 print("...Finished parsing ~~~~~~~\n")
