@@ -158,11 +158,21 @@ class BetterNLP:
         parsed_generic_text = self.extract_entities(model, text)
         parsed_generic_text = parsed_generic_text.get("parsed_text")
         facts = textacy.extract.semistructured_statements(parsed_generic_text, target_topic)
+
+        list_of_facts=[]
+        for each_fact_statement in facts:
+            subject, verb, fact = each_fact_statement
+            list_of_facts.append(fact)
+
+        data = {
+            'facts':list_of_facts
+        }
+
         duration = time.time() - start_time
 
         result = {}
         result["parsed_text"] = parsed_generic_text
-        result["facts"] = facts
+        result["facts"] = data
         result["extract_facts_processing_time_in_secs"] = duration
         return result
 
