@@ -1,11 +1,14 @@
-from org.neomatrix369.better_nlp import BetterNLP
+import sys
+sys.path.insert(0, '..')
 
-print("~~~~~~ Started parsing...")
+from org.neomatrix369.better_nlp import BetterNLP
 
 betterNLP = BetterNLP()
 
 model = betterNLP.load_nlp_model()
 model = model["model"]
+
+print("~~~~~~~~ Started parsing...")
 
 # Can be any factual text or any text to experiment with
 generic_text = """Denis Guedj (1940 – April 24, 2010) was a French novelist and 
@@ -15,10 +18,14 @@ and children math. He is the author of Numbers: The Universal Language and
 of the novel The Parrot's Theorem. He died in Paris. 
 """
 
-obfuscated_text = BetterNLP().obfuscate_text(model, generic_text)
-obfuscated_text = obfuscated_text["obfuscated_text"]
+parsed_generic_text = BetterNLP().extract_entities(model, generic_text)
+parsed_generic_text = parsed_generic_text["parsed_text"]
+
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-print("Obfuscated generic text: ", "".join(obfuscated_text))
+[print(f"{each_entity.text} ({each_entity.label_})") for each_entity in parsed_generic_text.ents if each_entity.text.strip() == each_entity.text]
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+print("\nToken types legend: ", BetterNLP.token_entity_types())
+
 print("\n")
 print("...Finished parsing ~~~~~~~\n")

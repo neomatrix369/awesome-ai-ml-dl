@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0, '..')
+
 from org.neomatrix369.better_nlp import BetterNLP
 
 betterNLP = BetterNLP()
