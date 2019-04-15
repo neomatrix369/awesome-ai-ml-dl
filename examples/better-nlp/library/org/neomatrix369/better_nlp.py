@@ -123,7 +123,7 @@ class BetterNLP:
                 'lemma': [token.lemma_ for token in parsed_generic_text],
                 'parts-of-speech': [token.pos_ for token in parsed_generic_text],
                 'tag': [token.tag_ for token in parsed_generic_text],
-                'dep': [token.dep_ for token in parsed_generic_text],
+                'syntactic dependency': [token.dep_ for token in parsed_generic_text],
                 'shape': [token.shape_ for token in parsed_generic_text],        
                 'is_alphanumeric': [token.is_alpha for token in parsed_generic_text],
                 'is_stop_word': [token.is_stop for token in parsed_generic_text]}
