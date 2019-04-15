@@ -95,7 +95,8 @@ class BetterNLP:
             ]
         }
     
-    def pretty_print(self, data):
+    def pretty_print(self, data, max_colwidth=500):
+        pd.set_option('display.max_colwidth', max_colwidth)
         print(pd.DataFrame(data))
 
     def extract_entities(self, model, text):
@@ -162,10 +163,10 @@ class BetterNLP:
         list_of_facts=[]
         for each_fact_statement in facts:
             subject, verb, fact = each_fact_statement
-            list_of_facts.append(fact)
+            list_of_facts.append(fact.text)
 
         data = {
-            'facts':list_of_facts
+            'Facts about ' + target_topic: list_of_facts
         }
 
         duration = time.time() - start_time
