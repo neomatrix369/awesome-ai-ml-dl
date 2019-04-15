@@ -201,6 +201,10 @@ See [Programs and Tools](programs-and-tools.md)
 - [Gun: A realtime, decentralized, offline-first, mutable graph database engine](https://github.com/amark/gun)
 - [Cayley: An open-source graph database](https://github.com/cayleygraph/cayley)
 
+### Time-series databases
+- [Time-scale](https://www.timescale.com/)
+- [kdb+](https://en.wikipedia.org/wiki/Kdb%2B) - is a column-based relational time series database (TSDB) with in-memory (IMDB) abilities, developed and marketed by [Kx Systems](https://kx.com/)
+
 #### References
 
 - [How to build a data science project from scratch](https://www.kdnuggets.com/2018/12/build-data-science-project-from-scratch.html)
