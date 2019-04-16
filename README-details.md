@@ -153,6 +153,8 @@
    - [Web Scraping - It’s Your Civic Duty](https://pbpython.com/web-scraping-mn-budget.html)
    - [Python for Computational Science and Engineering (book)](http://www.southampton.ac.uk/~fangohr/teaching/python/book.html)
    - [PyCon 2015 Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_pycon2015)
+   - [Book: Automate the boring stuff](https://automatetheboringstuff.com/)
+   - [Book: How to Think Like a Computer Scientist: Interactive Edition](http://interactivepython.org/courselib/static/thinkcspy/index.html) | [How to Think Like a Computer Scientist - non-Interactive Edition](http://openbookproject.net/thinkcs/python/english2e/)
 
   #### Generative Adversarial Network (GAN)
    - [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
