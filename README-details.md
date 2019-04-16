@@ -321,6 +321,11 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Time-series / anomaly detection notebooks](./time-series_anomaly-detection/README.md#notebooks)
   - Reinforcement learning notebooks: [1](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/CrashCourseRL.ipynb) | [2](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/crash_course_reinforcement_learning.ipynb) | [3](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
 
+### Models
+
+- [Model Zoo - Discover open source deep learning code and pretrained models](https://modelzoo.co/)
+- Model Zoo: [Caffe docs](https://caffe2.ai/docs/zoo.html) | [Caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo) | [MXNet](https://mxnet.incubator.apache.org/model_zoo/) | [DL4J](https://deeplearning4j.org/docs/latest/deeplearning4j-zoo-models) | [CoreNLP](https://stanfordnlp.github.io/CoreNLP/model-zoo.html)
+
 ### Articles, papers, code, data, courses
   - [Papers, code, data by Yaz](https://github.com/yazdotai/paper-code-data)
   - [Awesome AI Papers by Yaz (empty atm)](https://github.com/yazdotai/awesome-ai-papers)

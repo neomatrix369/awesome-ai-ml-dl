@@ -45,6 +45,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
   - [Time-series / anomaly detection](time-series_anomaly-detection/README.md)
   - [Notebooks](README-details.md#notebooks)
+  - [Models](README-details.md#models)
   - [Articles, papers, code, data, courses](README-details.md#articles-papers-code-data)
   - [Cheatsheets](README-details.md#cheatsheets)
   - [Misc](README-details.md#misc-1)
