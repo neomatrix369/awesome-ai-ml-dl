@@ -126,6 +126,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
     - [An Introduction to Statistical Learning [book]](http://www-bcf.usc.edu/~gareth/ISL/)
     - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
 - [Applying Physics functions](Trackener-physics-functions-usage-example.pptx)
+- [Chapter 2 of Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
 - For more, see [Mathematics, Statistics, Probability & Probabilistic programming](../README-details.md#mathematics-statistics-probability--probabilistic-programming)
 
 ## Visualisation
