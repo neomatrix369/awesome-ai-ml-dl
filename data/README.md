@@ -2,6 +2,8 @@
 
 Page dedicated to data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics
 
+The question to ask ourselves: _Do we know our data...?_
+
 ---
 ## Ethics / altruistic motives
 
