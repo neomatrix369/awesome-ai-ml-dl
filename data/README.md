@@ -45,6 +45,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [How to Use Statistics to Identify Outliers in Data](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
 - [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
 - [Helpful Python Code Snippets for Data Exploration in Pandas](https://medium.com/@msalmon00/helpful-python-code-snippets-for-data-exploration-in-pandas-b7c5aed5ecb9)
+- [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 
 ## Data preparation
 
@@ -55,11 +56,13 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [Helpful Python Code Snippets for Data Exploration in Pandas](https://medium.com/@msalmon00/helpful-python-code-snippets-for-data-exploration-in-pandas-b7c5aed5ecb9) - lots of python snippets to select / clean / prepare
 - [Working with missing data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html)
 - [Journal of Statistical Software - TidyData](https://www.jstatsoft.org/article/view/v059i10/)
+- [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 
 ### Data preprocessing / Data Wrangling
 
 - [Data Preprocessing vs. Data Wrangling in Machine Learning Projects](https://www.infoq.com/articles/ml-data-processing)
 - [Improve Model Accuracy with Data Pre-Processing](https://machinelearningmastery.com/improve-model-accuracy-with-data-pre-processing/)
+- [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 
 #### Misc
 
@@ -111,11 +114,13 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [GANs (generative adversarial networks) possible for text as well?](https://datascience.stackexchange.com/questions/24878/gans-generative-adversarial-networks-possible-for-text-as-well)
 
 ## Feature engineering / selection
+
 - [Basic Feature Engineering With Time Series Data in Python](http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/)
 - [Zillow Prize - EDA, Data Cleaning & Feature Engineering](https://www.kaggle.com/lauracozma/eda-data-cleaning-feature-engineering)
 - [Feature-wise transformations](https://distill.pub/2018/feature-wise-transformations)
 - [tsfresh](https://tsfresh.readthedocs.io/en/latest/text/introduction.html) - tsfresh is used to to extract characteristics from time series
 - [featuretools](https://github.com/featuretools/featuretools/) - an open source python framework for automated feature engineering
+- [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 
 ## Statistics
 
