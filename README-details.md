@@ -104,6 +104,7 @@
 #### Data Science 
 
 - [Data Science for Java Developers](https://www.oreilly.com/library/view/data-science-with/9781491934104/ch01.html)
+- [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
 
 #### Machine Learning
 
@@ -170,11 +171,13 @@
   See [Natural Language Processing (NLP)](natural-language-processing/README.md)
 
   #### Data Science
+  
   - [Data science intro for math/phys background by Poitr Migdal](https://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html)
   - [What I do or: science to data science by Poitr Migdal](https://p.migdal.pl/2015/12/14/sci-to-data-sci.html)
   - [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI)
   - [T. Cormen, C. Leiserson, R. Rivest and C. Stein, Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
   - [David MacKay, Information Theory, Inference, and Learning Algorithms](http://www.inference.phy.cam.ac.uk/itila/book.html)
+  - [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
 
   #### Machine Learning
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
@@ -308,6 +311,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Pandas: visualisation](http://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
   - [Matplotlib tutorial](https://github.com/rougier/matplotlib-tutorial)
   - [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
+  - [Data Visualization - Hard Skills](https://github.com/clone95/Virgilio/blob/master/Specializations/HardSkills/DataVisualization.md) from [clone95](http://github.com/clone95) the creator of [Virgilio](http://github.com/clone95/Virgilio)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
