@@ -1,6 +1,6 @@
 ## Tableau Prep
 
-- Download desktop app from https://www.tableau.com/products/prep (Mac or Windows)
+- Download desktop app from https://www.tableau.com/products/prep (Mac or Windows) or the public version at https://public.tableau.com/en-us/s/
 - Install app and run it
 - Add new dataset via the (+) sign next to Connections
   - File From Disk > Choose files
