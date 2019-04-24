@@ -92,6 +92,7 @@
 - [Beyond bag of words: Using PyTextRank to find Phrases and Summarize text](https://medium.com/@aneesha/beyond-bag-of-words-using-pytextrank-to-find-phrases-and-summarize-text-f736fa3773c5)
 - [Build a simple text summarisation tool using NLTK](https://medium.com/@wilamelima/build-a-simple-text-summarisation-tool-using-nltk-ff0984fedb4f)
 - [Summarise Text with TFIDF in Python](https://medium.com/@shivangisareen/summarise-text-with-tfidf-in-python-bc7ca10d3284)
+- [How to Make a Text Summarizer - Intro to Deep Learning #10 by Siraj Raval](https://www.youtube.com/watch?v=ogrJaOIuBx4)
 
 # Contributing
 
