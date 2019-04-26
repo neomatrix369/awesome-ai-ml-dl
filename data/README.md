@@ -78,6 +78,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 ### Generate numeric data fitting a model/distribution (to fit linear model / ring / etc)
 
 - [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae)
+- [Python Random Data Generation](https://honingds.com/blog/python-random/)
 - [How to Generate Test Datasets in Python with scikit-learn](https://machinelearningmastery.com/generate-test-datasets-python-scikit-learn/)
     - Python packages
         - [scikit datasets package](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets)
