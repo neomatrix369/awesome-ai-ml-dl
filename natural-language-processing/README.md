@@ -20,7 +20,7 @@
 ## Cloud
 - [Cloud based-example: NLP API to analyze Harry Potter & The New York Times](https://cloud.google.com/blog/products/gcp/using-the-cloud-natural-language-api-to-analyze-harry-potter-and-the-new-york-times)
 
-## Library, Framework, Models, Tools
+## Library, Framework, Models, Tools, Services
 
 - [BloomsburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomsburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai) [Bought out by FB around March/April 2019]
 - [Better NLP library (experimental)](../examples/better-nlp)
@@ -48,6 +48,7 @@
   - [Spacy Cheatsheet](https://www.datacamp.com/community/blog/spacy-cheatsheet)
   - [NeuralCoref 4.0: Coreference Resolution in spaCy with Neural Networks](https://github.com/huggingface/neuralcoref)
   - [StarSpace: Learning embeddings for classification, retrieval and ranking](https://github.com/facebookresearch/StarSpace)
+  - [Free NLP service - Natural Language for Developers](wit.ai)
 
 ## Metaphor detection
 
