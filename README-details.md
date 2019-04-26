@@ -105,6 +105,7 @@
 
 - [Data Science for Java Developers](https://www.oreilly.com/library/view/data-science-with/9781491934104/ch01.html)
 - [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
+- [Introduction to Data Science](https://www.youtube.com/watch?v=HEN6FBRuElE) | [Other Data Science Stuff related videos](https://www.youtube.com/channel/UCTe3bYxbzhstIRuIuGQz7UQ)
 
 #### Machine Learning
 

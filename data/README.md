@@ -15,6 +15,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 
 - [Datasets for Data cleaning practise](https://makingnoiseandhearingthings.com/2018/04/19/datasets-for-data-cleaning-practice/)
 - [Cleaning up and combining data, a dataset for practice](https://www.r-bloggers.com/cleaning-up-and-combining-data-a-dataset-for-practice/)
+- [Datasets from various themes and domains: retail, government. Datasets with a good mix of incorrect, wrongly-input, missing data](https://www.ud-intl.com/dataset)
 - [(Specific) Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
 - [Quora: What are some dirty/untidy datasets to clean for data analysis? I have just finished datacamp's course on cleaning data using R. I want to practice](https://www.quora.com/What-are-some-dirty-untidy-datasets-to-clean-for-data-analysis-I-have-just-finished-datacamps-course-on-cleaning-data-using-R-I-want-to-practice)
 
