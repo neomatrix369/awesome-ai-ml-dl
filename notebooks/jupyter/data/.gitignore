@@ -1,1 +1,4 @@
-housing.names
+housing*.*
+column.header
+*.zip
+*.listing
