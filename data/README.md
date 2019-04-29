@@ -13,6 +13,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 
 ### Raw / unclean datasets
 
+- [Boston Housing Dataset (archive contains unclean dataset)](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/tag/v0.1) | [Download](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/boston_housing_dataset.zip)
 - [Datasets for Data cleaning practise](https://makingnoiseandhearingthings.com/2018/04/19/datasets-for-data-cleaning-practice/)
 - [Cleaning up and combining data, a dataset for practice](https://www.r-bloggers.com/cleaning-up-and-combining-data-a-dataset-for-practice/)
 - [Datasets from various themes and domains: retail, government. Datasets with a good mix of incorrect, wrongly-input, missing data](https://www.ud-intl.com/dataset)
@@ -21,6 +22,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 
 ### Clean / ready-to-use datasets
 
+- [Boston Housing Dataset (archive contains clean dataset)](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/tag/v0.1) | [Download](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/boston_housing_dataset.zip)
 - [Google Dataset Search](https://toolbox.google.com/datasetsearch)
 - [Kaggle Datasets](https://www.kaggle.com/datasets) | Blogs: [1](https://towardsdatascience.com/interesting-datasets-on-kaggle-com-3a4a250b0b85) [2](http://blog.kaggle.com/2016/01/19/introducing-kaggle-datasets/) [3](https://medium.com/@benhamner/introducing-kaggle-datasets-a935f9f76f5) [4](https://stackoverflow.com/questions/52681196/kaggle-datasets-into-jupyter-notebook)
 - [Carnegie Mellon University Datasets](http://lib.stat.cmu.edu/datasets/)
