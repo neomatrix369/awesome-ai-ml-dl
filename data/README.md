@@ -5,6 +5,32 @@ Page dedicated to data exploratory analysis, preparation, cleaning, pre-processi
 The question to ask ourselves: _Do we know our data...?_
 
 ---
+
+### Table of contents
+
+- [Ethics / altruistic motives](./README.md#ethics--altruistic-motives)
+- [Datasets and sources of raw data](./README.md#datasets-and-sources-of-raw-data)
+- [Data Exploratory Analysis](./README.md#data-exploratory-analysis)
+- [Data preparation](./README.md#data-preparation)
+    + [Data Cleaning](./README.md#data-cleaning)
+    + [Data preprocessing / Data Wrangling](./README.md#data-preprocessing--data-wrangling)
+- [Data Generation](./README.md#data-generation)
+- [Feature Engineering](./README.md#feature-engineering--selection)
+- [Statistics](./README.md#statistics)
+- [Visualisation](./README.md#visualisation)
+- [Common mistakes when training models (data related)](./README.md#common-mistakes-when-training-models-data-related)
+- [Cheatsheets](./README.md#cheatsheets)
+- [Course / books](./README.md#course--books)
+- [Best practices / rules / an unordered list of high level or low level guidelines](./README.md#best-practices--rules--an-unordered-list-of-high-level-or-low-level-guidelines)
+- [Framework(s) / checklist(s)](./README.md#frameworks--checklists)
+- [Notebooks](./README.md#notebooks)
+- [Programs and Tools](./README.md#programs-and-tools)
+- [Databases](./README.md#databases)
+- [Credits](./README.md#credits)
+- [Contributing](./README.md#contributing)
+
+---
+
 ## Ethics / altruistic motives
 
 See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motives)
