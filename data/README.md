@@ -26,6 +26,7 @@ The question to ask ourselves: _Do we know our data...?_
 - [Notebooks](./README.md#notebooks)
 - [Programs and Tools](./README.md#programs-and-tools)
 - [Databases](./README.md#databases)
+- [References](./README.md#eferences)
 - [Credits](./README.md#credits)
 - [Contributing](./README.md#contributing)
 
@@ -216,11 +217,12 @@ See [Programs and Tools](programs-and-tools.md)
 - [Time-scale](https://www.timescale.com/)
 - [kdb+](https://en.wikipedia.org/wiki/Kdb%2B) - is a column-based relational time series database (TSDB) with in-memory (IMDB) abilities, developed and marketed by [Kx Systems](https://kx.com/)
 
-#### References
+## References
 
 - [How to build a data science project from scratch](https://www.kdnuggets.com/2018/12/build-data-science-project-from-scratch.html)
 - [Common mistakes when carrying out machine learning and data science](https://www.kdnuggets.com/2018/12/common-mistakes-data-science.html)
 - [A Rubric for ML Production Readiness - Breck et al. 2017 by Jiameng Gao (28 rules to follow, suggested by Google)](https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p) | [Original Paper by Google](https://ai.google/research/pubs/pub46555)
+- [Understanding Data Science Problems - template of questions to ask](http://url4149.bitgrit.net/wf/click?upn=qJT0wq97YSVxi6S9Gi10QGqeT3JSC6xJnYDSgYEwjzRMycP3yLSx2r-2BNxQzJHe9QPJFpU2-2FggIOmAMx4-2FXJyS5Ct5nq0JGa-2BaeTR278cf4Y016UI8tNe1mgRL66MJsyWyvn6y4MQGXNy5SqWqhbPcw-3D-3D_sX8FRvZaj8ntSB52F-2FOI3mORNoWV2VSsIMLOasSO2VX6r5g4xczJm1Y1-2FwGOMI-2BlSq1KNsGohBLZURHm6k60Tf2HtckfAZ6grcZUQF65S5oJU988M9Tw34CKxkXDto40DimsP-2FidGRva8-2F1aqLSRqIqousS4hXEet-2FT5ghzTXSqhZy5rNdfAdgpvrkvvm-2BZIs0VBaYDiakrHtCwc5eIKRA-3D-3D)
 
 ## Credits
 
