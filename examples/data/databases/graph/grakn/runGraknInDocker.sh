@@ -4,7 +4,7 @@ set -e
 set -u
 set -o pipefail
 
-GRAKN_VERSION=${GRAKN_VERSION:-1.4.3}
+GRAKN_VERSION=${GRAKN_VERSION:-1.5.2}
 
 DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
 
@@ -22,9 +22,10 @@ if [[ "${DEBUG:-}" = "true" ]]; then
               --entrypoint /bin/bash \
               ${GRAKN_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
 else
-    time docker run --rm                  \
-                    --interactive --tty   \
-                    -p 4567:4567          \
-                    --workdir /${WORKDIR} \
+    time docker run --rm                             \
+                    --interactive --tty              \
+                    -p 4567:4567                     \
+                    --env JDK_TO_USE=${JDK_TO_USE:-} \
+                    --workdir /${WORKDIR}            \
                     ${GRAKN_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
 fi
