@@ -21,20 +21,20 @@ Also, experimental usage of GraalVM, to take advantages of the performance benef
 
 **Go to [the previous folder](../grakn) to find the below scripts.**
 
-- `runGraknInDocker.sh` - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
-- `startGraknAndGraql.sh` - entry point script baked into the docker image
-- `Dockerfile`: a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
-- `buildDockerImage.sh`: build the docker image for grakn, takes under 10 minutes to finish on a decent connection
-- `push-grakn-docker-image-to-hub.sh` - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
-- `removeUnusedContainersAndImages.sh` - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
+- [runGraknInDocker.sh](./runGraknInDocker.sh) - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
+- [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
+- [Dockerfile](./Dockerfile): a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
+- [buildDockerImage.sh](./buildDockerImage.sh): build the docker image for grakn, takes under 10 minutes to finish on a decent connection
+- [push-grakn-docker-image-to-hub.sh](./push-grakn-docker-image-to-hub.sh) - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
+- [removeUnusedContainersAndImages.sh](./removeUnusedContainersAndImages.sh) - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
 
 ## Usage
 
 **Setting your environment**
 
-Ensure your environment has the below variable set, or set it in your .bashrc or .bash_profile or the relevant startup script:
+Ensure your environment has the below variable set, or set it in your `.bashrc` or `.bash_profile` or the relevant startup script:
 
-```
+```bash
 export DOCKER_USER_NAME="your_docker_username"
 ```
 
@@ -42,7 +42,7 @@ You must have an account on Docker hub under the above user name.
 
 **Run the Grakn docker container:**
 
-```
+```bash
 $ ./runGraknInDocker.sh
 or
 $ DOCKER_USER_NAME="your_docker_username" ./runGraknInDocker.sh
@@ -59,7 +59,7 @@ In debug mode, the docker container prompt is returned, the Grakn and Graql inst
 
 **Build the Grakn docker container:**
 
-```
+```bash
 $ ./buildDockerImage.sh
 or
 $ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
@@ -69,7 +69,7 @@ $ GRAKN_VERSION="x.y.z" ./buildDockerImage.sh
 
 **Push built Grakn docker image to Docker hub:**
 
-```
+```bash
 $ ./push-grakn-docker-image-to-hub.sh
 or
 $ DOCKER_USER_NAME="your_docker_username" ./push-grakn-docker-image-to-hub.sh
