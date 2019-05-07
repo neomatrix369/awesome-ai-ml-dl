@@ -1,0 +1,31 @@
+## Do we know our data, as good as we know our tools?
+
+### Speakers
+
+- [Mani Sarkar](http://github.com/neomatrix369)
+- [Jeremie Charlet](http://twitter.com/jeremiecharlet)
+
+### Abstract
+
+See [Devoxx UK 2019 - talk abstract](https://devoxxuk19.confinabox.com/talk/VEM-8021/Do_we_know_our_data_as_good_as_we_know_our_tools)
+
+For many of us who are developer turning data scientist, we are always concerned about how to build a model, train it, etc... And yes, we want the best accuracy (close to 99%).
+
+But as every seasoned data scientist will always advise us, we need first and foremost to understand our data, ensure it’s clean and prepared before doing any training on it.
+
+During the conference, we will explore multiple problems occurring during data analysis or preparation and for each a technique to solve them (from a list of them). You will go away with a number of resources to explore at your own pace.
+
+We will cover these categories of problems:
+
+    dirty data
+    disparate datasets - needing normalisation
+    too much information to process
+    and others…
+
+We will cover some of these techniques:
+
+    analysis - detecting misleading data, outliers, specific time series issues
+    cleaning - deal with missing/ambiguous values, outliers, generating synthetic data, resampling
+    preparation - using statistical and physics functions, dimensionality reduction, feature selection, resampling
+
+And using different kinds of plots relevant at different stages.
