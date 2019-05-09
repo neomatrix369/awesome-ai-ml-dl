@@ -29,3 +29,7 @@ We will cover some of these techniques:
     preparation - using statistical and physics functions, dimensionality reduction, feature selection, resampling
 
 And using different kinds of plots relevant at different stages.
+
+### Slides
+
+See [slides (PDF)](Do_we_know_our_data,_as_good_as_we_know_our_tools_.pdf)
