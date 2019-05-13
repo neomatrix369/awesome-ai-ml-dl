@@ -16,6 +16,7 @@
 - [How to Get Started with Deep Learning for Natural Language Processing (7-Day Mini-Course)](https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/)
 - [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
 - [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+- [A framework for dialog research + datasets](https://parl.ai/)
 
 ## Cloud
 - [Cloud based-example: NLP API to analyze Harry Potter & The New York Times](https://cloud.google.com/blog/products/gcp/using-the-cloud-natural-language-api-to-analyze-harry-potter-and-the-new-york-times)
