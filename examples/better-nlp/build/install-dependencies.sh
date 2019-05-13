@@ -16,4 +16,4 @@ pip --version
 # Install python packages for NLP
 python -m pip install spacy textacy
 
-pip install --user jupyterlab pandas
+pip install --user jupyterlab pandas nltk
