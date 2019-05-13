@@ -35,6 +35,7 @@
    - [Carmelo Iaria, AI Academy - How The AI Academy is accelerating NLP projects with Driverless AI](https://www.youtube.com/watch?v=aXPE6IiKRmI&amp;feature=youtu.be)
 - [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/)
 - [LDA (topic modelling)](https://github.com/bmabey/pyLDAvis)
+- Flashtext: [github](https://github.com/vi3k6i5/flashtext) | [docs](https://buildmedia.readthedocs.org/media/pdf/flashtext/latest/flashtext.pdf) | blogs: [1](https://www.analyticsvidhya.com/blog/2017/11/flashtext-a-library-faster-than-regular-expressions/) o [2](https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f) o [3](https://medium.com/@Alibaba_Cloud/why-you-should-use-flashtext-instead-of-regex-for-data-analysis-960a0dc96c6a)
 - Top libraries
   - [5 Heroic Tools for Natural Language Processing](https://towardsdatascience.com/5-heroic-tools-for-natural-language-processing-7f3c1f8fc9f0) | [Top 5 Python NLP Libraries to Build a Human like Applications](https://www.datasciencelearner.com/top-5-python-nlp-libraries-to-build-a-human-like-application/) | [5 open source tools for taming text](https://opensource.com/business/15/7/five-open-source-nlp-tools) | [Comparing the Functionality of Open Source Natural Language Processing Libraries](https://blog.dominodatalab.com/comparing-the-functionality-of-open-source-natural-language-processing-libraries/)
   - [Comparison of Top 6 Python NLP Libraries](https://www.kdnuggets.com/2018/07/comparison-top-6-python-nlp-libraries.html)
