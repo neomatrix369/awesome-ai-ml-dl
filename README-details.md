@@ -368,6 +368,10 @@ See [Visualisation](README-details.md#visualisation-1)
   - H2O and R: [1](https://github.com/rstudio/cheatsheets/blob/master/h2o.pdf) [2](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/algo-params/calibrate_model.html#examples)
   - [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463?source=---------11-------------------)
   - [Spacy Cheatsheet](https://www.datacamp.com/community/blog/spacy-cheatsheet)
+  - [Top 6 Cheat Sheets Novice Machine Learning Engineers Need](https://medium.com/ai%C2%B3-theory-practice-business/top-6-cheat-sheets-novice-machine-engineers-need-5ea43d1be3de)
+  - [All cheatsheets in one place by Asif Bhat (@abhat222)](https://github.com/abhat222/Data-Science--Cheat-Sheet)
+  - [Android App with cheatsheets](https://play.google.com/store/apps/details?id=com.youredufriends.datasciencehub)
+  - [Algorithms related cheatsheets - Big-O cheatsheet](http://bigocheatsheet.com/)
 
 ### Misc
   - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
