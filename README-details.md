@@ -281,6 +281,8 @@ See [Visualisation](README-details.md#visualisation-1)
   - [G. James, D. Witten et al., An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
   - [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
   - [Probabilistic Programming & Bayesian Methods for Hackers - Cam Davidson-Pilon](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+  - [Practical Probabilistic Programming book (pdf)](http://www.unquotebooks.com/download/practical-probabilistic-programming/)
+  - [Learning from Data: the art of statistics](http://www.lse.ac.uk/Events/2019/03/20190327t1830vHKT/Learning-from-Data) | [The Art of Statistics: Learning from Data by David Spiegelhalter](https://www.amazon.com/Art-Statistics-Learning-Pelican-Books-ebook/dp/B07HQDJD99)
   - Books
     - [Bayesian Data Analysis Third Edition[Gelman]](https://www.academia.edu/32086149/Bayesian_Data_Analysis_Third_Edition_Gelman_.pdf)
     - [Statistical Rethinking](https://issuu.com/biwugrok17/docs/pdf_download_online_pdf_statistical)
@@ -288,7 +290,7 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Mathematics for Machine Learning](https://mml-book.github.io/)
     - [Model Based Machine Learning Book](http://www.mbmlbook.com/)
     - [Bayesian Analysis with Python: Introduction to statistical modeling and probabilistic programming using PyMC3 and ArviZ](https://www.amazon.com/Bayesian-Analysis-Python-Introduction-probabilistic/dp/1789341655)
-
+    
 ### Data
   - [Do we know our data...](./data/README.md#data)
     - [Data exploratory analysis](./data/README.md#data-exploratory-analysis)
