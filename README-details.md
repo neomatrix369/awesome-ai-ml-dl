@@ -322,6 +322,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Matplotlib tutorial](https://github.com/rougier/matplotlib-tutorial)
   - [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
   - [Data Visualization - Hard Skills](https://github.com/clone95/Virgilio/blob/master/Specializations/HardSkills/DataVisualization.md) from [clone95](http://github.com/clone95) the creator of [Virgilio](http://github.com/clone95/Virgilio)
+  - [Visualisation/plots library in Python, inspired by D3-like visualisations](https://github.com/dxe4/uplot)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
