@@ -85,4 +85,4 @@ See [Examples and results](./docs/Examples.md)
 
 ## Notebooks
 
-See [Jupyter Notebook](./docs/Jupyter_notebook.md) or load the notebook in directly into [Google Colab](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
+See [Jupyter Notebook](./docs/Jupyter_notebook.md) or load the notebook in directly into Google Colab: [better_nlp_spacy_texacy_examples.ipynb](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb) | [better_nlp_summarisers.ipynb](./notebooks/google-colab/better_nlp_summarisers.ipynb)
