@@ -10,6 +10,11 @@ Libraries / frameworks covered:
 
 - SpaCy ([site](https://spacy.io/) | [docs](https://spacy.io/usage/))
 - Textacy ([github](https://github.com/chartbeat-labs/textacy) | [docs](https://chartbeat-labs.github.io/textacy/))
+- nltk ([site](http://www.nltk.org/) | [docs](https://buildmedia.readthedocs.org/media/pdf/nltk/latest/nltk.pdf))
+
+Non-NLP related libraries / frameworks used:
+- numpy ([site](https://www.numpy.org/) | [docs](https://docs.scipy.org/doc/))
+- networkx ([site](https://networkx.github.io/) | [docs](https://networkx.github.io/documentation/stable/index.html))
 
 ## Requirements
 
@@ -43,9 +48,17 @@ Libraries / frameworks covered:
 
 In theory, the above should work for Windows as well, if run via `git-bash` or `cgywin` with all the necessary requirements installed and available - although it has not been tested, please provide feedback or fixes if you find any.
 
-### Google colab
+### Notebooks
 
-Load the notebook in directly into Google Colab: [better_nlp_spacy_texacy_examples.ipynb](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb) | [better_nlp_summarisers.ipynb](./notebooks/google-colab/better_nlp_summarisers.ipynb).
+#### Jupyter
+
+See [Jupyter Notebook](./docs/Jupyter_notebook.md) 
+
+#### Google Colab
+
+You can open these notebooks directly into Google Colab:
+- [better_nlp_spacy_texacy_examples.ipynb](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb) 
+- [better_nlp_summarisers.ipynb](./notebooks/google-colab/better_nlp_summarisers.ipynb)
 
 ## Installation
 
@@ -82,7 +95,3 @@ See [Docker environment](./docs/Docker_environment.md)
 ## Example code
 
 See [Examples and results](./docs/Examples.md)
-
-## Notebooks
-
-See [Jupyter Notebook](./docs/Jupyter_notebook.md) or load the notebook in directly into Google Colab: [better_nlp_spacy_texacy_examples.ipynb](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb) | [better_nlp_summarisers.ipynb](./notebooks/google-colab/better_nlp_summarisers.ipynb)
