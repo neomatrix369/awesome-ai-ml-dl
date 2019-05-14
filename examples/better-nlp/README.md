@@ -45,7 +45,7 @@ In theory, the above should work for Windows as well, if run via `git-bash` or `
 
 ### Google colab
 
-Load the notebook in directly into [Google Colab](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb).
+Load the notebook in directly into Google Colab: [better_nlp_spacy_texacy_examples.ipynb](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb) | [better_nlp_summarisers.ipynb](./notebooks/google-colab/better_nlp_summarisers.ipynb).
 
 ## Installation
 
