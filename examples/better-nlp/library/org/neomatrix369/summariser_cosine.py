@@ -6,8 +6,8 @@ import numpy as np
 import networkx as nx
 import nltk as nltk
 
-stopwords = nltk.corpus.stopwords.words('english')
-if len(stopwords) == 0:
+stop_words = nltk.corpus.stopwords.words('english')
+if len(stop_words) == 0:
     nltk.download('stopwords')
 
 class SummariserCosine:
@@ -90,8 +90,6 @@ class SummariserCosine:
 
     # Generate Summary Method
     def generate_summary(self, text, top_n_sentences):
-        stop_words = stopwords.words('english')
-
         # Step 1 - Read text and tokenize
         sentences = self.read_text(text)
 
