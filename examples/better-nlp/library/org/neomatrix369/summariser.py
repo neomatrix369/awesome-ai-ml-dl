@@ -24,31 +24,30 @@ class Summariser:
         
         return sentences
 
+    def extract_vector(self, sentence, all_words, stopwords):
+        extracted_vector = [0] * len(all_words)
+
+        # build the vector for the sentence
+        for word in sentence:
+            if word in stopwords:
+                continue
+            extracted_vector[all_words.index(word)] += 1
+
+        return extracted_vector
+
     # Are the two sentences similar function?
     def sentence_similarity(self, firstSentence, secondSentence, stopwords=None):
         if stopwords is None:
             stopwords = []
-     
+
         firstSentence = [word.lower() for word in firstSentence]
         secondSentence = [word.lower() for word in secondSentence]
      
         all_words = list(set(firstSentence + secondSentence))
-     
-        firstVector = [0] * len(all_words)
-        secondVector = [0] * len(all_words)
-     
-        # build the vector for the first sentence
-        for word in firstSentence:
-            if word in stopwords:
-                continue
-            firstVector[all_words.index(word)] += 1
-     
-        # build the vector for the second sentence
-        for word in secondSentence:
-            if word in stopwords:
-                continue
-            secondVector[all_words.index(word)] += 1
-     
+
+        firstVector = self.extract_vector(firstSentence, all_words, stopwords)
+        secondVector = self.extract_vector(secondSentence, all_words, stopwords)
+
         return 1 - cosine_distance(firstVector, secondVector)
 
     # Similarity matrix
@@ -64,10 +63,29 @@ class Summariser:
 
         return similarity_matrix
 
+    # Rank the sentences usng networkx's pagerank() function
+    def rank_sentences(self, sentence_similarity_martix):
+        sentence_similarity_graph = nx.from_numpy_array(sentence_similarity_martix)
+        scores = nx.pagerank(sentence_similarity_graph)
+        return sentence_similarity_graph, scores
+
+    # Construct the summarised text from the ranked sentences
+    def summarise_text(self, ranked_sentences, top_n_sentences):
+        summarised_text = []
+
+        for index in range(top_n_sentences):
+            summarised_text.append(" ".join(ranked_sentences[index][1]))
+        summarised_text = ". ".join(summarised_text)
+
+        return summarised_text
+
+    # Pick top ranked sentences from the similarity matrix
+    def pick_top_ranked_sentences(self, scores, sentences):
+        return sorted(((scores[index], sentence) for index, sentence in enumerate(sentences)), reverse=True)
+
     # Generate Summary Method
-    def generate_summary(self, text, top_sentences):
+    def generate_summary(self, text, top_n_sentences):
         stop_words = stopwords.words('english')
-        summarise_text = []
 
         # Step 1 - Read text and tokenize
         sentences = self.read_text(text)
@@ -76,14 +94,12 @@ class Summariser:
         sentence_similarity_martix = self.build_similarity_matrix(sentences, stop_words)
 
         # Step 3 - Rank sentences in similarity martix
-        sentence_similarity_graph = nx.from_numpy_array(sentence_similarity_martix)
-        scores = nx.pagerank(sentence_similarity_graph)
+        sentence_similarity_graph, scores = self.rank_sentences(sentence_similarity_martix)
 
         # Step 4 - Sort the rank and pick top sentences
-        ranked_sentence = sorted(((scores[i], s) for i, s in enumerate(sentences)), reverse=True)
+        ranked_sentences = self.pick_top_ranked_sentences(scores, sentences)
 
-        for i in range(top_sentences):
-            summarise_text.append(" ".join(ranked_sentence[i][1]))
+        # Step 5 - Construct the summarised text
+        summarised_text = self.summarise_text(ranked_sentences, top_n_sentences)
 
-        # Step 5 - Return the summarised text
-        return ". ".join(summarise_text), ranked_sentence
+        return summarised_text, ranked_sentences

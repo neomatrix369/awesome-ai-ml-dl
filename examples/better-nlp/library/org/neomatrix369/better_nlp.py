@@ -194,12 +194,12 @@ class BetterNLP:
 
         return result
 
-    def summarise(self, text, top_sentences=5):
+    def summarise(self, text, top_n_sentences=5):
         start_time = time.time()
         summariser = Summariser()
 
         result = {}
-        result["summarised_text"], result["ranked_sentences"] = summariser.generate_summary(text, top_sentences)
+        result["summarised_text"], result["ranked_sentences"] = summariser.generate_summary(text, top_n_sentences)
         duration = time.time() - start_time
         result["summarisation_processing_time_in_secs"] = duration
 
