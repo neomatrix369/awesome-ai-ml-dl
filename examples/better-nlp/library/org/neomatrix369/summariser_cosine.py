@@ -9,7 +9,7 @@ import nltk as nltk
 nltk.download('stopwords')
 
 
-class Summariser:
+class SummariserCosine:
 
     # Generate clean sentences
     def read_text(self, text):
@@ -63,25 +63,29 @@ class Summariser:
 
         return similarity_matrix
 
-    # Rank the sentences usng networkx's pagerank() function
-    def rank_sentences(self, sentence_similarity_martix):
-        sentence_similarity_graph = nx.from_numpy_array(sentence_similarity_martix)
-        scores = nx.pagerank(sentence_similarity_graph)
-        return sentence_similarity_graph, scores
-
     # Construct the summarised text from the ranked sentences
     def summarise_text(self, ranked_sentences, top_n_sentences):
         summarised_text = []
 
+        if top_n_sentences > len(ranked_sentences):
+           top_n_sentences = len(ranked_sentences)
+
         for index in range(top_n_sentences):
             summarised_text.append(" ".join(ranked_sentences[index][1]))
+        
         summarised_text = ". ".join(summarised_text)
 
         return summarised_text
 
     # Pick top ranked sentences from the similarity matrix
     def pick_top_ranked_sentences(self, scores, sentences):
-        return sorted(((scores[index], sentence) for index, sentence in enumerate(sentences)), reverse=True)
+        return sorted(((scores[index], sentence) for index,sentence in enumerate(sentences)), reverse=True)
+
+    # Rank the sentences usng networkx's pagerank() function
+    def rank_sentences(self, sentence_similarity_martix):
+        sentence_similarity_graph = nx.from_numpy_array(sentence_similarity_martix)
+        scores = nx.pagerank(sentence_similarity_graph)
+        return sentence_similarity_graph, scores
 
     # Generate Summary Method
     def generate_summary(self, text, top_n_sentences):
