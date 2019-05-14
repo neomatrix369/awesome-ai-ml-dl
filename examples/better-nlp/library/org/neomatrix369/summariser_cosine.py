@@ -6,8 +6,9 @@ import numpy as np
 import networkx as nx
 import nltk as nltk
 
-nltk.download('stopwords')
-
+stopwords = nltk.corpus.stopwords.words('english')
+if len(stopwords) == 0:
+    nltk.download('stopwords')
 
 class SummariserCosine:
 

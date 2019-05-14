@@ -3,8 +3,6 @@ import time
 import textacy.extract   # $ pip install textacy
 import pandas as pd      # $ pip install pandas
 
-from org.neomatrix369.summariser_cosine import SummariserCosine
-from org.neomatrix369.summariser_pytextrank import SummariserPyTextRank
 
 MINIMUM_NUM_OF_WORDS = 1
 MINIMUM_OCCURRENCE_FREQUENCY = 1
@@ -200,11 +198,13 @@ class BetterNLP:
 
         result = {}
         if method == "cosine":
+            from org.neomatrix369.summariser_cosine import SummariserCosine
             summariser = SummariserCosine()
             result["summarised_text"], result["ranked_sentences"] = summariser.generate_summary(text, top_n_sentences)
         elif method == "pytextrank":
+            from org.neomatrix369.summariser_pytextrank import SummariserPyTextRank
             summariser = SummariserPyTextRank()
-            result["summarised_text"], result["key_phrases"], result["graph"] = summariser.generate_summary(text, top_n_sentences)
+            result["summarised_text"], result["token_ranks"], result["key_phrases"], result["graph"] = summariser.generate_summary(text, top_n_sentences)
 
         duration = time.time() - start_time
         result["summarisation_processing_time_in_secs"] = duration
