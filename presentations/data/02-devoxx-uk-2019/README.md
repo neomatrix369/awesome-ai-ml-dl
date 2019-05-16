@@ -33,3 +33,7 @@ And using different kinds of plots relevant at different stages.
 ### Slides
 
 See [slides (PDF)](Do_we_know_our_data,_as_good_as_we_know_our_tools_.pdf)
+
+### Video
+
+See [YouTube video on the Devoxx UK channel (~51 mins)](https://www.youtube.com/watch?v=rR6v5lw80nA&list=PLRsbF2sD7JVqkOs-GFGxBmNf0KECELaiU&index=74)
