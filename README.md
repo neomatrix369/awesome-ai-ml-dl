@@ -1,5 +1,9 @@
 # Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) | Grakn: [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn)
+
+---
+
 Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn it. Study notes and a curated list of awesome resources of such topics.
 
 **This repo is dedicated to engineers, developers, data scientists and all other professions that take interest in AI, ML, DL and related sciences. To make learning interesting and to create a place to easily find all the necessary material. Please contribute, watch, star, fork and share the repo with others in your community.**
