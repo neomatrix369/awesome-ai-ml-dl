@@ -8,6 +8,8 @@
 - [king - man + woman is queen; but why?](https://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)
 - [The 4 Biggest Open Problems in NLP](http://ruder.io/4-biggest-open-problems-in-nlp/)
 - [OpenAI let us try its state-of-the-art NLP text generator](https://venturebeat.com/2019/02/14/openai-let-us-generate-text-with-an-ai-model-that-achieves-state-of-the-art-performance-in-several-nlp-tasks/)
+- [LaMachine](https://proycon.github.io/LaMachine/) - LaMachine is a unified software distribution for Natural Language Processing. Integration of numerous open-source NLP tools, programming libraries, web-services and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines (bare-metal, Virtual Machines and Docker containers).
+- [Awesome NLP](https://github.com/keon/awesome-nlp)
 
 ## Courses, Tutorial, Learning resource
 - [Introductory: NLP for hackers](https://nlpforhackers.io/deep-learning-introduction/)
@@ -41,7 +43,6 @@
   - [Comparison of Top 6 Python NLP Libraries](https://www.kdnuggets.com/2018/07/comparison-top-6-python-nlp-libraries.html)
   - [Top 10 Python Libraries for Natural Language Processing (2018)](https://kleiber.me/blog/2018/02/25/top-10-python-nlp-libraries-2018/)
   - Quora: best NLP library question: [1](https://www.quora.com/Which-library-is-best-for-NLP) | [2](https://www.quora.com/What-is-the-best-natural-language-processing-API-library-service-today) | [3](https://www.quora.com/Natural-Language-Processing-What-are-the-best-libraries-for-extracting-data-from-PDF-files)
-  - [Awesome NLP](https://github.com/keon/awesome-nlp)
   - [Python NLP for Hackers](https://nlpforhackers.io/libraries/)
   - [NLP vs NLU vs NLG (Know what you are trying to achieve) NLP engine (Part-1)](https://towardsdatascience.com/nlp-vs-nlu-vs-nlg-know-what-you-are-trying-to-achieve-nlp-engine-part-1-1487a2c8b696)
   - [NLP engine(Part-2) -> Best Text Processing tools or libraries for Natural Language Processing](https://towardsdatascience.com/nlp-engine-part-2-best-text-processing-tools-or-libraries-for-natural-language-processing-c7fd80f456e3)
