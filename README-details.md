@@ -34,6 +34,8 @@
   - [Data science competitions to save the world](https://www.drivendata.org/)
   - [ThinkGradient - Transcending human intelligence through research and development in AI](https://www.thinkgradient.com/)
   - [Two years in the life of AI, ML, DL and Java](https://medium.com/@neomatrix369/two-years-in-the-life-of-ai-ml-dl-and-java-6bfe6eb8182a)
+  - [Oracle AI blog posts](https://blogs.oracle.com/ai/)
+  - [H2O.ai Driverless on Oracle Cloude Infrastructure](https://blogs.oracle.com/cloud-infrastructure/h2oai-driverless-ai-cruises-on-oracle-cloud-infrastructure-gpus)
 
 #### Classifier / decision trees
 
