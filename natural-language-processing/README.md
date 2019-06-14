@@ -72,7 +72,7 @@
 - [Deep Learning: LSTM Networks for Sentiment Analysis Tutorial](http://deeplearning.net/tutorial/lstm.html)
 - [Emotion sentiment Analysis practitioners guide](https://www.kdnuggets.com/2018/08/emotion-sentiment-analysis-practitioners-guide-nlp-5.html)
 - [Sentiment analysis visualisation](http://awjuliani.github.io/books/)
-- [](https://github.com/central-ldn-data-sci/nlp-using-word-vectors)
+- [Code resources for Central London Data Science Project Nights meetup on word vectors](https://github.com/central-ldn-data-sci/nlp-using-word-vectors)
 
 ## Presentations
 - [Natural Language Procoessing presentation by Ovidiu S.](./presentations/nlp/Natural_Language_Processing_-_MaM.pdf)
