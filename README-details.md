@@ -326,6 +326,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Data Visualization - Hard Skills](https://github.com/clone95/Virgilio/blob/master/Specializations/HardSkills/DataVisualization.md) from [clone95](http://github.com/clone95) the creator of [Virgilio](http://github.com/clone95/Virgilio)
   - [Visualisation/plots library in Python, inspired by D3-like visualisations](https://github.com/dxe4/uplot)
   - [Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing](https://www.autodeskresearch.com/publications/samestats)
+  - [RAWGraphs - The missing link between spreadsheets and data visualization](https://rawgraphs.io/) | [Gallery](https://rawgraphs.io/gallery/) [Learning: How-to](https://rawgraphs.io/learning/) | [Blogs](https://rawgraphs.io/blog/)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
