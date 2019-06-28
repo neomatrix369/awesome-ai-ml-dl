@@ -26,7 +26,7 @@
 ## Library, Framework, Models, Tools, Services
 
 - [BloomsburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomsburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai) [Bought out by FB around March/April 2019]
-- [Better NLP library (experimental)](../examples/better-nlp)
+- [Better NLP library (experimental)](../examples/better-nlp) | Slides: [1](./better-nlp/presentations/09-Mar-2019/Better-NLP-Presentation-Slides.pdf) [2](./better-nlp/presentations/29-Jun-2019/Better-NLP-2.0-one-library-rules-them-all-Presentation-Slides.pdf)
 - [Facebook's PyText](https://github.com/facebookresearch/PyText)
 - [Facebook's FastText](https://github.com/facebookresearch/FastText) | [homepage | docs](https://fasttext.cc/)
 - [Facebook's Pythia](https://code.fb.com/ai-research/pythia/) | [github](https://github.com/facebookresearch/pythia) | [Medium](https://medium.com/syncedreview/facebook-open-sources-pythia-for-vision-and-language-multimodal-ai-models-be480644b538)
