@@ -74,6 +74,7 @@
   - [How Stanford CoreNLP, a popular Java natural language tool can help you perform Natural Language Processing tasks](https://stanfordnlp.github.io/CoreNLP/) ([Tweet](https://twitter.com/java/status/945689918289924096))
   - [FREE AI talk on Natural Language Processing NLP using Java with deeplearning4j](https://www.youtube.com/watch?v=XrZ_Y4koV5A&feature=youtu.be) ([Tweet](https://twitter.com/java/status/1062035545394532352))
   - [Apache OpenNLP](https://opennlp.apache.org/)
+  - Also see [Natural Language Processing (NLP)](README-details.md#natural-language-processing-nlp-1) under [Julia, Python & R](README-details.md#julia-python--r)
 
 #### Neural Networks
 
