@@ -6,11 +6,16 @@ import numpy as np
 import networkx as nx
 import nltk as nltk
 
-stop_words = nltk.corpus.stopwords.words('english')
-if len(stop_words) == 0:
+global stop_words
+try:
+    stop_words = nltk.corpus.stopwords.words('english')
+    if len(stop_words) == 0:
+        nltk.download('stopwords')
+except LookupError:
     nltk.download('stopwords')
 
 class SummariserCosine:
+
 
     # Generate clean sentences
     def read_text(self, text):
@@ -60,7 +65,8 @@ class SummariserCosine:
             for anotherSentence in range(len(sentences)):
                 if thisSentence == anotherSentence: #ignore if both are same sentences
                     continue 
-                similarity_matrix[thisSentence][anotherSentence] = self.sentence_similarity(sentences[thisSentence], sentences[anotherSentence], stop_words)
+                similarity_matrix[thisSentence][anotherSentence] = \
+                    self.sentence_similarity(sentences[thisSentence], sentences[anotherSentence], stop_words)
 
         return similarity_matrix
 
