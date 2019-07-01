@@ -290,6 +290,7 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Bayesian Data Analysis Third Edition[Gelman]](https://www.academia.edu/32086149/Bayesian_Data_Analysis_Third_Edition_Gelman_.pdf)
     - [Statistical Rethinking](https://issuu.com/biwugrok17/docs/pdf_download_online_pdf_statistical)
     - [Think Bayesian](http://greenteapress.com/wp/think-bayes)
+    - [Think Stats, 2nd edition](https://greenteapress.com/wp/think-stats-2e/) | [github](https://github.com/AllenDowney/ThinkStats2) - is an introduction to Probability and Statistics for Python programmers
     - [Mathematics for Machine Learning](https://mml-book.github.io/)
     - [Model Based Machine Learning Book](http://www.mbmlbook.com/)
     - [Bayesian Analysis with Python: Introduction to statistical modeling and probabilistic programming using PyMC3 and ArviZ](https://www.amazon.com/Bayesian-Analysis-Python-Introduction-probabilistic/dp/1789341655)
