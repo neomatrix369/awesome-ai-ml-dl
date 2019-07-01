@@ -213,6 +213,7 @@
    - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
    - [Learning Deep Learning with Keras](http://p.migdal.pl/2017/04/30/teaching-deep-learning.html)
    - [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
+   - [Checkout 'Deep Learning with Tensorflow 2.0 (MNIST)' Notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#notebooks)
   
   #### Reinforcement Learning
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
