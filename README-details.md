@@ -372,6 +372,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Data.world's open data - catalog your data, wake up your hidden data workforce, and build a data-driven culture—faster](https://data.world/)
   - [Browse state-of-the-art](https://paperswithcode.com/sota)
   - [ML/DL/Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
+  - [Papers by Google X](./papers/google-x/README.md)
 
 ### Best Practices
 
