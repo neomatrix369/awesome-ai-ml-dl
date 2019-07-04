@@ -48,7 +48,9 @@
   - [Unsupervised Anomaly Detection with Isolation Forest by Elena Sharova](https://www.youtube.com/watch?v=5p8B2Ikcw-k)
   - [Anomaly Detection: Algorithms, Explanations, Applications](https://www.youtube.com/watch?v=12Xq9OLdQwQ)
   - [How to use machine learning for anomaly detection and condition monitoring](https://towardsdatascience.com/how-to-use-machine-learning-for-anomaly-detection-and-condition-monitoring-6742f82900d7?source=---------13---------------------)
-  
+  - [AnomalyDetection R package by @Twitter](https://github.com/twitter/AnomalyDetection)
+  - [Pycularity - Python port of @Twitter's AnomalyDetection](https://github.com/zrnsm/pyculiarity)
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
