@@ -30,4 +30,5 @@
 - [x] **[Hyper parameter tuning: available]** 
 - [x] **[Model saving: available]**
 
-Back to [Data preparation, cleaning, validation, model creation, training resources](README.md).
+Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>
+Back to [Data page](./README.md#data).
