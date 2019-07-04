@@ -198,7 +198,7 @@ See under [Cheatsheets](../README-details.md#cheatsheets)
 - [Python for Data Analysis on Azure git repo](https://notebooks.azure.com/wesm/projects/python-for-data-analysis)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - House prices
-    - [ML End-to-End Tutorial + Pandas notebook](../examples/data/notebooks/DSfIOT_Machine_Learning_End_to_End_Tutorial.ipynb)
+    - [ML End-to-End Tutorial + Pandas notebook](../notebooks/data/DSfIOT_Machine_Learning_End_to_End_Tutorial.ipynb)
     - [Regression example notebook](https://colab.research.google.com/drive/19uoDyGAxJ0zCwPT6cNb1xkYOfySNZChV)
     - [Classification example notebook](https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt)
     - Some explanations of the above Regression & Classification examples: [as a Notebook](https://drive.google.com/file/d/1vR9fOsWkCx0PuiCH0Eiz5FG1AAHuBHa8/view) | [as a PDF file](https://drive.google.com/file/d/1U3GkVgloBd5-w4qSj0KcyhtalhDF7pgC/view)
