@@ -1,28 +1,28 @@
-# Progams and Tools
+# Programs and Tools
 
 ### H2O Driverless AI
 
-See [About H2O Driverless AI](about-H2O-Driverless-AI.md)
+See [About H2O Driverless AI](about-H2O-Driverless-AI.md#h2o-driverless-ai)
 
 ### Microstrategy
 
-See [About Microstrategy](about-Microstrategy.md)
+See [About Microstrategy](about-Microstrategy.md#microstrategy)
 
 ### Tableau Prep
 
-See [Tableau Prep](about-Tableau-Prep.md)
+See [Tableau Prep](about-Tableau-Prep.md#tableau-prep)
 
 ### Dataiku
 
-See [About Dataiku](about-Dataiku.md)
+See [About Dataiku](about-Dataiku.md#dataiku)
 
 ### Pipeline.ai
 
-See [About Pipeline.ai](about-Pipeline.ai.md)
+See [About Pipeline.ai](about-Pipeline.ai.md#pipelineai)
 
 ### Weights & Biases
 
-See [About Weights & Biases](about-Weights-and-Biases.md)
+See [About Weights & Biases](about-Weights-and-Biases.md#weights--biases)
 
 ### ModeAnalytics
 
@@ -51,5 +51,5 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [Data page](README.md)</br>
+Back to [Data page](./README.md#data)</br>
 Back to [main page (table of contents)](../README.md)

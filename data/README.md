@@ -104,7 +104,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 
 ## Data Generation
 
-See [Data Generation](./data-generation.md)
+See [Data Generation](./data-generation.md#data-generation)
 
 ## Feature engineering
 
@@ -211,7 +211,7 @@ See under [Cheatsheets](../README-details.md#cheatsheets)
 
 ## Programs and Tools
 
-See [Programs and Tools](programs-and-tools.md)
+See [Programs and Tools](programs-and-tools.md#programs-and-tools)
 
 ## Databases
 - [Grakn and Graql](http://grakn.ai/) - not just graphs, or graph database knowledge graphs | [Docs | Quick start](https://dev.grakn.ai/docs/general/quickstart) | [GitHub](https://github.com/graknlabs/grakn)
