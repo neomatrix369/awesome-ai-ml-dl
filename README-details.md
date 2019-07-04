@@ -364,7 +364,7 @@ See [Visualisation](README-details.md#visualisation-1)
 - [Model Zoo - Discover open source deep learning code and pretrained models](https://modelzoo.co/)
 - Model Zoo: [Caffe docs](https://caffe2.ai/docs/zoo.html) | [Caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo) | [MXNet](https://mxnet.incubator.apache.org/model_zoo/) | [DL4J](https://deeplearning4j.org/docs/latest/deeplearning4j-zoo-models) | [CoreNLP](https://stanfordnlp.github.io/CoreNLP/model-zoo.html)
 
-### Articles, papers, code, data, courses
+### Articles, papers, code, data, courses, presentations
   - [Papers, code, data by Yaz](https://github.com/yazdotai/paper-code-data)
   - [Awesome AI Papers by Yaz (empty atm)](https://github.com/yazdotai/awesome-ai-papers)
   - [Awesome DL papers](https://github.com/terryum/awesome-deep-learning-papers)
@@ -374,6 +374,10 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Browse state-of-the-art](https://paperswithcode.com/sota)
   - [ML/DL/Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
   - [Papers by Google X](./papers/google-x/README.md)
+  - [NLP presentations](./natural-language-processing/README.md#presentations)
+    - [Better NLP - presentations](./examples/better-nlp/presentations)
+  - [Data presentations](./presentations/data/)
+    - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
 
 ### Best Practices
 
