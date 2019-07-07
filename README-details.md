@@ -119,6 +119,7 @@
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+- Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
 #### How-to / Deploy / DevOps / Serverless
   - [Learn how to deploy and manage machine learning models](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/254240417/) ([Tweet](https://t.co/4lcwns0lgo))
@@ -305,6 +306,7 @@ See [Visualisation](README-details.md#visualisation-1)
       - [Data pre-processing / Data wrangling](./data/README.md#data-preprocessing--data-wrangling)
     - [Data Generation](./data/README.md#data-generation)
     - [Feature engineering](./data/README.md#feature-engineering)
+    - [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
     - [and other related topics: Stats, Visualisations, Cheatsheets, etc...](data/README.md#data)
   - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D)
   - [Awesome Datascience](https://github.com/bulutyazilim/awesome-datascience)
