@@ -9,6 +9,7 @@
   - [Cray Computers](https://www.cray.com/ai)
   - [GraphCore's IPU](README.md#ipu)
   - [Lambda Labs](https://lambdalabs.com/)
+  - NGD Systems: [Technology](https://www.ngdsystems.com/technology) | [Solutions](https://www.ngdsystems.com/solutions) - High Compute Storage, Scalable Computational Storage | [NGD Systems: Ensuring AI Advancement with Intelligent Storage](https://www.insightssuccess.com/ngd-systems-ensuring-ai-advancement-with-intelligent-storage/)
 
 #### Cloud services
 
