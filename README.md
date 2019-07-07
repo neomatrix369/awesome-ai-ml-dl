@@ -40,6 +40,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Machine learning](README-details.md#machine-learning)
     - [Deep learning](README-details.md#deep-learning-1)
     - [Reinforcement learning](README-details.md#reinforcement-learning-1)
+    - [Programming in Python](Programming-in-Python.md)
     - [More...](README-details.md#more)
   - [JavaScript](README-details.md#javascript)
   - [Mathematica](README-details.md#mathematica)
