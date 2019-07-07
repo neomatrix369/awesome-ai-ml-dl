@@ -14,6 +14,7 @@
   - [Financial: time series](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
   - [Videos by Ashrith Barthur on Security, Time-series and Anomaly detection](https://www.youtube.com/results?search_query=h2o+ashrith)
   - [Playing with time series data in python](https://towardsdatascience.com/playing-with-time-series-data-in-python-959e2485bff8?source=---------45---------------------)
+  - [A Gentle Introduction to SARIMA for Time Series Forecasting in Python](https://machinelearningmastery.com/sarima-for-time-series-forecasting-in-python/)
 
 #### Notebooks
   - [Fuzzy Time series notebook](https://colab.research.google.com/drive/1S1QSZfO3YPVr022nwqJC5bEJvrXbqS_A)
