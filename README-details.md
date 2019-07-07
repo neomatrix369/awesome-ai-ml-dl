@@ -295,7 +295,8 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Mathematics for Machine Learning](https://mml-book.github.io/)
     - [Model Based Machine Learning Book](http://www.mbmlbook.com/)
     - [Bayesian Analysis with Python: Introduction to statistical modeling and probabilistic programming using PyMC3 and ArviZ](https://www.amazon.com/Bayesian-Analysis-Python-Introduction-probabilistic/dp/1789341655)
-    
+  - [See Data > Statistics section more related links](./data/README.md#statistics)
+
 ### Data
   - [Do we know our data...](./data/README.md#data)
     - [Data exploratory analysis](./data/README.md#data-exploratory-analysis)
