@@ -16,6 +16,7 @@ The question to ask ourselves: _Do we know our data...?_
     + [Data preprocessing / Data Wrangling](./README.md#data-preprocessing--data-wrangling)
 - [Data Generation](./README.md#data-generation)
 - [Feature Engineering](./README.md#feature-engineering)
+- [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
 - [Statistics](./README.md#statistics)
 - [Visualisation](./README.md#visualisation)
 - [Common mistakes when training models (data related)](./README.md#common-mistakes-when-training-models-data-related)
@@ -122,6 +123,31 @@ See [Data Generation](./data-generation.md#data-generation)
 - [What is dimensionality reduction? What is the difference between feature selection and extraction?](https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti)
 - [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
 - [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
+
+## Post model-creation analysis, ML interpretation/explainability
+
+### Libraries & packages
+- [Yellowbrick](https://www.scikit-yb.org/en/latest/#yellowbrick-machine-learning-visualization) - is a suite of visual diagnostic tools called “Visualizers” that extend the Scikit-Learn API to allow human steering of the model selection process
+- [Shap](https://github.com/slundberg/shap) - A unified approach to explain the output of any machine learning model
+- [LIME](https://github.com/marcotcr/lime)
+- [4 Python Libraries For Getting Better Model Interpretability](https://www.analyticsindiamag.com/4-python-libraries-for-getting-better-model-interpretability/)
+- [Resources on GitHub on interpretability](https://github.com/topics/interpretability)
+- [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - A Curated, but Probably Biased and Incomplete, List of Awesome Machine Learning Interpretability Resources.
+
+### Articles, blog posts, papers, notebooks, books
+- [DataRobot: Model Interpretability - What is Model Interpretability in Machine Learning?](https://www.datarobot.com/wiki/interpretability/)
+- [Model Interpretability with SHAP](http://www.f1-predictor.com/model-interpretability-with-shap/)
+- [Interpreting bag of words models with SHAP](https://sararobinson.dev/2019/04/23/interpret-bag-of-words-models-shap.html)
+- [Explain any machine learning model prediction - using SHAP](https://towardsdatascience.com/how-to-explain-any-machine-learning-model-prediction-30654b0c1c8)
+- [Explain ML Models notebooks](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/explain-model)
+- [How to explain the prediction of a ML model](https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html)
+- [Explaining complex machine learning models with LIME](https://datascienceplus.com/explaining-complex-machine-learning-models-with-lime/)
+- [Hermeneutic Investigations: ML Interpreation - why?](https://github.com/daplantagenet/iml.github.io/blob/master/Hermeneutic%20Investigations.pdf) by [Dean Allsopp](http://github.com/daplantagenet)
+- [Explaining Explanations: An Overview ofInterpretability of Machine Learning](https://arxiv.org/pdf/1806.00069.pdf)
+- [Explaining Black-Box Machine Learning Models](https://shirinsplayground.netlify.com/2018/07/explaining_ml_models_code_caret_iml/)
+- [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+- [R Machine Learning Projects by Dr. Sunil Kumar Chinnamgari: Model interpretability](https://www.oreilly.com/library/view/r-machine-learning/9781789807943/dcd398be-3488-423c-942c-69d1eac253f5.xhtml)
+- [Hands-on Machine Learning with R: Interpretable Machine Learning](https://bradleyboehmke.github.io/HOML/iml.html)
 
 ## Statistics
 
