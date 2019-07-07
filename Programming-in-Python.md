@@ -8,6 +8,7 @@
 - [Best practices](#best-practices)
 - [Testing](#testing)
 - [Refactoring](#refactoring)
+- [Performance](#performance)
 
 ## Learning
 - [Introduction to Python](https://simpliv-wordpress-com.cdn.ampproject.org/c/s/simpliv.wordpress.com/2019/06/27/best-way-to-learn-python-step-by-step-guide/amp/)
@@ -25,6 +26,8 @@
 
 ## Cheatsheets
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
+- [PySheee: Python Cheatsheet](https://www.pythonsheets.com/)
+- [7+ Python Cheat Sheets for Beginners and Experts](https://sinxloud.com/python-cheat-sheet-beginner-advanced/)
 - [Python for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
 
 ## Static analysis
