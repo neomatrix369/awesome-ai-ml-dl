@@ -9,6 +9,7 @@
 - [Testing](#testing)
 - [Refactoring](#refactoring)
 - [Performance](#performance)
+- [Contributing](#contributing)
 
 ## Learning
 - [Introduction to Python](https://simpliv-wordpress-com.cdn.ampproject.org/c/s/simpliv.wordpress.com/2019/06/27/best-way-to-learn-python-step-by-step-guide/amp/)
@@ -94,3 +95,13 @@
 - [Python High Performance - Second Edition](https://github.com/PacktPublishing/Python-High-Performance-Second-Edition)
 - [Python and performance](https://github.com/ameroueh/performance)
 - [NumPy aware dynamic Python compiler using LLVM ](https://github.com/ameroueh/numba) | [Numba](http://numba.pydata.org/)
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](README.md)
