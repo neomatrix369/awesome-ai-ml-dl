@@ -203,6 +203,7 @@
   - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
   - [Slides of how PyTorch helped the speaker learn ML](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Michael_Ceber.pdf)
   - [Slides of Collaborative Recommender System for Music](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=valentin_nagacevschi.pdf)
+  - [Tensorflow 2.0 by Josh Gordon at the Google X / X-Team event](https://drive.google.com/file/d/1XAZp_n7avolVOGApKNLk0YcY3xGRaVcQ/view)
   - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
   #### Deep Learning
