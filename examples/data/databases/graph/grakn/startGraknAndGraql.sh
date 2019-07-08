@@ -22,14 +22,13 @@ fi
 echo "JAVA_HOME=${JAVA_HOME}"
 java -version
 
-echo -n "Grakn version:"
-./grakn-core-all-linux-${GRAKN_VERSION}/grakn version
+echo -n "Grakn version: (see bottom of sartup text banner)"
 
 (env | grep _JAVAOPTS) || true 
 
 echo -n "GRAKN_PORT=${GRAKN_PORT}"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn server start 
+time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn server start --benchmark
 echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Grakn server is running..."
