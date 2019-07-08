@@ -20,6 +20,7 @@ The question to ask ourselves: _Do we know our data...?_
 - [Statistics](./README.md#statistics)
 - [Visualisation](./README.md#visualisation)
 - [Common mistakes when training models (data related)](./README.md#common-mistakes-when-training-models-data-related)
+- [Presentations](./README.md#presentations)
 - [Cheatsheets](./README.md#cheatsheets)
 - [Course / books](./README.md#course--books)
 - [Best practices / rules / an unordered list of high level or low level guidelines](./README.md#best-practices--rules--an-unordered-list-of-high-level-or-low-level-guidelines)
@@ -77,7 +78,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
 - [Helpful Python Code Snippets for Data Exploration in Pandas](https://medium.com/@msalmon00/helpful-python-code-snippets-for-data-exploration-in-pandas-b7c5aed5ecb9)
 - [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
-- [Introduction to Data Analysis and Cleaning presentation](../presentations/data/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
+- [Introduction to Data Analysis and Cleaning presentation](../presentations/data/01-mam-ml-study-group-meetup/01-mam-ml-study-group-meetup/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
 
 ## Data preparation
 
@@ -177,6 +178,12 @@ See [Visualisation](../README-details.md#visualisation-1)
 - Having a lot more training examples of one type of object than the other types
 - Accidentally testing the neural network using images that were in the training set
 - Training the neural network on data that is easier to recognize or more consistent than the real-world data it will be used to classify later on
+
+## Presentations
+
+- [A Rubric for ML Production Readiness - by Jiameng Gao from Applied Deep Learning Meetup in Feb 2019](https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p) (Paper: https://ai.google/research/pubs/pub46555)
+- [Introduction to Data Analysis and Cleaning presentation](../presentations/data/01-mam-ml-study-group-meetup/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
+- [Do we know our data, as good as we know our tools](../presentations/data/02-devoxx-uk-2019/README.md) by [Jeremie Charlet](http://twitter.com/jeremiecharlet) and [Mani Sarkar](http://github.com/neomatrix369)
 
 ## Cheatsheets
 
