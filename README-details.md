@@ -201,6 +201,9 @@
   - [Curriculum & Log - ML](https://www.alanmartyn.com/)
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
   - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
+  - [Slides of how PyTorch helped the speaker learn ML](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Michael_Ceber.pdf)
+  - [Slides of Collaborative Recommender System for Music](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=valentin_nagacevschi.pdf)
+  - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
   #### Deep Learning
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
@@ -227,6 +230,7 @@
   - [A replica of the AlphaZero methodology for deep reinforcement learning in Python](https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning)
   - Reinforcement Learning Crash Course by Central London Data Science meetup - [GitHub repo](https://github.com/central-ldn-data-sci/CrashCourseRL) | [Slides](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/Crash%20Course%20in%20Reinforcement%20Learning.pdf) | Notebooks: [1](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/CrashCourseRL.ipynb) | [2](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/crash_course_reinforcement_learning.ipynb) | [3](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
+  - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Kai_Arulkumaran.pdf)
 
 #### More...
   - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
