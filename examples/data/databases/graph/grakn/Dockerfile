@@ -20,29 +20,27 @@ RUN echo "Building the Open Source version (AGPL license), go to https://github.
 RUN apt-get update && apt-get install -y wget unzip pv
 
 ARG GRAKN_VERSION
-ENV GRAKN_VERSION=${GRAKN_VERSION:-1.5.2}
+ENV GRAKN_VERSION=${GRAKN_VERSION:-1.5.7}
 ENV WORKDIR=grakn
 WORKDIR /${WORKDIR}
 
-RUN wget https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/grakn-core-all-linux-${GRAKN_VERSION}.tar.gz --progress=bar:force 2>&1 | tail -f -n +3
-
-RUN tar zxvf grakn-core-all-linux-${GRAKN_VERSION}.tar.gz | pv -l >/dev/null
-
-RUN rm grakn-core-all-linux-${GRAKN_VERSION}.tar.gz
-
-RUN ./grakn-core-all-linux-${GRAKN_VERSION}/grakn version
+ENV GRAKN_CORE_LINUX=grakn-core-all-linux
+RUN wget https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/${GRAKN_CORE_LINUX}-${GRAKN_VERSION}.tar.gz --progress=bar:force 2>&1 | tail -f -n +3
+RUN tar zxvf ${GRAKN_CORE_LINUX}-${GRAKN_VERSION}.tar.gz | pv -l >/dev/null
+RUN rm ${GRAKN_CORE_LINUX}-${GRAKN_VERSION}.tar.gz
+RUN ./${GRAKN_CORE_LINUX}-${GRAKN_VERSION}/grakn version
 
 ### GraalVM installation
-
-ENV GRAALVM_VERSION="1.0.0-rc15"
-RUN wget https://github.com/oracle/graal/releases/download/vm-${GRAALVM_VERSION}/graalvm-ce-${GRAALVM_VERSION}-linux-amd64.tar.gz --progress=bar:force 2>&1 | tail -f -n +3
-RUN tar xvzf graalvm-ce-${GRAALVM_VERSION}-linux-amd64.tar.gz | pv -l >/dev/null
+ARG GRAALVM_VERSION
+ENV GRAALVM_VERSION="${GRAALVM_VERSION:-19.1.0}"
+RUN wget https://github.com/oracle/graal/releases/download/vm-${GRAALVM_VERSION}/graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz --progress=bar:force 2>&1 | tail -f -n +3
+RUN tar xvzf graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz | pv -l >/dev/null
 
 RUN mv graalvm-ce-${GRAALVM_VERSION}/jre /usr/lib/jvm/graalvm-ce-${GRAALVM_VERSION}
 ENV GRAALVM_HOME="/usr/lib/jvm/graalvm-ce-${GRAALVM_VERSION}"
 RUN echo "GRAALVM_HOME=${GRAALVM_HOME}"
 RUN ${GRAALVM_HOME}/bin/java -version
-RUN rm graalvm-ce-${GRAALVM_VERSION}-linux-amd64.tar.gz
+RUN rm graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz
 RUN rm -fr graalvm-ce-${GRAALVM_VERSION}
 
 EXPOSE 4567
