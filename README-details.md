@@ -338,6 +338,9 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Visualisation/plots library in Python, inspired by D3-like visualisations](https://github.com/dxe4/uplot)
   - [Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing](https://www.autodeskresearch.com/publications/samestats)
   - [RAWGraphs - The missing link between spreadsheets and data visualization](https://rawgraphs.io/) | [Gallery](https://rawgraphs.io/gallery/) [Learning: How-to](https://rawgraphs.io/learning/) | [Blogs](https://rawgraphs.io/blog/)
+  - [Flourish](https://flourish.studio/) - Powerful, beautiful, easy
+data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on your site. All devices welcome. Nothing to install. Outputs work forever. Unlimited flexibility.
+  - [How to choose the right visualization for your data ](https://flourish.studio/2018/09/28/choosing-the-right-visualisation/) | [Good example: The best laid plans](https://towardsdatascience.com/the-best-laid-plans-7eb3a22ffbc1) | [Video of talk](https://www.youtube.com/watch?v=YenoaVWHV80) by [Surasti Puri](https://www.surastipuri.com/)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
