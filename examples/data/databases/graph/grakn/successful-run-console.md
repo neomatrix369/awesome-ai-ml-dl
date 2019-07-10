@@ -77,7 +77,7 @@ This version of GraalVM is based on JDK8. With JVMCI disabled (via -XX:-UseJVMCI
 **Command**
 
 ```
- TOGGLE_JVMCI=-XX:-UseJVMCINativeLibrary JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
+ COMMON_JAVAOPTS=-XX:-UseJVMCINativeLibrary JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
 ```
 
 **Output**

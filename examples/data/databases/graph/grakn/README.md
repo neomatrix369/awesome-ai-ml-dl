@@ -16,6 +16,7 @@ Also, experimental usage of GraalVM, to take advantages of the performance benef
 - Run using the traditional JDK (OpenJDK or vendor specific versions)
 - Run using the polyglot JVM i.e. GraalVM JDK (Community version from Oracle Labs)
 - Measure startup and execution times for the different JDKs used
+- Run Grakn's native performance benchmarking scripts
 
 ## Scripts provided
 
@@ -23,6 +24,7 @@ Also, experimental usage of GraalVM, to take advantages of the performance benef
 
 - [runGraknInDocker.sh](./runGraknInDocker.sh) - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
 - [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
+- [runPerformanceBenchmark.sh](./runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script
 - [Dockerfile](./Dockerfile): a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
 - [buildDockerImage.sh](./buildDockerImage.sh): build the docker image for grakn, takes under 10 minutes to finish on a decent connection
 - [push-grakn-docker-image-to-hub.sh](./push-grakn-docker-image-to-hub.sh) - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
@@ -52,6 +54,13 @@ or in debug mode
 $ DEBUG="true" ./runGraknInDocker.sh
 or run in GraalVM mode
 $ JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
+or run by switching off JVMCI flag (default: on)
+$ COMMON_JAVAOPTS="-XX:-UseJVMCINativeLibrary" ./runGraknInDocker.sh
+
+or run the performance benchmarking script with default JDK
+$ RUN_PERFORMANCE_SCRIPT=true ./runGraknInDocker.sh
+or run the performance benchmarking script with GraalVM
+$  JDK_TO_USE="GRAALVM" RUN_PERFORMANCE_SCRIPT=true ./runGraknInDocker.sh
 ```
 
 See [successful run console](successful-run-console.md) - includes both outputs from the traditional JDK8 and GraalVM executions. 
