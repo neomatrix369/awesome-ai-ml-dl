@@ -338,6 +338,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Visualisation/plots library in Python, inspired by D3-like visualisations](https://github.com/dxe4/uplot)
   - [Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing](https://www.autodeskresearch.com/publications/samestats)
   - [Optics Illustrations from the Physics Textbooks of Amédée Guillemin (1868/1882)](https://publicdomainreview.org/collections/optics-illustrations-from-the-physics-textbooks-of-amedee-guillemin-1868-1882/)
+  - [Accurat studio: The Architecture of a Data Visualization Multilayered Storytelling through “Info-spatial” Compositions](https://medium.com/accurat-studio/the-architecture-of-a-data-visualization-470b807799b4)
   - [RAWGraphs - The missing link between spreadsheets and data visualization](https://rawgraphs.io/) | [Gallery](https://rawgraphs.io/gallery/) [Learning: How-to](https://rawgraphs.io/learning/) | [Blogs](https://rawgraphs.io/blog/)
   - [Flourish](https://flourish.studio/) - Powerful, beautiful, easy
 data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on your site. All devices welcome. Nothing to install. Outputs work forever. Unlimited flexibility.
