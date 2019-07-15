@@ -12,6 +12,8 @@
 - Churn Prediction: https://www.dataiku.com/learn/guide/tutorials/churn-prediction.html?utm_campaign=Product%20Onboarding&utm_source=hs_automation&utm_medium=email&utm_content=32145575&_hsenc=p2ANqtz-8WS4EG5HJnkAiVNhd7BVBd-tjsDq5DfbiCG2kBOPJMlsf4FEocOZyi_fyH1bLyjuInXYZMQWXbgyWRQGurIQ_8t1egOw&_hsmi=32145575
 - How-to guides: https://www.dataiku.com/learn/guide/
 - Concepts: https://www.dataiku.com/learn/guide/getting-started/universes-and-concepts.html?utm_campaign=Product%20Onboarding&utm_source=hs_automation&utm_medium=email&utm_content=31287612&_hsenc=p2ANqtz-8W73Tx-ELEZTYddPH57zpdnN3zhtFUNI4jO5fzBC9DCwAw5bsbaAIZS03wNDLfhiBnCzHv6no1PvZfg0SiUrXWv7pw9Q&_hsmi=31287612
+- Example: [how Dataiku DSS can be run on GraalVM for performance benefits](../examples/data/dataiku#dataiku-data-science-studio-dss) | [folder](../examples/data/dataiku)
+
 
 ---
 
