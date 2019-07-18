@@ -29,7 +29,7 @@ BAZEL_VERSION=0.27.1
 ./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 
 cd ${WORKDIR}/shared
-echo "Current working directory: $(pwd)"
+echo "~~~~ Current working directory: $(pwd)"
 
 if [[ -d benchmark ]]; then
   cd benchmark
@@ -40,25 +40,31 @@ else
 fi
 
 mkdir -p logs
-echo "Updating maven dependencies via Bazel"
-./dependencies/maven/update.sh              &> logs/maven_update.logs
-if [[ $? -eq 0 ]]; then
-	echo "Failed updating Maven dependencies via Bazel"
-fi
+echo "~~~~ Updating maven dependencies via Bazel ~~~~"
+time ./dependencies/maven/update.sh              &> logs/maven_update.logs
 
+if [[ $? -eq 0 ]]; then
+   echo "~~~~ Finished updating Maven dependencies via Bazel ~~~~"
+else
+   echo "~~~~ Failed updating Maven dependencies via Bazel with error code $? ~~~~"
+fi
 cat logs/maven_update.logs
 
-echo "Build report-producer-distribution via Bazel"
-bazel build //:report-producer-distribution &> logs/bazel_build.logs
+echo "~~~ Building report-producer-distribution via Bazel ~~~"
+time bazel build //:report-producer-distribution &> logs/bazel_build.logs
 
 if [[ $? -eq 0 ]]; then
-	echo "Failed building report-producer-distribution via Bazel"
+   echo "~~~ Finished building report-producer-distribution via Bazel ~~~"
+else
+   echo "~~~ Failed building report-producer-distribution via Bazel with error code $? ~~~"
 fi
 cat logs/bazel_build.logs
 
+echo "~~~ Running report producer ~~~"
 cd bazel-genfiles
 unzip report-producer.zip
-GRAKN_URI=localhost ./report_producer                            \
-    --config=scenario/road_network/road_config_read_c4.yml       \
-    --execution-name "road-read-c4" --grakn-uri $GRAKN_URI:48555 \
+time GRAKN_URI=localhost ./report_producer                              \
+    --config=scenario/road_network/road_config_read_c4.yml         \
+    --execution-name "road-read-c4" --grakn-uri ${GRAKN_URI}:48555 \
     --keyspace road_read_c4
+echo "~~~ Finished running report producer ~~~"
