@@ -5,7 +5,7 @@ set -u
 set -o pipefail
 
 DSS_VERSION=${DSS_VERSION:-5.1.4}
-GRAALVM_VERSION=${GRAALVM_VERSION:-19.1.0}
+GRAALVM_VERSION=${GRAALVM_VERSION:-19.1.1}
 USER=dataiku
 
 if [[ -z ${DOCKER_USER_NAME:-""} ]]; then

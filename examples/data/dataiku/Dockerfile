@@ -13,7 +13,7 @@ RUN java -version
 
 ### GraalVM installation
 ARG GRAALVM_VERSION
-ENV GRAALVM_VERSION="${GRAALVM_VERSION:-19.1.0}"
+ENV GRAALVM_VERSION="${GRAALVM_VERSION:-19.1.1}"
 RUN curl -O -J -L https://github.com/oracle/graal/releases/download/vm-${GRAALVM_VERSION}/graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz
 RUN tar xvzf graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz -C /usr/lib/jvm
 
