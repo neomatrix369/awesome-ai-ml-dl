@@ -23,9 +23,16 @@ if [[ "${DEBUG:-}" = "true" ]]; then
    CUSTOM_ENTRY_POINT="${CUSTOM_ENTRY_POINT:-} --entrypoint /bin/bash"
 fi
 
+INTERACTIVE_MODE="--interactive --tty"
+TIME_IT="time"
+if [[ "${DETACHED_MODE:-}" = "true" ]]; then
+    INTERACTIVE_MODE="--detach"
+    TIME_IT=""
+fi
+
 set -x
-time docker run --rm                                            \
-                --interactive --tty                             \
+${TIME_IT} docker run --rm                                      \
+                ${INTERACTIVE_MODE}                             \
                 -p ${EXPOSED_PORT}:10000                        \
                 --workdir ${WORKDIR}                            \
                 --env JDK_TO_USE=${JDK_TO_USE:-}                \
