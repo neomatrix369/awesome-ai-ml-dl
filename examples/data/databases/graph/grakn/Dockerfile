@@ -32,7 +32,7 @@ RUN ./${GRAKN_CORE_LINUX}-${GRAKN_VERSION}/grakn version
 
 ### GraalVM installation
 ARG GRAALVM_VERSION
-ENV GRAALVM_VERSION="${GRAALVM_VERSION:-19.1.0}"
+ENV GRAALVM_VERSION="${GRAALVM_VERSION:-19.1.1}"
 RUN wget https://github.com/oracle/graal/releases/download/vm-${GRAALVM_VERSION}/graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz --progress=bar:force 2>&1 | tail -f -n +3
 RUN tar xvzf graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz -C /usr/lib/jvm/ | pv -l >/dev/null
 

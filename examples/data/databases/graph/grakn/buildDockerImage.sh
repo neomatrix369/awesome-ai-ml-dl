@@ -5,7 +5,7 @@ set -u
 set -o pipefail
 
 GRAKN_VERSION=${GRAKN_VERSION:-1.5.7}
-GRAALVM_VERSION=${GRAALVM_VERSION:-19.1.0}
+GRAALVM_VERSION=${GRAALVM_VERSION:-19.1.1}
 
 if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
   read -p "Docker username (must exist on Docker Hub): " DOCKER_USER_NAME
