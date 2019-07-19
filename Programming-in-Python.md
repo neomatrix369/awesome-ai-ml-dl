@@ -89,6 +89,7 @@
 - [PyCharm Refactoring Tutorial](https://www.jetbrains.com/help/pycharm/product-refactoring-tutorial.html)
 - [Learning Python with PyCharm: Refactoring](https://www.lynda.com/Python-tutorials/Refactoring/590828/629432-4.html)
 - [What refactoring tools do you use for Python?](https://stackoverflow.com/questions/28796/what-refactoring-tools-do-you-use-for-python)
+- [Bowler: Safe code refactoring for modern Python projects](https://github.com/facebookincubator/Bowler) - Bowler is a refactoring tool for manipulating Python at the syntax tree level. It enables safe, large scale code modifications while guaranteeing that the resulting code compiles and runs.
 
 ## Performance
 
