@@ -26,12 +26,19 @@ if [[ "${RUN_PERFORMANCE_SCRIPT}" = "true" ]]; then
    CUSTOM_ENTRY_POINT="${CUSTOM_ENTRY_POINT:-} --entrypoint ${WORKDIR}/runPerformanceBenchmark.sh"
 fi
 
+INTERACTIVE_MODE="--interactive --tty"
+TIME_IT="time"
+if [[ "${DETACHED_MODE:-}" = "true" ]]; then
+    INTERACTIVE_MODE="--detach"
+    TIME_IT=""
+fi
+
 mkdir -p shared
 mkdir -p .cache/bazel
 
 set -x
-time docker run --rm                                            \
-                --interactive --tty                             \
+${TIME_IT} docker run --rm                                      \
+                ${INTERACTIVE_MODE}                             \
                 --volume $(pwd)/shared:${WORKDIR}/shared        \
                 --volume $(pwd)/.cache/bazel:/root/.cache/bazel \
                 -p ${EXPOSED_PORT}:4567                         \
