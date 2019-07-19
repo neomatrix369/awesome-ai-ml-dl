@@ -14,17 +14,17 @@
 ~~~ Running DSS in a Docker container using the Traditional JDK (version 1.8)
 + docker run --rm --detach -p 10000:10000 --workdir /home/dataiku --env JDK_TO_USE=Traditional-JDK --env DSS_VERSION=5.1.4 --env JAVA_OPTS= --env DSS_PORT=10000 --env HOME=/home/dataiku --env DSS_DATADIR=/home/dataiku/dss --user dataiku neomatrix369/dataiku-dss:5.1.4
 + set +x
-Traditional-JDK: DSS in the container is now starting (id = 1c47c5a)
-........................................................................................................
+Traditional-JDK: DSS in the container is now starting (id = 11f22e6)
+..............................................................................
 Traditional-JDK: DSS in the container is now running.
-Traditional-JDK: Shutting down DSS in the container (id = 1c47c5a).
-1c47c5a
-Traditional-JDK: DSS in the container (id = 1c47c5a) has been shutdown.
+Traditional-JDK: Shutting down DSS in the container (id = 11f22e6)
+11f22e6
+Traditional-JDK: DSS in the container (id = 11f22e6) has been shutdown.
 
 
-real  0m24.883s
-user  0m17.316s
-sys 0m3.013s
+real  0m17.608s
+user  0m12.281s
+sys 0m2.113s
 
 ```
 
@@ -45,17 +45,17 @@ This version of GraalVM is based on JDK8, run with JVMCI disabled.
 ~~~ Running DSS in a Docker container using the GraalVM (version 1.8), JVMCI disabled
 + docker run --rm --detach -p 10000:10000 --workdir /home/dataiku --env JDK_TO_USE=GRAALVM --env DSS_VERSION=5.1.4 --env JAVA_OPTS=-XX:-UseJVMCINativeLibrary --env DSS_PORT=10000 --env HOME=/home/dataiku --env DSS_DATADIR=/home/dataiku/dss --user dataiku neomatrix369/dataiku-dss:5.1.4
 + set +x
-GRAALVM: DSS in the container is now starting (id = a4f3abb)
-....................................................................................................
+GRAALVM: DSS in the container is now starting (id = 20c9d2d)
+...........................................................................
 GRAALVM: DSS in the container is now running.
-GRAALVM: Shutting down DSS in the container (id = a4f3abb)
-a4f3abb
-GRAALVM: DSS in the container (id = a4f3abb) has been shutdown.
+GRAALVM: Shutting down DSS in the container (id = 20c9d2d)
+20c9d2d
+GRAALVM: DSS in the container (id = 20c9d2d) has been shutdown.
 
 
-real  0m23.913s
-user  0m16.658s
-sys 0m3.257s
+real  0m19.550s
+user  0m13.247s
+sys 0m2.576s
 
 ``` 
 
@@ -74,16 +74,16 @@ This version of GraalVM is based on JDK8, run with JVMCI enabled (default settin
 ~~~ Running DSS in a Docker container using the GraalVM (version 1.8), JVMCI enabled
 + docker run --rm --detach -p 10000:10000 --workdir /home/dataiku --env JDK_TO_USE=GRAALVM --env DSS_VERSION=5.1.4 --env JAVA_OPTS=-XX:+UseJVMCINativeLibrary --env DSS_PORT=10000 --env HOME=/home/dataiku --env DSS_DATADIR=/home/dataiku/dss --user dataiku neomatrix369/dataiku-dss:5.1.4
 + set +x
-GRAALVM: DSS in the container is now starting (id = 46a0a22)
-....................................................................................................
+GRAALVM: DSS in the container is now starting (id = e8d263d)
+............................................................................
 GRAALVM: DSS in the container is now running.
-GRAALVM: Shutting down DSS in the container (id = 46a0a22)
-46a0a22
-GRAALVM: DSS in the container (id = 46a0a22) has been shutdown.
+GRAALVM: Shutting down DSS in the container (id = e8d263d)
+e8d263d
+GRAALVM: DSS in the container (id = e8d263d) has been shutdown.
 
 
-real  0m24.398s
-user  0m17.135s
-sys 0m3.332s
+real  0m20.247s
+user  0m13.752s
+sys 0m2.624s
 
 ``` 
