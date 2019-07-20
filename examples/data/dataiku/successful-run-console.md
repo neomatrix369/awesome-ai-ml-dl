@@ -1,5 +1,9 @@
 # Successful run console
 
+![Page 1](dataiku-dss-page-01.png)
+![Page 2](dataiku-dss-page-02.png)
+![Page 3](dataiku-dss-page-03.png)
+
 ## Traditional JDK (JDK8)
 
 **Command**
@@ -88,4 +92,4 @@ sys 0m2.624s
 
 ``` 
 
-[Back to Dakaiku DSS Main Page](./README.md)
+[Back to Dakaiku DSS Main Page](./README.md#dataiku-data-science-studio-dss)
