@@ -30,7 +30,7 @@ sys 0m2.113s
 
 Control waits at the Graql prompt. Execution times at different stages are recorded and displayed. Other environment specific details are also printed in the console.
 
-## Polyglot JDK (GraalVM)
+## Polyglot JDK (GraalVM) - JVMCI disabled
 
 This version of GraalVM is based on JDK8, run with JVMCI disabled.
 
@@ -59,7 +59,7 @@ sys 0m2.576s
 
 ``` 
 
-## Polyglot JDK (GraalVM)
+## Polyglot JDK (GraalVM) - JVMCI enabled
 
 This version of GraalVM is based on JDK8, run with JVMCI enabled (default setting).
 
@@ -87,3 +87,5 @@ user  0m13.752s
 sys 0m2.624s
 
 ``` 
+
+[Back to Dakaiku DSS Main Page](./README.md)

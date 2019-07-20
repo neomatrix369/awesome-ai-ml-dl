@@ -64,7 +64,7 @@ sys 0m0.113s
 
 Execution times at different stages are recorded and displayed. Other environment specific details are also printed in the console.
 
-## Polyglot JDK (GraalVM)
+## Polyglot JDK (GraalVM) - JVMCI disabled
 
 This version of GraalVM is based on JDK8. With JVMCI disabled (via -XX:-UseJVMCINativeLibrary).
 
@@ -135,7 +135,7 @@ sys 0m0.118s
 Execution times at different stages are recorded and displayed. Other environment specific details are also printed in the console.
 
 
-## Polyglot JDK (GraalVM)
+## Polyglot JDK (GraalVM) - JVMCI enabled
 
 This version of GraalVM is based on JDK8, run with JVMCI enabled (default setting).
 
@@ -200,3 +200,6 @@ real  0m51.649s
 user  0m0.170s
 sys 0m0.111s
 ```
+
+
+[Back to Grakn Main Page](./README.md)
