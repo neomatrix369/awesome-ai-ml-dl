@@ -207,6 +207,10 @@ class BetterNLP:
             from org.neomatrix369.summariser_pytextrank import SummariserPyTextRank
             summariser = SummariserPyTextRank()
             result["summarised_text"], result["token_ranks"], result["key_phrases"], result["graph"] = summariser.generate_summary(text, top_n_sentences)
+        elif method == "nltk_sklearn":
+            from org.neomatrix369.summariser_nltk_sklearn import SummariserNltkSklearn
+            summariser = SummariserNltkSklearn()
+            result["summarised_text"], result["important_words"] = summariser.generate_summary(text, top_n_sentences)
 
         duration = time.time() - start_time
         result["summarisation_processing_time_in_secs"] = duration
