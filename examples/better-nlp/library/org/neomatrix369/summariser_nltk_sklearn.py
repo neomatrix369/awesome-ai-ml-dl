@@ -3,10 +3,8 @@
 from nltk.corpus import stopwords
 import nltk
 
-if len(punkt) == 0:
-    nltk.download('punkt')
-if len(wordnet) == 0:
-    nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 from nltk.tokenize import sent_tokenize, word_tokenize
 from string import punctuation
