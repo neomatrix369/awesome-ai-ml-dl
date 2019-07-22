@@ -58,6 +58,7 @@ RUN export PATH=$HOME/bin:${PATH}
 COPY startGraknAndGraql.sh ./startGraknAndGraql.sh
 COPY runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
 COPY mergeJson.sh ./mergeJson.sh
+COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
 
 RUN mkdir -p .cache
 RUN groupadd -r user_grp && useradd -r -g user_grp grakn
