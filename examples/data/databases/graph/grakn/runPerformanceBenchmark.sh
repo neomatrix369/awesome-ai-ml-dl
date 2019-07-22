@@ -6,7 +6,6 @@ set -o pipefail
 
 DEFAULT_JDK="${JAVA_8_HOME}"
 GRAKN_VERSION=${GRAKN_VERSION:-1.5.7}
-GRAKN_PORT=${GRAKN_PORT:-4567}
 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 export JAVA_HOME=${DEFAULT_JDK}
@@ -24,9 +23,8 @@ java -version
 
 (env | grep _JAVAOPTS) || true 
 
-echo "GRAKN_PORT=${GRAKN_PORT}"
 BAZEL_VERSION=0.26.1
-./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
+./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh --user
 
 cd ${WORKDIR}/shared
 echo "~~~~ Current working directory: $(pwd)"
@@ -38,6 +36,8 @@ else
   git clone --depth=1 https://github.com/graknlabs/benchmark/
   cd benchmark
 fi
+
+BENCHMARK_FOLDER=$(pwd)
 
 mkdir -p logs
 echo "~~~~ Updating maven dependencies via Bazel ~~~~"
@@ -62,9 +62,23 @@ cat logs/bazel_build.logs
 
 echo "~~~ Running report producer ~~~"
 cd bazel-genfiles
-unzip report-producer.zip
-time GRAKN_URI=localhost ./report_producer                              \
+unzip -u report-producer.zip
+cd report-producer
+
+GRAKN_URI="localhost" && time ./report_producer                    \
     --config=scenario/road_network/road_config_read_c4.yml         \
     --execution-name "road-read-c4" --grakn-uri ${GRAKN_URI}:48555 \
     --keyspace road_read_c4
+
 echo "~~~ Finished running report producer ~~~"
+
+echo "~~~ Merging reports ~~~"
+cp ${WORKDIR}/mergeJson.sh .
+./mergeJson.sh
+
+
+echo "~~~ Converting to text report ~~~"
+cd ${BENCHMARK_FOLDER}
+bazel run //report/formatter:report-formatter-binary --          \
+          --rawReport=bazel-genfiles/report-producer/report.json \
+          --destination=.

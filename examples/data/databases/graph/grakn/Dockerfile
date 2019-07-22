@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y wget unzip pv
 
 ARG GRAKN_VERSION
 ENV GRAKN_VERSION=${GRAKN_VERSION:-1.5.7}
-ENV WORKDIR=/grakn
+ENV WORKDIR=/home/grakn
 WORKDIR ${WORKDIR}
 
 ENV GRAKN_CORE_LINUX=grakn-core-all-linux
@@ -55,9 +55,13 @@ RUN chmod +x bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 RUN ./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 RUN export PATH=$HOME/bin:${PATH}
 
-EXPOSE 4567
-
 COPY startGraknAndGraql.sh ./startGraknAndGraql.sh
 COPY runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
+COPY mergeJson.sh ./mergeJson.sh
+
+RUN mkdir -p .cache
+RUN groupadd -r user_grp && useradd -r -g user_grp grakn
+RUN chown -R grakn:user_grp .
+USER grakn
 
 ENTRYPOINT ["bash", "-c", "./startGraknAndGraql.sh"]

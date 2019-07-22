@@ -6,8 +6,6 @@ set -o pipefail
 
 DEFAULT_JDK="${JAVA_8_HOME}"
 GRAKN_VERSION=${GRAKN_VERSION:-1.5.7}
-GRAKN_PORT=${GRAKN_PORT:-4567}
-
 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 export JAVA_HOME=${DEFAULT_JDK}
@@ -28,14 +26,12 @@ echo ""
 
 (env | grep _JAVAOPTS) || true 
 
-echo -n "GRAKN_PORT=${GRAKN_PORT}"
 echo ""
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn server start --benchmark
 echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Grakn server is running..."
-echo "Dashboard: http://localhost:${GRAKN_PORT}"
 echo "Starting Graql console..."
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn console
