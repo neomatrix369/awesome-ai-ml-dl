@@ -49,8 +49,8 @@ RUN ${GRAALVM_HOME}/bin/gu install native-image
 RUN apt-get install -qy pkg-config zip g++ zlib1g-dev unzip python3 \
     --no-install-recommends \
     && rm -r /var/lib/apt/lists/*
-ENV BAZEL_VERSION=0.27.1
-RUN curl -J -L -O https://github.com/bazelbuild/bazel/releases/download/${BAZEL_VERSION}/bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
+ENV BAZEL_VERSION=0.26.1
+RUN curl -J -L -O  https://github.com/bazelbuild/bazel/releases/download/${BAZEL_VERSION}/bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 RUN chmod +x bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 RUN ./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 RUN export PATH=$HOME/bin:${PATH}

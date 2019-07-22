@@ -25,7 +25,7 @@ java -version
 (env | grep _JAVAOPTS) || true 
 
 echo "GRAKN_PORT=${GRAKN_PORT}"
-BAZEL_VERSION=0.27.1
+BAZEL_VERSION=0.26.1
 ./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 
 cd ${WORKDIR}/shared
