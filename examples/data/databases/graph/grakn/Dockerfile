@@ -51,6 +51,7 @@ RUN export PATH=$HOME/bin:${PATH}
 COPY startGraknAndGraql.sh ./startGraknAndGraql.sh
 COPY runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
 COPY mergeJson.sh ./mergeJson.sh
+COPY buildUberJar.sh ./buildUberJar.sh
 COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
 
 RUN mkdir -p .cache
