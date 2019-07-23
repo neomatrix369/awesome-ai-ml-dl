@@ -21,7 +21,7 @@ fi
 echo "JAVA_HOME=${JAVA_HOME}"
 java -version
 
-echo -n "Grakn version: (see bottom of sartup text banner)"
+echo -n "Grakn version: (see bottom of the startup text banner)"
 echo ""
 
 (env | grep _JAVAOPTS) || true 
@@ -32,6 +32,11 @@ time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn server start --benchmark
 echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Grakn server is running..."
-echo "Starting Graql console..."
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn console
+
+if [[ "${SKIP_GRAQL:-}" = "true" ]]; then
+	echo "Skipping running Graql console"
+else
+	echo "Starting Graql console..."
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn console
+fi

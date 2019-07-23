@@ -23,6 +23,14 @@ java -version
 
 (env | grep _JAVAOPTS) || true 
 
+echo -n "Grakn version: (see bottom of the startup text banner)"
+echo ""
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn server start --benchmark
+echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+echo "Grakn server is running..."
+
 BAZEL_VERSION=0.26.1
 ./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh --user
 
