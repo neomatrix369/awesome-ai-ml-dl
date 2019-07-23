@@ -185,6 +185,7 @@
   - [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
 
   #### Machine Learning
+
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
   - [Top ML repos](https://github.com/yazdotai/top-machine-learning)
   - [ML on Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)
@@ -204,6 +205,7 @@
   - [Slides of how PyTorch helped the speaker learn ML](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Michael_Ceber.pdf)
   - [Slides of Collaborative Recommender System for Music](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=valentin_nagacevschi.pdf)
   - [Tensorflow 2.0 by Josh Gordon at the Google X / X-Team event](https://drive.google.com/file/d/1XAZp_n7avolVOGApKNLk0YcY3xGRaVcQ/view)
+  - [Algorithmia's Machine Learning Roadmap](https://info.algorithmia.com/email-machine-learning-roadmap)
   - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
   #### Deep Learning
