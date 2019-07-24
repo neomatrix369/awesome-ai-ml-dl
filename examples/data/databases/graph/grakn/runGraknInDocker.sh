@@ -31,6 +31,24 @@ if [[ "${DETACHED_MODE:-}" = "true" ]]; then
     TIME_IT=""
 fi
 
+JAVA_8_HOME="/usr/local/openjdk-8/"
+JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA_8_HOME}"
+
+if [[ "${JDK_TO_USE:-}" = "GRAALVM" ]]; then
+    GRAALVM_HOME="/usr/local/graalvm-ce-19.1.1"
+    COMMON_JAVAOPTS="${COMMON_JAVAOPTS:-'-XX:+UseJVMCINativeLibrary'}"
+    GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
+    STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
+    SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
+
+    JDK_SPECIFIC_ENV_VALUES=$(cat <<-END
+           --env GRAALVM_HOME=${GRAALVM_HOME}
+           --env JAVA_HOME=${GRAALVM_HOME}
+           --env GRAKN_DAEMON_JAVAOPTS=${GRAKN_DAEMON_JAVAOPTS}
+           --env STORAGE_JAVAOPTS=${STORAGE_JAVAOPTS}
+           --env SERVER_JAVAOPTS=${SERVER_JAVAOPTS} )
+fi
+
 mkdir -p shared
 mkdir -p .cache/bazel
 
@@ -41,7 +59,7 @@ ${TIME_IT} docker run --rm                                           \
                 --volume $(pwd)/.cache/bazel:${WORKDIR}/.cache/bazel \
                 --workdir ${WORKDIR}                                 \
                 --env JDK_TO_USE=${JDK_TO_USE:-}                     \
-                --env COMMON_JAVAOPTS=${COMMON_JAVAOPTS:-}           \
+                ${JDK_SPECIFIC_ENV_VALUES}                           \
                 ${CUSTOM_ENTRY_POINT}                                \
                 ${GRAKN_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
 set +x

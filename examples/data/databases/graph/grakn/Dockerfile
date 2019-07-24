@@ -48,15 +48,23 @@ RUN chmod +x bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 RUN ./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 RUN export PATH=$HOME/bin:${PATH}
 
+RUN apt-get update && apt-get install -qy vim \
+    --no-install-recommends \
+    && rm -r /var/lib/apt/lists/*
+RUN mkdir -p .cache
+
 COPY startGraknAndGraql.sh ./startGraknAndGraql.sh
 COPY runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
 COPY mergeJson.sh ./mergeJson.sh
 COPY buildUberJar.sh ./buildUberJar.sh
 COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
+COPY 0002-upgrade-jline-to-2.14.6.patch ./0002-upgrade-jline-to-2.14.6.patch
 
-RUN mkdir -p .cache
 RUN groupadd -r user_grp && useradd -r -g user_grp grakn
 RUN chown -R grakn:user_grp .
+
 USER grakn
+
+COPY .bashrc ${WORKDIR}/.bashrc
 
 ENTRYPOINT ["bash", "-c", "./startGraknAndGraql.sh"]

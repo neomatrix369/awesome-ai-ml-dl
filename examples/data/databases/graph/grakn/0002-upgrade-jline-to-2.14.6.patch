@@ -1,0 +1,25 @@
+From bd4fb2c542c422da5883e6131c98bc1e2fc7aeec Mon Sep 17 00:00:00 2001
+From: Mani Sarkar <sadhak001@gmail.com>
+Date: Wed, 24 Jul 2019 18:32:42 +0100
+Subject: [PATCH] Upgrading jline from 2.12 to 2.14.6 (native-image)
+
+---
+ dependencies/maven/dependencies.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/dependencies/maven/dependencies.yaml b/dependencies/maven/dependencies.yaml
+index d12ec691a..7de8e524e 100644
+--- a/dependencies/maven/dependencies.yaml
++++ b/dependencies/maven/dependencies.yaml
+@@ -163,7 +163,7 @@ dependencies:
+ 
+   jline:
+     jline:
+-      version: "2.12"
++      version: "2.14.6"
+       lang: java
+ 
+   junit:
+-- 
+2.17.2 (Apple Git-113)
+
