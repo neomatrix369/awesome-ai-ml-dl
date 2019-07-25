@@ -7,8 +7,8 @@ set -o pipefail
 source common.sh
 
 cd shared
-FOLDER=nlp4j-appassembler-1.1.3
-ARTIFACT=${FOLDER}.tgz
+FOLDER=appassembler
+ARTIFACT=nlp4j-${FOLDER}-1.1.3.tgz
 downloadArtifact http://nlp.mathcs.emory.edu/nlp4j/${ARTIFACT} \
                  ${ARTIFACT}                                   \
                  "${PWD}/${FOLDER}"

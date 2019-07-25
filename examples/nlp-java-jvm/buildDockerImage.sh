@@ -22,6 +22,8 @@ echo "* Fetching NLP base docker image ${BASE_DOCKER_FULL_TAG_NAME}:${BASE_IMAGE
 time docker pull ${BASE_DOCKER_FULL_TAG_NAME}:${BASE_IMAGE_VERSION} || true
 time docker build                                                  \
              --build-arg GRAALVM_VERSION="${GRAALVM_VERSION}"      \
+             --build-arg JAVA_8_HOME="/opt/java/openjdk"           \
+             --build-arg GRAALVM_HOME="/opt/java/graalvm-ce-${GRAALVM_VERSION}" \
              -t ${BASE_DOCKER_FULL_TAG_NAME}:${BASE_IMAGE_VERSION} \
              "${IMAGES_DIR}/base/."
 
@@ -38,3 +40,6 @@ time docker build                                                               
              --build-arg BASE_IMAGE="${BASE_DOCKER_FULL_TAG_NAME}:${BASE_IMAGE_VERSION}" \
              -t ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}                                 \
              "${IMAGES_DIR}/${language_id}/."
+
+./removeUnusedContainersAndImages.sh
+./push-nlp-java-docker-image-to-hub.sh

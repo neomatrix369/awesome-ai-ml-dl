@@ -29,21 +29,12 @@ if [[ "${DETACHED_MODE:-}" = "true" ]]; then
     TIME_IT=""
 fi
 
-JAVA_8_HOME="/usr/local/openjdk-8/"
-JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA_8_HOME}"
-
-if [[ "${JDK_TO_USE:-}" = "GRAALVM" ]]; then
-    GRAALVM_HOME="/usr/local/graalvm-ce-19.1.1"
-    JDK_SPECIFIC_ENV_VALUES="--env GRAALVM_HOME=${GRAALVM_HOME} --env JAVA_HOME=${GRAALVM_HOME}"
-fi
-
 set -x
 ${TIME_IT} docker run --rm                                      \
                 ${INTERACTIVE_MODE}                             \
                 --workdir ${WORKDIR}                            \
                 --env JDK_TO_USE=${JDK_TO_USE:-}                \
                 --volume $(pwd)/shared:${WORKDIR}/shared        \
-                ${JDK_SPECIFIC_ENV_VALUES}                      \
                 ${CUSTOM_ENTRY_POINT}                           \
                 ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
 set +x

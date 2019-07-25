@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk9
+FROM adoptopenjdk/openjdk8:jdk8u212-b03
 
 WORKDIR /home/nlp-java
 
@@ -10,11 +10,11 @@ RUN curl -O -L -J https://github.com/oracle/graal/releases/download/vm-${GRAALVM
 
 RUN tar xzf graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz -C /opt/java/
 
-ENV GRAALVM_HOME="/opt/java/graalvm-ce-${GRAALVM_VERSION}"
+ARG GRAALVM_HOME
+ENV GRAALVM_HOME=${GRAALVM_HOME}
 
-ENV JAVA_HOME=/opt/java/graalvm-ce-${GRAALVM_VERSION}
-
-ENV PATH=${JAVA_HOME}/bin:$PATH
+ARG JAVA_8_HOME
+ENV JAVA_8_HOME=${JAVA_8_HOME}
 
 ### Remove unused Java binaries
 
@@ -26,8 +26,7 @@ RUN rm -fr ${GRAALVM_HOME}/languages ${GRAALVM_HOME}/jre/languages
 RUN java -version
 
 ### Install packages
-RUN apt-get update && apt-get install -qy unzip git
-RUN apt-get install -qy vim
+RUN apt-get update && apt-get install -qy unzip git vim
 
 RUN unzip -version
 RUN git --version
