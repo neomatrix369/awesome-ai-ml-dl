@@ -1,7 +1,5 @@
 ### General
 
-### Java
-
 ### Automation
 
 - [Automated Machine Learning - Google search results](https://www.google.com/search?ei=b3ktXKfbEqWAjLsPqdOxiAs&q=automated+machine+learning&oq=automated+machine&gs_l=psy-ab.3.0.0j0i20i263j0l5j0i20i263j0l2.187330.192290..193008...3.0..0.70.1100.20......0....1..gws-wiz.....6..35i39j0i131j0i67.2o6PTTxjJjw)
@@ -12,6 +10,8 @@
 - [Data science competitions to build a better world](https://www.drivendata.org/)
 - [An ethics checklist for data scientists](http://deon.drivendata.org/)
   - [python package: deon](https://pypi.org/project/deon/)
+
+### Java
 
 #### Business / General / Semi-technical
 
