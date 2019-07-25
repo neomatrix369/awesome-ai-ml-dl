@@ -167,7 +167,7 @@
   - [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
   
   #### Natural Language Processing (NLP)
-  - See [Natural Language Processing (NLP)](natural-language-processing/README.md)
+  - See [Natural Language Processing (NLP)](natural-language-processing/README.md#natural-language-processing-nlp)
 
   #### Data Science
   

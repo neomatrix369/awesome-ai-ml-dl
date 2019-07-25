@@ -17,6 +17,7 @@ Startup in traditional JDK or GraalVM mode.
 
 ## Libraries / frameworks provided
 
+### Java
 - [Standford CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
 - [Apache OpenNLP](https://opennlp.apache.org/)
 - [NLP4J: NLP Toolkit for JVM Languages](https://emorynlp.github.io/nlp4j/)
@@ -27,14 +28,19 @@ Startup in traditional JDK or GraalVM mode.
 - [MALLET - MAchine Learning for LanguagE Toolkit](http://mallet.cs.umass.edu/)
 - [RDRPOSTagger - A robust POS tagging toolkit available (in both Java & Python) together with pre-trained models for 40+ languages.](https://github.com/datquocnguyen/RDRPOSTagger)
 
+### Clojure
+- [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
+- [Infections-clj](https://github.com/r0man/inflections-clj) - Rails-like inflection library for Clojure and ClojureScript
+- [postagga](https://github.com/fekr/postagga) - A library to parse natural language in Clojure and ClojureScript
+
 ## Scripts provided
 
 **Go to [the previous folder](../nlp-java-jvm) to find the below scripts.**
 
 - [runInDocker.sh](./runInDocker.sh) - runs the container and brings you to the command prompt inside the container
-- [Base Dockerfile](./images/base/Dockerfile) | [Java Dockerfile](./images/java/Dockerfile): Dockerfile scripts to help build the base and language (i.e. java) specific docker image of NLP Java/JVM in an isolated environment with the necessary dependencies.
-- [images folder](./images) - provided with scripts to build and the scripts included into the container for the base image and language (i.e. java) specific docker image
-- [buildDockerImage.sh](./buildDockerImage.sh): build the docker base and language (i.e. java) specific image takes under 5 minutes to finish on a decent connection
+- [Base Dockerfile](./images/base/Dockerfile) | [Java Dockerfile](./images/java/Dockerfile): Dockerfile scripts to help build the base and language (i.e. java, clojure) specific docker image of NLP Java/JVM in an isolated environment with the necessary dependencies.
+- [images folder](./images) - provided with scripts to build and the scripts included into the container for the base image and language (i.e. java, clojure) specific docker image
+- [buildDockerImage.sh](./buildDockerImage.sh): build the docker base and language (i.e. java, clojure) specific image takes under 5 minutes to finish on a decent connection
 - [push-nlp-java-docker-image-to-hub.sh](./push-nlp-java-docker-image-to-hub.sh) - push pre-built docker images to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
 - [removeUnusedContainersAndImages.sh](./removeUnusedContainersAndImages.sh) - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
 
@@ -74,7 +80,7 @@ $ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
 or
 $ IMAGE_VERSION="x.y.z" ./buildDockerImage.sh [language_id]
 ```
-`[language_id]` defaults to `java` when not provided.
+`[language_id]` - defaults to `java` when not provided. Accepts: java, clojure
 
 **Push built NLP Java/JVM docker image to Docker hub:**
 

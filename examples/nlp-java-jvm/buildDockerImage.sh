@@ -30,7 +30,7 @@ time docker build                                                  \
 
 ### Build language specific image
 language_id=${1:-java}
-IMAGE_NAME=${IMAGE_NAME:-nlp-java}
+IMAGE_NAME=${IMAGE_NAME:-nlp-${language_id}}
 IMAGE_VERSION=${IMAGE_VERSION:-$(cat images/${language_id}/version.txt)}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
@@ -42,4 +42,4 @@ time docker build                                                               
              "${IMAGES_DIR}/${language_id}/."
 
 ./removeUnusedContainersAndImages.sh
-./push-nlp-java-docker-image-to-hub.sh
+./push-nlp-java-docker-image-to-hub.sh ${language_id}
