@@ -22,6 +22,7 @@
   - [Clojure-based libraries](https://github.com/keon/awesome-nlp#user-content-clojure)
   - [Kotlin-based libraries](https://github.com/keon/awesome-nlp#user-content-kotlin)
   - [Scala-based libraries](https://github.com/keon/awesome-nlp#user-content-scala)
+  - [NLP Java/JVM](../examples/nlp-java-jvm/README.md) - docker container with Java/JVM based NLP libraries/frameworks (inspired by LaMachine, Awesome NLP and others out there)
 
 ## Courses, Tutorial, Learning resource
 - [Introductory: NLP for hackers](https://nlpforhackers.io/deep-learning-introduction/)
@@ -38,7 +39,7 @@
 ## Library, Framework, Models, Tools, Services
 
 - [BloomsburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomsburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai) [Bought out by FB around March/April 2019]
-- [NLP Java](./examples/nlp-java-jvm) - docker container with Java/JVM based NLP libraries/frameworks (inspired by LaMachine, Awesome NLP and others out there)
+- [NLP Java/JVM](../examples/nlp-java-jvm/README.md) - docker container with Java/JVM based NLP libraries/frameworks (inspired by LaMachine, Awesome NLP and others out there)
 - [Better NLP library (experimental)](../examples/better-nlp) | Slides: [1](./better-nlp/presentations/09-Mar-2019/Better-NLP-Presentation-Slides.pdf) [2](./better-nlp/presentations/29-Jun-2019/Better-NLP-2.0-one-library-rules-them-all-Presentation-Slides.pdf)
 - [Facebook's PyText](https://github.com/facebookresearch/PyText)
 - [Facebook's FastText](https://github.com/facebookresearch/FastText) | [homepage | docs](https://fasttext.cc/)
