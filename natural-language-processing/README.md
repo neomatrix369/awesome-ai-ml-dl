@@ -22,7 +22,6 @@
   - [Clojure-based libraries](https://github.com/keon/awesome-nlp#user-content-clojure)
   - [Kotlin-based libraries](https://github.com/keon/awesome-nlp#user-content-kotlin)
   - [Scala-based libraries](https://github.com/keon/awesome-nlp#user-content-scala)
-  - Also see [Natural Language Processing (NLP)](README-details.md#natural-language-processing-nlp-1) under [Julia, Python & R](README-details.md#julia-python--r)
 
 ## Courses, Tutorial, Learning resource
 - [Introductory: NLP for hackers](https://nlpforhackers.io/deep-learning-introduction/)
