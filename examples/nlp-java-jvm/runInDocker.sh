@@ -4,7 +4,8 @@ set -e
 set -u
 set -o pipefail
 
-NLP_JAVA_VERSION=${NLP_JAVA_VERSION:-$(cat version.txt)}
+language_id=${1:-java}
+NLP_JAVA_VERSION=${NLP_JAVA_VERSION:-$(cat images/${language_id}/version.txt)}
 GRAALVM_VERSION=${GRAALVM_VERSION:-19.1.1}
 
 DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
@@ -41,6 +42,7 @@ ${TIME_IT} docker run --rm                                      \
                 ${INTERACTIVE_MODE}                             \
                 --workdir ${WORKDIR}                            \
                 --env JDK_TO_USE=${JDK_TO_USE:-}                \
+                --volume $(pwd)/shared:${WORKDIR}/shared        \
                 ${JDK_SPECIFIC_ENV_VALUES}                      \
                 ${CUSTOM_ENTRY_POINT}                           \
                 ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}

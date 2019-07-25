@@ -19,19 +19,24 @@ ENV PATH=${JAVA_HOME}/bin:$PATH
 ### Remove unused Java binaries
 
 RUN rm graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz
-RUN rm -fr /opt/java/openjdk
+RUN rm -fr ${GRAALVM_HOME}/languages ${GRAALVM_HOME}/jre/languages 
 
 ### Test Java
 
 RUN java -version
 
 ### Install packages
-RUN apt-get update && apt-get install unzip
+RUN apt-get update && apt-get install -qy unzip git
+RUN apt-get install -qy vim
+
+RUN unzip -version
+RUN git --version
+RUN vim --version
 
 ### Setup user
 
-RUN groupadd -r nlp_java && useradd -r -g nlp_java nlp_java
-RUN chown -R nlp_java:nlp_java .
-USER nlp_java
+RUN groupadd -r nlp-java && useradd -g nlp-java nlp-java
+RUN cd /home/nlp-java
+RUN chown -R nlp-java:nlp-java .
 
 COPY .bashrc .bashrc

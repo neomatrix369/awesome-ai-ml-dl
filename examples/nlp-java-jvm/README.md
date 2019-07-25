@@ -20,6 +20,12 @@ Startup in traditional JDK or GraalVM mode.
 - [Standford CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
 - [Apache OpenNLP](https://opennlp.apache.org/)
 - [NLP4J: NLP Toolkit for JVM Languages](https://emorynlp.github.io/nlp4j/)
+- [Word2vec in Java](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec)
+- [ReVerb: Web-Scale Open Information Extraction](https://github.com/knowitall/reverb/)
+- [OpenRegex: An efficient and flexible token-based regular expression language and engine](https://github.com/knowitall/openregex)
+- [CogcompNLP: Core libraries developed in the U of Illinois' Cognitive Computation Group](https://github.com/datquocnguyen/RDRPOSTagger)
+- [MALLET - MAchine Learning for LanguagE Toolkit](http://mallet.cs.umass.edu/)
+- [RDRPOSTagger - A robust POS tagging toolkit available (in both Java & Python) together with pre-trained models for 40+ languages.](https://github.com/datquocnguyen/RDRPOSTagger)
 
 ## Scripts provided
 
