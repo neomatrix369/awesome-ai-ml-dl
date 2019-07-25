@@ -13,7 +13,7 @@ Startup in traditional JDK or GraalVM mode.
 - Ability to debug the docker container
 - Run using the traditional JDK (OpenJDK or vendor specific versions)
 - Run using the polyglot JVM i.e. GraalVM JDK (Community version from Oracle Labs)
-- Play with some examples for each of the libraries included
+- Play with and learn from with some examples for each of the libraries provided
 
 ## Libraries / frameworks provided
 
@@ -32,9 +32,10 @@ Startup in traditional JDK or GraalVM mode.
 **Go to [the previous folder](../nlp-java-jvm) to find the below scripts.**
 
 - [runInDocker.sh](./runInDocker.sh) - runs the container and brings you to the command prompt inside the container
-- [Dockerfile](./Dockerfile): a dockerfile script to help build a docker image of NLP Java/JVM in an isolated environment with the necessary dependencies.
-- [buildDockerImage.sh](./buildDockerImage.sh): build the docker image takes under 5 minutes to finish on a decent connection
-- [push-nlp-java-docker-image-to-hub.sh](./push-nlp-java-docker-image-to-hub.sh) - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
+- [Base Dockerfile](./images/base/Dockerfile) | [Java Dockerfile](./images/java/Dockerfile): Dockerfile scripts to help build the base and language (i.e. java) specific docker image of NLP Java/JVM in an isolated environment with the necessary dependencies.
+- [images folder](./images) - provided with scripts to build and the scripts included into the container for the base image and language (i.e. java) specific docker image
+- [buildDockerImage.sh](./buildDockerImage.sh): build the docker base and language (i.e. java) specific image takes under 5 minutes to finish on a decent connection
+- [push-nlp-java-docker-image-to-hub.sh](./push-nlp-java-docker-image-to-hub.sh) - push pre-built docker images to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
 - [removeUnusedContainersAndImages.sh](./removeUnusedContainersAndImages.sh) - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
 
 ## Usage
@@ -56,7 +57,6 @@ $ ./runInDocker.sh
 or
 $ DOCKER_USER_NAME="your_docker_username" ./runInDocker.sh
 or
-$ NLP_JAVA_VERSION="x.y.z" ./runInDocker.sh
 or in debug mode
 $ DEBUG="true" ./runInDocker.sh
 or run in GraalVM mode
@@ -72,8 +72,9 @@ $ ./buildDockerImage.sh
 or
 $ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
 or
-$ NLP_JAVA_VERSION="x.y.z" ./buildDockerImage.sh
+$ IMAGE_VERSION="x.y.z" ./buildDockerImage.sh [language_id]
 ```
+`[language_id]` defaults to `java` when not provided.
 
 **Push built NLP Java/JVM docker image to Docker hub:**
 
@@ -82,7 +83,7 @@ $ ./push-nlp-java-docker-image-to-hub.sh
 or
 $ DOCKER_USER_NAME="your_docker_username" ./push-nlp-java-docker-image-to-hub.sh
 or
-$ NLP_JAVA_VERSION="x.y.z" ./push-nlp-java-docker-image-to-hub.sh
+$ IMAGE_VERSION="x.y.z" ./push-nlp-java-docker-image-to-hub.sh
 ```
 
 The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).

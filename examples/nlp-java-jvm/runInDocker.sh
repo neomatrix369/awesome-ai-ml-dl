@@ -5,13 +5,13 @@ set -u
 set -o pipefail
 
 language_id=${1:-java}
-NLP_JAVA_VERSION=${NLP_JAVA_VERSION:-$(cat images/${language_id}/version.txt)}
+
 GRAALVM_VERSION=${GRAALVM_VERSION:-19.1.1}
 
 DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
 
 IMAGE_NAME=${IMAGE_NAME:-nlp-java}
-IMAGE_VERSION=${IMAGE_VERSION:-${NLP_JAVA_VERSION}}
+IMAGE_VERSION=${IMAGE_VERSION:-$(cat images/${language_id}/version.txt)}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 WORKDIR=/home/nlp-java
@@ -34,6 +34,7 @@ ${TIME_IT} docker run --rm                                      \
                 ${INTERACTIVE_MODE}                             \
                 --workdir ${WORKDIR}                            \
                 --env JDK_TO_USE=${JDK_TO_USE:-}                \
+                --env JAVA_OPTS=${JAVA_OPTS:-}                  \
                 --volume $(pwd)/shared:${WORKDIR}/shared        \
                 ${CUSTOM_ENTRY_POINT}                           \
                 ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
