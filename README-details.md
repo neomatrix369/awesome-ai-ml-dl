@@ -345,6 +345,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Flourish](https://flourish.studio/) - Powerful, beautiful, easy
 data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on your site. All devices welcome. Nothing to install. Outputs work forever. Unlimited flexibility.
   - [How to choose the right visualization for your data ](https://flourish.studio/2018/09/28/choosing-the-right-visualisation/) | [Good example: The best laid plans](https://towardsdatascience.com/the-best-laid-plans-7eb3a22ffbc1) | [Video of talk](https://www.youtube.com/watch?v=YenoaVWHV80) by [Surasti Puri](https://www.surastipuri.com/)
+  - [Italo Calvino: text & data | data visualization book by Hanna Piotrowska (Dyrcz)](https://www.behance.net/gallery/83315693/Calvinos-book-text-data-data-visualization?fbclid=IwAR0zj9iwNSDOp2x7n8Kh-CaKaJ3vZjGHfWMIloWZklNuH_QQKzpMxnQOXUM)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
