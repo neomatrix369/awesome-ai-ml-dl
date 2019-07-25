@@ -2,7 +2,7 @@
 
 Run a docker container with NLP libraries/frameworks writting in Java/JVM languages, running under the traditional Java 8 (from OpenJDK or another source) or GraalVM.
 
-Find out more about [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) from the [NLP section](../../natural-language-processing/README.md) section.
+Find out more about [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) from the [NLP section](../../natural-language-processing/README.md#natural-language-processing-nlp) section.
 
 Startup in traditional JDK or GraalVM mode.
 
@@ -33,14 +33,25 @@ Startup in traditional JDK or GraalVM mode.
 - [Infections-clj](https://github.com/r0man/inflections-clj) - Rails-like inflection library for Clojure and ClojureScript
 - [postagga](https://github.com/fekr/postagga) - A library to parse natural language in Clojure and ClojureScript
 
+### Kotlin
+- [Lingua](https://github.com/pemistahl/lingua/) - A language detection library for Kotlin and Java, suitable for long and short text alike
+- [Kotidgy](https://github.com/meiblorn/kotidgy) — an index-based text data generator written in Kotlin
+
+### Scala
+- [Saul](https://github.com/CogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc.
+- [ATR4S](https://github.com/ispras/atr4s) - Toolkit with state-of-the-art automatic term recognition methods.
+- [tm](https://github.com/ispras/tm) - Implementation of topic modeling based on regularized multilingual PLSA.
+- [word2vec-scala](https://github.com/Refefer/word2vec-scala) - Scala interface to word2vec model; includes operations on vectors like word-distance and word-analogy.
+- [Epic](https://github.com/dlwh/epic) - Epic is a high performance statistical parser written in Scala, along with a framework for building complex structured prediction models.
+
 ## Scripts provided
 
 **Go to [the previous folder](../nlp-java-jvm) to find the below scripts.**
 
 - [runInDocker.sh](./runInDocker.sh) - runs the container and brings you to the command prompt inside the container
-- [Base Dockerfile](./images/base/Dockerfile) | [Java Dockerfile](./images/java/Dockerfile): Dockerfile scripts to help build the base and language (i.e. java, clojure) specific docker image of NLP Java/JVM in an isolated environment with the necessary dependencies.
-- [images folder](./images) - provided with scripts to build and the scripts included into the container for the base image and language (i.e. java, clojure) specific docker image
-- [buildDockerImage.sh](./buildDockerImage.sh): build the docker base and language (i.e. java, clojure) specific image takes under 5 minutes to finish on a decent connection
+- [Base Dockerfile](./images/base/Dockerfile) | [Java Dockerfile](./images/java/Dockerfile): Dockerfile scripts to help build the base and language (i.e. java, clojure, kotlin, scala) specific docker image of NLP Java/JVM in an isolated environment with the necessary dependencies.
+- [images folder](./images) - provided with scripts to build and the scripts included into the container for the base image and language (i.e. java, clojure, kotlin, scala) specific docker image
+- [buildDockerImage.sh](./buildDockerImage.sh): build the docker base and language (i.e. java, clojure, kotlin, scala) specific image takes under 5 minutes to finish on a decent connection
 - [push-nlp-java-docker-image-to-hub.sh](./push-nlp-java-docker-image-to-hub.sh) - push pre-built docker images to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
 - [removeUnusedContainersAndImages.sh](./removeUnusedContainersAndImages.sh) - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
 
@@ -80,7 +91,7 @@ $ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
 or
 $ IMAGE_VERSION="x.y.z" ./buildDockerImage.sh [language_id]
 ```
-`[language_id]` - defaults to `java` when not provided. Accepts: java, clojure
+`[language_id]` - defaults to `java` when not provided. Accepts: `java`, `clojure`, `kotlin`, `scala`
 
 **Push built NLP Java/JVM docker image to Docker hub:**
 
@@ -106,4 +117,5 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
+Back to [NLP page](../../natural-language-processing/README.md#natural-language-processing-nlp) </br>
 Back to [main page (table of contents)](../../README.md)

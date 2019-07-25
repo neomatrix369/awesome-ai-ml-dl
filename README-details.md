@@ -68,7 +68,7 @@
   - [Deploying Bespoke AI using fnproj - KADlytics by Miminal](https://blogs.oracle.com/startup/deploying-bespoke-ai-using-fn-project-kadlytics-by-miminal) ([Tweet]( https://twitter.com/java/status/1034474482751221761))
 
 #### Natural Language Processing (NLP)
-  - See [Natural Language Processing (NLP)](natural-language-processing/README.md#Java)
+  - See [Natural Language Processing (NLP)](natural-language-processing/README.md#Java-jvm)
 
 #### Neural Networks
 
