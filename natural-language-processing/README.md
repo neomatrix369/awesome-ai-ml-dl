@@ -11,7 +11,7 @@
 - [LaMachine](https://proycon.github.io/LaMachine/) - LaMachine is a unified software distribution for Natural Language Processing. Integration of numerous open-source NLP tools, programming libraries, web-services and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines (bare-metal, Virtual Machines and Docker containers).
 - [Awesome NLP](https://github.com/keon/awesome-nlp)
 
-## Java
+## Java/JVM
   - [An introduction to natural language processing and a demo using opensource libraries](https://www.ibm.com/developerworks/library/cc-cognitive-natural-language-processing/index.html?social_post=963789367&fst=Discover) ([Tweet](https://twitter.com/java/status/883174486459248646))
   - [Implementing NLP Attention Mechanisms with DeepLearning4J](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/255622367/) ([Tweet](https://twitter.com/java/status/1058405126988161024))
   - [How Stanford CoreNLP, a popular Java natural language tool can help you perform Natural Language Processing tasks](https://stanfordnlp.github.io/CoreNLP/) ([Tweet](https://twitter.com/java/status/945689918289924096))
