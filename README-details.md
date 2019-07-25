@@ -68,13 +68,7 @@
   - [Deploying Bespoke AI using fnproj - KADlytics by Miminal](https://blogs.oracle.com/startup/deploying-bespoke-ai-using-fn-project-kadlytics-by-miminal) ([Tweet]( https://twitter.com/java/status/1034474482751221761))
 
 #### Natural Language Processing (NLP)
-
-  - [An introduction to natural language processing and a demo using opensource libraries](https://www.ibm.com/developerworks/library/cc-cognitive-natural-language-processing/index.html?social_post=963789367&fst=Discover) ([Tweet](https://twitter.com/java/status/883174486459248646))
-  - [Implementing NLP Attention Mechanisms with DeepLearning4J](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/255622367/) ([Tweet](https://twitter.com/java/status/1058405126988161024))
-  - [How Stanford CoreNLP, a popular Java natural language tool can help you perform Natural Language Processing tasks](https://stanfordnlp.github.io/CoreNLP/) ([Tweet](https://twitter.com/java/status/945689918289924096))
-  - [FREE AI talk on Natural Language Processing NLP using Java with deeplearning4j](https://www.youtube.com/watch?v=XrZ_Y4koV5A&feature=youtu.be) ([Tweet](https://twitter.com/java/status/1062035545394532352))
-  - [Apache OpenNLP](https://opennlp.apache.org/)
-  - Also see [Natural Language Processing (NLP)](README-details.md#natural-language-processing-nlp-1) under [Julia, Python & R](README-details.md#julia-python--r)
+  - See [Natural Language Processing (NLP)](natural-language-processing/README.md#Java)
 
 #### Neural Networks
 
@@ -173,7 +167,7 @@
   - [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
   
   #### Natural Language Processing (NLP)
-  See [Natural Language Processing (NLP)](natural-language-processing/README.md)
+  - See [Natural Language Processing (NLP)](natural-language-processing/README.md)
 
   #### Data Science
   
