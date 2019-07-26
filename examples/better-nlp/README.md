@@ -104,4 +104,5 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
+Back to [NLP page](../../natural-language-processing/README.md#natural-language-processing-nlp) </br>
 Back to [main page (table of contents)](../../README.md)
