@@ -97,6 +97,7 @@
   - [Learn about Marvin AI a set of tools, libraries, an embedded server that exposes microservices](https://www.youtube.com/watch?v=M5_yQCRIftw&feature=youtu.be&t=2m31s) ([Tweet](https://twitter.com/java/status/1040980810231250944))
   - [Apache Zeppelin: stairway to notes* haven!](https://medium.com/@neomatrix369/apache-zeppelin-stairway-to-notes-haven-28ec413a185a)
   - [Teaching Java with Jupyter notebooks](https://blog.frankel.ch/teaching-java-jupyter-notebooks/)
+  - [Efficient Java Matrix Library (EJML) is a linear algebra library for manipulating real/complex/dense/sparse matrices](http://ejml.org/wiki/index.php?title=Main_Page)
   
 #### Data Science 
 
