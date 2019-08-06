@@ -40,6 +40,10 @@
  
  _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
 
+#### FPGA
+
+  - [Intel AI Developer Program - Deep Learning Inference With Intel® FPGAs](https://software.intel.com/en-us/ai/courses/deep-learning-inference-fpga)
+
 #### GPU
   - [Know your GPU](https://gist.github.com/neomatrix369/256913dcf77cdbb5855dd2d7f5d81b84)
   - [GPU Server 1 of 2](./gpus/GPU-Server-side-1-of-2.jpg) | [GPU Server 2 of 2](./gpus/GPU-Server-side-2-of-2.jpg) | [Applications of GPU servers](./gpus/Applications-of-GPU-Server.jpg) - [checkout the manufacturers](http://manli.com/en/)
