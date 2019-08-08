@@ -96,6 +96,7 @@
 - [Python High Performance - Second Edition](https://github.com/PacktPublishing/Python-High-Performance-Second-Edition)
 - [Python and performance](https://github.com/ameroueh/performance)
 - [NumPy aware dynamic Python compiler using LLVM ](https://github.com/ameroueh/numba) | [Numba](http://numba.pydata.org/)
+- [Profiling in Python](https://github.com/mkunesch/profiling-talk) - by [Markus Kunesch](https://github.com/mkunesch)
 
 # Contributing
 
