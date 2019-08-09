@@ -96,6 +96,7 @@ NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java
 
 ## Presentations
 - [Natural Language Procoessing presentation by Ovidiu S.](./presentations/nlp/Natural_Language_Processing_-_MaM.pdf)
+- [Better NLP - presentations](../examples/better-nlp/presentations)
 
 ## Notebooks
 
