@@ -347,7 +347,16 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Graph databases](./data/README.md#databases)
     - See the [Grakn example](./examples/data/databases/graph/grakn/README.md) in the `examples/data/databases/graph/grakn` folder
   - [BCS APSG - 2019 02 14 How Graph Technology is Changing AI and ML at BCS London](https://www.youtube.com/watch?v=oMqP3ISPWBY)
-  
+
+### Examples
+  - [Apache Zeppelin](./examples/apache-zeppelin/README.md)
+  - [Better NLP](./examples/better-nlp/README.md)
+  - [Data](./examples/data)
+    - [Dataiku](./examples/data/dataiku/README.md)
+    - [Grakn](./examples/data/databases/graph/grakn/README.md)
+  - [JuPyteR](./examples/JuPyteR/README.md)
+  - [NLP Java/JVM](./examples/nlp-java-jvm/README.md)
+
 ### Notebooks
   - Apache Zeppelin notes
     - See [example](examples/apache-zeppelin/README.md) in the `examples/apache-zeppelin` folder
@@ -375,7 +384,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
 - [Model Zoo - Discover open source deep learning code and pretrained models](https://modelzoo.co/)
 - Model Zoo: [Caffe docs](https://caffe2.ai/docs/zoo.html) | [Caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo) | [MXNet](https://mxnet.incubator.apache.org/model_zoo/) | [DL4J](https://deeplearning4j.org/docs/latest/deeplearning4j-zoo-models) | [CoreNLP](https://stanfordnlp.github.io/CoreNLP/model-zoo.html)
 
-### Articles, papers, code, data, courses, presentations
+### Articles, papers, code, data, courses
   - [Papers, code, data by Yaz](https://github.com/yazdotai/paper-code-data)
   - [Awesome AI Papers by Yaz (empty atm)](https://github.com/yazdotai/awesome-ai-papers)
   - [Papers and code](https://paperswithcode.com)
@@ -386,10 +395,12 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Browse state-of-the-art](https://paperswithcode.com/sota)
   - [ML/DL/Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
   - [Papers by Google X](./papers/google-x/README.md#papers-by-members-of-google-and-google-x-aka-x-team)
+
+### Presentations
   - [NLP presentations](./natural-language-processing/README.md#presentations)
-    - [Better NLP - presentations](./examples/better-nlp/presentations)
+   - [Better NLP - presentations](./examples/better-nlp/presentations)
   - [Data presentations](./presentations/data/)
-    - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
+   - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
 
 ### Best Practices
 
