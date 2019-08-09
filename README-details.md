@@ -350,11 +350,11 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
 
 ### Examples
   - [Apache Zeppelin](./examples/apache-zeppelin/README.md)
-  - [Better NLP](./examples/apache-zeppelin/README.md)
+  - [Better NLP](./examples/better-nlp/README.md)
   - [Data](./examples/data)
-    - [Dataiku](./examples/data/README.md)
+    - [Dataiku](./examples/data/dataiku/README.md)
     - [Grakn](./examples/data/databases/graph/grakn/README.md)
-  - [Jupyter](./examples/apache-zeppelin/README.md)
+  - [JuPyteR](./examples/JuPyteR/README.md)
   - [NLP Java/JVM](./examples/nlp-java-jvm/README.md)
 
 ### Notebooks
