@@ -64,6 +64,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [Microsoft Research Open Data](https://msropendata.com/)
 - [Free Datasets recommended by r-directory](https://r-dir.com/reference/datasets.html)
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+- [Google Research: A large-scale dataset of manually annotated audio events](https://research.google.com/audioset/index.html)
 
 ## Data Exploratory Analysis
 
