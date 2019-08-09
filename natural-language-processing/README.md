@@ -95,7 +95,7 @@ NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java
 - [Code resources for Central London Data Science Project Nights meetup on word vectors](https://github.com/central-ldn-data-sci/nlp-using-word-vectors)
 
 ## Presentations
-- [Natural Language Procoessing presentation by Ovidiu S.](./presentations/nlp/Natural_Language_Processing_-_MaM.pdf)
+- [Natural Language Procoessing presentation by Ovidiu S.](../presentations/nlp/)
 - [Better NLP - presentations](../examples/better-nlp/presentations)
 
 ## Notebooks
