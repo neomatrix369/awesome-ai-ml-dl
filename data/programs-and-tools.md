@@ -16,6 +16,10 @@ See [Tableau Prep](about-Tableau-Prep.md#tableau-prep)
 
 See [About Dataiku](about-Dataiku.md#dataiku)
 
+### Valohai.com
+
+See [About Valohai](about-Valohai.md#valohai)
+
 ### Pipeline.ai
 
 See [About Pipeline.ai](about-Pipeline.ai.md#pipelineai)
