@@ -133,8 +133,9 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Shap](https://github.com/slundberg/shap) - A unified approach to explain the output of any machine learning model
 - [LIME](https://github.com/marcotcr/lime)
 - [4 Python Libraries For Getting Better Model Interpretability](https://www.analyticsindiamag.com/4-python-libraries-for-getting-better-model-interpretability/)
+- [Integrated Gradients: Axiomatic Attribution for Deep Networks](https://github.com/ankurtaly/Integrated-Gradients) | [Paper](https://arxiv.org/abs/1703.01365)
 - [Resources on GitHub on interpretability](https://github.com/topics/interpretability)
-- [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - A Curated, but Probably Biased and Incomplete, List of Awesome Machine Learning Interpretability Resources.
+- [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - A Curated, but Probably Biased and Incomplete, List of Awesome Machine Learning Interpretability Resources
 
 ### Articles, blog posts, papers, notebooks, books
 - [DataRobot: Model Interpretability - What is Model Interpretability in Machine Learning?](https://www.datarobot.com/wiki/interpretability/)
@@ -150,6 +151,11 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
 - [R Machine Learning Projects by Dr. Sunil Kumar Chinnamgari: Model interpretability](https://www.oreilly.com/library/view/r-machine-learning/9781789807943/dcd398be-3488-423c-942c-69d1eac253f5.xhtml)
 - [Hands-on Machine Learning with R: Interpretable Machine Learning](https://bradleyboehmke.github.io/HOML/iml.html)
+- Tree SHAP
+  - [Consistent Individualized Feature Attribution for Tree Ensembles ](https://arxiv.org/abs/1802.03888)
+  - [Consistent feature attribution for tree ensembles](https://arxiv.org/abs/1706.06060)
+- [Exact SHAP: A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874)
+- [Integrated Gradients: Axiomatic Attribution for Deep Networks](https://arxiv.org/abs/1703.01365) | [GitHub](https://github.com/ankurtaly/Integrated-Gradients)
 
 ## Statistics
 
