@@ -58,6 +58,16 @@
 #### IPU
   - [GraphCore](http://graphcore.ai) | Videos: [Simon Knowles - More complex models and more powerful machines](https://www.youtube.com/watch?v=dLvkF_TmyAc&feature=youtu.be) | [Graphcore tech Concept](https://youtu.be/cSXbhEsUUGo?t=916) | [A new kind of hardware designed for machine intelligence - GraphCore Presentations](http://www.bristol.bcs.org.uk/2017/graphcore.pdf) | [V‍ID‌EO‌‍: SCA‌LING‌‍ THRO‌UG‍HP‌‍U‌T P‍R‌O‍C‍ESSO‌‍RS FO‌‍R‍ MAC‌HINE INTELLIG‌ENC‌‍E](https://www.graphcore.ai/posts/video-scaling-throughput-processors-for-machine-intelligence)
 
+#### Performance
+  - [MLPerf](https://mlperf.org/) - Fair and useful benchmarks for measuring training and inference performance of ML hardware, software, and services.
+  - [MLPerf introduces machine learning inference benchmark suite...](https://venturebeat.com/2019/06/24/mlperf-introduces-machine-learning-inference-benchmark-suite/)
+  - [ONE DEEP LEARNING BENCHMARK TO RULE THEM ALL](https://www.nextplatform.com/2018/08/30/one-deep-learning-benchmark-to-rule-them-all/)
+  - [mlbench: Distributed Machine Learning Benchmark](https://mlbench.github.io/) - A public and reproducible collection of reference implementations and benchmark suite for distributed machine learning algorithms, frameworks and systems.
+  - [EEMBC MLMark Benchmark](https://www.eembc.org/mlmark/) - The EEMBC MLMark benchmark is a machine-learning (ML) benchmark designed to measure the performance and accuracy of embedded inference. 
+  - [DeepOBS: A Deep Learning Optimizer Benchmark Suite](https://arxiv.org/abs/1903.05499)
+  - [PMLB](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4) - a large benchmark suite for machine learning evaluation and comparison
+  - [Deep Learning Benchmarking Suite](https://github.com/HewlettPackard/dlcookbook-dlbs) | [HPE Deep Learning Cookbook](https://www.hpe.com/software/dl-cookbook)
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
