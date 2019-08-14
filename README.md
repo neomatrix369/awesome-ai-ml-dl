@@ -16,6 +16,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 - [Awesome AI-ML-DL](README-details.md#awesome-ai-ml-dl) 
   - [General](README-details.md#general)
+  - [Artificial Intelligence](README-details.md#artificial-intelligence)
   - [Automation](README-details.md#automation)
   - [Ethics / altruistic motives](README-details.md#ethics--altruistic-motives)
   - [Java](README-details.md#java)

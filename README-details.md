@@ -1,5 +1,14 @@
 ### General
 
+### Artificial Intelligence
+
+- [Artificial intelligence (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_intelligence)
+- [Artificial intelligence (Quora)](https://www.quora.com/topic/Artificial-Intelligence)
+- [History of Artificial Intelligence](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)
+- [Artificial intelligence in video games](https://en.wikipedia.org/wiki/Artificial_intelligence_in_video_games)
+- [Scholarly articles for history of artificial intelligence](https://scholar.google.co.uk/scholar?q=history+of+artificial+intelligence&hl=en&as_sdt=0&as_vis=1&oi=scholart)
+- [Google AI Blog](https://ai.googleblog.com/) - the latest news from Google AI
+
 ### Automation
 
 - [Automated Machine Learning - Google search results](https://www.google.com/search?ei=b3ktXKfbEqWAjLsPqdOxiAs&q=automated+machine+learning&oq=automated+machine&gs_l=psy-ab.3.0.0j0i20i263j0l5j0i20i263j0l2.187330.192290..193008...3.0..0.70.1100.20......0....1..gws-wiz.....6..35i39j0i131j0i67.2o6PTTxjJjw)
