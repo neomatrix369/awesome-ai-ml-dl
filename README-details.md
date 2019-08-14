@@ -57,9 +57,15 @@
 
 #### Deep learning
 
-  - [Deep learning with java](https://www.jfokus.se/jfokus17/preso/Deep-Learning-on-Java-tutorial.pdf) ([Tweet](https://twitter.com/juanantoniobm/status/832000819918733312))
-  - [Free AI Training - Java-based deep-learning tools to analyze and train data, then send the resulting changes back to the server](https://www.youtube.com/watch?v=MXH_nn1dmsE) ([Tweet](https://twitter.com/java/status/1071422649501409280))
+  - [JFocus: Deep learning with Java](https://www.jfokus.se/jfokus17/preso/Deep-Learning-on-Java-tutorial.pdf) | [Video](https://www.youtube.com/watch?v=-hgAp470F-M) |([Tweet](https://twitter.com/juanantoniobm/status/832000819918733312))
   - [Understanding Machine Learning Algorithms with DL4J](https://skymind.ai/wiki/machine-learning-algorithms) ([Tweet](https://twitter.com/java/status/1077947895691673600))
+  - [DL4J: Deep Learning for Java](https://deeplearning4j.org/)
+  - [ND4J (Wikipedia)](https://en.wikipedia.org/wiki/ND4J_(software) | [ND4J in DL4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
+  - [Free AI Training - Java-based deep-learning tools to analyze and train data, then send the resulting changes back to the server](https://www.youtube.com/watch?v=MXH_nn1dmsE) ([Tweet](https://twitter.com/java/status/1071422649501409280))
+  - [Deep Learning Resources](https://skymind.com/wiki/deeplearning-research-papers)
+  - [Data for Deep Learning](https://skymind.com/wiki/data-for-deep-learning)
+  - [Questions when applying Deep Learning](https://skymind.com/wiki/questions-when-applying-deep-learning)
+  - [Deep Learning Use cases](https://skymind.com/wiki/use-cases)
 
 #### Reinforcement Learning 
   - [Java implementation of Reinforcement Learning algorithms as described in the book "Reinforcement Learning: An Introduction" by Sutton](https://github.com/chen0040/java-reinforcement-learning)
@@ -232,11 +238,18 @@
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
   - [Gym: a toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
   - [Dopamine is a research framework for fast prototyping of Reinforcement Learning algorithms](https://github.com/google/dopamine)
-  - Introduction to Reinforcement learning (using AlphaZero) by [Piotr Januszewski](https://piojanu.github.io/) - [Slides](https://github.com/piojanu/Planning-in-Deep-Reinforcement-Learning) | [AlphaZero implementation](https://github.com/piojanu/AlphaZero) | [Framework for RL research (used in AZ implementation)](https://github.com/piojanu/humblerl) | [Experiment with AlphaGo online](https://alphagoteach.deepmind.com)
+  - AlphaZero & Alpha Go
+    - Introduction to Reinforcement learning (using AlphaZero) by [Piotr Januszewski](https://piojanu.github.io/) - [Slides](https://github.com/piojanu/Planning-in-Deep-Reinforcement-Learning) | [AlphaZero implementation](https://github.com/piojanu/AlphaZero) | [Framework for RL research (used in AZ implementation)](https://github.com/piojanu/humblerl) | [Experiment with AlphaGo online](https://alphagoteach.deepmind.com)
+    - [A replica of the AlphaZero methodology for deep reinforcement learning in Python](https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning)
+    - [Mastering the Game of Go without Human Knowledge](http://discovery.ucl.ac.uk/10045895/1/agz_unformatted_nature.pdf)
+    - [Facebook Open Sources ELF OpenGo: near AlphaZero in the Open](https://research.fb.com/facebook-open-sources-elf-opengo/)
+    - [AlphaZero like repositories on GitHub](https://github.com/topics/alphazero)
+    - [Is AlphaZero any good without the tree search?](https://www.lesswrong.com/posts/HAMsX36kCbbeju6M7/is-alphazero-any-good-without-the-tree-search)
+    - [AlphaGo Zero — a game changer. (How it works?)](https://medium.com/@jonathan_hui/alphago-zero-a-game-changer-14ef6e45eba5)
+    - [AlphaGo Zero: Starting from scratch](https://deepmind.com/blog/article/alphago-zero-starting-scratch)
+    - [AlphaGo Zero Cheatsheet: AlphaGo Zero Explained In One Diagram](https://medium.com/applied-data-science/alphago-zero-explained-in-one-diagram-365f5abf67e0) | [AlphaGo Zero Cheatsheet](https://adspassets.blob.core.windows.net/website/content/alpha_go_zero_cheat_sheet.png)
+    - [How to build your own AlphaZero AI using Python and Keras](https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188)
   - [Reinforcement Learning with DNNs](https://biostat.wisc.edu/~craven/cs760/lectures/AlphaZero.pdf)
-  - [Facebook Open Sources ELF OpenGo: near AlphaZero in the Open](https://research.fb.com/facebook-open-sources-elf-opengo/)
-  - [AlphaZero like repositories on GitHub](https://github.com/topics/alphazero)
-  - [A replica of the AlphaZero methodology for deep reinforcement learning in Python](https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning)
   - Reinforcement Learning Crash Course by Central London Data Science meetup - [GitHub repo](https://github.com/central-ldn-data-sci/CrashCourseRL) | [Slides](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/Crash%20Course%20in%20Reinforcement%20Learning.pdf) | Notebooks: [1](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/CrashCourseRL.ipynb) | [2](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/crash_course_reinforcement_learning.ipynb) | [3](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
   - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Kai_Arulkumaran.pdf)
