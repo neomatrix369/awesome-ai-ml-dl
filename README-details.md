@@ -59,7 +59,8 @@
 
   - [JFocus: Deep learning with Java](https://www.jfokus.se/jfokus17/preso/Deep-Learning-on-Java-tutorial.pdf) | [Video](https://www.youtube.com/watch?v=-hgAp470F-M) |([Tweet](https://twitter.com/juanantoniobm/status/832000819918733312))
   - [Understanding Machine Learning Algorithms with DL4J](https://skymind.ai/wiki/machine-learning-algorithms) ([Tweet](https://twitter.com/java/status/1077947895691673600))
-  - [DL4J: Deep Learning for Java](https://deeplearning4j.org/)
+  - [DL4J: Deep Learning for Java](https://deeplearning4j.org/) | Examples: [1](https://semantive.com/deep-learning-examples/) [DL4J GitHub](https://github.com/deeplearning4j/dl4j-examples) [Eclipse GitHub](https://github.com/eclipse/deeplearning4j) | [Setup Environment](https://www.tutorialkart.com/machine-learning/setup-environment-for-deep-learning-with-deeplearning4j/) | [Using DL4J](https://www.quora.com/How-do-I-use-deep-learning-in-Java) | 
+  - [DL Workshop at Devoxx UK 2018](https://github.com/davesnowdon/devoxxuk2018-dl-workshop) by [davesnowdon](https://github.com/davesnowdon)
   - [ND4J (Wikipedia)](https://en.wikipedia.org/wiki/ND4J_(software) | [ND4J in DL4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
   - [Free AI Training - Java-based deep-learning tools to analyze and train data, then send the resulting changes back to the server](https://www.youtube.com/watch?v=MXH_nn1dmsE) ([Tweet](https://twitter.com/java/status/1071422649501409280))
   - [Deep Learning Resources](https://skymind.com/wiki/deeplearning-research-papers)
