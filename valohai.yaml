@@ -8,12 +8,12 @@
       - ./runMLPMnist.sh {parameters}
       - cp ${VH_OUTPUTS_DIR}/*.pb ${VH_INPUTS_DIR}
     parameters:
-      - name: action
+      - name: --action
         pass-as: '--action {v}'
         type: string
         default: train
         description: Action to perform i.e. train or evaluate
-      - name: modelDir
+      - name: --output-dir
         pass-as: '--output-dir {v}'
         type: string
         default: /valohai/outputs/
@@ -27,14 +27,14 @@
       - cd /workspace
       - ./runMLPMnist.sh {parameters}
     parameters:
-      - name: action
+      - name: --action
         pass-as: '--action {v}'
         type: string
         default: evaluate
         description: Action to perform i.e. train or evaluate
-      - name: targetDir
+      - name: --input-dir
         pass-as: '--input-dir {v}'
         type: string
         default: /valohai/inputs/
-        description: Input directory where the model created by the previous step can be found created, best to pick the Valohai output directory
+        description: Input directory where the model created by the previous step can be found created
     environment: aws-eu-west-1-g2.2xlarge
