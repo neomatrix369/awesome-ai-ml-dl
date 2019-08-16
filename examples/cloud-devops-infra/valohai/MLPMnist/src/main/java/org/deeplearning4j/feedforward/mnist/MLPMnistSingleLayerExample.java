@@ -16,6 +16,8 @@
 
 package org.deeplearning4j.feedforward.mnist;
 
+import com.beust.jcommander.JCommander;
+import com.beust.jcommander.Parameter;
 import org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator;
 import org.deeplearning4j.eval.Evaluation;
 import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
@@ -33,10 +35,11 @@ import org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
-import static java.time.LocalDate.now;
 
 
 /**A Simple Multi Layered Perceptron (MLP) applied to digit classification for
@@ -63,10 +66,32 @@ import static java.time.LocalDate.now;
   */
 
 public class MLPMnistSingleLayerExample {
+    @Parameter(names={"--action", "-a"})
+    String action;
 
+    @Parameter(names={"--output-dir", "-o"})
+    String outputDir;
+
+    @Parameter(names={"--input-dir", "-i"})
+    String inputDir;
+
+    private static final String MODEL_FILENAME = "mlpmnist-single-layer.pb";
     private static Logger log = LoggerFactory.getLogger(MLPMnistSingleLayerExample.class);
 
+    private String targetDir;
+
     public static void main(String[] args) throws Exception {
+        MLPMnistSingleLayerExample mlpMnistSingleLayerExample = new MLPMnistSingleLayerExample();
+
+        JCommander.newBuilder()
+                .addObject(mlpMnistSingleLayerExample)
+                .build()
+                .parse(args);
+
+        mlpMnistSingleLayerExample.run();
+    }
+
+    private void run() throws Exception {
         //number of rows and columns in the input pictures
         final int numRows = 28;
         final int numColumns = 28;
@@ -78,8 +103,21 @@ public class MLPMnistSingleLayerExample {
         final int trainingSet = 60000;
         final int testSet = 10000;
 
-        new MLPMnistSingleLayerExample()
-                .run(
+        if ((action == null) || action.isEmpty()) {
+            argumentMissingOrInvalidError("--action");
+        }
+
+        log.info(String.format("--action = %s", action));
+
+        if (action.equalsIgnoreCase("train")) {
+            if ((outputDir == null) || outputDir.isEmpty()) {
+                argumentMissingOrInvalidError("--output-dir");
+            }
+
+            targetDir = outputDir;
+            log.info(String.format("--output-dir = %s", targetDir));
+
+            train(
                     numRows,
                     numColumns,
                     outputClasses,
@@ -88,17 +126,43 @@ public class MLPMnistSingleLayerExample {
                     numEpochs,
                     trainingSet,
                     testSet
-                );
+            );
+            return;
+        }
+
+        if (action.equalsIgnoreCase("evaluate")) {
+            if ((inputDir == null) || inputDir.isEmpty()) {
+                argumentMissingOrInvalidError("--input-dir");
+            }
+
+            targetDir = inputDir;
+            log.info(String.format("--input-dir = %s", targetDir));
+
+            evaluate(batchSize, rngSeed);
+        }
     }
 
-    private void run(int numRows,
-                     int numColumns,
-                     int outputClasses,
-                     int batchSize,
-                     int rngSeed,
-                     int numEpochs,
-                     int trainingSet,
-                     int testSet) throws Exception {
+    private void argumentMissingOrInvalidError(String argumentName) {
+        log.warn(String.format("%s argument has not been passed in or no valid value has been provided", argumentName));
+        showUsageText();
+    }
+
+    private void showUsageText() {
+        log.info("Usage: ");
+        log.info("   [jar command] --action train --output-dir /path/to/output/dir");
+        log.info("   or");
+        log.info("   [jar command] --action evaluate --input-dir /path/to/input/dir");
+        System.exit(-1);
+    }
+
+    private void train(int numRows,
+                       int numColumns,
+                       int outputClasses,
+                       int batchSize,
+                       int rngSeed,
+                       int numEpochs,
+                       int trainingSet,
+                       int testSet) throws IOException {
         log.info(String.format("Classes: %d", outputClasses));
         log.info(String.format("Epochs: %d", numEpochs));
         log.info(String.format("Batch Size: %d", batchSize));
@@ -112,8 +176,7 @@ public class MLPMnistSingleLayerExample {
 
         //Get the DataSetIterators:
 
-        DataSetIterator mnistTrain = new MnistDataSetIterator(batchSize, true, rngSeed);
-        DataSetIterator mnistTest = new MnistDataSetIterator(batchSize, false, rngSeed);
+        DataSetIterator mnistTrainSet = new MnistDataSetIterator(batchSize, true, rngSeed);
 
         log.info("Build model....");
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
@@ -139,22 +202,40 @@ public class MLPMnistSingleLayerExample {
         MultiLayerNetwork model = new MultiLayerNetwork(conf);
         model.init();
         //print the score with every 1 iteration
-        String modelOutputDir = "./";
         model.setListeners(
                 new ScoreIterationListener(1),
-                new CheckpointListener.Builder(modelOutputDir)
+                new CheckpointListener.Builder(targetDir)
                         .deleteExisting(true)
                         .saveEveryEpoch()
                         .build()
         );
 
         log.info("Train model....");
-        model.fit(mnistTrain, numEpochs);
-        log.info(String.format("\nFinished training at %s", currentDateTimeAsString()));
+        model.fit(mnistTrainSet, numEpochs);
 
+        log.info(String.format("Saving model %s", getModelFilename()));
+        model.save(new File(getModelFilename()));
+        log.info(String.format("\nFinished training at %s", currentDateTimeAsString()));
+    }
+
+    private void evaluate(int batchSize, int rngSeed) throws IOException {
         log.info("Evaluate model....");
-        Evaluation eval = model.evaluate(mnistTest);
+        log.info(String.format("BatchSize: %d", batchSize));
+        DataSetIterator mnistTestSet = new MnistDataSetIterator(batchSize, false, rngSeed);
+        if (! new File(getModelFilename()).exists()) {
+            log.error(String.format("Model file %s does not exists", getModelFilename()));
+            log.error("Aborting...");
+            System.exit(-1);
+        }
+        log.info(String.format("Loading saved model: %s", getModelFilename()));
+        MultiLayerNetwork model = MultiLayerNetwork.load(new File(getModelFilename()), false);
+        Evaluation eval = model.evaluate(mnistTestSet);
         log.info(eval.stats());
+    }
+
+    @NotNull
+    private String getModelFilename() {
+        return Paths.get(targetDir,  MODEL_FILENAME).toString();
     }
 
     @NotNull

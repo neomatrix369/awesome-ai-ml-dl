@@ -2,8 +2,8 @@ FROM openjdk:8-jdk
 
 RUN java -version
 RUN echo "JAVA_HOME=${JAVA_HOME}"
-ENV JAVA_8_HOME="${JAVA_HOME}"
-RUN echo "JAVA_8_HOME=${JAVA_8_HOME}"
+ENV JAVA8_HOME="${JAVA_HOME}"
+RUN echo "JAVA8_HOME=${JAVA8_HOME}"
 
 ### Grakn, Graql installation
 
@@ -58,7 +58,6 @@ COPY runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
 COPY mergeJson.sh ./mergeJson.sh
 COPY buildUberJar.sh ./buildUberJar.sh
 COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
-COPY 0002-upgrade-jline-to-2.14.6.patch ./0002-upgrade-jline-to-2.14.6.patch
 
 RUN groupadd -r user_grp && useradd -r -g user_grp grakn
 RUN chown -R grakn:user_grp .

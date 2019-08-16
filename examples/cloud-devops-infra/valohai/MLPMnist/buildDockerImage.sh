@@ -9,7 +9,7 @@ IMAGE_VERSION=${IMAGE_VERSION:-$(cat version.txt)}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 cp -rf $HOME/.deeplearning4j .
-cp target/MLPMnist-1.0.0-beta4-bin.jar MLPMnist-1.0.0.jar
+cp target/MLPMnist-1.0.0-bin.jar MLPMnist-1.0.0.jar
 
 time docker build                                            \
                  --build-arg WORKDIR=/workspace              \
