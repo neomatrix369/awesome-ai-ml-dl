@@ -1,7 +1,8 @@
 ---
 
 - step:
-    name: dl4j-mnist-single-layer
-    image: neomatrix369/dl4j-mnist-single-layer:v0.1
+    name: Run dl4j-mnist-single-layer train & validate
+    image: neomatrix369/dl4j-mnist-single-layer:v0.2
     command:
-      - cd /workspace && ./runMLPMnist.sh
+      - cd /workspace
+      - ./runMLPMnist.sh

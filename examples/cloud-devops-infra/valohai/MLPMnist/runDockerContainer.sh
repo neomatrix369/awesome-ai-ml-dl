@@ -9,7 +9,7 @@ IMAGE_VERSION=${IMAGE_VERSION:-$(cat version.txt)}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 docker run -it                                            \
-           --volume $(pwd):/workspace                     \
+           --volume $(pwd):/$(pwd)                        \
            --env JAVA_HOME=/graalvm                       \
            ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}       \
            /bin/bash
