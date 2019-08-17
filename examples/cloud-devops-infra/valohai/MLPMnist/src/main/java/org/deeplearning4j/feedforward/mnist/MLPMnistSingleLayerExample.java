@@ -125,7 +125,7 @@ public class MLPMnistSingleLayerExample {
                     rngSeed,
                     numEpochs,
                     trainingSet,
-                    testSet
+                    testSet, 1e-4
             );
             return;
         }
@@ -162,7 +162,8 @@ public class MLPMnistSingleLayerExample {
                        int rngSeed,
                        int numEpochs,
                        int trainingSet,
-                       int testSet) throws IOException {
+                       int testSet,
+                       double initialLearningRate) throws IOException {
         log.info(String.format("Classes: %d", outputClasses));
         log.info(String.format("Epochs: %d", numEpochs));
         log.info(String.format("Batch Size: %d", batchSize));
@@ -171,6 +172,7 @@ public class MLPMnistSingleLayerExample {
         int iterationsPerEpoch = (int) Math.ceil(trainingSet / batchSize);
         log.info(String.format("Iterations per epoch: ~%d", iterationsPerEpoch));
         log.info(String.format("Total iterations at the end of last epoch: ~%d", iterationsPerEpoch * numEpochs));
+        log.info(String.format("Initial Learning rate: %f", initialLearningRate));
         log.info("");
         log.info(String.format("Started training at %s", currentDateTimeAsString()));
 
@@ -183,7 +185,7 @@ public class MLPMnistSingleLayerExample {
                 .seed(rngSeed) //include a random seed for reproducibility
                 // use stochastic gradient descent as an optimization algorithm
                 .updater(new Nesterovs(0.006, 0.9))
-                .l2(1e-4)
+                .l2(initialLearningRate)
                 .list()
                 .layer(new DenseLayer.Builder() //create the first, input layer with xavier initialization
                         .nIn(numRows * numColumns)
@@ -203,7 +205,7 @@ public class MLPMnistSingleLayerExample {
         model.init();
         //print the score with every 1 iteration
         model.setListeners(
-                new ScoreIterationListener(1),
+                new ValohaiListener(100),
                 new CheckpointListener.Builder(targetDir)
                         .deleteExisting(true)
                         .saveEveryEpoch()
@@ -211,6 +213,9 @@ public class MLPMnistSingleLayerExample {
         );
 
         log.info("Train model....");
+        log.info("");
+        log.info("Model summary");
+        log.info(model.summary());
         model.fit(mnistTrainSet, numEpochs);
 
         log.info(String.format("Saving model %s", getModelFilename()));
