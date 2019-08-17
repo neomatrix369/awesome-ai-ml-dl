@@ -26,6 +26,9 @@
     command:
       - cd /workspace
       - ./runMLPMnist.sh {parameters}
+    inputs:
+      - name: model
+        default: datum://
     parameters:
       - name: --action
         pass-as: '--action {v}'
@@ -35,6 +38,6 @@
       - name: --input-dir
         pass-as: '--input-dir {v}'
         type: string
-        default: /valohai/inputs/
+        default: /valohai/inputs/model
         description: Input directory where the model created by the previous step can be found created
     environment: aws-eu-west-1-g2.2xlarge
