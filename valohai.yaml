@@ -2,7 +2,7 @@
 
 - step:
     name: Run-dl4j-mnist-single-layer-train-model
-    image: neomatrix369/dl4j-mnist-single-layer:v0.1
+    image: neomatrix369/dl4j-mnist-single-layer:v0.4
     command:
       - cd /workspace
       - ./runMLPMnist.sh {parameters}
@@ -21,7 +21,7 @@
 
 - step:
     name: Run-dl4j-mnist-single-layer-evaluate-model
-    image: neomatrix369/dl4j-mnist-single-layer:v0.1
+    image: neomatrix369/dl4j-mnist-single-layer:v0.4
     command:
       - cd /workspace
       - ./runMLPMnist.sh {parameters}
