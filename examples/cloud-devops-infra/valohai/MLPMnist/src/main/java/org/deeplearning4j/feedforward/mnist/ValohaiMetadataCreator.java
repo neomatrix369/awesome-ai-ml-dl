@@ -13,20 +13,20 @@ import java.io.Serializable;
  *
  * @author Adam Gibson
  */
-public class ValohaiListener extends BaseTrainingListener implements Serializable {
+public class ValohaiMetadataCreator extends BaseTrainingListener implements Serializable {
     private int printIterations = 10;
 
-    private static Logger log = LoggerFactory.getLogger(ValohaiListener.class);
+    private static Logger log = LoggerFactory.getLogger(ValohaiMetadataCreator.class);
 
     /**
      * @param printIterations    frequency with which to print scores (i.e., every printIterations parameter updates)
      */
-    public ValohaiListener (int printIterations) {
+    public ValohaiMetadataCreator(int printIterations) {
         this.printIterations = printIterations;
     }
 
     /** Default constructor printing every 10 iterations */
-    public ValohaiListener() {}
+    public ValohaiMetadataCreator() {}
 
     @Override
     public void iterationDone(Model model, int iteration, int epoch) {

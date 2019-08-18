@@ -72,7 +72,7 @@ public class MLPMnistSingleLayerTrain extends MLPMnistSingleLayerRunner {
         model.init();
         //print the score with every 1 iteration
         model.setListeners(
-                new ValohaiListener(100),
+                new ValohaiMetadataCreator(100),
                 new CheckpointListener.Builder(targetDir)
                         .deleteExisting(true)
                         .saveEveryEpoch()
