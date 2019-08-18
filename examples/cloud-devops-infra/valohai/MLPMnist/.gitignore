@@ -9,3 +9,5 @@ logs/
 out
 *.jar
 .deeplearning4j/
+*.pb
+checkpoint*.*

@@ -7,3 +7,5 @@ out
 build
 target
 local.properties
+*.pb
+checkpoint*.*

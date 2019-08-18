@@ -65,7 +65,7 @@ import java.time.format.DateTimeFormatter;
   * Credits to the original authors and Skymind - the maintainers of DL4J
   */
 
-public class MLPMnistSingleLayerExample {
+public class MLPMnistSingleLayerRunner {
     @Parameter(names={"--action", "-a"})
     String action;
 
@@ -76,19 +76,19 @@ public class MLPMnistSingleLayerExample {
     String inputDir;
 
     private static final String MODEL_FILENAME = "mlpmnist-single-layer.pb";
-    private static Logger log = LoggerFactory.getLogger(MLPMnistSingleLayerExample.class);
+    private static Logger log = LoggerFactory.getLogger(MLPMnistSingleLayerRunner.class);
 
     private String targetDir;
 
     public static void main(String[] args) throws Exception {
-        MLPMnistSingleLayerExample mlpMnistSingleLayerExample = new MLPMnistSingleLayerExample();
+        MLPMnistSingleLayerRunner mlpMnistRunner = new MLPMnistSingleLayerRunner();
 
         JCommander.newBuilder()
-                .addObject(mlpMnistSingleLayerExample)
+                .addObject(mlpMnistRunner)
                 .build()
                 .parse(args);
 
-        mlpMnistSingleLayerExample.run();
+        mlpMnistRunner.run();
     }
 
     private void run() throws Exception {
