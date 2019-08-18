@@ -20,6 +20,7 @@ public class MLPMnistSingleLayerEvaluate extends MLPMnistSingleLayerRunner {
         DataSetIterator mnistTestSet = new MnistDataSetIterator(batchSize, false, rngSeed);
         if (! new File(getModelFilename()).exists()) {
             log.error(String.format("Model file %s does not exists", getModelFilename()));
+            log.error("Re-run with the correct path specified with --input-dir");
             log.error("Aborting...");
             System.exit(-1);
         }

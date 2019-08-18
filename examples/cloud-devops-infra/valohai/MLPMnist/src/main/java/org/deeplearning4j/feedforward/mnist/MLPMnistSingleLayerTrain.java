@@ -79,14 +79,18 @@ public class MLPMnistSingleLayerTrain extends MLPMnistSingleLayerRunner {
                         .build()
         );
 
+        log.info("");
         log.info("Train model....");
         log.info("");
         log.info("Model summary");
         log.info(model.summary());
         model.fit(mnistTrainingSet, numEpochs);
 
+        log.info("");
         log.info(String.format("Saving model %s", getModelFilename()));
         model.save(new File(getModelFilename()));
+
+        log.info("");
         log.info(String.format("\nFinished training at %s", currentDateTimeAsString()));
     }
 }
