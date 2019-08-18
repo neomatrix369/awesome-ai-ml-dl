@@ -66,6 +66,7 @@ import java.time.format.DateTimeFormatter;
   */
 
 public class MLPMnistSingleLayerRunner {
+
     @Parameter(names={"--action", "-a"})
     String action;
 
@@ -102,6 +103,7 @@ public class MLPMnistSingleLayerRunner {
         final int numEpochs = 15; // number of epochs to perform
         final int trainingSet = 60000;
         final int testSet = 10000;
+        double initialLearningRate = 1e-4;
 
         if ((action == null) || action.isEmpty()) {
             argumentMissingOrInvalidError("--action");
@@ -125,7 +127,8 @@ public class MLPMnistSingleLayerRunner {
                     rngSeed,
                     numEpochs,
                     trainingSet,
-                    testSet, 1e-4
+                    testSet,
+                    initialLearningRate
             );
             return;
         }
