@@ -22,6 +22,10 @@
 
 ### Java
 
+NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala)
+
+Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss) | Grakn: [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn) | Jupyter-Java: [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) | MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer) | Zeppelin: [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) 
+
 #### Business / General / Semi-technical
 
   - [Extract business value from DS](https://www.forbes.com/sites/oracle/2018/12/05/how-to-extract-business-value-from-data-science-its-all-about-the-teamwork/#6ad2f23a651c) ([Tweet](https://twitter.com/java/status/1070610044926930944))
@@ -381,6 +385,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
     - [Grakn](./examples/data/databases/graph/grakn/README.md)
   - [JuPyteR](./examples/JuPyteR/README.md)
   - [NLP Java/JVM](./examples/nlp-java-jvm/README.md)
+  - [MLPMNist using DL4J](./examples/cloud-devops-infra/valohai/MLPMnist/README.md)
 
 ### Notebooks
   - Apache Zeppelin notes
