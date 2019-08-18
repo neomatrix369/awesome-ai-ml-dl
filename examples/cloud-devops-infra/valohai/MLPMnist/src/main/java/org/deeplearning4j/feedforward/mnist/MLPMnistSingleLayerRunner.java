@@ -18,14 +18,8 @@ package org.deeplearning4j.feedforward.mnist;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
-import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.nio.file.Paths;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
 
 /**A Simple Multi Layered Perceptron (MLP) applied to digit classification for
  * the MNIST Dataset (http://yann.lecun.com/exdb/mnist/).
@@ -64,8 +58,6 @@ public class MLPMnistSingleLayerRunner {
     private static final String MODEL_FILENAME = "mlpmnist-single-layer.pb";
     private static Logger log = LoggerFactory.getLogger(MLPMnistSingleLayerRunner.class);
 
-    String targetDir;
-
     public static void main(String[] args) throws Exception {
         MLPMnistSingleLayerRunner mlpMnistRunner = new MLPMnistSingleLayerRunner();
 
@@ -101,10 +93,9 @@ public class MLPMnistSingleLayerRunner {
                 argumentMissingOrInvalidError("--output-dir");
             }
 
-            targetDir = outputDir;
-            log.info(String.format("--output-dir = %s", targetDir));
+            log.info(String.format("--output-dir = %s", outputDir));
 
-            new MLPMnistSingleLayerTrain().execute(
+            new MLPMnistSingleLayerTrain(MODEL_FILENAME, outputDir).execute(
                     numRows,
                     numColumns,
                     outputClasses,
@@ -123,10 +114,10 @@ public class MLPMnistSingleLayerRunner {
                 argumentMissingOrInvalidError("--input-dir");
             }
 
-            targetDir = inputDir;
-            log.info(String.format("--input-dir = %s", targetDir));
+            log.info(String.format("--input-dir = %s", inputDir));
 
-            new MLPMnistSingleLayerEvaluate().execute(batchSize, rngSeed);
+            new MLPMnistSingleLayerEvaluate(MODEL_FILENAME, inputDir)
+                    .execute(batchSize, rngSeed);
         }
     }
 
@@ -141,16 +132,5 @@ public class MLPMnistSingleLayerRunner {
         log.info("   or");
         log.info("   ./[command] --action evaluate --input-dir  /path/to/input/dir");
         System.exit(-1);
-    }
-
-    @NotNull
-    String getModelFilename() {
-        return Paths.get(targetDir,  MODEL_FILENAME).toString();
-    }
-
-    @NotNull
-    String currentDateTimeAsString() {
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss.SSS");
-        return LocalDateTime.now().format(dateTimeFormatter);
     }
 }

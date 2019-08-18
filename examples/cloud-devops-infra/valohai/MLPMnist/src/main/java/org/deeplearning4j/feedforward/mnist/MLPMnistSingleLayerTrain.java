@@ -8,6 +8,7 @@ import org.deeplearning4j.nn.conf.layers.OutputLayer;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.weights.WeightInit;
 import org.deeplearning4j.optimize.listeners.CheckpointListener;
+import org.jetbrains.annotations.NotNull;
 import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.learning.config.Nesterovs;
@@ -17,10 +18,21 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
-public class MLPMnistSingleLayerTrain extends MLPMnistSingleLayerRunner {
+public class MLPMnistSingleLayerTrain {
 
     private static Logger log = LoggerFactory.getLogger(MLPMnistSingleLayerTrain.class);
+
+    private final String modelFileName;
+    private final String targetDir;
+
+    public MLPMnistSingleLayerTrain(String modelFilename, String targetDir) {
+        this.modelFileName = modelFilename;
+        this.targetDir = targetDir;
+    }
 
     void execute(int numRows,
                  int numColumns,
@@ -91,6 +103,17 @@ public class MLPMnistSingleLayerTrain extends MLPMnistSingleLayerRunner {
         model.save(new File(getModelFilename()));
 
         log.info("");
-        log.info(String.format("\nFinished training at %s", currentDateTimeAsString()));
+        log.info(String.format("Finished training at %s", currentDateTimeAsString()));
+    }
+
+    @NotNull
+    String currentDateTimeAsString() {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss.SSS");
+        return LocalDateTime.now().format(dateTimeFormatter);
+    }
+
+    @NotNull
+    String getModelFilename() {
+        return Paths.get(targetDir, modelFileName).toString();
     }
 }
