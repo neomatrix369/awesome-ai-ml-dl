@@ -7,6 +7,7 @@
 - [GitHub](https://github.com/valohai) 
 - [Videos](https://www.youtube.com/channel/UCiR8Fpv6jRNphaZ99PnIuFg)
 - [Showcase](https://valohai.com/showcase/)
+- [Slack](http://community-slack.valohai.com/)
 - At a glance: Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
 
 - Pros
