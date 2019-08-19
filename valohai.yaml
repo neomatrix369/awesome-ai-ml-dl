@@ -2,7 +2,7 @@
 
 - step:
     name: Build-dl4j-mnist-single-layer-java-app
-    image: neomatrix369/dl4j-mnist-single-layer:v0.1
+    image: neomatrix369/dl4j-mnist-single-layer:v0.5
     command:
       - cd ${VH_REPOSITORY_DIR}/examples/cloud-devops-infra/valohai/MLPMnist/
       - ./buildUberJar.sh
@@ -12,7 +12,7 @@
 
 - step:
     name: Run-dl4j-mnist-single-layer-train-model
-    image: neomatrix369/dl4j-mnist-single-layer:v0.1
+    image: neomatrix369/dl4j-mnist-single-layer:v0.5
     command:
       - echo "~~~ Unpack the MNist dataset into ${HOME} folder"
       - tar xvzf ${VH_INPUTS_DIR}/mlp-mnist-dataset.tgz -C ${HOME}
@@ -43,7 +43,7 @@
 
 - step:
     name: Run-dl4j-mnist-single-layer-evaluate-model
-    image: neomatrix369/dl4j-mnist-single-layer:v0.1
+    image: neomatrix369/dl4j-mnist-single-layer:v0.5
     command:
       - cd ${VH_REPOSITORY_DIR}/examples/cloud-devops-infra/valohai/MLPMnist/
       - echo "~~~ Copying the build jar file from ${VH_INPUTS_DIR} to current location"
