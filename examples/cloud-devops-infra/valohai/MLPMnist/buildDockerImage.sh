@@ -8,11 +8,10 @@ IMAGE_NAME=${IMAGE_NAME:-dl4j-mnist-single-layer}
 IMAGE_VERSION=${IMAGE_VERSION:-$(cat version.txt)}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
-cp -rf $HOME/.deeplearning4j .
-cp target/MLPMnist-1.0.0-bin.jar MLPMnist-1.0.0.jar
-
 time docker build                                            \
                  --build-arg WORKDIR=/workspace              \
+                 --build-arg MAVEN_TARGET_DIR=/opt           \
+                 --build-arg MAVEN_VERSION=3.6.1             \
                  -t ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION} \
                  .
 

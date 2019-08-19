@@ -1,11 +1,33 @@
 ---
 
 - step:
-    name: Run-dl4j-mnist-single-layer-train-model
-    image: neomatrix369/dl4j-mnist-single-layer:v0.4
+    name: Build-dl4j-mnist-single-layer-java-app
+    image: neomatrix369/dl4j-mnist-single-layer:v0.1
     command:
-      - cd /workspace
+      - cd ${VH_REPOSITORY_DIR}/examples/cloud-devops-infra/valohai/MLPMnist/
+      - ./buildUberJar.sh
+      - echo "~~~ Copying the build jar file into ${VH_OUTPUTS_DIR}"
+      - cp target/MLPMnist-1.0.0-bin.jar ${VH_OUTPUTS_DIR}/MLPMnist-1.0.0.jar
+      - ls -lash ${VH_OUTPUTS_DIR}
+
+- step:
+    name: Run-dl4j-mnist-single-layer-train-model
+    image: neomatrix369/dl4j-mnist-single-layer:v0.1
+    command:
+      - echo "~~~ Unpack the MNist dataset into ${HOME} folder"
+      - tar xvzf ${VH_INPUTS_DIR}/mlp-mnist-dataset.tgz -C ${HOME}
+      - cd ${VH_REPOSITORY_DIR}/examples/cloud-devops-infra/valohai/MLPMnist/
+      - echo "~~~ Copying the build jar file from ${VH_INPUTS_DIR} to current location"
+      - cp ${VH_INPUTS_DIR}/dl4j-java-app/MLPMnist-1.0.0.jar .
+      - echo "~~~ Run the DL4J app to train model based on the the MNist dataset"
       - ./runMLPMnist.sh {parameters}
+    inputs:
+      - name: dl4j-java-app
+        default: datum://
+        description: DL4J Java app file (jar) generated in the previous step 'Build-dl4j-mnist-single-layer-java-app'
+      - name: dataset
+        default: https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/mnist-dataset-v0.1/mlp-mnist-dataset.tgz
+        description: MNist dataset needed to train the model
     parameters:
       - name: --action
         pass-as: '--action {v}'
@@ -21,13 +43,17 @@
 
 - step:
     name: Run-dl4j-mnist-single-layer-evaluate-model
-    image: neomatrix369/dl4j-mnist-single-layer:v0.4
+    image: neomatrix369/dl4j-mnist-single-layer:v0.1
     command:
-      - cd /workspace
+      - cd ${VH_REPOSITORY_DIR}/examples/cloud-devops-infra/valohai/MLPMnist/
+      - echo "~~~ Copying the build jar file from ${VH_INPUTS_DIR} to current location"
+      - cp ${VH_INPUTS_DIR}/java-app/MLPMnist-1.0.0.jar .
+      - echo "~~~ Run the DL4J app to evaluate the trained MNist model"
       - ./runMLPMnist.sh {parameters}
     inputs:
       - name: model
         default: datum://
+        description: Model file generated in the previous step 'Run-dl4j-mnist-single-layer-train-model'
     parameters:
       - name: --action
         pass-as: '--action {v}'
