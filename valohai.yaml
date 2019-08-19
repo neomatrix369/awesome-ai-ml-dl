@@ -17,7 +17,7 @@
         type: string
         default: /valohai/outputs/
         description: Output directory where the model will be created, best to pick the Valohai output directory
-    environment: aws-eu-west-1-g2.2xlarge
+    environment: aws-eu-west-1-g2-2xlarge
 
 - step:
     name: Run-dl4j-mnist-single-layer-evaluate-model
@@ -39,4 +39,4 @@
         type: string
         default: /valohai/inputs/model
         description: Input directory where the model created by the previous step can be found created
-    environment: aws-eu-west-1-g2.2xlarge
+    environment: aws-eu-west-1-g2-2xlarge
