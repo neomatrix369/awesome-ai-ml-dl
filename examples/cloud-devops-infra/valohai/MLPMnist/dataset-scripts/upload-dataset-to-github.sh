@@ -67,7 +67,12 @@ function releaseDatasetArtifacts() {
   echo "        curl -J -O -L https://github.com/${TARGET_REPO}/releases/download/${TAG_NAME}/${TARGET_ARCHIVE_FILE}"
 }
 
-TARGET_REPO="neomatrix369/awesome-ai-ml-dl"
+
+if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
+  read -p "Docker username (must exist on Docker Hub): " DOCKER_USER_NAME
+fi
+
+TARGET_REPO="${DOCKER_USER_NAME}/awesome-ai-ml-dl"
 
 if [[ -z ${MY_GITHUB_TOKEN} ]]; then
   echo "MY_GITHUB_TOKEN cannot be found in the current environment, please populate to proceed either in the startup bash script of your OS or in the environment variable settings of your CI/CD interface."

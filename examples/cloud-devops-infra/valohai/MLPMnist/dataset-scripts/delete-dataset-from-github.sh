@@ -6,9 +6,18 @@ set -o pipefail
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-TARGET_REPO="neomatrix369/awesome-ai-ml-dl"
+if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
+  read -p "Docker username (must exist on Docker Hub): " DOCKER_USER_NAME
+fi
+
+TARGET_REPO="${DOCKER_USER_NAME}/awesome-ai-ml-dl"
 RELEASE_VERSION="0.1"
 TAG_NAME="mnist-dataset-v${RELEASE_VERSION}"
+
+if [[ -z ${MY_GITHUB_TOKEN} ]]; then
+  echo "MY_GITHUB_TOKEN cannot be found in the current environment, please populate to proceed either in the startup bash script of your OS or in the environment variable settings of your CI/CD interface."
+  exit -1
+fi
 
 echo ""
 echo "~~~~ Fetching Release ID for ${TAG_NAME}"
