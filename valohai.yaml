@@ -9,6 +9,7 @@
       - echo "~~~ Copying the build jar file into ${VH_OUTPUTS_DIR}"
       - cp target/MLPMnist-1.0.0-bin.jar ${VH_OUTPUTS_DIR}/MLPMnist-1.0.0.jar
       - ls -lash ${VH_OUTPUTS_DIR}
+    environment: aws-eu-west-1-g2-2xlarge
 
 - step:
     name: Run-dl4j-mnist-single-layer-train-model
@@ -23,7 +24,6 @@
       - ./runMLPMnist.sh {parameters}
     inputs:
       - name: dl4j-java-app
-        default: datum://
         description: DL4J Java app file (jar) generated in the previous step 'Build-dl4j-mnist-single-layer-java-app'
       - name: dataset
         default: https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/mnist-dataset-v0.1/mlp-mnist-dataset.tgz
@@ -52,10 +52,8 @@
       - ./runMLPMnist.sh {parameters}
     inputs:
       - name: dl4j-java-app
-        default: datum://
         description: DL4J Java app file (jar) generated in the previous step 'Build-dl4j-mnist-single-layer-java-app'    
       - name: model
-        default: datum://
         description: Model file generated in the previous step 'Run-dl4j-mnist-single-layer-train-model'
     parameters:
       - name: --action
