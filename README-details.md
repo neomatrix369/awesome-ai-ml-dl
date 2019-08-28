@@ -124,6 +124,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+- [Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning](http://daiwz.net/org/slides/ABL-meetup.html) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
@@ -222,6 +223,11 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Slides of Collaborative Recommender System for Music](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=valentin_nagacevschi.pdf)
   - [Tensorflow 2.0 by Josh Gordon at the Google X / X-Team event](https://drive.google.com/file/d/1XAZp_n7avolVOGApKNLk0YcY3xGRaVcQ/view)
   - [Algorithmia's Machine Learning Roadmap](https://info.algorithmia.com/email-machine-learning-roadmap)
+  - [Machine Learning Terminology](https://www.linkedin.com/feed/update/urn:li:activity:6526625602227789824)
+  - [Understand Machine Learning Implementation](https://www.linkedin.com/feed/update/urn:li:activity:6529655800238047232)
+  - [Machine Learning on Retail](https://www.linkedin.com/feed/update/urn:li:activity:6534410859026968576)
+  - [Machine Learning on Marketing](https://www.linkedin.com/feed/update/urn:li:activity:6532232283498352640)
+  - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
   - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
   - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
@@ -258,6 +264,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - Reinforcement Learning Crash Course by Central London Data Science meetup - [GitHub repo](https://github.com/central-ldn-data-sci/CrashCourseRL) | [Slides](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/Crash%20Course%20in%20Reinforcement%20Learning.pdf) | Notebooks: [1](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/CrashCourseRL.ipynb) | [2](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/crash_course_reinforcement_learning.ipynb) | [3](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
   - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Kai_Arulkumaran.pdf)
+  - [Teaching Artificial Agents to Understand Language by Modelling Reward](https://www.researchgate.net/publication/328437364_Teaching_Artificial_Agents_to_Understand_Language_by_Modelling_Reward) by [Edward Grefenstette](https://egrefen.github.io/)
 
 #### More...
   - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
@@ -327,7 +334,10 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Mathematics for Machine Learning](https://mml-book.github.io/)
     - [Model Based Machine Learning Book](http://www.mbmlbook.com/)
     - [Bayesian Analysis with Python: Introduction to statistical modeling and probabilistic programming using PyMC3 and ArviZ](https://www.amazon.com/Bayesian-Analysis-Python-Introduction-probabilistic/dp/1789341655)
+  - [Probability Learning I : Bayes’ Theorem](https://towardsdatascience.com/probability-learning-i-bayes-theorem-708a4c02909a)
+  - [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
   - [See Data > Statistics section more related links](./data/README.md#statistics)
+  - [Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning](http://daiwz.net/org/slides/ABL-meetup.html) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 
 ### Data
   - [Do we know our data...](./data/README.md#data)

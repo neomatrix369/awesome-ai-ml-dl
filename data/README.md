@@ -156,6 +156,8 @@ See [Data Generation](./data-generation.md#data-generation)
   - [Consistent feature attribution for tree ensembles](https://arxiv.org/abs/1706.06060)
 - [Exact SHAP: A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874)
 - [Integrated Gradients: Axiomatic Attribution for Deep Networks](https://arxiv.org/abs/1703.01365) | [GitHub](https://github.com/ankurtaly/Integrated-Gradients)
+- [Know Data Science](https://www.linkedin.com/feed/update/urn:li:activity:6516283940658089984)
+- [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
 
 ## Statistics
 

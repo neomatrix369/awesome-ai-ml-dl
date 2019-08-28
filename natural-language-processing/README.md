@@ -49,6 +49,7 @@ NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java
 - [Facebook's FastText](https://github.com/facebookresearch/FastText) | [homepage | docs](https://fasttext.cc/)
 - [Facebook's Pythia](https://code.fb.com/ai-research/pythia/) | [github](https://github.com/facebookresearch/pythia) | [Medium](https://medium.com/syncedreview/facebook-open-sources-pythia-for-vision-and-language-multimodal-ai-models-be480644b538)
 - [Flair by Zolando Research](https://www.analyticsvidhya.com/blog/2019/02/flair-nlp-library-python/) | [github](https://github.com/zalandoresearch/flair) | [Research paper](https://drive.google.com/file/d/17yVpFA7MmXaQFTe-HDpZuqw9fJlmzg56/view)
+- [Microsoft NLP](https://github.com/microsoft/nlp)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
 - [Standford NLP Group](https://nlp.stanford.edu/)
 - [Google’s Bert](https://github.com/google-research/bert) | [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
