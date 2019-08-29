@@ -100,7 +100,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 - [Introduction to Data Analysis and Cleaning presentation](../presentations/data/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
 
-#### Misc
+### Misc
 
 - See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model
 - [Learning with Limited Labeled Data with Shioulin Sam](https://twimlai.com/twiml-talk-255-learning-with-limited-labeled-data-with-shioulin-sam/)
@@ -137,7 +137,7 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Resources on GitHub on interpretability](https://github.com/topics/interpretability)
 - [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - A Curated, but Probably Biased and Incomplete, List of Awesome Machine Learning Interpretability Resources
 
-### Articles, blog posts, papers, notebooks, books
+### Articles, blog posts, papers, notebooks, books, presentations
 - [DataRobot: Model Interpretability - What is Model Interpretability in Machine Learning?](https://www.datarobot.com/wiki/interpretability/)
 - [Model Interpretability with SHAP](http://www.f1-predictor.com/model-interpretability-with-shap/)
 - [Interpreting bag of words models with SHAP](https://sararobinson.dev/2019/04/23/interpret-bag-of-words-models-shap.html)
@@ -158,6 +158,7 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Integrated Gradients: Axiomatic Attribution for Deep Networks](https://arxiv.org/abs/1703.01365) | [GitHub](https://github.com/ankurtaly/Integrated-Gradients)
 - [Know Data Science](https://www.linkedin.com/feed/update/urn:li:activity:6516283940658089984)
 - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
+- Towards Explainable AI: [Slides](../presentations/data/03-meetup-uk-2019/Towards-Explainable-AI.pdf) | [Video](https://www.youtube.com/watch?v=0yFjSs-azM4) | [Book: A Concise Introduction to Machine Learning](https://www.amazon.co.uk/Concise-Introduction-Machine-Learning/dp/0815384106/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1566160069&sr=8-2) by [Anita Faul](https://www.linkedin.com/in/anita-faul-123750104/)
 
 ## Statistics
 
