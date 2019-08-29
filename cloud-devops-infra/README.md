@@ -53,6 +53,7 @@
 #### FPGA
 
   - [Intel AI Developer Program - Deep Learning Inference With Intel® FPGAs](https://software.intel.com/en-us/ai/courses/deep-learning-inference-fpga)
+  - [Using FPGAs for Datacenter Acceleration](https://event.on24.com/eventRegistration/EventLobbyServlet?target=lobby20.jsp&eventid=2033432&sessionid=1&eventuserid=246511756&key=8678836B54A84876D7338D7BF7F87B88) | [Windows AI](https://docs.microsoft.com/en-us/windows/ai/) | [Intel® Distribution of OpenVINO™ Toolkit: Develop Multiplatform Computer Vision Solutions](https://software.intel.com/en-us/openvino-toolkit)
 
 #### GPU
   - [Know your GPU](https://gist.github.com/neomatrix369/256913dcf77cdbb5855dd2d7f5d81b84)
