@@ -106,6 +106,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - **Recurrent Neural Network (RNN)**
     - [Three Part Tutorial Series Build an AI Programmer using Recurrent Neural Network](https://www.programcreek.com/2017/07/recurrent-neural-network-example-ai-programmer-1/) ([Tweet](https://twitter.com/java/status/958698885731487744))
   - [Neural Networks and Decision Trees](https://www.youtube.com/watch?v=v0bv0HTboOg) by [Ryutaro Tanno](https://rt416.github.io/)
+  - [predestination: Conway's Game of Life](https://github.com/SamirTalwar/predestination) by [Samir Talwar](https://github.com/SamirTalwar/) | [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 #### Recommendation systems / Collaborative Filtering (CF)
   - [Tutorial on Collaborative Filtering (CF) in Java – a machine learning technique used by recommendation systems](https://www.baeldung.com/java-collaborative-filtering-recommendations) ([Tweet](https://twitter.com/java/status/985150431549632513))
