@@ -46,6 +46,10 @@
 - [Private Synthetic Data Generation via GANs (Supporting PDF)](https://d253pvgap36xx8.cloudfront.net/formsbuilder/files/d1990068969211e8a29a0242ac110002/main.pdf)
 - [GANs (generative adversarial networks) possible for text as well?](https://datascience.stackexchange.com/questions/24878/gans-generative-adversarial-networks-possible-for-text-as-well)
 
+### Generating Music
+
+- [Generating music in the raw audio domain](https://www.youtube.com/watch?v=y8mOZSJA7Bc) by [Sander Dieleman](http://benanne.github.io/about/)
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!

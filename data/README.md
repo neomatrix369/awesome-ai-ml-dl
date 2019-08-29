@@ -158,6 +158,7 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Integrated Gradients: Axiomatic Attribution for Deep Networks](https://arxiv.org/abs/1703.01365) | [GitHub](https://github.com/ankurtaly/Integrated-Gradients)
 - [Know Data Science](https://www.linkedin.com/feed/update/urn:li:activity:6516283940658089984)
 - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
+- [Learning with Explanations](https://www.youtube.com/watch?v=m1GUhPgstvk) by [Tim Rocktäschel](https://rockt.github.io/)
 - Towards Explainable AI: [Slides](../presentations/data/03-meetup-uk-2019/Towards-Explainable-AI.pdf) | [Video](https://www.youtube.com/watch?v=0yFjSs-azM4) | [Book: A Concise Introduction to Machine Learning](https://www.amazon.co.uk/Concise-Introduction-Machine-Learning/dp/0815384106/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1566160069&sr=8-2) by [Anita Faul](https://www.linkedin.com/in/anita-faul-123750104/)
 
 ## Statistics

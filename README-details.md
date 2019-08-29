@@ -105,6 +105,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
     - [Steps to construct an LSTM neural network and use it to generate Java code like a programmer](https://www.programcreek.com/2017/07/recurrent-neural-network-example-ai-programmer-1/) ([Tweet](https://twitter.com/java/status/882616811962875906))
   - **Recurrent Neural Network (RNN)**
     - [Three Part Tutorial Series Build an AI Programmer using Recurrent Neural Network](https://www.programcreek.com/2017/07/recurrent-neural-network-example-ai-programmer-1/) ([Tweet](https://twitter.com/java/status/958698885731487744))
+  - [Neural Networks and Decision Trees](https://www.youtube.com/watch?v=v0bv0HTboOg) by [Ryutaro Tanno](https://rt416.github.io/)
 
 #### Recommendation systems / Collaborative Filtering (CF)
   - [Tutorial on Collaborative Filtering (CF) in Java – a machine learning technique used by recommendation systems](https://www.baeldung.com/java-collaborative-filtering-recommendations) ([Tweet](https://twitter.com/java/status/985150431549632513))
@@ -244,6 +245,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
    - [Learning Deep Learning with Keras](http://p.migdal.pl/2017/04/30/teaching-deep-learning.html)
    - [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
    - [Checkout 'Deep Learning with Tensorflow 2.0 (MNIST)' Notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#notebooks)
+   - [Deep learning for 3D printing manufacturing](https://www.youtube.com/watch?v=jAQSM2dhDV4) by [Benjamin Schrauwen](https://www.linkedin.com/in/benjaminschrauwen)
   
   #### Reinforcement Learning
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
@@ -314,6 +316,10 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
   - [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
   - [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
+  - [Amortized Monte Carlo Integration](https://www.youtube.com/watch?v=-oHCqLFLTAI) by [Tom Rainforth](http://www.robots.ox.ac.uk/~twgr/)
+  - [Kernel Embeddings, Meta Learning & Distributional Transfer](https://www.youtube.com/watch?v=vjG-2RjHnAA) by [Dino Sejdinovic](http://www.stats.ox.ac.uk/~sejdinov/)
+  - [Probabilistic Symmetry and Invariant Neural Networks](https://www.youtube.com/watch?v=u8Jt1HkWTn4) by [Benjamin Bloem-Reddy](https://www.stat.ubc.ca/~benbr/)
+  - [Bayesian nonparametric ML through randomized loss functions & posterior bootstraps](https://www.youtube.com/watch?v=y_gI9R4Oe0g) by [Chris Holmes](http://www.stats.ox.ac.uk/~cholmes/)
   - [Skillsmatter: Precision Medicine With Mechanistic, Bayesian Models](https://skillsmatter.com/skillscasts/12129-bayesian-mixer-london-june)
   - [Chris Fonnesbeck’s presentation: PyMC's Big Adventure - Lessons Learned from the Development of Open-source Software for Probabilistic Programming](https://gitpitch.com/fonnesbeck/neurips_2018_talk#/) | [Chris Fonnesbeck](https://twitter.com/fonnesbeck)
   - [Colin Carroll’s presentation: Tidy and beautiful - Visualizing Bayesian models with xarray and ArviZ](https://colcarroll.github.io/arviz_pydata_nyc/#/) | [Colin Carroll](https://twitter.com/colindcarroll)
@@ -337,8 +343,9 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Bayesian Analysis with Python: Introduction to statistical modeling and probabilistic programming using PyMC3 and ArviZ](https://www.amazon.com/Bayesian-Analysis-Python-Introduction-probabilistic/dp/1789341655)
   - [Probability Learning I : Bayes’ Theorem](https://towardsdatascience.com/probability-learning-i-bayes-theorem-708a4c02909a)
   - [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
-  - [See Data > Statistics section more related links](./data/README.md#statistics)
+  - [Learning & Reasoning in Artificial Intelligence](https://www.youtube.com/watch?v=K_GOHepjY2o) by [Thomas Lukasiewicz](http://www.cs.ox.ac.uk/thomas.lukasiewicz/)
   - [Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning](http://daiwz.net/org/slides/ABL-meetup.html) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+  - [See Data > Statistics section more related links](./data/README.md#statistics)
 
 ### Data
   - [Do we know our data...](./data/README.md#data)
