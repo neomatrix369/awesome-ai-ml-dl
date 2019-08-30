@@ -138,7 +138,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Learn about Marvin AI a set of tools, libraries, an embedded server that exposes microservices](https://www.youtube.com/watch?v=M5_yQCRIftw&feature=youtu.be&t=2m31s) ([Tweet](https://twitter.com/java/status/1040980810231250944))
   - [Apache Zeppelin: stairway to notes* haven!](https://medium.com/@neomatrix369/apache-zeppelin-stairway-to-notes-haven-28ec413a185a)
   - [Teaching Java with Jupyter notebooks](https://blog.frankel.ch/teaching-java-jupyter-notebooks/)
-  - [Efficient Java Matrix Library (EJML) is a linear algebra library for manipulating real/complex/dense/sparse matrices](http://ejml.org/wiki/index.php?title=Main_Page)
+  - [Efficient Java Matrix Library (EJML) is a linear algebra library for manipulating real/complex/dense/sparse matrices](http://ejml.org/wiki/index.php?title=Main_Page) | [Java Matrix Benchmark is a tool for evaluating Java linear algebra libraries for speed, stability, and memory usage](https://github.com/lessthanoptimal/Java-Matrix-Benchmark) by [Peter Abeles](https://github.com/lessthanoptimal)
 
 #### How-to / Deploy / DevOps / Serverless
   - [Learn how to deploy and manage machine learning models](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/254240417/) ([Tweet](https://t.co/4lcwns0lgo))
