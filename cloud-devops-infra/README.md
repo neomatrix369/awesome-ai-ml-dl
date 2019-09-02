@@ -2,7 +2,7 @@
 
 #### System / Infra
 
-  - [serveo.net](serveo.net) - Serveo is an SSH server just for remote port forwarding. When a user connects to Serveo, they get a public URL that anybody can use to connect to their localhost server. See link for other SSH and related alternatives, useful to be able to serve resources across devices i.e. access GPU or other hardware accelerators from another device remotely.
+  - [serveo.net](http://serveo.net) - Serveo is an SSH server just for remote port forwarding. When a user connects to Serveo, they get a public URL that anybody can use to connect to their localhost server. See link for other SSH and related alternatives, useful to be able to serve resources across devices i.e. access GPU or other hardware accelerators from another device remotely. | [How to forward my local port to public using Serveo?](https://medium.com/@osanda.deshan/how-to-forward-my-local-port-to-public-using-serveo-4979f352a3bf) | [Serveo on GitHub](https://github.com/milio48/serveo)
 
 #### Compute & Storage
   
