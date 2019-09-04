@@ -126,7 +126,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-- [Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning](http://daiwz.net/org/slides/ABL-meetup.html) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
@@ -249,6 +249,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
    - [Deep learning for 3D printing manufacturing](https://www.youtube.com/watch?v=jAQSM2dhDV4) by [Benjamin Schrauwen](https://www.linkedin.com/in/benjaminschrauwen)
   
   #### Reinforcement Learning
+
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
   - [Gym: a toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
   - [Dopamine is a research framework for fast prototyping of Reinforcement Learning algorithms](https://github.com/google/dopamine)
@@ -268,7 +269,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
   - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Kai_Arulkumaran.pdf)
   - Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series) second edition Edition: [PDF book](http://incompleteideas.net/book/RLbook2018.pdf) by [Richard S. Sutton](http://incompleteideas.net/index.html) and [Andrew G. Barto](http://www-anw.cs.umass.edu/%7Ebarto/) | [Website and RL resources](http://incompleteideas.net/book/the-book-2nd.html)
-  - [Teaching Artificial Agents to Understand Language by Modelling Reward](https://www.researchgate.net/publication/328437364_Teaching_Artificial_Agents_to_Understand_Language_by_Modelling_Reward) by [Edward Grefenstette](https://egrefen.github.io/)
+  - [Teaching Artificial Agents to Understand Language by Modelling Reward](https://www.researchgate.net/publication/328437364_Teaching_Artificial_Agents_to_Understand_Language_by_Modelling_Reward) by [Edward Grefenstette](https://egrefen.github.io/) | [Video](https://www.youtube.com/watch?v=JCIIeDL9840)
 
 #### More...
   - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
@@ -346,7 +347,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Probability Learning I : Bayes’ Theorem](https://towardsdatascience.com/probability-learning-i-bayes-theorem-708a4c02909a)
   - [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
   - [Learning & Reasoning in Artificial Intelligence](https://www.youtube.com/watch?v=K_GOHepjY2o) by [Thomas Lukasiewicz](http://www.cs.ox.ac.uk/thomas.lukasiewicz/)
-  - [Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning](http://daiwz.net/org/slides/ABL-meetup.html) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+  - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
   - [See Data > Statistics section more related links](./data/README.md#statistics)
 
 ### Data
