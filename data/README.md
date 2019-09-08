@@ -160,6 +160,11 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
 - [Learning with Explanations](https://www.youtube.com/watch?v=m1GUhPgstvk) by [Tim Rocktäschel](https://rockt.github.io/)
 - Towards Explainable AI: [Slides](../presentations/data/03-meetup-uk-2019/Towards-Explainable-AI.pdf) | [Video](https://www.youtube.com/watch?v=0yFjSs-azM4) | [Book: A Concise Introduction to Machine Learning](https://www.amazon.co.uk/Concise-Introduction-Machine-Learning/dp/0815384106/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1566160069&sr=8-2) by [Anita Faul](https://www.linkedin.com/in/anita-faul-123750104/)
+- [Machine Learning Project End to End with Python Code (data science focussed)](https://www.youtube.com/watch?v=ekV9QO5KHUY&list=PLcQCwsZDEzFkP9WMe6xvLrd_ZNGqoXOQY&fbclid=IwAR1z7XBl762FLyo-gVvdBDU1iCVqz89K1yfmJS1cbC4rZyEfF-jO30ZsYeY)
+    - Python Project (Classification) : 
+      - Part A: https://www.youtube.com/watch?v=p0snNMCbvN4&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=8
+      - Part B: https://www.youtube.com/watch?v=j4IgXflsZtg&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=9
+      - Part C: https://www.youtube.com/watch?v=kHZmFVDm0QQ&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=10
 
 ## Statistics
 
