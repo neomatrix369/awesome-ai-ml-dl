@@ -4,6 +4,9 @@ set -e
 set -u
 set -o pipefail
 
+export PATH="${HOME}/.local/bin:${PATH}"
+echo "PATH=${PATH}"
+
 echo ""
 echo "~~~ A list of already installed kernels in your jupyter environment ~~~"
 jupyter kernelspec list
@@ -37,3 +40,9 @@ python install.py --sys-prefix
 echo ""
 echo "~~~ A list of already installed kernels in your jupyter environment ~~~ "
 jupyter kernelspec list
+
+sed '/\"java\",/a\
+      \"-XX:+UnlockExperimentalVMOptions\",\
+      \"-XX:+EnableJVMCI\",\
+      \"-XX:+UseJVMCICompiler",\
+'  /usr/share/jupyter/kernels/java/kernel.json

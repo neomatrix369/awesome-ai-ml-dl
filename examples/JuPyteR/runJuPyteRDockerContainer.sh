@@ -22,8 +22,8 @@ IMAGE_NAME=${IMAGE_NAME:-jupyter-java}
 IMAGE_VERSION=${IMAGE_VERSION:-$(cat version.txt)}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
-docker run --rm                                                                 \
-           ${DOCKER_DEBUG_PARAMS}                                               \
-           --volume ${PWD}/jupyter/notebooks:/jupyter-notebooks                 \
-           -p 8888:8888 \
+docker run --rm                                                  \
+           ${DOCKER_DEBUG_PARAMS}                                \
+           --volume ${PWD}/jupyter/notebooks:/jupyter-notebooks  \
+           -p 8888:8888                                          \
            ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}	

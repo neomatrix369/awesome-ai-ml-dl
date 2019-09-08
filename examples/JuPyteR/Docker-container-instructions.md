@@ -34,6 +34,7 @@ which runs the container and the [runJuPyteRLocal.sh]() is executed inside the c
 
 - [buildJuPyteRDockerImage.sh](): build the Jupyter-Dockerfile dockerfile
     - [JuPyteR-Dockerfile](): a dockerfile script to help build a docker image of Jupyter with the IJava kernel running on Java 9 (with Graal enabled)
+        - [install-jupyter-notebooks.sh](): installs Jupyter notebook and its dependencies
         - [install-java-kernel.sh](): executed during building of the Docker container
 - [runJuPyteRDockerContainer.sh](): run the Jupyter docker image, exposing port 8888 to point your browser to (http://localhost:8888)
     - [runJuPyteRLocal.sh](): runs inside the docker container but can be also run on any local environment with the necessary dependencies installed.
