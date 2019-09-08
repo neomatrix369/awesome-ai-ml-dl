@@ -5,7 +5,8 @@ set -u
 set -o pipefail
 
 if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
-  read -p "Docker username (must exist on Docker Hub): " DOCKER_USER_NAME
+  echo "DOCKER_USER_NAME not defined as an environment variable, set to default value: neomatrix369"
+  DOCKER_USER_NAME=neomatrix369
 fi
 
 findImage() {
