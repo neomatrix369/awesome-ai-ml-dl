@@ -5,7 +5,7 @@ set -u
 set -o pipefail
 
 echo ""
-echo "Installing Jupyter Lab and dependencies"
+echo "Installing Jupyter notebook and dependencies"
 
 export JAVA_HOME=/opt/java/openjdk/
 export PATH=${JAVA_HOME}/bin:${PATH}

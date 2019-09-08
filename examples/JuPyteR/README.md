@@ -9,7 +9,7 @@ These are provided using via kernels, for e.g. the [IJava kernel](https://github
 
 Pre-requisite: only supports JDK versions 9 and higher
 
-Graal compiler can be enabled for JDK 9 and higher, for platforms where it is supported, see table below:
+GraalVM compiler can be enabled for JDK 9 and higher, for platforms where it is supported, see table below:
 
 |JDK/JRE Version  | Platforms             | 
 |----------------:|:----------------------|
@@ -41,19 +41,20 @@ Go to example [project root](./examples/JuPyteR) to perform the commands mention
 ### Local environment
 
 ```
-./install-jupyter-notebooks.sh
-./install-java-kernel.sh
+$ [install Java 9 SDK and set the PATH and JAVA_HOME]
+$ ./install-jupyter-notebooks.sh
+$ ./install-java-kernel.sh
 ```
 
 We should see the below two sets of outputs:
 
 ```
-Installing Jupyter Lab and dependencies
+Installing Jupyter notebook and dependencies
 JDK9, Linux only: We are enabling JVMCI flags (enabling Graal as Tier-2 compiler)
 Graal setting: please check docs for higher versions of Java and for other platforms
 PATH=/opt/java/openjdk//bin:/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 JAVA_OPTS=-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
-Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
 openjdk 9.0.4
 ...
 Successfully installed MarkupSafe-1.1.1 Send2Trash-1.5.0 attrs-19.1.0 backports-abc-0.5 backports.shutil-get-terminal-size-1.0.0 bleach-3.1.0 configparser-3.8.1 decorator-4.4.0 defusedxml-0.6.0 entrypoints-0.3 enum34-1.1.6 functools32-3.2.3.post2 futures-3.3.0 ipaddress-1.0.22 ipykernel-4.10.1 ipython-5.8.0 ipython-genutils-0.2.0 ipywidgets-7.5.1...
