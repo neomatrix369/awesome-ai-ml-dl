@@ -1,5 +1,7 @@
 FROM adoptopenjdk/openjdk9 AS jdkBuilder
 
+WORKDIR jupyter-notebooks
+
 ENV JAVA_HOME=/opt/java/openjdk/
 ENV PATH=${JAVA_HOME}/bin:${PATH}
 RUN echo "JDK9, Linux only: We are enabling JVMCI flags (enabling Graal as Tier-2 compiler)"
@@ -37,5 +39,4 @@ RUN sed '/\"java\",/a\
 EXPOSE 8888
 
 COPY runJuPyteRLocal.sh runJuPyteRLocal.sh
-WORKDIR jupyter-notebooks
 ENTRYPOINT ["./../runJuPyteRLocal.sh"]
