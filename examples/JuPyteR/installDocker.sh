@@ -7,7 +7,6 @@ set -o pipefail
 ### Installation docs: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 echo "Installing Docker, target OS: Ubuntu 16.04 or higher"
 
-
 SUDO_CMD=""
 if [[ -f "/etc/sudoers" ]]; then
    SUDO_CMD=sudo
