@@ -4,8 +4,10 @@ set -e
 set -u
 set -o pipefail
 
-export JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
-export JAVA_TOOL_OPTIONS="${JAVA_TOOL_OPTIONS} ${JAVA_OPTS}"
+if [[ -z "${JAVA_OPTS}" ]]; then
+  export JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
+  export JAVA_TOOL_OPTIONS="${JAVA_TOOL_OPTIONS} ${JAVA_OPTS}"
+fi
 
 java -XX:+PrintFlagsFinal --version
 
