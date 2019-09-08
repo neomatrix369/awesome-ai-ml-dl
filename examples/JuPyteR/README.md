@@ -5,7 +5,7 @@
 In theory, the below instructions should work for all operating systems i.e. Linux, MacOS and Windows. Although it has been only tested for Linux and MacOS.
 
 ### Kernels
-These are provided using via kernels, for e.g. the [IJava kernel](https://github.com/SpencerPark/IJava) when installed, provides Java language support in Jupyter notebooks. Take a look at the docs and examples provided on [https://github.com/SpencerPark/IJava]().
+These are provided using via kernels, for e.g. the [IJava kernel](https://github.com/SpencerPark/IJava) when installed, provides Java language support in Jupyter notebooks. Take a look at the docs and examples provided on [https://github.com/SpencerPark/IJava](https://github.com/SpencerPark/IJava).
 
 Pre-requisite: only supports JDK versions 9 and higher
 
@@ -21,16 +21,16 @@ Graal compiler can be enabled for JDK 9 and higher, for platforms where it is su
 - [beakerx](http://beakerx.com/) - Is another source where a wider range of kernels can be found (covering many JVM languages).
 
 ![beakerx](beakerx-homepage-screenshot.png)
-- [https://github.com/scijava/scijava-jupyter-kernel]() - aims to be a polyglot Jupyter kernel. It uses the [Scijava scripting languages](https://imagej.net/Scripting#Supported_languages) to execute the code in Jupyter client and it's possible to use different languages in the same notebook (covers a number of JVM languages).
+- [https://github.com/scijava/scijava-jupyter-kernel](https://github.com/scijava/scijava-jupyter-kernel) - aims to be a polyglot Jupyter kernel. It uses the [Scijava scripting languages](https://imagej.net/Scripting#Supported_languages) to execute the code in Jupyter client and it's possible to use different languages in the same notebook (covers a number of JVM languages).
 
-- [https://github.com/ligee/kotlin-jupyter]() - Basic kotlin (1.2.21) REPL kernel for jupyter
+- [https://github.com/ligee/kotlin-jupyter](https://github.com/ligee/kotlin-jupyter) - Basic kotlin (1.2.21) REPL kernel for jupyter
 ![Kotlin for Jupyter](https://github.com/ligee/kotlin-jupyter/raw/master/samples/ScreenShotInJupyter.png)
 
 - [Wikipedia of Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) - a list of available kernels, add yours to the list in case it isn't mentioned.
 
 ### Write kernels
 
-Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel]() in order to embark into the world of kernel creation, maybe the [example folder](https://github.com/SpencerPark/jupyter-jvm-basekernel/tree/master/example) is a good one to look at as well.
+Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel](https://github.com/SpencerPark/jupyter-jvm-basekernel) in order to embark into the world of kernel creation, maybe the [example folder](https://github.com/SpencerPark/jupyter-jvm-basekernel/tree/master/example) is a good one to look at as well.
 
 ## Get started: Automated (via scripts)
 
@@ -109,7 +109,7 @@ $ unzip ijava-1.2.0.zip
 
 ### Install the kernel
 
-**Pre-requisite:** _Java 9_ should be the current JDK your *JAVA_HOME* should point to, when installing the pre-compiled binary from [https://github.com/SpencerPark/IJava/releases/]()
+**Pre-requisite:** _Java 9_ should be the current JDK your *JAVA_HOME* should point to, when installing the pre-compiled binary from [https://github.com/SpencerPark/IJava/releases/](https://github.com/SpencerPark/IJava/releases/)
 
 #### Method 1: via the `jupyter` command on the command-line
 
@@ -190,10 +190,10 @@ Also checkout the live links (JuPyteR notebooks online).
 
 Inspired by these tweets:
 
-- [https://twitter.com/java/status/1081275824492371968]()
-- [https://twitter.com/java/status/1082365504461824000]()
+- [https://twitter.com/java/status/1081275824492371968](https://twitter.com/java/status/1081275824492371968)
+- [https://twitter.com/java/status/1082365504461824000](https://twitter.com/java/status/1082365504461824000)
 
-Thank you [@nicolas_frankel](twitter.com/@nicolas_frankel) and the good folks behind [beakerx.com]().
+Thank you [@nicolas_frankel](http://twitter.com/@nicolas_frankel) and the good folks behind [beakerx.com](https://beakerx.com).
 
 # Contributing
 
