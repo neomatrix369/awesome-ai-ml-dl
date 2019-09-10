@@ -17,6 +17,22 @@ GraalVM compiler can be enabled for JDK 9 and higher, for platforms where it is 
 |Java 10          | Linux and MacOS       |
 |Java 11 or higher| Linux, MacOS, Windows |
 
+#### Switches to enable the GraalVM compiler in Java 9
+
+```
+  export JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
+  export JAVA_TOOL_OPTIONS="${JAVA_TOOL_OPTIONS} ${JAVA_OPTS}"
+```
+
+or
+
+```
+  export ENABLE_GRAALVM_COMPILER="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
+
+  java [-cp] [...] [-jar] [...] \
+       ${ENABLE_GRAALVM_COMPILER}
+```
+
 ### Additional source of kernels
 - [beakerx](http://beakerx.com/) - Is another source where a wider range of kernels can be found (covering many JVM languages).
 

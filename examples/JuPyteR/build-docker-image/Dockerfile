@@ -13,9 +13,19 @@ EXPOSE 8888
 
 RUN rm -f *.sh *.zip install.py
 
-COPY runLocal.sh runLocal.sh
+ARG USER
+RUN groupadd -r ${USER} \
+    && useradd -r -s /bin/false \
+               -g ${USER} ${USER}
 
 ARG WORKDIR
 WORKDIR ${WORKDIR}
 
-ENTRYPOINT ["./../runLocal.sh"]
+COPY runLocal.sh runLocal.sh
+RUN mv -f /root/.local ${WORKDIR}
+
+RUN chown -R ${USER}:${USER} ${WORKDIR}
+
+USER ${USER}
+
+ENTRYPOINT ["./runLocal.sh"]

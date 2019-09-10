@@ -51,22 +51,25 @@ which runs the container and the [runLocal.sh](runLocal.sh) is executed inside t
 
 #### Scripts provided:
 
+All the scripts will be found on the `build-docker-image` folder:
+
 - [buildDockerImage.sh](buildDockerImage.sh): build the docker image using Dockerfile
     - [Dockerfile](Dockerfile): a dockerfile script to help build a docker image of Jupyter with the IJava kernel running on Java 9 (with Graal enabled)
         - [install-jupyter-notebooks.sh](install-jupyter-notebooks.sh): installs Jupyter notebook and its dependencies
         - [install-java-kernel.sh](install-java-kernel.sh): executed during building of the Docker container
+    - [removeUnusedContainersAndImages.sh](removeUnusedContainersAndImages.sh)  - clean up after a build, removes dangling images and closed/exited containers
 - [runDockerContainer.sh](runDockerContainer.sh): run the Jupyter docker image, exposing port 8888 to point your browser to (http://localhost:8888)
     - [runLocal.sh](runLocal.sh): runs inside the docker container but can be also run on any local environment with the necessary dependencies installed
-- [push-jupyter-java-docker-image-to-hub.sh](push-jupyter-java-docker-image-to-hub.sh): push the built docker image to Docker Hub. `DOCKER_USER_NAME` must be set in the environment or passed in on CLI, otherwise a default user name is assumed.
+- [push-jupyter-java-docker-image-to-hub.sh](push-jupyter-java-docker-image-to-hub.sh): push the built docker image to Docker Hub. `DOCKER_USER_NAME` must be set in the environment or passed in on CLI, otherwise a default user name is assumed
 
-Note: the GraalVM compiler can be enabled starting Java 9 and this currently only works for Linux. But later versions support Linux, MacOS and Windows.
+Note: the GraalVM compiler can be enabled starting Java 9 and this currently only works for Linux. But later versions support Linux, MacOS and Windows. See [Switches to enable the GraalVM compiler in Java 9](./README.md#switches-to-enable-the-graalvm-compiler-in-java-9) in [README.md](README.md).
 
 ### Debug your running container
 
 Set the environment variable `DEBUG` to `true` and it should do the job:
 
 ```
-$ cd build-docker-image
+$ [stay or switch into the project root folder]
 ```
 
 ```
@@ -87,7 +90,7 @@ You will be provided with the below `bash` prompt:
 * Running in Debug mode *
 *************************
 
-root@a659f75885b0:/jupyter-notebooks#
+root@a659f75885b0:/home/jupyter#
 ```
 
-The `jupyter-notebook` instance will need to be started manually.
+The `/home/jupyter` instance will need to be started manually.

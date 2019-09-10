@@ -13,9 +13,12 @@ if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
 fi
 
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
+USER=jupyter
+JUPYTER_HOME=/home/${USER}
 
 time docker build \
-                 --build-arg WORKDIR=/jupyter-notebooks      \
+                 --build-arg USER=jupyter                    \
+                 --build-arg WORKDIR=${JUPYTER_HOME}         \
                  -t ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION} \
                  .
 
