@@ -7,6 +7,10 @@ Build a docker image with Jupyter Notebook, JDK 9 (from the AdoptOpenJDK build f
 This script depends on the `Dockerfile` which contains most of the logic and also executes [install-java-kernel.sh](install-java-kernel.sh) towards the end of the process.
 
 ```
+$ cd build-docker-image
+```
+
+```
 $ [sudo] ./buildDockerImage.sh
 ```
 or
@@ -28,6 +32,10 @@ The whole build process is under 10 minutes depending on the network bandwidth a
 ### Run the docker container
 
 Once the image is built, a one-line command helps run it:
+
+```
+$ cd build-docker-image
+```
 
 ```
 $ [sudo] ./runDockerContainer.sh
@@ -56,6 +64,10 @@ Note: the GraalVM compiler can be enabled starting Java 9 and this currently onl
 ### Debug your running container
 
 Set the environment variable `DEBUG` to `true` and it should do the job:
+
+```
+$ cd build-docker-image
+```
 
 ```
 $ [sudo] DEBUG=true ./runDockerContainer.sh

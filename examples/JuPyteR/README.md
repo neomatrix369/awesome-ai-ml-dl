@@ -41,6 +41,8 @@ Go to example [project root](./examples/JuPyteR) to perform the commands mention
 ### Local environment
 
 ```
+$ cd build-docker-image
+
 $ [install Java 9 SDK and set the PATH and JAVA_HOME]
 $ ./install-jupyter-notebooks.sh
 $ ./install-java-kernel.sh

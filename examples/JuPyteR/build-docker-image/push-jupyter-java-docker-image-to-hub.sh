@@ -17,7 +17,7 @@ findImage() {
 pushImage() {
     language_id=$1
     IMAGE_NAME=${IMAGE_NAME:-jupyter-java}
-    IMAGE_VERSION=$(cat version.txt)
+    IMAGE_VERSION=$(cat ../version.txt)
     DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
     IMAGE_FOUND="$(findImage ${DOCKER_FULL_TAG_NAME})"
