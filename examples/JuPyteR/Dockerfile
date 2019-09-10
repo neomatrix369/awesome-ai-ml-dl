@@ -13,9 +13,9 @@ EXPOSE 8888
 
 RUN rm -f *.sh *.zip install.py
 
-COPY runJuPyteRLocal.sh runJuPyteRLocal.sh
+COPY runLocal.sh runLocal.sh
 
 ARG WORKDIR
 WORKDIR ${WORKDIR}
 
-ENTRYPOINT ["./../runJuPyteRLocal.sh"]
+ENTRYPOINT ["./../runLocal.sh"]
