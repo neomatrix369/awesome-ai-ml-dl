@@ -230,6 +230,8 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Machine Learning on Retail](https://www.linkedin.com/feed/update/urn:li:activity:6534410859026968576)
   - [Machine Learning on Marketing](https://www.linkedin.com/feed/update/urn:li:activity:6532232283498352640)
   - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
+  - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+  - [Stack your ML models using an ensemble library: picknmix](https://github.com/picknmix/picknmix) by [Cheuk Ting Ho](https://github.com/Cheukting)
   - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
   - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
