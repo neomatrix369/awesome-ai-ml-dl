@@ -154,6 +154,8 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
   - [Videos of various AI/ML related topics by AI Enterprise](https://www.youtube.com/channel/UC1PncmBLZMqlodEt7atfFuw)
   - [Real-Time Application of Machine Learning to Geolocation using Spark and Kafka](https://www.youtube.com/watch?v=17OUbWR8UKo) | [Slides](https://www.slideshare.net/caroljmcdonald/analysis-of-popular-uber-locations-using-apache-apis-spark-machine-learning-structured-streaming-kafka-with-mapres-and-maprdb) | [Carol's post "Tips and Best Practices to Take Advantage of Spark 2.x"](https://mapr.com/blog/tips-and-best-practices-to-take-advantage-of-spark-2-x/)
+  - [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
+  - [Linux Command-Line resource by Chris Albon](https://chrisalbon.com/#linux)
 
 **See [this link](https://github.com/josephmisiti/awesome-machine-learning#java) for more Java related ML links**
 
@@ -162,6 +164,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 ### Scala
   - [Scala related ML links](https://github.com/josephmisiti/awesome-machine-learning#scala)
+  - [Scala resources by Chris Albon](https://chrisalbon.com/#scala)
 
 ### Julia, Python & R
   
@@ -232,6 +235,11 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
   - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
   - [Stack your ML models using an ensemble library: picknmix](https://github.com/picknmix/picknmix) by [Cheuk Ting Ho](https://github.com/Cheukting)
+  - [Technical Notes On Using Data Science & Artificial Intelligence](https://github.com/chrisalbon/notes)
+  - ML Flashcards: [website](https://machinelearningflashcards.com/) | [github](https://github.com/chrisalbon/MachineLearningFlashcards.com)
+  - [Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386) by [Chris Albon](https://www.amazon.com/Chris-Albon/e/B07CHGKH7J/ref=dp_byline_cont_book_1)
+  - [A number of useful ML related repositories](https://github.com/chrisalbon?tab=repositories) by [Chris Albon](https://github.com/chrisalbon)
+  - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - topics covered: Vectors, Matrices, And Arrays • ML Basics • Preprocessing Structured Data • Preprocessing Images • Preprocessing Text • Preprocessing Dates And Times • Feature Engineering • Feature Selection • Model Evaluation • Model Selection • Linear Regression • Logistic Regression • Trees And Forests • Nearest Neighbors • Support Vector Machines • Naive Bayes • Clustering
   - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
   - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
@@ -249,6 +257,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
    - [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
    - [Checkout 'Deep Learning with Tensorflow 2.0 (MNIST)' Notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#notebooks)
    - [Deep learning for 3D printing manufacturing](https://www.youtube.com/watch?v=jAQSM2dhDV4) by [Benjamin Schrauwen](https://www.linkedin.com/in/benjaminschrauwen)
+   - [DL topics expanded by Chris Albon](https://chrisalbon.com/#deep_learning) - topics covered: Keras 
   
   #### Reinforcement Learning
 
@@ -350,6 +359,7 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
   - [Learning & Reasoning in Artificial Intelligence](https://www.youtube.com/watch?v=K_GOHepjY2o) by [Thomas Lukasiewicz](http://www.cs.ox.ac.uk/thomas.lukasiewicz/)
   - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+  - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
   - [See Data > Statistics section more related links](./data/README.md#statistics)
 
 ### Data
@@ -362,7 +372,7 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Feature engineering](./data/README.md#feature-engineering)
     - [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
     - [and other related topics: Stats, Visualisations, Cheatsheets, etc...](data/README.md#data)
-  - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D)
+  - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D) | [Linux Command-Line resource by Chris Albon](https://chrisalbon.com/#linux)
   - [Awesome Datascience](https://github.com/bulutyazilim/awesome-datascience)
   - [Awesome Learn Datascience](https://github.com/siboehm/awesome-learn-datascience)
   - [Data Science for Dummies](http://file.allitebooks.com/20170304/Data%20Science%20For%20Dummies,%202nd%20Edition.pdf)
@@ -399,6 +409,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
     - [WTF Visualizations](https://viz.wtf/) - Visualizations that make no sense, worst examples to NOT do and learn from!
   - [Visual Capitalists](https://www.visualcapitalist.com/) - real world, info-graphics like examples of various visualisations
   - [Guide to Visualization](./presentations/data/Data%20Visualization%20–%20How%20to%20Pick%20the%20Right%20Chart%20Type-1.pdf) - How to pick the right chart - by [Janis Gulbis](https://janisgulbis.com/)
+  - [Data Visualisation in Python by Chris Albon](https://chrisalbon.com/#python) - look for the _Data Visualization_ section
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
@@ -493,6 +504,8 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Feature-wise Transformations](https://distill.pub/2018/feature-wise-transformations/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
   - [The 6 most useful Machine Learning projects of the past year (2018)](https://towardsdatascience.com/the-10-most-useful-machine-learning-projects-of-the-past-year-2018-5378bbd4919f)
   - [The 25 Best Data Science and Machine Learning GitHub Repositories from 2018](https://www.analyticsvidhya.com/blog/2018/12/best-data-science-machine-learning-projects-github/?)
+  - [Computer Science (algorithms) resources by Chris Albon](https://chrisalbon.com/#computer_science)
+  - [AWS resources by Chris Albon](https://chrisalbon.com/#aws)
 
 # Contributing
 

@@ -24,6 +24,8 @@
   - [Online Python Turtle Editor](https://repl.it/languages/python_turtle)
   - [Online Python Compiler](https://www.onlinegdb.com/online_python_compiler)
 - [Local machine: Interacting with Python](https://realpython.com/interacting-with-python/)
+- [Python by Chris Albon](https://chrisalbon.com/#python) - topics covered: Basics • Data Wrangling • Data Visualization • Web Scraping • Testing • Logging • Other
+- [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
 
 ## Cheatsheets
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
