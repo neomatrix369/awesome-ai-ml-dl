@@ -8,6 +8,8 @@
 - [Artificial intelligence in video games](https://en.wikipedia.org/wiki/Artificial_intelligence_in_video_games)
 - [Scholarly articles for history of artificial intelligence](https://scholar.google.co.uk/scholar?q=history+of+artificial+intelligence&hl=en&as_sdt=0&as_vis=1&oi=scholart)
 - [Google AI Blog](https://ai.googleblog.com/) - the latest news from Google AI
+- [AI Experiments | Experiments with Google](https://experiments.withgoogle.com/ai) | [Experiments with Google](https://experiments.withgoogle.com/)
+- [People + AI Guidebook Logo](https://pair.withgoogle.com/)
 
 ### Automation
 
