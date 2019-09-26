@@ -495,6 +495,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [All cheatsheets in one place by Asif Bhat (@abhat222)](https://github.com/abhat222/Data-Science--Cheat-Sheet)
   - [Android App with cheatsheets](https://play.google.com/store/apps/details?id=com.youredufriends.datasciencehub)
   - [Algorithms related cheatsheets - Big-O cheatsheet](http://bigocheatsheet.com/)
+  - [ML Cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQGFXvKuRmt5Rg/feedshare-document-pdf-analyzed/0?e=1569596400&v=beta&t=n4ZRWnYpc1KOTo8lZ2sKmOI7rRChPkApOQEQBBDhaXg)
 
 ### Misc
   - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
