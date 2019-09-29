@@ -28,3 +28,8 @@
    - [open-source end-to-end tutorial](https://towardsdatascience.com/semantic-code-search-3cd6d244a39c)
    - [Code Search implemented in Kubeflow](https://github.com/kubeflow/examples/tree/master/code_search) | [kubeflow](https://www.kubeflow.org/)
    - [Live demo of Semantic Code Search](https://experiments.github.com/semantic-code-search) | [Experiments site](https://blog.github.com/2018-09-18-introducing-experiments-an-ongoing-research-effort-from-github/)
+- [ML for Detecting Code Bugs](https://towardsdatascience.com/machine-learning-for-detecting-code-bugs-a79f37f144b7)
+- [Machine Learning on Source Code](https://ml4code.github.io/)
+- [ML on Code devroom at FOSDEM](https://archive.fosdem.org/2019/schedule/track/ml_on_code/)
+- [The Open Source Show: Machine Learning on Code](https://channel9.msdn.com/Shows/The-Open-Source-Show/Machine-Learning-on-Code) by Rob Caron, Lacey Butler, Allison Cordle
+- [Machine Learning for Programming](https://ml4p.org/) - conference held in 2018 in Oxford, UK
