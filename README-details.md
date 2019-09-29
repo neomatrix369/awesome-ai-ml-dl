@@ -129,6 +129,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
 - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
@@ -212,7 +213,6 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
   - [Top ML repos](https://github.com/yazdotai/top-machine-learning)
-  - [ML on Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)
   - [Hands on ML](https://github.com/ageron/handson-ml)
   - [The "Python Machine Learning (1st edition)" book code repository and info resource](https://github.com/rasbt/python-machine-learning-book)
   - [ML for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
@@ -242,6 +242,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386) by [Chris Albon](https://www.amazon.com/Chris-Albon/e/B07CHGKH7J/ref=dp_byline_cont_book_1)
   - [A number of useful ML related repositories](https://github.com/chrisalbon?tab=repositories) by [Chris Albon](https://github.com/chrisalbon)
   - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - topics covered: Vectors, Matrices, And Arrays • ML Basics • Preprocessing Structured Data • Preprocessing Images • Preprocessing Text • Preprocessing Dates And Times • Feature Engineering • Feature Selection • Model Evaluation • Model Selection • Linear Regression • Logistic Regression • Trees And Forests • Nearest Neighbors • Support Vector Machines • Naive Bayes • Clustering
+  - See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
   - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
   - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
