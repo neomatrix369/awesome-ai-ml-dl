@@ -26,6 +26,7 @@
   - [Lambda Cloud GPU Instances](https://lambdalabs.com/service/gpu-cloud) - GPU Instances for Deep Learning & Machine Learning
   - [NavOps](http://www.univa.com/products/navops.php) - Cloud Migration for HPC | [Datasheet](http://www.univa.com/resources/files/univa-navops-launch-datasheet.pdf)
   - [Verne Global: HPC Cloud](https://verneglobal.com/solutions/hpc-cloud) | [NVidia DGX Ready](https://verneglobal.com/dgxready)
+  - [Weights and Biases](wandb.ai) | [Learn more about WandB](../data/about-Weights-and-Biases.md)
 
 #### Tools
   - [snakemake](https://snakemake.readthedocs.io/en/stable/) - The Snakemake workflow management system is a tool to create reproducible and scalable data analyses. [Slides](https://slides.com/johanneskoester/snakemake-talk-40min#) | [PyPi](https://pypi.org/project/snakemake/)
