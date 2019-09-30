@@ -468,6 +468,12 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Browse state-of-the-art](https://paperswithcode.com/sota)
   - [ML/DL/Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
   - [Papers by Google X](./papers/google-x/README.md#papers-by-members-of-google-and-google-x-aka-x-team)
+  - ML course by [Weights & Biases](https://wand.ai) ([WandB](https://wand.ai))
+    - [Code from the class](https://github.com/lukas/ml-class)
+    - [Setup Instructions](https://github.com/lukas/ml-class)
+    - [Slides](https://storage.googleapis.com/wandb/Bloomberg%20Class%201.pdf)
+    - [Building and Debugging CNNs](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE9193U0/bloomberg_class_2.pdf)
+    - [Introduction to ML](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE3Q7NN7/bloomberg_class_3.pdf)
 
 ### Presentations
   - [NLP presentations](./natural-language-processing/README.md#presentations)
