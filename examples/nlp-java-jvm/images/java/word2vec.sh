@@ -4,7 +4,6 @@ set -e
 set -u
 set -o pipefail
 
-
 cd shared
 
 if [ -d "word2dec-dl4j" ]; then
