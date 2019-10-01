@@ -164,6 +164,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 ### Clojure
   - [Clojure related ML links](https://github.com/josephmisiti/awesome-machine-learning#clojure)
+  - [Scicloj](https://scicloj.github.io/) - an open, free and dynamic hub aimed at advancing doing data science, machine learning and numerical computing in Clojure | [GitHub](https://github.com/scicloj) | [Zulip](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science) | [Twitter](https://twitter.com/scicloj) | [Youtube](http://yt.vu/+scicloj) | [scicloj@gmail.com](mailto:scicloj@gmail.com)
 
 ### Scala
   - [Scala related ML links](https://github.com/josephmisiti/awesome-machine-learning#scala)
