@@ -10,6 +10,7 @@
 - [Google AI Blog](https://ai.googleblog.com/) - the latest news from Google AI
 - [AI Experiments | Experiments with Google](https://experiments.withgoogle.com/ai) | [Experiments with Google](https://experiments.withgoogle.com/)
 - [People + AI Guidebook Logo](https://pair.withgoogle.com/)
+- [What is a tensor?](./data/what-is-a-tensor?.jpg)
 
 ### Automation
 
@@ -414,6 +415,11 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Visual Capitalists](https://www.visualcapitalist.com/) - real world, info-graphics like examples of various visualisations
   - [Guide to Visualization](./presentations/data/Data%20Visualization%20–%20How%20to%20Pick%20the%20Right%20Chart%20Type-1.pdf) - How to pick the right chart - by [Janis Gulbis](https://janisgulbis.com/)
   - [Data Visualisation in Python by Chris Albon](https://chrisalbon.com/#python) - look for the _Data Visualization_ section
+  - [How to choose your data visualisations](./data/how-to-choose-your-data-visualisations.jpg)
+  - [Matplotlib](https://lnkd.in/g_3fx_6)
+  - [Seaborn](https://lnkd.in/gih7hqz)
+  - [Plotly](https://lnkd.in/gBYBMXc)
+  - [Python Graph Gallery](https://lnkd.in/gdGe-ef)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
@@ -490,7 +496,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
 ### Cheatsheets
   - [Cheat Sheets for AI, Neural Networks, MachineLearning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463) ([Tweet](https://twitter.com/java/status/1040928213466198016))
   - [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) 
-  - [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) 
+  - [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | - [Pandas Cheatsheet](https://lnkd.in/gfAdcpw)
   - [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) 
   - [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) 
   - [Programming in Python: Cheatsheets](./Programming-in-Python.md#cheatsheets)

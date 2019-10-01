@@ -1,6 +1,6 @@
 # Programming in Python
 
-- [Learning](#learning)
+- [Basics / Learning](#basics-learning)
 - [Cheatsheets](#cheatsheets)
 - [Static analysis](#static-analysis)
     - [Focussed packages](#focussed-packages)
@@ -11,7 +11,12 @@
 - [Performance](#performance)
 - [Contributing](#contributing)
 
-## Learning
+### Basics / learning
+
+- [Lists, Tuples, Dictionaries, Conditionals, Loops, etc...](https://lnkd.in/gWRbc3J)
+- [Data Structures & Algorithms](https://lnkd.in/gYKnJWN)
+- [NumPy Arrays](https://lnkd.in/geeFePh)
+- [Regex](https://lnkd.in/gzUahNV)
 - [Introduction to Python](https://simpliv-wordpress-com.cdn.ampproject.org/c/s/simpliv.wordpress.com/2019/06/27/best-way-to-learn-python-step-by-step-guide/amp/)
 - [Learn Python](https://www.learnpython.org/)
 - [Python 3 Tutorial](https://docs.python.org/3/tutorial/)
