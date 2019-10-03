@@ -77,6 +77,7 @@
 - [SO: Python coding standards/best practices](https://stackoverflow.com/questions/356161/python-coding-standards-best-practices)
 - [Python Best Practices: 5 Tips For Better Code - Airbrake Blog](https://airbrake.io/blog/python/python-best-practices)
 - [Python tutorial: Best practices and common mistakes to avoid](https://jaxenter.com/python-tutorial-best-practices-145959.html)
+- [Six steps to more professional data science code notebook on Kaggle by Rachael Tateman](https://kaggle.intercom-mail.com/via/e?ob=ktkgCmdq8TTLcC0KcRnaTDrpfyNmo93hWgJS%2Bf3C%2FpeXDMn5IliXwMPCgGeVFtngYeGLq2r3zzpfPOt1R2SLUvPz%2BOZl6ye5CNrx98D279Mjy%2BDCxeLTcN3rL%2BXuXvYPwdMeFoEliM4ujTLctPU1Rb2Kt8AOwN30PYPGdMZPPhxkha%2BlQ9oixCrQILf%2BWqOTvh59huu9yn%2BqmDKPk9wcnA%3D%3D&h=6b05c8a50ab9ff60c7c061020cc5428a92dce16c-23895383563) | [Video: 6 Steps for More Professional Data Science Code | Kaggle](https://www.youtube.com/watch?v=Trar7GZOPl8&feature=youtu.be&utm_medium=email&utm_source=intercom&utm_campaign=modular-code-event) | [Import scripts into notebook kernels](https://www.kaggle.com/product-feedback/91185)
 
 ## Testing
 
