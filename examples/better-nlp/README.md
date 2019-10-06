@@ -60,6 +60,11 @@ You can open these notebooks directly into Google Colab:
 - [better_nlp_spacy_texacy_examples.ipynb](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb) 
 - [better_nlp_summarisers.ipynb](./notebooks/google-colab/better_nlp_summarisers.ipynb)
 
+#### Kaggle kernels
+
+- Better NLP: [Scripts](https://www.kaggle.com/neomatrix369/betternlpclass) | [Notebook/Kernel](https://www.kaggle.com/neomatrix369/better-nlp-class-notebook)
+- Better NLP Summarisers: Scripts: [Summariser_Cosine_Class](https://www.kaggle.com/neomatrix369/summarisercosineclass) | [Summariser_TFIDF_Class](https://www.kaggle.com/neomatrix369/summarisertfidfclass) | [Summariser_TFIDF_VariationClass](https://www.kaggle.com/neomatrix369/summarisertfidfvariationclass) | [Summariser_PyTextRank_Class](https://www.kaggle.com/neomatrix369/summariser-pytextrank-class) | [Notebook/Kernel](https://www.kaggle.com/neomatrix369/better-nlp-summarisers-notebook)
+
 ## Installation
 
 Setup an environment needed to be able to run these programs without having to worry about the dependencies they use.
