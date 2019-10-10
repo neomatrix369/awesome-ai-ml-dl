@@ -65,6 +65,13 @@
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
 
+## Cookie cutter: Python project templates
+
+- [For Python projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#python)
+- [For Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-science)
+- [For Reproducible Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#reproducible-science)
+- [For Data Driven Journalism projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-driven-journalism)
+
 ## Best practices
 
 - [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
