@@ -15,6 +15,7 @@ The question to ask ourselves: _Do we know our data...?_
     + [Data Cleaning](./README.md#data-cleaning)
     + [Data preprocessing / Data Wrangling](./README.md#data-preprocessing--data-wrangling)
 - [Data Generation](./README.md#data-generation)
+- [Feature Selection](./README.md#feature-selection)
 - [Feature Engineering](./README.md#feature-engineering)
 - [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
 - [Statistics](./README.md#statistics)
@@ -111,6 +112,13 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 
 See [Data Generation](./data-generation.md#data-generation)
 
+## Feature Selection
+
+- [Feature selection with mutual information](http://www.simafore.com/blog/bid/105347/Feature-selection-with-mutual-information-Part-2-PCA-disadvantages)
+- Forward Feature selection: [Blog on Towards DS](https://towardsdatascience.com/feature-importance-and-forward-feature-selection-752638849962) | [Scikit learn](https://mikulskibartosz.name/forward-feature-selection-in-scikit-learn-f6476e474ddd)
+- [What is dimensionality reduction? What is the difference between feature selection and extraction?](https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti)
+- [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI)
+
 ## Feature engineering
 
 - [Basic Feature Engineering With Time Series Data in Python](http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/)
@@ -120,13 +128,11 @@ See [Data Generation](./data-generation.md#data-generation)
 - [featuretools](https://github.com/featuretools/featuretools/) - an open source python framework for automated feature engineering
 - [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 - [scikit learn's SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html)
-- [Feature selection with mutual information](http://www.simafore.com/blog/bid/105347/Feature-selection-with-mutual-information-Part-2-PCA-disadvantages)
 - [mlbox's Feature selection](https://mlbox.readthedocs.io/en/latest/features.html)
 - Chi2 test: Feature selection: [Quora](https://www.quora.com/How-is-chi-test-used-for-feature-selection-in-machine-learning) | [NLP Stanford Group](https://nlp.stanford.edu/IR-book/html/htmledition/feature-selectionchi2-feature-selection-1.html) | [Learn for Master](http://www.learn4master.com/machine-learning/chi-square-test-for-feature-selection)
-- Forward Feature selection: [Blog on Towards DS](https://towardsdatascience.com/feature-importance-and-forward-feature-selection-752638849962) | [Scikit learn](https://mikulskibartosz.name/forward-feature-selection-in-scikit-learn-f6476e474ddd)
-- [What is dimensionality reduction? What is the difference between feature selection and extraction?](https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti)
 - [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
 - [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
+- [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI)
 - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - look for topics: Feature Engineering • Feature Selection
 
 ## Post model-creation analysis, ML interpretation/explainability
