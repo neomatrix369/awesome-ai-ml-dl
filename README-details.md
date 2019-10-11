@@ -217,7 +217,9 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Documentation and examples for each topic](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html)
   ##### Courses
   - [Introduction to Computer Vision, Udacity, GeorgiaTech](https://www.udacity.com/course/introduction-to-computer-vision--ud810)
-  - [Stanford Computer Vision Lab : Teaching](http://vision.stanford.edu/teaching.html) Contains publications other than courses
+  - [Stanford Computer Vision Lab : Teaching](http://vision.stanford.edu/teaching.html) - Contains publications other than courses
+  - [Introduction to CV, IBM](https://www.coursera.org/learn/introduction-computer-vision-watson-opencv)
+  - [Convolutional Neural Networks, Coursera](https://www.coursera.org/learn/convolutional-neural-networks)
   ##### Conferences to follow
   - [CVPR](http://cvpr2019.thecvf.com/)
   - [ICCV](http://iccv2019.thecvf.com/)
@@ -226,6 +228,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   ##### Blogs
   - [PyImagesearch by Adrian Rosebrock](https://www.pyimagesearch.com/)
   - [Tombone's Computer Vision Blog](http://www.computervisionblog.com/)
+  - [Get started in Computer Vision, Quora](https://www.quora.com/q/qqtmowjpnijmeujz/How-to-get-started-in-Computer-Vision-A-guide-for-the-CS-undergrad)
 
 
   #### Data Science
