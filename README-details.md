@@ -196,6 +196,9 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
    - [A probabilistic programming language in TensorFlow. Deep generative models, variational inference](https://github.com/blei-lab/edward)
    - [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/pdf/1805.06605.pdf)
 
+  #### Genetic Algorithms
+  - [Introduction to Genetic Algorithms & their application in data science](https://media.licdn.com/dms/document/C511FAQE99ZtwL7srQA/feedshare-document-pdf-analyzed/0?e=1570906800&v=beta&t=OiKdTPzo2ozpBzVl0N_5JPvzAoqsS2iie9cHNK4BXCg)
+
   #### RNN
   - [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
   
