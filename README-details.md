@@ -210,7 +210,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
   ##### Image Processing
   - [Digital Image Processing Basics](https://www.geeksforgeeks.org/digital-image-processing-basics/)
-  - [Theory for Image Processing]     (http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
+  - [Theory for Image Processing](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
   - [Image and Video Processing course by Duke University, Coursera](https://www.coursera.org/learn/image-processing)
 
   ##### OpenCV and tutorials
