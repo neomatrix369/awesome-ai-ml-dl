@@ -203,29 +203,29 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - See [Natural Language Processing (NLP)](natural-language-processing/README.md#natural-language-processing-nlp)
 
   #### Computer Vision
-    ##### Motivation
-    - [What is Computer vision?](https://machinelearningmastery.com/what-is-computer-vision/)
-    - [Main topics to be covered (Basic outline)](https://www.pyimagesearch.com/start-here/)
-    - [Introduction to CV](https://blog.algorithmia.com/introduction-to-computer-vision)
-    
-    ##### Image Processing
-    - [Digital Image Processing Basics](https://www.geeksforgeeks.org/digital-image-processing-basics/)
-    - [Theory for Image Processing]     (http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
-    - [Image and Video Processing course by Duke University, Coursera](https://www.coursera.org/learn/image-processing)
-    
-    ##### OpenCV and tutorials
-    - [Documentation and examples for each topic](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html)
-    ##### Courses
-    - [Introduction to Computer Vision, Udacity, GeorgiaTech](https://www.udacity.com/course/introduction-to-computer-vision--ud810)
-    - [Stanford Computer Vision Lab : Teaching](http://vision.stanford.edu/teaching.html) Contains publications other than courses
-    ##### Conferences to follow
-    - [CVPR](http://cvpr2019.thecvf.com/)
-    - [ICCV](http://iccv2019.thecvf.com/)
-    - [ECCV](https://eccv2020.eu/)
-    - [BMVC](https://bmvc2019.org/)
-    ##### Blogs
-    - [PyImagesearch by Adrian Rosebrock](https://www.pyimagesearch.com/)
-    - [Tombone's Computer Vision Blog](http://www.computervisionblog.com/)
+  ##### Motivation
+  - [What is Computer vision?](https://machinelearningmastery.com/what-is-computer-vision/)
+  - [Main topics to be covered (Basic outline)](https://www.pyimagesearch.com/start-here/)
+  - [Introduction to CV](https://blog.algorithmia.com/introduction-to-computer-vision)
+
+  ##### Image Processing
+  - [Digital Image Processing Basics](https://www.geeksforgeeks.org/digital-image-processing-basics/)
+  - [Theory for Image Processing]     (http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
+  - [Image and Video Processing course by Duke University, Coursera](https://www.coursera.org/learn/image-processing)
+
+  ##### OpenCV and tutorials
+  - [Documentation and examples for each topic](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html)
+  ##### Courses
+  - [Introduction to Computer Vision, Udacity, GeorgiaTech](https://www.udacity.com/course/introduction-to-computer-vision--ud810)
+  - [Stanford Computer Vision Lab : Teaching](http://vision.stanford.edu/teaching.html) Contains publications other than courses
+  ##### Conferences to follow
+  - [CVPR](http://cvpr2019.thecvf.com/)
+  - [ICCV](http://iccv2019.thecvf.com/)
+  - [ECCV](https://eccv2020.eu/)
+  - [BMVC](https://bmvc2019.org/)
+  ##### Blogs
+  - [PyImagesearch by Adrian Rosebrock](https://www.pyimagesearch.com/)
+  - [Tombone's Computer Vision Blog](http://www.computervisionblog.com/)
 
 
   #### Data Science
