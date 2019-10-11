@@ -48,6 +48,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Generative Adversarial Network (GAN)](README-details.md#generative-adversarial-network-gan)
     - [RNN](README-details.md#rnn)
     - [Natural Language Processing (NLP)](README-details.md#natural-language-processing-nlp-1)
+    - [Computer Vision (CV)](README-details.md#computer-vision-1)   
     - [Data Science](README-details.md#data-science-1)
     - [Machine learning](README-details.md#machine-learning-1)
        - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
