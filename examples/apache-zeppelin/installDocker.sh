@@ -28,7 +28,7 @@ if [[ -f "/etc/sudoers" ]]; then
    SUDO_CMD=sudo
 fi
 
-${SUDO_CMD} apt-get remove docker docker-engine docker.io containerd runc
+${SUDO_CMD} apt-get remove docker docker-engine docker.io containerd runc || true
 
 ${SUDO_CMD} apt-get update
 
