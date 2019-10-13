@@ -22,9 +22,19 @@ set -o pipefail
 
 IMAGE_NAME=${IMAGE_NAME:-zeppelin}
 IMAGE_VERSION=${IMAGE_VERSION:-$(cat version.txt)}
+DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
-docker run --rm \
-           -it  \
-           -p 8888:8888 \
+mkdir -p logs notebook
+
+echo "Please wait till the log messages stop moving, it will be a sign that the service is ready! (about a minute or so)"
+echo "Once the service is ready, go to http://localhost:8080 to open the Apache Zeppelin homepage"
+time docker run --rm                               \
+           -it                                     \
+           -p 8080:8080	                           \
+           -v ${PWD}/logs:/logs                    \
+           -v ${PWD}/notebook:/notebook            \
+           -e ZEPPELIN_NOTEBOOK_DIR='/notebook'    \
+           -e ZEPPELIN_LOG_DIR='/logs'             \
            ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
+

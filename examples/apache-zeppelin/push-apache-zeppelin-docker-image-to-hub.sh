@@ -29,8 +29,8 @@ IMAGE_VERSION=${IMAGE_VERSION:-$(cat version.txt)}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 findImage() {
-	IMAGE_NAME=$1
-	echo $(docker images ${IMAGE_NAME} -q | head -n1 || true)
+    IMAGE_NAME=$1
+    echo $(docker images ${IMAGE_NAME} -q | head -n1 || true)
 }
 
 IMAGE_FOUND="$(findImage ${DOCKER_USER_NAME}/${IMAGE_NAME})"
@@ -38,10 +38,10 @@ if [[ -z "${IMAGE_FOUND}" ]]; then
     echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' not found in the local repository"
     IMAGE_FOUND="$(findImage ${IMAGE_NAME})"
     if [[ -z "${IMAGE_FOUND}" ]]; then
-    	echo "Docker image '${IMAGE_NAME}' not found in the local repository"
-    	exit 1
-    else 
-    	echo "Docker image '${IMAGE_NAME}' found in the local repository"
+        echo "Docker image '${IMAGE_NAME}' not found in the local repository"
+        exit 1
+    else
+        echo "Docker image '${IMAGE_NAME}' found in the local repository"
     fi
 else
     echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' found in the local repository"
