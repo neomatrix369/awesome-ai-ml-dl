@@ -26,6 +26,8 @@ DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 mkdir -p logs notebook
+chown ${USER}:${GROUP} logs 
+chown ${USER}:${GROUP} notebook
 
 echo "Please wait till the log messages stop moving, it will be a sign that the service is ready! (about a minute or so)"
 echo "Once the service is ready, go to http://localhost:8080 to open the Apache Zeppelin homepage"
