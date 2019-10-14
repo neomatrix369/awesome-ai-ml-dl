@@ -88,6 +88,37 @@ WARNING: The (sub)resource method getNoteList in org.apache.zeppelin.rest.Notebo
 - You will see a screen like this in the browser:
 ![](https://miro.medium.com/max/1408/0*KgMaDrIt107dUpVb.png)
 
+## Building Docker images
+
+```
+$ git clone https://github.com/neomatrix369/awesome-ai-ml-dl/
+$ cd examples/apache-zeppelin
+
+## version 0.1
+$ DOCKER_USER_NAME=<your Docker Hub username> ./buildZeppelinDockerImage.sh
+
+- or -
+
+## version 0.2
+$ DOCKER_USER_NAME=<your Docker Hub username> IMAGE_VERSION=0.2 ./buildZeppelinDockerImage.sh
+```
+
+## Pushing the built Docker image to Docker hub
+
+Please run one of the below commands when the above steps are successful:
+
+```
+## version 0.1
+$ DOCKER_USER_NAME=<your Docker Hub username> ./push-apache-zeppelin-docker-image-to-hub.sh
+
+- or -
+
+## version 0.2
+$ DOCKER_USER_NAME=<your Docker Hub username> IMAGE_VERSION=0.2 ./push-apache-zeppelin-docker-image-to-hub.sh
+```
+
+You will need a valid account on Docker Hub.
+
 # Writing Zeppelin interpreters
 
 - https://zeppelin.apache.org/docs/0.6.0/development/writingzeppelininterpreter.html
