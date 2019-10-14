@@ -16,6 +16,26 @@ See blog post on [Apache Zeppelin: stairway to notes* haven!](https://www.javaad
 
 Enjoy writing prototypes, experiments or do some real work with it, in Java, Scala or any other intepreter of your choice.
 
+# Writing Zeppelin interpreters
+
+- https://zeppelin.apache.org/docs/0.6.0/development/writingzeppelininterpreter.html
+- https://zeppelin.apache.org/docs/0.5.6-incubating/development/writingzeppelininterpreter.html
+- https://zeppelin.apache.org/docs/0.5.6-incubating/rest-api/rest-interpreter.html
+
+# Resources
+
+- [Download page](https://zeppelin.apache.org/download.html)
+- [Apache Zeppelin: Quick Start page](https://zeppelin.apache.org/docs/0.8.0/quickstart/install.html)
+- [Exploring Zeppelin UI](https://zeppelin.apache.org/docs/0.8.0/quickstart/explore_ui.html)
+- [https://issues.apache.org/jira/browse/ZEPPELIN-3586](https://issues.apache.org/jira/browse/ZEPPELIN-3586)
+- https://gist.github.com/conker84/4ffc9a2f0125c808b4dfcf3b7d70b043#file-zeppelin-dockerfile
+- [Notebook API](https://zeppelin.apache.org/docs/0.5.6-incubating/rest-api/rest-notebook.html)
+- [Interpreter API](https://zeppelin.apache.org/docs/0.5.6-incubating/rest-api/rest-interpreter.html)
+- Examples to try
+  - https://github.com/dylanmei/docker-zeppelin
+  - https://github.com/mmatloka/machine-learning-by-example-workshop
+  - https://raw.githubusercontent.com/mmatloka/machine-learning-by-example-workshop/master/Workshop.json
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
