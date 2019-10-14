@@ -54,6 +54,10 @@ ${SUDO_CMD} apt-get install -y docker-ce docker-ce-cli containerd.io
 
 apt-cache madison docker-ce
 
-${SUDO_CMD} docker run hello-world
+${SUDO_CMD} groupadd docker || true
+${SUDO_CMD} usermod -aG docker $USER
+newgrp docker
+
+docker run hello-world
 
 echo "Finished installing and testing Docker"
