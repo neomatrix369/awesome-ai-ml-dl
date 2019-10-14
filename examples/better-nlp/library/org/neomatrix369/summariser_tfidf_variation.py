@@ -36,7 +36,6 @@ https://medium.com/@shivangisareen/summarise-text-with-tfidf-in-python-bc7ca10d3
 ### Please feel free to fork this work as long as you maintain the above
 ### license and provide citation.
 
-import os
 import struct
 print("This version of Python is {} bits.".format(8 * struct.calcsize("P")))
 
@@ -56,10 +55,12 @@ class SummariserTFIDFVariation:
         """
             Removes special characters from within a string
 
-            parameters:
+            Parameters
+            ==========
                 s(str): single input string.
 
-            return:
+            Return
+            ======
                 stripped(str): A string with special characters removed
         """
         # Replace special character with ' '
@@ -73,8 +74,17 @@ class SummariserTFIDFVariation:
     # pylint: disable=R0201
     def convert_sentences_into_documents(self, text_sentences):
         """
-            Split the text into sentences and consider each sentence as a document,
-            calculate the total word count of each sentence.
+          Split the text into sentences and consider each sentence as a document,
+          calculate the total word count of each sentence.
+
+          Parameters
+          ==========
+          text_sentences:
+            raw text to summarise, usually a long string of text made up of multiple sentences
+
+          Return
+          ======
+          List of dictionary (doc id, words in the sentence) extracted from the sentence text
         """
         documents = []
         i = 0
@@ -89,7 +99,18 @@ class SummariserTFIDFVariation:
 
     # pylint: disable=R0201
     def create_word_frequency_dictionary(self, sentences):
-        """Create a frequency dictionary for each word in each document. """
+        """
+          Create a frequency dictionary for each word in each document.
+
+          Parameters
+          ==========
+          sentences:
+            raw text to summarise, usually a long string of text made up of multiple sentences
+
+          Return
+          ======
+          List of dictionary (doc id, dictionary of word frequency) extracted from the sentence text
+        """
         i = 0
         word_frequency_dictionary = []
         for sentence in sentences:
@@ -112,9 +133,21 @@ class SummariserTFIDFVariation:
     # pylint: disable=R0201
     def compute_document_tf_scores(self, documents, word_frequency_dictionaries):
         """
-            tf = (frequency of the term in the doc
+          tf = (frequency of the term in the doc
                   divided
                   by the total number of terms in the doc)
+
+          Parameters
+          ==========
+          documents:
+            texts stored as documents (with id and dictionary meta data)
+          word_frequency_dictionaries:
+            dictionary of word frequencies
+
+          Return
+          ======
+          List of TF scores of the documents (based on the TF score calculation)
+          along with the documents that are scored
         """
         scores = []
         for dictionary in word_frequency_dictionaries:
@@ -134,9 +167,21 @@ class SummariserTFIDFVariation:
 
     def compute_document_idf_scores(self, documents, word_frequency_dictionary):
         """
-            idf = ln(total number of docs divided by
+          idf = ln(total number of docs divided by
                      number of docs with the term in it)
-            ln() = natural log of
+          ln() = natural log of
+
+          Parameters
+          ==========
+          documents:
+            texts stored as documents (with id and dictionary meta data)
+          word_frequency_dictionaries:
+            dictionary of word frequencies
+
+          Return
+          ======
+          List of IDF scores of the documents (based on the IDF score calculation)
+          along with the documents that are scored
         """
         scores = []
         counter = 0
@@ -159,9 +204,21 @@ class SummariserTFIDFVariation:
 
     def compute_document_tfidf_scores(self, tf_scores, idf_scores):
         """
-            computes the product of TF and IDF scores
-            for each document (sentence) for documents that match
-            by key and doc_id
+          computes the product of TF and IDF scores
+          for each document (sentence) for documents that match
+          by key and doc_id
+
+          Parameters
+          ==========
+          tf_scores:
+            TF scores of the sentences of the text to summarise
+          idf_scores:
+            TF scores of the sentences of the text to summarise
+
+          Return
+          ======
+          List of TFIDF scores of the documents (based on the TFIDF score calculation)
+          along with the documents that are scored
         """
         scores = []
         for j in idf_scores:
@@ -175,9 +232,22 @@ class SummariserTFIDFVariation:
 
     def compute_sentence_scores(self, tfidf_scores, sentences, documents):
         """
-            The score of a sentence is calculated by adding
-            the TFIDF scores of the words that make up the sentence for
-            the document that represents that sentence
+          The score of a sentence is calculated by adding
+          the TFIDF scores of the words that make up the sentence for
+          the document that represents that sentence
+
+          Parameters
+          ==========
+          tfidf_scores:
+            TFIF scores of the sentences of the text to summarise
+          sentences:
+            Raw sentences of the text to summarise
+          documents:
+            Raw sentences as documents of the text to summarise
+
+          Return
+          ======
+          List of dictionary of sentences with their scores and doc id
         """
 
         sentence_info = []
@@ -201,19 +271,31 @@ class SummariserTFIDFVariation:
 
     def filter_sentences_by_score(self, sentence_info, top_n_sentences):
         """
-            Filter sentences after summing their scores,
-            only select sentences that meet a criteria.
-            Types of criteria:
-                - top n sentences (scores sorted in descending order)
-                - sentence score >= average
-                       --- suitable for average or smaller sized documents
-                - sentence score >= average + (1.5 * stddev)
-                       --- for medium sized documents
-                - sentence score >= average + (3 * stddev)
-                       --- for large documents
+          Filter sentences after summing their scores,
+          only select sentences that meet a criteria.
+          Types of criteria:
+             - top n sentences (scores sorted in descending order)
+             - sentence score >= average
+                    --- suitable for average or smaller sized documents
+             - sentence score >= average + (1.5 * stddev)
+                    --- for medium sized documents
+             - sentence score >= average + (3 * stddev)
+                    --- for large documents
 
-            The current functionality checks for the first type of condition.
-            These sentences joined together make up the summary.
+          The current functionality checks for the first type of condition.
+          These sentences joined together make up the summary.
+
+          Parameters
+          ==========
+          sentence_info:
+            list of dictionary of sentences with their scores
+          top_n_sentences:
+            number of sentences to pick from the top scored sentences (descending order)
+
+          Return
+          ======
+          List of top n sentences from the scored list of sentences that form the summary
+          and also the whole list of sorted sentences
         """
         summary = []
 
@@ -238,14 +320,26 @@ class SummariserTFIDFVariation:
 
     def generate_summary(self, text, top_n_sentences):
         """
-            Get the text, clean it by removing special characters,
-            get the frequency of the words and create a dictionary,
-            compute the TF scores of sentences,
-            compute the IDF scores of sentences,
-            compute the combined TF-IDF scores of sentences,
+          Get the text, clean it by removing special characters,
+          get the frequency of the words and create a dictionary,
+          compute the TF scores of sentences,
+          compute the IDF scores of sentences,
+          compute the combined TF-IDF scores of sentences,
 
-            Iterate through sentences to create a summary based on a threshold point.
-            Sentences with scores less than that don't make the summary.
+          Iterate through sentences to create a summary based on a threshold point.
+          Sentences with scores less than that don't make the summary.
+
+          Parameters
+          ==========
+          text:
+            raw text that needs summarisation
+          top_n_sentences:
+            number of sentences to pick from the top scored sentences (descending order)
+
+          Return
+          ======
+          List of top n sentences from the scored list of sentences that form the summary
+          and also the whole list of sorted sentences
         """
         tokenised_text_sentences = sent_tokenize(text)
         clean_tokenised_text_sentences = [

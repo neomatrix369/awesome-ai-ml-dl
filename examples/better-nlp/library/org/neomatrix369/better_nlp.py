@@ -21,7 +21,6 @@ of NLP libraries that are popular among the AI and ML communities.
 ### Please feel free to fork this work as long as you maintain the above
 ### license and provide citation.
 
-import os
 import time
 import struct
 import pandas as pd      # $ pip install pandas
@@ -49,7 +48,18 @@ MINIMUM_OCCURRENCE_FREQUENCY = 1
 def obfuscate(token, entity_type="PERSON"):
     """
       Obfuscates a given token depending on its type,
-      default is PERSON type
+      default is PERSON type (internal function)
+
+      Parameters
+      ==========
+      model:
+          a trained NLP model
+      text:
+          the text to extract the entities from
+
+      Return
+      ======
+      Extracted entities from the text using the passed in model
     """
     if token.string.strip() not in ['', '\n', '\t']:
         if token.ent_iob != 0 and token.ent_type_ == entity_type:
@@ -72,14 +82,25 @@ class BetterNLP:
 
     def load_nlp_model(self):
         """
-        Loads the NLP model in a lazy manner
+        Loads the NLP model in a lazy manner, if it was called the first time,
+        it would load the NLP model, remember it and return the reference to the model.
+        Subsequent calls results in returning the reference to the remembered model.
 
+        Parameters
+        ==========
+        <none>:
+            Does not take in a parameter
+
+        Return
+        ======
+        Returns an NLP model and meta data about the operation
+
+        Note:
         Ensure you do the below two steps before loading
         the English NLP Model:
 
            $ python3 -m spacy download en_core_web_lg
            $ python3 -m spacy link en_core_web_lg en
-
         """
         nlp_model = 'en'
 
@@ -105,6 +126,15 @@ class BetterNLP:
         """
           Returns the legend of all the entity types,
           both abbreviations and their meaning
+
+          Parameters
+          ==========
+          <none>:
+              Does not take in a parameter
+
+          Return
+          ======
+          A json object containing abbrevations and the meanings of each of the Entity types.
         """
         return {
             'Entity type':[
@@ -154,6 +184,18 @@ class BetterNLP:
         """
           Pretty prints a dataframe,
           default max col width is 500
+
+          Parameters
+          ==========
+          data:
+              a valid dataframe or compatible Python datatype
+          max_colwidth (optional, default: 500):
+              the column width to observe when pretty
+              printing the dataframe content
+
+          Return
+          ======
+          Nothing, instead pretty-prints the data frame on the console
         """
         pd.set_option('display.max_colwidth', max_colwidth)
         print(pd.DataFrame(data))
@@ -163,6 +205,18 @@ class BetterNLP:
         """
           Extract entities using the model,
           from the text passed in
+
+          Parameters
+          ==========
+          model:
+              a trained NLP model
+          text:
+              the text to extract the entities from
+
+          Return
+          ======
+          Extracted entities from the text using the passed in model
+          and meta data about the operation
         """
         start_time = time.time()
         # pylint: disable=E1102
@@ -186,6 +240,18 @@ class BetterNLP:
         """
           Extract the parts of speech using the model,
           from the text passed in
+
+          Parameters
+          ==========
+          model:
+              a trained NLP model
+          text:
+              the text to extract the entities from
+
+          Return
+          ======
+          Parts of speech (as a json object) extracted from the text
+          using the passed in model and meta data about the operation
         """
         # pylint: disable=E1121
         parsed_generic_text = self.extract_entities(model, text).get("parsed_text")
@@ -230,6 +296,17 @@ class BetterNLP:
         """
           Extract noun chunks using the model,
           from the text passed in
+
+          Parameters
+          ==========
+          model:
+              a trained NLP model
+          text:
+              the text to extract noun chunks from
+
+          Return
+          ======
+          list of noun chunks and meta data about the operation
         """
         # pylint: disable=E1121
         parsed_generic_text = self.extract_entities(model, text)
@@ -260,7 +337,18 @@ class BetterNLP:
     def get_facts(self, facts, target_topic):
         """
           Extract facts for the target topic from
-          the passed in data structure
+          the passed in data structure (internal function)
+
+          Parameters
+          ==========
+          facts:
+              list of facts (structured data)
+          target_topic:
+              name or type of the topic to use to find facts
+
+          Return
+          ======
+          Facts extracted from the facts data structure based on the target_topic parameter
         """
         list_of_facts = []
         for each_fact_statement in facts:
@@ -278,6 +366,19 @@ class BetterNLP:
         """
           Extract facts using the model,
           from the text passed in
+
+          Parameters
+          ==========
+          model:
+              a trained NLP model
+          text:
+              the text to extract facts from
+          target_topic:
+              name or type of the topic to use to find facts
+
+          Return
+          ======
+          Facts extracted from the text, and meta data about the operation
         """
         start_time = time.time()
         # pylint: disable=E1121
@@ -300,6 +401,18 @@ class BetterNLP:
         """
           Obfuscate the entities using the model,
           in the text passed in
+
+          Parameters
+          ==========
+          model:
+              a trained NLP model
+          text:
+              the text to obfuscate
+
+          Return
+          ======
+          Returns obfuscated text with the indicated tokens redacted,
+          and meta data about the operation
         """
         # pylint: disable=E1121
         parsed_generic_text = self.extract_entities(model, text)
@@ -322,11 +435,25 @@ class BetterNLP:
           Summarise a block of text and return a gist
           of the original text along with metadata.
 
-          Process different types of summarisers: 3 supported
-             SummariserCosine
-             SummariserPyTextRank
-             SummariserTFIDF
-             SummariserTFIDFVariation
+          Parameters
+          ==========
+          text:
+              the text to extract to summarise
+          method:
+              sumarisation method to use, the 4 supported methods are:
+                   SummariserCosine (cosine)
+                   SummariserPyTextRank (pytextrank)
+                   SummariserTFIDF (tfidf)
+                   SummariserTFIDFVariation (tfidf-ignore-stopwords)
+          top_n_sentences:
+               top n number of sentences to pick from the
+               list of candidate sentences sorted in descending order
+               (highest to lowest scores)
+
+          Return
+          ======
+          Extracted entities from the text using the passed in model and
+          meta data about the operation
         """
         start_time = time.time()
 
@@ -357,7 +484,16 @@ class BetterNLP:
     def show_graph(self, graph, method="pytextrank"):
         """
           Return a graph of the vertices when using
-          the SummariserPyTextRank summeriser
+          the SummariserPyTextRank summeriser, otherwise do nothing
+
+          Parameters
+          ==========
+          graph:
+              the graph object containing the vertices
+          method:
+              indicate the summarisation method the call is coming from
+          Return:
+              Nothing, just prints the graph onto the console
         """
         if method == "pytextrank":
             summariser = SummariserPyTextRank()

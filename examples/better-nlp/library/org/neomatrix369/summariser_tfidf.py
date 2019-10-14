@@ -31,7 +31,6 @@ https://towardsdatascience.com/understand-text-summarization-and-create-your-own
 
 #### Start of the Utility function
 
-import os
 import struct
 from string import punctuation
 from collections import defaultdict
@@ -67,9 +66,18 @@ class SummariserTFIDF:
     # pylint: disable=R0201
     def tokenize(self, text):
         """
-            Tokenise the text passed in using nltk
-            Return the list ofstems of the words in
-            the sentences in the text
+          Tokenise the text passed in using nltk
+          Return the list of stems of the words in
+          the sentences in the text
+
+          Parameters
+          ==========
+          text:
+            raw text to summarise, usually a long string of text made up of multiple sentences
+
+          Return
+          ======
+          A list of tokens (word stems) from the original text.
         """
         tokens = nltk.word_tokenize(text)
         stems = []
@@ -79,8 +87,17 @@ class SummariserTFIDF:
 
     def get_frequencies(self, text):
         """
-            Generate frequencies of the words
-            in the text using the TF-IDF method.
+          Generate frequencies of the words
+          in the text using the TF-IDF method.
+
+          Parameters
+          ==========
+          text:
+            raw text to summarise, usually a long string of text made up of multiple sentences
+
+          Return
+          ======
+          A dictionary of frequencies of the stem words in the text
         """
         tfidf = TfidfVectorizer(tokenizer=self.tokenize,
                                 stop_words=STOP_WORDS)
@@ -96,10 +113,22 @@ class SummariserTFIDF:
 
     def generate_summary(self, text, top_n_sentences):
         """
-            Create a summary from the text, based on the
-            top n sentences in the text.
-            Top n sentences are determined by using the
-            TF-IDF method.
+          Create a summary from the text, based on the
+          top n sentences in the text.
+          Top n sentences are determined by using the
+          TF-IDF method.
+
+          Parameters
+          ==========
+          text:
+            raw text to summarise, usually a long string of text made up of multiple sentences
+          top_n_sentence:
+            number of top sentences to pick from to form the summary
+
+          Return
+          ======
+          A list of sentences to form the summary text and also a
+          list of sorted frequencies of the stem words from the text
         """
         freqs = self.get_frequencies(text)
 
