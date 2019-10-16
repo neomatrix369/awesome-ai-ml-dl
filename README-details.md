@@ -27,7 +27,7 @@
 
 NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala)
 
-Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss) | Grakn: [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn) | Jupyter-Java: [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) | MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer) | Zeppelin: [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin)
+Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss) | Grakn: [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn) | Jupyter-Java: [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) | MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer) | Zeppelin: [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) 
 
 #### Business / General / Semi-technical
 
@@ -75,7 +75,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Questions when applying Deep Learning](https://skymind.com/wiki/questions-when-applying-deep-learning)
   - [Deep Learning Use cases](https://skymind.com/wiki/use-cases)
 
-#### Reinforcement Learning
+#### Reinforcement Learning 
   - [Java implementation of Reinforcement Learning algorithms as described in the book "Reinforcement Learning: An Introduction" by Sutton](https://github.com/chen0040/java-reinforcement-learning)
 
 #### Genetic Algorithms
@@ -113,8 +113,8 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 #### Recommendation systems / Collaborative Filtering (CF)
   - [Tutorial on Collaborative Filtering (CF) in Java – a machine learning technique used by recommendation systems](https://www.baeldung.com/java-collaborative-filtering-recommendations) ([Tweet](https://twitter.com/java/status/985150431549632513))
-
-#### Data Science
+  
+#### Data Science 
 
 - [Data Science for Java Developers](https://www.oreilly.com/library/view/data-science-with/9781491934104/ch01.html)
 - [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
@@ -172,7 +172,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Scala resources by Chris Albon](https://chrisalbon.com/#scala)
 
 ### Julia, Python & R
-
+  
   #### General
    - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
    - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
@@ -201,7 +201,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
   #### RNN
   - [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-
+  
   #### Natural Language Processing (NLP)
   - See [Natural Language Processing (NLP)](natural-language-processing/README.md#natural-language-processing-nlp)
 
@@ -225,7 +225,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Convolutional Neural Networks, Coursera](https://www.coursera.org/learn/convolutional-neural-networks) (free, paid for certification)
   ##### Conferences to follow
   - [CVPR](http://cvpr2019.thecvf.com/)
-  - [ICCV](http://iccv2019.thecvf.com/)
+  - [ICCV](http://iccv2019.thecvf.com/) 
   - [ECCV](https://eccv2020.eu/)
   - [BMVC](https://bmvc2019.org/)
   ##### Blogs
@@ -235,7 +235,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 
   #### Data Science
-
+  
   - [Data science intro for math/phys background by Poitr Migdal](https://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html)
   - [What I do or: science to data science by Poitr Migdal](https://p.migdal.pl/2015/12/14/sci-to-data-sci.html)
   - [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI)
@@ -294,8 +294,8 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
    - [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
    - [Checkout 'Deep Learning with Tensorflow 2.0 (MNIST)' Notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#notebooks)
    - [Deep learning for 3D printing manufacturing](https://www.youtube.com/watch?v=jAQSM2dhDV4) by [Benjamin Schrauwen](https://www.linkedin.com/in/benjaminschrauwen)
-   - [DL topics expanded by Chris Albon](https://chrisalbon.com/#deep_learning) - topics covered: Keras
-
+   - [DL topics expanded by Chris Albon](https://chrisalbon.com/#deep_learning) - topics covered: Keras 
+  
   #### Reinforcement Learning
 
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
@@ -327,7 +327,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 ### JavaScript
    - [What effect will AI have on programming languages?](https://medium.com/skills-matter/what-effect-will-ai-have-on-programming-languages-102bbb5f3024)
-   - [Tensorflow.js](https://js.tensorflow.org/)
+   - [Tensorflow.js](https://js.tensorflow.org/) 
    - Tensorflow Playground [1](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.87744&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) | [2](http://playground.tensorflow.org/#activation=sigmoid&regularization=L2&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=5,3&seed=0.84062&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=false&discretize_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&playButton_hide=false) | [3](http://playground.tensorflow.org/#activation=linear&regularization=L2&batchSize=10&dataset=gauss&regDataset=reg-plane&learningRate=0.0001&regularizationRate=0&noise=0&networkShape=&seed=0.27124&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=true&discretize_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&playButton_hide=false) | [4](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.29208&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
    - [Bring deep learning into the browser &mdash; In Browser AI](https://inbrowser.ai/)
    - [Run Keras models in the browser, with GPU support using WebGL](https://github.com/transcranial/keras-js)
@@ -356,10 +356,10 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Open Source materials from Wolfram](https://wolfram.com/open-materials/)
     - [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
     - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
-  - Neural Networks & Machine learning
+  - Neural Network & Machine Learning
     - [Neural Network Repository](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
-    - [Neural Network functions in the Wolfram Language](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
-    - [Neural Network tutorial in the Wolfram Language](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html)
+    - [Neural Network framework functions](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
+    - [Neural Network tutorial](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html)
 
 ### Mathematics, Statistics, Probability & Probabilistic programming
   - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
@@ -424,7 +424,7 @@ See [Visualisation](README-details.md#visualisation-1)
 
 ### Visualisation
 
-  - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics)
+  - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) 
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
   - [Data Visualisation by Kaggle.com](https://www.kaggle.com/learn/data-visualization)
   - [How the BBC Visual and Data Journalism team works with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
@@ -483,7 +483,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
     - [Data notebooks](data/README.md#notebooks)
   - [Bag of words notebook](./blogs/keras-bag-of-words-expanded-version/data-scripts-notebooks/)
   - Better NLP Notebooks: [Jupyter](./examples/better-nlp/notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb) | [Google Colab](./examples/better-nlp/notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
-  - [Time-series / anomaly detection notebooks](./time-series_anomaly-detection/README.md#notebooks)
+  - [Time-series / anomaly detection notebooks](./time-series_anomaly-detection/README.md#notebooks) 
   - [ML Notebooks: hands-on](https://github.com/ageron/handson-ml)
   - [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
   - [Dive into Machine Learning with Jupyter notebook, Python, and scikit-learn](http://hangtwenty.github.io/dive-into-machine-learning/)
@@ -533,14 +533,14 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
 
 ### Cheatsheets
   - [Cheat Sheets for AI, Neural Networks, MachineLearning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463) ([Tweet](https://twitter.com/java/status/1040928213466198016))
-  - [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png)
+  - [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) 
   - [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | - [Pandas Cheatsheet](https://lnkd.in/gfAdcpw)
-  - [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html)
-  - [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai)
+  - [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) 
+  - [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) 
   - [Programming in Python: Cheatsheets](./Programming-in-Python.md#cheatsheets)
-  - [DS Cheatsheet by mavericklin.com](https://storage.ning.com/topology/rest/1.0/file/get/1211570060?profile=original)
+  - [DS Cheatsheet by mavericklin.com](https://storage.ning.com/topology/rest/1.0/file/get/1211570060?profile=original) 
   - [AI for All Cheatsheet (Montréal.ai Academy)](http://www.montreal.ai/ai4all.pdf)  
-  - [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf)
+  - [Super VIP Cheatsheet: Machine Learning](https://ugoproto.github.io/ugo_r_doc/super-cheatsheet-machine-learning.pdf) 
   - [Super VIP Cheatsheet: Deep Learning](https://pradeepsinngh.github.io/documents/cheatsheet-deep-learning.pdf)
   - H2O and R: [1](https://github.com/rstudio/cheatsheets/blob/master/h2o.pdf) [2](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/data-science/algo-params/calibrate_model.html#examples)
   - [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463?source=---------11-------------------)
