@@ -37,6 +37,14 @@
 - [PySheee: Python Cheatsheet](https://www.pythonsheets.com/)
 - [7+ Python Cheat Sheets for Beginners and Experts](https://sinxloud.com/python-cheat-sheet-beginner-advanced/)
 - [Python for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
+- [30 seconds of python](https://github.com/30-seconds/30-seconds-of-python)
+
+## Database
+##### Databases implemented in python
+
+- [Pickle DB](https://pythonhosted.org/pickleDB/)
+- [Tinydb](https://github.com/msiemens/tinydb)
+- [ZODB](http://www.zodb.org/en/latest/)
 
 ## Static analysis
 
