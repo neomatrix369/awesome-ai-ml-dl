@@ -74,6 +74,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Data for Deep Learning](https://skymind.com/wiki/data-for-deep-learning)
   - [Questions when applying Deep Learning](https://skymind.com/wiki/questions-when-applying-deep-learning)
   - [Deep Learning Use cases](https://skymind.com/wiki/use-cases)
+  - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 
 #### Reinforcement Learning 
   - [Java implementation of Reinforcement Learning algorithms as described in the book "Reinforcement Learning: An Introduction" by Sutton](https://github.com/chen0040/java-reinforcement-learning)
@@ -110,6 +111,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
     - [Three Part Tutorial Series Build an AI Programmer using Recurrent Neural Network](https://www.programcreek.com/2017/07/recurrent-neural-network-example-ai-programmer-1/) ([Tweet](https://twitter.com/java/status/958698885731487744))
   - [Neural Networks and Decision Trees](https://www.youtube.com/watch?v=v0bv0HTboOg) by [Ryutaro Tanno](https://rt416.github.io/)
   - [predestination: Conway's Game of Life](https://github.com/SamirTalwar/predestination) by [Samir Talwar](https://github.com/SamirTalwar/) | [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+  - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 
 #### Recommendation systems / Collaborative Filtering (CF)
   - [Tutorial on Collaborative Filtering (CF) in Java – a machine learning technique used by recommendation systems](https://www.baeldung.com/java-collaborative-filtering-recommendations) ([Tweet](https://twitter.com/java/status/985150431549632513))
@@ -130,6 +132,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 - See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
 - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
