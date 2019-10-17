@@ -338,14 +338,14 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 See [Visualisation](README-details.md#visualisation-1)
 
-### Mathematica
+### Mathematica & Wolfram Language
   - General
     - [Mathematica](https://www.wolfram.com/mathematica/)
     - [Mathematica for home/hobbyist/individuals (pricing)](https://www.wolfram.com/mathematica/pricing/home-hobby-individuals.php)
     - [Mathematica on Stackexchange](https://mathematica.stackexchange.com/)
     - [Mathematica on Wikipedia](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
     - [Mathematica for prediction algorithms](https://mathematicaforprediction.wordpress.com/category/artificial-intelligence/)
-  * Stephen Wolfram
+  - Stephen Wolfram
     - [Stephen Wolfram: Knowledge Engine](https://lexfridman.com/stephen-wolfram/)
     - [Stephen Wolfram: Artificial Intelligence blogs](https://blog.stephenwolfram.com/category/artificial-intelligence/?source=wordcloud)
   - Wolfram
@@ -356,6 +356,10 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Open Source materials from Wolfram](https://wolfram.com/open-materials/)
     - [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
     - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
+  - Neural Network & Machine Learning
+    - [Neural Network Repository](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
+    - [Neural Network framework functions](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
+    - [Neural Network tutorial](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html)
 
 ### Mathematics, Statistics, Probability & Probabilistic programming
   - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
