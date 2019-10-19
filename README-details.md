@@ -360,9 +360,9 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
     - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
   - Neural Network & Machine Learning
-    - [Neural Network Repository](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
-    - [Neural Network framework functions](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
-    - [Neural Network tutorial](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html)
+    - [Neural Network Repository](https://reference.wolfram.com/language/guide/NeuralNetworks.html) - a good overview page of Neural Network functions available in Mathematica / Wolfram Language
+    - [Neural Network tutorial](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html) - the main introduction on how to program with neural networks in Mathematica / Wolfram Language
+    - [Wolfram Neural Net Repository](https://resources.wolframcloud.com/NeuralNetRepository/) - The Wolfram Neural Net Repository is a public resource that hosts an expanding collection of trained and untrained neural network models, suitable for immediate evaluation, training, visualization, transfer learning and more
 
 ### Mathematics, Statistics, Probability & Probabilistic programming
   - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
