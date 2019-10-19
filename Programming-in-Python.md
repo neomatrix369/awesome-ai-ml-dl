@@ -1,6 +1,6 @@
 # Programming in Python
 
-- [Learning](#learning)
+- [Basics / Learning](#basics-learning)
 - [Cheatsheets](#cheatsheets)
 - [Static analysis](#static-analysis)
     - [Focussed packages](#focussed-packages)
@@ -11,7 +11,12 @@
 - [Performance](#performance)
 - [Contributing](#contributing)
 
-## Learning
+### Basics / learning
+
+- [Lists, Tuples, Dictionaries, Conditionals, Loops, etc...](https://lnkd.in/gWRbc3J)
+- [Data Structures & Algorithms](https://lnkd.in/gYKnJWN)
+- [NumPy Arrays](https://lnkd.in/geeFePh)
+- [Regex](https://lnkd.in/gzUahNV)
 - [Introduction to Python](https://simpliv-wordpress-com.cdn.ampproject.org/c/s/simpliv.wordpress.com/2019/06/27/best-way-to-learn-python-step-by-step-guide/amp/)
 - [Learn Python](https://www.learnpython.org/)
 - [Python 3 Tutorial](https://docs.python.org/3/tutorial/)
@@ -24,12 +29,23 @@
   - [Online Python Turtle Editor](https://repl.it/languages/python_turtle)
   - [Online Python Compiler](https://www.onlinegdb.com/online_python_compiler)
 - [Local machine: Interacting with Python](https://realpython.com/interacting-with-python/)
+- [Python by Chris Albon](https://chrisalbon.com/#python) - topics covered: Basics • Data Wrangling • Data Visualization • Web Scraping • Testing • Logging • Other
+- [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
+- [WTF Python repo](https://github.com/satwikkansal/wtfpython)
 
 ## Cheatsheets
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - [PySheee: Python Cheatsheet](https://www.pythonsheets.com/)
 - [7+ Python Cheat Sheets for Beginners and Experts](https://sinxloud.com/python-cheat-sheet-beginner-advanced/)
 - [Python for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
+- [30 seconds of python](https://github.com/30-seconds/30-seconds-of-python)
+
+## Database
+##### Databases implemented in python
+
+- [Pickle DB](https://pythonhosted.org/pickleDB/)
+- [Tinydb](https://github.com/msiemens/tinydb)
+- [ZODB](http://www.zodb.org/en/latest/)
 
 ## Static analysis
 
@@ -58,6 +74,13 @@
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
 
+## Cookie cutter: Python project templates
+
+- [For Python projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#python)
+- [For Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-science)
+- [For Reproducible Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#reproducible-science)
+- [For Data Driven Journalism projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-driven-journalism)
+
 ## Best practices
 
 - [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
@@ -71,6 +94,12 @@
 - [Python Best Practices: 5 Tips For Better Code - Airbrake Blog](https://airbrake.io/blog/python/python-best-practices)
 - [Python tutorial: Best practices and common mistakes to avoid](https://jaxenter.com/python-tutorial-best-practices-145959.html)
 - [Common mistakes beginnners make in python](https://github.com/qxf2/wtfiswronghere)
+- [Six steps to more professional data science code notebook on Kaggle by Rachael Tateman](https://kaggle.intercom-mail.com/via/e?ob=ktkgCmdq8TTLcC0KcRnaTDrpfyNmo93hWgJS%2Bf3C%2FpeXDMn5IliXwMPCgGeVFtngYeGLq2r3zzpfPOt1R2SLUvPz%2BOZl6ye5CNrx98D279Mjy%2BDCxeLTcN3rL%2BXuXvYPwdMeFoEliM4ujTLctPU1Rb2Kt8AOwN30PYPGdMZPPhxkha%2BlQ9oixCrQILf%2BWqOTvh59huu9yn%2BqmDKPk9wcnA%3D%3D&h=6b05c8a50ab9ff60c7c061020cc5428a92dce16c-23895383563) | [Video: 6 Steps for More Professional Data Science Code | Kaggle](https://www.youtube.com/watch?v=Trar7GZOPl8&feature=youtu.be&utm_medium=email&utm_source=intercom&utm_campaign=modular-code-event) | [Import scripts into notebook kernels](https://www.kaggle.com/product-feedback/91185) | [Kaggle Live Coding: Making code modular | Kaggle](https://www.youtube.com/watch?v=5zgxMgG4A7o) | [Documentation on Python modules](https://docs.python.org/3/tutorial/modules.html) | [DocStrings](https://www.python.org/dev/peps/pep-0257/) | [Don't Repeat Yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) | [PEP 8](https://www.python.org/dev/peps/pep-0008/) | [Joy of Functional programming for Data Science](https://www.youtube.com/watch?v=bzUmK0Y07ck) | [Method Chaining in Python using pyjanitor](https://pyjanitor.readthedocs.io/notebooks/pyjanitor_intro.html#Clean-up-our-data-using-a-pyjanitor-method-chaining-pipeline) | [pyjanitor docs](https://pyjanitor.readthedocs.io/notebooks/pyjanitor_intro.html#Clean-up-our-data-using-a-pyjanitor-method-chaining-pipeline) | [Code reviewing Data Science work](https://medium.com/apteo/code-reviewing-data-science-work-774747248e33) | [Python built-in method: assert](https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement) | [Code Smells](https://en.wikipedia.org/wiki/Code_smell) | [Kaggle Coffee Chat: Joel Grus | Kaggle: software engineering best practices](https://www.youtube.com/watch?v=Sg6xJ0ACc78) | [Scripting-your-data-validation notebook: Automating Data Pipelines](https://www.kaggle.com/rtatman/automating-data-pipelines-day-2#Scripting-your-data-validation) | [Dashboarding with Notebooks: Day 5](https://www.kaggle.com/rtatman/dashboarding-with-notebooks-day-5) | [Kaggle Scripts](https://www.kaggle.com/kernels?sortBy=hotness&group=everyone&pageSize=20&tagIds=16074) | [Regular Expressions](https://en.wikipedia.org/wiki/Regular_expression)
+- Packages & Libraries: [Cerberus module](http://docs.python-cerberus.org/en/stable/usage.html) | [missingno package](https://github.com/ResidentMario/missingno) | [python-magic module](https://github.com/ahupp/python-magic) | [Python Flashtext](https://flashtext.readthedocs.io/en/latest/) | [Flashtext github](https://github.com/vi3k6i5/flashtext#why-not-regex) | [Forum post embeddings + clustering](https://www.kaggle.com/rtatman/forum-post-embeddings-clustering)
+- [Jason Gormans'](https://twitter.com/jasongorman) Python Code Craft series:
+  - [Code Craft : Part I – Why We Need Code Craft](https://codemanship.wordpress.com/2019/10/01/code-craft-part-i-why-we-need-code-craft/)
+  - [Code Craft : Part II – Version Control is Seat Belts for Programmers](https://codemanship.wordpress.com/2019/10/02/code-craft-part-ii-version-control-is-seat-belts-for-programmers/)
+  - [Code Craft : Part III – Unit Tests are an Early Warning System for Programmers](https://codemanship.wordpress.com/2019/10/04/code-craft-part-iii-unit-tests-are-an-early-warning-system-for-programmers/)
 
 ## Testing
 
@@ -98,6 +127,10 @@
 - [Python and performance](https://github.com/ameroueh/performance)
 - [NumPy aware dynamic Python compiler using LLVM ](https://github.com/ameroueh/numba) | [Numba](http://numba.pydata.org/)
 - [Profiling in Python](https://github.com/mkunesch/profiling-talk) - by [Markus Kunesch](https://github.com/mkunesch)
+
+## Competitions & coding challenges
+
+See [Competitions > Coding challenges](./competitions.md#coding-challenges)
 
 # Contributing
 

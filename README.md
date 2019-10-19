@@ -1,4 +1,4 @@
-# Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) 
 
@@ -19,6 +19,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [General](README-details.md#general)
   - [Artificial Intelligence](README-details.md#artificial-intelligence)
   - [Automation](README-details.md#automation)
+  - [Competitions](competitions.md)
   - [Ethics / altruistic motives](README-details.md#ethics--altruistic-motives)
   - [Java](README-details.md#java)
     - [Business / General / Semi-technical](README-details.md#business--general--semi-technical)
@@ -36,6 +37,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Recommendation systems / Collaborative Filtering (CF)](README-details.md#recommendation-systems--collaborative-filtering-cf)
     - [Data Science](README-details.md#data-science)
     - [Machine Learning](README-details.md#machine-learning)
+      - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
     - [Tools & Libraries, Resources](README-details.md#tools--libraries-other-resources)
     - [How-to / Deploy / DevOps / Serverless](README-details.md#how-to--deploy--devops--serverless)
     - [Misc](README-details.md#misc)
@@ -46,8 +48,10 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Generative Adversarial Network (GAN)](README-details.md#generative-adversarial-network-gan)
     - [RNN](README-details.md#rnn)
     - [Natural Language Processing (NLP)](README-details.md#natural-language-processing-nlp-1)
+    - [Computer Vision (CV)](README-details.md#computer-vision-1)   
     - [Data Science](README-details.md#data-science-1)
     - [Machine learning](README-details.md#machine-learning-1)
+       - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
     - [Deep learning](README-details.md#deep-learning-1)
     - [Reinforcement learning](README-details.md#reinforcement-learning-1)
     - [Programming in Python](Programming-in-Python.md)

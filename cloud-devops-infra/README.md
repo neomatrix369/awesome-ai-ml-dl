@@ -2,14 +2,21 @@
 
 #### System / Infra
 
-  - [serveo.net](serveo.net) - Serveo is an SSH server just for remote port forwarding. When a user connects to Serveo, they get a public URL that anybody can use to connect to their localhost server. See link for other SSH and related alternatives, useful to be able to serve resources across devices i.e. access GPU or other hardware accelerators from another device remotely.
+  - [serveo.net](http://serveo.net) - Serveo is an SSH server just for remote port forwarding. When a user connects to Serveo, they get a public URL that anybody can use to connect to their localhost server. See link for other SSH and related alternatives, useful to be able to serve resources across devices i.e. access GPU or other hardware accelerators from another device remotely. | [How to forward my local port to public using Serveo?](https://medium.com/@osanda.deshan/how-to-forward-my-local-port-to-public-using-serveo-4979f352a3bf) | [Serveo on GitHub](https://github.com/milio48/serveo)
+  - [Inlets](https://github.com/alexellis/inlets) by [Alex Ellis](https://github.com/alexellis) | [Get started](https://github.com/alexellis/inlets#get-started) | [Video](https://www.youtube.com/watch?v=jrAqqe8N3q4&feature=youtu.be)
 
 #### Compute & Storage
   
-  - [Cray Computers](https://www.cray.com/ai)
+  - [Cray Computers](https://www.cray.com/ai) | [Artificial Intelligence](https://www.cray.com/solutions/artificial-intelligence) | [Accel AI](https://www.cray.com/solutions/artificial-intelligence/cray-accel-ai) | [Cryp-em](https://www.cray.com/solutions/cryo-em) | [Autonomous Vehicles](https://www.cray.com/solutions/autonomous-vehicles) | [Geospatial AI](https://www.cray.com/solutions/geospatial-ai)
   - [GraphCore's IPU](README.md#ipu)
   - [Lambda Labs](https://lambdalabs.com/)
   - NGD Systems: [Technology](https://www.ngdsystems.com/technology) | [Solutions](https://www.ngdsystems.com/solutions) - High Compute Storage, Scalable Computational Storage | [NGD Systems: Ensuring AI Advancement with Intelligent Storage](https://www.insightssuccess.com/ngd-systems-ensuring-ai-advancement-with-intelligent-storage/)
+
+### Grid computing / Super computing
+
+- Grid Engine: [wikipedia](https://en.wikipedia.org/wiki/Univa_Grid_Engine) | [Univa website](http://www.univa.com/products/) | [Datasheet](http://www.univa.com/resources/files/univa-unisight-datasheet.pdf)
+- [BOINC](https://boinc.berkeley.edu/) - High-Throughput Computing with BOINC | [Tech Docs](https://boinc.berkeley.edu/trac/wiki/ProjectMain) | [Download BOINC](https://boinc.berkeley.edu/download.php) | [GitHub](https://github.com/BOINC/boinc)
+- [Cray Computers](https://www.cray.com/solutions/supercomputing-as-a-service) - Supercomputing as a Service
 
 #### Cloud services
 
@@ -17,6 +24,9 @@
   - [paperspace](https://www.paperspace.com/) - The first cloud built for the future. Powering next-generation applications and cloud ML/AI pipelines. Paperspace is built to scale with your team - pay as you go option for individuals.
   - [valohai](https://www.valohai.com/) | [docs](https://docs.valohai.com/) | [blogs](https://blogs.valohai.com) | [GitHub](https://github.com/valohai) | [Videos](https://www.youtube.com/channel/UCiR8Fpv6jRNphaZ99PnIuFg) | [Showcase](https://valohai.com/showcase/) | [Slack](http://community-slack.valohai.com/) - Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
   - [Lambda Cloud GPU Instances](https://lambdalabs.com/service/gpu-cloud) - GPU Instances for Deep Learning & Machine Learning
+  - [NavOps](http://www.univa.com/products/navops.php) - Cloud Migration for HPC | [Datasheet](http://www.univa.com/resources/files/univa-navops-launch-datasheet.pdf)
+  - [Verne Global: HPC Cloud](https://verneglobal.com/solutions/hpc-cloud) | [NVidia DGX Ready](https://verneglobal.com/dgxready)
+  - [Weights and Biases](wandb.ai) | [Learn more about WandB](../data/about-Weights-and-Biases.md)
 
 #### Tools
   - [snakemake](https://snakemake.readthedocs.io/en/stable/) - The Snakemake workflow management system is a tool to create reproducible and scalable data analyses. [Slides](https://slides.com/johanneskoester/snakemake-talk-40min#) | [PyPi](https://pypi.org/project/snakemake/)

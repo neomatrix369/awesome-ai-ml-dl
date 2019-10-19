@@ -2,6 +2,7 @@
 
 ### Generate numeric data fitting a model/distribution (to fit linear model / ring / etc)
 
+- [Website to generate syntheric data](https://www.mockaroo.com)
 - [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae)
 - [Python Random Data Generation](https://honingds.com/blog/python-random/)
 - [How to Generate Test Datasets in Python with scikit-learn](https://machinelearningmastery.com/generate-test-datasets-python-scikit-learn/)

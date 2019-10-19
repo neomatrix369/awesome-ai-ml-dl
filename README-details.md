@@ -8,6 +8,9 @@
 - [Artificial intelligence in video games](https://en.wikipedia.org/wiki/Artificial_intelligence_in_video_games)
 - [Scholarly articles for history of artificial intelligence](https://scholar.google.co.uk/scholar?q=history+of+artificial+intelligence&hl=en&as_sdt=0&as_vis=1&oi=scholart)
 - [Google AI Blog](https://ai.googleblog.com/) - the latest news from Google AI
+- [AI Experiments | Experiments with Google](https://experiments.withgoogle.com/ai) | [Experiments with Google](https://experiments.withgoogle.com/)
+- [People + AI Guidebook Logo](https://pair.withgoogle.com/)
+- [What is a tensor?](./data/what-is-a-tensor.jpg)
 
 ### Automation
 
@@ -71,6 +74,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Data for Deep Learning](https://skymind.com/wiki/data-for-deep-learning)
   - [Questions when applying Deep Learning](https://skymind.com/wiki/questions-when-applying-deep-learning)
   - [Deep Learning Use cases](https://skymind.com/wiki/use-cases)
+  - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 
 #### Reinforcement Learning 
   - [Java implementation of Reinforcement Learning algorithms as described in the book "Reinforcement Learning: An Introduction" by Sutton](https://github.com/chen0040/java-reinforcement-learning)
@@ -107,6 +111,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
     - [Three Part Tutorial Series Build an AI Programmer using Recurrent Neural Network](https://www.programcreek.com/2017/07/recurrent-neural-network-example-ai-programmer-1/) ([Tweet](https://twitter.com/java/status/958698885731487744))
   - [Neural Networks and Decision Trees](https://www.youtube.com/watch?v=v0bv0HTboOg) by [Ryutaro Tanno](https://rt416.github.io/)
   - [predestination: Conway's Game of Life](https://github.com/SamirTalwar/predestination) by [Samir Talwar](https://github.com/SamirTalwar/) | [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+  - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 
 #### Recommendation systems / Collaborative Filtering (CF)
   - [Tutorial on Collaborative Filtering (CF) in Java – a machine learning technique used by recommendation systems](https://www.baeldung.com/java-collaborative-filtering-recommendations) ([Tweet](https://twitter.com/java/status/985150431549632513))
@@ -126,7 +131,9 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/smile)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-- [Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning](http://daiwz.net/org/slides/ABL-meetup.html) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
+- See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
 - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
@@ -154,14 +161,18 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
   - [Videos of various AI/ML related topics by AI Enterprise](https://www.youtube.com/channel/UC1PncmBLZMqlodEt7atfFuw)
   - [Real-Time Application of Machine Learning to Geolocation using Spark and Kafka](https://www.youtube.com/watch?v=17OUbWR8UKo) | [Slides](https://www.slideshare.net/caroljmcdonald/analysis-of-popular-uber-locations-using-apache-apis-spark-machine-learning-structured-streaming-kafka-with-mapres-and-maprdb) | [Carol's post "Tips and Best Practices to Take Advantage of Spark 2.x"](https://mapr.com/blog/tips-and-best-practices-to-take-advantage-of-spark-2-x/)
+  - [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
+  - [Linux Command-Line resource by Chris Albon](https://chrisalbon.com/#linux)
 
 **See [this link](https://github.com/josephmisiti/awesome-machine-learning#java) for more Java related ML links**
 
 ### Clojure
   - [Clojure related ML links](https://github.com/josephmisiti/awesome-machine-learning#clojure)
+  - [Scicloj](https://scicloj.github.io/) - an open, free and dynamic hub aimed at advancing doing data science, machine learning and numerical computing in Clojure | [GitHub](https://github.com/scicloj) | [Zulip](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science) | [Twitter](https://twitter.com/scicloj) | [Youtube](http://yt.vu/+scicloj) | [scicloj@gmail.com](mailto:scicloj@gmail.com)
 
 ### Scala
   - [Scala related ML links](https://github.com/josephmisiti/awesome-machine-learning#scala)
+  - [Scala resources by Chris Albon](https://chrisalbon.com/#scala)
 
 ### Julia, Python & R
   
@@ -188,11 +199,43 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
    - [A probabilistic programming language in TensorFlow. Deep generative models, variational inference](https://github.com/blei-lab/edward)
    - [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/pdf/1805.06605.pdf)
 
+  #### Genetic Algorithms
+  - [Introduction to Genetic Algorithms & their application in data science](https://media.licdn.com/dms/document/C511FAQE99ZtwL7srQA/feedshare-document-pdf-analyzed/0?e=1570906800&v=beta&t=OiKdTPzo2ozpBzVl0N_5JPvzAoqsS2iie9cHNK4BXCg)
+
   #### RNN
   - [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
   
   #### Natural Language Processing (NLP)
   - See [Natural Language Processing (NLP)](natural-language-processing/README.md#natural-language-processing-nlp)
+
+  #### Computer Vision
+  ##### Motivation
+  - [What is Computer vision?](https://machinelearningmastery.com/what-is-computer-vision/)
+  - [Main topics to be covered (Basic outline)](https://www.pyimagesearch.com/start-here/)
+  - [Introduction to CV](https://blog.algorithmia.com/introduction-to-computer-vision)
+
+  ##### Image Processing
+  - [Digital Image Processing Basics](https://www.geeksforgeeks.org/digital-image-processing-basics/)
+  - [Theory for Image Processing](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
+  - [Image and Video Processing course by Duke University, Coursera](https://www.coursera.org/learn/image-processing) (free, paid for certification)
+
+  ##### OpenCV and tutorials
+  - [Documentation and examples for each topic](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html)
+  ##### Courses
+  - [Introduction to Computer Vision, Udacity, GeorgiaTech](https://www.udacity.com/course/introduction-to-computer-vision--ud810) (free, paid for certification)
+  - [Stanford Computer Vision Lab : Teaching](http://vision.stanford.edu/teaching.html) - Contains publications other than courses (free)
+  - [Introduction to CV, IBM](https://www.coursera.org/learn/introduction-computer-vision-watson-opencv) (free, paid for certification)
+  - [Convolutional Neural Networks, Coursera](https://www.coursera.org/learn/convolutional-neural-networks) (free, paid for certification)
+  ##### Conferences to follow
+  - [CVPR](http://cvpr2019.thecvf.com/)
+  - [ICCV](http://iccv2019.thecvf.com/) 
+  - [ECCV](https://eccv2020.eu/)
+  - [BMVC](https://bmvc2019.org/)
+  ##### Blogs
+  - [PyImagesearch by Adrian Rosebrock](https://www.pyimagesearch.com/)
+  - [Tombone's Computer Vision Blog](http://www.computervisionblog.com/)
+  - [Get started in Computer Vision, Quora](https://www.quora.com/q/qqtmowjpnijmeujz/How-to-get-started-in-Computer-Vision-A-guide-for-the-CS-undergrad)
+
 
   #### Data Science
   
@@ -207,7 +250,6 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
   - [Top ML repos](https://github.com/yazdotai/top-machine-learning)
-  - [ML on Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)
   - [Hands on ML](https://github.com/ageron/handson-ml)
   - [The "Python Machine Learning (1st edition)" book code repository and info resource](https://github.com/rasbt/python-machine-learning-book)
   - [ML for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
@@ -230,6 +272,14 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Machine Learning on Retail](https://www.linkedin.com/feed/update/urn:li:activity:6534410859026968576)
   - [Machine Learning on Marketing](https://www.linkedin.com/feed/update/urn:li:activity:6532232283498352640)
   - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
+  - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+  - [Stack your ML models using an ensemble library: picknmix](https://github.com/picknmix/picknmix) by [Cheuk Ting Ho](https://github.com/Cheukting)
+  - [Technical Notes On Using Data Science & Artificial Intelligence](https://github.com/chrisalbon/notes)
+  - ML Flashcards: [website](https://machinelearningflashcards.com/) | [github](https://github.com/chrisalbon/MachineLearningFlashcards.com)
+  - [Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386) by [Chris Albon](https://www.amazon.com/Chris-Albon/e/B07CHGKH7J/ref=dp_byline_cont_book_1)
+  - [A number of useful ML related repositories](https://github.com/chrisalbon?tab=repositories) by [Chris Albon](https://github.com/chrisalbon)
+  - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - topics covered: Vectors, Matrices, And Arrays • ML Basics • Preprocessing Structured Data • Preprocessing Images • Preprocessing Text • Preprocessing Dates And Times • Feature Engineering • Feature Selection • Model Evaluation • Model Selection • Linear Regression • Logistic Regression • Trees And Forests • Nearest Neighbors • Support Vector Machines • Naive Bayes • Clustering
+  - See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
   - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
   - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
@@ -247,8 +297,10 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
    - [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
    - [Checkout 'Deep Learning with Tensorflow 2.0 (MNIST)' Notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#notebooks)
    - [Deep learning for 3D printing manufacturing](https://www.youtube.com/watch?v=jAQSM2dhDV4) by [Benjamin Schrauwen](https://www.linkedin.com/in/benjaminschrauwen)
+   - [DL topics expanded by Chris Albon](https://chrisalbon.com/#deep_learning) - topics covered: Keras 
   
   #### Reinforcement Learning
+
   - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
   - [Gym: a toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
   - [Dopamine is a research framework for fast prototyping of Reinforcement Learning algorithms](https://github.com/google/dopamine)
@@ -268,7 +320,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
   - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Kai_Arulkumaran.pdf)
   - Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series) second edition Edition: [PDF book](http://incompleteideas.net/book/RLbook2018.pdf) by [Richard S. Sutton](http://incompleteideas.net/index.html) and [Andrew G. Barto](http://www-anw.cs.umass.edu/%7Ebarto/) | [Website and RL resources](http://incompleteideas.net/book/the-book-2nd.html)
-  - [Teaching Artificial Agents to Understand Language by Modelling Reward](https://www.researchgate.net/publication/328437364_Teaching_Artificial_Agents_to_Understand_Language_by_Modelling_Reward) by [Edward Grefenstette](https://egrefen.github.io/)
+  - [Teaching Artificial Agents to Understand Language by Modelling Reward](https://www.researchgate.net/publication/328437364_Teaching_Artificial_Agents_to_Understand_Language_by_Modelling_Reward) by [Edward Grefenstette](https://egrefen.github.io/) | [Video](https://www.youtube.com/watch?v=JCIIeDL9840)
 
 #### More...
   - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
@@ -289,14 +341,14 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 See [Visualisation](README-details.md#visualisation-1)
 
-### Mathematica
+### Mathematica & Wolfram Language
   - General
     - [Mathematica](https://www.wolfram.com/mathematica/)
     - [Mathematica for home/hobbyist/individuals (pricing)](https://www.wolfram.com/mathematica/pricing/home-hobby-individuals.php)
     - [Mathematica on Stackexchange](https://mathematica.stackexchange.com/)
     - [Mathematica on Wikipedia](https://en.wikipedia.org/wiki/Wolfram_Mathematica)
     - [Mathematica for prediction algorithms](https://mathematicaforprediction.wordpress.com/category/artificial-intelligence/)
-  * Stephen Wolfram
+  - Stephen Wolfram
     - [Stephen Wolfram: Knowledge Engine](https://lexfridman.com/stephen-wolfram/)
     - [Stephen Wolfram: Artificial Intelligence blogs](https://blog.stephenwolfram.com/category/artificial-intelligence/?source=wordcloud)
   - Wolfram
@@ -307,6 +359,10 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Open Source materials from Wolfram](https://wolfram.com/open-materials/)
     - [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
     - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
+  - Neural Network & Machine Learning
+    - [Neural Network Repository](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
+    - [Neural Network framework functions](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
+    - [Neural Network tutorial](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html)
 
 ### Mathematics, Statistics, Probability & Probabilistic programming
   - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
@@ -346,7 +402,8 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Probability Learning I : Bayes’ Theorem](https://towardsdatascience.com/probability-learning-i-bayes-theorem-708a4c02909a)
   - [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
   - [Learning & Reasoning in Artificial Intelligence](https://www.youtube.com/watch?v=K_GOHepjY2o) by [Thomas Lukasiewicz](http://www.cs.ox.ac.uk/thomas.lukasiewicz/)
-  - [Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning](http://daiwz.net/org/slides/ABL-meetup.html) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+  - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+  - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
   - [See Data > Statistics section more related links](./data/README.md#statistics)
 
 ### Data
@@ -356,10 +413,12 @@ See [Visualisation](README-details.md#visualisation-1)
       - [Data cleaning](./data/README.md#data-cleaning)
       - [Data pre-processing / Data wrangling](./data/README.md#data-preprocessing--data-wrangling)
     - [Data Generation](./data/README.md#data-generation)
+    - [Feature selection](./data/README.md#feature-selection)
     - [Feature engineering](./data/README.md#feature-engineering)
     - [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
+    - [Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
     - [and other related topics: Stats, Visualisations, Cheatsheets, etc...](data/README.md#data)
-  - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D)
+  - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D) | [Linux Command-Line resource by Chris Albon](https://chrisalbon.com/#linux)
   - [Awesome Datascience](https://github.com/bulutyazilim/awesome-datascience)
   - [Awesome Learn Datascience](https://github.com/siboehm/awesome-learn-datascience)
   - [Data Science for Dummies](http://file.allitebooks.com/20170304/Data%20Science%20For%20Dummies,%202nd%20Edition.pdf)
@@ -395,7 +454,13 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
     - [Information is Beautiful](https://informationisbeautiful.net/)
     - [WTF Visualizations](https://viz.wtf/) - Visualizations that make no sense, worst examples to NOT do and learn from!
   - [Visual Capitalists](https://www.visualcapitalist.com/) - real world, info-graphics like examples of various visualisations
-  - [Guide to Visualization](https://github.com/zszazi/awesome-ai-ml-dl/blob/master/presentations/Data%20Visualization%20–%20How%20to%20Pick%20the%20Right%20Chart%20Type-1.pdf) - How to pick the right chart - by Janis Gulbis
+  - [Guide to Visualization](./presentations/data/Data%20Visualization%20–%20How%20to%20Pick%20the%20Right%20Chart%20Type-1.pdf) - How to pick the right chart - by [Janis Gulbis](https://janisgulbis.com/)
+  - [Data Visualisation in Python by Chris Albon](https://chrisalbon.com/#python) - look for the _Data Visualization_ section
+  - [How to choose your data visualisations](./data/how-to-choose-your-data-visualisations.jpg)
+  - [Matplotlib](https://lnkd.in/g_3fx_6)
+  - [Seaborn](https://lnkd.in/gih7hqz)
+  - [Plotly](https://lnkd.in/gBYBMXc)
+  - [Python Graph Gallery](https://lnkd.in/gdGe-ef)
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
@@ -451,6 +516,12 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Browse state-of-the-art](https://paperswithcode.com/sota)
   - [ML/DL/Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
   - [Papers by Google X](./papers/google-x/README.md#papers-by-members-of-google-and-google-x-aka-x-team)
+  - ML course by [Weights & Biases](https://wand.ai) ([WandB](https://wand.ai))
+    - [Code from the class](https://github.com/lukas/ml-class)
+    - [Setup Instructions](https://github.com/lukas/ml-class)
+    - [Slides](https://storage.googleapis.com/wandb/Bloomberg%20Class%201.pdf)
+    - [Building and Debugging CNNs](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE9193U0/bloomberg_class_2.pdf)
+    - [Introduction to ML](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE3Q7NN7/bloomberg_class_3.pdf)
 
 ### Presentations
   - [NLP presentations](./natural-language-processing/README.md#presentations)
@@ -466,7 +537,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
 ### Cheatsheets
   - [Cheat Sheets for AI, Neural Networks, MachineLearning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463) ([Tweet](https://twitter.com/java/status/1040928213466198016))
   - [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) 
-  - [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) 
+  - [Pandas blog](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet) | [Pandas PDF](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PandasPythonForDataScience.pdf) | - [Pandas Cheatsheet](https://lnkd.in/gfAdcpw)
   - [Python 1](https://www.pythoncheatsheet.org/) | [Python 2](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf) | [R](http://www.datasciencefree.com/cheatsheets.html) 
   - [..., Tensorflow, Keras, NNZoo, Scipy, Scikit-learn, Mathplotlib, ggplot2, PySpark, R Studio, Dask, etc...](https://github.com/kailashahirwar/cheatsheets-ai) 
   - [Programming in Python: Cheatsheets](./Programming-in-Python.md#cheatsheets)
@@ -481,6 +552,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [All cheatsheets in one place by Asif Bhat (@abhat222)](https://github.com/abhat222/Data-Science--Cheat-Sheet)
   - [Android App with cheatsheets](https://play.google.com/store/apps/details?id=com.youredufriends.datasciencehub)
   - [Algorithms related cheatsheets - Big-O cheatsheet](http://bigocheatsheet.com/)
+  - [ML Cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQGFXvKuRmt5Rg/feedshare-document-pdf-analyzed/0?e=1569596400&v=beta&t=n4ZRWnYpc1KOTo8lZ2sKmOI7rRChPkApOQEQBBDhaXg)
 
 ### Misc
   - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
@@ -490,6 +562,8 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Feature-wise Transformations](https://distill.pub/2018/feature-wise-transformations/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
   - [The 6 most useful Machine Learning projects of the past year (2018)](https://towardsdatascience.com/the-10-most-useful-machine-learning-projects-of-the-past-year-2018-5378bbd4919f)
   - [The 25 Best Data Science and Machine Learning GitHub Repositories from 2018](https://www.analyticsvidhya.com/blog/2018/12/best-data-science-machine-learning-projects-github/?)
+  - [Computer Science (algorithms) resources by Chris Albon](https://chrisalbon.com/#computer_science)
+  - [AWS resources by Chris Albon](https://chrisalbon.com/#aws)
 
 # Contributing
 

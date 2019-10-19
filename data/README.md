@@ -15,6 +15,7 @@ The question to ask ourselves: _Do we know our data...?_
     + [Data Cleaning](./README.md#data-cleaning)
     + [Data preprocessing / Data Wrangling](./README.md#data-preprocessing--data-wrangling)
 - [Data Generation](./README.md#data-generation)
+- [Feature Selection](./README.md#feature-selection)
 - [Feature Engineering](./README.md#feature-engineering)
 - [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
 - [Statistics](./README.md#statistics)
@@ -93,12 +94,14 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 - [Introduction to Data Analysis and Cleaning presentation](../presentations/data/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
 
-### Data preprocessing / Data Wrangling
+### Data preprocessing / Data wrangling / Data manipulation
 
 - [Data Preprocessing vs. Data Wrangling in Machine Learning Projects](https://www.infoq.com/articles/ml-data-processing)
 - [Improve Model Accuracy with Data Pre-Processing](https://machinelearningmastery.com/improve-model-accuracy-with-data-pre-processing/)
 - [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 - [Introduction to Data Analysis and Cleaning presentation](../presentations/data/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
+- [Pandas](https://lnkd.in/gxSgfuQ)
+- [SQLAlchemy](https://lnkd.in/gjvbm7h)
 
 ### Misc
 
@@ -109,6 +112,13 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 
 See [Data Generation](./data-generation.md#data-generation)
 
+## Feature Selection
+
+- [Feature selection with mutual information](http://www.simafore.com/blog/bid/105347/Feature-selection-with-mutual-information-Part-2-PCA-disadvantages)
+- Forward Feature selection: [Blog on Towards DS](https://towardsdatascience.com/feature-importance-and-forward-feature-selection-752638849962) | [Scikit learn](https://mikulskibartosz.name/forward-feature-selection-in-scikit-learn-f6476e474ddd)
+- [What is dimensionality reduction? What is the difference between feature selection and extraction?](https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti)
+- [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI)
+
 ## Feature engineering
 
 - [Basic Feature Engineering With Time Series Data in Python](http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/)
@@ -118,13 +128,12 @@ See [Data Generation](./data-generation.md#data-generation)
 - [featuretools](https://github.com/featuretools/featuretools/) - an open source python framework for automated feature engineering
 - [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 - [scikit learn's SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html)
-- [Feature selection with mutual information](http://www.simafore.com/blog/bid/105347/Feature-selection-with-mutual-information-Part-2-PCA-disadvantages)
 - [mlbox's Feature selection](https://mlbox.readthedocs.io/en/latest/features.html)
 - Chi2 test: Feature selection: [Quora](https://www.quora.com/How-is-chi-test-used-for-feature-selection-in-machine-learning) | [NLP Stanford Group](https://nlp.stanford.edu/IR-book/html/htmledition/feature-selectionchi2-feature-selection-1.html) | [Learn for Master](http://www.learn4master.com/machine-learning/chi-square-test-for-feature-selection)
-- Forward Feature selection: [Blog on Towards DS](https://towardsdatascience.com/feature-importance-and-forward-feature-selection-752638849962) | [Scikit learn](https://mikulskibartosz.name/forward-feature-selection-in-scikit-learn-f6476e474ddd)
-- [What is dimensionality reduction? What is the difference between feature selection and extraction?](https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti)
 - [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
 - [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
+- [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI)
+- [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - look for topics: Feature Engineering • Feature Selection
 
 ## Post model-creation analysis, ML interpretation/explainability
 
@@ -145,7 +154,7 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Explain ML Models notebooks](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/explain-model)
 - [How to explain the prediction of a ML model](https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html)
 - [Explaining complex machine learning models with LIME](https://datascienceplus.com/explaining-complex-machine-learning-models-with-lime/)
-- [Hermeneutic Investigations: ML Interpreation - why?](https://github.com/daplantagenet/iml.github.io/blob/master/Hermeneutic%20Investigations.pdf) by [Dean Allsopp](http://github.com/daplantagenet)
+- Hermeneutic Investigations: ML Interpreation - why?: [Video](https://www.youtube.com/watch?v=pmdYlahqA_g) | [Slides](https://github.com/daplantagenet/iml.github.io/blob/master/Hermeneutic%20Investigations.pdf) by [Dean Allsopp](http://github.com/daplantagenet)
 - [Explaining Explanations: An Overview ofInterpretability of Machine Learning](https://arxiv.org/pdf/1806.00069.pdf)
 - [Explaining Black-Box Machine Learning Models](https://shirinsplayground.netlify.com/2018/07/explaining_ml_models_code_caret_iml/)
 - [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
@@ -160,6 +169,11 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
 - [Learning with Explanations](https://www.youtube.com/watch?v=m1GUhPgstvk) by [Tim Rocktäschel](https://rockt.github.io/)
 - Towards Explainable AI: [Slides](../presentations/data/03-meetup-uk-2019/Towards-Explainable-AI.pdf) | [Video](https://www.youtube.com/watch?v=0yFjSs-azM4) | [Book: A Concise Introduction to Machine Learning](https://www.amazon.co.uk/Concise-Introduction-Machine-Learning/dp/0815384106/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1566160069&sr=8-2) by [Anita Faul](https://www.linkedin.com/in/anita-faul-123750104/)
+- [Machine Learning Project End to End with Python Code (data science focussed)](https://www.youtube.com/watch?v=ekV9QO5KHUY&list=PLcQCwsZDEzFkP9WMe6xvLrd_ZNGqoXOQY&fbclid=IwAR1z7XBl762FLyo-gVvdBDU1iCVqz89K1yfmJS1cbC4rZyEfF-jO30ZsYeY)
+    - Python Project (Classification) : 
+      - Part A: https://www.youtube.com/watch?v=p0snNMCbvN4&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=8
+      - Part B: https://www.youtube.com/watch?v=j4IgXflsZtg&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=9
+      - Part C: https://www.youtube.com/watch?v=kHZmFVDm0QQ&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=10
 
 ## Statistics
 
@@ -178,6 +192,7 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Journal of Statistical Software - TidyData](https://www.jstatsoft.org/article/view/v059i10/)
 - Statistics courses at [Coursera](https://www.coursera.org/courses?query=statistics&) | [Udemy](https://www.udemy.com/courses/search/?src=ukw&q=statistics) | [Udacity](https://eu.udacity.com/courses/all) - search for `Statistics` | Harvard University: [Statistics 110](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) | [more videos on their YouTube channel](https://www.youtube.com/user/Harvard/search?query=statistics) | [Stanford University](https://online.stanford.edu/courses?keywords=statistics)
 - [15 Statistical Hypothesis Tests in Python (Cheat Sheet)](https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-sheet/?fbclid=IwAR102PXBzIdx8g8zejg9ssE7at8jrnyfAtiT95Rp8flo98p8qEFBho5HOG0)
+- [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
 - For more, see [Mathematics, Statistics, Probability & Probabilistic programming](../README-details.md#mathematics-statistics-probability--probabilistic-programming)
 
 ## Visualisation

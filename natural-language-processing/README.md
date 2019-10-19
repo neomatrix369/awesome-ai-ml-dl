@@ -27,6 +27,7 @@ NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java
   - [Kotlin-based libraries](https://github.com/keon/awesome-nlp#user-content-kotlin)
   - [Scala-based libraries](https://github.com/keon/awesome-nlp#user-content-scala)
   - [NLP Java/JVM](../examples/nlp-java-jvm/README.md#nlp-javajvm) - docker container with Java/JVM based NLP libraries/frameworks (inspired by LaMachine, Awesome NLP and others out there)
+  - [Overview of AI Libraries in Java (contains NLP libraries)](https://www.baeldung.com/java-ai)
 
 ## Courses, Tutorial, Learning resource
 - [Introductory: NLP for hackers](https://nlpforhackers.io/deep-learning-introduction/)
