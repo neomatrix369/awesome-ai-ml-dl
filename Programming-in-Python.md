@@ -70,6 +70,7 @@
 - [SO: Python coding standards/best practices](https://stackoverflow.com/questions/356161/python-coding-standards-best-practices)
 - [Python Best Practices: 5 Tips For Better Code - Airbrake Blog](https://airbrake.io/blog/python/python-best-practices)
 - [Python tutorial: Best practices and common mistakes to avoid](https://jaxenter.com/python-tutorial-best-practices-145959.html)
+- [Common mistakes beginnners make in python](https://github.com/qxf2/wtfiswronghere)
 
 ## Testing
 
