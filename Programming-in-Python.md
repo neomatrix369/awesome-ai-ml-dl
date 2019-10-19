@@ -31,6 +31,7 @@
 - [Local machine: Interacting with Python](https://realpython.com/interacting-with-python/)
 - [Python by Chris Albon](https://chrisalbon.com/#python) - topics covered: Basics • Data Wrangling • Data Visualization • Web Scraping • Testing • Logging • Other
 - [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
+- [WTF Python repo](https://github.com/satwikkansal/wtfpython)
 
 ## Cheatsheets
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
