@@ -149,8 +149,6 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Scala related ML links](https://github.com/josephmisiti/awesome-machine-learning#scala)
   - [Scala resources by Chris Albon](https://chrisalbon.com/#scala)
 
-
-
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!

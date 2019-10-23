@@ -151,3 +151,13 @@
   - Python: See [this link](https://github.com/josephmisiti/awesome-machine-learning#python) for more Python related ML links
   - R: See [this link](https://github.com/josephmisiti/awesome-machine-learning#r) for more R related ML links
   - [Top 7 Libraries and Packages for Data Science and AI: Python & R](https://heartbeat.fritz.ai/top-7-libraries-and-packages-of-the-year-for-data-science-and-ai-python-r-6b7cca2bf000)
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](README.md)
