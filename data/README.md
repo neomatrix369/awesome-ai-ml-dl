@@ -192,6 +192,7 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Journal of Statistical Software - TidyData](https://www.jstatsoft.org/article/view/v059i10/)
 - Statistics courses at [Coursera](https://www.coursera.org/courses?query=statistics&) | [Udemy](https://www.udemy.com/courses/search/?src=ukw&q=statistics) | [Udacity](https://eu.udacity.com/courses/all) - search for `Statistics` | Harvard University: [Statistics 110](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) | [more videos on their YouTube channel](https://www.youtube.com/user/Harvard/search?query=statistics) | [Stanford University](https://online.stanford.edu/courses?keywords=statistics)
 - [15 Statistical Hypothesis Tests in Python (Cheat Sheet)](https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-sheet/?fbclid=IwAR102PXBzIdx8g8zejg9ssE7at8jrnyfAtiT95Rp8flo98p8qEFBho5HOG0)
+- [Statistics cheatsheet](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1571943600&v=beta&t=9HwhZIlxIBW4zT7LLHyiJPA5djyKcjo4rFjiausHRn8)
 - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
 - For more, see [Mathematics, Statistics, Probability & Probabilistic programming](../README-details.md#mathematics-statistics-probability--probabilistic-programming)
 
@@ -225,6 +226,9 @@ See under [Cheatsheets](../README-details.md#cheatsheets)
 - [Data courses on Udacity](https://eu.udacity.com/courses/school-of-data-science)
 - [Latest Machine learning, visualization, data mining techniques. Online Masters in Data Analytic from Penn State](https://twitter.com/analyticbridge/status/1102667686302179336)
 - [Data Science Handbook](https://github.com/RishiSankineni/Data-Science-Swag/blob/master/The%20Data%20Science%20Handbook.pdf)
+- [Coursera Course: Probability and distribution](
+https://media.licdn.com/dms/document/C511FAQGFKgIKuW_EEA/feedshare-document-pdf-analyzed/0?e=1571785200&v=beta&t=XyEEqUgi3y4L1hiZ7CxlxbAXyZmM_zcCCdn-Lr04ns8)
+
 
 ## Best practices / rules / an unordered list of high level or low level guidelines
 - [12 Best Practices for Modern Data Ingestion](https://go.streamsets.com/dzone-wp-12-best-practices-modern-data-ingestion)
