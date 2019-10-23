@@ -19,3 +19,13 @@
   - [Algorithms related cheatsheets - Big-O cheatsheet](http://bigocheatsheet.com/)
   - [ML Cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQGFXvKuRmt5Rg/feedshare-document-pdf-analyzed/0?e=1569596400&v=beta&t=n4ZRWnYpc1KOTo8lZ2sKmOI7rRChPkApOQEQBBDhaXg)
   - [Statistics cheatsheet](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1571943600&v=beta&t=9HwhZIlxIBW4zT7LLHyiJPA5djyKcjo4rFjiausHRn8)
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](README.md)

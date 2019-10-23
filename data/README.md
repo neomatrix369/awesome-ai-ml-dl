@@ -138,6 +138,7 @@ See [Data Generation](./data-generation.md#data-generation)
 ## Post model-creation analysis, ML interpretation/explainability
 
 ### Libraries & packages
+
 - [Yellowbrick](https://www.scikit-yb.org/en/latest/#yellowbrick-machine-learning-visualization) - is a suite of visual diagnostic tools called “Visualizers” that extend the Scikit-Learn API to allow human steering of the model selection process
 - [Shap](https://github.com/slundberg/shap) - A unified approach to explain the output of any machine learning model
 - [LIME](https://github.com/marcotcr/lime)
@@ -147,6 +148,7 @@ See [Data Generation](./data-generation.md#data-generation)
 - [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - A Curated, but Probably Biased and Incomplete, List of Awesome Machine Learning Interpretability Resources
 
 ### Articles, blog posts, papers, notebooks, books, presentations
+
 - [DataRobot: Model Interpretability - What is Model Interpretability in Machine Learning?](https://www.datarobot.com/wiki/interpretability/)
 - [Model Interpretability with SHAP](http://www.f1-predictor.com/model-interpretability-with-shap/)
 - [Interpreting bag of words models with SHAP](https://sararobinson.dev/2019/04/23/interpret-bag-of-words-models-shap.html)

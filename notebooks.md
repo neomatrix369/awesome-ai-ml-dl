@@ -20,3 +20,13 @@
     - [Notebook 2](https://colab.research.google.com/drive/1W51JKgZovi7QJvghGZp9FLCdJxE5SmU7)
     - [Notebook 3](https://colab.research.google.com/drive/1NfYTr-gNlUOCKedV2LRPH7ah6F9o-7re)
     - [Github for Jupiter Notebooks](https://github.com/DanRHowarth/Tensorflow-2.0)
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](README.md)

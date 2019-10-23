@@ -18,3 +18,15 @@
 - [Statistics cheatsheet](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1571943600&v=beta&t=9HwhZIlxIBW4zT7LLHyiJPA5djyKcjo4rFjiausHRn8)
 - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
 - For more, see [Mathematics, Statistics, Probability & Probabilistic programming](../README-details.md#mathematics-statistics-probability--probabilistic-programming)
+
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [Data page (table of contents)](README.md)</br>
+Back to [main page (table of contents)](../README.md)

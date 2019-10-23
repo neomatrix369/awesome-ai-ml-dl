@@ -33,3 +33,13 @@
 - [ML on Code devroom at FOSDEM](https://archive.fosdem.org/2019/schedule/track/ml_on_code/)
 - [The Open Source Show: Machine Learning on Code](https://channel9.msdn.com/Shows/The-Open-Source-Show/Machine-Learning-on-Code) by Rob Caron, Lacey Butler, Allison Cordle
 - [Machine Learning for Programming](https://ml4p.org/) - conference held in 2018 in Oxford, UK
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](README.md)

@@ -29,3 +29,13 @@
 - [Hacker Rank](https://lnkd.in/gEufBUu)
 - [Codeacademy](https://lnkd.in/gGQ7cuv)
 - [LeetCode](https://leetcode.com/)
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](README.md)
