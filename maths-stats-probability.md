@@ -51,5 +51,5 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Back to [details page (table of contents)](README-details.md#mathematics_statistics_probability__probabilistic_programming)
+Back to [details page (table of contents)](README-details.md#mathematics_statistics_probability__probabilistic_programming)<br>
 Back to [main page (table of contents)](README.md)
