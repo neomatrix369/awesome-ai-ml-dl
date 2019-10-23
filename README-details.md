@@ -360,9 +360,9 @@ See [Visualisation](README-details.md#visualisation-1)
     - [Wolfram Client (python) available on pypi](https://pypi.org/project/wolframclient/)
     - [External functions from users](https://resources.wolframcloud.com/FunctionRepository/)
   - Neural Network & Machine Learning
-    - [Neural Network Repository](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
-    - [Neural Network framework functions](https://reference.wolfram.com/language/guide/NeuralNetworks.html)
-    - [Neural Network tutorial](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html)
+    - [Neural Network Repository](https://reference.wolfram.com/language/guide/NeuralNetworks.html) - a good overview page of Neural Network functions available in Mathematica / Wolfram Language
+    - [Neural Network tutorial](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html) - the main introduction on how to program with neural networks in Mathematica / Wolfram Language
+    - [Wolfram Neural Net Repository](https://resources.wolframcloud.com/NeuralNetRepository/) - The Wolfram Neural Net Repository is a public resource that hosts an expanding collection of trained and untrained neural network models, suitable for immediate evaluation, training, visualization, transfer learning and more
 
 ### Mathematics, Statistics, Probability & Probabilistic programming
   - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
@@ -403,6 +403,8 @@ See [Visualisation](README-details.md#visualisation-1)
   - [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
   - [Learning & Reasoning in Artificial Intelligence](https://www.youtube.com/watch?v=K_GOHepjY2o) by [Thomas Lukasiewicz](http://www.cs.ox.ac.uk/thomas.lukasiewicz/)
   - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+  - [Coursera Course: Probability and distribution](
+https://media.licdn.com/dms/document/C511FAQGFKgIKuW_EEA/feedshare-document-pdf-analyzed/0?e=1571785200&v=beta&t=XyEEqUgi3y4L1hiZ7CxlxbAXyZmM_zcCCdn-Lr04ns8)
   - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
   - [See Data > Statistics section more related links](./data/README.md#statistics)
 
@@ -553,6 +555,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Android App with cheatsheets](https://play.google.com/store/apps/details?id=com.youredufriends.datasciencehub)
   - [Algorithms related cheatsheets - Big-O cheatsheet](http://bigocheatsheet.com/)
   - [ML Cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQGFXvKuRmt5Rg/feedshare-document-pdf-analyzed/0?e=1569596400&v=beta&t=n4ZRWnYpc1KOTo8lZ2sKmOI7rRChPkApOQEQBBDhaXg)
+  - [Statistics cheatsheet](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1571943600&v=beta&t=9HwhZIlxIBW4zT7LLHyiJPA5djyKcjo4rFjiausHRn8)
 
 ### Misc
   - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
