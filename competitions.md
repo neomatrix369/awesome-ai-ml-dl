@@ -3,6 +3,8 @@
 - [Kaggle competitions](https://www.kaggle.com/competitions)
     - [Closed DS Competition: CareerVillage](https://www.kaggle.com/c/data-science-for-good-careervillage)
     - [Closed DS Competition: City of Los Angeles](https://www.kaggle.com/c/data-science-for-good-city-of-los-angeles)
+    - [Closed ML Competition: Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
+    - [Closed ML Competition: Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats/)
 - [Bitgrit competition platform](https://competition.bitgrit.net/)
 - [CrowdAI](https://www.crowdai.org/challenges?challenge_filter=active)
 - [Crowd Analytix](https://www.crowdanalytix.com/community)
