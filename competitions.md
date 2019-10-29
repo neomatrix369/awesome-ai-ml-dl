@@ -25,6 +25,7 @@
 - [Data science competition platforms you need to know about](https://medium.com/@opetundeadepoju/data-science-competition-platforms-you-need-to-know-about-55b6840c087e)
 - [KDD Data mining and Knowledge Discovery cup](http://www.kdd.org/kdd-cup)
 - [VizDoom AI competition](http://vizdoom.cs.put.edu.pl/competition-cig-2017)
+- [Numerai](https://numer.ai/) - data science tournaments
 
 ## Coding challenges
 
