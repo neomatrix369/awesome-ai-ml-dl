@@ -108,7 +108,9 @@ See [Visualisation](visualisation.md#visualisation)
     - [Grakn](./examples/data/databases/graph/grakn/README.md)
   - [JuPyteR](./examples/JuPyteR/README.md)
   - [NLP Java/JVM](./examples/nlp-java-jvm/README.md)
-  - [MLPMNist using DL4J](./examples/cloud-devops-infra/valohai/MLPMnist/README.md)
+  - [Cloud/DevOps/Infra](./examples/cloud-devops-infra)
+    - [MLPMNist using DL4J](./examples/cloud-devops-infra/valohai/MLPMnist/README.md)
+    - [NLP using DL4J (cuda)](./examples/cloud-devops-infra/valohai/nlp-cuda/README.md)
 
 ### Notebooks
 
