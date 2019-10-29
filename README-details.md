@@ -103,12 +103,14 @@ See [Visualisation](visualisation.md#visualisation)
 ### Examples
   - [Apache Zeppelin](./examples/apache-zeppelin/README.md)
   - [Better NLP](./examples/better-nlp/README.md)
+  - [Cloud/DevOps/Infra](./examples/cloud-devops-infra)
+    - [MLPMNist using DL4J](./examples/cloud-devops-infra/valohai/MLPMnist/README.md)
+    - [NLP using DL4J (cuda)](./examples/cloud-devops-infra/valohai/nlp-cuda/README.md)
   - [Data](./examples/data)
     - [Dataiku](./examples/data/dataiku/README.md)
     - [Grakn](./examples/data/databases/graph/grakn/README.md)
   - [JuPyteR](./examples/JuPyteR/README.md)
   - [NLP Java/JVM](./examples/nlp-java-jvm/README.md)
-  - [MLPMNist using DL4J](./examples/cloud-devops-infra/valohai/MLPMnist/README.md)
 
 ### Notebooks
 
