@@ -3,8 +3,10 @@
 - Signup at https://app.valohai.com/?login=1
 - Comparisons (Pricing & plan): https://valohai.com/pricing/ 
 - [docs](https://docs.valohai.com/) 
-- [blogs](https://blogs.valohai.com) 
-- [GitHub](https://github.com/valohai) 
+- [blogs](https://blog.valohai.com)
+  - [How to do Deep Learning for Java](https://medium.com/@neomatrix369/how-to-do-deep-learning-for-java-on-the-valohai-platform-eec8ba9f71d8) | [Original post](https://blog.valohai.com/how-to-do-deep-learning-for-java-on-the-valohai-platform)
+  - [Applying NLP in Java, all from the command-line](https://medium.com/@neomatrix369/applying-nlp-in-java-all-from-the-command-line-1225dd591e80) | [Original post](https://blog.valohai.com/nlp_with_dl4j_in_java_all_from_the_command-line?from=3oxenia9mtr6)
+- [GitHub](https://github.com/valohai)
 - [Videos](https://www.youtube.com/channel/UCiR8Fpv6jRNphaZ99PnIuFg)
 - [Showcase](https://valohai.com/showcase/)
 - [Slack](http://community-slack.valohai.com/)
