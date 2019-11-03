@@ -6,29 +6,18 @@ NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java
 
 ## General
 
-- [Google open-sources BERT, a state-of-the-art pretraining technique for natural language processing](https://venturebeat.com/2018/11/02/google-open-sources-bert-a-state-of-the-art-training-technique-for-natural-language-processing/)
-- [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
-- [Top free software: text analysis, text mining](https://www.predictiveanalyticstoday.com/top-free-software-for-text-analysis-text-mining-text-analytics/)
-- [king - man + woman is queen; but why?](https://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)
-- [The 4 Biggest Open Problems in NLP](http://ruder.io/4-biggest-open-problems-in-nlp/)
-- [OpenAI let us try its state-of-the-art NLP text generator](https://venturebeat.com/2019/02/14/openai-let-us-generate-text-with-an-ai-model-that-achieves-state-of-the-art-performance-in-several-nlp-tasks/)
-- [LaMachine](https://proycon.github.io/LaMachine/) - LaMachine is a unified software distribution for Natural Language Processing. Integration of numerous open-source NLP tools, programming libraries, web-services and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines (bare-metal, Virtual Machines and Docker containers).
-- [Awesome NLP](https://github.com/keon/awesome-nlp)
+See [General](./general.md)
 
 ## Java/JVM
 
 See [Java/JVM](./java-jvm.md)
 
 ## Courses, Tutorial, Learning resource
-- [Introductory: NLP for hackers](https://nlpforhackers.io/deep-learning-introduction/)
-- [Intermediate (by Jason Brownlee): Applications of Deep Learning for NLP](https://machinelearningmastery.com/applications-of-deep-learning-for-natural-language-processing/)
-- [Learn Natural Language Processing: From Beginner to Expert](https://www.commonlounge.com/discussion/c1f472553ece4d68bad9bd423fb775cf)
-- [How to Get Started with Deep Learning for Natural Language Processing (7-Day Mini-Course)](https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/)
-- [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
-- [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
-- [A framework for dialog research + datasets](https://parl.ai/)
+
+See [Course, Tutorial, Learning resource](./course-tutorial-learning-resources.md)
 
 ## Cloud
+
 - [Cloud based-example: NLP API to analyze Harry Potter & The New York Times](https://cloud.google.com/blog/products/gcp/using-the-cloud-natural-language-api-to-analyze-harry-potter-and-the-new-york-times)
 
 ## Library, Framework, Models, Tools, Services
