@@ -28,7 +28,7 @@
 
 ### Artificial Intelligence
 
-See [Artificial Intelligence](artificial-intelligence.md)
+See [Artificial Intelligence](./details/artificial-intelligence.md)
 
 ### Automation
 
@@ -43,27 +43,27 @@ See [Artificial Intelligence](artificial-intelligence.md)
 
 ### Java
 
-See [Java](java-jvm.md#java_jvm)
+See [Java](./details/java-jvm.md#java_jvm)
 
 ### Julia, Python & R
 
-See [Julia, Python & R](julia-python-and-r.md#julia_python_and_r)
+See [Julia, Python & R](./details/julia-python-and-r.md#julia_python_and_r)
 
 ### JavaScript
 
-See [JavaScript](./javascript.md)
+See [JavaScript](./details/javascript.md)
 
 ### Visualisation
 
-See [Visualisation](visualisation.md#visualisation)
+See [Visualisation](./details/visualisation.md#visualisation)
 
 ### Mathematica & Wolfram Language
  
-See [Mathematica & Wolfram Language](./mathematica-wolfram-Language.md) 
+See [Mathematica & Wolfram Language](./details/mathematica-wolfram-Language.md) 
 
 ### Mathematics, Statistics, Probability & Probabilistic programming
   
-See [Mathematics, Statistics, Probability & Probabilistic programming](maths-stats-probability.md)
+See [Mathematics, Statistics, Probability & Probabilistic programming](./details/maths-stats-probability.md)
 
 ### Data
 
@@ -106,7 +106,7 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](maths-sta
 
 ### Notebooks
 
-See [Notebooks](notebooks.md#notebooks)
+See [Notebooks](./notebooks/README.md#notebooks)
 
 ### Models
 
@@ -115,14 +115,14 @@ See [Notebooks](notebooks.md#notebooks)
 
 ### Articles, papers, code, data, courses
 
-See [Articles, papers, code, data, courses](./articles-papers-code-data-courses.md)
+See [Articles, papers, code, data, courses](./details/articles-papers-code-data-courses.md)
 
 ### Presentations
 
-  - [NLP presentations](./natural-language-processing/README.md#presentations)
-   - [Better NLP - presentations](./examples/better-nlp/presentations)
-  - [Data presentations](./presentations/data/)
-   - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
+- [NLP presentations](./natural-language-processing/README.md#presentations)
+ - [Better NLP - presentations](./examples/better-nlp/presentations)
+- [Data presentations](./presentations/data/)
+ - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
 
 ### Best Practices
 
@@ -131,11 +131,11 @@ See [Articles, papers, code, data, courses](./articles-papers-code-data-courses.
 
 ### Cheatsheets
 
-See [Cheatsheets](cheatsheets.md#cheatsheets)
+See [Cheatsheets](./details/cheatsheets.md#cheatsheets)
 
 ### Misc
  
-See [Misc](./misc.md)
+See [Misc](./details/misc.md)
 
 # Contributing
 
