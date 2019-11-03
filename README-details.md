@@ -1,3 +1,28 @@
+# Table of Contents
+
+- [General](#general)
+- [Artificial Intelligence](#artificial-intelligence)
+- [Automation](#automation)
+- [Ethics / altruistic motives](#ethics--altruistic-motives)
+- [Java](#java)
+- [Julia, Python & R](#julia-python--r)
+- [JavaScript](#javascript)
+- [Visualisation](#visualisation)
+- [Mathematica & Wolfram Language](#mathematica--wolfram-language)
+- [Mathematics, Statistics, Probability & Probabilistic programming](#mathematics-statistics-probability--probabilistic-programming)
+- [Data](#data)
+- [Graphs](#graphs)
+- [Examples](#examples)
+- [Notebooks](#notebooks)
+- [Models](#models)
+- [Articles, papers, code, data, courses](#articles-papers-code-data-courses)
+- [Presentations](#presentations)
+- [Best Practices](#best-practices)
+- [Cheatsheets](#cheatsheets)
+- [Misc](#misc)
+
+---
+
 ### General
 
 ### Artificial Intelligence
@@ -27,9 +52,9 @@ See [Julia, Python & R](julia-python-and-r.md#julia_python_and_r)
 
 See [JavaScript](./javascript.md)
 
-#### Visualisation
+### Visualisation
 
-See [Visualisation](README-details.md#visualisation-1)
+See [Visualisation](visualisation.md#visualisation)
 
 ### Mathematica & Wolfram Language
  
@@ -40,6 +65,7 @@ See [Mathematica & Wolfram Language](./mathematica-wolfram-Language.md)
 See [Mathematics, Statistics, Probability & Probabilistic programming](maths-stats-probability.md)
 
 ### Data
+
   - [Do we know our data...](./data/README.md#data)
     - [Data exploratory analysis](./data/README.md#data-exploratory-analysis)
     - [Data preparation](./data/README.md#data-preparation)
@@ -58,10 +84,6 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](maths-sta
   - [Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
   - [Learn Data Science by bitgrit](https://github.com/bitgrit-official/learndatascience)
 
-### Visualisation
-
-See [Visualisation](visualisation.md#visualisation)
-
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
   - [Graph databases](./data/README.md#databases)
@@ -69,6 +91,7 @@ See [Visualisation](visualisation.md#visualisation)
   - [BCS APSG - 2019 02 14 How Graph Technology is Changing AI and ML at BCS London](https://www.youtube.com/watch?v=oMqP3ISPWBY)
 
 ### Examples
+
   - [Apache Zeppelin](./examples/apache-zeppelin/README.md)
   - [Better NLP](./examples/better-nlp/README.md)
   - [Cloud/DevOps/Infra](./examples/cloud-devops-infra)
@@ -94,6 +117,7 @@ See [Notebooks](notebooks.md#notebooks)
 See [Articles, papers, code, data, courses](./articles-papers-code-data-courses.md)
 
 ### Presentations
+
   - [NLP presentations](./natural-language-processing/README.md#presentations)
    - [Better NLP - presentations](./examples/better-nlp/presentations)
   - [Data presentations](./presentations/data/)
@@ -110,7 +134,7 @@ See [Cheatsheets](cheatsheets.md#cheatsheets)
 
 ### Misc
  
- See [Misc](./misc.md)
+See [Misc](./misc.md)
 
 # Contributing
 

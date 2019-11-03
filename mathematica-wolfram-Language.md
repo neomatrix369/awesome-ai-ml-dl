@@ -29,5 +29,5 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Back to [details page (table of contents)](README-details.md#mathematica-wolfram-language)<br>
+Back to [details page (table of contents)](README-details.md#mathematica--wolfram-language)<br>
 Back to [main page (table of contents)](README.md)
