@@ -4,7 +4,7 @@ NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java
 
 Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss) | Grakn: [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn) | Jupyter-Java: [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) | MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer) | Zeppelin: [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) 
 
-#### Business / General / Semi-technical
+## Business / General / Semi-technical
 
   - [Extract business value from DS](https://www.forbes.com/sites/oracle/2018/12/05/how-to-extract-business-value-from-data-science-its-all-about-the-teamwork/#6ad2f23a651c) ([Tweet](https://twitter.com/java/status/1070610044926930944))
   - [Why Java and the JVM Will Dominate the Future of Machine Learning, AI, and Big Data](https://www.youtube.com/watch?v=Ytja2JuVMlw&feature=youtu.be) ([Tweet](https://twitter.com/DeepNetts/status/1060684337962762240))
@@ -28,22 +28,23 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Oracle AI blog posts](https://blogs.oracle.com/ai/)
   - [H2O.ai Driverless on Oracle Cloude Infrastructure](https://blogs.oracle.com/cloud-infrastructure/h2oai-driverless-ai-cruises-on-oracle-cloud-infrastructure-gpus)
 
-#### Classifier / decision trees
+## Classifier / decision trees
 
   - [Email Spam Detector java Application with ApacheSpark](http://ramok.tech/2017/09/26/email-spam-classifier-java-application-with-spark/) ([Tweet](https://twitter.com/Klevis_Ramo/status/913067204094103552))
   - [Guide to Artificial Intelligence: Automating Decision-Making](https://dzone.com/guides/artificial-intelligence-automating-decision-making) ([Tweet](https://twitter.com/java/status/1029592519967830016))
 
-#### Correlated Cross Occurrence
+## Correlated Cross Occurrence
 
   - [Multi-domain predictive AI or how to make one thing predict another](https://developer.ibm.com/dwblog/2017/mahout-spark-correlated-cross-occurences/) ([Tweet](https://twitter.com/java/status/882222473886011393))
 
-#### Deep learning
+## Deep learning
 
   - [JFocus: Deep learning with Java](https://www.jfokus.se/jfokus17/preso/Deep-Learning-on-Java-tutorial.pdf) | [Video](https://www.youtube.com/watch?v=-hgAp470F-M) |([Tweet](https://twitter.com/juanantoniobm/status/832000819918733312))
   - [Understanding Machine Learning Algorithms with DL4J](https://skymind.ai/wiki/machine-learning-algorithms) ([Tweet](https://twitter.com/java/status/1077947895691673600))
   - [DL4J: Deep Learning for Java](https://deeplearning4j.org/) | [Docs/Guide](https://deeplearning4j.org/docs/latest/) | [Quickstart](https://deeplearning4j.org/docs/latest/deeplearning4j-quickstart) | [Tutorial](https://deeplearning4j.org/tutorials/setup) | [Roadmap for Beginners](https://deeplearning4j.org/docs/latest/deeplearning4j-beginners) | [DL4J Eclipse GitHub](https://github.com/eclipse/deeplearning4j) | DL4J Examples: [GitHub](https://github.com/deeplearning4j/dl4j-examples) o [Semantic site](https://semantive.com/deep-learning-examples/) o [Examples Tour](https://deeplearning4j.org/docs/latest/deeplearning4j-examples-tour)| [Setup Environment](https://www.tutorialkart.com/machine-learning/setup-environment-for-deep-learning-with-deeplearning4j/) | [Using DL4J](https://www.quora.com/How-do-I-use-deep-learning-in-Java) | Support: [gitter.im](https://gitter.im/deeplearning4j/deeplearning4j/) o [gitter guidelines](https://github.com/eclipse/deeplearning4j/blob/master/deeplearning4j/GITTER_GUIDELINES.md) o [GitHub Issues](https://github.com/deeplearning4j/deeplearning4j/issues) o [Stackoverflow](https://stackoverflow.com/search?tab=newest&q=deeplearning4j)
   - [DL Workshop at Devoxx UK 2018](https://github.com/davesnowdon/devoxxuk2018-dl-workshop) by [davesnowdon](https://github.com/davesnowdon)
   - [ND4J (Wikipedia)](https://en.wikipedia.org/wiki/ND4J_(software) | [ND4J in DL4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
+  - [How to do Deep Learning for Java?](https://medium.com/@neomatrix369/how-to-do-deep-learning-for-java-on-the-valohai-platform-eec8ba9f71d8) | [Original post](https://blog.valohai.com/how-to-do-deep-learning-for-java-on-the-valohai-platform?from=3oxenia9mtr6)
   - [Free AI Training - Java-based deep-learning tools to analyze and train data, then send the resulting changes back to the server](https://www.youtube.com/watch?v=MXH_nn1dmsE) ([Tweet](https://twitter.com/java/status/1071422649501409280))
   - [Deep Learning Resources](https://skymind.com/wiki/deeplearning-research-papers)
   - [Data for Deep Learning](https://skymind.com/wiki/data-for-deep-learning)
@@ -51,25 +52,25 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Deep Learning Use cases](https://skymind.com/wiki/use-cases)
   - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 
-#### Reinforcement Learning 
+## Reinforcement Learning 
   - [Java implementation of Reinforcement Learning algorithms as described in the book "Reinforcement Learning: An Introduction" by Sutton](https://github.com/chen0040/java-reinforcement-learning)
 
-#### Genetic Algorithms
+## Genetic Algorithms
 
   - [Jenetics is an advanced Genetic Algorithm, respectively an Evolutionary Algorithm, library written in java](http://jenetics.io) ([Tweet](https://twitter.com/juanantoniobm/status/863871263118381056))
   - [JGAP is a Genetic Algorithms and Genetic Programming package written in Java](https://sourceforge.net/projects/jgap/)
   - [JaGa - Genetic Algorithms in Java on a Powerful Generic Pluggable Architecture](http://jaga.sourceforge.net/)
 
-#### Java projects / related technologies
+## Java projects / related technologies
 
   - [Project Panama and fast MachineLearning computation](https://www.youtube.com/watch?v=cfxBrYud9KM&feature=youtu.be&t=231) ([Tweet](https://twitter.com/java/status/1065266082557026304))
   - [GraalVM + Machine Learning](https://www.youtube.com/watch?v=6Q2TP-QO4SU) ([Tweet](https://twitter.com/DevoxxUA/status/1074680378357616640))
   - [Deploying Bespoke AI using fnproj - KADlytics by Miminal](https://blogs.oracle.com/startup/deploying-bespoke-ai-using-fn-project-kadlytics-by-miminal) ([Tweet]( https://twitter.com/java/status/1034474482751221761))
 
-#### Natural Language Processing (NLP)
+## Natural Language Processing (NLP)
   - See [Natural Language Processing (NLP)](natural-language-processing/README.md#Java-jvm)
 
-#### Neural Networks
+## Neural Networks
 
   - [Introduction to Neural Network Architectures](https://towardsdatascience.com/neural-network-architectures-156e5bad51ba) ([Tweet](https://twitter.com/java/status/953492326877356032))
   - [Neural Networks explained by MIT](https://www.csail.mit.edu/news/explained-neural-networks) ([Tweet](https://twitter.com/java/status/929216367361798144))
@@ -88,16 +89,16 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [predestination: Conway's Game of Life](https://github.com/SamirTalwar/predestination) by [Samir Talwar](https://github.com/SamirTalwar/) | [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
   - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 
-#### Recommendation systems / Collaborative Filtering (CF)
+## Recommendation systems / Collaborative Filtering (CF)
   - [Tutorial on Collaborative Filtering (CF) in Java – a machine learning technique used by recommendation systems](https://www.baeldung.com/java-collaborative-filtering-recommendations) ([Tweet](https://twitter.com/java/status/985150431549632513))
   
-#### Data Science 
+## Data Science 
 
 - [Data Science for Java Developers](https://www.oreilly.com/library/view/data-science-with/9781491934104/ch01.html)
 - [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
 - [Introduction to Data Science](https://www.youtube.com/watch?v=HEN6FBRuElE) | [Other Data Science Stuff related videos](https://www.youtube.com/channel/UCTe3bYxbzhstIRuIuGQz7UQ)
 
-#### Machine Learning
+## Machine Learning
 
 - [ML for Java Developers](https://www.itworld.com/article/3224505/application-development/machine-learning-for-java-developers.html)
 - [ML for Java Developers Course](http://numahub.com/courses/machine-learning-java-developers)
@@ -112,7 +113,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
-#### Tools & Libraries, Other Resources
+## Tools & Libraries, Other Resources
   - [Best AI tools and libraries](https://skymind.ai/wiki/automl-automated-machine-learning-ai) ([Tweet](https://twitter.com/java/status/1069459966740836352))
   - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)  ([Tweet](https://twitter.com/java/status/931070584896741377))
   - [Free AI Learning Resources For Beginners](https://www.analyticsindiamag.com/here-are-free-ai-learning-resources-for-beginners/) ([Twitter](https://twitter.com/java/status/1013776554868891648))
@@ -122,7 +123,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Teaching Java with Jupyter notebooks](https://blog.frankel.ch/teaching-java-jupyter-notebooks/)
   - [Efficient Java Matrix Library (EJML) is a linear algebra library for manipulating real/complex/dense/sparse matrices](http://ejml.org/wiki/index.php?title=Main_Page) | [Java Matrix Benchmark is a tool for evaluating Java linear algebra libraries for speed, stability, and memory usage](https://github.com/lessthanoptimal/Java-Matrix-Benchmark) by [Peter Abeles](https://github.com/lessthanoptimal)
 
-#### How-to / Deploy / DevOps / Serverless
+## How-to / Deploy / DevOps / Serverless
   - [Learn how to deploy and manage machine learning models](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/254240417/) ([Tweet](https://t.co/4lcwns0lgo))
   - [How to prepare unstructured data for BI and data analytics AI and MachineLearning](https://www.infoq.com/presentations/ai-data-extraction) ([Tweet](https://twitter.com/java/status/869572617023488001))
   - Machine Learning Model Deployment Made Simple: [1](https://oracle.github.io/graphpipe/#/) [2](https://www.forbes.com/sites/oracle/2018/08/15/open-source-graphpipe-project-hints-at-next-wave-of-ai-expansion/#62a0c8c244ae) ([Tweet]( https://twitter.com/java/status/1038062329794052098))
@@ -131,7 +132,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Explore the use of modern Machine Learning and AI techniques in the context of serverless computing](https://medium.com/fnproject/serverless-and-recurrent-neural-networks-with-tensorflow-and-graphpipe-fc73785f1a16) ([Tweet](https://twitter.com/java/status/1043179793431384064))
   - [Disruptive Effects of Cloud Native Machine Learning Systems and Tools](https://www.datascience.com/blog/cloud-native-machine-learning-tools) ([Tweet](https://twitter.com/java/status/1077934809559707650))
 
-#### Misc
+## Misc
   - [Introduction to interactive Data Lake Queries](https://blogs.oracle.com/bigdata/interactive-data-lake-queries-at-scale) ([Tweet](https://twitter.com/java/status/989047609259151360))
   - [A Simple Introduction To Data Structures](https://towardsdatascience.com/a-simple-introduction-to-data-structures-part-one-linked-lists-efbb13e9ad33) ([Tweet](https://twitter.com/java/status/883093461842382849))
   - [Videos of various AI/ML related topics by AI Enterprise](https://www.youtube.com/channel/UC1PncmBLZMqlodEt7atfFuw)

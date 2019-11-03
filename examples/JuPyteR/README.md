@@ -4,7 +4,12 @@
 
 In theory, the below instructions should work for all operating systems i.e. Linux, MacOS and Windows. Although it has been only tested for Linux and MacOS.
 
-### Kernels
+## Blogs
+
+- [Running Jupyter notebooks on Oracle Cloud Infrastructure](https://medium.com/@neomatrix369/running-your-jupyter-notebooks-on-the-cloud-ed970326649f)
+
+## Kernels
+
 These are provided using via kernels, for e.g. the [IJava kernel](https://github.com/SpencerPark/IJava) when installed, provides Java language support in Jupyter notebooks. Take a look at the docs and examples provided on [https://github.com/SpencerPark/IJava](https://github.com/SpencerPark/IJava).
 
 Pre-requisite: only supports JDK versions 9 and higher

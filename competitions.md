@@ -1,5 +1,7 @@
 # Competitions: AI, ML, DL, DS
 
+## General
+
 - [Kaggle competitions](https://www.kaggle.com/competitions)
     - [Closed DS Competition: CareerVillage](https://www.kaggle.com/c/data-science-for-good-careervillage)
     - [Closed DS Competition: City of Los Angeles](https://www.kaggle.com/c/data-science-for-good-city-of-los-angeles)
