@@ -35,6 +35,7 @@ See [Course, Tutorial, Learning resource](./course-tutorial-learning-resources.m
 ## Cloud
 
 - [Cloud based-example: NLP API to analyze Harry Potter & The New York Times](https://cloud.google.com/blog/products/gcp/using-the-cloud-natural-language-api-to-analyze-harry-potter-and-the-new-york-times)
+- [Applying NLP in Java, all from the command-line](https://medium.com/@neomatrix369/applying-nlp-in-java-all-from-the-command-line-1225dd591e80?source=---------2------------------&gi=dcfbe1d06961) | [Original post](https://blog.valohai.com/nlp_with_dl4j_in_java_all_from_the_command-line?from=3oxenia9mtr6)
 
 ## Library, Framework, Models, Tools, Services
 

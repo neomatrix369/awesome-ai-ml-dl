@@ -6,6 +6,7 @@
   - [FREE AI talk on Natural Language Processing NLP using Java with deeplearning4j](https://www.youtube.com/watch?v=XrZ_Y4koV5A&feature=youtu.be) ([Tweet](https://twitter.com/java/status/1062035545394532352))
   - [Apache OpenNLP](https://opennlp.apache.org/)
   - [MontyLingua](http://alumni.media.mit.edu/~hugo/montylingua/)
+  - [Applying NLP in Java, all from the command-line](https://medium.com/@neomatrix369/applying-nlp-in-java-all-from-the-command-line-1225dd591e80?source=---------2------------------&gi=dcfbe1d06961) | [Original post](https://blog.valohai.com/nlp_with_dl4j_in_java_all_from_the_command-line?from=3oxenia9mtr6)
   - [Java-based libraries](https://github.com/keon/awesome-nlp#user-content-java)
   - [Clojure-based libraries](https://github.com/keon/awesome-nlp#user-content-clojure)
   - [Kotlin-based libraries](https://github.com/keon/awesome-nlp#user-content-kotlin)
