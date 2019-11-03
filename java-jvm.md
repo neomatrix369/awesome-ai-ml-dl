@@ -23,6 +23,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - [Misc](#misc)
 - [Clojure](#clojure)
 - [Scala](#scala)
+- [Visualisation](#visualisation)
 - [Contributing](#contributing)
 
 ---
@@ -180,6 +181,10 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
   - [Scala related ML links](https://github.com/josephmisiti/awesome-machine-learning#scala)
   - [Scala resources by Chris Albon](https://chrisalbon.com/#scala)
+
+## Visualisation
+
+See [Visualisation](visualisation.md#visualisation)
 
 # Contributing
 

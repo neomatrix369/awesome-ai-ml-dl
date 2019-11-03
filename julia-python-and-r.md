@@ -9,6 +9,7 @@
 - [Machine Learning](#machine-learning)
   - [Deep Learning](#deep-learning)
     - [Reinforcement Learning](#reinforcement-learning)
+- [Visualisation](#visualisation)
 - [More...](#more)
 - [Contributing](#contributing)
 
@@ -174,6 +175,10 @@
   - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Kai_Arulkumaran.pdf)
   - Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series) second edition Edition: [PDF book](http://incompleteideas.net/book/RLbook2018.pdf) by [Richard S. Sutton](http://incompleteideas.net/index.html) and [Andrew G. Barto](http://www-anw.cs.umass.edu/%7Ebarto/) | [Website and RL resources](http://incompleteideas.net/book/the-book-2nd.html)
   - [Teaching Artificial Agents to Understand Language by Modelling Reward](https://www.researchgate.net/publication/328437364_Teaching_Artificial_Agents_to_Understand_Language_by_Modelling_Reward) by [Edward Grefenstette](https://egrefen.github.io/) | [Video](https://www.youtube.com/watch?v=JCIIeDL9840)
+
+## Visualisation
+
+See [Visualisation](visualisation.md#visualisation)
 
 ## More...
 

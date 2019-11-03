@@ -1,13 +1,19 @@
 ## Valohai
 
-- Signup at https://app.valohai.com/?login=1
-- Comparisons (Pricing & plan): https://valohai.com/pricing/ 
+- Signup at [https://app.valohai.com/?login=1](https://app.valohai.com/?login=1)
+- Comparisons (Pricing & plan): [https://valohai.com/pricing/](https://valohai.com/pricing/)
 - [docs](https://docs.valohai.com/) 
-- [blogs](https://blogs.valohai.com) 
-- [GitHub](https://github.com/valohai) 
+- [blogs](https://blog.valohai.com)
+  - [How to do Deep Learning for Java](https://medium.com/@neomatrix369/how-to-do-deep-learning-for-java-on-the-valohai-platform-eec8ba9f71d8) | [Original post](https://blog.valohai.com/how-to-do-deep-learning-for-java-on-the-valohai-platform)
+  - [Applying NLP in Java, all from the command-line](https://medium.com/@neomatrix369/applying-nlp-in-java-all-from-the-command-line-1225dd591e80) | [Original post](https://blog.valohai.com/nlp_with_dl4j_in_java_all_from_the_command-line?from=3oxenia9mtr6)
+  - Blog posts on how to use the Valohai CLI tool: [1](https://blog.valohai.com/from-zero-to-hero-with-valohai-cli) | [2](https://blog.valohai.com/from-zero-to-hero-with-valohai-part-2)
+- [GitHub](https://github.com/valohai)
 - [Videos](https://www.youtube.com/channel/UCiR8Fpv6jRNphaZ99PnIuFg)
 - [Showcase](https://valohai.com/showcase/)
 - [Slack](http://community-slack.valohai.com/)
+- [@valohaiai](https://twitter.com/@valohaiai)
+- [Search for any topic in the Documentation](https://docs.valohai.com/search.html?q=%3Cany+topic%3E)
+- [Custom Docker Images](https://docs.valohai.com/guides/build-docker-image.html)
 - At a glance: Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
 
 - Pros

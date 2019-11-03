@@ -15,7 +15,6 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 **Watching the repo will keep you posted of all the changes (commits) that go into the repo.**
 
-- [Awesome AI-ML-DL](README-details.md#awesome-ai-ml-dl) 
   - [General](README-details.md#general)
   - [Artificial Intelligence](README-details.md#artificial-intelligence)
   - [Automation](README-details.md#automation)
@@ -25,7 +24,6 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Business / General / Semi-technical](java-jvm.md#business--general--semi-technical)
     - [Classifier / decision trees](java-jvm.md#classifier--decision-trees)
     - [Correlated Cross Occurrence](java-jvm.md#correlated-cross-occurrence)
-    - [Deep learning](java-jvm.md#deep-learning)
     - [Reinforcement learning](java-jvm.md#reinforcement-learning)
     - [Genetic Algorithms](java-jvm.md#genetic-algorithms)
     - [Java projects / related technologies](java-jvm.md#java-projects--related-technologies)
@@ -37,6 +35,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Recommendation systems / Collaborative Filtering (CF)](java-jvm.md#recommendation-systems--collaborative-filtering-cf)
     - [Data Science](java-jvm.md#data-science)
     - [Machine Learning](java-jvm.md#machine-learning)
+      - [Deep learning](java-jvm.md#deep-learning)
+        - [Deep learning](java-jvm.md#reinforcement-learning)
       - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
     - [Tools & Libraries, Resources](java-jvm.md#tools--libraries-other-resources)
     - [How-to / Deploy / DevOps / Serverless](java-jvm.md#how-to--deploy--devops--serverless)
@@ -51,9 +51,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Computer Vision (CV)](julia-python-and-r.md#computer-vision)
     - [Data Science](julia-python-and-r.md#data-science)
     - [Machine learning](julia-python-and-r.md#machine-learning)
-       - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
-    - [Deep learning](julia-python-and-r.md#deep-learning)
-    - [Reinforcement learning](julia-python-and-r.md#reinforcement-learning)
+      - [Deep learning](julia-python-and-r.md#deep-learning)
+        - [Reinforcement learning](julia-python-and-r.md#reinforcement-learning)
+      - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
     - [Programming in Python](Programming-in-Python.md)
     - [More...](julia-python-and-r.md#more)
   - [JavaScript](README-details.md#javascript)
