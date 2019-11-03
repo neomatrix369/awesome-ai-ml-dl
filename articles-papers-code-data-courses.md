@@ -17,8 +17,6 @@
     - [Building and Debugging CNNs](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE9193U0/bloomberg_class_2.pdf)
     - [Introduction to ML](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE3Q7NN7/bloomberg_class_3.pdf)
 
-
-
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
