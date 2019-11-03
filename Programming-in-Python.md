@@ -11,7 +11,7 @@
 - [Performance](#performance)
 - [Contributing](#contributing)
 
-### Basics / learning
+## Basics / learning
 
 - [Lists, Tuples, Dictionaries, Conditionals, Loops, etc...](https://lnkd.in/gWRbc3J)
 - [Data Structures & Algorithms](https://lnkd.in/gYKnJWN)
@@ -41,7 +41,8 @@
 - [30 seconds of python](https://github.com/30-seconds/30-seconds-of-python)
 
 ## Database
-##### Databases implemented in python
+
+### Databases implemented in python
 
 - [Pickle DB](https://pythonhosted.org/pickleDB/)
 - [Tinydb](https://github.com/msiemens/tinydb)
@@ -74,7 +75,7 @@
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
 
-## Cookie cutter: Python project templates
+### Cookie cutter: Python project templates
 
 - [For Python projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#python)
 - [For Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-science)
