@@ -45,27 +45,11 @@ See [Datasets](./datasets.md)
 
 ## Data Exploratory Analysis
 
-- [The Ultimate Python Seaborn Tutorial: Gotta Catch ‘Em All](https://elitedatascience.com/python-seaborn-tutorial)
-- [Exploratory Analysis](https://elitedatascience.com/exploratory-analysis)
-- [Understand Your Machine Learning Data With Descriptive Statistics in Python](https://machinelearningmastery.com/understand-machine-learning-data-descriptive-statistics-python/)
-- [Visualize Machine Learning Data in Python With Pandas](https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/)
-- [8 Tactics to Combat Imbalanced Classes in Your Machine Learning Dataset](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
-- [Exploring and Transforming H2O DataFrame in R and Python](https://dzone.com/articles/exploring-amp-transforming-h2o-data-frame-in-r-and)
-- [ML with H2O by Sudalai Rajkumar](https://www.slideshare.net/0xdata/machine-learning-with-h2o-114163519) (slide 20 onwards)
-- [How to Use Statistics to Identify Outliers in Data](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
-- [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
-- [Helpful Python Code Snippets for Data Exploration in Pandas](https://medium.com/@msalmon00/helpful-python-code-snippets-for-data-exploration-in-pandas-b7c5aed5ecb9)
-- [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
-- [Introduction to Data Analysis and Cleaning presentation](../presentations/data/01-mam-ml-study-group-meetup/01-mam-ml-study-group-meetup/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
+See [Data Exploratory Analysis](./data-exploratory-analysis.md)
 
 ## Data preparation
 
 See [Data preparation](./data-preparation.md)
-
-### Misc
-
-- See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model
-- [Learning with Limited Labeled Data with Shioulin Sam](https://twimlai.com/twiml-talk-255-learning-with-limited-labeled-data-with-shioulin-sam/)
 
 ## Data Generation
 
@@ -73,26 +57,11 @@ See [Data Generation](./data-generation.md#data-generation)
 
 ## Feature Selection
 
-- [Feature selection with mutual information](http://www.simafore.com/blog/bid/105347/Feature-selection-with-mutual-information-Part-2-PCA-disadvantages)
-- Forward Feature selection: [Blog on Towards DS](https://towardsdatascience.com/feature-importance-and-forward-feature-selection-752638849962) | [Scikit learn](https://mikulskibartosz.name/forward-feature-selection-in-scikit-learn-f6476e474ddd)
-- [What is dimensionality reduction? What is the difference between feature selection and extraction?](https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti)
-- [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI)
+See [Feature Selection](./feature-selection.md)
 
 ## Feature engineering
 
-- [Basic Feature Engineering With Time Series Data in Python](http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/)
-- [Zillow Prize - EDA, Data Cleaning & Feature Engineering](https://www.kaggle.com/lauracozma/eda-data-cleaning-feature-engineering)
-- [Feature-wise transformations](https://distill.pub/2018/feature-wise-transformations)
-- [tsfresh](https://tsfresh.readthedocs.io/en/latest/text/introduction.html) - tsfresh is used to to extract characteristics from time series
-- [featuretools](https://github.com/featuretools/featuretools/) - an open source python framework for automated feature engineering
-- [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
-- [scikit learn's SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html)
-- [mlbox's Feature selection](https://mlbox.readthedocs.io/en/latest/features.html)
-- Chi2 test: Feature selection: [Quora](https://www.quora.com/How-is-chi-test-used-for-feature-selection-in-machine-learning) | [NLP Stanford Group](https://nlp.stanford.edu/IR-book/html/htmledition/feature-selectionchi2-feature-selection-1.html) | [Learn for Master](http://www.learn4master.com/machine-learning/chi-square-test-for-feature-selection)
-- [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
-- [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
-- [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI)
-- [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - look for topics: Feature Engineering • Feature Selection
+See [Feature engineering](./feature-engineering.md)
 
 ## Post model-creation analysis, ML interpretation/explainability
 
@@ -136,6 +105,7 @@ See under [Cheatsheets](../README-details.md#cheatsheets)
 https://media.licdn.com/dms/document/C511FAQGFKgIKuW_EEA/feedshare-document-pdf-analyzed/0?e=1571785200&v=beta&t=XyEEqUgi3y4L1hiZ7CxlxbAXyZmM_zcCCdn-Lr04ns8)
 
 ## Best practices / rules / an unordered list of high level or low level guidelines
+
 - [12 Best Practices for Modern Data Ingestion](https://go.streamsets.com/dzone-wp-12-best-practices-modern-data-ingestion)
     - [PDF](https://streamsets.com/wp-content/uploads/2018/01/WP-12-best-practices-for-modern-data-ingestion.pdf)
 - [A Rubric for ML Production Readiness - by Jiameng Gao from Applied Deep Learning Meetup in Feb 2019](https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p) (Paper: https://ai.google/research/pubs/pub46555)
@@ -154,6 +124,7 @@ See [Notebooks](./notebooks.md)
 See [Programs and Tools](programs-and-tools.md#programs-and-tools)
 
 ## Databases
+
 - [Grakn and Graql](http://grakn.ai/) - not just graphs, or graph database knowledge graphs | [Docs | Quick start](https://dev.grakn.ai/docs/general/quickstart) | [GitHub](https://github.com/graknlabs/grakn)
     + See [example](../examples/data/databases/graph/grakn/README.md) in the `../examples/data/databases/graph/grakn` folder
 - [Redis Graph](https://oss.redislabs.com/redisgraph/) | [Blogs](https://blog.grakn.ai/?gi=d6874fc57ebb) | [Videos](https://www.youtube.com/channel/UCtZKw0RFof3x23KqGtW3yDA) | [Skillsmatter: how redis enterprise made redis highly available, scalable, durable and cloudnative](https://skillsmatter.com/skillscasts/11886-how-redis-enterprise-made-redis-highly-available-scalable-durable-and-cloudnative)
