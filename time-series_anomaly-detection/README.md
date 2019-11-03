@@ -1,5 +1,12 @@
 ## Time-series / anomaly detection
 
+- [Time-series](#timeseries)
+  - [Notebooks](#notebooks)
+  - [Anomaly detection](#anomaly-detection)
+- [Contributing](#contributing)
+
+---
+
 ### Time-series
   - H2O
     - [Driverless AI's time-series support](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/time-series.html)
@@ -17,6 +24,7 @@
   - [A Gentle Introduction to SARIMA for Time Series Forecasting in Python](https://machinelearningmastery.com/sarima-for-time-series-forecasting-in-python/)
 
 #### Notebooks
+
   - [Fuzzy Time series notebook](https://colab.research.google.com/drive/1S1QSZfO3YPVr022nwqJC5bEJvrXbqS_A)
   - [Python Data Science Handbook: Time series notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.11-Working-with-Time-Series.ipynb)
 

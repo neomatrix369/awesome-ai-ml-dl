@@ -6,8 +6,6 @@ The question to ask ourselves: _Do we know our data...?_
 
 ---
 
-### Table of contents
-
 - [Ethics / altruistic motives](./README.md#ethics--altruistic-motives)
 - [Datasets and sources of raw data](./README.md#datasets-and-sources-of-raw-data)
 - [Data Exploratory Analysis](./README.md#data-exploratory-analysis)

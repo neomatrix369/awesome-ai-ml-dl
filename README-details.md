@@ -20,6 +20,7 @@
 - [Best Practices](#best-practices)
 - [Cheatsheets](#cheatsheets)
 - [Misc](#misc)
+- [Contributing](#contributing)
 
 ---
 
