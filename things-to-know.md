@@ -1,6 +1,6 @@
 # Things to know
 
-As a (to-be) or (current) data scientist, data engineer, data analyst, machine learning engineer or any other professional or new-bie or student in this space, the below are useful points to know in a snapshot. They can become your learning points or fill any gaps in your understanding. Credits to the authors of the Kaggle survey, most of the ideas are from that document.
+As a (to-be) or (current) data scientist, data engineer, data analyst, machine learning engineer or any other professional or new-bie or student in this space, the below are useful points to know in a snapshot. They can become your learning points or fill any gaps in your understanding. Credits to the authors of the [Kaggle survey](https://google.qualtrics.com/jfe/form/SV_cSiHgVoAyExb9uR), most of the ideas are from that document.
 
 ---
 
