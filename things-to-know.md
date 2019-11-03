@@ -74,7 +74,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - Business intelligence software (Salesforce, Tableau, Spotfire, etc.)
 - Local development environments (RStudio, JupyterLab, etc.)
 - Cloud-based data software & APIs (AWS, GCP, Azure, etc.)
-- Also see resources under **Data**: [[1]](./data/README.md#data) | [[2]](./README-details.md#data)
+- Also see resources under **Data**: [[1]](./README-details.md#data) | [[2]](./data/README.md#data)
 
 ## IDEs
 
@@ -126,7 +126,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Leaflet / Folium](https://leafletjs.com/)
 - [Plotly / Plotly Express](https://plot.ly/) - recommend learning
 - [Seaborn](https://seaborn.pydata.org/)
-- [D3.js](https://d3js.org/) - recommend learning libraries build on top of [D3.js](https://d3js.org)
+- [D3.js](https://d3js.org/) - recommend learning libraries _built on top_ of [D3.js](https://d3js.org)
 - [Altair](https://altair-viz.github.io/)
 - See more resources under [Visualisation](./details/visualisations.md)
 
@@ -170,7 +170,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
 - [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text/)
 - [SAS](https://www.sas.com/en_us/home.html)
-- [Azure Machine Learning Studio](https://studio.azureml.net/target=)
+- [Azure Machine Learning Studio](https://studio.azureml.net/)
 - [Google Cloud Machine Learning Engine](https://cloud.google.com/ml-engine/)
 - [Google Cloud Natural Language](https://cloud.google.com/natural-language/)
 - [Google Cloud Vision](https://cloud.google.com/vision/)
@@ -192,7 +192,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Microsoft Analysis Services](https://azure.microsoft.com/en-us[/services/analysis-services/)
 - [Google BigQuery](https://cloud.google.com/bigquery/)
 - [Databricks](https://databricks.com/)
-- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Databases](./data/README.md#databases)
 
 
 ## Cloud computing platforms
@@ -239,16 +239,16 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 
 ## Automated machine learning tools (or partial AutoML tools)
 
-- [Databricks AutoML](https://databricks.com/product/automl-on-databricks/”target=)
-- [DataRobot AutoML](https://www.datarobot.com/lp/automated-machine-learning-works-business/”target=)
-- [Tpot](https://github.com/EpistasisLab/tpot/”target=)
-- [Google AutoML](https://cloud.google.com/automl/”target=)
-- [Auto_ml](https://github.com/ClimbsRocks/auto_ml/”target=) 
-- [Auto-Keras](https://github.com/keras-team/autokeras/”target=)
-- [Auto-Sklearn](https://github.com/automl/auto-sklearn/”target=)
-- [Xcessiv](https://github.com/reiinakano/xcessiv/”target=) 
-- [MLbox](https://github.com/AxeldeRomblay/MLBox/”target=)
-- [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/”target=)
+- [Databricks AutoML](https://databricks.com/product/automl-on-databricks/)
+- [DataRobot AutoML](https://www.datarobot.com/lp/automated-machine-learning-works-business/)
+- [Tpot](https://github.com/EpistasisLab/tpot/)
+- [Google AutoML](https://cloud.google.com/automl/)
+- [Auto_ml](https://github.com/ClimbsRocks/auto_ml/) 
+- [Auto-Keras](https://github.com/keras-team/autokeras/)
+- [Auto-Sklearn](https://github.com/automl/auto-sklearn/)
+- [Xcessiv](https://github.com/reiinakano/xcessiv/) 
+- [MLbox](https://github.com/AxeldeRomblay/MLBox/)
+- [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/)
 - See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
@@ -264,6 +264,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
 - [MySQL](https://www.mysql.com/)
 - [Google Cloud SQL](https://cloud.google.com/sql/docs/)
+- See other resources under [Databases](./data/README.md#databases)
 
 
 # Contributing
