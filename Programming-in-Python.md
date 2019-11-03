@@ -1,6 +1,7 @@
 # Programming in Python
 
 - [Basics / Learning](#basics-learning)
+- [Intermediate / Advanced Python](#intermediate-advanced-Python)
 - [Cheatsheets](#cheatsheets)
 - [Static analysis](#static-analysis)
     - [Focussed packages](#focussed-packages)
@@ -32,6 +33,11 @@
 - [Python by Chris Albon](https://chrisalbon.com/#python) - topics covered: Basics • Data Wrangling • Data Visualization • Web Scraping • Testing • Logging • Other
 - [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
 - [WTF Python repo](https://github.com/satwikkansal/wtfpython)
+- [Introduction to Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-1-Intro-to-Python)
+
+## Intermediate / Advanced Python
+
+- [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
 
 ## Cheatsheets
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)

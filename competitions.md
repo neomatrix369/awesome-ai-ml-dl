@@ -20,6 +20,7 @@
 - [Data Science Challenge](https://www.datasciencechallenge.org/)
 - [Driven Data](https://www.drivendata.org/competitions/)
 - [Pivigo Challenges](https://www.pivigo.com/dashboard/#/challenges/)
+- [Imperial College Data Science Society Challenges](https://github.com/Imperial-College-Data-Science-Society/Challenges)
 - [Analytics, Data Science, Data Mining Competitions](https://www.kdnuggets.com/competitions/)
 - [DATA SCIENCE COMPETITIONS by Analytics Vidhya](https://www.analyticsvidhya.com/blog/tag/data-science-competitions/)
 - [Signate Competitions (Japanese)](https://signate.jp/competitions/)
