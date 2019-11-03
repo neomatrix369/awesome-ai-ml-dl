@@ -59,7 +59,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [DataQuest](https://www.dataquest.io/)
 - [Coursera](https://Coursera.org)
 - [DataCamp](https://DataCamp.com)
-- LinkedIn Learning: [1](https://www.linkedin.com/learning/) | [2](https://learning.linkedin.com/) | [3](https://linkedinlearning.tamu.edu/)
+- LinkedIn Learning: [[1]](https://www.linkedin.com/learning/) | [[2]](https://learning.linkedin.com/) | [[3]](https://linkedinlearning.tamu.edu/)
 - [edX](https://www.edx.org/)
 - [Fast.ai](http://Fast.ai)
 - [Udacity](http://Udacity.com)
@@ -74,7 +74,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - Business intelligence software (Salesforce, Tableau, Spotfire, etc.)
 - Local development environments (RStudio, JupyterLab, etc.)
 - Cloud-based data software & APIs (AWS, GCP, Azure, etc.)
-- Also see resources under **Data**: [1](./data/README.md#data) | [2](./README-details.md#data)
+- Also see resources under **Data**: [[1]](./data/README.md#data) | [[2]](./README-details.md#data)
 
 ## IDEs
 
@@ -149,7 +149,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - Evolutionary Approaches: [Approach 1](https://towardsdatascience.com/introduction-to-evolutionary-algorithms-a8594b484ac) | [Approach 2](https://towardsdatascience.com/evolutionary-approaches-towards-ai-past-present-and-future-b23ccb424e98)
 - [Recurrent Neural Networks](https://en.wikipedia.org/wiki/Recurrent_neural_network)
 - [Transformer Networks (BERT, gpt-2, etc)](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
-- See more resources under **Machine Learning** resources: [1](./details/java-jvm.md#machine-learning) | [2](./details/julia-python-and-r.md#machine-learning)
+- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning)
 
 ## Machine learning frameworks
 
@@ -163,7 +163,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Spark](Mlib https://spark.apache.org/mllib/)
 - [Scikit](learn https://scikit-learn.org/stable/ )
 - [Xgboost](https://xgboost.readthedocs.io/en/latest/)
-- See more resources under **Machine Learning** resources: [1](./details/java-jvm.md#machine-learning) | [2](./details/julia-python-and-r.md#machine-learning)
+- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning)
 
 ## Machine learning products
 
@@ -177,7 +177,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [RapidMiner](https://rapidminer.com/)
 - [Google Cloud Translation](https://cloud.google.com/translate/)
 - [Cloudera](https://www.cloudera.com/)
-- See more resources under **Machine Learning** resources: [1](./details/java-jvm.md#machine-learning) | [2](./details/julia-python-and-r.md#machine-learning), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
 ## Big data / analytics products
