@@ -122,7 +122,7 @@ NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java
 - [An Introduction to Text Summarization using the TextRank Algorithm (with Python implementation)](https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/)
 - [Beyond bag of words: Using PyTextRank to find Phrases and Summarize text](https://medium.com/@aneesha/beyond-bag-of-words-using-pytextrank-to-find-phrases-and-summarize-text-f736fa3773c5)
 - [Build a simple text summarisation tool using NLTK](https://medium.com/@wilamelima/build-a-simple-text-summarisation-tool-using-nltk-ff0984fedb4f)
-- [Summarise Text with TFIDF in Python](https://medium.com/@shivangisareen/summarise-text-with-tfidf-in-python-bc7ca10d3284)
+- Summarise Text with TFIDF in Python: [Post 1/2](https://towardsdatascience.com/tfidf-for-piece-of-text-in-python-43feccaa74f8) | [Post 2/2](https://medium.com/@shivangisareen/summarise-text-with-tfidf-in-python-bc7ca10d3284)
 - [How to Make a Text Summarizer - Intro to Deep Learning #10 by Siraj Raval](https://www.youtube.com/watch?v=ogrJaOIuBx4)
 
 # Contributing
