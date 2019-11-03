@@ -159,9 +159,9 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Keras](https://keras.io/)
 - [Caret](https://cran.r-project.org/web/packages/caret/index.html/)
 - [PyTorch](https://pytorch.org/)
-- [Fast](ai https://docs.fast.ai/)
-- [Spark](Mlib https://spark.apache.org/mllib/)
-- [Scikit](learn https://scikit-learn.org/stable/ )
+- [Fast.ai](https://docs.fast.ai/)
+- [Spark Mlib](https://spark.apache.org/mllib/)
+- [Scikit-learn](https://scikit-learn.org/stable/)
 - [Xgboost](https://xgboost.readthedocs.io/en/latest/)
 - See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning)
 
@@ -169,7 +169,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 
 - [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
 - [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text/)
-- [SAS (https://www.sas.com/en_us/home.html)
+- [SAS](https://www.sas.com/en_us/home.html)
 - [Azure Machine Learning Studio](https://studio.azureml.net/target=)
 - [Google Cloud Machine Learning Engine](https://cloud.google.com/ml-engine/)
 - [Google Cloud Natural Language](https://cloud.google.com/natural-language/)
@@ -189,7 +189,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [AWS Redshift](https://aws.amazon.com/redshift/)
 - [AWS Athena](https://aws.amazon.com/athena/)
 - [AWS Kinesis](https://aws.amazon.com/kinesis/)
-- [Microsoft Analysis Services ]((https://azure.microsoft.com/en-us[/services/analysis-services/)
+- [Microsoft Analysis Services](https://azure.microsoft.com/en-us[/services/analysis-services/)
 - [Google BigQuery](https://cloud.google.com/bigquery/)
 - [Databricks](https://databricks.com/)
 - See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
@@ -233,7 +233,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Automated model selection (e.g. auto-sklearn, xcessiv)](https://stats.stackexchange.com/questions/20836/algorithms-for-automatic-model-selection)
 - [Automated model architecture searches (e.g. darts, enas)](https://www.fa[st.ai/2018/07/16/auto-ml2/)
 - [Automated hyperparameter tuning (e.g. hyperopt, ray.tune](https://databricks.com/blog/2019/07/18/automated-hyperparameter-tuning-scaling-and-tracking-on-demand-webinar-and-faqs-now-available.html)
-- [Automation of full ML pipelines: (e.g. [Google AutoML](https://cloud.google.com/automl/), [H2O Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/))
+- Automation of full ML pipelines: (e.g. [Google AutoML](https://cloud.google.com/automl/), [H2O Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/))
 - See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
@@ -255,7 +255,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 ## Relational database products 
 
 - [Oracle Database](https://www.oracle.com/database/index.html)
-- [Microsoft SQL Server](https://google.qualtrics.com/jfe/form/http://Microsoft SQL Server)
+- [Microsoft SQL Server](https://google.qualtrics.com/jfe/form/)
 - [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/)
 - [PostgresSQL](https://www.postgresql.org/)
 - [SQLite](https://www.sqlite.org/)
