@@ -24,7 +24,7 @@ The question to ask ourselves: _Do we know our data...?_
 - [Course / books](./README.md#course--books)
 - [Best practices / rules / an unordered list of high level or low level guidelines](./README.md#best-practices--rules--an-unordered-list-of-high-level-or-low-level-guidelines)
 - [Framework(s) / checklist(s)](./README.md#frameworks--checklists)
-- [Notebooks](./README.md#notebooks)
+- [Notebooks](../notebooks/README.md#notebooks)
 - [Programs and Tools](./README.md#programs-and-tools)
 - [Databases](./README.md#databases)
 - [References](./README.md#eferences)
@@ -106,7 +106,7 @@ See [Framework(s) / checklist(s)](./frameworks-checklists.md)
 
 ## Notebooks
 
-See [Notebooks](./notebooks.md)
+See [Notebooks](../notebooks/README.md#notebooks)
 
 ## Programs and Tools
 

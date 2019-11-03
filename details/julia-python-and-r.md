@@ -178,7 +178,7 @@
 
 ## Visualisation
 
-See [Visualisation](visualisation.md#visualisation)
+See [Visualisation](./details/visualisation.md#visualisation)
 
 ## More...
 
@@ -191,8 +191,9 @@ See [Visualisation](visualisation.md#visualisation)
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
 
-Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../LICENSE.md) policy.
 
 ---
 
-Back to [main page (table of contents)](README.md)
+Back to [details page (table of contents)](../README-details.md#julia-python--r)<br>
+Back to [main page (table of contents)](../README.md)
