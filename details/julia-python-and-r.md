@@ -31,6 +31,10 @@
    - [PyCon 2015 Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_pycon2015)
    - [Book: Automate the boring stuff](https://automatetheboringstuff.com/)
    - [Book: How to Think Like a Computer Scientist: Interactive Edition](http://interactivepython.org/courselib/static/thinkcspy/index.html) | [How to Think Like a Computer Scientist - non-Interactive Edition](http://openbookproject.net/thinkcs/python/english2e/)
+   - Python Project (Classification):
+     - Part A: https://www.youtube.com/watch?v=p0snNMCbvN4&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=8
+     - Part B: https://www.youtube.com/watch?v=j4IgXflsZtg&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=9
+     - Part C: https://www.youtube.com/watch?v=kHZmFVDm0QQ&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=10
 
   ## Generative Adversarial Network (GAN)
 
@@ -131,6 +135,7 @@
   - ML Flashcards: [website](https://machinelearningflashcards.com/) | [github](https://github.com/chrisalbon/MachineLearningFlashcards.com)
   - [Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386) by [Chris Albon](https://www.amazon.com/Chris-Albon/e/B07CHGKH7J/ref=dp_byline_cont_book_1)
   - [A number of useful ML related repositories](https://github.com/chrisalbon?tab=repositories) by [Chris Albon](https://github.com/chrisalbon)
+  - [ML Blogs by faculty.ai](https://faculty.ai/blog/)
   - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - topics covered: Vectors, Matrices, And Arrays • ML Basics • Preprocessing Structured Data • Preprocessing Images • Preprocessing Text • Preprocessing Dates And Times • Feature Engineering • Feature Selection • Model Evaluation • Model Selection • Linear Regression • Logistic Regression • Trees And Forests • Nearest Neighbors • Support Vector Machines • Naive Bayes • Clustering
   - [Claoudml](https://www.claoudml.com/) - Free Data Science & Machine Learning Resources
   - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
