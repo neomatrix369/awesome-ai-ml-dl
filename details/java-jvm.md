@@ -75,7 +75,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 ## Natural Language Processing (NLP)
 
-  - See [Natural Language Processing (NLP)](natural-language-processing/README.md#Java-jvm)
+  - See [Java/JVM](../natural-language-processing/java-jvm.md#javajvm) in [Natural Language Processing (NLP)](../natural-language-processing#natural-language-processing-nlp)
 
 ## Neural Networks
 
@@ -117,9 +117,9 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
-- See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
-- See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
-- Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
+- See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
+- See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
+- Also see [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
 ### Deep learning
 
@@ -184,7 +184,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 
 ## Visualisation
 
-See [Visualisation](./details/visualisation.md#visualisation)
+See [Visualisation](./visualisation.md#visualisation)
 
 # Contributing
 

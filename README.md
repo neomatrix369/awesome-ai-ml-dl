@@ -58,7 +58,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [JavaScript](README-details.md#javascript)
   - [Swift for TensorFlow](https://www.tensorflow.org/swift/) - next generation platform for deep learning and differentiable programming
   - **[Things to know...](./things-to-know.md)**
-  - [Mathematica](README-details.md#mathematica)
+  - [Mathematica](./details/mathematica-wolfram-Language.md#mathematica--wolfram-language)
   - [Mathematics, Statistics, Probability & Probabilistic programming](./details/maths-stats-probability.md#mathematics-statistics-probability--probabilistic-programming)
   - [Data](README-details.md#data)
   - [Visualisation](./details/visualisation.md#visualisation)
@@ -69,9 +69,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Notebooks](./notebooks/README.md#notebooks)
   - [Presentations](README-details.md#presentations)
   - [Models](README-details.md#models)
-  - [Articles, papers, code, data, courses](./README-details.md#articles-papers-code-data-courses-presentations)
+  - [Articles, papers, code, data, courses](./details/articles-papers-code-data-courses.md#articles-papers-code-data-courses)
   - [Cheatsheets](./details/cheatsheets.md#cheatsheets)
-  - [Misc](README-details.md#misc-1)
+  - [Misc](./details/misc.md#misc)
 - [Contributing](#contributing)
 
 # Contributing

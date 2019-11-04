@@ -50,7 +50,7 @@
   
   ## Natural Language Processing (NLP)
 
-  - See [Natural Language Processing (NLP)](natural-language-processing/README.md#natural-language-processing-nlp)
+  - See [Natural Language Processing (NLP)](../natural-language-processing/README.md#natural-language-processing-nlp)
 
   ## Computer Vision
 
@@ -133,9 +133,9 @@
   - [A number of useful ML related repositories](https://github.com/chrisalbon?tab=repositories) by [Chris Albon](https://github.com/chrisalbon)
   - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - topics covered: Vectors, Matrices, And Arrays • ML Basics • Preprocessing Structured Data • Preprocessing Images • Preprocessing Text • Preprocessing Dates And Times • Feature Engineering • Feature Selection • Model Evaluation • Model Selection • Linear Regression • Logistic Regression • Trees And Forests • Nearest Neighbors • Support Vector Machines • Naive Bayes • Clustering
   - [Claoudml](https://www.claoudml.com/) - Free Data Science & Machine Learning Resources
-  - See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
-  - See [Cloud/DevOps/Infra > Performance](./cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
-  - Also see [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
+  - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
+  - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
+  - Also see [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
   ### Deep Learning
 
@@ -150,7 +150,7 @@
    - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
    - [Learning Deep Learning with Keras](http://p.migdal.pl/2017/04/30/teaching-deep-learning.html)
    - [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
-   - [Checkout 'Deep Learning with Tensorflow 2.0 (MNIST)' Notebooks](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#notebooks)
+   - [Checkout 'Deep Learning with Tensorflow 2.0 (MNIST)' Notebooks](../notebooks/README.md#notebooks)
    - [Deep learning for 3D printing manufacturing](https://www.youtube.com/watch?v=jAQSM2dhDV4) by [Benjamin Schrauwen](https://www.linkedin.com/in/benjaminschrauwen)
    - [DL topics expanded by Chris Albon](https://chrisalbon.com/#deep_learning) - topics covered: Keras 
   
@@ -179,7 +179,7 @@
 
 ## Visualisation
 
-See [Visualisation](./details/visualisation.md#visualisation)
+See [Visualisation](./visualisation.md#visualisation)
 
 ## More...
 

@@ -80,13 +80,14 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./details
     - [Feature engineering](./data/README.md#feature-engineering)
     - [Post model-creation analysis, ML interpretation/explainability](./data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
     - [Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
-    - [and other related topics: Stats, Visualisations, Cheatsheets, etc...](data/README.md#data)
+    - **[and other related topics: Stats, Visualisations, Cheatsheets, etc...](data/README.md#data)**
   - [Data Science at the Command Line](https://www.datascienceatthecommandline.com) | [References](https://www.datascienceatthecommandline.com/references.html) | [on GitHub](https://github.com/jeroenjanssens/data-science-at-the-command-line) | [Docker image with 80 CLI tools](https://hub.docker.com/r/datascienceworkshops/data-science-at-the-command-line) | [Appendix: List of Command-Line Tools](http://www.ruxizhang.com/uploads/4/4/0/2/44023465/janssens2014.pdf#%5B%7B%22num%22%3A1880%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2Cnull%2C589.5%2Cnull%5D) | [Linux Command-Line resource by Chris Albon](https://chrisalbon.com/#linux)
   - [Awesome Datascience](https://github.com/bulutyazilim/awesome-datascience)
   - [Awesome Learn Datascience](https://github.com/siboehm/awesome-learn-datascience)
   - [Data Science for Dummies](http://file.allitebooks.com/20170304/Data%20Science%20For%20Dummies,%202nd%20Edition.pdf)
   - [Data Science resources (scattered across the page)](https://github.com/ayonroy2000/100DaysOfML_TelegramGroup/blob/master/Resources.md)
   - [Learn Data Science by bitgrit](https://github.com/bitgrit-official/learndatascience)
+  - **[and other related topics: Stats, Visualisations, Cheatsheets, etc...](data/README.md#data)**
 
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
