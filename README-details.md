@@ -42,6 +42,7 @@ See [Artificial Intelligence](./details/artificial-intelligence.md)
 - [Data science competitions to build a better world](https://www.drivendata.org/)
 - [An ethics checklist for data scientists](http://deon.drivendata.org/)
   - [python package: deon](https://pypi.org/project/deon/)
+- [Data ethics literacy cards](https://public.zenkit.com/i/2RH604FcHf/iK2Z5J9kr/do-you-know-your-data?v=1wyJ56INd&hide=workspaceLists) by [Anisha Fernando](https://twitter.com/techgirl_9) | [Join the Slack community](https://dataethicsinpractice.slack.com/join/shared_invite/enQtODAwMDIxMzU3MTUyLTg5YTM3ZTIyYTg3ZTU0N2M4MDhmYjE3YmRlYTUyNTA5ZWE1MTRkYmJjYTNlM2YzYTk1YWNhZmY1N2RlYzg5Y2U) | [The Private Lives of Data: YouTube video](https://www.youtube.com/watch?v=pXtQj2UNMYE)
 
 ### Java
 
