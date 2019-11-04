@@ -234,7 +234,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Automated model architecture searches (e.g. darts, enas)](https://www.fa[st.ai/2018/07/16/auto-ml2/)
 - [Automated hyperparameter tuning (e.g. hyperopt, ray.tune](https://databricks.com/blog/2019/07/18/automated-hyperparameter-tuning-scaling-and-tracking-on-demand-webinar-and-faqs-now-available.html)
 - Automation of full ML pipelines: (e.g. [Google AutoML](https://cloud.google.com/automl/), [H2O Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/))
-- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
 ## Automated machine learning tools (or partial AutoML tools)
@@ -249,7 +249,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Xcessiv](https://github.com/reiinakano/xcessiv/) 
 - [MLbox](https://github.com/AxeldeRomblay/MLBox/)
 - [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/)
-- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
 ## Relational database products 
