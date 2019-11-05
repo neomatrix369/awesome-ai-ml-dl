@@ -42,7 +42,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Twitter: data science influencers](https://twitter.com)
 - [Reddit: r/machinelearning, r/datascience, etc](https://reddit.com)
 - [Kaggle: forums, blog, social media, etc](https://kaggle.com)
-- Podcasts: [Chai Time Data Science](https://chaitimedatascience.com/), [Linear Digressions](https://lineardigressions.com/), [Data Skeptics](https://www.dataskeptic.com/podcast?limit=10&offset=0), **[Half Stack Data Science](https://halfstackdatascience.com/category/podcast)**, etc
+- Podcasts: [Chai Time Data Science](https://chaitimedatascience.com/), [Linear Digressions](https://lineardigressions.com/), [Data Skeptics](https://www.dataskeptic.com/podcast?limit=10&offset=0), **[Half Stack Data Science](https://halfstackdatascience.com/category/podcast)**, [TWiML](https://twimlai.com/?s=podcasts), etc
 - Blogs: [Towards Data Science](https://towardsdatascience.com), [Medium](https://medium.com), [Analytics Vidhya](https://AnalyticsVidhya.com), [KDnuggets](https://KDnuggets.com), etc
 - Slack Communities: [ods.ai](https://ods.ai), [kagglenoobs](https://kagglenoobs.herokuapp.com), etc
 - Journal Publications: traditional publications, preprint journals, etc
