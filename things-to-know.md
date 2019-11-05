@@ -47,7 +47,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - Slack Communities: [ods.ai](https://ods.ai), [kagglenoobs](https://kagglenoobs.herokuapp.com), etc
 - Journal Publications: traditional publications, preprint journals, etc
 - Course Forums: [forums.fast.ai](https://forums.fast.ai), etc
-- [YouTube](https://www.youtube.com): Cloud AI Adventures, Siraj Raval, etc
+- [YouTube](https://www.youtube.com): [Google Cloud AI Adventures](https://www.youtube.com/watch?v=HcqpanDadyQ&list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2), [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A), etc
 
 ## Useful blogs to read
 
