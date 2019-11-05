@@ -11,7 +11,7 @@
 
 - [Statistics for Machine learning (paid book: Packt Publishing)](https://www.packtpub.com/big-data-and-business-intelligence/statistics-machine-learning)
 - [Topic-wise notes: maths & stats](https://www.ctanujit.org/notes.html)
-- [5 Lesson 5 Measures Of Skewness And Kurtosis](https://sol.du.ac.in/mod/book/view.php?chapterid=1067&id=1317)
+- [5 Lesson 5 Measures Of Skewness And Kurtosis](https://sol.du.ac.in/mod/book/view.php?chapterid=1067&id=1317) [deadlink]
 - [Data Types in Statistics](https://towardsdatascience.com/data-types-in-statistics-347e152e8bee)
 - [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
 - [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
@@ -22,7 +22,7 @@
 - [G. James, D. Witten et al., An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
 - [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
 - [Learning from Data: the art of statistics](http://www.lse.ac.uk/Events/2019/03/20190327t1830vHKT/Learning-from-Data) | [The Art of Statistics: Learning from Data by David Spiegelhalter](https://www.amazon.com/Art-Statistics-Learning-Pelican-Books-ebook/dp/B07HQDJD99)
-- [Statistical Rethinking](https://issuu.com/biwugrok17/docs/pdf_download_online_pdf_statistical)
+- [Statistical Rethinking](https://issuu.com/biwugrok17/docs/pdf_download_online_pdf_statistical) [deadlink]
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
 - [See Data > Statistics section more related links](../data/README.md#statistics)
@@ -41,7 +41,7 @@
 - [Colin Carroll’s presentation: Tidy and beautiful - Visualizing Bayesian models with xarray and ArviZ](https://colcarroll.github.io/arviz_pydata_nyc/#/) | [Colin Carroll](https://twitter.com/colindcarroll)
 - [Amortized Monte Carlo Integration](https://www.youtube.com/watch?v=-oHCqLFLTAI) by [Tom Rainforth](http://www.robots.ox.ac.uk/~twgr/)
 - Books
-  - [Bayesian Data Analysis Third Edition[Gelman]](https://www.academia.edu/32086149/Bayesian_Data_Analysis_Third_Edition_Gelman_.pdf)
+  - [Bayesian Data Analysis Third Edition [Gelman]](https://statmodeling.stat.columbia.edu/wp-content/uploads/2013/08/bda3_contents.pdf) | [previous source](https://www.academia.edu/32086149/Bayesian_Data_Analysis_Third_Edition_Gelman_.pdf) [deadlink]
   - [Think Bayesian](http://greenteapress.com/wp/think-bayes)
   - [Think Stats, 2nd edition](https://greenteapress.com/wp/think-stats-2e/) | [github](https://github.com/AllenDowney/ThinkStats2) - is an introduction to Probability and Statistics for Python programmers
   - [Model Based Machine Learning Book](http://www.mbmlbook.com/)
@@ -50,7 +50,7 @@
 - [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
 - [Learning & Reasoning in Artificial Intelligence](https://www.youtube.com/watch?v=K_GOHepjY2o) by [Thomas Lukasiewicz](http://www.cs.ox.ac.uk/thomas.lukasiewicz/)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
-- [Coursera Course: Probability and distribution](https://media.licdn.com/dms/document/C511FAQGFKgIKuW_EEA/feedshare-document-pdf-analyzed/0?e=1571785200&v=beta&t=XyEEqUgi3y4L1hiZ7CxlxbAXyZmM_zcCCdn-Lr04ns8)
+- [Coursera Course: Probability and distribution by Nabih Bawazir](https://media.licdn.com/dms/document/C511FAQGFKgIKuW_EEA/feedshare-document-pdf-analyzed/0?e=1573030800&v=beta&t=A635jsWDOhmhQgv5SqvIEKPgLTwEtjFt_-3EGOHFysc) [deadlink]
 
 
 # Contributing

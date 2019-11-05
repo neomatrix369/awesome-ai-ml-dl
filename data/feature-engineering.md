@@ -11,7 +11,7 @@
 - Chi2 test: Feature selection: [Quora](https://www.quora.com/How-is-chi-test-used-for-feature-selection-in-machine-learning) | [NLP Stanford Group](https://nlp.stanford.edu/IR-book/html/htmledition/feature-selectionchi2-feature-selection-1.html) | [Learn for Master](http://www.learn4master.com/machine-learning/chi-square-test-for-feature-selection)
 - [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
 - [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
-- [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI)
+- [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI) [deadlink]
 - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - look for topics: Feature Engineering • Feature Selection
 
 

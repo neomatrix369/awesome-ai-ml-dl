@@ -1,6 +1,6 @@
 # Sentiment analysis
 
-- [Keras (bag of words) post - expanded version](keras-bag-of-words-expanded-version/README.md)
+- [Keras (bag of words) post - expanded version](../blogs/keras-bag-of-words-expanded-version/README.md)
 - [Movie Sentiment Analysis at MaM Study Group - sessions occur once a week](https://github.com/machine-learning-study-group/movie-sentiment-analysis)
 - [Beginners/introductory: guide to sentimental analysis](https://towardsdatascience.com/a-beginners-guide-on-sentiment-analysis-with-rnn-9e100627c02e)
 - [Introductory: Sentiment analysis with StackOverflow posts using Keras](https://cloud.google.com/blog/products/gcp/intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts)

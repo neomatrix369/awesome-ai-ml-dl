@@ -115,7 +115,7 @@ See [Notebooks](./notebooks/README.md#notebooks)
 ### Models
 
 - [Model Zoo - Discover open source deep learning code and pretrained models](https://modelzoo.co/)
-- Model Zoo: [Caffe docs](https://caffe2.ai/docs/zoo.html) | [Caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo) | [MXNet](https://mxnet.incubator.apache.org/model_zoo/) | [DL4J](https://deeplearning4j.org/docs/latest/deeplearning4j-zoo-models) | [CoreNLP](https://stanfordnlp.github.io/CoreNLP/model-zoo.html)
+- Model Zoo: [Caffe docs](https://caffe2.ai/docs/zoo.html) | [Caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo) | [MXNet](https://github.com/awslabs/mxnet-model-server/blob/master/docs/model_zoo.md) | [DL4J](https://deeplearning4j.org/docs/latest/deeplearning4j-zoo-models) | [CoreNLP](https://stanfordnlp.github.io/CoreNLP/model-zoo.html)
 
 ### Articles, papers, code, data, courses
 

@@ -8,7 +8,7 @@
 - [Google AI Blog](https://ai.googleblog.com/) - the latest news from Google AI
 - [AI Experiments | Experiments with Google](https://experiments.withgoogle.com/ai) | [Experiments with Google](https://experiments.withgoogle.com/)
 - [People + AI Guidebook Logo](https://pair.withgoogle.com/)
-- [What is a tensor?](./data/what-is-a-tensor.jpg)
+- [What is a tensor?](../data/what-is-a-tensor.jpg)
 
 
 # Contributing

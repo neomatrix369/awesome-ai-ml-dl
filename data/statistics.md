@@ -15,7 +15,7 @@
 - [Journal of Statistical Software - TidyData](https://www.jstatsoft.org/article/view/v059i10/)
 - Statistics courses at [Coursera](https://www.coursera.org/courses?query=statistics&) | [Udemy](https://www.udemy.com/courses/search/?src=ukw&q=statistics) | [Udacity](https://eu.udacity.com/courses/all) - search for `Statistics` | Harvard University: [Statistics 110](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) | [more videos on their YouTube channel](https://www.youtube.com/user/Harvard/search?query=statistics) | [Stanford University](https://online.stanford.edu/courses?keywords=statistics)
 - [15 Statistical Hypothesis Tests in Python (Cheat Sheet)](https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-sheet/?fbclid=IwAR102PXBzIdx8g8zejg9ssE7at8jrnyfAtiT95Rp8flo98p8qEFBho5HOG0)
-- [Statistics cheatsheet](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1571943600&v=beta&t=9HwhZIlxIBW4zT7LLHyiJPA5djyKcjo4rFjiausHRn8)
+- [Statistics cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1573030800&v=beta&t=11ugKu44wK--uA9WG98V_r6_LY_xu6I8Y-YSaM1BOsQ)
 - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
 - For more, see [Mathematics, Statistics, Probability & Probabilistic programming](../README-details.md#mathematics-statistics-probability--probabilistic-programming)
 

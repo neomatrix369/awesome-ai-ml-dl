@@ -36,7 +36,7 @@
 - Towards Explainable AI: [Slides](../presentations/data/03-meetup-uk-2019/Towards-Explainable-AI.pdf) | [Video](https://www.youtube.com/watch?v=0yFjSs-azM4) | [Book: A Concise Introduction to Machine Learning](https://www.amazon.co.uk/Concise-Introduction-Machine-Learning/dp/0815384106/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1566160069&sr=8-2) by [Anita Faul](https://www.linkedin.com/in/anita-faul-123750104/)
 - [Machine Learning Project End to End with Python Code (data science focussed)](https://www.youtube.com/watch?v=ekV9QO5KHUY&list=PLcQCwsZDEzFkP9WMe6xvLrd_ZNGqoXOQY&fbclid=IwAR1z7XBl762FLyo-gVvdBDU1iCVqz89K1yfmJS1cbC4rZyEfF-jO30ZsYeY)
 - [Machine learning model explainability through Shapley values](https://faculty.ai/blog/machine-learning-model-explainability-through-shapley-values/) by [Christiane Ahlheim](https://www.linkedin.com/in/christiane-ahlheim-498263b2/) & [Markus Kunesch](https://www.linkedin.com/in/markus-kunesch/)
-- [Research on AI Safety](https://faculty.ai/research/) by [faculty.ai](faculty.ai)
+- [Research on AI Safety](https://faculty.ai/research/) by [faculty.ai](https://faculty.ai)
 
 # Contributing
 

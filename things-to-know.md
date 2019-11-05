@@ -95,7 +95,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [FloydHub](https://www.floydhub.com/)
 - [Paperspace / Gradient](https://gradient.paperspace.com/)
 - [Code Ocean](https://codeocean.com/)
-- [AWS Notebook Products (EMR Notebooks, Sagemaker Notebooks, etc)](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks.html/)
+- [AWS Notebook Products (EMR Notebooks, Sagemaker Notebooks, etc)](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-working-with.html)
 - [Google Colab](https://colab.research.google.com/)
 - [Google Cloud Notebook Products (AI Platform, Datalab, etc)](https://cloud.google.com/ai-platform-notebooks/)
 - [Binder / JupyterHub](https://mybinder.org/)
@@ -119,16 +119,16 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 ## Data visualization libraries or tools
 
 - [Matplotlib](https://matplotlib.org/)
-- [Bokeh](https://bokeh.pydata.org/en/latest/index.html/)
-- [Gglot / ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html/)
-- [Shiny](https://cran.r-project.org/web/packages/shiny/index.html/)
+- [Bokeh](https://docs.bokeh.org/en/latest/)
+- [Gglot / ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)
+- [Shiny](https://cran.r-project.org/web/packages/shiny/index.html)
 - [Geoplotlib](https://github.com/andrea-cuttone/geoplotlib)
 - [Leaflet / Folium](https://leafletjs.com/)
 - [Plotly / Plotly Express](https://plot.ly/) - recommend learning
 - [Seaborn](https://seaborn.pydata.org/)
 - [D3.js](https://d3js.org/) - recommend learning libraries _built on top_ of [D3.js](https://d3js.org)
 - [Altair](https://altair-viz.github.io/)
-- See more resources under [Visualisation](./details/visualisations.md)
+- See more resources under [Visualisation](./details/visualisation.md)
 
 ## Specialized hardware
 
@@ -157,7 +157,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Tensorflow](https://www.tensorflow.org/)
 - [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
 - [Keras](https://keras.io/)
-- [Caret](https://cran.r-project.org/web/packages/caret/index.html/)
+- [Caret](https://cran.r-project.org/web/packages/caret/index.html)
 - [PyTorch](https://pytorch.org/)
 - [Fast.ai](https://docs.fast.ai/)
 - [Spark Mlib](https://spark.apache.org/mllib/)
@@ -183,13 +183,13 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 ## Big data / analytics products
 
 - [Teradata](https://www.teradata.com/)
-- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/" )
+- [Google Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/)
 - [AWS Elastic MapReduce](https://aws.amazon.com/emr/)
 - [Google Cloud Dataflow](https://cloud.google.com/dataflow/)
 - [AWS Redshift](https://aws.amazon.com/redshift/)
 - [AWS Athena](https://aws.amazon.com/athena/)
 - [AWS Kinesis](https://aws.amazon.com/kinesis/)
-- [Microsoft Analysis Services](https://azure.microsoft.com/en-us[/services/analysis-services/)
+- [Microsoft Analysis Services](https://azure.microsoft.com/en-us/services/analysis-services/)
 - [Google BigQuery](https://cloud.google.com/bigquery/)
 - [Databricks](https://databricks.com/)
 - See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Databases](./data/README.md#databases)
@@ -228,10 +228,10 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 
 ## Automated pipelines
 
-- [Automated data augmentation (e.g. imgaug, albumentations](https://auto-da[.github.io/)
+- [Automated data augmentation (e.g. imgaug, albumentations](https://auto-da.github.io/)
 - [Automated feature engineering/selection (e.g. tpot, boruta_py)](https://www.featuretools.com/)
 - [Automated model selection (e.g. auto-sklearn, xcessiv)](https://stats.stackexchange.com/questions/20836/algorithms-for-automatic-model-selection)
-- [Automated model architecture searches (e.g. darts, enas)](https://www.fa[st.ai/2018/07/16/auto-ml2/)
+- [Automated model architecture searches (e.g. darts, enas)](https://www.fast.ai/2018/07/16/auto-ml2/)
 - [Automated hyperparameter tuning (e.g. hyperopt, ray.tune](https://databricks.com/blog/2019/07/18/automated-hyperparameter-tuning-scaling-and-tracking-on-demand-webinar-and-faqs-now-available.html)
 - Automation of full ML pipelines: (e.g. [Google AutoML](https://cloud.google.com/automl/), [H2O Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/))
 - See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
@@ -255,7 +255,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 ## Relational database products 
 
 - [Oracle Database](https://www.oracle.com/database/index.html)
-- [Microsoft SQL Server](https://google.qualtrics.com/jfe/form/)
+- [Microsoft SQL Server](https://www.microsoft.com/en-gb/sql-server/)
 - [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/)
 - [PostgresSQL](https://www.postgresql.org/)
 - [SQLite](https://www.sqlite.org/)

@@ -57,7 +57,7 @@ Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel](ht
 
 ### Source location
 
-Go to example [project root](./examples/JuPyteR) to perform the commands mentioned in the sections below.
+Go to example [project root](../JuPyteR) to perform the commands mentioned in the sections below.
 
 ### Local environment
 
@@ -238,9 +238,9 @@ Thank you [@nicolas_frankel](http://twitter.com/@nicolas_frankel) and the good f
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
 
-Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../../LICENSE.md) policy.
 
 ---
 
-Back to example [project root](./examples/JuPyteR) </br>
+Back to example [project root](../JuPyteR) </br>
 Back to [main page (table of contents)](../../README.md)

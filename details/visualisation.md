@@ -27,9 +27,9 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
     - [Information is Beautiful](https://informationisbeautiful.net/)
     - [WTF Visualizations](https://viz.wtf/) - Visualizations that make no sense, worst examples to NOT do and learn from!
   - [Visual Capitalists](https://www.visualcapitalist.com/) - real world, info-graphics like examples of various visualisations
-  - [Guide to Visualization](./presentations/data/Data%20Visualization%20–%20How%20to%20Pick%20the%20Right%20Chart%20Type-1.pdf) - How to pick the right chart - by [Janis Gulbis](https://janisgulbis.com/)
+  - [Guide to Visualization](../presentations/data/Data%20Visualization%20–%20How%20to%20Pick%20the%20Right%20Chart%20Type-1.pdf) - How to pick the right chart - by [Janis Gulbis](https://janisgulbis.com/)
   - [Data Visualisation in Python by Chris Albon](https://chrisalbon.com/#python) - look for the _Data Visualization_ section
-  - [How to choose your data visualisations](./data/how-to-choose-your-data-visualisations.jpg)
+  - [How to choose your data visualisations](../data/how-to-choose-your-data-visualisations.jpg)
   - [Matplotlib](https://lnkd.in/g_3fx_6)
   - [Seaborn](https://lnkd.in/gih7hqz)
   - [Plotly](https://lnkd.in/gBYBMXc)

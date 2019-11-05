@@ -19,7 +19,7 @@
 
    - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
    - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
-   - [An example on how-to install a Java kernel for JuPyteR notebooks (Graal enabled, where platform supports)](examples/JuPyteR/README.md)
+   - [An example on how-to install a Java kernel for JuPyteR notebooks (Graal enabled, where platform supports)](../examples/JuPyteR/README.md)
    - [NeptuneML GitHub repo](https://github.com/neptune-ml) | [NeptuneML - Miverna training material, hint: Kaggle competition booster](https://github.com/neptune-ml/minerva-training-materials)
    - [Large-scale linear classification, regression and ranking in Python](https://github.com/scikit-learn-contrib/lightning)
    - [AutoKeras: The Killer of Google’s AutoML](https://towardsdatascience.com/autokeras-the-killer-of-googles-automl-9e84c552a319)
@@ -46,7 +46,7 @@
 
   ## Genetic Algorithms
 
-  - [Introduction to Genetic Algorithms & their application in data science](https://media.licdn.com/dms/document/C511FAQE99ZtwL7srQA/feedshare-document-pdf-analyzed/0?e=1570906800&v=beta&t=OiKdTPzo2ozpBzVl0N_5JPvzAoqsS2iie9cHNK4BXCg)
+  - [Introduction to Genetic Algorithms & their application in data science](https://media.licdn.com/dms/document/C511FAQE99ZtwL7srQA/feedshare-document-pdf-analyzed/0?e=1570906800&v=beta&t=OiKdTPzo2ozpBzVl0N_5JPvzAoqsS2iie9cHNK4BXCg) [deadlink]
 
   ## RNN
 
@@ -120,8 +120,8 @@
   - [Curriculum & Log - ML](https://www.alanmartyn.com/)
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
   - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
-  - [Slides of how PyTorch helped the speaker learn ML](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Michael_Ceber.pdf)
-  - [Slides of Collaborative Recommender System for Music](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=valentin_nagacevschi.pdf)
+  - [Slides of how PyTorch helped the speaker learn ML](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Michael_Ceber.pdf) [deadlink]
+  - [Slides of Collaborative Recommender System for Music](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=valentin_nagacevschi.pdf) [deadlink]
   - [Tensorflow 2.0 by Josh Gordon at the Google X / X-Team event](https://drive.google.com/file/d/1XAZp_n7avolVOGApKNLk0YcY3xGRaVcQ/view)
   - [Algorithmia's Machine Learning Roadmap](https://info.algorithmia.com/email-machine-learning-roadmap)
   - [Machine Learning Terminology](https://www.linkedin.com/feed/update/urn:li:activity:6526625602227789824)
@@ -178,7 +178,7 @@
   - [Reinforcement Learning with DNNs](https://biostat.wisc.edu/~craven/cs760/lectures/AlphaZero.pdf)
   - Reinforcement Learning Crash Course by Central London Data Science meetup - [GitHub repo](https://github.com/central-ldn-data-sci/CrashCourseRL) | [Slides](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/Crash%20Course%20in%20Reinforcement%20Learning.pdf) | Notebooks: [1](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/CrashCourseRL.ipynb) | [2](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/crash_course_reinforcement_learning.ipynb) | [3](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
-  - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Kai_Arulkumaran.pdf)
+  - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=Kai_Arulkumaran.pdf) [deadlink]
   - Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series) second edition Edition: [PDF book](http://incompleteideas.net/book/RLbook2018.pdf) by [Richard S. Sutton](http://incompleteideas.net/index.html) and [Andrew G. Barto](http://www-anw.cs.umass.edu/%7Ebarto/) | [Website and RL resources](http://incompleteideas.net/book/the-book-2nd.html)
   - [Teaching Artificial Agents to Understand Language by Modelling Reward](https://www.researchgate.net/publication/328437364_Teaching_Artificial_Agents_to_Understand_Language_by_Modelling_Reward) by [Edward Grefenstette](https://egrefen.github.io/) | [Video](https://www.youtube.com/watch?v=JCIIeDL9840)
 

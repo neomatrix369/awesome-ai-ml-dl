@@ -6,7 +6,7 @@
     - See [example](../examples/JuPyteR/README.md) in the `examples/JuPyteR` folder
     - [Data notebooks](../data/README.md#notebooks)
   - [Bag of words notebook](../blogs/keras-bag-of-words-expanded-version/data-scripts-notebooks/)
-  - Better NLP Notebooks: [Jupyter](../examples/better-nlp/notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb) | [Google Colab](./examples/better-nlp/notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
+  - Better NLP Notebooks: [Jupyter](../examples/better-nlp/notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb) | [Google Colab](../examples/better-nlp/notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
   - [Time-series / anomaly detection notebooks](../time-series_anomaly-detection/README.md#notebooks) 
   - [ML Notebooks: hands-on](https://github.com/ageron/handson-ml)
   - [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)

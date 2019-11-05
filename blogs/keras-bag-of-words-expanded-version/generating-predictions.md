@@ -79,6 +79,6 @@ Predicted label: objective-c
 
 ## Source file of the notebook
 
-[https://github.com/tensorflow/workshops/blob/master/extras/keras-bag-of-words/keras-bow-model.ipynb]()
+[https://github.com/tensorflow/workshops/blob/master/extras/keras-bag-of-words/keras-bow-model.ipynb](https://github.com/tensorflow/workshops/blob/master/extras/keras-bag-of-words/keras-bow-model.ipynb)
 
-[keras-bow-model.ipynb](/uploads/de9149cf3d685bb213a5572accd8e24c/keras-bow-model.ipynb)
+[keras-bow-model.ipynb](./data-scripts-notebooks/keras-bow-model.ipynb)
