@@ -10,7 +10,7 @@ COPY corenlp.sh corenlp.sh
 
 ### Apache OpenNLP installation
 ### https://opennlp.apache.org/
-COPY opennlp.sh opennlp.sh
+COPY opennlp opennlp
 
 ### NLP4J: NLP Toolkit for JVM Languages
 ### https://emorynlp.github.io/nlp4j/
