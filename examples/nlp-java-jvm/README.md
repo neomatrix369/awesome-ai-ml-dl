@@ -87,22 +87,27 @@ $ JAVA_OPTS="-XX:-UseJVMCINativeLibrary" ./runInDocker.sh
 **Build the docker container:**
 
 ```bash
-$ ./buildDockerImage.sh
+$ ./docker-runner --buildImage
+
 or
-$ DOCKER_USER_NAME="your_docker_username" ./buildDockerImage.sh
+
+$ ./docker-runner --buildImage --dockerUserName "your_docker_username"
+
 or
-$ IMAGE_VERSION="x.y.z" ./buildDockerImage.sh [language_id]
+
+$ ./docker-runner --buildImage --language [language_id]
 ```
+
 `[language_id]` - defaults to `java` when not provided. Accepts: `java`, `clojure`, `kotlin`, `scala`
 
 **Push built NLP Java/JVM docker image to Docker hub:**
 
 ```bash
-$ ./push-nlp-java-docker-image-to-hub.sh
+$ ./docker-runner --pushImageToHub
+
 or
-$ DOCKER_USER_NAME="your_docker_username" ./push-nlp-java-docker-image-to-hub.sh
-or
-$ IMAGE_VERSION="x.y.z" ./push-nlp-java-docker-image-to-hub.sh
+
+$ ./docker-runner --pushImageToHub --dockerUserName "your_docker_username"
 ```
 
 The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
