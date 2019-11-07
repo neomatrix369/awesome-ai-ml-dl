@@ -65,7 +65,7 @@ Test score: 2.8183021545410156
 Test accuracy: 0.22212499380111694
 python -W ignore keras-so-posts.py  32.23s user 1.95s system 113% cpu 30.121 total
 ```
-![Running-keras-so-posts-python-program](/uploads/30657440fa5235f175a0f7f94967abfe/Running-keras-so-posts-python-program.gif)
+![Running-keras-so-posts-python-program](Running-keras-so-posts-python-program.gif)
 
 ### Confusion matrix
 
