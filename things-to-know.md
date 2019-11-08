@@ -53,6 +53,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 
   - [What I Learned from Writing a Data Science Article Every Week for a Year](https://towardsdatascience.com/what-i-learned-from-writing-a-data-science-article-every-week-for-a-year-201c0357e0ce?source=search_post---------0)
   - [Why you should be a Generalist first, Specialist later as a Data Scientist?](https://towardsdatascience.com/why-you-should-be-a-generalist-first-specialist-later-as-a-data-scientist-f26d687f8c6)
+  - [Lessons from the deep end of data science slides](https://halfstackdatascience.com/wp-content/uploads/2019/11/Lessons-from-the-deep-end-of-data-science-2019-11-04.pdf) | [halfstackdatascience site](https://halfstackdatascience.com/lessons-from-the-deep-end-of-data-science)
 
 ## Course providers
 
