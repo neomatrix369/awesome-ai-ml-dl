@@ -50,16 +50,69 @@ Startup in traditional JDK or GraalVM mode.
 
 **Go to [the previous folder](../nlp-java-jvm) to find the below scripts.**
 
-- [runInDocker.sh](./runInDocker.sh) - runs the container and brings you to the command prompt inside the container
+- [docker-runner.sh](./runInDocker.sh): can perform a number of the below actions depending on the flags passed to it:
+    - runs the container and brings you to the command prompt inside the container:
+    - build the docker base and language (i.e. java, clojure, kotlin, scala) specific image takes under 5 minutes to finish on a decent connection 
+    - push pre-built docker images to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
+    - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
 - [Base Dockerfile](./images/base/Dockerfile) | [Java Dockerfile](./images/java/Dockerfile): Dockerfile scripts to help build the base and language (i.e. java, clojure, kotlin, scala) specific docker image of NLP Java/JVM in an isolated environment with the necessary dependencies.
 - [images folder](./images) - provided with scripts to build and the scripts included into the container for the base image and language (i.e. java, clojure, kotlin, scala) specific docker image
-- [buildDockerImage.sh](./buildDockerImage.sh): build the docker base and language (i.e. java, clojure, kotlin, scala) specific image takes under 5 minutes to finish on a decent connection
-- [push-nlp-java-docker-image-to-hub.sh](./push-nlp-java-docker-image-to-hub.sh) - push pre-built docker images to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
-- [removeUnusedContainersAndImages.sh](./removeUnusedContainersAndImages.sh) - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
 
 ## Usage
 
-**Setting your environment**
+**Help:**
+
+```bash
+$ ./docker-runner.sh --help
+
+       Usage: ./docker-runner.sh --dockerUserName [docker user name]
+                                 --language [language id]
+                                 --detach
+                                 --jdk [GRAALVM]
+                                 --javaopts [java opt arguments]
+                                 --buildImage
+                                 --runContainer
+                                 --pushImageToHub
+                                 --cleanup
+                                 --help
+
+       --dockerUserName      docker user name as on Docker Hub
+                             (mandatory with build, run and push commands)
+       --language            language id as in java, clojure, scala, etc...
+       --detach              run container and detach from it,
+                             return control to console
+       --jdk                 name of the JDK to use (currently supports 
+                             GRAALVM only, default is blank which 
+                             enables the traditional JDK)
+       --javaopts            sets the JAVA_OPTS environment variable
+                             inside the container as it starts
+       --cleanup             (command action) remove exited containers and
+                             dangling images from the local repository
+       --buildImage          (command action) build the docker image
+       --runContainer        (command action) run the docker image as a docker container
+       --pushImageToHub      (command action) push the docker image built to Docker Hub
+       --help                shows the script usage help text
+```
+
+**Run the NLP Java/JVM docker container:**
+
+```bash
+$ ./docker-runner.sh --runContainer
+
+or
+
+$ ./docker-runner.sh --runContainer --dockerUserName [your docker user name]
+
+or run in GraalVM mode
+
+$ ./docker-runner.sh --runContainer --jdk "GRAALVM"
+
+or run by switching off JVMCI flag (default: on) when running in GRAALVM mode
+
+$ ./runInDocker.sh --javaopts "-XX:-UseJVMCINativeLibrary"
+```
+
+**Build the docker container:**
 
 Ensure your environment has the below variable set, or set it in your `.bashrc` or `.bash_profile` or the relevant startup script:
 
@@ -69,22 +122,6 @@ export DOCKER_USER_NAME="your_docker_username"
 
 You must have an account on Docker hub under the above user name.
 
-**Run the NLP Java/JVM docker container:**
-
-```bash
-$ ./runInDocker.sh
-or
-$ DOCKER_USER_NAME="your_docker_username" ./runInDocker.sh
-or
-or in debug mode
-$ DEBUG="true" ./runInDocker.sh
-or run in GraalVM mode
-$ JDK_TO_USE="GRAALVM" ./runInDocker.sh
-or run by switching off JVMCI flag (default: on)
-$ JAVA_OPTS="-XX:-UseJVMCINativeLibrary" ./runInDocker.sh
-```
-
-**Build the docker container:**
 
 ```bash
 $ ./docker-runner --buildImage

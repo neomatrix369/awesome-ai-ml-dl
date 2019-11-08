@@ -115,6 +115,8 @@ showUsageText() {
        Usage: $0 --dockerUserName [docker user name]
                                  --language [language id]
                                  --detach
+                                 --jdk [GRAALVM]
+                                 --javaopts [java opt arguments]
                                  --buildImage
                                  --runContainer
                                  --pushImageToHub
@@ -126,7 +128,12 @@ showUsageText() {
        --language            language id as in java, clojure, scala, etc...
        --detach              run container and detach from it,
                              return control to console
-       --cleanup             remove exited containers and 
+       --jdk                 name of the JDK to use (currently supports 
+                             GRAALVM only, default is blank which 
+                             enables the traditional JDK)
+       --javaopts            sets the JAVA_OPTS environment variable 
+                             inside the container as it starts
+       --cleanup             (command action) remove exited containers and 
                              dangling images from the local repository
        --buildImage          (command action) build the docker image
        --runContainer        (command action) run the docker image as a docker container
@@ -167,6 +174,7 @@ FULL_DOCKER_TAG_NAME=""
 DOCKER_USER_NAME="${DOCKER_USER_NAME:-}"
 
 WORKDIR=/home/nlp-java
+JDK_TO_USE=""
 
 INTERACTIVE_MODE="--interactive --tty"
 TIME_IT="time"
@@ -188,6 +196,10 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --detach)              INTERACTIVE_MODE="--detach";
                          TIME_IT="";
                          shift;;
+  --jdk)                 JDK_TO_USE="${2:-}";
+                         shift;;
+  --javaopts)            JAVA_OPTS="${2:-}";
+                         shift;;                         
   --buildImage)          buildImage;
                          exit 0;;
   --runContainer)        runContainer;
