@@ -152,6 +152,8 @@ No parameter has been passed. Please see usage below:
 
 #### Person name
 
+Example:
+
 ```bash
 $ ./nameFinder.sh --method person  --text "My name is John"
 ```
@@ -176,6 +178,8 @@ Indicates the name of the person between the <START> and <END> tokens.
 
 #### Location name
 
+Example:
+
 ```bash
 $ ./nameFinder.sh --method location  --text "John lives in Colorado."
 ```
@@ -197,6 +201,8 @@ Indicates the place name between the <START> and <END> tokens.
 
 #### Date names
 
+Example:
+
 ```bash
 $ ./nameFinder.sh --method date  --text "Today is Friday. John was born on November 2019."
 ```
@@ -217,6 +223,8 @@ Execution time: 1.621 seconds
 Indicates the date name between the <START> and <END> tokens.
 
 #### Time names
+
+Example:
 
 ```bash
 $ ./nameFinder.sh --method time  --text "The news if from this morning"
@@ -266,6 +274,8 @@ Indicates the money name between the <START> and <END> tokens.
 
 #### Organization names
 
+Example:
+
 ```bash
 $ ./nameFinder.sh --method organization  --text "The UN is a great organisation."
 ```
@@ -289,6 +299,8 @@ Execution time: 1.840 seconds
 Indicates the organisation name between the <START> and <END> tokens.
 
 #### Percentage names
+
+Example:
 
 ```bash
 $ ./nameFinder.sh --method percentage  --text "It is correct 50 percent of the time"
@@ -336,6 +348,21 @@ No parameter has been passed. Please see usage below:
 ```
 
 Examples:
+
+```bash
+$ ./tokenizer.sh --method simple --text "this-is-worth,tokenising.and,this,is,another,one"
+```
+
+```
+this - is - worth , tokenising . and , this , is , another , one
+
+
+Average: 111.1 sent/s
+Total: 1 sent
+Runtime: 0.009s
+Execution time: 0.233 seconds
+```
+
 ```bash
 $ ./tokenizer.sh --method learnable --text "this-is-worth,tokenising.and,this,is,another,one"
 ```
@@ -354,6 +381,14 @@ Average: 76.9 sent/s
 Total: 1 sent
 Runtime: 0.013s
 Execution time: 0.600 seconds
+```
+
+Similarly a file containing text can be passed in as:
+
+```
+$ ./tokenizer.sh --method simple    --file article.txt
+or 
+$ ./tokenizer.sh --method learnable --file article.txt
 ```
 
 ### Parser 
@@ -392,6 +427,12 @@ Execution time: 7.903 seconds
 
 Check out https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
   to find out what each of the tags mean
+```
+
+Similarly a file containing text can be passed in as:
+
+```
+$ ./parser.sh --file article.txt
 ```
 
 ### Tag parts of speech
@@ -464,6 +505,15 @@ Check out https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos
 
 Parts of speech are prefixed with `_` followed by a two or three letter suffix, see https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html to find out what each of the Parts of Speech mean.
 
+
+Similarly a file containing text can be passed in as:
+
+```
+$ ./posTagger.sh --method maxent     --file article.txt
+or
+$ ./posTagger.sh --method perceptron --file article.txt
+```
+
 ### Chunking
 
 Usage:
@@ -502,6 +552,10 @@ Average: 33.3 sent/s
 Total: 1 sent
 Runtime: 0.03s
 Execution time: 0.935 seconds
+```
+
+```
+$ ./chunker.sh --file article.txt
 ```
 
 ### Docker image on Docker Hub

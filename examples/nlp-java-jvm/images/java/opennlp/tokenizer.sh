@@ -67,7 +67,7 @@ METHOD="simple"
 APACHE_OPENNLP_CMD=""
 setCommand() {
   APACHE_OPENNLP_CMD="${SHARED_FOLDER}/apache-opennlp-${APACHE_OPENNLP_VERSION}/bin/opennlp
-                                                                                  ${METHOD}          
+                                                                                  ${METHOD}
                                                          ${SHARED_FOLDER}/${MODEL_FILENAME}
   "  
 }
@@ -76,6 +76,7 @@ setMethod() {
   METHOD=$(echo ${METHOD} | awk '{print tolower($0)}' || true)
   if [[ "${METHOD}" = "simple" ]]; then
     METHOD=SimpleTokenizer;
+    MODEL_FILENAME=""
   elif [[ "${METHOD}" = "learnable" ]]; then
     METHOD=TokenizerME
     MODEL_FILENAME="${language}-token.bin"
@@ -88,13 +89,15 @@ while [[ "$#" -gt 0 ]]; do case $1 in
                          exit 0;;
   --method)              METHOD="${2:-}";
                          setMethod
-                         setCommand;
                          shift;;
   --text)                PLAIN_TEXT="${2:-}";
-                         echo ${PLAIN_TEXT} | ${APACHE_OPENNLP_CMD};
+                         TMPFILE=$(mktemp)
+                         echo ${PLAIN_TEXT} > ${TMPFILE}
+                         cat ${TMPFILE} | ${SHARED_FOLDER}/apache-opennlp-${APACHE_OPENNLP_VERSION}/bin/opennlp ${METHOD}
+                         rm -f ${TMPFILE}
                          exit 0;;
   --file)                FILENAME="${2:-}";
-                         cat ${FILENAME}    | ${APACHE_OPENNLP_CMD};
+                         cat ${FILENAME}| ${APACHE_OPENNLP_CMD};
                          exit 0;;
   *) echo "Unknown parameter passed: $1";
      showUsageText;

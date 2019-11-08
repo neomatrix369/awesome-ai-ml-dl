@@ -21,7 +21,7 @@ Startup in traditional JDK or GraalVM mode.
 
 ### Java
 - [Standford CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
-- [Apache OpenNLP](https://opennlp.apache.org/) | See **[README](./images/java/opennlp/README.md)**
+- [Apache OpenNLP](https://opennlp.apache.org/) | See **[README](./images/java/opennlp/README.md#apache-opennlp-) for usage and examples**
 - [NLP4J: NLP Toolkit for JVM Languages](https://emorynlp.github.io/nlp4j/)
 - [Word2vec in Java](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec)
 - [ReVerb: Web-Scale Open Information Extraction](https://github.com/knowitall/reverb/)

@@ -66,8 +66,8 @@ buildImage() {
 	             "${IMAGES_DIR}/${language_id}/."
 	echo "* Finished building NLP ${language_id} docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
 	
-	pushImageToHub
 	cleanup
+	pushImageToHub
 }
 
 pushImage() {
