@@ -34,6 +34,10 @@ downloadParserModel() {
 
 showUsageText() {
     cat << HEREDOC
+       Parse a line of text or an article and identify groups of words or 
+       phrases that go together (see Penn Treebank tag set 
+       (https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) 
+       for legend of token types), also see https://nlp.stanford.edu/software/lex-parser.shtml.
 
        Usage: $0 --text [text]
                  --file [path/to/filename]

@@ -34,6 +34,7 @@ downloadSentenceModel() {
 
 showUsageText() {
     cat << HEREDOC
+       Detecting sentences in a single line text or article.
 
        Usage: $0 --text [text]
                  --file [path/to/filename]

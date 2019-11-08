@@ -34,6 +34,11 @@ downloadChunkerModel() {
 
 showUsageText() {
     cat << HEREDOC
+       Text chunking by dividing a text or an article into syntactically 
+       correlated parts of words, like noun groups, verb groups. You apply 
+       this feature on the tagged parts of speech text or article. Apply 
+       chunking on a text already tagged by PoS tagger. Also see 
+       https://nlpforhackers.io/text-chunking/.    
 
        Usage: $0 --text [text]
                  --file [path/to/filename]

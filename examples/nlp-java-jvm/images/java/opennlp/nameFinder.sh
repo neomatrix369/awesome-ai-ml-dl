@@ -34,6 +34,8 @@ downloadNameFinderModel() {
 
 showUsageText() {
     cat << HEREDOC
+       Finding person name, organisation name, date, time, money, location, 
+       percentage information in a single line text or article.
 
        Usage: $0 --method [ person | location | date | time | money | organization | percentage ]
                  --text [text]

@@ -1,6 +1,4 @@
-# Apache OpenNLP [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) 
+# Apache OpenNLP [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) 
 
 Run a docker container with Apache OpenNLP written in Java, running under the traditional Java 8 (from OpenJDK or another source) or GraalVM.
 
@@ -19,12 +17,12 @@ Startup in traditional JDK or GraalVM mode.
 **Go to [the previous folder](../opennlp) to find the below scripts.**
 
 - [opennlp.sh](./opennlp.sh): download and install the Apache OpenNLP tool into the `shared` folder
-- [detectLanguage.sh](./detectLanguage.sh): Detecting language in a single line text or article (see legend of language abbreviations used).
+- [detectLanguage.sh](./detectLanguage.sh): Detecting language in a single line text or article (see [legend of language abbreviations](https://www.apache.org/dist/opennlp/models/langdetect/1.8.3/README.txt) used).
 - [detectSentence.sh](./detectSentence.sh): Detecting sentences in a single line text or article.
 - [nameFinder.sh](./nameFinder.sh): Finding person name, organization name, date, time, money, location, percentage information in a single line text or article.
 - [tokenizer.sh](./tokenizer.sh): Tokenise a line of text or an article into it’s smaller components (i.e. words, punctuation, numbers).
-- [parser.sh](./parser.sh): Parse a line of text or an article and identify groups of words or phrases that go together (see Penn Treebank tag set for legend of token types).
-- [posTagger.sh](./posTagger.sh): Tag parts of speech of each token in a line of text or an article (see Penn Treebank tag set for legend of token types), also see https://nlp.stanford.edu/software/tagger.shtml.
+- [parser.sh](./parser.sh): Parse a line of text or an article and identify groups of words or phrases that go together (see [Penn Treebank tag set](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) for legend of token types).
+- [posTagger.sh](./posTagger.sh): Tag parts of speech of each token in a line of text or an article (see [Penn Treebank tag set](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) for legend of token types), also see https://nlp.stanford.edu/software/tagger.shtml.
 - [chunker.sh](./chunker.sh): Text chunking by dividing a text or an article into syntactically correlated parts of words, like noun groups, verb groups. You apply this feature on the tagged parts of speech text or article. Apply chunking on a text already tagged by PoS tagger. Also see https://nlpforhackers.io/text-chunking/.
 
 All the above check if the respective model(s) exist and downloads them accordingly into the `shared` folder.

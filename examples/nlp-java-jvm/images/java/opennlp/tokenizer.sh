@@ -34,7 +34,8 @@ downloadTokeniseModel() {
 
 showUsageText() {
     cat << HEREDOC
-
+       Tokenise a line of text or an article into it’s smaller components (i.e. words, punctuation, numbers).
+       
        Usage: $0 --method [ simple | learnable ]
                  --text [text]
                  --file [path/to/filename]

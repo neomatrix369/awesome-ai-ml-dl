@@ -35,7 +35,8 @@ downloadLanguageModel() {
 
 showUsageText() {
     cat << HEREDOC
-
+       Detecting language in a single line text or article
+       
        Usage: $0 --text [text]
                  --file [path/to/filename]
                  --help

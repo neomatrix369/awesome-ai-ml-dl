@@ -35,6 +35,10 @@ downloadPosTaggerModel() {
 
 showUsageText() {
     cat << HEREDOC
+       Tag parts of speech of each token in a line of text or an article 
+       (see Penn Treebank tag set 
+       (https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html) 
+       also see https://nlp.stanford.edu/software/tagger.shtml.
 
        Usage: $0 --method [ maxent | perceptron ]
                  --text [text]
