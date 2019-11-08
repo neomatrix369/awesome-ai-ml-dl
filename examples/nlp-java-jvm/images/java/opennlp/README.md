@@ -560,6 +560,54 @@ $ ./chunker.sh --file article.txt
 
 Find the [NLP Java/JVM Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/nlp-java). The `docker-runner.sh --pushImageToHub` script pushes the image to the Docker hub and the `docker-runner.sh --runContainer` script runs it from the local repository. If absent, in the the local repository, it downloads this image from Docker Hub.
 
+## Resources
+
+**Apache OpenNLP**
+
+- [Apache OpenNLP](https://opennlp.apache.org/) | [GitHub](https://github.com/apache/opennlp) | [Mailing list](https://opennlp.apache.org/mailing-lists.html)
+- Docs
+    - https://opennlp.apache.org/docs/
+    - [Apache OpenNLP Tools Javadoc](https://opennlp.apache.org/docs/1.9.1/apidocs/opennlp-tools/index.html)
+    - Manual
+        - https://opennlp.apache.org/docs/1.9.1/manual/opennlp.html
+- Download
+    - Apache OpenNLP Jar/binary
+        - https://opennlp.apache.org/download.html
+    - Model Zoo
+        - https://opennlp.apache.org/models.html
+        - http://www.mirrorservice.org/sites/ftp.apache.org/opennlp/models/langdetect/1.8.3/langdetect-183.bin
+        - Older models to support the examples in the docs
+            - http://opennlp.sourceforge.net/models-1.5/ 
+- Legend to support the examples in the docs
+    - List of languages: https://www.apache.org/dist/opennlp/models/langdetect/1.8.3/README.txt
+    - [Penn Treebank tag set](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
+
+**Other** **NLP Java/JVM libraries**
+
+- [Standford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) (GPL v2)
+- [NLP4J: NLP Toolkit for JVM Languages](https://emorynlp.github.io/nlp4j/)
+- [Word2vec in Java](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec) (DL4J)
+- [ReVerb: Web-Scale Open Information Extraction](https://github.com/knowitall/reverb/) 
+- [OpenRegex: An efficient and flexible token-based regular expression language and engine](https://github.com/knowitall/openregex) 
+- [CogcompNLP: Core libraries developed in the U of Illinois' Cognitive Computation Group](https://github.com/datquocnguyen/RDRPOSTagger)
+- [MALLET - MAchine Learning for LanguagE Toolkit](http://mallet.cs.umass.edu/)
+- [RDRPOSTagger - A robust POS tagging toolkit available (in both Java & Python) together with pre-trained models for 40+ languages.](https://github.com/datquocnguyen/RDRPOSTagger)
+- [Awesome AI/ML/DL resources](https://github.com/neomatrix369/awesome-ai-ml-dl/)
+    - [Java AI/ML/DL resources](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#java)
+        - [Deep Learning and DL4J Resources](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#deep-learning)
+        - **Awesome AI/ML/DL:** [NLP resources](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/natural-language-processing#natural-language-processing-nlp)
+        - **DL4J NLP resources**
+            - [Language processing](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-overview)
+                - [ND4J backends for GPUs and CPUs](https://deeplearning4j.org/docs/latest/deeplearning4j-config-gpu-cpu)
+                - [How the Vocab Cache Works](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-vocabulary-cache)
+                - [Word2Vec, Doc2vec & GloVe: Neural Word Embeddings for Natural Language Processing](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec)
+                - [Doc2Vec, or Paragraph Vectors, in Deeplearning4j](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-doc2vec)
+                - [Sentence iterator](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-sentence-iterator)
+                - [What is Tokenization?](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-tokenization)
+            - Examples
+                - https://github.com/eclipse/deeplearning4j-examples/tree/master/dl4j-examples
+                - https://github.com/eclipse/deeplearning4j/tree/master/deeplearning4j/deeplearning4j-nlp-parent
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
