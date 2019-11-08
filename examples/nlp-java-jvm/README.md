@@ -2,7 +2,7 @@
 
 NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala)
 
-Run a docker container with NLP libraries/frameworks writting in Java/JVM languages, running under the traditional Java 8 (from OpenJDK or another source) or GraalVM.
+Run a docker container with NLP libraries/frameworks written in Java/JVM languages, running under the traditional Java 8 (from OpenJDK or another source) or GraalVM.
 
 Find out more about [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) from the [NLP section](../../natural-language-processing/README.md#natural-language-processing-nlp) section.
 
@@ -109,7 +109,7 @@ $ ./docker-runner.sh --runContainer --jdk "GRAALVM"
 
 or run by switching off JVMCI flag (default: on) when running in GRAALVM mode
 
-$ ./runInDocker.sh --javaopts "-XX:-UseJVMCINativeLibrary"
+$ ./docker-runner.sh --javaopts "-XX:-UseJVMCINativeLibrary"
 ```
 
 **Build the docker container:**
@@ -151,7 +151,7 @@ The above will prompt the docker login name and password, before it can push you
 
 **Docker image on Docker Hub**
 
-Find the [NLP Java/JVM Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/nlp-java). The `push-nlp-java-docker-image-to-hub.sh` script pushes the image to the Docker hub and the `runInDocker.sh` script runs it from the local repository. If absent, in the the local repository, it downloads this image from Docker Hub.
+Find the [NLP Java/JVM Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/nlp-java). The `docker-runner.sh --pushImageToHub` script pushes the image to the Docker hub and the `docker-runner.sh --runContainer` script runs it from the local repository. If absent, in the the local repository, it downloads this image from Docker Hub.
 
 # Contributing
 

@@ -35,11 +35,11 @@ downloadNameFinderModel() {
 showUsageText() {
     cat << HEREDOC
 
-       Usage: $0 --method [ person | location | date | time | money | organisation | percentage ]
+       Usage: $0 --method [ person | location | date | time | money | organization | percentage ]
                  --text [text]
                  --file [path/to/filename]
                  --help
-       --method    [ person | location | date | time | money | organisation | percentage ]
+       --method    [ person | location | date | time | money | organization | percentage ]
                      person       - find name of persons in text
                      location     - find location names in text
                      date         - find dates mentioned in text
@@ -79,7 +79,7 @@ setCommand() {
 }
 
 checkMethod() {
-  VALID_METHODS="|person|location|date|time|money|organisation|percentage|"
+  VALID_METHODS="|person|location|date|time|money|organization|percentage|"
   FOUND_METHOD=$(echo ${VALID_METHODS} | grep "${METHOD:-}" || true)
   if [[ -z "${METHOD:-}" ]] || [[ -z "${FOUND_METHOD:-}"  ]]; then
     echo "Method type not specified or invalid method specified. Please refer to the usage text."; 
