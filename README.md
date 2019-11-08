@@ -26,7 +26,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Correlated Cross Occurrence](./details/java-jvm.md#correlated-cross-occurrence)
     - [Genetic Algorithms](./details/java-jvm.md#genetic-algorithms)
     - [Java projects / related technologies](./details/java-jvm.md#java-projects--related-technologies)
-    - [Natural Language Processing (NLP)](./details/java-jvm.md#natural-language-processing-nlp)
+    - [Natural Language Processing (NLP)](./natural-language-processing/java-jvm.md#javajvm)
     - [Neural Networks](./details/java-jvm.md#neural-networks)
  	    - Convolutional Neural Networks (CNN)
  	    - Long Short Term Memory (LSTM)
