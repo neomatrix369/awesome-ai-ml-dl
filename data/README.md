@@ -71,7 +71,7 @@ See [Statistics.md](statistics.md#statistics)
 
 ## Visualisation
 
-See [Visualisation](../README-details.md#visualisation-1)
+See [Visualisation](../details/visualisation.md#visualisation)
 
 ## Common mistakes when training models (data related)
 
