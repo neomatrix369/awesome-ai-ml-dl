@@ -87,7 +87,7 @@ See [Visualisation](../details/visualisation.md#visualisation)
 
 ## Cheatsheets
 
-See under [Cheatsheets](../README-details.md#cheatsheets)
+See under [Cheatsheets](../details/cheatsheets.md#cheatsheets)
 
 ## Courses / books
 
