@@ -50,7 +50,7 @@ Startup in traditional JDK or GraalVM mode.
 
 **Go to [the previous folder](../nlp-java-jvm) to find the below scripts.**
 
-- [docker-runner.sh](./runInDocker.sh): can perform a number of the below actions depending on the flags passed to it:
+- [docker-runner.sh](./docker-runner.sh): can perform a number of the below actions depending on the flags passed to it:
     - runs the container and brings you to the command prompt inside the container:
     - build the docker base and language (i.e. java, clojure, kotlin, scala) specific image takes under 5 minutes to finish on a decent connection 
     - push pre-built docker images to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
