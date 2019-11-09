@@ -7,6 +7,13 @@
 - [Gun: A realtime, decentralized, offline-first, mutable graph database engine](https://github.com/amark/gun)
 - [Cayley: An open-source graph database](https://github.com/cayleygraph/cayley)
 
+### Redis modules
+- [neural-redis](https://github.com/antirez) - Online trainable neural networks as Redis data types
+- [RedisML](https://github.com/RedisLabs) -  Machine Learning Model Server, also see [shaynativ](https://github.com/shaynativ)
+- [RedisTimeSeries](https://github.com/danni-m) - Time-series data structure for redis
+- [RedisAI](https://github.com/lantiga) - A Redis module for serving tensors and executing deep learning graphs
+- [(many other related modules)](https://redis.io/modules)
+
 ### Time-series databases
 - [Time-scale](https://www.timescale.com/)
 - [kdb+](https://en.wikipedia.org/wiki/Kdb%2B) - is a column-based relational time series database (TSDB) with in-memory (IMDB) abilities, developed and marketed by [Kx Systems](https://kx.com/)
