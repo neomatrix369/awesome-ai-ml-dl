@@ -562,7 +562,7 @@ Find the [NLP Java/JVM Docker Image on Docker Hub](https://hub.docker.com/r/neom
 
 ## Resources
 
-**Apache OpenNLP**
+### Apache OpenNLP
 
 - [Apache OpenNLP](https://opennlp.apache.org/) | [GitHub](https://github.com/apache/opennlp) | [Mailing list](https://opennlp.apache.org/mailing-lists.html)
 - Docs
@@ -582,7 +582,7 @@ Find the [NLP Java/JVM Docker Image on Docker Hub](https://hub.docker.com/r/neom
     - List of languages: https://www.apache.org/dist/opennlp/models/langdetect/1.8.3/README.txt
     - [Penn Treebank tag set](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html)
 
-**Other** **NLP Java/JVM libraries**
+### Other NLP Java/JVM libraries
 
 - [Standford CoreNLP](https://stanfordnlp.github.io/CoreNLP/) (GPL v2)
 - [NLP4J: NLP Toolkit for JVM Languages](https://emorynlp.github.io/nlp4j/)
@@ -592,21 +592,22 @@ Find the [NLP Java/JVM Docker Image on Docker Hub](https://hub.docker.com/r/neom
 - [CogcompNLP: Core libraries developed in the U of Illinois' Cognitive Computation Group](https://github.com/datquocnguyen/RDRPOSTagger)
 - [MALLET - MAchine Learning for LanguagE Toolkit](http://mallet.cs.umass.edu/)
 - [RDRPOSTagger - A robust POS tagging toolkit available (in both Java & Python) together with pre-trained models for 40+ languages.](https://github.com/datquocnguyen/RDRPOSTagger)
-- [Awesome AI/ML/DL resources](https://github.com/neomatrix369/awesome-ai-ml-dl/)
-    - [Java AI/ML/DL resources](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#java)
-        - [Deep Learning and DL4J Resources](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#deep-learning)
-        - **Awesome AI/ML/DL:** [NLP resources](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/natural-language-processing#natural-language-processing-nlp)
-        - **DL4J NLP resources**
-            - [Language processing](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-overview)
-                - [ND4J backends for GPUs and CPUs](https://deeplearning4j.org/docs/latest/deeplearning4j-config-gpu-cpu)
-                - [How the Vocab Cache Works](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-vocabulary-cache)
-                - [Word2Vec, Doc2vec & GloVe: Neural Word Embeddings for Natural Language Processing](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec)
-                - [Doc2Vec, or Paragraph Vectors, in Deeplearning4j](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-doc2vec)
-                - [Sentence iterator](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-sentence-iterator)
-                - [What is Tokenization?](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-tokenization)
-            - Examples
-                - https://github.com/eclipse/deeplearning4j-examples/tree/master/dl4j-examples
-                - https://github.com/eclipse/deeplearning4j/tree/master/deeplearning4j/deeplearning4j-nlp-parent
+
+### [Awesome AI/ML/DL resources](https://github.com/neomatrix369/awesome-ai-ml-dl/)
+  * [Java AI/ML/DL resources](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#java)
+      * [Deep Learning and DL4J Resources](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/README-details.md#deep-learning)
+      * **Awesome AI/ML/DL:** [NLP resources](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/natural-language-processing#natural-language-processing-nlp)
+      * **DL4J NLP resources**
+          * [Language processing](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-overview)
+              * [ND4J backends for GPUs and CPUs](https://deeplearning4j.org/docs/latest/deeplearning4j-config-gpu-cpu)
+              * [How the Vocab Cache Works](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-vocabulary-cache)
+              * [Word2Vec, Doc2vec & GloVe: Neural Word Embeddings for Natural Language Processing](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec)
+              * [Doc2Vec, or Paragraph Vectors, in Deeplearning4j](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-doc2vec)
+              * [Sentence iterator](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-sentence-iterator)
+              * [What is Tokenization?](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-tokenization)
+          * Examples
+              * https://github.com/eclipse/deeplearning4j-examples/tree/master/dl4j-examples
+              * https://github.com/eclipse/deeplearning4j/tree/master/deeplearning4j/deeplearning4j-nlp-parent
 
 # Contributing
 
