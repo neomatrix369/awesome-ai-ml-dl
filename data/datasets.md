@@ -26,6 +26,9 @@
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 - [Google Research: A large-scale dataset of manually annotated audio events](https://research.google.com/audioset/index.html)
 
+## Courses
+
+See [Courses](../courses.md#courses)
 
 # Contributing
 

@@ -67,18 +67,17 @@
   - Intel
     - [Intel® Developer Zone](https://software.intel.com/en-us/home)
     - [Intel® AI Developer Home Page](https://software.intel.com/en-us/ai)
-    - [Intel® AI Courses](https://software.intel.com/en-us/ai/courses)
-    - [Featured Course: AI from the Data Center to the Edge – An Optimized Path using Intel® Architecture](https://software.seek.intel.com/DataCenter_to_Edge_REG)
     - [Intel® AI Developer Webinar Series](https://software.seek.intel.com/AIWebinarSeries?registration_source=IDZ) | [All webinars listing](https://intelvs.on24.com/vshow/IntelWebinarEvents/#content/2033414)
     - The PlaidML Tensor Compiler - [webinar](https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?&eventid=2026509&sessionid=1&username=&partnerref=&format=fhaudio&mobile=false&flashsupportedmobiledevice=false&helpcenter=false&key=B27628973F7FA8B9758983E373E36ED1&text_language_id=en&playerwidth=1000&playerheight=700&overwritelobby=y&eventuserid=246511746&contenttype=A&mediametricsessionid=207230377&mediametricid=2857349&usercd=246511746&mode=launch)
     - nGraph - Unlocking next-generation performance with deep learning compilers: [webinar](https://intelvs.on24.com/vshow/IntelWebinarEvents/#content/2033414) | [slides](https://event.on24.com/event/20/33/41/2/rt/1/documents/resourceList1565185524584/s_ngraphwebinar1565185512750.pdf) | [homepage](https://www.ngraph.ai/) | [github](https://github.com/NervanaSystems/ngraph)
+    - Also see [Intel](../courses.md#intel) in [Courses](../courses.md#courses)
  
  _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
 
 ## FPGA
 
-  - [Intel AI Developer Program - Deep Learning Inference With Intel® FPGAs](https://software.intel.com/en-us/ai/courses/deep-learning-inference-fpga)
   - [Using FPGAs for Datacenter Acceleration](https://event.on24.com/eventRegistration/EventLobbyServlet?target=lobby20.jsp&eventid=2033432&sessionid=1&eventuserid=246511756&key=8678836B54A84876D7338D7BF7F87B88) | [Windows AI](https://docs.microsoft.com/en-us/windows/ai/) | [Intel® Distribution of OpenVINO™ Toolkit: Develop Multiplatform Computer Vision Solutions](https://software.intel.com/en-us/openvino-toolkit)
+  - Also see [FPGA](../courses.md#fpga) in [Courses](../courses.md#courses)
 
 ## GPU
 

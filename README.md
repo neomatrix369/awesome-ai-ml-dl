@@ -19,6 +19,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Artificial Intelligence](README-details.md#artificial-intelligence)
   - [Automation](README-details.md#automation)
   - [Competitions](competitions.md)
+  - [Courses](courses.md)
   - [Ethics / altruistic motives](README-details.md#ethics--altruistic-motives)
   - [Java](./details/java-jvm.md#java)
     - [Business / General / Semi-technical](./details/java-jvm.md#business--general--semi-technical)

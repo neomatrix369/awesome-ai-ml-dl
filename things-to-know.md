@@ -8,6 +8,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Media sources](#media-sources)
 - [Useful blogs to read](#useful-blogs-to-read)
 - [Course providers](#course-providers)
+- [Courses](#courses)
 - [Primary tools to analyse data](#primary-tools-to-analyse-data)
 - [IDEs](#ides)
 - [Hosted Notebook products](#hosted-notebook-products)
@@ -75,6 +76,10 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Udemy](http://Udemy.com)
 - University Courses
 - [Kaggle Courses (Kaggle Learn)](https://www.kaggle.com/learn/overview)
+
+## Courses
+
+See [Courses](./courses.md#courses)
 
 ## Primary tools to analyse data
 

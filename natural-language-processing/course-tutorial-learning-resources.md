@@ -3,11 +3,10 @@
 - [Introductory: NLP for hackers](https://nlpforhackers.io/deep-learning-introduction/)
 - [Intermediate (by Jason Brownlee): Applications of Deep Learning for NLP](https://machinelearningmastery.com/applications-of-deep-learning-for-natural-language-processing/)
 - [Learn Natural Language Processing: From Beginner to Expert](https://www.commonlounge.com/discussion/c1f472553ece4d68bad9bd423fb775cf)
-- [How to Get Started with Deep Learning for Natural Language Processing (7-Day Mini-Course)](https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/)
 - [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
 - [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
 - [A framework for dialog research + datasets](https://parl.ai/)
-
+- See [Natural Language Processing (NLP)](../courses.md#naturallanguageprocessing-nlp) in [Courses](../courses.md#courses)
 
 # Contributing
 

@@ -109,7 +109,6 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 ## Machine Learning
 
 - [ML for Java Developers](https://www.itworld.com/article/3224505/application-development/machine-learning-for-java-developers.html)
-- [ML for Java Developers Course](http://numahub.com/courses/machine-learning-java-developers)
 - [Java ML Dev Videos on YouTube: Naive Bayes w/ JAVA - Tutorial 01](https://www.youtube.com/watch?v=mrP4CyW4tKA&frags=pl%2Cwn)
 - Java ML Framework: [1](https://github.com/datumbox/datumbox-framework) [2](http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/)
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
@@ -117,6 +116,7 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
+- See [Java/JVM](../courses.md#javajvm) in [Courses](../courses.md)
 - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
 - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
@@ -145,7 +145,6 @@ Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/da
   - [Best AI tools and libraries](https://skymind.ai/wiki/automl-automated-machine-learning-ai) ([Tweet](https://twitter.com/java/status/1069459966740836352))
   - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)  ([Tweet](https://twitter.com/java/status/931070584896741377))
   - [Free AI Learning Resources For Beginners](https://www.analyticsindiamag.com/here-are-free-ai-learning-resources-for-beginners/) ([Twitter](https://twitter.com/java/status/1013776554868891648))
-  - [Check out 50 most popular massive open online courses](https://www.onlinecoursereport.com/the-50-most-popular-moocs-of-all-time/) ([Tweet](https://twitter.com/java/status/984844161969983489))
   - [Learn about Marvin AI a set of tools, libraries, an embedded server that exposes microservices](https://www.youtube.com/watch?v=M5_yQCRIftw&feature=youtu.be&t=2m31s) ([Tweet](https://twitter.com/java/status/1040980810231250944))
   - [Apache Zeppelin: stairway to notes* haven!](https://medium.com/@neomatrix369/apache-zeppelin-stairway-to-notes-haven-28ec413a185a)
   - [Teaching Java with Jupyter notebooks](https://blog.frankel.ch/teaching-java-jupyter-notebooks/)

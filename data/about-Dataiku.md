@@ -15,7 +15,7 @@
 - Example: [how Dataiku DSS can be run on GraalVM for performance benefits](../examples/data/dataiku#dataiku-data-science-studio-dss) | [folder](../examples/data/dataiku)
 - Additional useful resources for learning and exploration
   - [User Enablement resources](https://pages.dataiku.com/dataiku-dss-user-enablement)
-  - [Dataiku Teachable](http://dataiku.teachable.com/courses)
+  - See [Dataiku](../courses.md#dataiku) under [Courses](../courses.md#course)
   - [Dataiku YouTube Channel](https://www.youtube.com/channel/UCSMqVwPTmerMiCaL_zKRjBw)
   - [Dataiku Academy](https://academy.dataiku.com/5.1/)
   - [Dataiku Learn](https://www.dataiku.com/learn/) | [Tutorials](https://www.dataiku.com/learn/portals/tutorials.html) | [Dataiku ML: Your First Deep Learning Model](https://academy.dataiku.com/latest/tutorial/machine-learning/deep-learning-first.html) | [Dataiku: Machine Learning](https://academy.dataiku.com/latest/tutorial/machine-learning/skills.html)

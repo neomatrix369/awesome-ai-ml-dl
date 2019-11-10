@@ -5,7 +5,7 @@
     - [Understanding statistical inference [video]](https://www.youtube.com/watch?v=tFRXsngz4UQ)
     - [Four ideas of Statistical Inference](http://www.bristol.ac.uk/medical-school/media/rms/red/4_ideas_of_statistical_inference.html)
     - [An Introduction to Statistical Learning [book]](http://www-bcf.usc.edu/~gareth/ISL/)
-    - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
+    - See [Statistics courses](../courses.md#statistics) under [Courses](../courses.md#courses)
 - [Understand Your Machine Learning Data With Descriptive Statistics in Python](https://machinelearningmastery.com/understand-machine-learning-data-descriptive-statistics-python/)
 - [How to Use Statistics to Identify Outliers in Data](https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/)
 - [Applying Physics functions](../presentations/data/Trackener-physics-functions-usage-example.pptx)
@@ -13,7 +13,7 @@
 - [Naked statistics](http://www.nakedstatistics.com/) | [Book on Amazon](https://www.amazon.com/Naked-Statistics-Stripping-Dread-Data/dp/1480590185) [Naked statistics flash cards](https://quizlet.com/90835490/naked-statistics-flash-cards/) | [Summary by Daniel Miessler](https://danielmiessler.com/projects/reading/summary-naked-statistics/)
 - [Cartoon Guide to Statistics (Cartoon Guide Series)](https://www.amazon.co.uk/Cartoon-Guide-Statistics/dp/0062731025/ref=sr_1_1?hvadid=80814136501810&hvbmt=bb&hvdev=c&hvqmt=b&keywords=cartoon+guide+statistics&qid=1556047351&s=gateway&sr=8-1)
 - [Journal of Statistical Software - TidyData](https://www.jstatsoft.org/article/view/v059i10/)
-- Statistics courses at [Coursera](https://www.coursera.org/courses?query=statistics&) | [Udemy](https://www.udemy.com/courses/search/?src=ukw&q=statistics) | [Udacity](https://eu.udacity.com/courses/all) - search for `Statistics` | Harvard University: [Statistics 110](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) | [more videos on their YouTube channel](https://www.youtube.com/user/Harvard/search?query=statistics) | [Stanford University](https://online.stanford.edu/courses?keywords=statistics)
+- See [Statistics courses](../courses.md#statistics) under [Courses](../courses.md#courses)
 - [15 Statistical Hypothesis Tests in Python (Cheat Sheet)](https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-sheet/?fbclid=IwAR102PXBzIdx8g8zejg9ssE7at8jrnyfAtiT95Rp8flo98p8qEFBho5HOG0)
 - [Statistics cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1573030800&v=beta&t=11ugKu44wK--uA9WG98V_r6_LY_xu6I8Y-YSaM1BOsQ)
 - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics

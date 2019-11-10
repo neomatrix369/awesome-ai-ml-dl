@@ -39,6 +39,10 @@
 
 - [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
 
+## Courses
+
+See **Python: Best practices** and **Python: Testing** under [Courses](./courses.md#course)
+
 ## Cheatsheets
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - [PySheee: Python Cheatsheet](https://www.pythonsheets.com/)
@@ -96,7 +100,6 @@
 - [Python String Formatting Best Practices](https://realpython.com/python-string-formatting/)
 - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839)
 - [Dmitry Mugtasimov's Python software development practices](https://dmugtasimov-tech.blogspot.com/2016/12/my-python-software-development-practices.html)
-- [Pluralsight: Python Best Practices for Code Quality](https://www.pluralsight.com/courses/python-best-practices-code-quality)
 - [SO: Python coding standards/best practices](https://stackoverflow.com/questions/356161/python-coding-standards-best-practices)
 - [Python Best Practices: 5 Tips For Better Code - Airbrake Blog](https://airbrake.io/blog/python/python-best-practices)
 - [Python tutorial: Best practices and common mistakes to avoid](https://jaxenter.com/python-tutorial-best-practices-145959.html)
@@ -116,7 +119,6 @@
 - [Testing Python Applications with Pytest](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest)
 - [An Introduction to Mocking in Python](https://www.toptal.com/python/an-introduction-to-mocking-in-python)
 - [PyCharm: Testing Your First Python Application](https://www.jetbrains.com/help/pycharm/testing-your-first-python-application.html)
-- [Udemy Course: Automated Software Testing with Python](https://www.udemy.com/automated-software-testing-with-python/)
 - [unittest — Unit testing framework](https://docs.python.org/2/library/unittest.html)
 
 ## Refactoring
