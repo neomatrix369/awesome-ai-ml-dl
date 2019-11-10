@@ -57,6 +57,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
     - [Programming in Python](Programming-in-Python.md)
     - [More...](./details/julia-python-and-r.md#more)
   - [JavaScript](README-details.md#javascript)
+  - [Guides](guides.md#guides)
   - [Swift for TensorFlow](https://www.tensorflow.org/swift/) - next generation platform for deep learning and differentiable programming
   - **[Things to know...](./things-to-know.md)**
   - [Mathematica](./details/mathematica-wolfram-Language.md#mathematica--wolfram-language)
