@@ -31,6 +31,8 @@ runContainer() {
 
 	echo "Running container ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"; echo ""
 
+	mkdir -p shared/notebooks
+
 	set -x
 	${TIME_IT} docker run --rm                                  \
                 ${INTERACTIVE_MODE}                             \
