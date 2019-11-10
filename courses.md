@@ -2,7 +2,7 @@
 
 ## Algorithms
 
-- [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI)
+- [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI) | [2](https://www.coursera.org/browse/computer-science/algorithms)
 
 ## Datacamp
 
@@ -16,7 +16,7 @@
 
 - [Data Science Primer](https://elitedatascience.com/primer)
 - [Coursera course: Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning?recoOrder=20&utm_medium=email&utm_source=recommendations&utm_campaign=u0faoCsqEemEkbug8nMVQQ)
-- [Data Science courses on Coursera](https://www.coursera.org/learn/competitive-data-science)
+- [Data Science courses on Coursera](https://www.coursera.org/learn/competitive-data-science) | [2](https://www.coursera.org/browse/data-science)
 - [Data courses on Udemy](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=data)
 - [Data courses on Udacity](https://eu.udacity.com/courses/school-of-data-science)
 - [Latest Machine learning, visualization, data mining techniques. Online Masters in Data Analytic from Penn State](https://twitter.com/analyticbridge/status/1102667686302179336)
@@ -71,6 +71,34 @@
     - [Introduction to ML](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE3Q7NN7/bloomberg_class_3.pdf)
 - [Course material by Students of AI (Imperial College, London)](https://github.com/Students-for-AI/The-Academy-of-AI)
 - [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
+- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+    - https://www.youtube.com/watch?v=aircAruvnKk 
+    - https://www.youtube.com/watch?v=IHZwWFHWa-w
+    - https://www.youtube.com/watch?v=Ilg3gGewQ5U
+- [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)
+- [The Coding Train](https://www.youtube.com/user/shiffman)\
+    - [Neural Networks and Machine Learning](https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=16)
+    - [The Nature of Code: Simulating Natural Systems with Processing](https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=6)
+    - [Runway: Machine Learning for Creators](https://www.youtube.com/watch?v=ARnf4ilr9Hc&list=PLRqwX-V7Uu6aBhR9QrBIsyybrnK7MCcYU)
+    - [Session 12: word2vec - Programming with Text](https://www.youtube.com/watch?v=LSS_bos_TPI&list=PLRqwX-V7Uu6aQ0oh9nH8c6U1j9gCg-GdF)
+    - [Machine Learning with TensorFlow, ml5.js, and Spell](https://www.youtube.com/watch?v=ggBOAPtFjYU&list=PLRqwX-V7Uu6Y6kSfxOjq5zk4gkDK8q_n1)
+    - [Session 5 - Doodle Classifier - Intelligence and Learning](https://www.youtube.com/watch?v=pqY_Tn2SIVA&list=PLRqwX-V7Uu6Zs14zKVuTuit6jApJgoYZQ)
+    - [Session 6 - TensorFlow.js - Intelligence and Learning](https://www.youtube.com/watch?v=Qt3ZABW5lD0&list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ)
+    - [Session 7 - TensorFlow.js Color Classifier - Intelligence and Learning](https://www.youtube.com/watch?v=y59-frfKR58&list=PLRqwX-V7Uu6bmMRCIoTi72aNWHo7epX4L)
+    - [11: Neuroevolution - The Nature of Code](https://www.youtube.com/watch?v=lu5ul7z4icQ&list=PLRqwX-V7Uu6Yd3975YwxrR0x40XGJ_KGO)
+- [coursera](https://www.coursera.org/)
+- [ML Crash course by Google](https://developers.google.com/machine-learning/crash-course/prereqs-and-prework)
+- [ML Recipes course by Josh Gordon](https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal)
+  - [Week 1](https://www.youtube.com/watch?v=cKxRvEZd3Mw)
+  - [Week 2](https://www.youtube.com/watch?v=tNa99PG8hR8)
+  - [Week 3](https://www.youtube.com/watch?v=N9fDIAflCMY)
+  - [Week 4](https://www.youtube.com/watch?v=84gqSbLcBFE)
+  - [Week 5](https://www.youtube.com/watch?v=AoeEHqVSNOw)
+  - [Week 6](https://www.youtube.com/watch?v=cSKfRcEDGUs)
+  - [Week 7](https://www.youtube.com/watch?v=Gj0iyo265bc)
+  - [Week 8](https://www.youtube.com/watch?v=LDRbO9a6XPU)
+  - [Week 9](https://www.youtube.com/watch?v=d12ra3b_M-0)
+  - [Week 10](https://www.youtube.com/watch?v=TF1yh5PKaqI)
 
 ### Java/JVM
 - [ML for Java Developers Course](http://numahub.com/courses/machine-learning-java-developers)

@@ -89,6 +89,24 @@
 ## TPU
 
   - [How to harness the Powers of the Cloud TPU](https://medium.com/bitgrit-data-science-publication/how-to-harness-the-powers-of-the-cloud-tpu-3939dc363d9f)
+  - [How-tos](https://cloud.google.com/tpu/docs/how-to)
+  - [All tutorials](https://cloud.google.com/tpu/docs/tutorials)
+  - Command-line interface
+      - https://cloud.google.com/sdk/gcloud/reference/compute/tpus/
+      - https://cloud.google.com/tpu/docs/custom-setup
+  - [Cloud TPU tools](https://cloud.google.com/tpu/docs/cloud-tpu-tools)
+  - [Performance Guide](https://cloud.google.com/tpu/docs/performance-guide)
+  - [TPU Estimator API](https://cloud.google.com/tpu/docs/using-estimator-api)
+  - [Using BFloat](https://cloud.google.com/tpu/docs/bfloat16)
+  - [Advanced Guide to Inception V3 on Cloud TPU](https://cloud.google.com/tpu/docs/inception-v3-advanced)
+  - Examples
+  - https://www.tensorflow.org/guide/using_tpu
+  - https://colab.research.google.com/drive/1MefSa2P6UP-gO2S0-dCjIjbvRxOnewZK#scrollTo=llcFb_P_BNPM
+  - [Useful TPU and Model example](https://colab.research.google.com/drive/1F8txK1JLXKtAkcvSRQz2o7NSTNoksuU2#scrollTo=mQnZM5JYlRvs)
+  - [Measure Performance on TPU, in a notebook](https://colab.research.google.com/drive/11VnRHgG_067fwPGhMwBz0SmplLsf9X5h)
+  - [Financial Time series notebook](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
+  - [Web traffic prediction](https://adaptpartners.com/technical-seo/website-traffic-prediction-with-google-colaboratory-and-facebook-prophet/)
+  - [GAN example, TPU version](https://colab.research.google.com/drive/1EkZPH6UE_I1a2TQfDDpjjqA7Na0_qd6v)
 
 ## IPU
 
