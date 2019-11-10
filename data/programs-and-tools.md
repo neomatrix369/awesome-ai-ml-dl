@@ -41,10 +41,11 @@ See [About fast.ai](about-fast.ai.md)
 See [About Google Data Studio](about-Google-Data-Studio.md)
 
 ### Redis modules
-- [neural-redis](https://github.com/antirez) - Online trainable neural networks as Redis data types
-- [RedisML](https://github.com/RedisLabs) -  Machine Learning Model Server, also see [shaynativ](https://github.com/shaynativ)
-- [RedisTimeSeries](https://github.com/danni-m) - Time-series data structure for redis
-- [RedisAI](https://github.com/lantiga) - A Redis module for serving tensors and executing deep learning graphs
+- [neural-redis](https://github.com/antirez/neural-redis) - Online trainable neural networks as Redis data types
+- [RedisML](https://github.com/RedisLabsModules/redisml) -  Machine Learning Model Server, also see [shaynativ](https://github.com/shaynativ)
+- [RedisTimeSeries](https://github.com/RedisTimeSeries/RedisTimeSeries)| [RedisTimeSeries: Danni-m's fork](https://github.com/danni-m/redis-timeseries) - Time-series data structure for redis
+- [RedisAI](https://github.com/RedisAI/RedisAI) | [Original author: lantiga](https://github.com/lantiga) - A Redis module for serving tensors and executing deep learning graphs
+- [Luca Lantiga's libraries](https://libraries.io/github/lantiga)
 - [(many other related modules)](https://redis.io/modules)
 
 # Contributing
