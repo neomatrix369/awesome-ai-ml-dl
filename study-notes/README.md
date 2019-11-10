@@ -268,7 +268,24 @@ Generate function is trainable
                 - https://www.youtube.com/watch?v=85Ilb-89sjk
                 - https://www.youtube.com/watch?v=KDw3hC2YNFc
                 - https://www.youtube.com/watch?v=u1p4Nz6wZHM
-
+        - Colab examples
+            - https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=-Rh3-Vt9Nev9
+            - More colab examples:
+                - https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb
+                - https://colab.research.google.com/notebooks/mlcc/first_steps_with_tensor_flow.ipynb
+                - https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab
+                - https://colab.research.google.com/github/Hvass-Labs/TensorFlow-Tutorials
+                - GAN example: https://colab.research.google.com/github/tensorflow/hub/blob/r0.1/examples/colab/tf_hub_generative_image_module.ipynb?authuser=2&hl=zh-cn#scrollTo=tDt15dLsJwMy
+                    - CPU version: https://colab.research.google.com/drive/1gmxGnXDmJTQsNbFJbVcH6DoXhYy3BTS9
+                    - GPU version: https://colab.research.google.com/drive/1VRamJm49YI784qG6jbCeAvpS6fIAxzMI#scrollTo=fZ0O5_5Jhwio
+                    - TPU version: https://colab.research.google.com/drive/1EkZPH6UE_I1a2TQfDDpjjqA7Na0_qd6v
+        - GPU example
+            - [Original TensorFlow GPU notebook](https://www.tensorflow.org/guide/using_gpu) | [Improvised TensorFlow GPU notebook](https://colab.research.google.com/drive/1q0OCnhN60s4hM-PXQikdj0-0c4DZ2VWf#scrollTo=t9ALbbpmY9rm)
+            - [Measure Performance on GPU over CPU, in a notebook](https://colab.research.google.com/drive/1XmPDQu_GpwkiBioRZlreLaGVZ_BBEK5j#scrollTo=QXRh0DPiZRyG)
+        - TPU example
+            - see [TPU example on Cloud/DevOps/Infra page](../cloud-devops-infra/README.md#tpu)
+      - [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
+            
 ### ML Recipe course by Josh Gordon
 
 - Week 1: https://www.youtube.com/watch?v=cKxRvEZd3Mw
