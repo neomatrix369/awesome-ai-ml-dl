@@ -97,6 +97,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Visual Studio / Visual Studio Code](https://code.visualstudio.com/)
 - [MATLAB](https://www.mathworks.com/products/matlab.html)
 - [Notepad++](https://notepad-plus-plus.org/)
+- Also see [Cheatsheets](./details/cheatsheets.md)
 
 ## Hosted Notebook products
 
@@ -110,7 +111,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Binder / JupyterHub](https://mybinder.org/)
 - [Kaggle Notebooks (Kernels)](https://www.kaggle.com/kernels/)
 - [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio/)
-- Also see resources under [Notebooks](./notebooks/README.md#notebooks)
+- Also see resources under [Notebooks](./notebooks/README.md#notebooks) and [Cheatsheets](./details/cheatsheets.md)
 
 ## Programming languages
 
@@ -124,6 +125,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 - [Python](https://www.python.org/), **also see [Programming in Python](./Programming-in-Python.md)**
 - [Typescript](https://syntaxcorrect.com/The_TypeScript_Programming_Language)
+- Also see [Cheatsheets](./details/cheatsheets.md)
 
 ## Data visualization libraries or tools
 
@@ -137,7 +139,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Seaborn](https://seaborn.pydata.org/)
 - [D3.js](https://d3js.org/) - recommend learning libraries _built on top_ of [D3.js](https://d3js.org)
 - [Altair](https://altair-viz.github.io/)
-- See more resources under [Visualisation](./details/visualisation.md)
+- See more resources under [Visualisation](./details/visualisation.md) and [Cheatsheets](./details/cheatsheets.md)
 
 ## Specialized hardware
 
@@ -172,7 +174,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Spark Mlib](https://spark.apache.org/mllib/)
 - [Scikit-learn](https://scikit-learn.org/stable/)
 - [Xgboost](https://xgboost.readthedocs.io/en/latest/)
-- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning)
+- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning) and [Cheatsheets](./details/cheatsheets.md)
 
 ## Machine learning products
 
@@ -186,7 +188,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [RapidMiner](https://rapidminer.com/)
 - [Google Cloud Translation](https://cloud.google.com/translate/)
 - [Cloudera](https://www.cloudera.com/)
-- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./details/cheatsheets.md)
 
 
 ## Big data / analytics products
@@ -201,7 +203,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Microsoft Analysis Services](https://azure.microsoft.com/en-us/services/analysis-services/)
 - [Google BigQuery](https://cloud.google.com/bigquery/)
 - [Databricks](https://databricks.com/)
-- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Databases](./data/README.md#databases)
+- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools), [Databases](./data/README.md#databases) and [Cheatsheets](./details/cheatsheets.md)
 
 
 ## Cloud computing platforms
@@ -258,7 +260,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Xcessiv](https://github.com/reiinakano/xcessiv/) 
 - [MLbox](https://github.com/AxeldeRomblay/MLBox/)
 - [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/)
-- See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./details/cheatsheets.md)
 
 
 ## Relational database products 
@@ -273,7 +275,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
 - [MySQL](https://www.mysql.com/)
 - [Google Cloud SQL](https://cloud.google.com/sql/docs/)
-- See other resources under [Databases](./data/README.md#databases)
+- See other resources under [Databases](./data/README.md#databases) and [Cheatsheets](./details/cheatsheets.md)
 
 
 # Contributing
