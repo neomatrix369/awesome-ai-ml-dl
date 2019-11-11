@@ -20,18 +20,7 @@ set -e
 set -u
 set -o pipefail
 
-downloadLanguageModel() {
-	echo "Checking if model ${MODEL_FILENAME} exists..."
-	if [[ -s "${SHARED_FOLDER}/${MODEL_FILENAME}" ]]; then
-		echo "Found model ${MODEL_FILENAME}"
-	else
-		echo "Downloading model ${MODEL_FILENAME}..."
-		curl -O -J -L \
-		     "http://www.mirrorservice.org/sites/ftp.apache.org/opennlp/models/langdetect/${MODEL_VERSION}/${MODEL_FILENAME}"
-
-    mv ${MODEL_FILENAME} ${SHARED_FOLDER}
-	fi
-}
+source common-functions.sh
 
 showUsageText() {
     cat << HEREDOC
@@ -50,45 +39,29 @@ HEREDOC
 	exit 1
 }
 
-showHelpForLegend() {
-  echo ""; 
-  echo "Check out https://www.apache.org/dist/opennlp/models/langdetect/1.8.3/README.txt to find out what each of the two-letter language indicators mean"
-}
-
-
-if [[ "$#" -eq 0 ]]; then
-	echo "No parameter has been passed. Please see usage below:"
-	showUsageText
-fi
-
-SHARED_FOLDER="../shared/"
-APACHE_OPENNLP_VERSION=1.9.1
+URL_PREFIX="http://www.mirrorservice.org/sites/ftp.apache.org/opennlp/models/langdetect/"
 MODEL_VERSION=1.8.3
 MODEL_VERSION_SHORT="$(echo ${MODEL_VERSION} | tr -d "." || true)"
 MODEL_FILENAME="langdetect-${MODEL_VERSION_SHORT}.bin"
-APACHE_OPENNLP_CMD="${SHARED_FOLDER}/apache-opennlp-${APACHE_OPENNLP_VERSION}/bin/opennlp
-                                                                         LanguageDetector
-                                                       ${SHARED_FOLDER}/${MODEL_FILENAME}
-"
+APACHE_OPENNLP_CMD="${OPENNLP_BINARY} LanguageDetector ${SHARED_FOLDER}/${MODEL_FILENAME}"
+
+checkIfNoParamHasBeenPassedIn "$#"
 
 while [[ "$#" -gt 0 ]]; do case $1 in
   --help)                showUsageText;
                          exit 0;;
   --text)                PLAIN_TEXT="${2:-}";
-                         downloadLanguageModel;
+                         checkIfApacheOpenNLPIsPresent
+                         downloadModel;
                          echo ${PLAIN_TEXT} | ${APACHE_OPENNLP_CMD};
-                         showHelpForLegend
+                         showHelpForLanguageLegend
                          exit 0;;
   --file)                FILENAME="${2:-}";
-                         downloadLanguageModel;
+                         checkIfApacheOpenNLPIsPresent
+                         downloadModel;
                          cat ${FILENAME}    | ${APACHE_OPENNLP_CMD};
-                         showHelpForLegend
+                         showHelpForLanguageLegend
                          exit 0;;
   *) echo "Unknown parameter passed: $1";
      showUsageText;
 esac; shift; done
-
-if [[ "$#" -eq 0 ]]; then
-	echo "No command action passed in as parameter. Please see usage below:"
-	showUsageText
-fi
