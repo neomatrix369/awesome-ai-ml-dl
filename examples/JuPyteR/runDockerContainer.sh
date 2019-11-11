@@ -20,10 +20,10 @@ set -e
 set -u
 set -o pipefail
 
-export DEBUG="${DEBUG:-}"
+export DEBUG="${DEBUG:-false}"
 
 SCRIPT_CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-DOCKER_DEBUG_PARAMS="--interactive --tty"
+DOCKER_DEBUG_PARAMS="--detach --interactive --tty"
 
 if [[ "${DEBUG}" == "true" ]]; then
     DOCKER_DEBUG_PARAMS="--interactive --tty --entrypoint /bin/bash --volume ${SCRIPT_CURRENT_DIR}:/debug-repo"
@@ -44,8 +44,49 @@ fi
 
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
-docker run --rm                                                  \
-           ${DOCKER_DEBUG_PARAMS}                                \
-           --volume ${PWD}/notebooks:/home/jupyter/notebooks     \
-           -p 8888:8888                                          \
-           ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}	
+getOpenCommand() {
+  if [[ "$(uname)" = "Linux" ]]; then
+     echo "xdg-open"
+  elif [[ "$(uname)" = "Darwin" ]]; then
+     echo "open"
+  fi
+}
+
+if [[ "${DEBUG}" = "false" ]]; then
+  echo ""
+  echo "**********************************"
+  echo "Running container in detached mode"
+  echo "**********************************"
+fi
+
+docker run --rm                                           \
+        ${DOCKER_DEBUG_PARAMS}                            \
+        --volume ${PWD}/notebooks:/home/jupyter/notebooks \
+        -p 8888:8888                                      \
+        ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
+
+if [[ "${DEBUG}" = "false" ]]; then
+  CONTAINER_ID=$(docker ps | grep "8888->8888" | awk '{print $1}' || true)
+
+  sleep 2
+
+  echo ""; echo "Displaying the missed log messages for container ${CONTAINER_ID}"
+  docker logs ${CONTAINER_ID}
+  echo ""; echo "Scanning logs of container ${CONTAINER_ID} for Jupyter notebook url"
+  RAW_URL="$(docker logs ${CONTAINER_ID} | grep -v "NotebookApp" | grep "token=" || true)"
+  echo ""; echo "Found some URL, extracting real url from it..."
+  URL=$(echo ${RAW_URL} | awk '{print $3}' | tr -d ')' || true)
+  URL="http://${URL}"
+  echo ""; echo "Opening Jupyter Notebook in a browser:"
+  echo " ${URL}"
+  OPEN_CMD="$(getOpenCommand)"
+  "${OPEN_CMD}" "${URL}"
+
+  echo ""; 
+  echo "****************************************************"
+  echo "Attaching back to container, with ID ${CONTAINER_ID}"
+  echo "****************************************************"
+  echo ""; echo "You can terminate your Jupyter session with a Ctrl-C"
+  echo "";
+  docker attach ${CONTAINER_ID}
+fi
