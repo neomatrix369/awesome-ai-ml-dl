@@ -29,6 +29,7 @@
       - [Classification example notebook](https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt)
       - Some explanations of the above Regression & Classification examples: [as a Notebook](https://drive.google.com/file/d/1vR9fOsWkCx0PuiCH0Eiz5FG1AAHuBHa8/view) | [as a PDF file](https://drive.google.com/file/d/1U3GkVgloBd5-w4qSj0KcyhtalhDF7pgC/view)
   - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command line tools](https://github.com/donnemartin/data-science-ipython-notebooks)
+  - [Neural Networks Matrices exploration - Under the Hood Mathematical Operations](https://github.com/souravs17031999/NeuralNets-Pure-Python)
   - [Synthetic features and outliers notebook](https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=syntheticfeatures-colab&hl=en#scrollTo=jnKgkN5fHbGy)
   - Do we know our data...
     - [Exploratory Data Analysis](./jupyter/data/01_Exploratory_Data_Analysis_(Do_we_know_our_data).ipynb)
