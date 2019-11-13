@@ -73,7 +73,7 @@ if [[ "${DEBUG}" = "false" ]]; then
   echo ""; echo "Displaying the missed log messages for container ${CONTAINER_ID}"
   docker logs ${CONTAINER_ID}
   echo ""; echo "Scanning logs of container ${CONTAINER_ID} for Jupyter notebook url"
-  RAW_URL="$(docker logs ${CONTAINER_ID} | grep -v "NotebookApp" | grep "token=" || true)"
+  RAW_URL="$(docker logs ${CONTAINER_ID} | grep -v "NotebookApp" | grep -v "LabApp" | grep "token=" || true)"
   echo ""; echo "Found some URL, extracting real url from it..."
   URL=$(echo ${RAW_URL} | awk '{print $3}' | tr -d ')' || true)
   URL="http://${URL}"
