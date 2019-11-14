@@ -38,6 +38,8 @@
 ## Intermediate / Advanced Python
 
 - [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
+- [Neural Networks Matrices exploration - Under the Hood Mathematical Operations](https://github.com/souravs17031999/NeuralNets-Pure-Python)
+
 
 ## Courses
 
