@@ -106,7 +106,8 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./details
     - [Dataiku](./examples/data/dataiku/README.md)
     - [Grakn](./examples/data/databases/graph/grakn/README.md)
   - [JuPyteR](./examples/JuPyteR/README.md)
-  - [NLP Java/JVM](./examples/nlp-java-jvm/README.md)
+  - [NLP Java/JVM](https://github.com/neomatrix369/nlp-java-jvm-example#nlp-javajvm-)
+    - [Apache OpenNLP](https://github.com/neomatrix369/nlp-java-jvm-example/blob/master/images/java/opennlp/README.md#apache-opennlp--) 
 
 ### Notebooks
 
