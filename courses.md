@@ -1,8 +1,38 @@
 # Courses 
 
+- [Algorithms](#algorithms)
+- [Cambridge Spark](#cambridge-spark)
+- [Datacamp](#datacamp)
+- [Dataiku](#dataiku)
+- [Data Science](#data-science)
+- [Computer Vision](#computer-vision)
+- [fast.ai](#fastai)
+- [Intel](#intel)
+- [FPGA](#fpga)
+- [Machine Learning](#machine-learning)
+  - [Deep Learning](#deep-learning)
+    - [Reinforcement Learning](#reinforcement-learning)
+- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
+- [Python: Best practices](#python-best-practices)
+- [Python: Testing](#python-testing)
+- [Statistics](#statistics)
+- [Misc](#misc)
+
 ## Algorithms
 
 - [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI) | [2](https://www.coursera.org/browse/computer-science/algorithms)
+
+## Cambridge Spark
+
+- For Individuals
+  - [Applied Data Analytics Bootcamp/](https://cambridgespark.com/applied-data-analytics-bootcamp/)
+  - [Applied Data Science London](https://cambridgespark.com/applied-data-science-london/)
+  - [MSc Data Science](https://cambridgespark.com/msc-data-science/)
+- [Onsite courses](https://cambridgespark.com/onsite-courses/)
+- [MSc Data Science (distance learning)](https://cambridgespark.com/msc-data-science-corporate/) 
+- [Data Science for Executives](https://cambridgespark.com/data-science-seminar/)
+- [Graduate Scheme](https://cambridgespark.com/graduates/)
+- [K.A.T.E: Powering success in Data Science careers](https://cambridgespark.com/kate/)
 
 ## Datacamp
 
