@@ -11,7 +11,7 @@
         - https://www.youtube.com/results?search_query=h2o+driverless
         - https://www.youtube.com/watch?v=yzAhjinmdzk
         - https://www.youtube.com/watch?v=axIqeaUhow0
-
+    - [H2O meetups](https://github.com/h2oai/h2o-meetups)
 ---
 
 - [ ] [AI/ML/DL Library / Package / Framework: applicable]

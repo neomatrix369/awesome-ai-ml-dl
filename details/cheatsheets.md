@@ -19,6 +19,9 @@
   - [Algorithms related cheatsheets - Big-O cheatsheet](http://bigocheatsheet.com/)
   - [ML Cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQGFXvKuRmt5Rg/feedshare-document-pdf-analyzed/0?e=1569596400&v=beta&t=n4ZRWnYpc1KOTo8lZ2sKmOI7rRChPkApOQEQBBDhaXg) [deadlink]
   - [Statistics cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1573030800&v=beta&t=11ugKu44wK--uA9WG98V_r6_LY_xu6I8Y-YSaM1BOsQ)
+  | [Stats Cheatsheet](https://www.linkedin.com/posts/nabihbawazir_statistics-cheatsheet-ugcPost-6600946387649695744-I-Kk)
+
+  - [Data Science Cheatsheet - DataCamp](https://media.licdn.com/dms/document/C561FAQE-ZaQS7uMQMA/feedshare-document-pdf-analyzed/0?e=1572357600&v=beta&t=xPh84UiqmQRCf9PMs8tt1vCtM3eQln8vPkLqBSWssEw)
 
 # Contributing
 

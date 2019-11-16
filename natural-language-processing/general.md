@@ -8,7 +8,7 @@
 - [OpenAI let us try its state-of-the-art NLP text generator](https://venturebeat.com/2019/02/14/openai-let-us-generate-text-with-an-ai-model-that-achieves-state-of-the-art-performance-in-several-nlp-tasks/)
 - [LaMachine](https://proycon.github.io/LaMachine/) - LaMachine is a unified software distribution for Natural Language Processing. Integration of numerous open-source NLP tools, programming libraries, web-services and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines (bare-metal, Virtual Machines and Docker containers).
 - [Awesome NLP](https://github.com/keon/awesome-nlp)
-
+- [Facebook's LASER](https://github.com/facebookresearch/LASER)
 
 # Contributing
 

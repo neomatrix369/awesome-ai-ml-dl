@@ -106,6 +106,8 @@
 ### Deep Learning
 
 - [Code examples for the Stanford's course: TensorFlow for Deep Learning Research](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
+- [Deep Learning course by Andrew Ng](https://media.licdn.com/dms/document/C4D1FAQHQjNkeFxn1bg/feedshare-document-pdf-analyzed/0?e=1573005600&v=beta&t=ED5ZdXVRQvpgSovpRO7sFGDWzk2edpphmnHqQLB_AXQ)
+
 
 #### Reinforcement Learning
 

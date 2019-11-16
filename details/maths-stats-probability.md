@@ -50,6 +50,8 @@
 - [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
 - [Learning & Reasoning in Artificial Intelligence](https://www.youtube.com/watch?v=K_GOHepjY2o) by [Thomas Lukasiewicz](http://www.cs.ox.ac.uk/thomas.lukasiewicz/)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- [Bayesian Framework](https://ekroc.weebly.com/uploads/2/1/6/3/21633182/bayesworkshop1.pdf)
+- [Implementing the Bayesian Framework](https://ekroc.weebly.com/uploads/2/1/6/3/21633182/bayesworkshop2.pdf)
 - [Data Science](../courses.md#data-science) in [Courses](../courses.md#courses)
 
 # Contributing

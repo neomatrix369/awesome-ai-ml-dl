@@ -9,6 +9,8 @@
 - [Journal of Statistical Software - TidyData](https://www.jstatsoft.org/article/view/v059i10/)
 - [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 - [Introduction to Data Analysis and Cleaning presentation](../presentations/data/01-mam-ml-study-group-meetup/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
+- [Intro to Data Cleaning](https://media.licdn.com/dms/document/C561FAQFELM5YZM3-Rw/feedshare-document-pdf-analyzed/0?e=1572184800&v=beta&t=9HybdEtMdRqdqA6bJQeN-0sMDrEU8yBZwAvTUTm6dTo)
+
 
 ## Data preprocessing / Data wrangling / Data manipulation
 
@@ -16,6 +18,8 @@
 - [Improve Model Accuracy with Data Pre-Processing](https://machinelearningmastery.com/improve-model-accuracy-with-data-pre-processing/)
 - [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
 - [Introduction to Data Analysis and Cleaning presentation](../presentations/data/01-mam-ml-study-group-meetup/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
+- [Data Engineering Cook book](https://media.licdn.com/dms/document/C561FAQHLSPhPny5ENg/feedshare-document-pdf-analyzed/0?e=1572793200&v=beta&t=AW9YeWaxF4PCcSxN64Lin_BIlbumyHLHnL0gF-jLNto)
+- [Waimak: Open Source framework to create complex data flows in Apache Spark](https://github.com/CoxAutomotiveDataSolutions/waimak)
 - [Pandas](https://lnkd.in/gxSgfuQ)
 - [SQLAlchemy](https://lnkd.in/gjvbm7h)
 
