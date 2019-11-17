@@ -138,7 +138,8 @@
   - See [Machine Learning](../courses.md#machine-learning) in [Courses](../courses.md#courses)
   - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
   - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
-  - Also see [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
+  - See [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
+  - Also see [Machine Learning Testing (Python)](../Programming-in-Python.md#machine-learning)
 
   ### Deep Learning
 

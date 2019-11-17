@@ -46,6 +46,7 @@
 See **Python: Best practices** and **Python: Testing** under [Courses](./courses.md#course)
 
 ## Cheatsheets
+
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - [PySheee: Python Cheatsheet](https://www.pythonsheets.com/)
 - [7+ Python Cheat Sheets for Beginners and Experts](https://sinxloud.com/python-cheat-sheet-beginner-advanced/)
@@ -113,6 +114,10 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
   - [Code Craft : Part II – Version Control is Seat Belts for Programmers](https://codemanship.wordpress.com/2019/10/02/code-craft-part-ii-version-control-is-seat-belts-for-programmers/)
   - [Code Craft : Part III – Unit Tests are an Early Warning System for Programmers](https://codemanship.wordpress.com/2019/10/04/code-craft-part-iii-unit-tests-are-an-early-warning-system-for-programmers/)
 
+## Versioning
+
+- [ML Versioning Tool](https://github.com/sbracaloni/ml-versioning-tool)
+
 ## Testing
 
 - [Python Developer's Guide » Running & Writing Tests](https://devguide.python.org/runtests/)
@@ -122,6 +127,11 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 - [An Introduction to Mocking in Python](https://www.toptal.com/python/an-introduction-to-mocking-in-python)
 - [PyCharm: Testing Your First Python Application](https://www.jetbrains.com/help/pycharm/testing-your-first-python-application.html)
 - [unittest — Unit testing framework](https://docs.python.org/2/library/unittest.html)
+
+### Machine Learning
+
+- [A machine learning testing framework for sklearn and pandas. The goal is to help folks assess whether things have changed over time](https://github.com/EricSchles/drifter_ml)
+- [A number of repos containing tests](https://github.com/jd-13/)
 
 ## Refactoring
 
