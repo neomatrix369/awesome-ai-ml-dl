@@ -116,7 +116,7 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 
 ## Versioning
 
-- [ML Versioning Tool](https://github.com/sbracaloni/ml-versioning-tool)
+- [ML Versioning Tool](https://github.com/peopledoc/ml-versioning-tools) by [@sbracaloni](https://github.com/sbracaloni)
 
 ## Testing
 
@@ -130,8 +130,7 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 
 ### Machine Learning
 
-- [A machine learning testing framework for sklearn and pandas. The goal is to help folks assess whether things have changed over time](https://github.com/EricSchles/drifter_ml)
-- [A number of repos containing tests](https://github.com/jd-13/)
+See [Machine Learning Testing](./details/julia-python-and-r.md#testing)
 
 ## Refactoring
 

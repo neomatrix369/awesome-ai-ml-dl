@@ -139,8 +139,13 @@
   - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
   - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
   - See [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
-  - Also see [Machine Learning Testing (Python)](../Programming-in-Python.md#machine-learning)
+  
+  ### Testing
 
+   - [A machine learning testing framework for sklearn and pandas. The goal is to help folks assess whether things have changed over time](https://github.com/EricSchles/drifter_ml)
+   - [Tests in TrainingHelpers](https://github.com/jd-13/TFHelpers/blob/master/TFHelpers/TrainingHelpers.py) and [Tests in TFHelpers](https://github.com/jd-13/TFHelpers/tree/master/Tests) by [Jack Devlin](https://github.com/jd-13)
+   - [Tests in picknmix](https://github.com/picknmix/picknmix/tree/master/tests) by [Cheuk Ting Ho](https://github.com/Cheukting)
+   
   ### Deep Learning
 
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
