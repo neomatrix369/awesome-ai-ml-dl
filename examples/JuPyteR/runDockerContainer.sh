@@ -59,16 +59,19 @@ if [[ "${DEBUG}" = "false" ]]; then
   echo "**********************************"
 fi
 
-docker run --rm                                           \
+set -x
+#--rm 
+docker run                                           \
         ${DOCKER_DEBUG_PARAMS}                            \
         --volume ${PWD}/notebooks:/home/jupyter/notebooks \
         -p 8888:8888                                      \
         ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
+set +x
 
 if [[ "${DEBUG}" = "false" ]]; then
   CONTAINER_ID=$(docker ps | grep "8888->8888" | awk '{print $1}' || true)
 
-  sleep 2
+  sleep 3
 
   echo ""; echo "Displaying the missed log messages for container ${CONTAINER_ID}"
   docker logs ${CONTAINER_ID}

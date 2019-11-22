@@ -20,20 +20,14 @@ set -e
 set -u
 set -o pipefail
 
-if [[ -z "${JAVA_OPTS}" ]]; then
-  export JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
-  export JAVA_TOOL_OPTIONS="${JAVA_TOOL_OPTIONS} ${JAVA_OPTS}"
-fi
+echo "JAVA_TOOL_OPTIONS=${JAVA_TOOL_OPTIONS:-}"
+echo "Unsetting JAVA_TOOL_OPTIONS"
+unset JAVA_TOOL_OPTIONS
 
-java -XX:+PrintFlagsFinal --version
+java --version
 
 export PATH="${HOME}/.local/bin:${PATH}"
 echo "PATH=${PATH}"
-echo ""
-echo "~~~ JDK9, Linux only: We are enabling JVMCI flags (enabling Graal as Tier-2 compiler) ~~~"
-echo "~~~ Graal setting: please check docs for higher versions of Java and for other platforms ~~~"
-echo "JAVA_OPTS=${JAVA_OPTS}"
-echo "JAVA_TOOL_OPTIONS=${JAVA_TOOL_OPTIONS}"
 echo ""
 
 jupyter kernelspec list

@@ -39,3 +39,4 @@ time docker build \
                  .
 
 ./removeUnusedContainersAndImages.sh
+./push-jupyter-java-docker-image-to-hub.sh

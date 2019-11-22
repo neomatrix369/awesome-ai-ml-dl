@@ -23,11 +23,15 @@ set -o pipefail
 echo ""
 echo "Installing Jupyter notebook and dependencies"
 
+echo "JAVA_TOOL_OPTIONS=${JAVA_TOOL_OPTIONS:-}"
+echo "Unsetting JAVA_TOOL_OPTIONS"
+unset JAVA_TOOL_OPTIONS
+
 export JAVA_HOME=/opt/java/openjdk/
 export PATH=${JAVA_HOME}/bin:${PATH}
 
-java --version
-javac --version
+java -version
+javac -version
 
 SUDO_CMD=""
 if [[ -f "/etc/sudoers" ]]; then

@@ -1,7 +1,11 @@
 FROM adoptopenjdk/openjdk9
 
-ENV JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
-ENV JAVA_TOOL_OPTIONS="${JAVA_TOOL_OPTIONS} ${JAVA_OPTS}"
+COPY --from=oracle/graalvm-ce:19.3.0-java11 /opt/graalvm-ce-java11-19.3.0 /opt/java/graalvm
+
+RUN rm -fr /opt/java/openjdk
+
+ENV JAVA_HOME=/opt/java/graalvm
+ENV PATH=${JAVA_HOME}/bin:${PATH}
 
 COPY install-jupyter-notebooks.sh install-jupyter-notebooks.sh
 RUN ./install-jupyter-notebooks.sh
