@@ -9,6 +9,7 @@
 - [Integrated Gradients: Axiomatic Attribution for Deep Networks](https://github.com/ankurtaly/Integrated-Gradients) | [Paper](https://arxiv.org/abs/1703.01365)
 - [Resources on GitHub on interpretability](https://github.com/topics/interpretability)
 - [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - A Curated, but Probably Biased and Incomplete, List of Awesome Machine Learning Interpretability Resources
+- [Seldon's opensource library for MachineLearning model inspection and interpretation](https://github.com/SeldonIO/alibi)
 
 ## Articles, blog posts, papers, notebooks, books, presentations
 
