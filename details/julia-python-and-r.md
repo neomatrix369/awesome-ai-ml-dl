@@ -30,7 +30,7 @@
    - [Python for Computational Science and Engineering (book)](http://www.southampton.ac.uk/~fangohr/teaching/python/book.html)
    - [PyCon 2015 Scikit-learn Tutorial](https://github.com/jakevdp/sklearn_pycon2015)
    - [Book: Automate the boring stuff](https://automatetheboringstuff.com/)
-   - [Book: How to Think Like a Computer Scientist: Interactive Edition](http://interactivepython.org/courselib/static/thinkcspy/index.html) | [How to Think Like a Computer Scientist - non-Interactive Edition](http://openbookproject.net/thinkcs/python/english2e/)
+   - [Book: How to Think Like a Computer Scientist: Interactive Edition](http://interactivepython.org/courselib/static/thinkcspy/index.html) | [How to Think Like a Computer Scientist - non-Interactive Edition](http://openbookproject.net/thinkcs/python/english2e/) [deadlink]
    - Python Project (Classification):
      - Part A: https://www.youtube.com/watch?v=p0snNMCbvN4&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=8
      - Part B: https://www.youtube.com/watch?v=j4IgXflsZtg&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=9

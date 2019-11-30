@@ -37,7 +37,7 @@
 - [Visualization in Bayesian workflow](https://arxiv.org/abs/1709.01449)
 - [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
 - [Chris Fonnesbeck’s presentation: PyMC's Big Adventure - Lessons Learned from the Development of Open-source Software for Probabilistic Programming](https://gitpitch.com/fonnesbeck/neurips_2018_talk#/) | [Chris Fonnesbeck](https://twitter.com/fonnesbeck)
-- [Skillsmatter: Precision Medicine With Mechanistic, Bayesian Models](https://skillsmatter.com/skillscasts/12129-bayesian-mixer-london-june)
+- [Skillsmatter: Precision Medicine With Mechanistic, Bayesian Models](https://skillsmatter.com/skillscasts/12129-bayesian-mixer-london-june) [deadlink]
 - [Colin Carroll’s presentation: Tidy and beautiful - Visualizing Bayesian models with xarray and ArviZ](https://colcarroll.github.io/arviz_pydata_nyc/#/) | [Colin Carroll](https://twitter.com/colindcarroll)
 - [Amortized Monte Carlo Integration](https://www.youtube.com/watch?v=-oHCqLFLTAI) by [Tom Rainforth](http://www.robots.ox.ac.uk/~twgr/)
 - Books

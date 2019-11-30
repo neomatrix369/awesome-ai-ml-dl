@@ -99,7 +99,8 @@
     - [Slides](https://storage.googleapis.com/wandb/Bloomberg%20Class%201.pdf)
     - [Building and Debugging CNNs](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE9193U0/bloomberg_class_2.pdf)
     - [Introduction to ML](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE3Q7NN7/bloomberg_class_3.pdf)
-- [Course material by Students of AI (Imperial College, London)](https://github.com/Students-for-AI/The-Academy-of-AI)
+- [Course material by Students of AI (Imperial College, London)](https://github.com/Imperial-College-Data-Science-Society/)
+[previous github link](https://github.com/Students-for-AI/The-Academy-of-AI), [alternative forked repo](https://github.com/DurhamAI/The-Academy-of-AI)
 - [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
 - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
     - https://www.youtube.com/watch?v=aircAruvnKk 

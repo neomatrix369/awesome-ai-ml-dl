@@ -1,6 +1,6 @@
 # Visualisation
 
-  - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) 
+  - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) [deadlink]
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
   - [Data Visualisation by Kaggle.com](https://www.kaggle.com/learn/data-visualization)
   - [How the BBC Visual and Data Journalism team works with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
@@ -20,7 +20,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
     - [Infographics and presentation tools](https://www.fireplusalgebra.com/infographics-and-presentation-tools)
     - [Interactive data visualisation tools and libraries](https://www.fireplusalgebra.com/infographics-and-presentation-tools)
     - [Photography, illustration and icon resources](https://www.fireplusalgebra.com/image-and-icon-resources)
-  - [Telling Human Stories With Data (skillscast)](https://skillsmatter.com/skillscasts/14252-telling-human-stories-with-data) by [Alan Rutter](https://www.fireplusalgebra.com/about)
+  - [Telling Human Stories With Data (skillscast)](https://skillsmatter.com/skillscasts/14252-telling-human-stories-with-data) [deadlink] by [Alan Rutter](https://www.fireplusalgebra.com/about)
   - Resources kindly recommended by [Alan Rutter](https://www.fireplusalgebra.com/about)
     - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
     - [Flowing Data](https://flowingdata.com/) | [About Nathan Yau](https://flowingdata.com/about-nathan/)

@@ -2,7 +2,7 @@
 
 ---
 
-This area in the repo is a result of the blog post [Exploring NLP concepts using Apache OpenNLP](https://medium.com/@neomatrix369//exploring-nlp-concepts-using-apache-opennlp-4d59c3cac8) | [Original post](https://blog.valohai.com/exploring-nlp-concepts-using-apache-opennlp-1?from=3oxenia9mtr6). Please refer to the post before considering using this repo to understand better on how to use the different aspects of it.
+This area in the repo is a result of the blog post [Exploring NLP concepts using Apache OpenNLP](https://medium.com/@neomatrix369/exploring-nlp-concepts-using-apache-opennlp-4d59c3cac8) | [Original post](https://blog.valohai.com/exploring-nlp-concepts-using-apache-opennlp-1?from=3oxenia9mtr6). Please refer to the post before considering using this repo to understand better on how to use the different aspects of it.
 
 ### Please find the working project at [Valohai's GitHub](https://github.com/valohai/) org, see repo [nlp-java-jvm-example project on GitHub](https://github.com/valohai/nlp-java-jvm-example)
 

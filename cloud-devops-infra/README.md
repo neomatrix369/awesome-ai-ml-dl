@@ -23,7 +23,7 @@
   - [Cray Computers](https://www.cray.com/ai) | [Artificial Intelligence](https://www.cray.com/solutions/artificial-intelligence) | [Accel AI](https://www.cray.com/solutions/artificial-intelligence/cray-accel-ai) | [Cryp-em](https://www.cray.com/solutions/cryo-em) | [Autonomous Vehicles](https://www.cray.com/solutions/autonomous-vehicles) | [Geospatial AI](https://www.cray.com/solutions/geospatial-ai)
   - [GraphCore's IPU](README.md#ipu)
   - [Lambda Labs](https://lambdalabs.com/)
-  - NGD Systems: [Technology](https://www.ngdsystems.com/technology) | [Solutions](https://www.ngdsystems.com/solutions) - High Compute Storage, Scalable Computational Storage [deadlink] | [NGD Systems: Ensuring AI Advancement with Intelligent Storage](https://www.insightssuccess.com/ngd-systems-ensuring-ai-advancement-with-intelligent-storage/)
+  - NGD Systems: [Technology](https://www.ngdsystems.com/technology) [deadlink] | [Solutions](https://www.ngdsystems.com/solutions) - High Compute Storage, Scalable Computational Storage [deadlink] | [NGD Systems: Ensuring AI Advancement with Intelligent Storage](https://www.insightssuccess.com/ngd-systems-ensuring-ai-advancement-with-intelligent-storage/)
 
 ## Grid computing / Super computing
 
@@ -93,7 +93,7 @@
   - [All tutorials](https://cloud.google.com/tpu/docs/tutorials)
   - Command-line interface
       - https://cloud.google.com/sdk/gcloud/reference/compute/tpus/
-      - https://cloud.google.com/tpu/docs/custom-setup
+      - https://cloud.google.com/tpu/docs/setup-gcp-account
   - [Cloud TPU tools](https://cloud.google.com/tpu/docs/cloud-tpu-tools)
   - [Performance Guide](https://cloud.google.com/tpu/docs/performance-guide)
   - [TPU Estimator API](https://cloud.google.com/tpu/docs/using-estimator-api)
