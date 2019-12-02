@@ -5,7 +5,9 @@
 - [Cheatsheets](#cheatsheets)
 - [Static analysis](#static-analysis)
     - [Focussed packages](#focussed-packages)
-    - [Python Wrappers](#python-wrappers) 
+    - [Python Wrappers](#python-wrappers)
+- [Cookie cutter: Python project templates](#cookie-cutter-python-project-templates)
+- [Frameworks](#frameworks)
 - [Best practices](#best-practices)
 - [Testing](#testing)
 - [Refactoring](#refactoring)
@@ -39,7 +41,6 @@
 
 - [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
 - [Neural Networks Matrices exploration - Under the Hood Mathematical Operations](https://github.com/souravs17031999/NeuralNets-Pure-Python)
-
 
 ## Courses
 
@@ -88,12 +89,20 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
 
-### Cookie cutter: Python project templates
+## Cookie cutter: Python project templates
 
 - [For Python projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#python)
 - [For Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-science)
 - [For Reproducible Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#reproducible-science)
 - [For Data Driven Journalism projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-driven-journalism)
+
+## Frameworks
+
+- [streamlit.io](https://streamlit.io/) - the fastest way to build custom ML tools
+- Flask alternatives
+  - [anvil.works](https://https://anvil.works/) - Full stack web apps
+with nothing but Python
+  - [Assembly](https://mardix.github.io/assembly/) - A Pythonic Object-Oriented Web Framework built on Flask
 
 ## Best practices
 
