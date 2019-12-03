@@ -31,6 +31,7 @@
   - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command line tools](https://github.com/donnemartin/data-science-ipython-notebooks)
   - [Neural Networks Matrices exploration - Under the Hood Mathematical Operations](https://github.com/souravs17031999/NeuralNets-Pure-Python)
   - [Synthetic features and outliers notebook](https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=syntheticfeatures-colab&hl=en#scrollTo=jnKgkN5fHbGy)
+  - [Quick Intro to ProGAN](https://colab.research.google.com/github/jd-13/progan-intro/blob/master/ProGAN_Intro.ipynb)
   - Do we know our data...
     - [Exploratory Data Analysis](./jupyter/data/01_Exploratory_Data_Analysis_(Do_we_know_our_data).ipynb)
     + [Data Preparation](./jupyter/data/02_Data_Preparation_(Do_we_know_our_data).ipynb)
