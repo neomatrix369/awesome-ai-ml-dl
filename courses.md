@@ -165,6 +165,84 @@
 - [Stanford University](https://online.stanford.edu/courses?keywords=statistics)
 - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
 
+## Stanford courses
+Deep Learning
+
+[http://web.stanford.edu/class/cs230/](http://web.stanford.edu/class/cs230/)
+
+[ Natural Language Processing ]
+
+CS 124: From Languages to Information (LINGUIST 180, LINGUIST 280)
+
+[http://web.stanford.edu/class/cs124/](http://web.stanford.edu/class/cs124/)
+
+CS 224N: Natural Language Processing with Deep Learning (LINGUIST 284)
+
+[http://web.stanford.edu/class/cs224n/](http://web.stanford.edu/class/cs224n/)
+
+CS 224U: Natural Language Understanding (LINGUIST 188, LINGUIST 288)
+
+[http://web.stanford.edu/class/cs224u/](http://web.stanford.edu/class/cs224u/)
+
+CS 276: Information Retrieval and Web Search (LINGUIST 286)
+
+[http://web.stanford.edu/class/cs](http://web.stanford.edu/class/cs224u/)276
+
+[ Computer Vision ]
+CS 131: Computer Vision: Foundations and Applications
+
+http://[cs131.stanford.edu](http://cs131.stanford.edu/)
+
+CS 205L: Continuous Mathematical Methods with an Emphasis on Machine Learning
+
+[http://web.stanford.edu/class/cs205l/](http://web.stanford.edu/class/cs205l/)
+
+CS 231N: Convolutional Neural Networks for Visual Recognition
+
+[http://cs231n.stanford.edu/](http://cs231n.stanford.edu/)
+
+CS 348K: Visual Computing Systems
+
+[http://graphics.stanford.edu/courses/cs348v-18-winter/](http://graphics.stanford.edu/courses/cs348v-18-winter/)
+
+[ Others ]
+
+CS224W: Machine Learning with Graphs([Yong Dam Kim](https://www.facebook.com/yongdam.kim) )
+
+[http://web.stanford.edu/class/cs224w/](http://web.stanford.edu/class/cs224w/)
+
+ 
+CS 273B: Deep Learning in Genomics and Biomedicine (BIODS 237, BIOMEDIN 273B, GENE 236)
+
+[https://canvas.stanford.edu/courses/51037](https://canvas.stanford.edu/courses/51037)
+
+CS 236: Deep Generative Models
+
+[https://deepgenerativemodels.github.io/](https://deepgenerativemodels.github.io/)
+
+CS 228: Probabilistic Graphical Models: Principles and Techniques
+
+[https://cs228.stanford.edu/](https://cs228.stanford.edu/)
+
+CS 337: Al-Assisted Care (MED 277)
+
+[http://cs337.stanford.edu/](http://cs337.stanford.edu/)
+
+CS 229: Machine Learning (STATS 229)
+
+[http://cs229.stanford.edu/](http://cs229.stanford.edu/)
+
+CS 229A: Applied Machine Learning
+
+[https://cs229a.stanford.edu](https://cs229a.stanford.edu/)
+
+CS 234: Reinforcement Learning
+
+http://[s234.stanford.edu](http://cs234.stanford.edu/)
+
+CS 221: Artificial Intelligence: Principles and Techniques
+
+[https://stanford-cs221.github.io/autumn2019/](https://stanford-cs221.github.io/autumn2019/)
 ## Misc
 
 - [Check out 50 most popular massive open online courses](https://www.onlinecoursereport.com/the-50-most-popular-moocs-of-all-time/) ([Tweet](https://twitter.com/java/status/984844161969983489))
