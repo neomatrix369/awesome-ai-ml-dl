@@ -99,7 +99,10 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 ## Frameworks
 
 - [streamlit.io](https://streamlit.io/) - the fastest way to build custom ML tools
-  - [Streamlit Crash course](https://youtu.be/_9WiB2PDO7k)
+  - Crash courses
+    - [Getting started](https://youtu.be/_9WiB2PDO7k)
+    - [Creating an ML Explorer](https://youtu.be/_9WiB2PDO7k)
+    - [Deploying to Heroku](https://www.youtube.com/watch?v=skpiLtEN3yk)
   - [Discussion forum](https://discuss.streamlit.io)
 - Flask alternatives
   - [anvil.works](https://https://anvil.works/) - Full stack web apps
@@ -110,6 +113,7 @@ with nothing but Python
             - [HTTP APIs in python: Authentication](https://anvil.works/learn/tutorials/http-apis-in-python#authentication)
             - [HTTP APIs in python: accepting params](https://anvil.works/learn/tutorials/http-apis-in-python#accepting-parameters)
             - [HTTP APIs in python: URL params](https://anvil.works/learn/tutorials/http-apis-in-python#url-parameters)
+        - [App Secrets](https://anvil.works/learn/tutorials/app-secrets) 
         - [Crash course on create web apps using Anvil](https://training.talkpython.fm/courses/explore_anvil/anvil-web-apps-with-just-python)
         - [Security](https://anvil.works/docs/security)
     - [Forum](https://anvil.works/forum/)
