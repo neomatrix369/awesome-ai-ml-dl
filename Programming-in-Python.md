@@ -98,9 +98,9 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 
 ## Frameworks
 
-- [streamlit.io](https://streamlit.io/) - the fastest way to build custom ML tools
+- [streamlit.io](https://streamlit.io/) - the fastest way to build custom ML tools | [Docs](https://streamlit.io/docs) | [GitHub](https://github.com/streamlit/streamlit) | [Blog](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace) | [Community](https://discuss.streamlit.io/)
   - Crash courses
-    - [Getting started](https://youtu.be/_9WiB2PDO7k)
+    - [Getting started](https://youtu.be/_9WiB2PDO7k) | [source files](examples/python/frameworks/streamlit/)
     - [Creating an ML Explorer](https://youtu.be/_9WiB2PDO7k)
     - [Deploying to Heroku](https://www.youtube.com/watch?v=skpiLtEN3yk)
   - [Discussion forum](https://discuss.streamlit.io)
