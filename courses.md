@@ -130,6 +130,18 @@
   - [Week 8](https://www.youtube.com/watch?v=LDRbO9a6XPU)
   - [Week 9](https://www.youtube.com/watch?v=d12ra3b_M-0)
   - [Week 10](https://www.youtube.com/watch?v=TF1yh5PKaqI)
+- [The Neural Aesthetic (Gene Kogan)](https://www.youtube.com/watch?v=Bh5zb-IssWQ&list=PL_78NoHMtmJqYCjuxhKNLkFbg14lWfcW-)
+  - [01 Introduction, the whole course "in 60 minutes"](https://www.youtube.com/watch?v=Bh5zb-IssWQ)
+  - [02 Neural networks](https://www.youtube.com/watch?v=FYqsA2B-jKE)
+  - [03 Neural networks](https://www.youtube.com/watch?v=Ger4Y9Ovrb4)
+  - [04 Applications of neural nets](https://www.youtube.com/watch?v=zOZYCuDvJ3I)
+  - [05 Visualization, deepdream, style & texture](https://www.youtube.com/watch?v=9Ql0xyXQLt8)
+  - [06 Generative models](https://www.youtube.com/watch?v=U_u5CuLGVSc)
+  - [07 Conditional generative models](https://www.youtube.com/watch?v=ZiQNI_UwNbg)
+  - [08 Recurrent neural networks](https://www.youtube.com/watch?v=HnBbsIXZ8Mo)
+  - [09 Music information retrieval, BIGGAN & GLOW](https://www.youtube.com/watch?v=kIvyex9HH0Y)
+  - [10 Reinforcement Learning & Natural Language Processing](https://www.youtube.com/watch?v=Pf_0IT5OjiI)
+  - [11 Autonomous Artificial Artist](https://www.youtube.com/watch?v=Dqudnjj5wSo)
 
 ### Java/JVM
 - [ML for Java Developers Course](http://numahub.com/courses/machine-learning-java-developers)
