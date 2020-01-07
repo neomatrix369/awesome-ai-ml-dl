@@ -102,7 +102,7 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./details
   - [Cloud/DevOps/Infra](./examples/cloud-devops-infra)
     - [MLPMNist using DL4J](./examples/cloud-devops-infra/valohai/MLPMnist/README.md)
     - [NLP using DL4J (cuda)](./examples/cloud-devops-infra/valohai/nlp-cuda/README.md)
-    - [Tracking SB FX competition experiments](./examples/cloud-devops-infra/wandb/sb-fx-competition/README.md)
+    - [Tracking SB FX competition experiments with Weights & Biases](./examples/cloud-devops-infra/wandb/sb-fx-competition/README.md)
   - [Data](./examples/data)
     - [Dataiku](./examples/data/dataiku/README.md)
     - [Grakn](./examples/data/databases/graph/grakn/README.md)
