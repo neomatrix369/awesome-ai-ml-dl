@@ -17,6 +17,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 **Watching the repo will keep you posted of all the changes (commits) that go into the repo.**
 
+**Also, please [SPONSOR us, find out how-to](https://github.com/sponsors/neomatrix369)!**
+
   - [General](README-details.md#general)
   - [Artificial Intelligence](README-details.md#artificial-intelligence)
   - [Automation](README-details.md#automation)
@@ -79,9 +81,14 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Cheatsheets](./details/cheatsheets.md#cheatsheets)
   - [Misc](./details/misc.md#misc)
 - [Contributing](#contributing)
+- [Sponsoring](#sponsoring)
 
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
 
 Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+# Sponsoring
+
+With [GitHub's new project sponsor program](https://github.com/sponsors) you can now sponsor projects like this, [see how](https://github.com/sponsors/neomatrix369).
