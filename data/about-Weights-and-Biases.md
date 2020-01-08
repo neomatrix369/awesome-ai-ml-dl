@@ -1,6 +1,6 @@
 ## Weights & Biases
 
-- https://www.wandb.com/
+- [https://www.wandb.com/](https://www.wandb.com/)
 - W&B is a key piece of our fast-paced, cutting-edge, large-scale research workflow: great flexibility, performance, and user experience.
 - Experiment tracking for deep learning
 - Instrument training scripts
@@ -23,8 +23,17 @@
   - https://docs.wandb.com/docs/started.html
 - Examples
   - https://docs.wandb.com/docs/examples.html
+- Code & concepts
+  - [Code snippets](./wandb/code-snippets.py)
+  - [Quick and Dirty CNN](./wandb/Quick-and-Dirty-CNN.py)
+  - [Activation Function](./wandb/Activation-Function.png)
 - Videos
   - Tutorial: https://www.wandb.com/classes/intro/overview
+- Additional resources
+  - [Error caused by missing input_shape in your first layer](https://stackoverflow.com/questions/52690293/tensorflow-attributeerror-nonetype-object-has-no-attribute-original-name-sc)
+  - [Bloomberg summary colab notebook](https://colab.research.google.com/drive/1lfLR9WRzmjOMmnNmePys4-8WNfZ5xC90#scrollTo=wbjXyjFRaT1d)
+  - https://talktotransformer.com/ - Adam Daniel King's implementation of GPT-2 on the back of the PyTorch version
+  - ...for more [see this](./wandb/More-resources.md)
 
 ---
 
@@ -38,8 +47,10 @@
 - [ ] [Feature extraction: manual / no tools available] 
 - [x] **[Model creation: available]**
 - [x] **[Execute experiments: available]**
+- [x] **[Track experiments: available]**
 - [x] **[Hyper parameter tuning: available]**
 - [x] **[Model saving: available]**
+- [x] **[Visualisations: available]**
 
 Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>
 Back to [Data page](./README.md#data).
