@@ -61,6 +61,12 @@ So in usual, when we do transfer learning we re-train the last few layers but wh
 
 Training the last few layers is called fine tuning. Bottleneck features are called bottleneck because they are generally smaller than the input features.  So using the network to generate them is like putting them through a bottleneck.
 
+Q: I'm using the network below for time series. The numpy array X_scl_re has shape (n_samples, timesteps, n_features). In my case timesteps=1. My question is when is tilmestep greater than 1 and what does this mean?
+
+A: In your example timesteps would be the number of sequences to process.  Increasing this would allow the network to see longer range patterns.  You can think of it as the amount of time the network get's to look back to.
+Or in the case of the IMDB dataset the number of words the network get's to see to make a decision.
+
+
 ### Misc resources
 
 - [Error caused by missing input_shape in your first layer](https://stackoverflow.com/questions/52690293/tensorflow-attributeerror-nonetype-object-has-no-attribute-original-name-sc)

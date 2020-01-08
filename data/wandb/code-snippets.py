@@ -306,7 +306,10 @@ model.compile(loss=config.loss, optimizer=config.optimizer,
 model.fit(X_train, y_train, epochs=config.epochs, validation_data=(X_test, y_test), callbacks=[WandbCallback(data_type="image", labels=signdata.letters)])
 #print(model.predict(X_train[:2]))
 
-@vanpelt we add the empty 3rd dimension because Conv2D always expects 3 dimensions.  This is because your doing convolutions on multiple channels.  For instance color images have Red Green and Blue channels as the 3rd dimension.
+### @vanpelt we add the empty 3rd dimension because Conv2D always 
+### expects 3 dimensions. This is because your doing convolutions 
+### on multiple channels. For instance color images have Red Green 
+### and Blue channels as the 3rd dimension.
 ### ---
 cd ~/ml-class/lstm/imdb-classifier
 
@@ -785,11 +788,4 @@ self.model.fit(X_scl_re, y_scl,
                    verbose   =self.verbose, 
                    shuffle   =False)
 
-
-Q: I'm using the network below for time series. The numpy array X_scl_re has shape (n_samples, timesteps, n_features). In my case timesteps=1. My question is when is tilmestep greater than 1 and what does this mean?
-
-A: In your example timesteps would be the number of sequences to process.  Increasing this would allow the network to see longer range patterns.  You can think of it as the amount of time the network get's to look back to.
-Or in the case of the IMDB dataset the number of words the network get's to see to make a decision.
-
 ### ---
-
