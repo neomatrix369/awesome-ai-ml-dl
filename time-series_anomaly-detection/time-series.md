@@ -1,5 +1,24 @@
 # Time-series
 
+- [Introductory](#introductory)
+- [Classification](#classification)
+- [Feature engineering](#feature-engineering)
+- [Methods: ARMA/ARIMA/SARIMA and others](#methods-armaarimasarima-and-others)
+- [Non-stationary Time-series](#non-stationary-time-series)
+- [Generalized Additive Models](#generalized-additive-models)
+- [Courses / Tutorials / Workshops](#courses--tutorials--workshops)
+- [Applied Time series](applied-time-series)
+- [Gaussian process](#gaussian-process)
+- [Neural Networks & Deep Learning](#neural-networks--deep-learning)
+- [Forecasting](#forecasting)
+- [Forecasting using Prophet](#forecasting-using-prophet)
+- [Prediction](#prediction)
+- [Trend estimation / trend analysis](#trend-estimation--trend-analysis)
+- [Misc](#misc)
+- [Contributing](#contributing)
+
+---
+
 ## Introductory
 
 - [Step by Step guide to learn Time Series Modeling](https://www.analyticsvidhya.com/blog/2015/02/step-step-guide-learn-time-series/)
@@ -27,7 +46,7 @@
 
 ## Feature engineering
 
-[6 Powerful Feature Engineering Techniques For Time Series Data (using Python)](https://www.analyticsvidhya.com/blog/2019/12/6-powerful-feature-engineering-techniques-time-series/)
+- [6 Powerful Feature Engineering Techniques For Time Series Data (using Python)](https://www.analyticsvidhya.com/blog/2019/12/6-powerful-feature-engineering-techniques-time-series/)
 
 ## Methods: ARMA/ARIMA/SARIMA and others
 
@@ -45,7 +64,7 @@
 
 ## Non-stationary Time-series
 
-[A Gentle Introduction to Handling a Non-Stationary Time Series in Python](https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/)
+- [A Gentle Introduction to Handling a Non-Stationary Time Series in Python](https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/)
 
 ## Generalized Additive Models
 
