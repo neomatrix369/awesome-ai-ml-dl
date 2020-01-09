@@ -35,7 +35,7 @@
 - [(Video) Ross Taylor | Time Series for Python with PyFlux](https://www.youtube.com/watch?v=JUctzSSAjG4 (42m))
 - https://www.sas.upenn.edu/~fdiebold/Teaching104/Ch14_slides.pdf
 - [(Video) Case Study in Travel Business - Time Series Analysis with Seasonal Data by Cheuk Ting Ho](https://www.youtube.com/watch?v=ZR9aAZZEhQo (25m))
-- [Time Series in Python notebook](https://github.com/advaitsave/Introduction-to-Time-Series-forecasting-Python/blob/master/Time%20Series%20in%20Python.ipynb)
+- [Playing with time series data in python](https://towardsdatascience.com/playing-with-time-series-data-in-python-959e2485bff8?source=---------45---------------------)
 - [Presentation: An Introduction to Time Series Forecasting with Python](https://www.researchgate.net/publication/324889271_An_Introduction_to_Time_Series_Forecasting_with_Python)
 - [Time series analysis discussion on Analytics Vidhya](https://discuss.analyticsvidhya.com/t/time-series-analysis/67474)
 - [Book (free): Introduction toTime Series and Forecasting, Second Edition by Peter J. Brockwell and Richard A. Davis](http://home.iitj.ac.in/~parmod/document/introduction%20time%20series.pdf)
@@ -80,6 +80,7 @@
 - [Long Range Correlation in time-series (tutorial and case study)](https://www.datasciencecentral.com/profiles/blogs/long-range-correlation-in-time-series-tutorial-and-case-study)
 - [Time Series Analysis with Python —With Applications of Machine Learning Algorithms](http://www.hilpisch.com/hydpy_workshop.pdf)
 - [Time Series Forecasting in Minutes](https://tutorials.datasciencedojo.com/time-series-forecasting-minutes/)
+- [PyCon 2017 tutorial on time series analysis ](https://github.com/robmarkcole/pycon_time_series)
 - [Time Series in Python Part 1: Read and Transform Your Data](https://tutorials.datasciencedojo.com/time-series-python-reading-data/)
 - [ARIMA modeling and forecasting: Time Series in Python Part 2](https://tutorials.datasciencedojo.com/arima-model-time-series-python/)
 - [Mean Absolute Error for Forecast Evaluation: Time Series in Python Part 3](https://tutorials.datasciencedojo.com/mean-absolute-error-forecast/)
@@ -104,6 +105,8 @@
 - [Based on Deep Learning for Time-Series Forecasting Course](https://github.com/kmfullerton/Deep_Learning_Time_Series)
 - [Deep-Learning-for-Time-Series-Forecasting](https://github.com/Geo-Joy/Deep-Learning-for-Time-Series-Forecasting)
 - [How to Get Started with Deep Learning for Time Series Forecasting (7-Day Mini-Course)](https://www.aiproblog.com/index.php/2018/09/03/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
+- [The Promise of Recurrent Neural Networks for Time Series Forecasting](https://machinelearningmastery.com/promise-recurrent-neural-networks-time-series-forecasting/)
+- [Google Stock Price Time Series Prediction with RNN(LSTM) using pytorch from Scratch](https://in.pycon.org/cfp/2018/proposals/google-stock-price-time-series-prediction-with-rnnlstm-using-pytorch-from-scratch~b67Rd/)
 
 ## Forecasting
 
@@ -145,7 +148,10 @@
 - [(Video) Joe Jevnik - A Worked Example of Using Neural Networks for Time Series Prediction](https://www.youtube.com/watch?v=hAlGqT3Xpus (35m))
 - [(Video) Build A Stock Prediction Program](https://www.youtube.com/watch?v=EYnC4ACIt2g-)
 - [Stock Prices Prediction Using Machine Learning and Deep Learning Techniques (with Python codes)](https://www.analyticsvidhya.com/blog/2018/10/predicting-stock-price-machine-learningnd-deep-learning-techniques-python/)
+- [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
 - [Master’s Thesis: Time Series Data Prediction and Analysis](https://dspace.cvut.cz/bitstream/handle/10467/70524/F3-DP-2017-Ostashchuk-Oleg-Prediction%20Time%20Series%20Data%20Analysis.pdf)
+- [App that will plot a single time-series sensor history and make predictions using Prophet](https://github.com/robmarkcole/HASS-time-series-prediction)
+- [Cassandra NoSQL + Bokeh + Prophet for stock time series analysis](https://github.com/robmarkcole/CassandraTime)
 
 ## Trend estimation / trend analysis
 
@@ -162,6 +168,10 @@
 
 - [(Video) Aileen Nielsen - Irregular time series and how to whip them](https://www.youtube.com/watch?v=E4NMZyfao2c (29m))
 - [(Video) Pydata Time-series talks](https://www.youtube.com/results?search_query=pydata+time+series)
+- [Videos by Ashrith Barthur on Security, Time-series and Anomaly detection](https://www.youtube.com/results?search_query=h2o+ashrith)
+- [Financial: time series](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
+- [Driverless AI's time-series support](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/time-series.html)
+- [Time Series with Driverless AI - Marios Michailidis and Mathias Müller - H2O AI World London 2018](https://www.youtube.com/watch?v=EGVY7-Spv8E)
 - [Time-series on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series/)
 - [Time-series Forecasting on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series-forecasting/)
 - **[And many more Time-series posts on MachineLearningMastery.com](https://machinelearningmastery.com/?s=time+series&post_type=post&submit=Search)**

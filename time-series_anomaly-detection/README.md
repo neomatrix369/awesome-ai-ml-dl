@@ -2,31 +2,33 @@
 
 - [Time-series](#timeseries)
   - [Notebooks](#notebooks)
-  - [Anomaly detection](#anomaly-detection)
+- [Anomaly detection](#anomaly-detection)
 - [Contributing](#contributing)
 
 ---
 
 ### Time-series
-  - H2O
-    - [Driverless AI's time-series support](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/time-series.html)
-    - [Time Series with Driverless AI - Marios Michailidis and Mathias Müller - H2O AI World London 2018](https://www.youtube.com/watch?v=EGVY7-Spv8E)
-  - [App that will plot a single time-series sensor history and make predictions using Prophet](https://github.com/robmarkcole/HASS-time-series-prediction)
-  - [Cassandra NoSQL + Bokeh + Prophet for stock time series analysis](https://github.com/robmarkcole/CassandraTime)
-  - [PyCon 2017 tutorial on time series analysis ](https://github.com/robmarkcole/pycon_time_series)
-  - [The Promise of Recurrent Neural Networks for Time Series Forecasting](https://machinelearningmastery.com/promise-recurrent-neural-networks-time-series-forecasting/)
-  - [Anomaly Detection for Time Series Data with Deep Learning](https://www.infoq.com/articles/deep-learning-time-series-anomaly-detection)
-  - [Google Stock Price Time Series Prediction with RNN(LSTM) using pytorch from Scratch](https://in.pycon.org/cfp/2018/proposals/google-stock-price-time-series-prediction-with-rnnlstm-using-pytorch-from-scratch~b67Rd/)
-  - [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
-  - [Financial: time series](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
-  - [Videos by Ashrith Barthur on Security, Time-series and Anomaly detection](https://www.youtube.com/results?search_query=h2o+ashrith)
-  - [Playing with time series data in python](https://towardsdatascience.com/playing-with-time-series-data-in-python-959e2485bff8?source=---------45---------------------)
-  - [A Gentle Introduction to SARIMA for Time Series Forecasting in Python](https://machinelearningmastery.com/sarima-for-time-series-forecasting-in-python/)
-  - See **[more time-series resources](./time-series.md#time-series)**
+
+- [Introductory](time-series.md#introductory)
+- [Classification](time-series.md#classification)
+- [Feature engineering](time-series.md#feature-engineering)
+- [Methods: ARMA/ARIMA/SARIMA and others](time-series.md#methods-armaarimasarima-and-others)
+- [Non-stationary Time-series](time-series.md#non-stationary-time-series)
+- [Generalized Additive Models](time-series.md#generalized-additive-models)
+- [Courses / Tutorials / Workshops](time-series.md#courses--tutorials--workshops)
+- [Applied Time series](time-series.mdapplied-time-series)
+- [Gaussian process](time-series.md#gaussian-process)
+- [Neural Networks & Deep Learning](time-series.md#neural-networks--deep-learning)
+- [Forecasting](time-series.md#forecasting)
+- [Forecasting using Prophet](time-series.md#forecasting-using-prophet)
+- [Prediction](time-series.md#prediction)
+- [Trend estimation / trend analysis](time-series.md#trend-estimation--trend-analysis)
+- [Notebooks](time-series.md#notebooks)
+- [Misc](time-series.md#misc)
 
 #### Notebooks
 
-  See [Notebooks under more time-series resources](./time-series.md#notebooks)
+See [Notebooks under more time-series resources](./time-series.md#notebooks)
 
 ### Anomaly detection
   - H2O
@@ -43,6 +45,7 @@
     - [(Video) Using H2O for Mobile Transaction Forecasting & Anomaly Detection - Capital One](https://www.youtube.com/watch?v=e0vOTY6QdO4)
     - [(Video) Using H2O Two Ways for Mobile Transaction Forecasting & Anomaly Detection - Rahul Gupta, Capital One](https://www.youtube.com/watch?v=DzP-ppiSX_0)
     - [(Video) Anomaly Detection and Feature Engineering by Arno Candel](https://www.youtube.com/watch?v=fUSbljByXak)
+  - [Anomaly Detection for Time Series Data with Deep Learning](https://www.infoq.com/articles/deep-learning-time-series-anomaly-detection)
   - [Unsupervised Anomaly Detection](https://www.kaggle.com/victorambonati/unsupervised-anomaly-detection)
   - [Anomaly/Fraud Detection in Credit Card Transactions](https://rpubs.com/mr148/316143)
   - [Autoencoders and anomaly detection with machine learning in fraud analytics](https://www.r-bloggers.com/autoencoders-and-anomaly-detection-with-machine-learning-in-fraud-analytics/)
