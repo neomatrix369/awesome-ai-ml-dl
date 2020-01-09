@@ -1,0 +1,152 @@
+# Time-series
+
+## Introductory
+
+- [Step by Step guide to learn Time Series Modeling](https://www.analyticsvidhya.com/blog/2015/02/step-step-guide-learn-time-series/)
+- [Introduction to ARMA Time Series Models – Simplified](https://www.analyticsvidhya.com/blog/2015/03/introduction-auto-regression-moving-average-time-series/)
+- [Creating Time Series Forecast using Python](https://courses.analyticsvidhya.com/courses/creating-time-series-forecast-using-python)
+- [Time Series Analysis in Python](https://www.datacamp.com/courses/introduction-to-time-series-analysis-in-python)
+- [Introduction to Time Series Classification in Python](https://blog.edugrad.com/introduction-to-time-series-classification-in-python/)
+- [Time Series Analysis in Python: An Introduction](https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a)
+- [An Introduction to Time-series Analysis Using Python and Pandas](https://medium.com/towards-artificial-intelligence/an-introduction-to-time-series-analysis-using-python-and-pandas-222fe72b191a)
+- [Time Series Forecast: A basic introduction using Python](https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000)
+- [Ian Ozsvald: A gentle introduction to Pandas timeseries and Seaborn | PyData London 2019](https://www.youtube.com/watch?v=8upGdZMlkYM (1hr 24m))
+- [Quentin Caudron - Introduction to data analytics with pandas](https://www.youtube.com/watch?v=F7sCL61Zqss (1hr 51m))
+- [Ross Taylor | Time Series for Python with PyFlux](https://www.youtube.com/watch?v=JUctzSSAjG4 (42m))
+- https://www.sas.upenn.edu/~fdiebold/Teaching104/Ch14_slides.pdf
+- [Case Study in Travel Business - Time Series Analysis with Seasonal Data by Cheuk Ting Ho](https://www.youtube.com/watch?v=ZR9aAZZEhQo (25m))
+- [Time Series in Python notebook](https://github.com/advaitsave/Introduction-to-Time-Series-forecasting-Python/blob/master/Time%20Series%20in%20Python.ipynb)
+- [Presentation: An Introduction to Time Series Forecasting with Python](https://www.researchgate.net/publication/324889271_An_Introduction_to_Time_Series_Forecasting_with_Python)
+- [Time series analysis discussion on Analytics Vidhya](https://discuss.analyticsvidhya.com/t/time-series-analysis/67474)
+- [Book (free): Introduction toTime Series and Forecasting, Second Edition by Peter J. Brockwell and Richard A. Davis](http://home.iitj.ac.in/~parmod/document/introduction%20time%20series.pdf)
+- [Book (paid): Introduction to Time Series Forecasting With Python](https://machinelearningmastery.com/introduction-to-time-series-forecasting-with-python/)
+
+## Classification
+
+- [A Hands-On Introduction to Time Series Classification (with Python Code)](https://www.analyticsvidhya.com/blog/2019/01/introduction-time-series-classification/)
+
+## Feature engineering
+
+[6 Powerful Feature Engineering Techniques For Time Series Data (using Python)](https://www.analyticsvidhya.com/blog/2019/12/6-powerful-feature-engineering-techniques-time-series/)
+
+## Methods: ARMA/ARIMA/SARIMA and others
+
+- [Time Series Forecasting Theory | AR, MA, ARMA, ARIMA | Data Science](https://www.youtube.com/watch?v=Aw77aMLj9uM (53m))
+- [Introduction to ARMA Time Series Models – Simplified](https://www.analyticsvidhya.com/blog/2015/03/introduction-auto-regression-moving-average-time-series/)
+- [Framework and Applications of ARIMA time series models](https://www.analyticsvidhya.com/blog/2015/03/framework-application-build-arima-model/)
+- [ARIMA modeling and forecasting: Time Series in Python Part 2](https://tutorials.datasciencedojo.com/arima-model-time-series-python/)
+- [Build High Performance Time Series Models using Auto ARIMA in Python and R](https://www.analyticsvidhya.com/blog/2018/08/auto-arima-time-series-modeling-python-r/)
+- [ARIMA Model – Complete Guide to Time Series Forecasting in Python](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/)
+- [A Guide to Time Series Forecasting with ARIMA in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3)
+- [A Gentle Introduction to SARIMA for Time Series Forecasting in Python](https://machinelearningmastery.com/sarima-for-time-series-forecasting-in-python/)
+- [7 methods to perform Time Series forecasting (with Python codes)](https://www.analyticsvidhya.com/blog/2018/02/time-series-forecasting-methods/)
+- [11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+- [List of Time Series Method](https://www.linkedin.com/posts/nabihbawazir_list-of-time-series-method-for-business-activity-6603565390427709440-HnS-)
+
+## Non-stationary Time-series
+
+[A Gentle Introduction to Handling a Non-Stationary Time Series in Python](https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/)
+
+## Generalized Additive Models
+
+- [Time Series Analysis with Generalized Additive Models](https://www.linkedin.com/posts/data-science-central_time-series-analysis-with-generalized-additive-activity-6607043238882787328-tBI6)
+
+## Courses / Tutorials / Workshops
+
+- [A Complete Tutorial on Time Series Modeling in R](https://www.analyticsvidhya.com/blog/2015/12/complete-tutorial-time-series-modeling/)
+- [Modern Time Series Analysis | SciPy 2019 Tutorial | Aileen Nielsen](https://www.youtube.com/watch?v=v5ijNXvlC5A (3hr 12m))
+- [Aileen Nielsen - Time Series Analysis - PyCon 2017](https://www.youtube.com/watch?v=zmfe2RaX-14 (3hr 11m))
+- [Time Series Analysis with Python Intermediate | SciPy 2016 Tutorial | Aileen Nielsen (3hr 3m)](https://www.youtube.com/watch?v=JNfxr4BQrLk)
+- [Long Range Correlation in time-series (tutorial and case study)](https://www.datasciencecentral.com/profiles/blogs/long-range-correlation-in-time-series-tutorial-and-case-study)
+- [Time Series Analysis with Python —With Applications of Machine Learning Algorithms](http://www.hilpisch.com/hydpy_workshop.pdf)
+- [Time Series Forecasting in Minutes](https://tutorials.datasciencedojo.com/time-series-forecasting-minutes/)
+- [Time Series in Python Part 1: Read and Transform Your Data](https://tutorials.datasciencedojo.com/time-series-python-reading-data/)
+- [ARIMA modeling and forecasting: Time Series in Python Part 2](https://tutorials.datasciencedojo.com/arima-model-time-series-python/)
+- [Mean Absolute Error for Forecast Evaluation: Time Series in Python Part 3](https://tutorials.datasciencedojo.com/mean-absolute-error-forecast/)
+- [Time Series Analysis using Python workshop](https://github.com/rouseguy/TimeSeriesAnalysiswithPython)
+- [Based on Deep Learning for Time-Series Forecasting Course](https://github.com/kmfullerton/Deep_Learning_Time_Series)
+- [Deep-Learning-for-Time-Series-Forecasting](https://github.com/Geo-Joy/Deep-Learning-for-Time-Series-Forecasting)
+- [How to Get Started with Deep Learning for Time Series Forecasting (7-Day Mini-Course)](https://www.aiproblog.com/index.php/2018/09/03/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
+
+## Applied Time series
+
+- [Jeffrey Yau: Applied Time Series Econometrics in Python and R | PyData San Francisco 2016](https://www.youtube.com/watch?v=tJ-O3hk1vRw (1hr 39m))
+
+## Gaussian Process
+
+- [Dr. Juan Orduz: Gaussian Process for Time Series Analysis | PyData Berlin 2019](https://www.youtube.com/watch?v=0p_6RzhSZEc (30m))
+
+## Neural Networks & Deep Learning
+
+- [Dafne van Kuppevelt | Deep learning for time series made easy](https://www.youtube.com/watch?v=9X_4i7zdSY8 (22m))
+- [1D Convolutional Neural Networks for Time Series Modeling - Nathan Janos, Jeff Roach](https://www.youtube.com/watch?v=nMkqWxMjWzg (35m))
+- [Igor Gotlibovych: Deep Learning and Time Series Forecasting for Smarter Energy | PyData London 2019](https://www.youtube.com/watch?v=p6mKFs6HVlg (40m))
+- [Based on Deep Learning for Time-Series Forecasting Course](https://github.com/kmfullerton/Deep_Learning_Time_Series)
+- [Deep-Learning-for-Time-Series-Forecasting](https://github.com/Geo-Joy/Deep-Learning-for-Time-Series-Forecasting)
+- [How to Get Started with Deep Learning for Time Series Forecasting (7-Day Mini-Course)](https://www.aiproblog.com/index.php/2018/09/03/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
+
+## Forecasting
+
+- [Forecasting versus Prediction](https://www.datascienceblog.net/post/machine-learning/forecasting_vs_prediction/)
+- [Preprocessing for Time Series Forecasting](https://medium.com/analytics-vidhya/preprocessing-for-time-series-forecasting-3a331dbfb9c2)
+- [A comprehensive beginner’s guide to create a Time Series Forecast (with Codes in Python and R)](https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/)
+- [What Is Time Series Forecasting?](https://machinelearningmastery.com/time-series-forecasting/)
+- [Time Series Forecasting as Supervised Learning](https://machinelearningmastery.com/time-series-forecasting-supervised-learning/)
+- [Autoregression Models for Time Series Forecasting With Python](https://machinelearningmastery.com/autoregression-models-time-series-forecasting-python/)
+- [Time Series Forecasting with Python 7-Day Mini-Course](https://machinelearningmastery.com/time-series-forecasting-python-mini-course/)
+- [A Gentle Introduction to Exponential Smoothing for Time Series Forecasting in Python](https://machinelearningmastery.com/exponential-smoothing-for-time-series-forecasting-in-python/)
+- [How to Grid Search Triple Exponential Smoothing for Time Series Forecasting in Python](https://machinelearningmastery.com/how-to-grid-search-triple-exponential-smoothing-for-time-series-forecasting-in-python/)
+- [How to Develop LSTM Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)
+- [An End-to-End Project on Time Series Analysis and Forecasting with Python](https://towardsdatascience.com/an-end-to-end-project-on-time-series-analysis-and-forecasting-with-python-4835e6bf050b)
+- [Forecasting Time Series Data using Autoregression](https://pythondata.com/forecasting-time-series-autoregression/)
+- [Reliably forecasting time-series in real-time - Charles Masson](https://www.youtube.com/watch?v=0zpg9ODE6Ww (41m))
+- [Two Effective Algorithms for Time Series Forecasting](https://www.youtube.com/watch?v=VYpAodcdFfA (14m))
+- [Time Series Analysis in Python | Time Series Forecasting | Data Science with Python | Edureka](https://www.youtube.com/watch?v=e8Yw4alG16Q (38m))
+- [Time Series Forecasting Theory | AR, MA, ARMA, ARIMA | Data Science](https://www.youtube.com/watch?v=Aw77aMLj9uM (53m))
+- [Pranav Bahl, Jonathan Stacks - Robust Automated Forecasting in Python and R](https://www.youtube.com/watch?v=pl6u8PC_1Ns (42m))
+- [About Practice Problem: Time Series Analysis](https://datahack.analyticsvidhya.com/contest/practice-problem-time-series-2/)
+- [Encoding Time Series as Images](https://medium.com/analytics-vidhya/encoding-time-series-as-images-b043becbdbf3)
+- [A Multivariate Time Series Guide to Forecasting and Modeling (with Python codes)](https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/)
+- [Tamara Louie: Applying Statistical Modeling & Machine Learning to Perform Time-Series Forecasting](https://www.youtube.com/watch?v=JntA9XaTebs (1hr 26m))
+- [Jeffrey Yau: Time Series Forecasting using Statistical and Machine Learning Models | PyData NYC 2017](https://www.youtube.com/watch?v=_vQ0W_qXMxk (32m))
+- [Igor Gotlibovych: Deep Learning and Time Series Forecasting for Smarter Energy | PyData London 2019](https://www.youtube.com/watch?v=p6mKFs6HVlg (40m))
+
+## Forecasting using Prophet
+
+- [Generate Quick and Accurate Time Series Forecasts using Facebook’s Prophet (with Python & R codes)](https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/)
+- [A Guide to Time Series Forecasting with Prophet in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-prophet-in-python-3) 
+- [A Quick Start of Time Series Forecasting with a Practical Example using FB Prophet](https://towardsdatascience.com/a-quick-start-of-time-series-forecasting-with-a-practical-example-using-fb-prophet-31c4447a2274)
+- [Mahan Hosseinzadeh- Prophet at scale to tune & forecast time series at Spotify - PyData London 2019](https://www.youtube.com/watch?v=fegS34ItKcI (38m))
+
+## Prediction
+
+- [Forecasting versus Prediction](https://www.datascienceblog.net/post/machine-learning/forecasting_vs_prediction/)
+- [SO: Time Series Prediction using LSTM](https://stackoverflow.com/questions/43793565/time-series-prediction-using-lstm)
+- [Joe Jevnik - A Worked Example of Using Neural Networks for Time Series Prediction](https://www.youtube.com/watch?v=hAlGqT3Xpus (35m))
+- [Build A Stock Prediction Program](https://www.youtube.com/watch?v=EYnC4ACIt2g-)
+- [Stock Prices Prediction Using Machine Learning and Deep Learning Techniques (with Python codes)](https://www.analyticsvidhya.com/blog/2018/10/predicting-stock-price-machine-learningnd-deep-learning-techniques-python/)
+- [Master’s Thesis: Time Series Data Prediction and Analysis](https://dspace.cvut.cz/bitstream/handle/10467/70524/F3-DP-2017-Ostashchuk-Oleg-Prediction%20Time%20Series%20Data%20Analysis.pdf)
+
+## Trend estimation / trend analysis
+
+- [Bugra Akyildiz: Trend Estimation in Time Series Signals](https://www.youtube.com/watch?v=likDxYXhNQY (43m))
+- [Trend Analysis of Fragmented Time Series: Hypothesis Testing Based Adaptive Spline Filtering Method](https://www.linkedin.com/posts/data-science-central_trend-analysis-of-fragmented-time-series-activity-6610697317018292224--zak)
+
+## Misc
+
+- [Aileen Nielsen - Irregular time series and how to whip them](https://www.youtube.com/watch?v=E4NMZyfao2c (29m))
+- [Pydata Time-series talks](https://www.youtube.com/results?search_query=pydata+time+series)
+- [Time-series on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series/)
+- [Time-series Forecasting on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series-forecasting/)
+- **[And many more Time-series posts on MachineLearningMastery.com](https://machinelearningmastery.com/?s=time+series&post_type=post&submit=Search)**
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../LICENSE.md) policy.
+
+---
+
+Back to [Time-series/Anomaly detection page](./README.md)
+Back to [main page (table of contents)](../README.md)
