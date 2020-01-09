@@ -14,6 +14,7 @@
 - [Forecasting using Prophet](#forecasting-using-prophet)
 - [Prediction](#prediction)
 - [Trend estimation / trend analysis](#trend-estimation--trend-analysis)
+- [Notebooks](#notebooks)
 - [Misc](#misc)
 - [Contributing](#contributing)
 
@@ -150,6 +151,12 @@
 
 - [Bugra Akyildiz: Trend Estimation in Time Series Signals](https://www.youtube.com/watch?v=likDxYXhNQY (43m))
 - [Trend Analysis of Fragmented Time Series: Hypothesis Testing Based Adaptive Spline Filtering Method](https://www.linkedin.com/posts/data-science-central_trend-analysis-of-fragmented-time-series-activity-6610697317018292224--zak)
+
+## Notebooks
+
+- [Fuzzy Time series notebook](https://colab.research.google.com/drive/1S1QSZfO3YPVr022nwqJC5bEJvrXbqS_A)
+- [Python Data Science Handbook: Time series notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.11-Working-with-Time-Series.ipynb)
+- [Time Series in Python notebook](https://github.com/advaitsave/Introduction-to-Time-Series-forecasting-Python/blob/master/Time%20Series%20in%20Python.ipynb)
 
 ## Misc
 

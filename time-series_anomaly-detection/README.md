@@ -26,9 +26,7 @@
 
 #### Notebooks
 
-  - [Fuzzy Time series notebook](https://colab.research.google.com/drive/1S1QSZfO3YPVr022nwqJC5bEJvrXbqS_A)
-  - [Python Data Science Handbook: Time series notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.11-Working-with-Time-Series.ipynb)
-  - [Time Series in Python notebook](https://github.com/advaitsave/Introduction-to-Time-Series-forecasting-Python/blob/master/Time%20Series%20in%20Python.ipynb)
+  See [Notebooks under more time-series resources](./time-series.md#notebooks)
 
 ### Anomaly detection
   - H2O
