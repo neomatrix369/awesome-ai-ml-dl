@@ -75,6 +75,10 @@
 
 - [A Complete Tutorial on Time Series Modeling in R](https://www.analyticsvidhya.com/blog/2015/12/complete-tutorial-time-series-modeling/)
 - [(Video) Modern Time Series Analysis | SciPy 2019 Tutorial | Aileen Nielsen](https://www.youtube.com/watch?v=v5ijNXvlC5A (3hr 12m))
+    - https://www.scipy2019.scipy.org/tutorial-participant-instructions
+    - [Git repo with notes](https://github.com/theJollySin/scipy_con_2019/blob/master/modern_time_series_analysis/README.md)
+    - [Aileen's git repo](https://github.com/AileenNielsen/TimeSeriesAnalysisWithPython)
+    - [Google Bayesian Time-series package](https://opensource.googleblog.com/2014/09/causalimpact-new-open-source-package.html): [Python](https://pypi.org/project/pycausalimpact/) | [R](https://google.github.io/CausalImpact/)
 - [Aileen Nielsen - Time Series Analysis - PyCon 2017](https://www.youtube.com/watch?v=zmfe2RaX-14 (3hr 11m))
 - [(Video) Time Series Analysis with Python Intermediate | SciPy 2016 Tutorial | Aileen Nielsen (3hr 3m)](https://www.youtube.com/watch?v=JNfxr4BQrLk)
 - [Long Range Correlation in time-series (tutorial and case study)](https://www.datasciencecentral.com/profiles/blogs/long-range-correlation-in-time-series-tutorial-and-case-study)
@@ -152,6 +156,7 @@
 - [Master’s Thesis: Time Series Data Prediction and Analysis](https://dspace.cvut.cz/bitstream/handle/10467/70524/F3-DP-2017-Ostashchuk-Oleg-Prediction%20Time%20Series%20Data%20Analysis.pdf)
 - [App that will plot a single time-series sensor history and make predictions using Prophet](https://github.com/robmarkcole/HASS-time-series-prediction)
 - [Cassandra NoSQL + Bokeh + Prophet for stock time series analysis](https://github.com/robmarkcole/CassandraTime)
+- [Book (paid): Advances in Financial Machine Learning by Marcos Lopez de Prado](https://www.amazon.co.uk/Advances-Financial-Machine-Learning-Marcos/dp/1119482089?SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-brave-uk-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1119482089) (also available on [Safari Books](https://my.safaribooksonline.com/login))
 
 ## Trend estimation / trend analysis
 
@@ -163,6 +168,7 @@
 - [Fuzzy Time series notebook](https://colab.research.google.com/drive/1S1QSZfO3YPVr022nwqJC5bEJvrXbqS_A)
 - [Python Data Science Handbook: Time series notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.11-Working-with-Time-Series.ipynb)
 - [Time Series in Python notebook](https://github.com/advaitsave/Introduction-to-Time-Series-forecasting-Python/blob/master/Time%20Series%20in%20Python.ipynb)
+- [A modern Time Series tutorial (Kaggle Kernel)](https://www.kaggle.com/rohanrao/a-modern-time-series-tutorial)
 
 ## Misc
 
