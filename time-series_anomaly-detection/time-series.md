@@ -3,6 +3,9 @@
 - [Introductory](#introductory)
 - [Classification](#classification)
 - [Feature engineering](#feature-engineering)
+- [ES-RNN](#es-rnn)
+- [WaveNet](#wavenet)
+- [DeepAR](#deepar)
 - [Methods: ARMA/ARIMA/SARIMA and others](#methods-armaarimasarima-and-others)
 - [Non-stationary Time-series](#non-stationary-time-series)
 - [Generalized Additive Models](#generalized-additive-models)
@@ -30,6 +33,7 @@
 - [Time Series Analysis in Python: An Introduction](https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a)
 - [An Introduction to Time-series Analysis Using Python and Pandas](https://medium.com/towards-artificial-intelligence/an-introduction-to-time-series-analysis-using-python-and-pandas-222fe72b191a)
 - [Time Series Forecast: A basic introduction using Python](https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000)
+- [Deep Learning for Time Series | Dimitry Larko | Kaggle Days](https://www.youtube.com/watch?v=svNwWSgz2NM&feature=youtu.be)
 - [(Video) Ian Ozsvald: A gentle introduction to Pandas timeseries and Seaborn | PyData London 2019](https://www.youtube.com/watch?v=8upGdZMlkYM (1hr 24m))
 - [(Video) Quentin Caudron - Introduction to data analytics with pandas](https://www.youtube.com/watch?v=F7sCL61Zqss (1hr 51m))
 - [(Video) Ross Taylor | Time Series for Python with PyFlux](https://www.youtube.com/watch?v=JUctzSSAjG4 (42m))
@@ -48,6 +52,24 @@
 ## Feature engineering
 
 - [6 Powerful Feature Engineering Techniques For Time Series Data (using Python)](https://www.analyticsvidhya.com/blog/2019/12/6-powerful-feature-engineering-techniques-time-series/)
+
+## ES-RNN
+
+[ES_RNN - a hybrid Exponential Smoothing/Recurrent NN method that won M4 Forecasting Competition](https://github.com/slaweks17/ES_RNN)
+[Fast ES-RNN: A GPU Implementation of the ES-RNN Algorithm](https://www.semanticscholar.org/paper/Fast-ES-RNN%3A-A-GPU-Implementation-of-the-ES-RNN-Redd-Khin/795f97edc24e2703f15da99f9187d654eabcfa0e)
+[Fast ES-RNN: A GPU Implementation of the ES-RNN Algorithm](https://deepai.org/publication/fast-es-rnn-a-gpu-implementation-of-the-es-rnn-algorithm)
+
+## WaveNet
+
+[WaveNet: A generative model for raw audio](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
+[WaveNet and other synthetic voices](https://cloud.google.com/text-to-speech/docs/wavenet)
+[A TensorFlow implementation of DeepMind's WaveNet paper](https://github.com/ibab/tensorflow-wavenet)
+
+## DeepAR
+
+[DeepAR](https://www.deepar.ai/)
+[DeepAR Forecasting Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)
+[Prophet vs DeepAR: Forecasting Food Demand](https://towardsdatascience.com/prophet-vs-deepar-forecasting-food-demand-2fdebfb8d282)
 
 ## Methods: ARMA/ARIMA/SARIMA and others
 
