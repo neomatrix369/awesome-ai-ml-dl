@@ -11,7 +11,7 @@
 
 ## RAPIDS
 
-See [Notebooks from NVIDIA's RAPIDS](../cloud-devops-infra/gpus/rapids.md#rapids)
+See [Notebooks from NVIDIA's RAPIDS](../cloud-devops-infra/gpus/rapids.md#notebooks)
 
 ## Deep Learning
 
