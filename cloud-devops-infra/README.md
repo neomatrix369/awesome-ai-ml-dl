@@ -38,7 +38,7 @@
   - [valohai](https://www.valohai.com/) | [docs](https://docs.valohai.com/) | [blogs](https://blog.valohai.com) | [GitHub](https://github.com/valohai) | [Videos](https://www.youtube.com/channel/UCiR8Fpv6jRNphaZ99PnIuFg) | [Showcase](https://valohai.com/showcase/) | [Slack](http://community-slack.valohai.com/) | [@valohaiai](https://twitter.com/@valohaiai) - Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
   - [Lambda Cloud GPU Instances](https://lambdalabs.com/service/gpu-cloud) - GPU Instances for Deep Learning & Machine Learning
   - [NavOps](http://www.univa.com/products/navops.php) - Cloud Migration for HPC | [Datasheet](http://www.univa.com/resources/files/univa-navops-launch-datasheet.pdf)
-  - [Verne Global: HPC Cloud](https://verneglobal.com/solutions/hpc-cloud) | [NVidia DGX Ready](https://verneglobal.com/dgxready)
+  - [Verne Global: HPC Cloud](https://verneglobal.com/solutions/hpc-cloud) | [NVIDIA DGX Ready](https://verneglobal.com/dgxready)
   - [Weights and Biases](https://wandb.com) | [Learn more about WandB](../data/about-Weights-and-Biases.md)
 
 ## Tools
@@ -84,8 +84,8 @@
   - [Know your GPU](https://gist.github.com/neomatrix369/256913dcf77cdbb5855dd2d7f5d81b84)
   - [GPU Server 1 of 2](./gpus/GPU-Server-side-1-of-2.jpg) | [GPU Server 2 of 2](./gpus/GPU-Server-side-2-of-2.jpg) | [Applications of GPU servers](./gpus/Applications-of-GPU-Server.jpg) - [checkout the manufacturers](http://manli.com/en/)
   - [Embedded Vision Solutions for NVIDIA Jetson Series](https://www.avermedia.com/professional/category/nvidia_jetson_solutions) | [Embedded Vision Family Brochure](http://storage.avermedia.com/web_release_www/Solutions/Embedded_Vision_Solutions_brochure_20190429.pdf)
-  - Avermedia Box PC & Carrier (works with NVidia Jetson): [1](./gpus/Avermedia-Box-PC-and-Carrier-1-of-2-works-with-NVidia-Jetson.jpg) | [2](./gpus/Avermedia-Box-PC-and-Carrier-2-of-2-works-with-NVidia-Jetson.jpg)
-  - See [Nvidia's RAPIDs](./gpus/rapids.md)
+  - Avermedia Box PC & Carrier (works with NVIDIA Jetson): [1](./gpus/Avermedia-Box-PC-and-Carrier-1-of-2-works-with-NVidia-Jetson.jpg) | [2](./gpus/Avermedia-Box-PC-and-Carrier-2-of-2-works-with-NVidia-Jetson.jpg)
+  - See [NVIDIA's RAPIDs](./gpus/rapids.md)
 
 ## TPU
 
