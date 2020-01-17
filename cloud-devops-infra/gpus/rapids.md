@@ -15,7 +15,7 @@ The RAPIDS suite of software libraries, built on [CUDA-X AI](https://www.develop
 
 ## Blogs
 
-- [Rapids on Medium.com](https://medium.com/rapids-ai) - is a great place to catch up with RAPIDS new functionality
+- [RAPIDS on Medium.com](https://medium.com/rapids-ai) - is a great place to catch up with RAPIDS new functionality
 - [RAPIDS: NVIDIA Developer Blog](https://devblogs.nvidia.com/tag/rapids/)
 - See other [NVIDIA blogs](https://blogs.nvidia.com/)
 
