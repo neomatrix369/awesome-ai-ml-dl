@@ -48,7 +48,7 @@ The RAPIDS suite of software libraries, built on [CUDA-X AI](https://www.develop
 ## Developers
 
 - [RAPIDS](https://www.developer.nvidia.com/rapids)
-- [](https://devblogs.nvidia.com/gpu-accelerated-analytics-rapids/)
+- [RAPIDS Accelerates Data Science End-to-End](https://devblogs.nvidia.com/gpu-accelerated-analytics-rapids/)
 - [RAPIDS: The Rise of Notebooks Extended](https://news.developer.nvidia.com/rapids-the-rise-of-notebooks-extended/)
 - [cyBERT: Neural network, that’s the tech; To free your staff from, bad regex](https://news.developer.nvidia.com/cybert-rapids-ai/)
 - [NVIDIA RAPIDS Accelerates Kubeflow Pipeline with GPUs on Kubernetes](https://news.developer.nvidia.com/nvidia-rapids-accelerates-kubeflow-pipeline-with-gpus-on-kubernetes/)
