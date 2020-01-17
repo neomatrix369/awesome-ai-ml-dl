@@ -148,9 +148,12 @@ See [Courses](./courses.md#courses)
 
 ## Specialized hardware
 
-- [CPUs](./cloud-devops-infra/README.md#CPU)
-- [GPUs](./cloud-devops-infra/README.md#GPU)
-- [TPUs](./cloud-devops-infra/README.md#TPU)
+- [CPUs](./cloud-devops-infra/README.md#cpu)
+- [GPUs](./cloud-devops-infra/README.md#gpu)
+  - See also [RAPIDS](./cloud-devops-infra/gpu/rapids.md#rapids)
+- [TPUs](./cloud-devops-infra/README.md#tpu)
+- [FPGA](./cloud-devops-infra/README.md#fpga)
+- [IPU](./cloud-devops-infra/README.md#ipu)
 - See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md)
 
 ## Machine learning Algorithms
