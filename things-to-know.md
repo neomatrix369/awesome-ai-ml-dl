@@ -150,7 +150,7 @@ See [Courses](./courses.md#courses)
 
 - [CPUs](./cloud-devops-infra/README.md#cpu)
 - [GPUs](./cloud-devops-infra/README.md#gpu)
-  - See also [RAPIDS](./cloud-devops-infra/gpu/rapids.md#rapids)
+  - See also [NVIDIA's RAPIDS](./cloud-devops-infra/gpus/rapids.md#rapids)
 - [TPUs](./cloud-devops-infra/README.md#tpu)
 - [FPGA](./cloud-devops-infra/README.md#fpga)
 - [IPU](./cloud-devops-infra/README.md#ipu)
