@@ -7,6 +7,7 @@ The question to ask ourselves: _Do we know our data...?_
 ---
 
 - [Ethics / altruistic motives](./README.md#ethics--altruistic-motives)
+- [Data Science](./README.md#data-science)
 - [Datasets and sources of raw data](./README.md#datasets-and-sources-of-raw-data)
 - [Data Exploratory Analysis](./README.md#data-exploratory-analysis)
 - [Data preparation](./README.md#data-preparation)
@@ -37,6 +38,14 @@ The question to ask ourselves: _Do we know our data...?_
 
 See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motives)
 
+## Data Science
+
+- [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
+  - [Frame The Problem](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem/frame-the-problem.md)
+  - [Usage and Integration](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration/usage-and-integration.md)
+  - [Starting a Data Project](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
+  - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
+
 ## Datasets and sources of raw data
 
 See [Datasets](./datasets.md)
@@ -47,7 +56,8 @@ See [Data Exploratory Analysis](./data-exploratory-analysis.md)
 
 ## Data preparation
 
-See [Data preparation](./data-preparation.md)
+- [Data preparation](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-preparation/data-preparation.md)
+- See [Data preparation](./data-preparation.md)
 
 ## Data Generation
 
@@ -71,7 +81,8 @@ See [Statistics.md](statistics.md#statistics)
 
 ## Visualisation
 
-See [Visualisation](../details/visualisation.md#visualisation)
+- [Data Visualization](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
+- See [Visualisation](../details/visualisation.md#visualisation)
 
 ## Common mistakes when training models (data related)
 

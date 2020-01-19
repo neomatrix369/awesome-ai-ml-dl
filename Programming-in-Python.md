@@ -16,6 +16,7 @@
 
 ## Basics / learning
 
+- [Python Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/python-fundamentals/python-fundamentals.md)
 - [Lists, Tuples, Dictionaries, Conditionals, Loops, etc...](https://lnkd.in/gWRbc3J)
 - [Data Structures & Algorithms](https://lnkd.in/gYKnJWN)
 - [NumPy Arrays](https://lnkd.in/geeFePh)

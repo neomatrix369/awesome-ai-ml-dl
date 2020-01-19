@@ -2,6 +2,7 @@
 
 ## Notebook Applications and Extensions
 
+- [Jupyter Notebook](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/jupyter-notebook/jupyter-notebook.md)
 - Apache Zeppelin notes
   - See [example](../examples/apache-zeppelin/README.md) in the `examples/apache-zeppelin` folder
 - JuPyteR notebooks

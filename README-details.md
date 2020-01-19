@@ -16,6 +16,7 @@
 - [Notebooks](#notebooks)
 - [Models](#models)
 - [Articles, papers, code, data, courses](#articles-papers-code-data-courses)
+- [Other Tools](#other-tools)
 - [Presentations](#presentations)
 - [Best Practices](#best-practices)
 - [Cheatsheets](#cheatsheets)
@@ -28,7 +29,8 @@
 
 ### Artificial Intelligence
 
-See [Artificial Intelligence](./details/artificial-intelligence.md)
+- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
+- See [Artificial Intelligence](./details/artificial-intelligence.md)
 
 ### Automation
 
@@ -122,6 +124,10 @@ See [Notebooks](./notebooks/README.md#notebooks)
 ### Articles, papers, code, data, courses
 
 See [Articles, papers, code, data, courses](./details/articles-papers-code-data-courses.md)
+
+### Other Tools
+
+See [Other Tools](./things-to-know.md#other-tools)
 
 ### Presentations
 

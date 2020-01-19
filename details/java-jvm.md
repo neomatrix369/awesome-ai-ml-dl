@@ -103,12 +103,21 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   
 ## Data Science 
 
+- [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
+   - Also see [Data Science](../data/README.md#data-science)
 - [Data Science for Java Developers](https://www.oreilly.com/library/view/data-science-with/9781491934104/ch01.html)
 - [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
 - [Introduction to Data Science](https://www.youtube.com/watch?v=HEN6FBRuElE) | [Other Data Science Stuff related videos](https://www.youtube.com/channel/UCTe3bYxbzhstIRuIuGQz7UQ)
 
 ## Machine Learning
 
+- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
+- [What do you need for ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
+- [Do you really need ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
+- [ML use cases](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/use-cases/use-cases.md)
+- [Introduction to ML](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/introduction-to-ml/introduction-to-ml.md)
+- [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
+- [Machine Learning Study Path](https://github.com/virgili0/Virgilio/blob/master/LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)
 - [ML for Java Developers](https://www.itworld.com/article/3224505/application-development/machine-learning-for-java-developers.html)
 - [Java ML Dev Videos on YouTube: Naive Bayes w/ JAVA - Tutorial 01](https://www.youtube.com/watch?v=mrP4CyW4tKA&frags=pl%2Cwn)
 - Java ML Framework: [1](https://github.com/datumbox/datumbox-framework) [2](http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/)
@@ -124,6 +133,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ### Deep learning
 
+  - [Deep Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
   - [JFocus: Deep learning with Java](https://www.jfokus.se/jfokus17/preso/Deep-Learning-on-Java-tutorial.pdf) | [Video](https://www.youtube.com/watch?v=-hgAp470F-M) |([Tweet](https://twitter.com/juanantoniobm/status/832000819918733312))
   - [Understanding Machine Learning Algorithms with DL4J](https://skymind.ai/wiki/machine-learning-algorithms) ([Tweet](https://twitter.com/java/status/1077947895691673600))
   - [DL4J: Deep Learning for Java](https://deeplearning4j.org/) | [Docs/Guide](https://deeplearning4j.org/docs/latest/) | [Quickstart](https://deeplearning4j.org/docs/latest/deeplearning4j-quickstart) | [Tutorial](https://deeplearning4j.org/tutorials/setup) | [Roadmap for Beginners](https://deeplearning4j.org/docs/latest/deeplearning4j-beginners) | [DL4J Eclipse GitHub](https://github.com/eclipse/deeplearning4j) | DL4J Examples: [GitHub](https://github.com/deeplearning4j/dl4j-examples) o [Semantic site](https://semantive.com/deep-learning-examples/) o [Examples Tour](https://deeplearning4j.org/docs/latest/deeplearning4j-examples-tour)| [Setup Environment](https://www.tutorialkart.com/machine-learning/setup-environment-for-deep-learning-with-deeplearning4j/) | [Using DL4J](https://www.quora.com/How-do-I-use-deep-learning-in-Java) | Support: [gitter.im](https://gitter.im/deeplearning4j/deeplearning4j/) o [gitter guidelines](https://github.com/eclipse/deeplearning4j/blob/master/deeplearning4j/GITTER_GUIDELINES.md) o [GitHub Issues](https://github.com/deeplearning4j/deeplearning4j/issues) o [Stackoverflow](https://stackoverflow.com/search?tab=newest&q=deeplearning4j)

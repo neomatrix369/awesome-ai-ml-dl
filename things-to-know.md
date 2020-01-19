@@ -24,6 +24,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Automated pipelines](#automated-pipelines)
 - [Automated machine learning tools (or partial AutoML tools)](#automated-machine-learning-tools-or-partial-automl-tools)
 - [Relational database products](#relational-database-products)
+- [Other Tools](#other-tools)
 - [Contributing](#contributing)
 
 ---
@@ -270,7 +271,6 @@ See [Courses](./courses.md#courses)
 - [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/)
 - See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./details/cheatsheets.md)
 
-
 ## Relational database products 
 
 - [Oracle Database](https://www.oracle.com/database/index.html)
@@ -285,6 +285,12 @@ See [Courses](./courses.md#courses)
 - [Google Cloud SQL](https://cloud.google.com/sql/docs/)
 - See other resources under [Databases](./data/README.md#databases) and [Cheatsheets](./details/cheatsheets.md)
 
+## Other Tools
+
+- [Geo Gebra](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/tools/geo-gebra/geo-gebra.md)
+- [Latex](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/tools/latex/latex.md)
+- [Regex](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/tools/regex/regex.ipynb)
+- [Wolfram Alpha](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/tools/wolfram-alpha/wolfram-alpha.md)
 
 # Contributing
 

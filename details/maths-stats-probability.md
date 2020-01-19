@@ -2,6 +2,7 @@
 
 ## Mathematics
 
+- [Math Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/math-fundamentals/math-fundamentals.md)
 - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 - [Topic-wise notes: maths & stats](https://www.ctanujit.org/lecture-notes.html)
 - [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
@@ -9,6 +10,7 @@
 
 ## Statistics
 
+- [Statistics Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/statistics-fundamentals/statistics-fundamentals.md)
 - [Statistics for Machine learning (paid book: Packt Publishing)](https://www.packtpub.com/big-data-and-business-intelligence/statistics-machine-learning)
 - [Topic-wise notes: maths & stats](https://www.ctanujit.org/lecture-notes.html)
 - [5 Lesson 5 Measures Of Skewness And Kurtosis](https://sol.du.ac.in/mod/book/view.php?chapterid=1067&id=1317) [deadlink]

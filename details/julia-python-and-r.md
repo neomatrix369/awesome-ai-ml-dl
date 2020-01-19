@@ -63,15 +63,17 @@
   - [What is Computer vision?](https://machinelearningmastery.com/what-is-computer-vision/)
   - [Main topics to be covered (Basic outline)](https://www.pyimagesearch.com/start-here/)
   - [Introduction to CV](https://blog.algorithmia.com/introduction-to-computer-vision)
+  - [Another: Introduction to CV](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/computer-vision/introduction-to-computer-vision/introduction-to-computer-vision.ipynb)
 
   ### Image Processing
 
   - [Digital Image Processing Basics](https://www.geeksforgeeks.org/digital-image-processing-basics/)
   - [Theory for Image Processing](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
+  - [Object Instance Segmentation](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/computer-vision/object-instance-segmentation/object-instance-segmentation.ipynb)
+  - [Object Tracking](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/computer-vision/object-tracking/object-tracking.ipynb)
   - See [Image Processing](../courses.md#image-processing) in [Courses](../courses.md)
 
   ### OpenCV and tutorials
-
   - [Documentation and examples for each topic](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html)
   
   ### Courses
@@ -94,6 +96,8 @@
 
   ## Data Science
   
+  - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
+     - Also see [Data Science](../data/README.md#data-science)
   - [Data science intro for math/phys background by Poitr Migdal](https://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html)
   - [What I do or: science to data science by Poitr Migdal](https://p.migdal.pl/2015/12/14/sci-to-data-sci.html)
   - [T. Cormen, C. Leiserson, R. Rivest and C. Stein, Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
@@ -103,6 +107,13 @@
 
   ## Machine Learning
 
+  - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
+  - [What do you need for ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
+  - [Do you really need ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
+  - [ML use cases](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/use-cases/use-cases.md)
+  - [Introduction to ML](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/introduction-to-ml/introduction-to-ml.md)
+  - [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
+  - [Machine Learning Study Path](https://github.com/virgili0/Virgilio/blob/master/LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
   - [Top ML repos](https://github.com/yazdotai/top-machine-learning)
   - [Hands on ML](https://github.com/ageron/handson-ml)
@@ -148,6 +159,7 @@
    
   ### Deep Learning
 
+   - [Deep Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
    - [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
    - [A curated list of awesome Deep Learning tutorials, projects and communities](https://github.com/josephmisiti/awesome-deep-learning)
    - [Deep learning library featuring a higher-level API for TensorFlow](https://github.com/tflearn/tflearn)

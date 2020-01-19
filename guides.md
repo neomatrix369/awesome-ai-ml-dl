@@ -6,6 +6,7 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
   - [Existing guides](#existing-guides)
     - [Learning to learn](#learning-to-learn)
     - [Just beginning](#just-beginning)
+    - [Fundamentals](#fundamentals)  
     - [Machine Learning](#machine-learning)
     - [New To Data Science](#new-to-data-science)
     - [Data Science skills](#data-science-skills)
@@ -32,11 +33,19 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
 #### Just beginning
   - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/Topics/Demystification.md)
 
+#### Fundamentals
+  - [Math Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/math-fundamentals/math-fundamentals.md)
+  - [Statistics Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/statistics-fundamentals/statistics-fundamentals.md)
+  - [Python Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/python-fundamentals/python-fundamentals.md)
+  - [Jupyter Notebook](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/jupyter-notebook/jupyter-notebook.md)
+  - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
+
 #### Machine Learning
   - [What do I need for ML?](https://github.com/virgili0/Virgilio/blob/master/Topics/prerequisites.md)
   - [Do you really need ML?](https://github.com/virgili0/Virgilio/blob/master/Topics/do_you_need_ml.md)
   - [ML use cases](https://github.com/virgili0/Virgilio/blob/master/Topics/use-cases.md)
   - [Introduction to ML](https://github.com/virgili0/Virgilio/blob/master/Topics/MLSystems.md)
+  - [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
   - [Introduction to Artificial Neural Networks](https://github.com/virgili0/Virgilio/blob/master/Topics/ANN.md)
   - ML Study paths
     - [Machine Learning Study Path](https://github.com/virgili0/Virgilio/blob/master/LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)
@@ -50,12 +59,18 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
 
 #### Data Science skills
   - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/Topics/ds_process.md)
-  - [Frame The Problem](https://github.com/virgili0/Virgilio/blob/master/Topics/frame-the-problem.md)
-  - [Usage and Integration](https://github.com/virgili0/Virgilio/blob/master/Topics/usage-and-integration.md)
-  - [Data Preprocessing](https://github.com/virgili0/Virgilio/blob/master/Specializations/HardSkills/DataPreprocessing.md)
-  - [Data Visualization](https://github.com/virgili0/Virgilio/blob/master/Specializations/HardSkills/DataVisualization.md)
+    - [Frame The Problem](https://github.com/virgili0/Virgilio/blob/master/Topics/frame-the-problem.md)
+    - [Usage and Integration](https://github.com/virgili0/Virgilio/blob/master/Topics/usage-and-integration.md)
+    - [Starting a Data Project](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
+    - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
+    - Collect and Prepare Data
+      [Data Preparation](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-preparation/data-preparation.md)
+      [Data Visualization](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
+    - [Data Preprocessing](https://github.com/virgili0/Virgilio/blob/master/Specializations/HardSkills/DataPreprocessing.md)
+    - [Data Visualization](https://github.com/virgili0/Virgilio/blob/master/Specializations/HardSkills/DataVisualization.md)
 
 #### Deep Learning
+  - [Deep Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
   - [Deep Learning in Cloud](https://github.com/virgili0/Virgilio/blob/master/Topics/Deep%20learning%20in%20cloud)
   - [Object Tracking based on Deep Learning](https://github.com/virgili0/Virgilio/blob/master/Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
   - [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](https://github.com/virgili0/Virgilio/blob/master/Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
