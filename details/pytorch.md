@@ -1,9 +1,10 @@
 # PyTorch
 
-PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.
+PyTorch is an open source machine learning library based on the [Torch library](http://torch.ch/), used for applications such as computer vision and natural language processing.
 
 - [Pytorch](https://pytorch.org/)
 - [libTorch](https://pytorch.org/cppdocs/installing.html) - C++ bindings used by [PyTorch](https://pytorch.org/)
+- [Torch7](https://github.com/torch/torch7) | [GitHub: Torch](https://github.com/torch)
 
 ## Docs
 
