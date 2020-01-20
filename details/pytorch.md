@@ -66,3 +66,14 @@ On https://pytorch.org/, just under **"Quick Start Locally"** find **"C++/Java"*
 
 - [Style Transfer in Text](https://github.com/fuzhenxin/Style-Transfer-in-Text)
 - [Awesome PyTorch](https://github.com/bharathgs/Awesome-pytorch-list)
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../LICENSE.md) policy.
+
+---
+
+Back to [details page (table of contents)](../README-details.md#misc)<br>
+Back to [main page (table of contents)](../README.md)
