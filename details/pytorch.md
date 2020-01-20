@@ -51,16 +51,11 @@ On https://pytorch.org/, just under **"Quick Start Locally"** find **"C++/Java"*
 
 - [Text datasets](https://pytorch.org/text/datasets.html)
 
-## PyTorch components
+## Components, Domain Libraries and Frameworks
 
-- [Autograd docs](https://pytorch.org/docs/stable/autograd.html#function)
-- [AutoGrad](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
+- Autograd: [docs](https://pytorch.org/docs/stable/autograd.html#function) | [tutorial](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
 - [ClassyVision](https://github.com/facebookresearch/ClassyVision)
-- [detectron2](https://ai.facebook.com/blog/-detectron2-a-pytorch-based-modular-object-detection-library-/)
-
-## Domain Libraries and Frameworks
-
-- [Detectron2](https://github.com/facebookresearch/detectron2)
+- [Detectron2](https://ai.facebook.com/blog/-detectron2-a-pytorch-based-modular-object-detection-library-/) | [GitHub](https://github.com/facebookresearch/detectron2)
 - [PyText](https://github.com/facebookresearch/PyText)
 
 ## Hub
