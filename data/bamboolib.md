@@ -4,7 +4,7 @@ A GUI for pandas.
 
 - [Home](https://bamboolib.com/)
 - GitHub: https://github.com/8080labs/bamboolib
-- Online documentation: 
+- Online documentation: https://docs.bamboolib.8080labs.com/
 - Supporting / dependency library:
   - pyforest: [GitHub](https://github.com/8080labs/pyforest) | [pypi](https://pypi.org/project/pyforest/)
 - Blogs
