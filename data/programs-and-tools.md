@@ -40,7 +40,16 @@ See [About fast.ai](about-fast.ai.md)
 
 See [About Google Data Studio](about-Google-Data-Studio.md)
 
+### Pandas profiling
+
+See [Pandas profiling](./pandas-profiling.md)
+
+### Bamboo UI
+
+See [Bamboo UI](./bamboolib.md)
+
 ### Redis modules
+
 - [neural-redis](https://github.com/antirez/neural-redis) - Online trainable neural networks as Redis data types
 - [RedisML](https://github.com/RedisLabsModules/redisml) -  Machine Learning Model Server, also see [shaynativ](https://github.com/shaynativ)
 - [RedisTimeSeries](https://github.com/RedisTimeSeries/RedisTimeSeries)| [RedisTimeSeries: Danni-m's fork](https://github.com/danni-m/redis-timeseries) - Time-series data structure for redis

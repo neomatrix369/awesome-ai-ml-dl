@@ -89,6 +89,8 @@ See [Courses](./courses.md#courses)
 - Business intelligence software (Salesforce, Tableau, Spotfire, etc.)
 - Local development environments (RStudio, JupyterLab, etc.)
 - Cloud-based data software & APIs (AWS, GCP, Azure, etc.)
+- [Pandas profiling](./data/pandas-profiling.md)
+- [Bamboolib](./data/bamboolib.md)
 - Also see resources under **Data**: [[1]](./README-details.md#data) | [[2]](./data/README.md#data)
 
 ## IDEs
@@ -145,6 +147,8 @@ See [Courses](./courses.md#courses)
 - [Seaborn](https://seaborn.pydata.org/)
 - [D3.js](https://d3js.org/) - recommend learning libraries _built on top_ of [D3.js](https://d3js.org)
 - [Altair](https://altair-viz.github.io/)
+- [Pandas profiling](./data/pandas-profiling.md)
+- [Bamboolib](./data/bamboolib.md)
 - See more resources under [Visualisation](./details/visualisation.md) and [Cheatsheets](./details/cheatsheets.md)
 
 ## Specialized hardware
