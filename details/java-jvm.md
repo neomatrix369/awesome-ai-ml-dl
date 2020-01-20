@@ -153,6 +153,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ## Tools & Libraries, Other Resources
 
+  - [PyTorch for Java](pytorch.md#java)
   - [Best AI tools and libraries](https://skymind.ai/wiki/automl-automated-machine-learning-ai) ([Tweet](https://twitter.com/java/status/1069459966740836352))
   - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)  ([Tweet](https://twitter.com/java/status/931070584896741377))
   - [Free AI Learning Resources For Beginners](https://www.analyticsindiamag.com/here-are-free-ai-learning-resources-for-beginners/) ([Twitter](https://twitter.com/java/status/1013776554868891648))

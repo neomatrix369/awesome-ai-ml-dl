@@ -64,7 +64,6 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Tests & Testing](./details/julia-python-and-r.md#testing)
   - [Guides](guides.md#guides)
   - [Study notes](./study-notes/README.md#study-notes)
-  - [Swift for TensorFlow](https://www.tensorflow.org/swift/) - next generation platform for deep learning and differentiable programming
   - **[Things to know...](./things-to-know.md)**
   - [Mathematica](./details/mathematica-wolfram-Language.md#mathematica--wolfram-language)
   - [Mathematics, Statistics, Probability & Probabilistic programming](./details/maths-stats-probability.md#mathematics-statistics-probability--probabilistic-programming)

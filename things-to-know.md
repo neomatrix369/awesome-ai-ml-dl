@@ -179,10 +179,11 @@ See [Courses](./courses.md#courses)
 
 - [RandomForest](https://cran.r-project.org/web/packages/randomForest/index.html)
 - [Tensorflow](https://www.tensorflow.org/)
+  - [Swift for TensorFlow](https://www.tensorflow.org/swift/) - next generation platform for deep learning and differentiable programming
 - [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
 - [Keras](https://keras.io/)
 - [Caret](https://cran.r-project.org/web/packages/caret/index.html)
-- [PyTorch](https://pytorch.org/)
+- [PyTorch](https://pytorch.org/) | Also see [PyTorch](./details/pytorch.md)
 - [Fast.ai](https://docs.fast.ai/)
 - [Spark Mlib](https://spark.apache.org/mllib/)
 - [Scikit-learn](https://scikit-learn.org/stable/)

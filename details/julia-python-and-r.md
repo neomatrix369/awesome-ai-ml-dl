@@ -212,6 +212,7 @@ See [Visualisation](./visualisation.md#visualisation)
   - Python: See [this link](https://github.com/josephmisiti/awesome-machine-learning#python) for more Python related ML links
   - R: See [this link](https://github.com/josephmisiti/awesome-machine-learning#r) for more R related ML links
   - [Top 7 Libraries and Packages for Data Science and AI: Python & R](https://heartbeat.fritz.ai/top-7-libraries-and-packages-of-the-year-for-data-science-and-ai-python-r-6b7cca2bf000)
+  - [PyTorch](./pytorch.md#pytorch)
 
 # Contributing
 
