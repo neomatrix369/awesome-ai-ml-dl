@@ -54,6 +54,7 @@
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - [Bayesian Framework](https://ekroc.weebly.com/uploads/2/1/6/3/21633182/bayesworkshop1.pdf)
 - [Implementing the Bayesian Framework](https://ekroc.weebly.com/uploads/2/1/6/3/21633182/bayesworkshop2.pdf)
+- [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods#Weighted_Choice)
 - [Data Science](../courses.md#data-science) in [Courses](../courses.md#courses)
 
 # Contributing
