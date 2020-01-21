@@ -32,6 +32,7 @@
 - Additional resources
   - [Error caused by missing input_shape in your first layer](https://stackoverflow.com/questions/52690293/tensorflow-attributeerror-nonetype-object-has-no-attribute-original-name-sc)
   - [Bloomberg summary colab notebook](https://colab.research.google.com/drive/1lfLR9WRzmjOMmnNmePys4-8WNfZ5xC90#scrollTo=wbjXyjFRaT1d)
+  - [Implementation of W&B for model param tuning](https://www.kaggle.com/robertehshi/basics-of-nfl-expost)
   - https://talktotransformer.com/ - Adam Daniel King's implementation of GPT-2 on the back of the PyTorch version
   - ...for more [see this](./wandb/More-resources.md)
 
