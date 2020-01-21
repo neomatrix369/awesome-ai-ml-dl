@@ -85,6 +85,10 @@
   - [GPU Server 1 of 2](./gpus/GPU-Server-side-1-of-2.jpg) | [GPU Server 2 of 2](./gpus/GPU-Server-side-2-of-2.jpg) | [Applications of GPU servers](./gpus/Applications-of-GPU-Server.jpg) - [checkout the manufacturers](http://manli.com/en/)
   - [Embedded Vision Solutions for NVIDIA Jetson Series](https://www.avermedia.com/professional/category/nvidia_jetson_solutions) | [Embedded Vision Family Brochure](http://storage.avermedia.com/web_release_www/Solutions/Embedded_Vision_Solutions_brochure_20190429.pdf)
   - Avermedia Box PC & Carrier (works with NVIDIA Jetson): [1](./gpus/Avermedia-Box-PC-and-Carrier-1-of-2-works-with-NVidia-Jetson.jpg) | [2](./gpus/Avermedia-Box-PC-and-Carrier-2-of-2-works-with-NVidia-Jetson.jpg)
+  - [Accelerating Wide & Deep Recommender Inference on GPUs](https://www.linkedin.com/posts/miguelusque_accelerating-wide-deep-recommender-inference-activity-6614061742936870913-oG2v)
+  - [Create GPU Arrays and Move to DL Frameworks with DLPack](https://www.linkedin.com/posts/activity-6625024900585316352-PucI)
+  - [GPU Accelerated data viz tools](https://www.linkedin.com/posts/murraydata_data-todashboard-activity-6623659330199781376-YIUQ)
+  - [This tool is nice to monitor not only RAPIDS but also deep learning workloads](https://www.linkedin.com/posts/miguelusque_gpu-dashboards-in-jupyter-lab-activity-6611570222585401344-n1Qe)
   - See [NVIDIA's RAPIDS](./gpus/rapids.md)
 
 ## TPU
@@ -112,6 +116,7 @@
 ## IPU
 
   - [GraphCore](http://graphcore.ai) | Videos: [Simon Knowles - More complex models and more powerful machines](https://www.youtube.com/watch?v=dLvkF_TmyAc&feature=youtu.be) | [Graphcore tech Concept](https://youtu.be/cSXbhEsUUGo?t=916) | [A new kind of hardware designed for machine intelligence - GraphCore Presentations](http://www.bristol.bcs.org.uk/2017/graphcore.pdf) | [V‍ID‌EO‌‍: SCA‌LING‌‍ THRO‌UG‍HP‌‍U‌T P‍R‌O‍C‍ESSO‌‍RS FO‌‍R‍ MAC‌HINE INTELLIG‌ENC‌‍E](https://www.graphcore.ai/posts/video-scaling-throughput-processors-for-machine-intelligence)
+  - [What makes the IPU's architecture so efficient](https://www.linkedin.com/posts/graphcore_if-youd-like-to-know-what-makes-the-ipus-activity-6617716840384778240-PUS0)
 
 ## Performance
 

@@ -38,6 +38,20 @@
 - [Machine Learning Project End to End with Python Code (data science focussed)](https://www.youtube.com/watch?v=ekV9QO5KHUY&list=PLcQCwsZDEzFkP9WMe6xvLrd_ZNGqoXOQY&fbclid=IwAR1z7XBl762FLyo-gVvdBDU1iCVqz89K1yfmJS1cbC4rZyEfF-jO30ZsYeY)
 - [Machine learning model explainability through Shapley values](https://faculty.ai/blog/machine-learning-model-explainability-through-shapley-values/) by [Christiane Ahlheim](https://www.linkedin.com/in/christiane-ahlheim-498263b2/) & [Markus Kunesch](https://www.linkedin.com/in/markus-kunesch/)
 - [Research on AI Safety](https://faculty.ai/research/) by [faculty.ai](https://faculty.ai)
+- [Explaining the Explainer: A First Theoretical Analysis of LIME](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-machinelearning-activity-6622678147433316352-iu72)
+- [Explainable AI: The Royal Society](https://www.linkedin.com/posts/nabihbawazir_explainable-ai-the-royal-society-activity-6610121083649695744-SXrL)
+- [Important Model Evaluation Metrics for Machine Learning Everyone should know - Tavish Srivastava](https://www.linkedin.com/posts/vipulppatel_important-model-evaluation-metrics-everyone-ugcPost-6607395953429266432-cDiV)
+- [Read Pavel Pscheidl’s latest blog for a step by step on how to import, inspect, and score with MOJO models inside #H2O](https://lnkd.in/gbNtfMn) | [LinkedIn](https://www.linkedin.com/posts/pavel-pscheidl-19b15990_h2o-ai-ml-activity-6606566698516656128-Bk93)
+
+## Calibration
+
+- [Probability Calibration by Cambridge Spark](https://blog.cambridgespark.com/probability-calibration-c7252ac123f)
+- [We can build ensemble Models with Xgboosted trees. Individual trees are stacked for better predictions but they are prone to overfitting. These trees are difficult to interprete and may be inexplicable - Kevin Lemagnen](https://github.com/klemag/odsc2018-ensemble-demystified)
+
+## Overfitting
+
+- [A Quick Refresher on Overfitting and its removal Techniques](https://www.linkedin.com/posts/ashutoshtripathi1_what-is-overfitting-and-its-removal-techniques-ugcPost-6605478376671150080-fsVI)
+- [We can build ensemble Models with Xgboosted trees. Individual trees are stacked for better predictions but they are prone to overfitting. These trees are difficult to interprete and may be inexplicable - Kevin Lemagnen](https://github.com/klemag/odsc2018-ensemble-demystified)
 
 # Contributing
 

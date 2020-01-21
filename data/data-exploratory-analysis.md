@@ -31,6 +31,7 @@ aka *_Exploratory Data Analysis_*
 - [Associations and Correlations - The Essential Elements](https://www.linkedin.com/posts/data-science-central_associations-and-correlations-the-essential-activity-6609987641754570752-61fE)
 - [13 Great Articles and Tutorials about Correlation](https://www.linkedin.com/posts/data-science-central_13-great-articles-and-tutorials-about-correlation-activity-6622173938812280832-Fa4a)
 - [Testing for Normality using Skewness and Kurtosis](https://www.linkedin.com/posts/ashishpatel2604_artificialintelligence-deeplearning-datascience-activity-6603851612719026176-zx0u)
+- [Variable Reduction: An art as well as Science](https://www.linkedin.com/posts/data-science-central_variable-reduction-an-art-as-well-as-science-activity-6607678425375342592-xrSp)
 
 ### Outliers
 
@@ -49,6 +50,11 @@ aka *_Exploratory Data Analysis_*
 
 - [P-Value Explained in One Picture](https://www.linkedin.com/posts/data-science-central_p-value-explained-in-one-picture-activity-6617794081072443392-BG7_)
 - [p-value and level of significance explained](https://www.linkedin.com/posts/data-science-central_p-value-and-level-of-significance-explained-activity-6622189036842864640-lR81)
+
+### Regression Analysis
+
+- [Intro to Full Regression Analysis](https://www.youtube.com/watch?v=W4w1XX4fCu0&feature=share&fbclid=IwAR0nJRz8v4MZhTa8AL-1XlIit7neb_vfD0JzdhKooLKD4pX-U9kl6bB6Hro)
+- [Regression Analysis](https://bit.ly/2JzcOcb)
 
 # Contributing
 

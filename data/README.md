@@ -18,6 +18,7 @@ The question to ask ourselves: _Do we know our data...?_
 - [Feature Selection](./README.md#feature-selection)
 - [Feature Engineering](./README.md#feature-engineering)
 - [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
+- [Model deployment](./README.md#model-deployment)
 - [Statistics](./README.md#statistics)
 - [Visualisation](./README.md#visualisation)
 - [Common mistakes when training models (data related)](./README.md#common-mistakes-when-training-models-data-related)
@@ -80,6 +81,14 @@ See [Feature engineering](./feature-engineering.md)
 ## Post model-creation analysis, ML interpretation/explainability
 
 See [Post model-creation analysis, ML interpretation/explainability](./model-analysis-interpretation-explainability.md)
+
+## Model deployment
+
+- [Model Deployment Methods and Techniques - Part 1](https://lnkd.in/ghaTe_d)
+- [Model Deployment Methods and Techniques - Part 2](https://lnkd.in/gk3cpzH)
+- [Model Deployment Methods and Techniques - Part 3](https://lnkd.in/gV_cQJ2)
+- [Model Deployment Methods and Techniques - Part 4](https://lnkd.in/g5zCV6w)
+- [Model Deployment Methods and Techniques - Part 5](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-ml-machinelearning-activity-6615447096793407488-sN1y)
 
 ## Statistics
 

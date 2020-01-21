@@ -131,6 +131,14 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
+### Supervised
+
+  - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
+
+### Unsupervised
+
+  - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
+
 ### Deep learning
 
   - [Deep Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)

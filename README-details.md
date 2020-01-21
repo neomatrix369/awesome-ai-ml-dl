@@ -91,6 +91,18 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./details
   - [Learn Data Science by bitgrit](https://github.com/bitgrit-official/learndatascience)
   - **[and other related topics: Stats, Visualisations, Cheatsheets, etc...](data/README.md#data)**
 
+### Data Scientist
+
+- [How can I become a data scientist?](https://www.linkedin.com/posts/data-science-central_how-can-i-become-a-data-scientist-activity-6611453301030473728-0weA)
+- [Being a Data Science Contractor - UK: How to find work?](https://www.linkedin.com/posts/data-science-central_being-a-data-science-contractor-uk-how-activity-6618156469516849153-2WD-)
+- [How to switch career from Automation Testing to Data Science? Here is a simple guide.](https://careerhops.wixsite.com/mirrorneuron/post/automation-testing-to-data-science?fbclid=IwAR3HPbfiQ6Qmq4tJPbnI7SZA59QTuL9-IPObpgEIJ_q32O_xN9ZnNaG046M)
+- [9 Mistakes to avoid when starting your career in Data Science](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6620904711958687744-UiIm/)
+- [How can I become a data scientist?](https://www.linkedin.com/posts/data-science-central_how-can-i-become-a-data-scientist-activity-6611453301030473728-0weA)
+- [8 essential tools for data scientists](https://www.linkedin.com/posts/data-science-central_8-essential-tools-for-data-scientists-activity-6623350694613184512-esn2)
+- [Data Scientist is not One-Man-Army, but should know some tech concept, not mandatory to master (depend on the company), this is what I choose](https://www.linkedin.com/posts/nabihbawazir_data-scientist-is-not-one-man-army-but-should-activity-6602851212972912640-t828)
+- [The Ultimate Learning Path to Become a Data Scientist and Master Machine Learning](https://www.analyticsvidhya.com/blog/2019/01/learning-path-data-scientist-machine-learning-2019/)
+- [♦️MUST READ ARTICLES FOR DATA SCIENCE ENTHUSIAST♦️](https://www.linkedin.com/posts/asif-bhat_datascience-neverstoplearning-datanalytics-activity-6608609171401166848-U8Do)
+
 ### Graphs
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
   - [Graph databases](./data/README.md#databases)

@@ -12,8 +12,10 @@
 - [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
 - [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
 - [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI) [deadlink]
+- [Hands-on Guide to Automated Feature Engineering - Prateek Joshi](https://www.linkedin.com/posts/vipulppatel_hands-on-guide-to-automated-feature-engineering-ugcPost-6612564773705924608-Utyb)
+- [Feature Engineering and Selection](https://www.linkedin.com/posts/nabihbawazir_feature-engineering-and-selection-ugcPost-6603534412548280320-XTIX)
+- [What is feature engineering and why do we need it?](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6623556433189363712-O7c4)
 - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - look for topics: Feature Engineering • Feature Selection
-
 
 # Contributing
 

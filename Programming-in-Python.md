@@ -37,11 +37,14 @@
 - [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
 - [WTF Python repo](https://github.com/satwikkansal/wtfpython)
 - [Introduction to Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-1-Intro-to-Python)
+- [Introduction of Python Programming](https://www.linkedin.com/posts/nabihbawazir_python-self-study-activity-6605392829378367488-Q6Uz)
+- [Writing your first program in Python (2019) - Brown University](https://www.linkedin.com/posts/nabihbawazir_introductions-to-python-activity-6606104345299771392-t7f1)
 
 ## Intermediate / Advanced Python
 
 - [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
 - [Neural Networks Matrices exploration - Under the Hood Mathematical Operations](https://github.com/souravs17031999/NeuralNets-Pure-Python)
+- [Understand the use of *args and **kwargs](https://morioh.com/p/252b73e0be0a?f=5c21f93bc16e2556b555ab2f&fbclid=IwAR2P_D8kr9Gf2gCjd2pf57ugkuv0qBfG0JEuAijGgl3JE2o_N1_MVk7u8CM)
 
 ## Courses
 
@@ -81,6 +84,7 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 * [pytype](https://github.com/google/pytype) - A static type analyzer for Python code.
 * [Review of Python Static Analysis Tools](https://www.codacy.com/blog/review-of-python-static-analysis-tools/)
 * [Python Static Analysis Tools ](https://luminousmen.com/post/python-static-analysis-tools)
+* [PANDAS  👉 Reading and Writing Data 👈](https://www.linkedin.com/posts/asif-bhat_pandas-activity-6610445263372947456-oxup)
 * See [awesome-static-analysis for Python](https://github.com/mre/awesome-static-analysis/blob/master/README.md#python)
 
 ### Python wrappers
@@ -119,6 +123,10 @@ with nothing but Python
         - [Security](https://anvil.works/docs/security)
     - [Forum](https://anvil.works/forum/)
   - [Assembly](https://mardix.github.io/assembly/) - A Pythonic Object-Oriented Web Framework built on Flask
+- [A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
+- [Explanation of most popular Data Science Library (in Python)](https://www.linkedin.com/posts/nabihbawazir_artificialintellegence-datascience-machinelearning-activity-6617700382200164352-RDhs)
+- [50 most popular Python libraries and frameworks used in data science](https://www.linkedin.com/posts/nabihbawazir_python-datascience-dataanalysis-activity-6604589510447722496-AvyE)
+- [Python for 9 Purposes: The graphics miss Scikit-Learn and of course "Pandas"](https://www.linkedin.com/posts/nabihbawazir_python-for-9-purposesthe-graphics-miss-scikit-learn-activity-6605860742774259712-Was0)
 
 ## Best practices
 

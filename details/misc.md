@@ -2,7 +2,6 @@
 
  - [Enterprise Data Analytics](https://www.dsta.gov.sg/docs/default-source/dsta-about/dh13201801_enterprise-data-analytics.pdf)
   - [Data Analytics to Support Total WSH Management](https://www.osha-singapore.com/pdf/Goh-Yang-Miang--Data-Analytics-to-Support-Total-WSH-Management.pdf)
-  - [The Ultimate Learning Path to Become a Data Scientist and Master Machine Learning](https://www.analyticsvidhya.com/blog/2019/01/learning-path-data-scientist-machine-learning-2019/)
   - [Learn Machine Learning from Top 50 Articles for the Past Year (v.2019)](https://medium.mybridge.co/learn-machine-learning-from-top-50-articles-for-the-past-year-v-2019-15842d0b82f6)
   - [Feature-wise Transformations](https://distill.pub/2018/feature-wise-transformations/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)
   - [The 6 most useful Machine Learning projects of the past year (2018)](https://towardsdatascience.com/the-10-most-useful-machine-learning-projects-of-the-past-year-2018-5378bbd4919f)

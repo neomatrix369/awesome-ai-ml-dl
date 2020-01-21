@@ -36,6 +36,31 @@
      - Part B: https://www.youtube.com/watch?v=j4IgXflsZtg&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=9
      - Part C: https://www.youtube.com/watch?v=kHZmFVDm0QQ&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=10
 
+  ## Supervised
+
+  - [A Semi-Supervised Classification Algorithm using Markov Chain and Random Walk in R](https://www.linkedin.com/posts/data-science-central_a-semi-supervised-classification-algorithm-activity-6614306095047462912-7rjG)
+  - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
+  
+  ## Unsupervised
+
+  - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
+  - [Have You Heard About Unsupervised Decision Trees](https://www.linkedin.com/posts/data-science-central_have-you-heard-about-unsupervised-decision-activity-6612027078051196928-vOj0)
+  - [Detecting Money Laundering with Unsupervised ML](https://www.linkedin.com/posts/data-science-central_detecting-money-laundering-with-unsupervised-activity-6624105668414619648-EMNy)
+  - [k-nearest neighbor algorithm using Python](https://www.linkedin.com/posts/data-science-central_k-nearest-neighbor-algorithm-using-python-activity-6606937543143415808-zUvO)
+  - [KMeans and Elbow discussion](https://www.facebook.com/groups/DataScienceWithPython/permalink/754348561720027/)
+  - [Clustering with non numeric data](https://www.linkedin.com/posts/data-science-central_clustering-with-non-numeric-data-activity-6607783116335534080-aWRV)
+  - [Have u ever heard about Bounded Clustering?](https://www.linkedin.com/posts/ashishpatel2604_bounded-clustering-activity-6604231470691217408-Fhyn)
+
+  ## Active Learning
+
+  - [ViewAL: Active Learning with Viewpoint Entropy for Semantic Segmentation](https://www.linkedin.com/posts/hamed-zitoun-54428658_machinelearning-deeplearning-datascience-activity-6606497055265431552-Grcr)
+
+  ## Neural Networks
+
+  - [How To Train Interpretable Neural Networks That Accurately Extrapolate From Small Data By Christopher Rackauckas](https://lnkd.in/e7hsfBc)
+| [LinkedIn](https://www.linkedin.com/posts/montrealai_artificialintelligence-machinelearning-neuralnetworks-activity-6623714880987951105-VYU9)
+  - [How to generate neural network confidence intervals with Keras](https://www.linkedin.com/posts/kranthi-kumar9_how-to-generate-neural-network-confidence-activity-6606228692798672896-ClI9)
+
   ## Generative Adversarial Network (GAN)
 
    - [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
@@ -118,6 +143,7 @@
   - [Top ML repos](https://github.com/yazdotai/top-machine-learning)
   - [Hands on ML](https://github.com/ageron/handson-ml)
   - [The "Python Machine Learning (1st edition)" book code repository and info resource](https://github.com/rasbt/python-machine-learning-book)
+  - [𝗣𝘆𝘁𝗵𝗼𝗻 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀](https://www.linkedin.com/posts/martinroberts_python-machine-learning-projects-activity-6620692910499295232-B8Gq)
   - [ML for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
   - [PredictionIO, a machine learning server for developers and ML engineers. Built on Apache Spark, HBase and Spray](https://github.com/apache/predictionio)
   - [Dive into Machine Learning with Python Jupyter notebook and scikit-learn!](https://github.com/hangtwenty/dive-into-machine-learning)
@@ -172,6 +198,7 @@
    - [Starting deep learning hands-on: image classification on CIFAR-10](https://blog.deepsense.ai/deep-learning-hands-on-image-classification/)
    - [Checkout 'Deep Learning with Tensorflow 2.0 (MNIST)' Notebooks](../notebooks/README.md#notebooks)
    - [Deep learning for 3D printing manufacturing](https://www.youtube.com/watch?v=jAQSM2dhDV4) by [Benjamin Schrauwen](https://www.linkedin.com/in/benjaminschrauwen)
+   - [Mathematical Understanding of CNN: course notes of Andrew Ng](https://www.linkedin.com/posts/ashishpatel2604_amazing-cnn-notes-ugcPost-6602853333562687488-PG8e)
    - [DL topics expanded by Chris Albon](https://chrisalbon.com/#deep_learning) - topics covered: Keras
    - See [Deep Learning](../courses.md#deep-learning) in [Courses](../courses.md#courses)
   
