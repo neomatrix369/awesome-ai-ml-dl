@@ -117,6 +117,7 @@
 
   - [GraphCore](http://graphcore.ai) | Videos: [Simon Knowles - More complex models and more powerful machines](https://www.youtube.com/watch?v=dLvkF_TmyAc&feature=youtu.be) | [Graphcore tech Concept](https://youtu.be/cSXbhEsUUGo?t=916) | [A new kind of hardware designed for machine intelligence - GraphCore Presentations](http://www.bristol.bcs.org.uk/2017/graphcore.pdf) | [V‍ID‌EO‌‍: SCA‌LING‌‍ THRO‌UG‍HP‌‍U‌T P‍R‌O‍C‍ESSO‌‍RS FO‌‍R‍ MAC‌HINE INTELLIG‌ENC‌‍E](https://www.graphcore.ai/posts/video-scaling-throughput-processors-for-machine-intelligence)
   - [What makes the IPU's architecture so efficient](https://www.linkedin.com/posts/graphcore_if-youd-like-to-know-what-makes-the-ipus-activity-6617716840384778240-PUS0)
+  - [How do we implement large-scale #NLP models on IPU](https://www.linkedin.com/posts/graphcore_arianna-saracino-product-support-engineer-activity-6615949485463920640-7Pwa)
 
 ## Performance
 

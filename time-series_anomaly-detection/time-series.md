@@ -200,6 +200,9 @@
 - [Financial: time series](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
 - [Driverless AI's time-series support](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/time-series.html)
 - [Time Series with Driverless AI - Marios Michailidis and Mathias Müller - H2O AI World London 2018](https://www.youtube.com/watch?v=EGVY7-Spv8E)
+- [My team won $20,000 and 1st place in Kaggle's Earthquake Prediction competition](https://www.linkedin.com/pulse/my-team-won-20000-1st-place-kaggles-earthquake-corey-levinson/?trackingId=yAsezLzPTDyCuR6z0e4a1g%3D%3D)
+  - [Discussions on Kaggle](https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/94390)
+  - [Kaggle Kernel](https://www.kaggle.com/dkaraflos/1-geomean-nn-and-6featlgbm-2-259-private-lb)
 - [Time-series on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series/)
 - [Time-series Forecasting on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series-forecasting/)
 - **[And many more Time-series posts on MachineLearningMastery.com](https://machinelearningmastery.com/?s=time+series&post_type=post&submit=Search)**

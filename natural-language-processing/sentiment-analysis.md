@@ -10,8 +10,7 @@
 - [Emotion sentiment Analysis practitioners guide](https://www.kdnuggets.com/2018/08/emotion-sentiment-analysis-practitioners-guide-nlp-5.html)
 - [Sentiment analysis visualisation](http://awjuliani.github.io/books/)
 - [Code resources for Central London Data Science Project Nights meetup on word vectors](https://github.com/central-ldn-data-sci/nlp-using-word-vectors)
-
-
+- [Choosing a Python Library for Sentiment Analysis](https://www.iflexion.com/blog/sentiment-analysis-python)
 
 # Contributing
 

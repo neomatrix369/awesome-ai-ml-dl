@@ -172,6 +172,11 @@
   - [ML Blogs by faculty.ai](https://faculty.ai/blog/)
   - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - topics covered: Vectors, Matrices, And Arrays • ML Basics • Preprocessing Structured Data • Preprocessing Images • Preprocessing Text • Preprocessing Dates And Times • Feature Engineering • Feature Selection • Model Evaluation • Model Selection • Linear Regression • Logistic Regression • Trees And Forests • Nearest Neighbors • Support Vector Machines • Naive Bayes • Clustering
   - [Claoudml](https://www.claoudml.com/) - Free Data Science & Machine Learning Resources
+  - Grid search & Tuning Hyperparameters
+    - [Parallel grid search H2O](https://www.linkedin.com/posts/pavel-pscheidl-19b15990_parallel-grid-search-in-h2o-activity-6623902801170964480-nV82)
+    - [Selecting and Tuning Hyperparameters](https://www.linkedin.com/posts/alastairkerrmuir_hyperparameter-selection-and-tuning-meetup-ugcPost-6621172444340240384-9WBj)
+  - Algorithms
+    - See [Machine Learning algorithms](./machine-learning-algorithms.md)
   - See [Machine Learning](../courses.md#machine-learning) in [Courses](../courses.md#courses)
   - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
   - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites

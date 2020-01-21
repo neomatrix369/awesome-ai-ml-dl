@@ -61,6 +61,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [Doc2vec word embeddings and UMAP visualisation notebook](https://colab.research.google.com/drive/1vQMwnKN8OdL6BYtJDTLKcmNGcN8GALkl#scrollTo=heXFC5w_46qS) | [Data](https://drive.google.com/file/d/18H7UHPRxLufONCKz5jFeF27Uy3mSflpz/view)
 - [NLP using word vectors with Spacy notebook](https://github.com/central-ldn-data-sci/nlp-using-word-vectors/blob/master/NLP%20using%20Word%20Vectors%20with%20Spacy.ipynb)
 - [Jupyter notebook for entity recognition and sentiment analysis](../notebooks/nlp/20190411-spacy-and-textblob-nlp-entity-recognition-and-sentiment-analysis.ipynb)
+- [Kaggle kernel: NLP uncertainty](https://www.kaggle.com/allunia/hidden-treasures-in-our-groceries)
 
 ## Unstructured to structured data
 

@@ -32,7 +32,7 @@
 - [Data science competition platforms you need to know about](https://medium.com/@opetundeadepoju/data-science-competition-platforms-you-need-to-know-about-55b6840c087e)
 - [KDD Data mining and Knowledge Discovery cup](http://www.kdd.org/kdd-cup)
 - [VizDoom AI competition](http://vizdoom.cs.put.edu.pl/competition-cig-2017) [deadlink]
-- [Numerai](https://numer.ai/) - data science tournaments
+- [Numerai](https://numer.ai/) - data science tournaments | [Keynote](https://youtu.be/YojhLjLrG1M)
 - [10 Data Science Competitions for you to hone your skills for 2020](https://towardsdatascience.com/10-data-science-competitions-for-you-to-hone-your-skills-for-2020-32d87ee19cc9)
 - [Kaggle Kernels Guide for Beginners — Step by Step Tutorial](https://towardsdatascience.com/kaggle-kernels-for-beginners-a-step-by-step-guide-3db6b1cd7606)
 

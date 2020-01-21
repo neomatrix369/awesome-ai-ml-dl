@@ -11,6 +11,8 @@
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/)
 - [Standford NLP Group](https://nlp.stanford.edu/)
 - [Google’s Bert](https://github.com/google-research/bert) | [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
+- [Pretraining #BERT with Layer-wise #Adaptive #LearningRates](https://www.linkedin.com/posts/ashishpatel2604_bert-adaptive-learningrates-activity-6610011565313880064-doG7)
+- [A very approachable introduction to BERT](https://lnkd.in/dKhNQzJ)
 - [H2O Driverless AI](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/nlp.html) 
    - [Sudalai Rajkumar (SRK), H2O.ai - NLP with H2O Driverless AI - H2O World SF](https://www.youtube.com/watch?v=PJs_2Kyw_RQ&amp;feature=youtu.be)
    - [Carmelo Iaria, AI Academy - How The AI Academy is accelerating NLP projects with Driverless AI](https://www.youtube.com/watch?v=aXPE6IiKRmI&amp;feature=youtu.be)
@@ -31,6 +33,9 @@
   - [NeuralCoref 4.0: Coreference Resolution in spaCy with Neural Networks](https://github.com/huggingface/neuralcoref)
   - [StarSpace: Learning embeddings for classification, retrieval and ranking](https://github.com/facebookresearch/StarSpace)
   - [Free NLP service - Natural Language for Developers](https://wit.ai)
+  - [Do you want to convert English to Integers/Floats?](https://www.linkedin.com/posts/amrrs_python-nlg-nlp-activity-6620696848455831552-qTvG)
+  - [How do we implement large-scale #NLP models on IPU](https://www.linkedin.com/posts/graphcore_arianna-saracino-product-support-engineer-activity-6615949485463920640-7Pwa)
+  - [NLP in fraud dectection: Case study](https://www.linkedin.com/posts/data-science-central_natural-language-understanding-nlu-in-fraud-activity-6623003404279005184-Fg_L)
 
 # Contributing
 

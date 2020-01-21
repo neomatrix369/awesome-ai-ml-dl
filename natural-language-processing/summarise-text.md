@@ -1,5 +1,6 @@
 # Summarise text
 
+- [Gentle introduction to Text summarisation](https://www.linkedin.com/posts/ajitjaokar_a-gentle-introduction-to-text-summarization-activity-6620354936465092608-M2bI)
 - [Understand Text Summarization and create your own summarizer in python](https://towardsdatascience.com/understand-text-summarization-and-create-your-own-summarizer-in-python-b26a9f09fc70)
 - [An Introduction to Text Summarization using the TextRank Algorithm (with Python implementation)](https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/)
 - [Beyond bag of words: Using PyTextRank to find Phrases and Summarize text](https://medium.com/@aneesha/beyond-bag-of-words-using-pytextrank-to-find-phrases-and-summarize-text-f736fa3773c5)

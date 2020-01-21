@@ -65,6 +65,7 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
   - [How to use machine learning for anomaly detection and condition monitoring](https://towardsdatascience.com/how-to-use-machine-learning-for-anomaly-detection-and-condition-monitoring-6742f82900d7?source=---------13---------------------)
   - [AnomalyDetection R package by @Twitter](https://github.com/twitter/AnomalyDetection)
   - [Pycularity - Python port of @Twitter's AnomalyDetection](https://github.com/zrnsm/pyculiarity)
+  - [Accurate anomaly detection](https://www.linkedin.com/posts/data-science-central_accurate-anomaly-detection-with-machine-learning-activity-6621433059633958912-2Ccp)
 
 # Contributing
 
