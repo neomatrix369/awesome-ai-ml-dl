@@ -17,6 +17,7 @@ A GUI for pandas.
 - On Kaggle
   - [How to: Use bamboolib within Kaggle](https://docs.bamboolib.8080labs.com/how-tos/use-bamboolib-within-kaggle)
   - [Trying Bamboolib - Pandas GUI on Kaggle ](https://www.kaggle.com/nulldata/trying-bamboolib-pandas-gui-on-kaggle)
+- [LinkedIn post](https://www.linkedin.com/posts/parulpandeyindia_bamboolib-pandas-activity-6610109280953700352-Cuie) 
 - Linkedin: https://www.linkedin.com/company/bamboolib/
 - Twitter: https://twitter.com/bamboolib_
 ---

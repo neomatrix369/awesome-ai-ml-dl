@@ -56,6 +56,7 @@
 - [Implementing the Bayesian Framework](https://ekroc.weebly.com/uploads/2/1/6/3/21633182/bayesworkshop2.pdf)
 - [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods#Weighted_Choice)
 - [Data Science](../courses.md#data-science) in [Courses](../courses.md#courses)
+- [How to approach Hypothesis Testing](https://medium.com/@dhruvaggarwal6/how-to-approach-hypothesis-testing-6257d03bcfee)
 
 # Contributing
 

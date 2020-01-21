@@ -25,6 +25,9 @@
 - [Free Datasets recommended by r-directory](https://r-dir.com/reference/datasets.html)
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 - [Google Research: A large-scale dataset of manually annotated audio events](https://research.google.com/audioset/index.html)
+- [Surprising Uses of Synthetic Random Data Sets](https://www.linkedin.com/posts/data-science-central_surprising-uses-of-synthetic-random-data-activity-6612404601515765760-J0AY)
+- [How to find datasets for Artificial Intelligence training](https://medium.com/shallow-thoughts-about-deep-learning/how-to-find-datasets-for-artificial-intelligence-9131b2e72e88?fbclid=IwAR1up1xYvKUX4-7DJFs62hTqrfhfLuY9TdNXK56mnmTiUocvv0hgPj6vf4k)
+- [Great Github list of public data sets](https://www.linkedin.com/posts/data-science-central_great-github-list-of-public-data-sets-activity-6620739516317646849-YMxO)
 
 ## Courses
 

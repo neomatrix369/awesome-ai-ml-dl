@@ -9,6 +9,7 @@ The question to ask ourselves: _Do we know our data...?_
 - [Ethics / altruistic motives](./README.md#ethics--altruistic-motives)
 - [Data Science](./README.md#data-science)
 - [Datasets and sources of raw data](./README.md#datasets-and-sources-of-raw-data)
+- [Data Collection](./README.md#data-collection)
 - [Data Exploratory Analysis](./README.md#data-exploratory-analysis)
 - [Data preparation](./README.md#data-preparation)
     + [Data Cleaning](./data-preparation.md#data-cleaning)
@@ -45,10 +46,15 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
   - [Usage and Integration](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration/usage-and-integration.md)
   - [Starting a Data Project](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
   - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
+- [JustCause package/framework - framework to foster good scientific practice in the research of causality methods](https://www.linkedin.com/posts/florianwilhelm_introduction-activity-6624318058347405312-fdBa) | [PyPu](https://pypi.org/project/JustCause/) | [GitHub](https://github.com/inovex/justcause)
 
 ## Datasets and sources of raw data
 
 See [Datasets](./datasets.md)
+
+## Data Collection
+
+- [👉 Effective Data Collection 👈](https://www.linkedin.com/posts/asif-bhat_data-collection-activity-6625312371869089793-4LrM)
 
 ## Data Exploratory Analysis
 

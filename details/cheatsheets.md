@@ -19,9 +19,11 @@
   - [Algorithms related cheatsheets - Big-O cheatsheet](http://bigocheatsheet.com/)
   - [ML Cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQGFXvKuRmt5Rg/feedshare-document-pdf-analyzed/0?e=1569596400&v=beta&t=n4ZRWnYpc1KOTo8lZ2sKmOI7rRChPkApOQEQBBDhaXg) [deadlink]
   - [Statistics cheatsheet by Nabih Ibrahim Bawazir](https://media.licdn.com/dms/document/C511FAQF31AWGmSTzMQ/feedshare-document-pdf-analyzed/0?e=1573030800&v=beta&t=11ugKu44wK--uA9WG98V_r6_LY_xu6I8Y-YSaM1BOsQ)
-  | [Stats Cheatsheet](https://www.linkedin.com/posts/nabihbawazir_statistics-cheatsheet-ugcPost-6600946387649695744-I-Kk)
-
+  | [Stats Cheatsheet](https://www.linkedin.com/posts/nabihbawazir_statistics-cheatsheet-ugcPost-6600946387649695744-I-Kk) | [Statistics Cheatsheet from Nabih Bawazir](https://www.linkedin.com/posts/nabihbawazir_statistics-cheatsheet-activity-6605755821471166464--U80)
   - [Data Science Cheatsheet - DataCamp](https://media.licdn.com/dms/document/C561FAQE-ZaQS7uMQMA/feedshare-document-pdf-analyzed/0?e=1572357600&v=beta&t=xPh84UiqmQRCf9PMs8tt1vCtM3eQln8vPkLqBSWssEw)
+  - [All Technology cheatsheet in one place (Software Engineering, Data Science, DevOps, etc.)](https://github.com/abhat222/Data-Science--Cheat-Sheet) | [LinkedIn](https://www.linkedin.com/posts/nabihbawazir_business-technology-datascience-activity-6608616163222134784-OMb3)
+  - [Cheatsheet of Time & Space Complexity for Data Structures, Sorting #algorithms to boost your interview preparation](https://www.linkedin.com/posts/ayonroy2000_ds-cheatsheet-activity-6623895027896676352-LJr8) [deadlink]
+  - [Data Science Cheatsheet](https://www.linkedin.com/posts/data-science-central_machine-learning-and-data-science-cheat-sheet-activity-6623699004276428800-DYcb)
 
 # Contributing
 

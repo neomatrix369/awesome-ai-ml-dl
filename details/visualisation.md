@@ -34,6 +34,17 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Seaborn](https://lnkd.in/gih7hqz)
   - [Plotly](https://lnkd.in/gBYBMXc)
   - [Python Graph Gallery](https://lnkd.in/gdGe-ef)
+  - Dashboards: [dash](https://plot.ly/dash/) | [pyviz](http://panel.pyviz.org) | [Streamlit]( https://streamlit.io/)
+  - [Data Visualisation: How to pick the right chart type?](https://www.linkedin.com/posts/mani-sarkar_machinelearning-deeplearning-datascience-activity-6616361422089785344-Ehnx)
+  - [17 Data Visualization Tools & Resources You Should Bookmark](https://www.linkedin.com/posts/data-science-central_17-data-visualization-tools-resources-you-activity-6620724391854555136-v3oo)
+  - [HOW TO DESIGN CHARTS AND GRAPHS](https://www.linkedin.com/posts/asif-bhat_data-visualisation-activity-6623492689587474432-mut5)
+  - [100+ Data Visualization](https://www.linkedin.com/posts/nabihbawazir_machinelearing-artificailintelligence-activity-6606240371859124224-dFM1)
+  - [20 ways visualizing Percentage](https://www.linkedin.com/posts/nabihbawazir_machinelearing-artificailintelligence-datascience-activity-6607004732953329664-KVEq)
+  - [Data Visualization Purpose: Andrew Abela & Stephen Few](https://www.linkedin.com/posts/nabihbawazir_data-visualization-purpose-activity-6606961340106018816-uDZd)
+  - [Visualizing #KMeans algorithm with D3.js](https://www.linkedin.com/posts/nabihbawazir_kmeans-ugcPost-6607183847048220672-1iFK)
+  - [Data Visualisation by Purpose (Ellie K, Miller post)](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6623855200325197824-0nxv)
+  - [👉 Which Chart or Graph is right for you 👈](https://www.linkedin.com/posts/asif-bhat_data-visualisation-activity-6623861062238334977-EP68)
+  - [GPU Accelerated data viz tools](https://www.linkedin.com/posts/murraydata_data-todashboard-activity-6623659330199781376-YIUQ)
 
 # Contributing
 

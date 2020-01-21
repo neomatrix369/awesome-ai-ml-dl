@@ -4,6 +4,7 @@
 
 - [Website to generate syntheric data](https://www.mockaroo.com)
 - [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae)
+- [Surprising Uses of Synthetic Random Data Sets](https://www.linkedin.com/posts/data-science-central_surprising-uses-of-synthetic-random-data-activity-6612404601515765760-J0AY)
 - [Python Random Data Generation](https://honingds.com/blog/python-random/)
 - [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods)
 - [How to Generate Test Datasets in Python with scikit-learn](https://machinelearningmastery.com/generate-test-datasets-python-scikit-learn/)
@@ -23,6 +24,7 @@
 - [Random database/dataframe generator](https://pydbgen.readthedocs.io/en/latest/#)
 - [MyRiad Toolkit](https://github.com/TU-Berlin-DIMA/myriad-toolkit) (Paper: http://vldb.org/pvldb/vol5/p1890_alexanderalexandrov_vldb2012.pdf) - focuses on how to generate massive amounts of data following a database schema (create data for your relational db with users, orders, etc)
 - [Generating Synthetic Data to Match Data Mining Patterns](https://www.researchgate.net/publication/3420044_Generating_Synthetic_Data_to_Match_Data_Mining_Patterns)
+- [Data Mining Process  ➡Techniques, Tools & Examples⬅](https://www.linkedin.com/posts/asif-bhat_data-mining-activity-6621054656615407616-9r8R)
 - [Databake: Generate realistic test data for product dev and demos.](https://www.databake.io/)
 
 ### Generate data from existing
@@ -51,6 +53,11 @@
 ### Generating Music
 
 - [Generating music in the raw audio domain](https://www.youtube.com/watch?v=y8mOZSJA7Bc) by [Sander Dieleman](http://benanne.github.io/about/)
+
+### Resampling
+
+- [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods)
+- [Resampling Methods: Bootstrap vs jackknife](https://www.linkedin.com/posts/data-science-central_resampling-methods-bootstrap-vs-jackknife-activity-6610622844785221632-bSXb)
 
 # Contributing
 
