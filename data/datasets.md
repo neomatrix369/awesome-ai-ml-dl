@@ -8,6 +8,20 @@
 - [Datasets from various themes and domains: retail, government. Datasets with a good mix of incorrect, wrongly-input, missing data](https://www.ud-intl.com/dataset)
 - [(Specific) Web Traffic Time Series Forecasting](https://www.kaggle.com/c/web-traffic-time-series-forecasting)
 - [Quora: What are some dirty/untidy datasets to clean for data analysis? I have just finished datacamp's course on cleaning data using R. I want to practice](https://www.quora.com/What-are-some-dirty-untidy-datasets-to-clean-for-data-analysis-I-have-just-finished-datacamps-course-on-cleaning-data-using-R-I-want-to-practice)
+- ["Awesome" Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
+- [Bureau of Labor Statistics](https://www.bls.gov/data/)
+- [Data.gov](https://www.data.gov/)
+- [UK Data Gov](https://data.gov.uk/)
+- [HealthData.gov](https://www.healthdata.gov/)
+- [Natural Questions](https://ai.google.com/research/NaturalQuestions)
+- [NIH Clinical Center CT Images](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images)
+- [Open Data on AWS](https://registry.opendata.aws/)
+- [Open Images](https://storage.googleapis.com/openimages/web/index.html)
+- [Open ML](https://www.openml.org/search?type=data)
+- [Quora list of datasets](https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public)
+- [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/index.html)
+- [Udacity Self-Driving Car dataset](https://github.com/udacity/self-driving-car)
+- [USAFACTS](https://usafacts.org/)
 
 ## Clean / ready-to-use datasets
 
