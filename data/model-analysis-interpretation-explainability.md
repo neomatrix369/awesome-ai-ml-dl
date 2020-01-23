@@ -46,6 +46,13 @@
 ## Calibration
 
 - [Probability Calibration by Cambridge Spark](https://blog.cambridgespark.com/probability-calibration-c7252ac123f)
+   - [Probability calibration](https://scikit-learn.org/stable/modules/calibration.html)
+      - [Probability Calibration curves](https://scikit-learn.org/stable/auto_examples/calibration/plot_calibration_curve.html)
+      - [Probability Calibration curves docs](https://docs.w3cub.com/scikit_learn/auto_examples/calibration/plot_calibration_curve/)
+        - [FastML: Classifier calibration with Platt's scaling and isotonic regression](http://fastml.com/classifier-calibration-with-platts-scaling-and-isotonic-regression/)
+        - [Speeding up isotonic regression in scikit-learn by 5,000x](http://tullo.ch/articles/speeding-up-isotonic-regression/)
+            - [Isotonic Regression](http://fa.bianp.net/blog/2013/isotonic-regression/)
+    - [Regression and Calibration by Shaun Burke](https://www.webdepot.umontreal.ca/Usagers/sauves/MonDepotPublic/CHM%203103/LCGC%20Eur%20Burke%202001%20-%202%20de%204.pdf)
 - [We can build ensemble Models with Xgboosted trees. Individual trees are stacked for better predictions but they are prone to overfitting. These trees are difficult to interprete and may be inexplicable - Kevin Lemagnen](https://github.com/klemag/odsc2018-ensemble-demystified)
 
 ## Overfitting
