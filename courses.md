@@ -99,6 +99,8 @@
     - [Slides](https://storage.googleapis.com/wandb/Bloomberg%20Class%201.pdf)
     - [Building and Debugging CNNs](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE9193U0/bloomberg_class_2.pdf)
     - [Introduction to ML](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE3Q7NN7/bloomberg_class_3.pdf)
+- [Korbit AI ML Courses](https://bit.ly/326t38Z?fbclid=IwAR3nB_eUqcORi3t27_WgN97H3dYb21z-g6F1EIttOGXh0cQKwrEllvFfSaY)
+- [Mirror Neuron Courses](https://youtube.com/c/MirrorNeuron?fbclid=IwAR2HmFSVqxXmJl8R9WFqcoTIeQxYAMqapyR3TrU-Lw6wHE-0syaIfgfpNyA)
 - [Course material by Students of AI (Imperial College, London)](https://github.com/Imperial-College-Data-Science-Society/)
 [previous github link](https://github.com/Students-for-AI/The-Academy-of-AI), [alternative forked repo](https://github.com/DurhamAI/The-Academy-of-AI)
 - [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
@@ -142,6 +144,7 @@
   - [09 Music information retrieval, BIGGAN & GLOW](https://www.youtube.com/watch?v=kIvyex9HH0Y)
   - [10 Reinforcement Learning & Natural Language Processing](https://www.youtube.com/watch?v=Pf_0IT5OjiI)
   - [11 Autonomous Artificial Artist](https://www.youtube.com/watch?v=Dqudnjj5wSo)
+- [Study plan to become a ML Engineer](https://lnkd.in/fdMg-AK)
 
 ### Java/JVM
 - [ML for Java Developers Course](http://numahub.com/courses/machine-learning-java-developers)
@@ -255,10 +258,11 @@ http://[s234.stanford.edu](http://cs234.stanford.edu/)
 CS 221: Artificial Intelligence: Principles and Techniques
 
 [https://stanford-cs221.github.io/autumn2019/](https://stanford-cs221.github.io/autumn2019/)
+
 ## Misc
 
 - [Check out 50 most popular massive open online courses](https://www.onlinecoursereport.com/the-50-most-popular-moocs-of-all-time/) ([Tweet](https://twitter.com/java/status/984844161969983489))
-
+- [Restart from basics, here's the learning path](https://www.linkedin.com/posts/nabihbawazir_restart-from-basics-heres-the-learning-activity-6615929791243747328-reH6)
 
 # Contributing
 

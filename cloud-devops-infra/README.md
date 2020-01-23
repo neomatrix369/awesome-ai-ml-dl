@@ -11,12 +11,14 @@
 - [TPU](#tpu)
 - [IPU](#ipu)
 - [Performance](#performance)
+- [Misc](#misc)
 - [Contributing](#contributing)
 
 ## System / Infra
 
   - [serveo.net](http://serveo.net) - Serveo is an SSH server just for remote port forwarding. When a user connects to Serveo, they get a public URL that anybody can use to connect to their localhost server. See link for other SSH and related alternatives, useful to be able to serve resources across devices i.e. access GPU or other hardware accelerators from another device remotely. | [How to forward my local port to public using Serveo?](https://medium.com/@osanda.deshan/how-to-forward-my-local-port-to-public-using-serveo-4979f352a3bf) | [Serveo on GitHub](https://github.com/milio48/serveo)
   - [Inlets](https://github.com/alexellis/inlets) by [Alex Ellis](https://github.com/alexellis) | [Get started](https://github.com/alexellis/inlets#get-started) | [Video](https://www.youtube.com/watch?v=jrAqqe8N3q4&feature=youtu.be)
+  - [KnockKnock by @huggingface](https://github.com/huggingface/knockknock) | [tweet](https://twitter.com/kartik_godawat/status/1187224635051409408)
 
 ## Compute & Storage
   
@@ -35,6 +37,8 @@
 
   - [vast.ai](about-vast.ai.md) - GPU Sharing Economy. One simple interface to find the best cloud GPU rentals. Reduce cloud compute costs by 3X to 5X
   - [paperspace](https://www.paperspace.com/) - The first cloud built for the future. Powering next-generation applications and cloud ML/AI pipelines. Paperspace is built to scale with your team - pay as you go option for individuals.
+  - [NextJournal](https://nextjournal.com/) - The notebook for
+reproducible research
   - [valohai](https://www.valohai.com/) | [docs](https://docs.valohai.com/) | [blogs](https://blog.valohai.com) | [GitHub](https://github.com/valohai) | [Videos](https://www.youtube.com/channel/UCiR8Fpv6jRNphaZ99PnIuFg) | [Showcase](https://valohai.com/showcase/) | [Slack](http://community-slack.valohai.com/) | [@valohaiai](https://twitter.com/@valohaiai) - Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
   - [Lambda Cloud GPU Instances](https://lambdalabs.com/service/gpu-cloud) - GPU Instances for Deep Learning & Machine Learning
   - [NavOps](http://www.univa.com/products/navops.php) - Cloud Migration for HPC | [Datasheet](http://www.univa.com/resources/files/univa-navops-launch-datasheet.pdf)
@@ -129,6 +133,10 @@
   - [DeepOBS: A Deep Learning Optimizer Benchmark Suite](https://arxiv.org/abs/1903.05499)
   - [PMLB](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4) - a large benchmark suite for machine learning evaluation and comparison
   - [Deep Learning Benchmarking Suite](https://github.com/HewlettPackard/dlcookbook-dlbs) | [HPE Deep Learning Cookbook](https://www.hpe.com/software/dl-cookbook)
+
+## Misc
+
+- [👉 Docker CLI & Dockerfile Cheat Sheet 👈](https://www.linkedin.com/posts/asif-bhat_docker-quick-reference-activity-6622407319550562304-xxdj)
 
 # Contributing
 

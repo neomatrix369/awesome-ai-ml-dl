@@ -119,6 +119,10 @@
   - [Tombone's Computer Vision Blog](http://www.computervisionblog.com/)
   - [Get started in Computer Vision, Quora](https://www.quora.com/q/qqtmowjpnijmeujz/How-to-get-started-in-Computer-Vision-A-guide-for-the-CS-undergrad)
 
+  ### Other Resources
+
+  - [List of Computer Vision Resources](https://lnkd.in/fuGPnQ6)
+
   ## Data Science
   
   - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
@@ -128,6 +132,20 @@
   - [T. Cormen, C. Leiserson, R. Rivest and C. Stein, Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
   - [David MacKay, Information Theory, Inference, and Learning Algorithms](http://www.inference.phy.cam.ac.uk/itila/book.html)
   - [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
+  - [Introduction to my data science book by Vincent Granville](https://www.linkedin.com/posts/data-science-central_introduction-to-my-data-science-book-activity-6609836648354111489-rkE0)
+  - [Top 10 Data Science Myths](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintellegence-activity-6620992977873530880--vTB)
+  - [Explanation of most popular Data Science Library (in Python)](https://www.linkedin.com/posts/nabihbawazir_artificialintellegence-datascience-machinelearning-activity-6617700382200164352-RDhs)
+  - [History of Data Science](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6621340335224258561-08Qu)
+  - [Top 10 Data Science Terminology](https://www.linkedin.com/posts/nabihbawazir_business-technology-datascience-activity-6622439088920330240-60G1)
+  - [Data Science Hand book that helps the newbie to guide toward the new wings of the era Data Science](https://www.linkedin.com/posts/ashishpatel2604_data-science-handbook-activity-6615805719633584128-1Qwj)
+  - [Data Science In One Pictures](https://www.linkedin.com/posts/nabihbawazir_artificialintelligence-facialrecognition-activity-6611503084294234112-eH0K)
+  - [Data Science complete PDF](https://sites.google.com/view/data-science-complete-pdf/home?fbclid=IwAR0ftE_DavpoCUJ77ipkxNHydUhZw_yYw5tNo6xjbce50Ge-XYRjAz67Tj8)
+  - [Data Science Cheatsheet](https://www.linkedin.com/posts/data-science-central_machine-learning-and-data-science-cheat-sheet-activity-6623699004276428800-DYcb)
+  - [Data Science Lifecycle](https://www.linkedin.com/posts/nabihbawazir_data-science-lifecycle-activity-6606559313404227584-XyIi)
+  - [50 most popular Python libraries and frameworks used in data science](https://www.linkedin.com/posts/nabihbawazir_python-datascience-dataanalysis-activity-6604589510447722496-AvyE)
+  - [Data Science Process by Nabih Bawazir](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-activity-6607204688909701120-9RqN)
+  - [Forecasting through ARIMA Modeling using R – Step-by-step Guide](https://www.linkedin.com/posts/data-science-central_forecasting-through-arima-modeling-using-activity-6626001092964597760-hk17)
+  - [📌50 Days of Machine Learning📌](https://www.linkedin.com/posts/asif-bhat_machine-learning-activity-6626017189273133056-jDbu)
   - See [Algorithms](../courses.md#algorithms) under [Courses](../courses.md#courses)
 
   ## Machine Learning
@@ -156,6 +174,7 @@
   - [Sebastian Ruder, Research scientist, DeepMind - Machine Learning, Deep Learning, & NLP](http://ruder.io/)
   - [Slides of how PyTorch helped the speaker learn ML](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=2019_06_26_Michael_Ceber.pdf)
   - [Slides of Collaborative Recommender System for Music](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=2019_06_26_Valentin_Nagacevschi.pdf)
+  - [Recommender Engine - Under The Hood](https://www.linkedin.com/posts/data-science-central_recommender-engine-under-the-hood-activity-6611995873561890816-WnJd)
   - [Tensorflow 2.0 by Josh Gordon at the Google X / X-Team event](https://drive.google.com/file/d/1XAZp_n7avolVOGApKNLk0YcY3xGRaVcQ/view)
   - [Algorithmia's Machine Learning Roadmap](https://info.algorithmia.com/email-machine-learning-roadmap)
   - [Machine Learning Terminology](https://www.linkedin.com/feed/update/urn:li:activity:6526625602227789824)
@@ -172,6 +191,26 @@
   - [ML Blogs by faculty.ai](https://faculty.ai/blog/)
   - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - topics covered: Vectors, Matrices, And Arrays • ML Basics • Preprocessing Structured Data • Preprocessing Images • Preprocessing Text • Preprocessing Dates And Times • Feature Engineering • Feature Selection • Model Evaluation • Model Selection • Linear Regression • Logistic Regression • Trees And Forests • Nearest Neighbors • Support Vector Machines • Naive Bayes • Clustering
   - [Claoudml](https://www.claoudml.com/) - Free Data Science & Machine Learning Resources
+  - [Complete Hands-Off Automated Machine Learning](https://www.linkedin.com/posts/data-science-central_complete-hands-off-automated-machine-learning-activity-6618518854731644928-b1kO)
+  - [How to 🤷‍♂️🤷‍♂️🤷‍♂️ #Practical #Lessons for #Scaling Machine Learning Solutions in the Real World](https://www.linkedin.com/posts/ashishpatel2604_practical-lessons-scaling-activity-6618516936416428032-yzDZ/)
+  - [Bayesian Machine Learning](https://www.linkedin.com/posts/data-science-central_bayesian-machine-learning-activity-6623268367648256000-TTcf)
+  - [Design Thinking and Machine Learning](https://www.linkedin.com/posts/nabihbawazir_design-thinking-and-machine-learning-activity-6612301684750278656-QsSD)
+  - [Machine Learning Quick Reference best Practice](https://www.linkedin.com/posts/nabihbawazir_machine-learning-quick-reference-best-practice-activity-6611857926338514944-d0Hz)
+  - [Most popular machine learning prediction](https://www.linkedin.com/posts/nabihbawazir_most-popular-machine-learning-prediction-activity-6611214710266265600-_e3b)
+  - [Exploring ML in 100 Days](https://lnkd.in/fqX8SGE)
+  - [How to put machine learning to intellegent apps](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6621070479258161152-F1lm)
+  - [A-Z Machine Learning Resources](https://lnkd.in/fVqeSfk)
+  - [𝗣𝘆𝘁𝗵𝗼𝗻 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀](https://www.linkedin.com/posts/martinroberts_python-machine-learning-projects-activity-6620692910499295232-B8Gq)
+  - [Machine Learning Map](https://www.linkedin.com/posts/nabihbawazir_machine-learning-map-activity-6604287294356713472-Zdrk)
+  - [Machine Learning Mindmap](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintellegence-activity-6620949255924346881-QMmy)
+  - [Machine Learning from scratch!](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-neuralnetworks-activity-6622205152554213376-TkTs)
+  - [ML Engineering EBook](https://www.linkedin.com/posts/andriyburkov_as-promised-i-have-just-put-online-the-fifth-activity-6622486751728459776-teGe)
+  - [Machine Learning in Oracle Database](https://blogs.oracle.com/machinelearning/machine-learning-in-oracle-database)
+  - [34 External Machine Learning Resources and Related Articles](https://www.linkedin.com/posts/data-science-central_34-external-machine-learning-resources-and-activity-6621826667289591808-0EZP)
+  - [R and Python Code for some popular machine learning algorithm](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6624922591301861376-oN0o)
+  - [Top Machine Learning Algorithm for Preditions](https://www.linkedin.com/posts/nabihbawazir_top-machine-learning-algorithm-for-preditions-activity-6603862704757272576-ULbe)
+  - [Pytorch London meetup talk slides](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0)
+  - [Learn, play, and create with artificial intelligence: great online portal to perform ML and AI training and experiments](https://www.curiositymachine.org/)
   - Grid search & Tuning Hyperparameters
     - [Parallel grid search H2O](https://www.linkedin.com/posts/pavel-pscheidl-19b15990_parallel-grid-search-in-h2o-activity-6623902801170964480-nV82)
     - [Selecting and Tuning Hyperparameters](https://www.linkedin.com/posts/alastairkerrmuir_hyperparameter-selection-and-tuning-meetup-ugcPost-6621172444340240384-9WBj)
@@ -205,6 +244,20 @@
    - [Deep learning for 3D printing manufacturing](https://www.youtube.com/watch?v=jAQSM2dhDV4) by [Benjamin Schrauwen](https://www.linkedin.com/in/benjaminschrauwen)
    - [Mathematical Understanding of CNN: course notes of Andrew Ng](https://www.linkedin.com/posts/ashishpatel2604_amazing-cnn-notes-ugcPost-6602853333562687488-PG8e)
    - [DL topics expanded by Chris Albon](https://chrisalbon.com/#deep_learning) - topics covered: Keras
+   - [Roadmap for reading DL papers](https://lnkd.in/fgzKhdC)
+   - [#Tensor #Calculus for Deep learning which is used in Google #Tensorflow Designed by Prof. Dr. Cornelis P. Dullemond](https://www.linkedin.com/posts/ashishpatel2604_tensor-calculus-for-deep-learning-activity-6602889964453756928-Y7Nk)
+   - [Deep Learning Libraries by Language](https://www.linkedin.com/posts/data-science-central_deep-learning-libraries-by-language-activity-6623607394184253440-plGE)
+   - [Awesome DL tutorials, projects](https://lnkd.in/fqeeCpg)
+   - [Making Production-level DL systems](https://lnkd.in/fWbWqHd)
+   - [✅Coursera Deep Learning courses✅](https://www.linkedin.com/posts/asif-bhat_coursera-deep-learning-courses-activity-6614893160936108032-9hHp)
+   - [Compositional Deep Learning](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_compositional-deep-learning-activity-6609849083098083328-LOVo)
+   - [Concise Visual Summary of Deep Learning Architectures](https://www.linkedin.com/posts/data-science-central_concise-visual-summary-of-deep-learning-architectures-activity-6620829076439519232-P7ns)
+   - [Introduction to Reinforcement Learning by David Silver](https://www.linkedin.com/posts/nabihbawazir_artificialintelligence-deeplearning-machinelearning-activity-6612596599749259264-DlSO)
+   - [Free deep learning book](https://www.linkedin.com/posts/data-science-central_free-deep-learning-book-mit-press-activity-6622581657427816448-stbk)
+   - [Course 1 and 2 of the TensorFlow: Data and Deployment Specialization](https://www.linkedin.com/posts/deeplearningai_one-more-week-until-you-can-take-course-1-activity-6607704452927496192-Ydfp)
+   - [A curated list of resources dedicated to bayesian deep learning](https://www.linkedin.com/posts/data-science-central_a-curated-list-of-resources-dedicated-to-activity-6606636571997327360-szZp)
+   - [The Complete Deep learning Masterpiece by Andrew Ng](https://www.linkedin.com/posts/stevenouri_deep-learning-tutorial-ugcPost-6604304219593945089-B9Wt)
+   - [How Rossum is using deep learning to extract data from any document](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_how-rossum-is-using-deep-learning-to-extract-activity-6605832802078347264-ZsW8)
    - See [Deep Learning](../courses.md#deep-learning) in [Courses](../courses.md#courses)
   
   #### Reinforcement Learning
@@ -228,6 +281,9 @@
   - [Reinforcement Learning using PyTorch by Kai Arulkumaran](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0&preview=2019_06_26_Kai_Arulkumaran.pdf)
   - Reinforcement Learning: An Introduction (Adaptive Computation and Machine Learning series) second edition Edition: [PDF book](http://incompleteideas.net/book/RLbook2018.pdf) by [Richard S. Sutton](http://incompleteideas.net/index.html) and [Andrew G. Barto](http://www-anw.cs.umass.edu/%7Ebarto/) | [Website and RL resources](http://incompleteideas.net/book/the-book-2nd.html)
   - [Teaching Artificial Agents to Understand Language by Modelling Reward](https://www.researchgate.net/publication/328437364_Teaching_Artificial_Agents_to_Understand_Language_by_Modelling_Reward) by [Edward Grefenstette](https://egrefen.github.io/) | [Video](https://www.youtube.com/watch?v=JCIIeDL9840)
+  - ["My Top 10 Deep RL Papers of 2019"](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-reinforcementlearning-activity-6623222248838881280-K-Zd)
+  - [Introduction to Reinforcement Learning](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-reinforcementlearning-activity-6620788745669005312--A2A)
+  - [Introduction to Reinforcement Learning by David Silver](https://www.linkedin.com/posts/nabihbawazir_artificialintelligence-deeplearning-machinelearning-activity-6612596599749259264-DlSO)
   - [Reinforcement Learning](../courses.md#reinforcement-learning) in [Courses](../courses.md#courses)
 
 ## Programming in Python

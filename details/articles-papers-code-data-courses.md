@@ -16,6 +16,9 @@
   - Cambridge Spark: [tutorials](https://cambridgespark.com/tutorials/) | [blogs](https://blog.cambridgespark.com/) | [Medium](https://medium.com/@Cambridge_Spark)
   - Analytics Vidhya: [blogs](https://www.analyticsvidhya.com/blog/) | [Archive](https://www.analyticsvidhya.com/blog-archive/) | [Learning Paths](https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/)
   - [Blogs by Lavanya Shukla](https://lavanya.ai/)
+  - [List of AI courses, books, video lectures, papers](https://lnkd.in/fTwJMcc)
+  - [List of DL/ AI/ ML Tutorials](https://lnkd.in/f3mq3xv)
+  - [#neurips2019 papers by theme](https://www.linkedin.com/posts/ajitjaokar_neurips-2019-analysis-of-papers-by-themes-activity-6615828407584382976-o5Uk)
   - See [courses](../courses.md)
 
 # Contributing

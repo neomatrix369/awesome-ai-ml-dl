@@ -20,6 +20,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Deep learning](#deep-learning)
     - [Reinforcement Learning](#reinforcement-learning)
 - [Tools & Libraries, Other Resources](#tools--libraries-other-resources)
+- [Java Specification Requests](#java-specification-requests)
 - [How-to / Deploy / DevOps / Serverless](#how-to--deploy--devops--serverless)
 - [Misc](#misc)
 - [Clojure](#clojure)
@@ -126,6 +127,8 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
+- [Angel-ML: high-performance distributed machine learning platform (Java-base, Linux Foundation)](https://lfai.foundation/projects/angel-ml/)
+- [Machine Learning in Oracle Database](https://blogs.oracle.com/machinelearning/machine-learning-in-oracle-database)
 - See [Java/JVM](../courses.md#javajvm) in [Courses](../courses.md)
 - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
 - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
@@ -169,6 +172,16 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Apache Zeppelin: stairway to notes* haven!](https://medium.com/@neomatrix369/apache-zeppelin-stairway-to-notes-haven-28ec413a185a)
   - [Teaching Java with Jupyter notebooks](https://blog.frankel.ch/teaching-java-jupyter-notebooks/)
   - [Efficient Java Matrix Library (EJML) is a linear algebra library for manipulating real/complex/dense/sparse matrices](http://ejml.org/wiki/index.php?title=Main_Page) | [Java Matrix Benchmark is a tool for evaluating Java linear algebra libraries for speed, stability, and memory usage](https://github.com/lessthanoptimal/Java-Matrix-Benchmark) by [Peter Abeles](https://github.com/lessthanoptimal)
+  - [Visual Recognition (VisRec) JSR #381](https://github.com/JavaVisRec/visrec-api/wiki/Getting-Started-Guide )
+  - [Onnx Runtime](https://github.com/microsoft/onnxruntime/pull/2215 )
+  - [Tensorflow Java - optimizers](https://github.com/Craigacp/tensorflow-java/tree/optimizers )
+  - [Tensorflow Java - optimizers (MNIST)](https://github.com/Craigacp/tensorflow-java/blob/optimizers/tensorflow-sandbox/src/main/java/org/tensorflow/sandbox/MNISTTest.java )
+
+## Java Specification Requests
+
+- [JSR  73](https://jcp.org/en/jsr/detail?id=73 ) - Data Mining API
+- [JSR 247](https://jcp.org/en/jsr/detail?id=247 ) - Data Mining
+- [JEP 370](https://openjdk.java.net/jeps/370 ) - Project Panama, JNI
 
 ## How-to / Deploy / DevOps / Serverless
 

@@ -18,6 +18,7 @@
 - [Top Machine Learning Algorithm for Preditions](https://www.linkedin.com/posts/nabihbawazir_top-machine-learning-algorithm-for-preditions-activity-6603862704757272576-ULbe)
 - [Sigmoid Neuron Learning Algorithm Explained With Math](https://towardsdatascience.com/sigmoid-neuron-learning-algorithm-explained-with-math-eb9280e53f07)
 - [Linear regression in Python: Use of numpy, scipy, and statsmodels](https://www.linkedin.com/posts/data-science-central_httpswwwdatasciencecentralcomprofiles-activity-6607284839810945024-hxnF)
+- [Smooth markets: A basic mechanism for organizing gradient-based learners Balduzzi et al](https://lnkd.in/e-PrH45)
 
 # Contributing
 
