@@ -10,6 +10,7 @@ The question to ask ourselves: _Do we know our data...?_
 - [Data Science](./README.md#data-science)
 - [Datasets and sources of raw data](./README.md#datasets-and-sources-of-raw-data)
 - [Data Collection](./README.md#data-collection)
+- [Hypothesis](./README.md#hypothesis)
 - [Data Exploratory Analysis](./README.md#data-exploratory-analysis)
 - [Data preparation](./README.md#data-preparation)
     + [Data Cleaning](./data-preparation.md#data-cleaning)
@@ -56,6 +57,11 @@ See [Datasets](./datasets.md)
 ## Data Collection
 
 - [👉 Effective Data Collection 👈](https://www.linkedin.com/posts/asif-bhat_data-collection-activity-6625312371869089793-4LrM)
+
+## Hypothesis
+
+- [How to approach Hypothesis Testing](https://medium.com/@dhruvaggarwal6/how-to-approach-hypothesis-testing-6257d03bcfee)
+- [Does Your Hypothesis Development Canvas Tell a Story?](https://www.linkedin.com/posts/data-science-central_does-your-hypothesis-development-canvas-tell-activity-6618701060817108993-EKjQ)
 
 ## Data Exploratory Analysis
 

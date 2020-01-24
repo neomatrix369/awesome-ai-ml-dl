@@ -2,10 +2,6 @@
 
 aka *_Exploratory Data Analysis_*
 
-### Hypothesis
-
-- [Does Your Hypothesis Development Canvas Tell a Story?](https://www.linkedin.com/posts/data-science-central_does-your-hypothesis-development-canvas-tell-activity-6618701060817108993-EKjQ)
-
 ### General
 
 - [The Ultimate Python Seaborn Tutorial: Gotta Catch ‘Em All](https://elitedatascience.com/python-seaborn-tutorial)
