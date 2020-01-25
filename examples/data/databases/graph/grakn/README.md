@@ -4,9 +4,9 @@ Run [Grakn and Graql](http://grakn.ai) in a docker container running under the t
 
 Find out more about [Grakn and Graql](http://grakn.ai) from the [Data](../../../../../data/README.md#databases) section.
 
-On start, useful details including time to startup Grakn and duration for which Graql was run are printed.
+On start-up, useful details including time to start-up the Grakn server and duration for which Graql was run are printed.
 
-Also, experimental usage of GraalVM, to take advantages of the performance benefits of this JVM. 
+Also, available experimental usage of GraalVM, to take advantages of the performance benefits of this JVM.
 
 ## Goals
 
@@ -20,7 +20,7 @@ Also, experimental usage of GraalVM, to take advantages of the performance benef
 
 ## Scripts provided
 
-**Go to [the previous folder](../grakn) to find the below scripts.**
+**See in [the current folder](../grakn) to find the below scripts**
 
 - [runGraknInDocker.sh](./runGraknInDocker.sh) - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
 - [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
@@ -32,17 +32,18 @@ Also, experimental usage of GraalVM, to take advantages of the performance benef
 
 ## Usage
 
-**Setting your environment**
+### Setting your environment
+
+**Note: you need to do the below only if you are trying to _build your own version_ of the Grakn Docker container and push to _your own Docker Hub repository_.**
 
 Ensure your environment has the below variable set, or set it in your `.bashrc` or `.bash_profile` or the relevant startup script:
 
 ```bash
 export DOCKER_USER_NAME="your_docker_username"
 ```
+You must have an account on Docker hub under the above user name. 
 
-You must have an account on Docker hub under the above user name.
-
-**Run the Grakn docker container:**
+### Run the Grakn docker container
 
 ```bash
 $ ./runGraknInDocker.sh
@@ -66,7 +67,9 @@ $  JDK_TO_USE="GRAALVM" RUN_PERFORMANCE_SCRIPT=true ./runGraknInDocker.sh
 See [successful run console](successful-run-console.md) - includes both outputs from the traditional JDK8 and GraalVM executions. 
 In debug mode, the docker container prompt is returned, the Grakn and Graql instances are not executed.
 
-**Build the Grakn docker container:**
+### Build the Grakn docker container
+
+See [Setting your environment](#setting-your-environment) before proceeding
 
 ```bash
 $ ./buildDockerImage.sh
@@ -78,6 +81,8 @@ $ GRAKN_VERSION="x.y.z" ./buildDockerImage.sh
 
 **Push built Grakn docker image to Docker hub:**
 
+See [Setting your environment](#setting-your-environment) before proceeding
+
 ```bash
 $ ./push-grakn-docker-image-to-hub.sh
 or
@@ -88,9 +93,9 @@ $ GRAKN_VERSION="x.y.z" ./push-grakn-docker-image-to-hub.sh
 
 The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
 
-**Docker image on Docker Hub**
+### Docker image on Docker Hub
 
-Find the [Grakn Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/grakn). The `push-grakn-docker-image-to-hub.sh` script pushes the image to the Docker hub and the `runGraknInDocker.sh` script runs it from the local repository. If absent, in the the local repository, it downloads this image from Docker Hub.
+Find the [Grakn Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/grakn). The `push-grakn-docker-image-to-hub.sh` script pushes the image to the Docker hub and the `runGraknInDocker.sh` script runs it from the local repository. If this is absent in your local repository, scripts download this image from the Docker Hub.
 
 # Contributing
 
