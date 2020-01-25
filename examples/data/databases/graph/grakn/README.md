@@ -2,7 +2,7 @@
 
 Run [Grakn and Graql](http://grakn.ai) in a docker container running under the traditional Java 8 (from OpenJDK or another source).
 
-Find out more about [Grakn and Graql](http://grakn.ai) from the [Data](../../../../../data/README.md#databases) section.
+Find out more about [Grakn and Graql](http://grakn.ai) from the [Resources](#Resources) section below.
 
 On start-up, useful details including time to start-up the Grakn server and duration for which Graql was run are printed.
 
@@ -69,14 +69,38 @@ $ JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
 or run by switching off JVMCI flag (default: on)
 
 $ COMMON_JAVAOPTS="-XX:-UseJVMCINativeLibrary" JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
+```
 
-or run the performance benchmarking script with default JDK
+### Run the performance script in the Grakn docker container
+
+#### Automatically
+
+```bash
+Run the performance benchmarking script with default JDK
 
 $ RUN_PERFORMANCE_SCRIPT=true ./runGraknInDocker.sh
 
-or run the performance benchmarking script with GraalVM
+or 
+
+Run the performance benchmarking script with GraalVM
 
 $  JDK_TO_USE="GRAALVM" RUN_PERFORMANCE_SCRIPT=true ./runGraknInDocker.sh
+```
+
+#### Manually
+
+```bash
+Run the performance benchmarking script with default JDK
+
+$ DEBUG=true ./runGraknInDocker.sh
+grakn@040eb5bd829c:~$ ./runPerformanceBenchmark.sh    # inside the container
+
+or 
+
+Run the performance benchmarking script with GraalVM
+
+$  JDK_TO_USE="GRAALVM" DEBUG=true ./runGraknInDocker.sh
+grakn@040eb5bd829c:~$ ./runPerformanceBenchmark.sh    # inside the container
 ```
 
 See [successful run console](successful-run-console.md) - includes both outputs from the traditional JDK8 and GraalVM executions. In debug mode, the docker container prompt is returned, the Grakn and Graql instances are not executed. Please check out the history of [successful run console](successful-run-console.md) to see progress with previous runs under various versions of Grakn, GraalVM and other configuration settings.
@@ -110,6 +134,18 @@ The above will prompt the docker login name and password, before it can push you
 ### Docker image on Docker Hub
 
 Find the [Grakn Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/grakn). The `push-grakn-docker-image-to-hub.sh` script pushes the image to the Docker hub and the `runGraknInDocker.sh` script runs it from the local repository. If this is absent in your local repository, scripts download this image from the Docker Hub.
+
+### Resources
+
+- [Home](https://grakn.ai)
+- [GitHub](https://github.com/graknlabs) | [Grakn](https://github.com/graknlabs/Grakn) | [Graql](https://github.com/graknlabs/graql) | [benchmark](https://github.com/graknlabs/benchmark)
+- [Twitter](https://twitter.com/@graknlabs)
+- [LinkedIn](https://www.linkedin.com/company/graknlabs/) | [LinkedIn Community Group](https://www.linkedin.com/groups/13657731/)
+- [Docs](https://dev.grakn.ai/docs/general/quickstart)
+- [Blogs](https://blog.grakn.ai/) - also published on [Medium.com](https://medium.com)
+- Community
+  - [Slack](https://grakn.ai/slack)
+  - [Discuss](https://discuss.grakn.ai/)
 
 # Contributing
 

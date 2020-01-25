@@ -47,17 +47,19 @@ java -version
 
 (env | grep _JAVAOPTS) || true 
 
-cd ${WORKDIR}/shared
 
 echo -n "Grakn version: (see bottom of the startup text banner)"
 echo ""
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-# time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn server start --benchmark
-time ./grakn-core-all-deploy-linux-jline-2.14.6/grakn server start --benchmark
+time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn server start --benchmark
+# Run the newly built Grakn server (UberJar, native-build, etc...)
+# time ./grakn-core-all-deploy-linux-jline-2.14.6/grakn server start --benchmark
+# Enable above when the build is in order
 echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Grakn server is running..."
 
+cd ${WORKDIR}/shared
 echo "~~~~ Current working directory: $(pwd)"
 
 if [[ -d benchmark ]]; then
@@ -73,19 +75,20 @@ fi
 BENCHMARK_FOLDER=$(pwd)
 
 mkdir -p logs
-echo "~~~~ Updating maven dependencies via Bazel ~~~~"
+echo "\n~~~~ Updating maven dependencies via Bazel ~~~~"
 set -x
 time ./dependencies/maven/update.sh &> logs/maven_update.logs
 set +x
 
 if [[ $? -eq 0 ]]; then
-   echo "~~~~ Finished updating Maven dependencies via Bazel ~~~~"
+   echo "\n~~~~ Finished updating Maven dependencies via Bazel ~~~~"
 else
-   echo "~~~~ Failed updating Maven dependencies via Bazel with error code $? ~~~~"
+   echo "\n~~~~ Failed updating Maven dependencies via Bazel with error code $? ~~~~"
 fi
 cat logs/maven_update.logs
 
 echo "~~~ Building report-producer-distribution via Bazel ~~~"
+cd ${BENCHMARK_FOLDER}; echo "\n~~~~ Current working directory: $(pwd)"
 set -x
 time bazel build //:report-producer-distribution &> logs/bazel_build.logs
 set +x
