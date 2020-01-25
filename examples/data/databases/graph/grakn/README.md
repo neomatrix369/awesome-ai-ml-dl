@@ -22,6 +22,8 @@ Also, available experimental usage of GraalVM, to take advantages of the perform
 
 **See in [the current folder](../grakn) to find the below scripts**
 
+- [grakn_version.txt](grakn_version.txt) - save the version of Grakn used to build and run the docker container
+- [graalvm_version.txt](graalvm_version.txt) - save the version of GraalVM used to build and run the docker container
 - [runGraknInDocker.sh](./runGraknInDocker.sh) - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
 - [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
 - [runPerformanceBenchmark.sh](./runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script

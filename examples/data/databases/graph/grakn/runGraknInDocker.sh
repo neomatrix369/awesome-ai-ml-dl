@@ -20,7 +20,7 @@ set -e
 set -u
 set -o pipefail
 
-GRAKN_VERSION=${GRAKN_VERSION:-1.5.7}
+GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 
 DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
 
@@ -51,7 +51,7 @@ JAVA8_HOME="/usr/local/openjdk-8/"
 JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA8_HOME}"
 
 if [[ "${JDK_TO_USE:-}" = "GRAALVM" ]]; then
-    GRAALVM_HOME="/usr/local/graalvm-ce-19.1.1"
+    GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
     COMMON_JAVAOPTS="${COMMON_JAVAOPTS:-'-XX:+UseJVMCINativeLibrary'}"
     GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
     STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)

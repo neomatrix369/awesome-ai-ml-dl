@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y wget unzip pv \
     && rm -r /var/lib/apt/lists/*
 
 ARG GRAKN_VERSION
-ENV GRAKN_VERSION=${GRAKN_VERSION:-1.5.7}
+ENV GRAKN_VERSION=${GRAKN_VERSION}
 ENV WORKDIR=/home/grakn
 WORKDIR ${WORKDIR}
 
@@ -53,10 +53,11 @@ RUN apt-get update && apt-get install -qy vim \
     && rm -r /var/lib/apt/lists/*
 RUN mkdir -p .cache
 
-COPY startGraknAndGraql.sh ./startGraknAndGraql.sh
+COPY grakn_version.txt          ./grakn_version.txt
+COPY startGraknAndGraql.sh      ./startGraknAndGraql.sh
 COPY runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
-COPY mergeJson.sh ./mergeJson.sh
-COPY buildUberJar.sh ./buildUberJar.sh
+COPY mergeJson.sh               ./mergeJson.sh
+COPY buildUberJar.sh            ./buildUberJar.sh
 COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
 
 RUN groupadd -r user_grp && useradd -r -g user_grp grakn

@@ -21,7 +21,7 @@ set -u
 set -o pipefail
 
 DEFAULT_JDK="${JAVA8_HOME}"
-GRAKN_VERSION=${GRAKN_VERSION:-1.5.7}
+GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 WORKDIR=${WORKDIR:-$(pwd)}
 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
