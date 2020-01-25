@@ -47,25 +47,37 @@ You must have an account on Docker hub under the above user name.
 
 ```bash
 $ ./runGraknInDocker.sh
+
 or
+
 $ DOCKER_USER_NAME="your_docker_username" ./runGraknInDocker.sh
+
 or
+
 $ GRAKN_VERSION="x.y.z" ./runGraknInDocker.sh
+
 or in debug mode
+
 $ DEBUG="true" ./runGraknInDocker.sh
+
 or run in GraalVM mode
+
 $ JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
+
 or run by switching off JVMCI flag (default: on)
-$ COMMON_JAVAOPTS="-XX:-UseJVMCINativeLibrary" ./runGraknInDocker.sh
+
+$ COMMON_JAVAOPTS="-XX:-UseJVMCINativeLibrary" JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
 
 or run the performance benchmarking script with default JDK
+
 $ RUN_PERFORMANCE_SCRIPT=true ./runGraknInDocker.sh
+
 or run the performance benchmarking script with GraalVM
+
 $  JDK_TO_USE="GRAALVM" RUN_PERFORMANCE_SCRIPT=true ./runGraknInDocker.sh
 ```
 
-See [successful run console](successful-run-console.md) - includes both outputs from the traditional JDK8 and GraalVM executions. 
-In debug mode, the docker container prompt is returned, the Grakn and Graql instances are not executed.
+See [successful run console](successful-run-console.md) - includes both outputs from the traditional JDK8 and GraalVM executions. In debug mode, the docker container prompt is returned, the Grakn and Graql instances are not executed. Please check out the history of [successful run console](successful-run-console.md) to see progress with previous runs under various versions of Grakn, GraalVM and other configuration settings.
 
 ### Build the Grakn docker container
 
