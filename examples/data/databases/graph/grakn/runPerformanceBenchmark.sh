@@ -60,7 +60,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo "Grakn server is running..."
 
 cd ${WORKDIR}/shared
-echo "~~~~ Current working directory: $(pwd)"
+echo ""; echo "~~~~ Current working directory: $(pwd)"
 
 if [[ -d benchmark ]]; then
   cd benchmark
@@ -75,41 +75,41 @@ fi
 BENCHMARK_FOLDER=$(pwd)
 
 mkdir -p logs
-echo "\n~~~~ Updating maven dependencies via Bazel ~~~~"
+echo ""; echo "~~~~ Updating maven dependencies via Bazel ~~~~"
 set -x
 time ./dependencies/maven/update.sh &> logs/maven_update.logs
 set +x
 
 if [[ $? -eq 0 ]]; then
-   echo "\n~~~~ Finished updating Maven dependencies via Bazel ~~~~"
+   echo ""; echo "~~~~ Finished updating Maven dependencies via Bazel ~~~~"
 else
-   echo "\n~~~~ Failed updating Maven dependencies via Bazel with error code $? ~~~~"
+   echo ""; echo "~~~~ Failed updating Maven dependencies via Bazel with error code $? ~~~~"
 fi
 cat logs/maven_update.logs
 
-echo "~~~ Building report-producer-distribution via Bazel ~~~"
+echo ""; echo "~~~ Building report-producer-distribution via Bazel ~~~"
 cd ${BENCHMARK_FOLDER}; echo "\n~~~~ Current working directory: $(pwd)"
 set -x
 time bazel build //:report-producer-distribution &> logs/bazel_build.logs
 set +x
 
 if [[ $? -eq 0 ]]; then
-   echo "~~~ Finished building report-producer-distribution via Bazel ~~~"
+   echo ""; echo "~~~ Finished building report-producer-distribution via Bazel ~~~"
 else
-   echo "~~~ Failed building report-producer-distribution via Bazel with error code $? ~~~"
+   echo ""; echo "~~~ Failed building report-producer-distribution via Bazel with error code $? ~~~"
 fi
 cat logs/bazel_build.logs
 
-echo "~~~ Running report producer ~~~"
+echo ""; echo "~~~ Running report producer ~~~"
 cd bazel-genfiles
 unzip -u report-producer.zip
 cd report-producer
 
-echo "~~~ Copying config road_config_read_c2.yml ~~~"
+echo ""; echo "~~~ Copying config road_config_read_c2.yml ~~~"
 cp ${BENCHMARK_FOLDER}/common/configuration/scenario/road_network/road_config_read_c2.yml \
    ${BENCHMARK_FOLDER}/bazel-out/darwin-fastbuild/bin/report-producer/scenario/road_network
 
-echo "~~~ Running ./report_producer using copied config ~~~"
+echo ""; echo "~~~ Running ./report_producer using copied config ~~~"
 set -x
 GRAKN_URI="localhost" && time ./report_producer                    \
     --config=scenario/road_network/road_config_read_c2.yml         \
@@ -118,14 +118,14 @@ GRAKN_URI="localhost" && time ./report_producer                    \
 set +x
 echo "~~~ Finished running report producer ~~~"
 
-echo "~~~ Merging reports ~~~"
+echo ""; echo "~~~ Merging reports ~~~"
 rm -f ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer/report*.json
 cp ${WORKDIR}/mergeJson.sh ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer
 cd ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer
 ./mergeJson.sh
 mv report.json report-${JDK_MODE}.json
 
-echo "~~~ Converting to text report ~~~"
+echo ""; echo "~~~ Converting to text report ~~~"
 cd ${BENCHMARK_FOLDER}
 rm -f ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer/formatted.report.output*.txt
 

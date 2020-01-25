@@ -26,7 +26,10 @@ Also, available experimental usage of GraalVM, to take advantages of the perform
 - [graalvm_version.txt](graalvm_version.txt) - save the version of GraalVM used to build and run the docker container
 - [runGraknInDocker.sh](./runGraknInDocker.sh) - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
 - [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
-- [runPerformanceBenchmark.sh](./runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script
+- Run inside the Grakn docker container
+    - [runPerformanceBenchmark.sh](./runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script. This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark)
+    - [native-image-builder.sh](./native-image-builder.sh) - build uberjar and native image from the uberjar to standalone execution
+- [measureTradVersusGraalVMLoadTime.sh](./measureTradVersusGraalVMLoadTime.sh) - measure the startup time between traditional JDK and GraalVM
 - [Dockerfile](./Dockerfile): a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
 - [buildDockerImage.sh](./buildDockerImage.sh): build the docker image for grakn, takes under 10 minutes to finish on a decent connection
 - [push-grakn-docker-image-to-hub.sh](./push-grakn-docker-image-to-hub.sh) - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
