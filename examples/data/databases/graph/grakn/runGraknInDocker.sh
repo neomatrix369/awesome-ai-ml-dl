@@ -21,6 +21,7 @@ set -u
 set -o pipefail
 
 GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
+GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
 
 DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
 

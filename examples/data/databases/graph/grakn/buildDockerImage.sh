@@ -37,3 +37,7 @@ time docker build -t ${GRAKN_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION} \
                   --build-arg GRAKN_VERSION=${GRAKN_VERSION} \
                   --build-arg GRAALVM_VERSION=${GRAALVM_VERSION} \
                   .
+
+./removeUnusedContainersAndImages.sh
+./push-grakn-docker-image-to-hub.sh
+./removeUnusedContainersAndImages.sh
