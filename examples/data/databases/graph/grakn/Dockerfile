@@ -67,4 +67,7 @@ USER grakn
 
 COPY .bashrc ${WORKDIR}/.bashrc
 
+ARG DEFAULT_PORT
+EXPOSE ${DEFAULT_PORT}
+
 ENTRYPOINT ["bash", "-c", "./startGraknAndGraql.sh"]

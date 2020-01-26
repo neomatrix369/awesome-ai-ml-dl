@@ -29,7 +29,7 @@ Also, available experimental usage of GraalVM, to take advantages of the perform
 - Run inside the Grakn docker container
     - [runPerformanceBenchmark.sh](./runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script. This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark)
     - [builder.sh](./builder.sh) - build uberjar and native image from the uberjar for standalone execution (target for native-image is OS specific, uberjar can run on any JVM target)
-- [measureTradVersusGraalVMLoadTime.sh](./measureTradVersusGraalVMLoadTime.sh) - measure the startup time between traditional JDK and GraalVM
+- [measureTradVersusGraalVMLoadTime.sh](./measureTradVersusGraalVMLoadTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled)
 - [Dockerfile](./Dockerfile): a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
 - [buildDockerImage.sh](./buildDockerImage.sh): build the docker image for grakn, takes under 10 minutes to finish on a decent connection
 - [push-grakn-docker-image-to-hub.sh](./push-grakn-docker-image-to-hub.sh) - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
@@ -65,6 +65,10 @@ or in debug mode
 
 $ DEBUG="true" ./runGraknInDocker.sh
 
+or run Grakn server only (not run the Console: Graql)
+
+$ SKIP_GRAQL="true" ./runGraknInDocker.sh
+
 or run in GraalVM mode
 
 $ JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
@@ -72,6 +76,19 @@ $ JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
 or run by switching off JVMCI flag (default: on)
 
 $ COMMON_JAVAOPTS="-XX:-UseJVMCINativeLibrary" JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
+```
+
+### Run the scripts in the Grakn docker container
+
+```
+$ DEBUG="true" ./runGraknInDocker.sh
+$  startGraknAndGraql.sh
+
+Exiting the Graql Console takes you into the Docker container prompt. Also another way to run Grakn server but not use the Graql console prompt.    
+
+or 
+
+$  SKIP_GRAQL=true startGraknAndGraql.sh
 ```
 
 ### Run the performance script in the Grakn docker container

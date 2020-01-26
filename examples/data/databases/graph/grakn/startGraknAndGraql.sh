@@ -42,8 +42,10 @@ echo "Grakn server is running..."
 
 if [[ "${SKIP_GRAQL:-}" = "true" ]]; then
 	echo "Skipping running Graql console"
+	/bin/bash
 else
 	echo "Starting Graql console..."
 	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn console
+	/bin/bash
 fi

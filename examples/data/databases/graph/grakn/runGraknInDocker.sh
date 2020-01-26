@@ -29,6 +29,8 @@ IMAGE_NAME=${IMAGE_NAME:-grakn}
 IMAGE_VERSION=${IMAGE_VERSION:-${GRAKN_VERSION}}
 GRAKN_DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
+DEFAULT_PORT=${DEFAULT_PORT:-48555}
+
 WORKDIR="/home/grakn"
 
 CUSTOM_ENTRY_POINT=""
@@ -78,6 +80,8 @@ ${TIME_IT} docker run --rm                                           \
                 --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel     \
                 --workdir ${WORKDIR}                                 \
                 --env JDK_TO_USE=${JDK_TO_USE:-}                     \
+                --env SKIP_GRAQL=${SKIP_GRAQL:-}                     \
+                -p ${DEFAULT_PORT}:${DEFAULT_PORT}                   \
                 ${JDK_SPECIFIC_ENV_VALUES}                           \
                 ${CUSTOM_ENTRY_POINT}                                \
                 ${GRAKN_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
