@@ -29,7 +29,7 @@ Also, available experimental usage of GraalVM, to take advantages of the perform
 - Run inside the Grakn docker container
     - [runPerformanceBenchmark.sh](./runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script. This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark)
     - [builder.sh](./builder.sh) - build uberjar and native image from the uberjar for standalone execution (target for native-image is OS specific, uberjar can run on any JVM target)
-- [measureTradVersusGraalVMLoadTime.sh](./measureTradVersusGraalVMLoadTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled)
+- [measureTradVersusGraalVMLoadTime.sh](./measureTradVersusGraalVMLoadTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled), see [successful run console](successful-run-console.md) output generated from this script.
 - [Dockerfile](./Dockerfile): a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
 - [buildDockerImage.sh](./buildDockerImage.sh): build the docker image for grakn, takes under 10 minutes to finish on a decent connection
 - [push-grakn-docker-image-to-hub.sh](./push-grakn-docker-image-to-hub.sh) - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
@@ -166,6 +166,9 @@ Find the [Grakn Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix36
 - Community
   - [Slack](https://grakn.ai/slack)
   - [Discuss](https://discuss.grakn.ai/)
+- Cloud
+  - Grakn on AWS: [Grakn Profile (AWS Marketplace)](https://aws.amazon.com/marketplace/seller-profile?id=35eaf0dd-eda4-4b8d-b78a-443f6c619104)| [Grakn KGMS(AWS Marketplace)](https://aws.amazon.com/marketplace/pp/GRAKNAI-Grakn-KGMS/B07H8RMX5X) | [Deploy Grakn on AWS](https://dev.grakn.ai/docs/cloud-deployment/aws) | [Blog](https://blog.grakn.ai/grakn-kgms-is-now-on-aws-db871ecdb425)
+  - Grakn on Google: [Deploy Grakn on Google](https://dev.grakn.ai/docs/cloud-deployment/google-cloud) | [GRAKN.AI with Google Bigtable via JanusGraph](https://blog.grakn.ai/grakn-ai-with-google-bigtable-via-janusgraph-cc46fd0958df) | [Blog](https://blog.grakn.ai/grakn-ai-on-google-cloud-f18f6692670c)
 
 # Contributing
 
