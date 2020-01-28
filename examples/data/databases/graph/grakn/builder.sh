@@ -44,6 +44,8 @@ IMAGE_NAME=""
 SHOW_STACK_TRACES=${SHOW_STACK_TRACES:-}
 OPTIONS=""
 
+GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
+
 checkForJarFileParam() {
 	if [[ -z "${JARFILE:-}" ]]; then
 		echo "Jar file not provided as argument to script."
@@ -90,6 +92,12 @@ buildUberJar() {
 	    git clone https://github.com/graknlabs/grakn
 	    cd ${PROJECT_ROOT_FOLDER}/shared/grakn
 	fi
+
+	git fetch --all --tags
+
+	echo "Switching to tag ${GRAKN_VERSION} to be able to apply the batch (to build uberjar via bazel)"
+	git checkout ${GRAKN_VERSION} 
+	git checkout -b v${GRAKN_VERSION}-branch
 
 	git config --local user.name "Mani Sarkar"
 	git config --local user.email "sadhak001@gmail.com"

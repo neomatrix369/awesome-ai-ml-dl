@@ -82,7 +82,6 @@ The [grakn-runner.sh](grakn-runner.sh) script runs the container which then call
            --help                                           shows the script usage help text
      ```
 
-
 ### Performance Scripts provided
 - [measureTradVersusGraalVMLoadTime.sh](./performance-benchmark-scripts/measureTradVersusGraalVMLoadTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled), see [successful run console](successful-run-console.md) output generated from this script.
 - [runPerformanceBenchmark.sh](./performance-benchmark-scripts/runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script. This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark). Also see the [performance script execution output](./performance-benchmark-scripts/output-from-running-performance-script.md).
@@ -206,6 +205,31 @@ The above will prompt the docker login name and password, before it can push you
 ### Docker image on Docker Hub
 
 Find the [Grakn Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/grakn). The `push-grakn-docker-image-to-hub.sh` script pushes the image to the Docker hub and the `runGraknInDocker.sh` script runs it from the local repository. If this is absent in your local repository, scripts download this image from the Docker Hub.
+
+### Building Grakn
+
+Run the Grakn docker container:
+
+```
+$ ./grakn-runner.sh --debug --runContainer 
+```
+
+When the docker prompt appears, continue doing one of the actions below.
+
+#### Building uberjar inside the container
+
+```
+grakn@c74ed490582e:~$ ./builder.sh --buildUberJar
+```
+This process can take a bit of time as bazel builds our uberjar.
+
+#### Building native-image inside the container
+
+```
+grakn@c74ed490582e:~$ ./builder.sh --buildNativeImage
+```
+
+This process can take a bit of time as the `native-image` building process is a lengthy one.
 
 ### Resources
 
