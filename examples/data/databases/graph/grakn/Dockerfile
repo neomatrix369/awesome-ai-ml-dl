@@ -55,7 +55,7 @@ RUN mkdir -p .cache
 
 COPY grakn_version.txt          ./grakn_version.txt
 COPY startGraknAndGraql.sh      ./startGraknAndGraql.sh
-COPY runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
+COPY performance-benchmark-scripts/runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
 COPY mergeJson.sh               ./mergeJson.sh
 COPY builder.sh                 ./builder.sh
 COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
