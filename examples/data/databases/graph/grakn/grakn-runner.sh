@@ -37,7 +37,9 @@ runContainer() {
 	askDockerUserNameIfAbsent
 
 	echo "";
-	echo "Running container ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"; echo ""
+  if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
+	   echo "Running container ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"; echo ""
+  fi
 
 	mkdir -p shared
 	mkdir -p .cache/bazel
@@ -193,7 +195,9 @@ VOLUMES_SHARED="--volume "$(pwd)":${WORKDIR}/work --volume "$(pwd)"/shared:${WOR
 SKIP_GRAQL=false
 
 if [[ "$#" -eq 0 ]]; then
-	echo "No parameter has been passed. Running Grakn docker container with selected and default params."
+  if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
+     echo "No parameter has been passed. Running Grakn docker container with selected and default params."
+  fi  
 	runContainer
 fi
 
@@ -247,6 +251,8 @@ while [[ "$#" -gt 0 ]]; do case $1 in
 esac; shift; done
 
 if [[ "$#" -eq 0 ]]; then
-	echo "No parameter has been passed. Running Grakn docker container with selected and default params."
+  if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
+     echo "No parameter has been passed. Running Grakn docker container with selected and default params."
+  fi
 	runContainer
 fi

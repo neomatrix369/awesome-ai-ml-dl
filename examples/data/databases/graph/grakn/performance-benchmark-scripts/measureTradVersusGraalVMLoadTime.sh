@@ -38,7 +38,9 @@ runContainer() {
 
 	echo ""
 	echo "~~~ Running Grakn in a Docker container using the ${JDK_TO_USE_STRING}"
-	GRAKN_CONTAINER_ID=$(cd .. && DETACHED_MODE=true JDK_TO_USE="${JDK_TO_USE}" JAVA_OPTS=${JAVA_OPTS} ./grakn-runner.sh --runContainer)
+
+	GRAKN_CONTAINER_ID=$(cd .. && ./grakn-runner.sh --javaopts "${JAVA_OPTS}" --jdk "${JDK_TO_USE}" --detach --runContainer)
+	GRAKN_CONTAINER_ID=$(echo ${GRAKN_CONTAINER_ID} | awk '{print $1}')
 	GRAKN_CONTAINER_ID=${GRAKN_CONTAINER_ID:0:7}
 
 	if [[ -z "${GRAKN_CONTAINER_ID}" ]]; then
@@ -55,8 +57,9 @@ runContainer() {
 	echo ""
 }
 
+GRAALVM_VERSION=$(cat ../graalvm_version.txt)
 time runContainer "Traditional-JDK" "Traditional JDK (version 1.8)" ""
 
-time runContainer "GRAALVM" "GraalVM (version 1.8), JVMCI disabled" "-XX:-UseJVMCINativeLibrary"
+time runContainer "GRAALVM" "GraalVM (version CE ${GRAALVM_VERSION}), JVMCI disabled" "-XX:-UseJVMCINativeLibrary"
 
-time runContainer "GRAALVM" "GraalVM (version 1.8), JVMCI enabled" "-XX:+UseJVMCINativeLibrary"
+time runContainer "GRAALVM" "GraalVM (version CE ${GRAALVM_VERSION}), JVMCI enabled" "-XX:+UseJVMCINativeLibrary"
