@@ -38,7 +38,7 @@ runContainer() {
 
 	echo ""
 	echo "~~~ Running Grakn in a Docker container using the ${JDK_TO_USE_STRING}"
-	GRAKN_CONTAINER_ID=$(DETACHED_MODE=true JDK_TO_USE="${JDK_TO_USE}" JAVA_OPTS=${JAVA_OPTS} ./runGraknInDocker.sh)
+	GRAKN_CONTAINER_ID=$(cd .. && DETACHED_MODE=true JDK_TO_USE="${JDK_TO_USE}" JAVA_OPTS=${JAVA_OPTS} ./grakn-runner.sh --runContainer)
 	GRAKN_CONTAINER_ID=${GRAKN_CONTAINER_ID:0:7}
 
 	if [[ -z "${GRAKN_CONTAINER_ID}" ]]; then
