@@ -30,12 +30,12 @@ showUsageText() {
                  --build     [/path/to/JAR file]
                  --test      [/path/to/native-image file]
 
-       --buildUberJar                                build the Uber jar before building the native image
-       --extract      [/path/to/JAR file]            extract the Jar file configuration information and 
-                                                     save into the META-INF folder
-       --build        [/path/to/JAR file]            build the native image from the Jar file provided
-       --test         [/path/to/native-image file]   test the native image
-       --help                                        shows the script usage help text
+       --buildUberJar                                   build the Uber jar before building the native image
+       --extract          [/path/to/JAR file]           extract the Jar file configuration information and
+                                                        save into the META-INF folder
+       --buildNativeImage [/path/to/JAR file]           build the native image from the Jar file provided
+       --test             [/path/to/native-image file]  test the native image
+       --help                                           shows the script usage help text
 
 HEREDOC
 }
@@ -126,11 +126,11 @@ testNativeImage() {
 }
 
 while [[ "$#" -gt 0 ]]; do case $1 in
-  --help)          showUsageText; exit 0;;
-  --buildUberJar)  buildUberJar; exit 0;; 
-  --extract)       JARFILE="${2:-}"; setupVariables; extractMetaInfo; exit 0;;
-  --build)         JARFILE="${2:-}"; setupVariables; buildNativeImage;  exit 0;;
-  --test)          IMAGE_NAME="${2:-}"; testNativeImage;  exit 0;;
+  --help)              showUsageText; exit 0;;
+  --buildUberJar)      buildUberJar; exit 0;; 
+  --extract)           JARFILE="${2:-}"; setupVariables; extractMetaInfo; exit 0;;
+  --buildNativeImage)  JARFILE="${2:-}"; setupVariables; buildNativeImage;  exit 0;;
+  --test)              IMAGE_NAME="${2:-}"; testNativeImage;  exit 0;;
   *) echo "Unknown parameter passed: $1"; exit 1;;
 esac; shift; done
 

@@ -69,17 +69,17 @@ The [grakn-runner.sh](grakn-runner.sh) script runs the container which then call
     - [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
     - [builder.sh](./builder.sh) - build uberjar and native image from the uberjar for standalone execution (target for native-image is OS specific, uberjar can run on any JVM target), see script usage text:
     ```
-               Usage: ./builder.sh --buildUberJar
-                         --extract   [/path/to/JAR file]
-                         --build     [/path/to/JAR file]
-                         --test      [/path/to/native-image file]
+           Usage: ./builder.sh --buildUberJar
+                     --extract   [/path/to/JAR file]
+                     --build     [/path/to/JAR file]
+                     --test      [/path/to/native-image file]
 
-               --buildUberJar                                build the Uber jar before building the native image
-               --extract      [/path/to/JAR file]            extract the Jar file configuration information and
-                                                             save into the META-INF folder
-               --build        [/path/to/JAR file]            build the native image from the Jar file provided
-               --test         [/path/to/native-image file]   test the native image
-               --help                                        shows the script usage help text
+           --buildUberJar                                   build the Uber jar before building the native image
+           --extract          [/path/to/JAR file]           extract the Jar file configuration information and
+                                                            save into the META-INF folder
+           --buildNativeImage [/path/to/JAR file]           build the native image from the Jar file provided
+           --test             [/path/to/native-image file]  test the native image
+           --help                                           shows the script usage help text
      ```
 
 
