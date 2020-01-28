@@ -59,7 +59,7 @@ runContainer() {
   set +x
 }
 
-buildImage() {
+buildDockerImage() {
 	askDockerUserNameIfAbsent
 	
 	echo "Building image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"; echo ""
@@ -122,7 +122,7 @@ showUsageText() {
                                  --jdk [GRAALVM]
                                  --javaopts [java opt arguments]
                                  --cleanup
-                                 --buildImage
+                                 --buildDockerImage
                                  --runContainer
                                  --pushImageToHub
                                  --help
@@ -143,7 +143,7 @@ showUsageText() {
                              inside the container as it starts
        --cleanup             (command action) remove exited containers and
                              dangling images from the local repository
-       --buildImage          (command action) build the docker image
+       --buildDockerImage    (command action) build the docker image
        --runContainer        (command action) run the docker image as a docker container,
                              container will run without this command with selected and 
                              default params, in most cases
@@ -236,7 +236,7 @@ while [[ "$#" -gt 0 ]]; do case $1 in
                          shift;;
   --javaopts)            JAVA_OPTS="${2:-}";
                          shift;;
-  --buildImage)          buildImage;
+  --buildDockerImage)    buildDockerImage;
                          exit 0;;
   --runContainer)        runContainer;
                          exit 0;;
