@@ -24,16 +24,68 @@ Also, available experimental usage of GraalVM, to take advantages of the perform
 
 - [grakn_version.txt](grakn_version.txt) - save the version of Grakn used to build and run the docker container
 - [graalvm_version.txt](graalvm_version.txt) - save the version of GraalVM used to build and run the docker container
-- [runGraknInDocker.sh](./runGraknInDocker.sh) - runs the container which then calls `startGraknAndGraql.sh` inside the container and the rest is history.  Exposes the Grakn port 4567, so the dashboard can be opened at http://localhost:8080. The graql console is also available in the window running the docker instance.
-- [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
-- Run inside the Grakn docker container
-    - [runPerformanceBenchmark.sh](./performance-benchmark-scripts/runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script. This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark). Also see the [performance script execution output](./performance-benchmark-scripts/output-from-running-performance-script.md).
-    - [builder.sh](./builder.sh) - build uberjar and native image from the uberjar for standalone execution (target for native-image is OS specific, uberjar can run on any JVM target)
-- [measureTradVersusGraalVMLoadTime.sh](./performance-benchmark-scripts/measureTradVersusGraalVMLoadTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled), see [successful run console](successful-run-console.md) output generated from this script.
 - [Dockerfile](./Dockerfile): a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
-- [buildDockerImage.sh](./buildDockerImage.sh): build the docker image for grakn, takes under 10 minutes to finish on a decent connection
-- [push-grakn-docker-image-to-hub.sh](./push-grakn-docker-image-to-hub.sh) - push pre-built docker image to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
-- [removeUnusedContainersAndImages.sh](./removeUnusedContainersAndImages.sh) - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
+- [grakn-runner.sh](grakn-runner.sh) - one script does it all, using CLI args, see script usage text:
+```
+$ ./grakn-runner.sh --help
+
+       Usage: grakn-runner.sh --dockerUserName [Docker user name]
+                                 --detach
+                                 --debug
+                                 --run-perf-scripts
+                                 --jdk [GRAALVM]
+                                 --javaopts [java opt arguments]
+                                 --cleanup
+                                 --buildImage
+                                 --runContainer
+                                 --pushImageToHub
+                                 --help
+
+       --dockerUserName      your Docker user name as on Docker Hub
+                             (mandatory with build, run and push commands)
+       --detach              run container and detach from it,
+                             return control to console
+       --debug               run docker container in interactive mode
+                             (gives command-prompt to run commands inside the container)
+       --run-perf-scripts    run performance script in interactive mode (can take a long time)
+       --skip-graql          run the Grakn docker container in interacive mode
+                             but do not start the Graql console, just the Grakn server
+       --jdk                 name of the JDK to use (currently supports
+                             GRAALVM only, default is blank which
+                             enables the traditional JDK)
+       --javaopts            sets the JAVA_OPTS environment variable
+                             inside the container as it starts
+       --cleanup             (command action) remove exited containers and
+                             dangling images from the local repository
+       --buildImage          (command action) build the docker image
+       --runContainer        (command action) run the docker image as a docker container,
+                             container will run without this command with selected and default params, in most cases
+       --pushImageToHub      (command action) push the docker image built to Docker Hub
+       --help                shows the script usage help text
+
+```
+The [grakn-runner.sh](grakn-runner.sh) script runs the container which then calls the respective scripts inside the container and the rest you can see by examing the script. It exposes the Grakn port 48555, so Workbase can be used to connect to http://localhost:48555. The graql console is also available in the window running the docker instance via a separate command (see usage text above).
+- Run inside the Grakn docker container
+    - [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
+    - [builder.sh](./builder.sh) - build uberjar and native image from the uberjar for standalone execution (target for native-image is OS specific, uberjar can run on any JVM target), see script usage text:
+    ```
+               Usage: ./builder.sh --buildUberJar
+                         --extract   [/path/to/JAR file]
+                         --build     [/path/to/JAR file]
+                         --test      [/path/to/native-image file]
+
+               --buildUberJar                                build the Uber jar before building the native image
+               --extract      [/path/to/JAR file]            extract the Jar file configuration information and
+                                                             save into the META-INF folder
+               --build        [/path/to/JAR file]            build the native image from the Jar file provided
+               --test         [/path/to/native-image file]   test the native image
+               --help                                        shows the script usage help text
+     ```
+
+
+### Performance Scripts provided
+- [measureTradVersusGraalVMLoadTime.sh](./performance-benchmark-scripts/measureTradVersusGraalVMLoadTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled), see [successful run console](successful-run-console.md) output generated from this script.
+- [runPerformanceBenchmark.sh](./performance-benchmark-scripts/runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script. This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark). Also see the [performance script execution output](./performance-benchmark-scripts/output-from-running-performance-script.md).
 
 ## Usage
 

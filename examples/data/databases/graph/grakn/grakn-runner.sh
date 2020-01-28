@@ -121,7 +121,7 @@ showUsageText() {
                                  --javaopts [java opt arguments]
                                  --cleanup
                                  --buildImage
-                                 [--runContainer]
+                                 --runContainer
                                  --pushImageToHub
                                  --help
 
@@ -142,8 +142,9 @@ showUsageText() {
        --cleanup             (command action) remove exited containers and
                              dangling images from the local repository
        --buildImage          (command action) build the docker image
-       --runContainer        (optinal command action) run the docker image as a docker container,
-                             container will run without this command with selected and default params
+       --runContainer        (command action) run the docker image as a docker container,
+                             container will run without this command with selected and 
+                             default params, in most cases
        --pushImageToHub      (command action) push the docker image built to Docker Hub
        --help                shows the script usage help text
 
