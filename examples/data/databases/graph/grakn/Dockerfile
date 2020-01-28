@@ -58,6 +58,7 @@ COPY startGraknAndGraql.sh      ./startGraknAndGraql.sh
 COPY performance-benchmark-scripts/runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
 COPY mergeJson.sh               ./mergeJson.sh
 COPY builder.sh                 ./builder.sh
+COPY common.sh                  ./common.sh
 COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
 
 RUN groupadd -r user_grp && useradd -r -g user_grp grakn
