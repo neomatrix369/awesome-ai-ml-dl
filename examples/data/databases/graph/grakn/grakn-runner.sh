@@ -42,19 +42,21 @@ runContainer() {
 	mkdir -p shared
 	mkdir -p .cache/bazel
 
-	${TIME_IT} docker run --rm                                 \
-                ${INTERACTIVE_MODE}                            \
-                --volume $(pwd)/shared:${WORKDIR}/shared       \
-                --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel\
-                --workdir ${WORKDIR}                           \
-                --env JDK_TO_USE=${JDK_TO_USE:-}               \
-                ${TOGGLE_ENTRYPOINT}                           \
-                -p ${HOST_PORT}:${CONTAINER_PORT}              \
-                --env JAVA_OPTS=${JAVA_OPTS:-}                 \
-                --env SKIP_GRAQL=${SKIP_GRAQL:-}               \
-                ${JDK_SPECIFIC_ENV_VALUES}                     \
-                ${VOLUMES_SHARED}                              \
-                "${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
+  set -x
+	${TIME_IT} docker run --rm                                     \
+                ${INTERACTIVE_MODE}                              \
+                --volume $(pwd)/shared:${WORKDIR}/shared         \
+                --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel \
+                --workdir ${WORKDIR}                             \
+                ${TOGGLE_ENTRYPOINT}                             \
+                -p ${HOST_PORT}:${CONTAINER_PORT}                \
+                --env JDK_TO_USE="${JDK_TO_USE:-}"               \
+                --env JAVA_OPTS="${JAVA_OPTS:-}"                 \
+                --env SKIP_GRAQL="${SKIP_GRAQL:-}"               \
+                ${JDK_SPECIFIC_ENV_VALUES}                       \
+                ${VOLUMES_SHARED}                                \
+                ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
+  set +x
 }
 
 buildImage() {
@@ -168,7 +170,7 @@ DOCKER_USER_NAME="${DOCKER_USER_NAME:-neomatrix369}"
 GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
 IMAGE_NAME=${IMAGE_NAME:-grakn}
-IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GraalVM-CE-${GRAALVM_VERSION}"}
+IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-graalvm-ce-${GRAALVM_VERSION}"}
 FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 WORKDIR=/home/jovyan
@@ -217,22 +219,20 @@ while [[ "$#" -gt 0 ]]; do case $1 in
                          TIME_IT="";
                          shift;;
   --jdk)                 JDK_TO_USE="${2:-}";
-						 if [[ "${JDK_TO_USE:-}" = "GRAALVM" ]]; then
-						    GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
-						    COMMON_JAVAOPTS="${COMMON_JAVAOPTS:-'-XX:+UseJVMCINativeLibrary'}"
-						    GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
-						    STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
-						    SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
+            						 if [[ "${JDK_TO_USE:-}" = "GRAALVM" ]]; then
+            						    GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
+            						    COMMON_JAVAOPTS="${COMMON_JAVAOPTS:-'-XX:+UseJVMCINativeLibrary'}"
+            						    GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
+            						    STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
+            						    SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
 
-						    JDK_SPECIFIC_ENV_VALUES=$(cat <<EOF
-						           --env GRAALVM_HOME=${GRAALVM_HOME}
-						           --env JAVA_HOME=${GRAALVM_HOME}
-						           --env GRAKN_DAEMON_JAVAOPTS=${GRAKN_DAEMON_JAVAOPTS}
-						           --env STORAGE_JAVAOPTS=${STORAGE_JAVAOPTS}
-						           --env SERVER_JAVAOPTS=${SERVER_JAVAOPTS}
-						 EOF
-						           )
-						 fi
+            						    JDK_SPECIFIC_ENV_VALUES="
+            						           --env GRAALVM_HOME=${GRAALVM_HOME}
+            						           --env JAVA_HOME=${GRAALVM_HOME}
+            						           --env GRAKN_DAEMON_JAVAOPTS=${GRAKN_DAEMON_JAVAOPTS}
+            						           --env STORAGE_JAVAOPTS=${STORAGE_JAVAOPTS}
+            						           --env SERVER_JAVAOPTS=${SERVER_JAVAOPTS}"
+            						 fi
                          shift;;
   --javaopts)            JAVA_OPTS="${2:-}";
                          shift;;
