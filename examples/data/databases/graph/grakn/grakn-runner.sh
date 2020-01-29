@@ -46,17 +46,18 @@ runContainer() {
 	mkdir -p .cache/bazel
 
   set -x
-	${TIME_IT} docker run --rm                                     \
-                ${INTERACTIVE_MODE}                              \
-                --workdir ${WORKDIR}                             \
-                ${TOGGLE_ENTRYPOINT}                             \
-                -p ${HOST_PORT}:${CONTAINER_PORT}                \
-                --env JDK_TO_USE="${JDK_TO_USE:-}"               \
-                --env JAVA_OPTS="${JAVA_OPTS:-}"                 \
-                --env SKIP_GRAQL="${SKIP_GRAQL:-}"               \
-                ${JDK_SPECIFIC_ENV_VALUES}                       \
-                ${GRAKN_LOGS_VOLUME}                             \
-                ${VOLUMES_SHARED}                                \
+	${TIME_IT} docker run --rm                                       \
+                ${INTERACTIVE_MODE}                                \
+                --workdir ${WORKDIR}                               \
+                ${TOGGLE_ENTRYPOINT}                               \
+                -p ${HOST_PORT}:${CONTAINER_PORT}                  \
+                --env SHARED_FOLDER_PATH="${SHARED_FOLDER_PATH:-}" \
+                --env JDK_TO_USE="${JDK_TO_USE:-}"                 \
+                --env JAVA_OPTS="${JAVA_OPTS:-}"                   \
+                --env SKIP_GRAQL="${SKIP_GRAQL:-}"                 \
+                ${JDK_SPECIFIC_ENV_VALUES}                         \
+                ${GRAKN_LOGS_VOLUME}                               \
+                ${VOLUMES_SHARED}                                  \
                 ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
   set +x
 }
@@ -192,7 +193,8 @@ JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA8_HOME}"
 
 ## When run in the console mode (command-prompt available)
 TOGGLE_ENTRYPOINT=""
-VOLUMES_SHARED="--volume "$(pwd)"/shared:${WORKDIR}/shared --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
+SHARED_FOLDER_PATH="${WORKDIR}/shared"
+VOLUMES_SHARED="--volume "$(pwd)"/shared:${SHARED_FOLDER_PATH} --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
 GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-logs:${WORKDIR}/grakn-core-all-linux-${GRAKN_VERSION}/logs"
 
 SKIP_GRAQL=false

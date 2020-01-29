@@ -122,7 +122,10 @@ buildNativeImage() {
 	echo ""
 	echo "~~~~ ${IMAGE_NAME}: Building native-image from ${JARFILE} which may take a bit of time"
 	rm -f ${IMAGE_NAME} && echo "Deleting existing ${IMAGE_NAME}"
-	native-image ${OPTIONS} -jar ${JARFILE} ${IMAGE_NAME} &> build.logs
+	NATIVE_IMAGE_BUILD_LOGS="${SHARED_FOLDER_PATH:-$(pwd)}/native-image-build-for-${IMAGE_NAME}.logs"
+	echo ""; echo "You can follow the build process by doing this:"
+	echo "       $ tail -f ${NATIVE_IMAGE_BUILD_LOGS}"
+	time native-image ${OPTIONS} -jar ${JARFILE} ${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOGS}"
 	echo "~~~~ Finished building native-image '${IMAGE_NAME}' from ${JARFILE}."
 }
 
