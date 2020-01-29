@@ -42,13 +42,12 @@ runContainer() {
   fi
 
 	mkdir -p shared
+  mkdir -p shared/grakn-logs
 	mkdir -p .cache/bazel
 
   set -x
 	${TIME_IT} docker run --rm                                     \
                 ${INTERACTIVE_MODE}                              \
-                --volume $(pwd)/shared:${WORKDIR}/shared         \
-                --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel \
                 --workdir ${WORKDIR}                             \
                 ${TOGGLE_ENTRYPOINT}                             \
                 -p ${HOST_PORT}:${CONTAINER_PORT}                \
@@ -56,6 +55,7 @@ runContainer() {
                 --env JAVA_OPTS="${JAVA_OPTS:-}"                 \
                 --env SKIP_GRAQL="${SKIP_GRAQL:-}"               \
                 ${JDK_SPECIFIC_ENV_VALUES}                       \
+                ${GRAKN_LOGS_VOLUME}                             \
                 ${VOLUMES_SHARED}                                \
                 ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
   set +x
@@ -68,11 +68,12 @@ buildDockerImage() {
 
 	echo "* Fetching docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	time docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
-	time docker build                                            \
-	             -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}     \
-	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}      \
-                 --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}  \
-                 --build-arg DEFAULT_PORT=${HOST_PORT}           \
+	time docker build                                                      \
+	             -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}               \
+	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}                \
+                 --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}          \
+                 --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}  \
+                 --build-arg DEFAULT_PORT=${HOST_PORT}                   \
                  .
 	echo "* Finished building docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	
@@ -171,8 +172,9 @@ DOCKER_USER_NAME="${DOCKER_USER_NAME:-neomatrix369}"
 
 GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
+GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat graalvm_jdk_version.txt)}
 IMAGE_NAME=${IMAGE_NAME:-grakn}
-IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}"}
+IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}"}
 FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 WORKDIR=/home/jovyan
@@ -190,7 +192,8 @@ JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA8_HOME}"
 
 ## When run in the console mode (command-prompt available)
 TOGGLE_ENTRYPOINT=""
-VOLUMES_SHARED="--volume "$(pwd)":${WORKDIR}/work --volume "$(pwd)"/shared:${WORKDIR}/shared"
+VOLUMES_SHARED="--volume "$(pwd)"/shared:${WORKDIR}/shared --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
+GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-logs:${WORKDIR}/grakn-core-all-linux-${GRAKN_VERSION}/logs"
 
 SKIP_GRAQL=false
 
@@ -199,6 +202,7 @@ if [[ "$#" -eq 0 ]]; then
      echo "No parameter has been passed. Running Grakn docker container with selected and default params."
   fi  
 	runContainer
+  exit 0
 fi
 
 while [[ "$#" -gt 0 ]]; do case $1 in
@@ -224,7 +228,7 @@ while [[ "$#" -gt 0 ]]; do case $1 in
                          shift;;
   --jdk)                 JDK_TO_USE="${2:-}";
             						 if [[ "${JDK_TO_USE:-}" = "GRAALVM" ]]; then
-            						    GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
+            						    GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}"
             						    COMMON_JAVAOPTS="${COMMON_JAVAOPTS:-'-XX:+UseJVMCINativeLibrary'}"
             						    GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
             						    STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
@@ -250,9 +254,8 @@ while [[ "$#" -gt 0 ]]; do case $1 in
      showUsageText;
 esac; shift; done
 
-if [[ "$#" -eq 0 ]]; then
-  if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
-     echo "No parameter has been passed. Running Grakn docker container with selected and default params."
-  fi
-	runContainer
+
+if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
+   echo "No parameter has been passed. Running Grakn docker container with selected and default params."
 fi
+runContainer

@@ -35,12 +35,11 @@ runContainer() {
 	JDK_TO_USE=${1:-}
 	JDK_TO_USE_STRING=${2:-}
 	JAVA_OPTS=${3:-""}
-
-	echo ""
-	echo "~~~ Running Grakn in a Docker container using the ${JDK_TO_USE_STRING}"
+	
+	echo ""; echo "~~~ Running Grakn in a Docker container using the ${JDK_TO_USE_STRING}"; echo ""
 
 	GRAKN_CONTAINER_ID=$(cd .. && ./grakn-runner.sh --javaopts "${JAVA_OPTS}" --jdk "${JDK_TO_USE}" --detach --runContainer)
-	GRAKN_CONTAINER_ID=$(echo ${GRAKN_CONTAINER_ID} | awk '{print $1}')
+	GRAKN_CONTAINER_ID=$(echo ${GRAKN_CONTAINER_ID} | tr -d '\n')
 	GRAKN_CONTAINER_ID=${GRAKN_CONTAINER_ID:0:7}
 
 	if [[ -z "${GRAKN_CONTAINER_ID}" ]]; then
@@ -48,18 +47,18 @@ runContainer() {
 		exit 0
 	fi
 
-	echo "${JDK_TO_USE}: Grakn in the container is now starting (id = ${GRAKN_CONTAINER_ID})"
+	echo ""; echo "${JDK_TO_USE}: Grakn in the container is now starting (id = ${GRAKN_CONTAINER_ID})"
 	docker logs -f "${GRAKN_CONTAINER_ID}"
 
-	echo "${JDK_TO_USE}: Shutting down Grakn in the container (id = ${GRAKN_CONTAINER_ID})"
-
-	echo "${JDK_TO_USE}: Grakn in the container (id = ${GRAKN_CONTAINER_ID}) has been shutdown."
-	echo ""
+	echo ""; echo "${JDK_TO_USE}: Shutting down Grakn in the container (id = ${GRAKN_CONTAINER_ID})"
+	echo "${JDK_TO_USE}: Grakn in the container (id = ${GRAKN_CONTAINER_ID}) has been shutdown."; echo "";
 }
 
-GRAALVM_VERSION=$(cat ../graalvm_version.txt)
 time runContainer "Traditional-JDK" "Traditional JDK (version 1.8)" ""
 
-time runContainer "GRAALVM" "GraalVM (version CE ${GRAALVM_VERSION}), JVMCI disabled" "-XX:-UseJVMCINativeLibrary"
+GRAALVM_VERSION=$(cat ../graalvm_version.txt)
+GRAALVM_JDK_VERSION=$(cat ../graalvm_jdk_version.txt)
 
-time runContainer "GRAALVM" "GraalVM (version CE ${GRAALVM_VERSION}), JVMCI enabled" "-XX:+UseJVMCINativeLibrary"
+time runContainer "GRAALVM" "GraalVM CE (${GRAALVM_JDK_VERSION} version ${GRAALVM_VERSION}), JVMCI disabled" "-XX:-UseJVMCINativeLibrary"
+
+time runContainer "GRAALVM" "GraalVM CE (${GRAALVM_JDK_VERSION} version ${GRAALVM_VERSION}), JVMCI enabled" "-XX:+UseJVMCINativeLibrary"
