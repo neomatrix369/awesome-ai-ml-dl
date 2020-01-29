@@ -218,6 +218,8 @@ When the docker prompt appears, continue doing one of the actions below.
 
 #### Building uberjar inside the container
 
+It's done from inside the container, or the host machine or even on the cloud.
+
 ```
 grakn@c74ed490582e:~$ ./builder.sh --buildUberJar
 ```
@@ -225,8 +227,11 @@ This process can take a bit of time as bazel builds our uberjar.
 
 #### Building native-image inside the container
 
+It's done in two steps and can be run from inside the container, or the host machine or even on the cloud.
+
 ```
-grakn@c74ed490582e:~$ ./builder.sh --buildNativeImage
+grakn@c74ed490582e:~$ ./builder.sh --extract [/path/with/filename.jar]
+grakn@c74ed490582e:~$ ./builder.sh --buildNativeImage [/path/with/filename.jar]
 ```
 
 This process can take a bit of time as the `native-image` building process is a lengthy one.
