@@ -36,7 +36,6 @@ ENV GRAALVM_ARTIFACT="${GRAALVM_ARTIFACT_FILENAME}.tar.gz"
 RUN wget https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${GRAALVM_VERSION}/${GRAALVM_ARTIFACT} --progress=bar:force 2>&1 | tail -f -n +3
 RUN tar xvzf ${GRAALVM_ARTIFACT} -C /usr/local | pv -l >/dev/null
 
-RUN ls -lash /usr/local/g*
 ENV GRAALVM_HOME="/usr/local/${TARGET_JDK_FOLDER}"
 RUN echo "GRAALVM_HOME=${TARGET_GRAALVM_HOME}"
 RUN ${GRAALVM_HOME}/bin/java -version
