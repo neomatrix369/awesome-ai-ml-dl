@@ -68,64 +68,72 @@ if [[ -d benchmark ]]; then
   git config --local user.email "sadhak001@gmail.com"
   git pull
 else
-  git clone --depth=1 https://github.com/graknlabs/benchmark/
+  # use the main repo when the report issues are resolved
+  # git clone --depth=1 https://github.com/graknlabs/benchmark/
+  echo ""; echo "~~~~ Cloning the grakn/benchmark project"
+  git clone --depth=1 --single-branch --branch sync-updates-jan-2020 https://github.com/flyingsilverfin/benchmark/
   cd benchmark
 fi
 
 BENCHMARK_FOLDER=$(pwd)
 
 mkdir -p logs
-echo ""; echo "~~~~ Updating maven dependencies via Bazel ~~~~"
+echo ""; echo "~~~~ grakn/benchmark: Updating maven dependencies via Bazel ~~~~"
+echo ""; echo "You can follow the update process by doing this:"
+echo "       $ tail -f ${BENCHMARK_FOLDER}/logs/maven_update.logs"
+
 set -x
 time ./dependencies/maven/update.sh &> logs/maven_update.logs
 set +x
 
 if [[ $? -eq 0 ]]; then
-   echo ""; echo "~~~~ Finished updating Maven dependencies via Bazel ~~~~"
+   echo ""; echo "~~~~ grakn/benchmark: Finished updating Maven dependencies via Bazel ~~~~"
 else
-   echo ""; echo "~~~~ Failed updating Maven dependencies via Bazel with error code $? ~~~~"
+   echo ""; echo "~~~~ grakn/benchmark: Failed updating Maven dependencies via Bazel with error code $? ~~~~"
 fi
 cat logs/maven_update.logs
 
-echo ""; echo "~~~ Building report-producer-distribution via Bazel ~~~"
+echo ""; echo "~~~ grakn/benchmark: Building report-producer-distribution via Bazel ~~~"
 cd ${BENCHMARK_FOLDER}; echo "\n~~~~ Current working directory: $(pwd)"
+echo ""; echo "You can follow the update process by doing this:"
+echo "       $ tail -f ${BENCHMARK_FOLDER}/logs/bazel_build.logs"
 set -x
 time bazel build //:report-producer-distribution &> logs/bazel_build.logs
 set +x
 
 if [[ $? -eq 0 ]]; then
-   echo ""; echo "~~~ Finished building report-producer-distribution via Bazel ~~~"
+   echo ""; echo "~~~ grakn/benchmark: Finished building report-producer-distribution via Bazel ~~~"
 else
-   echo ""; echo "~~~ Failed building report-producer-distribution via Bazel with error code $? ~~~"
+   echo ""; echo "~~~ grakn/benchmark: Failed building report-producer-distribution via Bazel with error code $? ~~~"
 fi
 cat logs/bazel_build.logs
 
-echo ""; echo "~~~ Running report producer ~~~"
+echo ""; echo "~~~ grakn/benchmark: Running report producer ~~~"
 cd bazel-genfiles
 unzip -u report-producer.zip
 cd report-producer
 
-echo ""; echo "~~~ Copying config road_config_read_c2.yml ~~~"
+echo ""; echo "~~~ grakn/benchmark: Copying config road_config_read_c2.yml ~~~"
 cp ${BENCHMARK_FOLDER}/common/configuration/scenario/road_network/road_config_read_c2.yml \
    ${BENCHMARK_FOLDER}/bazel-out/darwin-fastbuild/bin/report-producer/scenario/road_network
 
-echo ""; echo "~~~ Running ./report_producer using copied config ~~~"
+echo ""; echo "~~~ grakn/benchmark: Running ./report_producer using copied config ~~~"
 set -x
 GRAKN_URI="localhost" && time ./report_producer                    \
     --config=scenario/road_network/road_config_read_c2.yml         \
     --execution-name "road-read-c2" --grakn-uri ${GRAKN_URI}:48555 \
     --keyspace road_read_c2_${JDK_MODE}
 set +x
-echo "~~~ Finished running report producer ~~~"
+echo "~~~ grakn/benchmark: Finished running report producer ~~~"
 
-echo ""; echo "~~~ Merging reports ~~~"
+echo ""; echo "~~~ grakn/benchmark: Merging reports ~~~"
 rm -f ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer/report*.json
 cp ${WORKDIR}/mergeJson.sh ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer
 cd ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer
 ./mergeJson.sh
 mv report.json report-${JDK_MODE}.json
 
-echo ""; echo "~~~ Converting to text report ~~~"
+echo ""; echo "~~~ grakn/benchmark: Converting to text report ~~~"
 cd ${BENCHMARK_FOLDER}
 rm -f ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer/formatted.report.output*.txt
 
@@ -136,3 +144,4 @@ bazel run //report/formatter:report-formatter-binary --          \
           --rawReport=${BENCHMARK_FOLDER}/bazel-genfiles/report-producer/report-${JDK_MODE}.json \
           --destination=. >> ${BENCHMARK_FOLDER}/bazel-genfiles/report-producer/formatted.report.output-${JDK_MODE}.txt
 set +x
+echo ""; echo "~~~ grakn/benchmark: Finished ~~~"
