@@ -57,8 +57,7 @@ runContainer() {
 time runContainer "Traditional-JDK" "Traditional JDK (version 1.8)" ""
 
 GRAALVM_VERSION=$(cat ../graalvm_version.txt)
-GRAALVM_JDK_VERSION=$(cat ../graalvm_jdk_version.txt)
 
-time runContainer "GRAALVM" "GraalVM CE (${GRAALVM_JDK_VERSION} version ${GRAALVM_VERSION}), JVMCI disabled" "-XX:-UseJVMCINativeLibrary"
+time runContainer "GRAALVM" "GraalVM CE (version ${GRAALVM_VERSION}), JVMCI disabled" "-XX:-UseJVMCINativeLibrary"
 
-time runContainer "GRAALVM" "GraalVM CE (${GRAALVM_JDK_VERSION} version ${GRAALVM_VERSION}), JVMCI enabled" "-XX:+UseJVMCINativeLibrary"
+time runContainer "GRAALVM" "GraalVM CE (version ${GRAALVM_VERSION}), JVMCI enabled" "-XX:+UseJVMCINativeLibrary"

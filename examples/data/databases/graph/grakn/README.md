@@ -67,19 +67,28 @@ $ ./grakn-runner.sh --help
 The [grakn-runner.sh](grakn-runner.sh) script runs the container which then calls the respective scripts inside the container and the rest you can see by examing the script. It exposes the Grakn port 48555, so Workbase can be used to connect to http://localhost:48555. The graql console is also available in the window running the docker instance via a separate command (see usage text above).
 - Run inside the Grakn docker container
     - [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
+    - [grakn-jar-runner.sh](grakn-jar-runner.sh) - run the Grakn server or console jar files (based on the grakn script provided with the distributable - modified to be able to run the individual jars with the right parameters)
     - [builder.sh](./builder.sh) - build uberjar and native image from the uberjar for standalone execution (target for native-image is OS specific, uberjar can run on any JVM target), see script usage text:
     ```
-           Usage: ./builder.sh --buildUberJar
-                     --extract   [/path/to/JAR file]
-                     --build     [/path/to/JAR file]
-                     --test      [/path/to/native-image file]
+            Usage: ./builder.sh --grakn-home   [/path/to/grak/home]
+                 --jarfile      [/path/to/JAR file]
+                 --buildUberJar
+                 --extract
+                 --build
+                 --test         [/path/to/native-image file]
+                 --help
 
-           --buildUberJar                                   build the Uber jar before building the native image
-           --extract          [/path/to/JAR file]           extract the Jar file configuration information and
-                                                            save into the META-INF folder
-           --buildNativeImage [/path/to/JAR file]           build the native image from the Jar file provided
-           --test             [/path/to/native-image file]  test the native image
-           --help                                           shows the script usage help text
+       --grakn-home        [/path/to/grak/home]          where the grakn scripts, jar file and
+                                                         other executables can be found
+       --jarfile           [/path/to/JAR file]           path to jar file inside Grakn Home or elsewhere
+       --buildUberJar                                    (command) build the Uber jar before building
+                                                         the native image
+       --extract                                         (command) extract the Jar file configuration
+                                                         information and save into the META-INF folder
+       --buildNativeImage                                (command) build the native image from the Jar
+                                                         file provided
+       --test              [/path/to/native-image file]  test the native image
+       --help                                            shows the script usage help text
      ```
 
 ### Performance Scripts provided
@@ -229,12 +238,24 @@ This process can take a bit of time as bazel builds our uberjar.
 
 It's done in two steps and can be run from inside the container, or the host machine or even on the cloud.
 
+**Extract META-INF from the jar before proceeding with the build process**
 ```
-grakn@c74ed490582e:~$ ./builder.sh --extract [/path/with/filename.jar]
-grakn@c74ed490582e:~$ ./builder.sh --buildNativeImage [/path/with/filename.jar]
+grakn@c74ed490582e:~$ ./builder.sh --grakn-home [/path/to/grakn/home] --extract 
+```
+
+**Building `native-image` using the extracted META-INF of the jar and the jar file**
+```
+grakn@c74ed490582e:~$ ./builder.sh --jarfile [/path/with/filename.jar] --buildNativeImage
+or 
+grakn@c74ed490582e:~$ ./builder.sh --grakn-home [/path/to/grakn/home] --buildNativeImage
 ```
 
 This process can take a bit of time as the `native-image` building process is a lengthy one.
+
+#### Known issues doing the above
+
+- [java.lang.NoClassDefFoundError: Lorg/codehaus/janino/ScriptEvaluator](https://github.com/oracle/graal/issues/1943) - moving back to GraalVM CE 19.2.1 seem to have resolved the issue.
+- [6 Unsupported features exception (log4j might be one of the reasons)](https://github.com/oracle/graal/issues/2115) - being discussed with the GraalVM team.
 
 ### Resources
 

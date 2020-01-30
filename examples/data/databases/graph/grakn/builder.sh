@@ -25,17 +25,25 @@ source common.sh
 showUsageText() {
     cat << HEREDOC
 
-       Usage: $0 --buildUberJar
-                 --extract   [/path/to/JAR file]
-                 --build     [/path/to/JAR file]
-                 --test      [/path/to/native-image file]
+       Usage: $0 --grakn-home   [/path/to/grak/home]
+                 --jarfile      [/path/to/JAR file]
+                 --buildUberJar                 
+                 --extract   
+                 --build     
+                 --test         [/path/to/native-image file]
+                 --help
 
-       --buildUberJar                                   build the Uber jar before building the native image
-       --extract          [/path/to/JAR file]           extract the Jar file configuration information and
-                                                        save into the META-INF folder
-       --buildNativeImage [/path/to/JAR file]           build the native image from the Jar file provided
-       --test             [/path/to/native-image file]  test the native image
-       --help                                           shows the script usage help text
+       --grakn-home        [/path/to/grak/home]          where the grakn scripts, jar file and 
+                                                         other executables can be found
+       --jarfile           [/path/to/JAR file]           path to jar file inside Grakn Home or elsewhere
+       --buildUberJar                                    (command) build the Uber jar before building 
+                                                         the native image
+       --extract                                         (command) extract the Jar file configuration 
+                                                         information and save into the META-INF folder
+       --buildNativeImage                                (command) build the native image from the Jar
+                                                         file provided
+       --test              [/path/to/native-image file]  test the native image
+       --help                                            shows the script usage help text
 
 HEREDOC
 }
@@ -47,11 +55,15 @@ OPTIONS=""
 GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 
 checkForJarFileParam() {
-	if [[ -z "${JARFILE:-}" ]]; then
-		echo "Jar file not provided as argument to script."
+	if [[ -z "${PATH_TO_GRAKN_HOME:-}" ]]; then
+		echo "Path to Grakn home not provided as argument to script, please see usage text below."		
 		showUsageText
-
 		exit -1
+	fi
+
+	if [[ -z "${JARFILE:-}" ]]; then
+		JARFILE=(${PATH_TO_GRAKN_HOME}/server/services/lib/*server*.jar)
+		echo "WARNING: Jar file (with full path) not provided as argument to script, assuming jar file ${JARFILE}."
 	fi
 }
 
@@ -59,7 +71,6 @@ setupVariables() {
 	checkForJarFileParam
 
 	IMAGE_NAME=$(basename ${JARFILE%.*})
-	# --enable-all-security-services --enable-http --enable-https --enable-url-protocols
 	OPTIONS="${2:-} --no-fallback --no-fallback --report-unsupported-elements-at-runtime --allow-incomplete-classpath"
 	OPTIONS="${OPTIONS} -H:ReflectionConfigurationFiles=${PWD}/META-INF/native-image/reflect-config.json"
 	OPTIONS="${OPTIONS} -H:DynamicProxyConfigurationFiles=${PWD}/META-INF/native-image/proxy-config.json"
@@ -110,12 +121,30 @@ extractMetaInfo() {
 	mkdir -p "META-INF/native-image"
 	CURRENT_DIR=$(pwd)
 	nativeImageMetaInfFolder="${CURRENT_DIR}/META-INF/native-image"
+	
+	JARFILE_FULL_PATH=""
+	if [[ -z "${JARFILE:-}" ]]; then
+		echo ""; echo "~~~~ Running server jar (from Grakn Home: ${PATH_TO_GRAKN_HOME}) using the tracing agent to gather the necessary configuration info for building native-image"
+	else
+		JARFILE_FULL_PATH=${PATH_TO_GRAKN_HOME}/server/services/lib/${JARFILE}
+		echo ""; echo "~~~~ Running ${JARFILE} using the tracing agent to gather the necessary configuration info for building native-image"
+	fi
+	
+	cp grakn-jar-runner.sh ${PATH_TO_GRAKN_HOME}
+	(cd ${PATH_TO_GRAKN_HOME} && 
+		nohup ./grakn-jar-runner.sh server start&)
+	sleep 70
+	(cd ${PATH_TO_GRAKN_HOME} && 
+		./grakn-jar-runner.sh server stop || true)
+
+	if [[ -z "${JARFILE:-}" ]]; then
+		echo ""; echo "~~~~ Finished running tracing agent on the server jar"
+		echo "Now native-image can be run on server jar to generate a native-image (using the --buildNativeImage parameter)."
+	else
+		echo ""; echo "~~~~ Finished running tracing agent on the ${JARFILE}"
+		echo "Now native-image can be run on ${JARFILE} to generate ${IMAGE_NAME} (using the --buildNativeImage parameter)."
+	fi
 	echo ""
-	echo "~~~~ Running ${JARFILE} using the tracing agent to gather the necessary configuration info for building native-image"
-	java -agentlib:native-image-agent=config-merge-dir=${nativeImageMetaInfFolder} \
-	     -jar ${JARFILE} || true
-	echo "~~~~ Finished running tracing agent on the ${JARFILE}"
-	echo "Now native-image can be run on ${JARFILE} to generate ${IMAGE_NAME} (using the --buildNativeImage parameter)."
 }
 
 buildNativeImage() {
@@ -125,7 +154,10 @@ buildNativeImage() {
 	NATIVE_IMAGE_BUILD_LOGS="${SHARED_FOLDER_PATH:-$(pwd)}/native-image-build-for-${IMAGE_NAME}.logs"
 	echo ""; echo "You can follow the build process by doing this:"
 	echo "       $ tail -f ${NATIVE_IMAGE_BUILD_LOGS}"
+	echo "native-image version $(native-image --version)" 
+	set -x
 	time native-image ${OPTIONS} -jar ${JARFILE} ${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOGS}"
+	set +x
 	echo "~~~~ Finished building native-image '${IMAGE_NAME}' from ${JARFILE}."
 }
 
@@ -138,9 +170,11 @@ testNativeImage() {
 
 while [[ "$#" -gt 0 ]]; do case $1 in
   --help)              showUsageText; exit 0;;
-  --buildUberJar)      buildUberJar; exit 0;; 
-  --extract)           JARFILE="${2:-}"; setupVariables; extractMetaInfo; exit 0;;
-  --buildNativeImage)  JARFILE="${2:-}"; setupVariables; buildNativeImage;  exit 0;;
+  --buildUberJar)      buildUberJar; exit 0;;
+  --jarfile)           JARFILE="${2:-}"; shift;;
+  --grakn-home)        PATH_TO_GRAKN_HOME="${2:-}"; shift;;
+  --extract)           extractMetaInfo; exit 0;;
+  --buildNativeImage)  setupVariables; buildNativeImage;  exit 0;;
   --test)              IMAGE_NAME="${2:-}"; testNativeImage;  exit 0;;
   *) echo "Unknown parameter passed: $1"; exit 1;;
 esac; shift; done
