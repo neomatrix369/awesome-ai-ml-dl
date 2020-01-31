@@ -70,6 +70,7 @@ COPY grakn_version.txt          ./grakn_version.txt
 COPY graalvm_version.txt        ./graalvm_version.txt
 COPY startGraknAndGraql.sh      ./startGraknAndGraql.sh
 COPY performance-benchmark-scripts/runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
+COPY performance-benchmark-scripts/road_config_read_c4.yml ./road_config_read_c4.yml
 COPY mergeJson.sh               ./mergeJson.sh
 COPY builder.sh                 ./builder.sh
 COPY common.sh                  ./common.sh

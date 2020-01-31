@@ -59,7 +59,9 @@ echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Grakn server is running..."
 
-cd ${WORKDIR}/shared
+SHARED_FOLDER=${WORKDIR}/shared
+cd ${SHARED_FOLDER}
+
 echo ""; echo "~~~~ Current working directory: $(pwd)"
 
 if [[ -d benchmark ]]; then
@@ -67,11 +69,10 @@ if [[ -d benchmark ]]; then
   git config --local user.name "Mani Sarkar"
   git config --local user.email "sadhak001@gmail.com"
   git pull
-else
-  # use the main repo when the report issues are resolved
-  # git clone --depth=1 https://github.com/graknlabs/benchmark/
+else  
   echo ""; echo "~~~~ Cloning the grakn/benchmark project"
-  git clone --depth=1 --single-branch --branch sync-updates-jan-2020 https://github.com/flyingsilverfin/benchmark/
+  git clone --depth=1 https://github.com/graknlabs/benchmark/  
+  # git clone --depth=1 --single-branch --branch sync-updates-jan-2020 https://github.com/flyingsilverfin/benchmark/
   cd benchmark
 fi
 
@@ -80,7 +81,7 @@ BENCHMARK_FOLDER=$(pwd)
 mkdir -p logs
 echo ""; echo "~~~~ grakn/benchmark: Updating maven dependencies via Bazel ~~~~"
 echo ""; echo "You can follow the update process by doing this:"
-echo "       $ tail -f ${BENCHMARK_FOLDER}/logs/maven_update.logs"
+echo "       $ tail -f ${BENCHMARK_FOLDER}/logs/maven_update.logs"; echo ""
 
 set -x
 time ./dependencies/maven/update.sh &> logs/maven_update.logs
@@ -94,9 +95,10 @@ fi
 cat logs/maven_update.logs
 
 echo ""; echo "~~~ grakn/benchmark: Building report-producer-distribution via Bazel ~~~"
-cd ${BENCHMARK_FOLDER}; echo "\n~~~~ Current working directory: $(pwd)"
+cd ${BENCHMARK_FOLDER}; 
+echo ""; echo "~~~~ Current working directory: $(pwd)"
 echo ""; echo "You can follow the update process by doing this:"
-echo "       $ tail -f ${BENCHMARK_FOLDER}/logs/bazel_build.logs"
+echo "       $ tail -f ${BENCHMARK_FOLDER}/logs/bazel_build.logs"; echo ""
 set -x
 time bazel build //:report-producer-distribution &> logs/bazel_build.logs
 set +x
@@ -114,7 +116,7 @@ unzip -u report-producer.zip
 cd report-producer
 
 echo ""; echo "~~~ grakn/benchmark: Copying config road_config_read_c2.yml ~~~"
-cp ${BENCHMARK_FOLDER}/common/configuration/scenario/road_network/road_config_read_c2.yml \
+cp ${WORKDIR}/road_config_read_c2.yml \
    ${BENCHMARK_FOLDER}/bazel-out/darwin-fastbuild/bin/report-producer/scenario/road_network
 
 echo ""; echo "~~~ grakn/benchmark: Running ./report_producer using copied config ~~~"
