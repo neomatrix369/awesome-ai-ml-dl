@@ -265,6 +265,9 @@ This process can take a bit of time as the `native-image` building process is a 
 - [LinkedIn](https://www.linkedin.com/company/graknlabs/) | [LinkedIn Community Group](https://www.linkedin.com/groups/13657731/)
 - [Docs](https://dev.grakn.ai/docs/general/quickstart)
 - [Blogs](https://blog.grakn.ai/) - also published on [Medium.com](https://medium.com)
+- Graql example schemas/data
+  - Friendship: [schema](https://dev.grakn.ai/docs/general/quickstart#the-schema) | [data](https://dev.grakn.ai/docs/general/quickstart#download-and-load-the-complete-schema)
+  - [Explore Schemas](https://github.com/graknlabs/examples#explore-schemas) 
 - Community
   - [Slack](https://grakn.ai/slack)
   - [Discuss](https://discuss.grakn.ai/)
