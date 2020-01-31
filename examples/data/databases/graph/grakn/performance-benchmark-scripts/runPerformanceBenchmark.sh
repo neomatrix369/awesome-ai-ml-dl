@@ -71,8 +71,7 @@ if [[ -d benchmark ]]; then
   git pull
 else  
   echo ""; echo "~~~~ Cloning the grakn/benchmark project"
-  git clone --depth=1 https://github.com/graknlabs/benchmark/  
-  # git clone --depth=1 --single-branch --branch sync-updates-jan-2020 https://github.com/flyingsilverfin/benchmark/
+  git clone --depth=1 https://github.com/graknlabs/benchmark/
   cd benchmark
 fi
 
@@ -115,16 +114,17 @@ cd bazel-genfiles
 unzip -u report-producer.zip
 cd report-producer
 
-echo ""; echo "~~~ grakn/benchmark: Copying config road_config_read_c2.yml ~~~"
-cp ${WORKDIR}/road_config_read_c2.yml \
-   ${BENCHMARK_FOLDER}/bazel-out/darwin-fastbuild/bin/report-producer/scenario/road_network
+BENCHMARK_CONFIG_NAME=road_read_c4
+BENCHMARK_CONFIG_FILE=road_config_read_c4.yml
+echo "~~~ grakn/benchmark: Listing config ${BENCHMARK_CONFIG_FILE} ~~~"
+ls ${BENCHMARK_FOLDER}/bazel-out/${FOLDER_PREFIX}-fastbuild/bin/report-producer/scenario/road_network
 
-echo ""; echo "~~~ grakn/benchmark: Running ./report_producer using copied config ~~~"
+echo ""; echo "~~~ grakn/benchmark: Running ./report_producer using config file ${BENCHMARK_CONFIG_FILE} ~~~"
 set -x
 GRAKN_URI="localhost" && time ./report_producer                    \
-    --config=scenario/road_network/road_config_read_c2.yml         \
-    --execution-name "road-read-c2" --grakn-uri ${GRAKN_URI}:48555 \
-    --keyspace road_read_c2_${JDK_MODE}
+    --config=scenario/road_network/${BENCHMARK_CONFIG_FILE}        \
+    --execution-name "${BENCHMARK_CONFIG_NAME}" --grakn-uri ${GRAKN_URI}:48555 \
+    --keyspace "${BENCHMARK_CONFIG_NAME}_${JDK_MODE}"
 set +x
 echo "~~~ grakn/benchmark: Finished running report producer ~~~"
 
