@@ -138,7 +138,7 @@ buildDockerImage() {
   else 
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
   fi
-  
+
 	cleanup
 }
 
