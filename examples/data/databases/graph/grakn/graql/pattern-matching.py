@@ -1,6 +1,21 @@
 from fuzzywuzzy import fuzz
 import pandas as pd
 import sys
+from pytictoc import TicToc
+
+DEBUG_PERF=False
+if DEBUG_PERF:
+	timer = TicToc()
+
+def _tic(name=""):
+	if DEBUG_PERF:
+	    print(f'--- {name}: ', end='')
+	    timer.tic()
+
+def _toc(name=""):
+	if DEBUG_PERF:
+	    print(f'--- {name}: ', end='')
+	    timer.toc() 
 
 ### See https://en.wikipedia.org/wiki/Words_of_estimative_probability
 words_of_probability_estimation = [
@@ -14,7 +29,7 @@ words_of_probability_estimation = [
     ["Very unlikely",        0,   2]     #           Impossible 0%: Give or take 0%
 ]
 
-schema_queries = {
+schema_queries_in_english = {
   'List the schema in this keyspace': [
     'Show me the schema',
     'List the schema',
@@ -59,7 +74,9 @@ schema_queries = {
   ],
 
   'Who are the customers who 1) have all called each other and 2) have all called person with phone number +48 894 777 5173 at least once?': [
-    'Who are customers called other persons phone number least'
+    'Who are customers called other persons phone number least once',
+    'Who are customers one another phone',
+    "called atleast once"
   ],
 
   'Get me the phone number of people who have received calls from both customer with phone number +7 171 898 0853 and customer with phone number +370 351 224 5176.': [
@@ -67,47 +84,57 @@ schema_queries = {
   ],
 
   'How does the average call duration among customers aged under 20 compare those aged over 40?': [
-    'How average call duration among customers aged compare aged'
+    'How average call duration among customers aged compare aged',
+    "how long did the call last"
   ],
 }
 
-def get_potential_queries(query_asked):
-	potential_queries = []
-	for each_query in schema_queries:
-		ratio = fuzz.partial_ratio(each_query, query_asked)
-		potential_queries.append([each_query, ratio])
-		for similar_query in schema_queries[each_query]:
-			ratio = fuzz.partial_ratio(similar_query, query_asked)
-			potential_queries.append([similar_query, ratio])
-	return potential_queries
-
 def get_confidence_in_words(value):
 	for each_slab in words_of_probability_estimation:
-		if (each_slab[1] <= value) and (value <= each_slab[2]):
+		if (value >= each_slab[1]) and (value <= each_slab[2]):
 			return each_slab[0]
+
+def add_result_to(results, query, query_asked):
+	ratio = fuzz.partial_ratio(query, query_asked)
+	confidence = get_confidence_in_words(ratio)
+	results.append([query, ratio, confidence])
+	return results
+
+def get_potential_queries(query_asked):
+	potential_queries = []
+	for schema_query in schema_queries_in_english:
+		potential_queries = add_result_to(potential_queries, schema_query, query_asked)
+		for similar_query in schema_queries_in_english[schema_query]:
+			potential_queries = add_result_to(potential_queries, similar_query, query_asked)
+	return potential_queries
 
 def print_formatted_results(dataframe):
 	for index, row in dataframe.iterrows():
-		print(f"{row[0]} ({row[1]}%, {row[2]})")
+		print(f"{row['query_in_english']} (Confidence: {row['confidence']}, {row['ratio']}%)")
 
 if (len(sys.argv) > 1):
 	print(f"Query: {sys.argv[1]}")
+	_tic("get_potential_queries()")
 	potential_queries = get_potential_queries(sys.argv[1])
-	results = pd.DataFrame(potential_queries, columns = ['each_query', 'ratio'])
-	results['ratio'] = results['ratio'].apply(int)
+	_toc("get_potential_queries()")
+
+	_tic("creating dataframe")
+	results = pd.DataFrame(potential_queries, columns = ['query_in_english', 'ratio', 'confidence'])
 	results = results.sort_values(by=['ratio'], ascending=False)
-	results['Confidence'] = results['ratio'].apply(get_confidence_in_words)
 	filter_greater_or_equal_to_70 = results['ratio'] > 70
 	results_with_70_or_more_accuracy = results[filter_greater_or_equal_to_70]
+	_toc("creating dataframe")
 	pd.set_option('display.max_colwidth', -1)
 	pd.set_option('display.max_columns', 3)
 	SHOW_COUNT = 5
+	_tic("filtering and printing dataframe")
 	if len(results_with_70_or_more_accuracy) == 0: 
 		filter_between_40_and_70 = (results['ratio'] >= 40) & (results['ratio'] <= 70)
 		results_between_40_and_70 = results[filter_between_40_and_70]
 		print_formatted_results(results_between_40_and_70[:SHOW_COUNT])
 	else:
 		print_formatted_results(results_with_70_or_more_accuracy[:SHOW_COUNT])
+	_toc("filtering and printing dataframe")
 else:
 	print("")
 	print("Usage:")

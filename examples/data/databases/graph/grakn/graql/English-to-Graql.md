@@ -30,14 +30,14 @@ Since September 10th, which customers called the person with phone number +86 92
 
 ### Graql
 
-		match",
+		match
 		  $customer isa person, has phone-number $phone-number;
 		  $company isa company, has name "Telecom";
 		  (customer: $customer, provider: $company) isa contract;
 		  $target isa person, has phone-number "+86 921 547 9004";
 		  (caller: $customer, callee: $target) isa call, has started-at $started-at;
 		  $min-date == 2018-09-10T00:00:00; $started-at > $min-date;
-		get $phone-number;"
+		get $phone-number;
 
 ### English
 
@@ -45,14 +45,14 @@ Get me the customers of company “Telecom” who called the target person with 
 
 ### Graql
 
-        match",
+        match
           $customer isa person, has phone-number $phone-number;
           $company isa company, has name "Telecom";
           (customer: $customer, provider: $company) isa contract;
           $target isa person, has phone-number "+86 921 547 9004";
           (caller: $customer, callee: $target) isa call, has started-at $started-at;
           $min-date == 2018-09-14T00:00:00; $started-at > $min-date;
-        get $phone-number;"
+        get $phone-number;
 
 ## Query 3
 
@@ -115,6 +115,7 @@ Who are the common contacts of customers with phone numbers +7 171 898 0853 and 
 ## Query 6
 
 ### English
+
 Who are the customers who 1) have all called each other and 2) have all called person with phone number +48 894 777 5173 at least once?
 
 or

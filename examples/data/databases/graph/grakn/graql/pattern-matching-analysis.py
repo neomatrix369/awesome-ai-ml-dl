@@ -1,7 +1,7 @@
 from fuzzywuzzy import fuzz
 import pandas as pd
 
-schema_queries = {
+schema_queries_in_english = {
   'List the schema in this keyspace': [
     'Show me the schema',
     'List the schema',
@@ -60,9 +60,9 @@ schema_queries = {
 
 print('Iterating through schema queries')
 comparison_results = []
-for each_query in schema_queries:
+for each_query in schema_queries_in_english:
     print(f'Question/command: {each_query}')
-for each_similarity in schema_queries[each_query]:
+for each_similarity in schema_queries_in_english[each_query]:
     ratio = fuzz.ratio(each_query, each_similarity)
 partial_ratio = fuzz.partial_ratio(each_query, each_similarity)
 token_sort_ratio = fuzz.token_sort_ratio(each_query, each_similarity)
