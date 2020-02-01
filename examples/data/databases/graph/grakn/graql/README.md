@@ -1,0 +1,93 @@
+# Graql 
+
+Speaking Graql!
+
+![Workbase front screen](workbase-front-screen.png)
+
+## Schema
+
+For simplicity let's pick the [Phone calls](https://github.com/graknlabs/examples/blob/master/schemas/phone-calls-schema.gql) schema.
+
+## Data
+
+Data for the [Phone calls](https://github.com/graknlabs/examples/blob/master/schemas/phone-calls-schema.gql) schema can be found **[here](https://github.com/graknlabs/examples/tree/master/datasets/phone-calls)**, both `xml` and `json` formats.
+
+## Getting started
+
+To get quickly aquainted with Grakn, Graql and Workbase, have a look at the [QuickStart guide](https://dev.grakn.ai/docs/general/quickstart) from [GraknLabs](https://grakn.ai).
+
+Have a look especially around [Graql](https://dev.grakn.ai/docs/schema/overview) and [Workbase](https://dev.grakn.ai/docs/workbase/overview).
+
+You may not need to do all the setup as the docker container provided (see [README](./README.md) should help get started with Grakn and Graql). See Workbase docs to see how to install and run it - this part can be trivial for many users (just download, extract and run the app).
+
+Also, see the [Examples overview](https://dev.grakn.ai/docs/examples/phone-calls-overview) resource.
+
+### High-level
+
+#### Potential Questions to ask about data
+
+- Since September 10th, which customers called the person X?
+- Who are the people who have received a call from a London customer aged over 50 who has previously called someone aged under 20?
+- Who are the common contacts of customers X and Y?
+- Who are the customers who 
+  - 1) have all called each other and 
+  - 2) have all called person X at least once?
+- How does the average call duration among customers aged under 20 compare with those aged over 40?
+
+#### Domain concepts
+
+- A **company** has a **name**, 
+  - and can be the **provider** of a **contract** to a **person**,
+  - who then becomes a **customer**
+- A **person** has a 
+  - **first** and **last name**, 
+  - an **age**, 
+  - a **city** they live in, 
+  - and a **phone number**
+- A **person** who doesn’t have 
+  - a registered **contract** (not a **customer**) 
+  - has only a **phone number**
+- A **call**, 
+  - made from a **person** (**caller**) to another **person** (**callee**), 
+  - has a **duration** as well as
+  - the **date** 
+  - and **time** when the **call** has been made
+
+#### Reorganising, classifying and naming the concepts
+
+**Relations**
+- call is of _type relation_ that has two role players
+  - person who plays the role of a caller
+  - and (another) person who plays the role of a callee
+- contract is also of _type relation_ that has two role players
+  - company who plays the role of a provider
+  - and person who plays the role of a customer
+
+**Entities**
+- company and person are of _type entity_
+
+**Attributes**
+- first-name, last-name, phone-number, city, age, started-at and duration are of _type attribute_
+
+![Schema relationship graph](schema-relationship-graph.png)
+
+## English-to-Graql
+
+See [English to Graql](./graql/English-to-Graql.md)
+
+## Graql-to-English
+
+See [Graql to English](./graql/Graql-to-English.md)
+
+### Graql query
+
+## Resources
+
+- [Workbase overview](https://dev.grakn.ai/docs/workbase/overview)
+- [Download Workbase](https://grakn.ai/download#workbase)
+- [Query pattern](https://dev.grakn.ai/docs/pattern/overview)
+- [Natural Language Processing for Fuzzy String Matching with Python](https://towardsdatascience.com/natural-language-processing-for-fuzzy-string-matching-with-python-6632b7824c49)
+- [Words of estimative probability](https://en.wikipedia.org/wiki/Words_of_estimative_probability)
+---
+
+[back to README](../README.md)
