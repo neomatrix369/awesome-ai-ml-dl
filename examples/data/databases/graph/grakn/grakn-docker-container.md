@@ -1,44 +1,44 @@
 ### Run the Grakn docker container
 
 ```bash
-$ ./runGraknInDocker.sh
+$ ./grakn-runner.sh --runContainer
 
 or
 
-$ DOCKER_USER_NAME="your_docker_username" ./runGraknInDocker.sh
+$ ./grakn-runner.sh --dockerUserName "your_docker_username" --runContainer
 
 or
 
-$ GRAKN_VERSION="x.y.z" ./runGraknInDocker.sh
+$ GRAKN_VERSION="x.y.z" ./grakn-runner.sh --runContainer
 
 or in debug mode
 
-$ DEBUG="true" ./runGraknInDocker.sh
+$ ./grakn-runner.sh --debug --runContainer
 
 or run Grakn server only (not run the Console: Graql)
 
-$ SKIP_GRAQL="true" ./runGraknInDocker.sh
+$ ./grakn-runner.sh --run-grakn-only --runContainer
 
 or run in GraalVM mode
 
-$ JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
+$ ./grakn-runner.sh --jdk GRAALVM --runContainer
 
 or run by switching off JVMCI flag (default: on)
 
-$ COMMON_JAVAOPTS="-XX:-UseJVMCINativeLibrary" JDK_TO_USE="GRAALVM" ./runGraknInDocker.sh
+$ ./grakn-runner.sh --jdk GRAALVM --javaopts "-XX:-UseJVMCINativeLibrary" JDK_TO_USE="GRAALVM" --runContainer
 ```
 
 ### Run the scripts in the Grakn docker container
 
 ```
-$ DEBUG="true" ./runGraknInDocker.sh
-$  startGraknAndGraql.sh
+$ ./grakn-runner.sh --debug --runContainer
+$ startGraknAndGraql.sh
 
 Exiting the Graql Console takes you into the Docker container prompt. Also another way to run Grakn server but not use the Graql console prompt.    
 
 or 
 
-$  SKIP_GRAQL=true startGraknAndGraql.sh
+$  RUN_GRAKN_ONLY=true startGraknAndGraql.sh
 ```
 
 

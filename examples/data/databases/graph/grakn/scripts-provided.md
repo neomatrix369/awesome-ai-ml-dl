@@ -28,7 +28,7 @@ $ ./grakn-runner.sh --help
        --debug               run docker container in interactive mode
                              (gives command-prompt to run commands inside the container)
        --run-perf-scripts    run performance script in interactive mode (can take a long time)
-       --skip-graql          run the Grakn docker container in interacive mode
+       --run-grakn-only      run the Grakn docker container in interacive mode
                              but do not start the Graql console, just the Grakn server
        --jdk                 name of the JDK to use (currently supports
                              GRAALVM only, default is blank which

@@ -42,7 +42,8 @@ runContainer() {
   fi
 
 	mkdir -p shared
-  mkdir -p shared/grakn-logs
+  mkdir -p shared/grakn-${GRAKN_VERSION}-logs
+  mkdir -p shared/grakn-${GRAKN_VERSION}-db/cassandra
 	mkdir -p .cache/bazel
 
   set -x
@@ -54,9 +55,10 @@ runContainer() {
                 --env SHARED_FOLDER_PATH="${SHARED_FOLDER_PATH:-}" \
                 --env JDK_TO_USE="${JDK_TO_USE:-}"                 \
                 --env JAVA_OPTS="${JAVA_OPTS:-}"                   \
-                --env SKIP_GRAQL="${SKIP_GRAQL:-}"                 \
+                --env RUN_GRAKN_ONLY="${RUN_GRAKN_ONLY:-}"         \
                 ${JDK_SPECIFIC_ENV_VALUES}                         \
                 ${GRAKN_LOGS_VOLUME}                               \
+                ${CASSANDRA_DATA_STORE_VOLUME}                     \
                 ${VOLUMES_SHARED}                                  \
                 ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
   set +x
@@ -137,7 +139,7 @@ showUsageText() {
        --debug               run docker container in interactive mode 
                              (gives command-prompt to run commands inside the container)
        --run-perf-scripts    run performance script in interactive mode (can take a long time)
-       --skip-graql          run the Grakn docker container in interacive mode
+       --run-grakn-only      run the Grakn docker container in interacive mode
                              but do not start the Graql console, just the Grakn server
        --jdk                 name of the JDK to use (currently supports
                              GRAALVM only, default is blank which
@@ -176,7 +178,6 @@ IMAGE_NAME=${IMAGE_NAME:-grakn}
 IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}"}
 FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
-WORKDIR=/home/jovyan
 JDK_TO_USE="GRAALVM"  ### we are defaulting to GraalVM
 
 INTERACTIVE_MODE="--interactive --tty"
@@ -193,9 +194,10 @@ JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA8_HOME}"
 TOGGLE_ENTRYPOINT=""
 SHARED_FOLDER_PATH="${WORKDIR}/shared"
 VOLUMES_SHARED="--volume "$(pwd)"/shared:${SHARED_FOLDER_PATH} --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
+CASSANDRA_DATA_STORE_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-db/cassandra:${WORKDIR}/grakn-core-all-linux-${GRAKN_VERSION}/server/db/cassandra"
 GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-logs:${WORKDIR}/grakn-core-all-linux-${GRAKN_VERSION}/logs"
 
-SKIP_GRAQL=false
+RUN_GRAKN_ONLY=false
 
 if [[ "$#" -eq 0 ]]; then
   if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
@@ -220,8 +222,8 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --run-perf-scripts)    TOGGLE_ENTRYPOINT="--entrypoint ${WORKDIR}/runPerformanceBenchmark.sh";
                          echo "Running performance scripts inside the container when it starts off"
                          shift;;
-  --skip-graql)          SKIP_GRAQL=true; 
-                         echo "Skipping Graql when container starts."
+  --run-grakn-only)      RUN_GRAKN_ONLY=true; 
+                         echo "Running Grakn server only (not running Graql) when container starts."
                          shift;;
   --detach)              INTERACTIVE_MODE="--detach";
                          TIME_IT="";

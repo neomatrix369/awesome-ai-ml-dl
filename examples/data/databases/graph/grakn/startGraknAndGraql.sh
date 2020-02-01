@@ -40,8 +40,8 @@ echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Grakn server is running..."
 
-if [[ "${SKIP_GRAQL:-}" = "true" ]]; then
-	echo "Skipping running Graql console"
+if [[ "${RUN_GRAKN_ONLY:-}" = "true" ]]; then
+	echo "Not running Graql console"
 	/bin/bash
 else
 	echo "Starting Graql console..."
