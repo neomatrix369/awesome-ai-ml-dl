@@ -31,7 +31,7 @@ See [Scripts provided](scripts-provided.md).
 
 ### Setting your environment
 
-**Note: you need to do the below only if you are trying to _build your own version_ of the Grakn Docker container and push to _your own Docker Hub repository_.**
+**Note: you need to do the below only if you are trying to _build your own version_ of the Grakn Docker container and push to _your own Docker Hub repository_. Otherwise you can skip this section and move on.**
 
 Ensure your environment has the below variable set, or set it in your `.bashrc` or `.bash_profile` or the relevant startup script:
 
