@@ -25,7 +25,7 @@ See [Scripts provided](scripts-provided.md).
 ### Performance Scripts provided
 
 - [measureTradVersusGraalVMStartupTime.sh](./performance-benchmark-scripts/measureTradVersusGraalVMStartupTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled), see [successful run console](successful-run-console.md) output generated from this script.
-- [runPerformanceBenchmark.sh](./performance-benchmark-scripts/runPerformanceBenchmark.sh) - script baked into the docker image, run via the [runGraknInDocker.sh](./runGraknInDocker.sh) script. This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark). Also see the [performance script execution output](./performance-benchmark-scripts/output-from-running-performance-script.md).
+- [runPerformanceBenchmark.sh](./performance-benchmark-scripts/runPerformanceBenchmark.sh) - script baked into the docker image, run via the [grakn-runner.sh](./grakn-runner.sh) script (see usage text to find out how to run it). This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark). Also see the [performance script execution output](./performance-benchmark-scripts/output-from-running-performance-script.md).
 
 ## Usage
 
