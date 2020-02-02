@@ -23,6 +23,10 @@ main_queries_in_english = {
             ],
     'CALL_DURATION_COMPARISON': ['How does the average call duration among customers aged under 20 compare those aged over 40?'
                                  ],
+    'CALL_DURATION_UNDER_20': ['How does the average call duration among customers aged under 20?'
+                               ],
+    'CALL_DURATION_OVER_40': ['How does the average call duration among customers aged over 40?'
+                              ],
     }
 
 alternative_queries_in_english = {
@@ -60,8 +64,12 @@ alternative_queries_in_english = {
             'Customers who have called each other atleast once',
             'Get phone number of people received calls from customer of certain age'
             ],
-    'CALL_DURATION_COMPARISON': ['How average call duration among customers compared between ages'
+    'CALL_DURATION_COMPARISON': ['How average call duration among customers compared between ages?'
                                  , 'how long did the call last'],
+    'CALL_DURATION_UNDER_20': ['How much time do customers under 20 spend time on a call on an averge?'
+                               ],
+    'CALL_DURATION_OVER_40': ['How much time do customers over 40 spend time on a call on an averge?'
+                              ],
     }
 
 graql_queries = {
@@ -77,7 +85,7 @@ match
    $min-date == 2018-09-10T00:00:00; $started-at > $min-date;
 get $phone-number;
         """,
-    'These are numbers of the customers who called +86 921 547 9004 since 2018-09-10T00:00:00'
+                               'These are numbers of the customers who called +86 921 547 9004 since 2018-09-10T00:00:00'
                                ],
     'UNDER_20_PHONE_CALLS_LONDON': ["""
 match
@@ -92,7 +100,7 @@ match
     $target-call-date > $pattern-call-date;
 get $phone-number;
     """,
-   'Here are the phone numbers of the people (London calls)'
+                                    'Here are the phone numbers of the people (London calls)'
                                     ],
     'OVER_50_PHONE_CALLS_CAMBRIDGE': ["""
 match
@@ -107,7 +115,7 @@ match
     $target-call-date > $pattern-call-date;
 get $phone-number;
     """,
-    'Here are the phone numbers of the people (Cambridge calls)'
+            'Here are the phone numbers of the people (Cambridge calls)'
             ],
     'COMMON_CUSTOMERS_MULTIPLE_NUMBERS': ["""
 match 
@@ -118,7 +126,7 @@ match
     (caller: $customer-b, callee: $common-contact) isa call;
 get $phone-number;
       """,
-    'Here are the numbers of the common customers'],
+            'Here are the numbers of the common customers'],
     'COMMON_CUSTOMERS_SINGLE_NUMBER': ["""
 match 
     $target isa person, has phone-number "+48 894 777 5173";
@@ -132,25 +140,50 @@ match
     (caller: $customer-a, callee: $customer-b) isa call;
 get $phone-number-a, $phone-number-b;
     """,
-            'The numbers of the customers who have called the single number are'],
+            'The numbers of the customers who have called the single number are'
+            ],
     'CALL_DURATION_COMPARISON': [["""
 match
     $customer isa person, has age < 20;
     $company isa company, has name "Telecom";
     (customer: $customer, provider: $company) isa contract;
     (caller: $customer, callee: $anyone) isa call, has duration $duration;
-get $duration; mean $duration;
+get $duration; 
+mean $duration;
         """,
-    'The average call duration between customers have been'
-    ],
-["""
+                                 'The average call duration between customers have been (in seconds)'
+                                 ],
+                                 ["""
 match
   $customer isa person, has age > 40;
   $company isa company, has name "Telecom";
   (customer: $customer, provider: $company) isa contract;
   (caller: $customer, callee: $anyone) isa call, has duration $duration;
-get $duration; mean $duration;
+get $duration; 
+mean $duration;
         """,
-   'The average call duration between customers have been'
+                                 'The average call duration between customers have been (in seconds)'
                                  ]],
+    'CALL_DURATION_UNDER_20': ["""
+match
+    $customer isa person, has age < 20;
+    $company isa company, has name "Telecom";
+    (customer: $customer, provider: $company) isa contract;
+    (caller: $customer, callee: $anyone) isa call, has duration $duration;
+get $duration; 
+mean $duration;
+        """,
+                               'The average call duration between customers have been (in seconds)'
+                               ],
+    'CALL_DURATION_OVER_40': ["""
+match
+  $customer isa person, has age > 40;
+  $company isa company, has name "Telecom";
+  (customer: $customer, provider: $company) isa contract;
+  (caller: $customer, callee: $anyone) isa call, has duration $duration;
+get $duration; 
+mean $duration;
+        """,
+                              'The average call duration between customers have been (in seconds)'
+                              ],
     }

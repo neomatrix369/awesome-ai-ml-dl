@@ -82,8 +82,7 @@ def create_grakn_connection():
 
 def print_to_log(title, content):
     show_divider()
-    print(f"{GRAQL_BOT}",title)
-    print(content)
+    print(f"{GRAQL_BOT}", title, content)
     show_divider()
 
 def execute_user_query(query_code, query_response, transaction):
@@ -100,12 +99,17 @@ def execute_user_query(query_code, query_response, transaction):
         print("")
         print(f"{GRAQL_BOT} Let me think, will take a moment, please be patient (talking to Highlander Grakn Server)...")
         iterator = transaction.query(graql_query)
-        answers = iterator.collect_concepts()
-        if hasattr(answers[0], 'value'):
-            result = [answer.value() for answer in answers]
-        else: 
-            print(f"{GRAQL_BOT} 😲 Schema found, 😩 we don't have the expertise to build it at the moment, your best bet it to use Graql Console or Workbase")
-            return            
+        if type(iterator).__name__ == 'ResponseIterator':
+            result = list(iterator)
+            result = result[0].number()
+        else:    
+            answers = iterator.collect_concepts()
+            if hasattr(answers[0], 'value'):
+                result = [answer.value() for answer in answers]
+            else: 
+                print(f"{GRAQL_BOT} 😲 Schema found, 😩 we don't have the expertise to build it at the moment, your best bet it to use Graql Console or Workbase")
+                return
+
         results_cache.update({query_code: []})
         results_cache[query_code] = result
         
