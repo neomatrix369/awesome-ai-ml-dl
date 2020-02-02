@@ -2,133 +2,153 @@
 # Credits to GrakLabs for creating the original version
 # Original version can be found at https://github.com/graknlabs/examples/tree/master/phone_calls/python/queries.py
 #
-# coding=utf-8
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# supress warnings
+import warnings
+warnings.filterwarnings('ignore')
+
+from random import randint            
+import sys
+    
+import time
 from grakn.client import GraknClient
 
+from colorama import Fore, Back, Style
+
+import importlib
+queries = importlib.import_module("english-graql-queries")
+main_queries_in_english = queries.main_queries_in_english
+alternative_queries_in_english=queries.alternative_queries_in_english
+graql_queries = queries.graql_queries
+
+pattern_matching=importlib.import_module("pattern-matching")
+
+
+GRAQL_BOT = f"{Fore.GREEN}GraqlBot:{Style.RESET_ALL}"
+
+# results from graql_query
+GRAQL_QUERY=0
+RESPONSE_TEMPLATE=1
+
+keyspace_name = "phone_calls"
+
+client = None
+session = None
+transaction = None
+
+error_message_decorators = [
+    f"{GRAQL_BOT} Argh! We have an issue, but don't fret! It end ups up well",
+    f"{GRAQL_BOT} Oh no! Houston, we are not in Texas anymore!",
+    f"{GRAQL_BOT} Cow patter! Now this is not so cool. But I will get through fine!",
+    f"{GRAQL_BOT} Hallo, Hallo! Fawlty towers again!",
+    f"{GRAQL_BOT} Not again! I just seal the problems, Oh well it's just an exception!",
+]
+
+took_time_messages = [
+    f"{GRAQL_BOT} Even though it's been a long day, and I'm a bit lazy today!",
+    f"{GRAQL_BOT} I could things faster if you like! I'm practising for the performance Olympics",
+    f"{GRAQL_BOT} Cow patter! Was I so slow? Could I have been faster",
+    f"{GRAQL_BOT} Thats faster than Usain Bolt",\
+    f"{GRAQL_BOT} Mo Farah couldn't do it as fast could he now?",
+]
+
+def create_grakn_connection():
+    global client, session, transaction
+
+    client = GraknClient(uri="localhost:48555")
+    session = client.session(keyspace=keyspace_name)
+    ## create a transaction to talk to the Grakn server
+    transaction = session.transaction().read()
+
 def print_to_log(title, content):
-    print("~~~~~~~~~~~~~~~~~~\n")
-    print(title)
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    print(f"{GRAQL_BOT}",title)
     print(content)
-    print("~~~~~~~~~~~~~~~~~~\n")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-def execute_user_query(user_input, transaction):
-    iterator = transaction.query(user_input[1])
-    answers = iterator.collect_concepts()
-    result = [answer.value() for answer in answers]
-
-    print_to_log(user_input[2], result)
+def execute_user_query(query_code, query_response, transaction):
+    start_time = time.time()
+    result = results_cache.get(query_code)
+    retrieve_method = "real-time"
+    if result:
+        retrieve_method = "cache"
+    else:
+        graql_query = query_response[GRAQL_QUERY]
+        print(f"{GRAQL_BOT} Here's what the Graql query would look like if you typed it, neat isn't it?")
+        print(f"{Fore.CYAN}{graql_query}{Style.RESET_ALL}")
+        print("")
+        print(f"{GRAQL_BOT} Let me think, will take a moment, please be patient...")
+        iterator = transaction.query(graql_query)
+        answers = iterator.collect_concepts()
+        result = [answer.value() for answer in answers]
+        results_cache.update({query_code: []})
+        results_cache[query_code] = result
+        
+    end_time = time.time()
+    duration = end_time - start_time
+    time_it_took_msg = f'{GRAQL_BOT} And it took me {Fore.YELLOW}{duration} seconds{Style.RESET_ALL} ({retrieve_method}) to execute this query.'
+    print_to_log(query_response[RESPONSE_TEMPLATE], result)
+    print(time_it_took_msg)
+    print(get_random_message(took_time_messages))
 
     return result
 
-def random_error_decorator_messages():
-    from random import randint
-    messages = [
-        "Argh! We have an issue, but don't fret! It end ups up well",
-        "Oh no! Houton, we are not in Texas anymore!",
-        "Cow patter! Now this is not so cool. But I will get through fine!",
-        "Hallo, Hallo! Fawlty towers again!",
-        "Not again! I just seal the problems, Oh well it's just an exception!",
-    ]
-
-    a_random_number = randint(0, len(messages))
+def get_random_message(messages):
+    a_random_number = randint(0, len(messages) - 1)
     return messages[a_random_number]
 
-graql_queries = [
-    [ "SCHEMA",
-      "match $x sub thing; get;",
-      "The schema of the keyspace is as shown" 
-    ],
-    [
-        "CUSTOMERS_CALLED_SINCE",
-        """
-            match
-               $customer isa person, has phone-number $phone-number;
-               $company isa company, has name "Telecom";
-               (customer: $customer, provider: $company) isa contract;
-               $target isa person, has phone-number "+86 921 547 9004";
-               (caller: $customer, callee: $target) isa call, has started-at $started-at;
-               $min-date == 2018-09-10T00:00:00; $started-at > $min-date;
-               get $phone-number;
-        """, 
-        "These are numbers of the customers who called +86 921 547 9004 since 2018-09-10T00:00:00"
-    ],
-    [
-    "OVER_50_PHONE_CALLS_CAMBRIDGE",
-    """
-     match
-        $potential_caller isa person, has city "London", has age > 50;
-        $company isa company, has name "Telecom";
-          (customer: $potential_caller, provider: $company) isa contract;
-          $pattern-callee isa person, has age < 20;
-          (caller: $potential_caller, callee: $pattern-callee) isa call, has started-at $pattern-call-date;
-          $target isa person, has phone-number $phone-number;
-          not { (customer: $target, provider: $company) isa contract; };
-          (caller: $potential_caller, callee: $target) isa call, has started-at $target-call-date;
-          $target-call-date > $pattern-call-date;
-        get $phone-number
-    """,
-    "Here are the phone numbers of the people (London calls)"
-    ],
-    [
-    "UNDER_20_PHONE_CALLS_LONDON",
-"""
-      match
-        $potential_caller isa person, has city "Cambridge", has age > 50;
-        $company isa company, has name "Telecom";
-          (customer: $potential_caller, provider: $company) isa contract;
-          $pattern-callee isa person, has age < 20;
-          (caller: $potential_caller, callee: $pattern-callee) isa call, has started-at $pattern-call-date;
-          $target isa person, has phone-number $phone-number;
-          not { (customer: $target, provider: $company) isa contract; };
-          (caller: $potential_caller, callee: $target) isa call, has started-at $target-call-date;
-          $target-call-date > $pattern-call-date;
-        get $phone-number
-""",
-"Here are the phone numbers of the people (Cambridge calls)"
-    ],    
-    [
-"COMMON_CUSTOMERS_MULTIPLE_NUMBERS",
-"""
- match 
-          $common-contact isa person, has phone-number $phone-number;
-          $customer-a isa person, has phone-number "+7 171 898 0853";
-          $customer-b isa person, has phone-number "+370 351 224 5176";
-          (caller: $customer-a, callee: $common-contact) isa call;
-          (caller: $customer-b, callee: $common-contact) isa call;
-        get $phone-number;
-""",
-"Here are the numbers of the common customers"
-    ],
-[
-"COMMON_CUSTOMERS_SINGLE_NUMBER",
-"""
- match 
-          $target isa person, has phone-number "+48 894 777 5173";
-          $company isa company, has name "Telecom";
-          $customer-a isa person, has phone-number $phone-number-a;
-          (customer: $customer-a, provider: $company) isa contract;
-          (caller: $customer-a, callee: $target) isa call;
-          $customer-b isa person, has phone-number $phone-number-b;
-          (customer: $customer-b, provider: $company) isa contract;
-          (caller: $customer-b, callee: $target) isa call;
-          (caller: $customer-a, callee: $customer-b) isa call;
-        get $phone-number-a, $phone-number-b;
-""",
-"The customers who have called the single number are"
-],
-]
-
 def process_user_input(user_input):
-    print("Let me think, will take a moment, please be patient...")
-    try:    
-        execute_user_query(graql_queries[0], transaction)
+    try:
+        responses = pattern_matching.get_filtered_responses(user_input)
+        rows_returned = responses.shape[0] # 0=col count, 0=row count
+        print("")
+        if rows_returned == 1:
+            print(f"{GRAQL_BOT} Yay! We found it (at least we think we did)!")
+        elif rows_returned > 1:
+            print(f"{GRAQL_BOT} Not sure which one you meant! But we found others!")
+        else:
+            print(f"{GRAQL_BOT} Nice try, but we could find nothing! Do you want to try another query?")
+            return
+
+        print()
+        q_numbers = []
+        for index, row in responses.iterrows():
+            q_numbers.append(index)
+            print(f"   {Style.BRIGHT}{index}{Style.RESET_ALL}  --->  {row['query_in_english']}")
+            meta_info = f"   Code: {Fore.BLUE}{Style.BRIGHT}{row['query_code']} {Style.RESET_ALL} | Confidence: {Fore.GREEN}{row['confidence']}{Style.RESET_ALL}, {Fore.GREEN}{row['ratio']}%{Style.RESET_ALL})"
+            print(meta_info)
+            print("")
+
+        if rows_returned > 1: 
+            print(f"{GRAQL_BOT} Which one of these did you mean, just type the q number?")
+            print(f"{GRAQL_BOT} one of these: {q_numbers}")
+            q_number_entered = input()
+            q_number_entered = q_number_entered.replace("\t", " ").lower()
+        else:
+            q_number_entered = q_numbers[0]
+
+        q_number_entered = int(q_number_entered)
+        query_code = responses['query_code'][q_number_entered]
+        graql_query_response = graql_queries.get(query_code)
+        execute_user_query(query_code, graql_query_response, transaction)
+        print(f"{GRAQL_BOT} The above is based on your original input: '{user_input}'")
     except Exception as ex:
         print("")
-        print(random_error_decorator_messages())
-        print("Execution halted, due to an error:")
-        print(ex)
+        print(get_random_message(error_message_decorators))
         print("")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        print(f"{GRAQL_BOT} {Fore.RED} Execution halted, due to an error:")
+        print(ex)
+        print(Style.RESET_ALL)
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        create_grakn_connection()
 
+def does_user_want_to_stop(user_input):
+    if user_input.lower().strip() == "exit":
+        print(f"{GRAQL_BOT} {Fore.YELLOW} Hastla vista! See you soon! {Style.RESET_ALL}")
+        sys.exit(0)
 
 if __name__ == "__main__":
 
@@ -139,21 +159,19 @@ if __name__ == "__main__":
       - closes the session
     '''
 
-    keyspace_name = "phone_calls"
-    client = GraknClient(uri="localhost:48555")
-    session = client.session(keyspace=keyspace_name)
-    ## create a transaction to talk to the Grakn server
-    transaction = session.transaction().read()
-    cache = {}
+    create_grakn_connection()
+
+    results_cache = {}
 
     ## get user's question selection
     user_input = ""
+    print(f"{GRAQL_BOT} {Fore.MAGENTA}Enter/paste your query in English or Graql, exit to leave the prompt! (Let the force be with us!){Style.RESET_ALL}")
     while True:
-        print("")
-        print("Enter/paste your query in English or Graql, Ctrl-D or Ctrl-Z ( windows ) to save it! (Let the force be with us!)")    
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        print(f"{GRAQL_BOT} {Fore.MAGENTA}English or Graql >{Style.RESET_ALL}")
         user_input = input()
         user_input = user_input.replace("\t", " ")
-        if user_input.lower().strip() == "exit":
-            print("Hastla vista! See you soon!")
-            break
+
+        does_user_want_to_stop(user_input)
+
         process_user_input(user_input)

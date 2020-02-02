@@ -4,13 +4,14 @@ set -e
 set -u
 set -o pipefail
 
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Running python contain, mapping to current folder"
 WORKDIR=/home/python
 
 echo ""; echo "Run the below command once you are in the container"
-echo "   $ pip3 install setuptools ijson==2.3 grakn-client"; echo ""
-echo ""
+echo "   $ pip3 install -r requirements.txt"; echo ""
 echo "Use python3 or pip3 to run any pythong or pip commands"
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"; echo ""
 
 PREVIOUS_TO_PREVIOUS_DIR=$(cd ../.. && echo $(pwd))
 
@@ -21,6 +22,6 @@ docker run --rm                                       \
            --workdir ${WORKDIR}                       \
            --network="host"                           \
            --entrypoint="/bin/bash"                   \
-           neomatrix369/grakn:1.6.2-GRAALVM-CE-19.2.1
-           
+           neomatrix369/datascience:0.1
+
 set +x

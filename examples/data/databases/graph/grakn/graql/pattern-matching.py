@@ -1,7 +1,22 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# supress warnings
+import warnings
+warnings.filterwarnings('ignore')
+
 from fuzzywuzzy import fuzz
 import pandas as pd
 import sys
 from pytictoc import TicToc
+
+import importlib
+queries=importlib.import_module("english-graql-queries")
+main_queries_in_english = queries.main_queries_in_english
+alternative_queries_in_english=queries.alternative_queries_in_english
+graql_queries=queries.graql_queries
+
+PICK_TOP_N = 5
 
 DEBUG_PERF=False
 if DEBUG_PERF:
@@ -29,117 +44,74 @@ words_of_probability_estimation = [
     ["Very unlikely",        0,   2]     #           Impossible 0%: Give or take 0%
 ]
 
-schema_queries_in_english = {
-  'List the schema in this keyspace': [
-    'Show me the schema',
-    'List the schema',
-    'List schema keyspace',
-    'What is the schema here',
-    'What is the schema',
-    'What is the schema here?',
-    'What is the schema?',
-    'Schema?',
-    'Schema please'
-  ],
-
-  'From 2018-09-10 onwards, which customers called the person with phone number +86 921 547 9004?': [
-    'From a date onwards which customers called another person with phone number'
-  ],
-  'Since September 10th, which customers called the person with phone number +86 921 547 9004?': [
-    'Since a date which customers called a person with phone number'
-   ],
-
-  'Get me the customers of company “Telecom” who called the target person with phone number +86 921 547 9004 from September 14th onwards.': [
-    'Get customers of company Telecom who called target person with phone number from a date onwards'
-  ],
-
-  'Get me the customers of company “Telecom” who called the target person with phone number +86 921 547 9004 from September 10th onwards.': [
-    'Get customers of company Telecom who called target person with phone number from a date onwards'
-  ],
-
-  'Who are the people aged under 20 who have received at least one phone call from a Cambridge customer aged over 50?': [
-    'People aged under certain age received at least one phone call from a place customer from customer aged over certain age'
-  ],
-
-  'Who are the people who have received a call from a London customer aged over 50 who has previously called someone aged under 20?': [
-    'Who people received call from customer of certain place aged over certain age also called by someone aged under certain age'
-  ],
-
-  'Get me the phone number of people who have received a call from a customer aged over 50 after this customer (potential person) made a call to another customer aged under 20.': [
-    'Get phone number of people received calls from customer aged customer potential person who made calls to another customer aged under certain age'
-  ],
-
-  'Who are the common contacts of customers with phone numbers +7 171 898 0853 and +370 351 224 5176?': [
-    'Who are common contacts of customers with certain phone numbers'
-  ],
-
-  'Who are the customers who 1) have all called each other and 2) have all called person with phone number +48 894 777 5173 at least once?': [
-    'Who are customers called other persons phone number least once',
-    'Who are customers one another phone',
-    "called atleast once"
-  ],
-
-  'Get me the phone number of people who have received calls from both customer with phone number +7 171 898 0853 and customer with phone number +370 351 224 5176.': [
-    'Get phone number of people received calls from customer of certain age'
-  ],
-
-  'How does the average call duration among customers aged under 20 compare those aged over 40?': [
-    'How average call duration among customers aged compare aged',
-    "how long did the call last"
-  ],
-}
-
 def get_confidence_in_words(value):
 	for each_slab in words_of_probability_estimation:
 		if (value >= each_slab[1]) and (value <= each_slab[2]):
 			return each_slab[0]
 
-def add_result_to(results, query, query_asked):
+def add_result_to(results, query_code, query, query_asked):
 	ratio = fuzz.partial_ratio(query, query_asked)
 	confidence = get_confidence_in_words(ratio)
-	results.append([query, ratio, confidence])
+	results.append([query_code, query, ratio, confidence])
 	return results
 
 def get_potential_queries(query_asked):
 	potential_queries = []
-	for schema_query in schema_queries_in_english:
-		potential_queries = add_result_to(potential_queries, schema_query, query_asked)
-		for similar_query in schema_queries_in_english[schema_query]:
-			potential_queries = add_result_to(potential_queries, similar_query, query_asked)
+	for query_code in main_queries_in_english:
+		for english_query in main_queries_in_english[query_code]:
+			potential_queries = add_result_to(potential_queries, query_code, english_query, query_asked)
+
+	for query_code in alternative_queries_in_english:
+		for english_query in alternative_queries_in_english[query_code]:
+			potential_queries = add_result_to(potential_queries, query_code, english_query, query_asked)
 	return potential_queries
 
 def print_formatted_results(dataframe):
 	for index, row in dataframe.iterrows():
-		print(f"{row['query_in_english']} (Confidence: {row['confidence']}, {row['ratio']}%)")
+		print(f"q{index} {row['query_in_english']}")
+		meta_info = f"| (Code: {row['query_code']} | Confidence: {row['confidence']}, {row['ratio']}%) |"
+		print(meta_info)
+		print("")
 
-if (len(sys.argv) > 1):
-	print(f"Query: {sys.argv[1]}")
+def get_filtered_responses(user_input):
 	_tic("get_potential_queries()")
-	potential_queries = get_potential_queries(sys.argv[1])
+	potential_queries = get_potential_queries(user_input)
 	_toc("get_potential_queries()")
 
 	_tic("creating dataframe")
-	results = pd.DataFrame(potential_queries, columns = ['query_in_english', 'ratio', 'confidence'])
-	results = results.sort_values(by=['ratio'], ascending=False)
+	results = pd.DataFrame(potential_queries, columns = ['query_code', 'query_in_english', 'ratio', 'confidence'])
+	results = results.sort_values(by=['ratio', 'query_code'], ascending=False)
 	filter_greater_or_equal_to_70 = results['ratio'] > 70
 	results_with_70_or_more_accuracy = results[filter_greater_or_equal_to_70]
 	_toc("creating dataframe")
-	pd.set_option('display.max_colwidth', -1)
-	pd.set_option('display.max_columns', 3)
-	SHOW_COUNT = 5
-	_tic("filtering and printing dataframe")
+
+	_tic("filtering dataframe")
 	if len(results_with_70_or_more_accuracy) == 0: 
 		filter_between_40_and_70 = (results['ratio'] >= 40) & (results['ratio'] <= 70)
 		results_between_40_and_70 = results[filter_between_40_and_70]
-		print_formatted_results(results_between_40_and_70[:SHOW_COUNT])
+		result = results_between_40_and_70[:PICK_TOP_N]
 	else:
-		print_formatted_results(results_with_70_or_more_accuracy[:SHOW_COUNT])
-	_toc("filtering and printing dataframe")
-else:
-	print("")
-	print("Usage:")
-	print(f"     python {sys.argv[0]} [query in quotes]")
-	print("For example:")
-	print(f"     python {sys.argv[0]} \"Show schema\"")
-	print("")
-	sys.exit(-1)
+		result = results_with_70_or_more_accuracy[:PICK_TOP_N]
+
+	result = result.reset_index()
+	_toc("filtering dataframe")
+	return result
+
+if __name__ == "__main__":
+	if (len(sys.argv) > 1):
+		user_input=sys.argv[1]
+		print(f"Query: {user_input}")
+		_tic("filtering and printing dataframe")
+		final_results = get_filtered_responses(user_input)
+		pd.set_option('display.max_colwidth', -1)
+		pd.set_option('display.max_columns', 3)
+		print_formatted_results(final_results)
+		_toc("filtering and printing dataframe")		
+	else:
+		print("")
+		print("Usage:")
+		print(f"     python {sys.argv[0]} [query in quotes]")
+		print("For example:")
+		print(f"     python {sys.argv[0]} \"Show schema\"")
+		print("")
+		sys.exit(-1)
