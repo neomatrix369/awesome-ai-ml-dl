@@ -51,10 +51,23 @@ error_message_decorators = [
 
 took_time_messages = [
     f"{GRAQL_BOT} Even though it's been a long day, and I'm a bit lazy today!",
-    f"{GRAQL_BOT} I could things faster if you like! I'm practising for the performance Olympics",
-    f"{GRAQL_BOT} Cow patter! Was I so slow? Could I have been faster",
-    f"{GRAQL_BOT} That's faster than Usain Bolt",\
+    f"{GRAQL_BOT} I could things faster if you like! I'm practising for the performance Olympics!",
+    f"{GRAQL_BOT} Cow patter! Was I so slow? Could I have been faster?",
+    f"{GRAQL_BOT} That's faster than Usain Bolt!",
     f"{GRAQL_BOT} Mo Farah couldn't do it as fast, could he now?",
+]
+
+could_not_find_input = [
+    f"{GRAQL_BOT} Nice try, but we could find nothing! Do you want to try another query?",
+    f"{GRAQL_BOT} Not sure what you meant by that one, not the end of the world. We can try again.",
+    f"{GRAQL_BOT} Don't give up on me just cause I don't follow you. Keep trying till we perfect it!",
+]
+
+found_something_from_input = [
+    f"{GRAQL_BOT} Not sure if I have the precise answer! But we found some we can go through together!",
+    f"{GRAQL_BOT} Not which one you meant exactly! But we found others!",
+    f"{GRAQL_BOT} Not a silver-bullet list of answers! Although there might be useful nuggets to consider!",
+    f"{GRAQL_BOT} Not promising the moon but we do have some useful stuff on our end you know!"
 ]
 
 def create_grakn_connection():
@@ -68,10 +81,10 @@ def create_grakn_connection():
         connection_to_grakn_exists = True
 
 def print_to_log(title, content):
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    show_divider()
     print(f"{GRAQL_BOT}",title)
     print(content)
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    show_divider()
 
 def execute_user_query(query_code, query_response, transaction):
     start_time = time.time()
@@ -82,9 +95,10 @@ def execute_user_query(query_code, query_response, transaction):
     else:
         graql_query = query_response[GRAQL_QUERY]
         print(f"{GRAQL_BOT} Here's what the Graql query would look like if you typed it, neat isn't it?")
+        print("")
         print(f"{Fore.CYAN}{graql_query}{Style.RESET_ALL}")
         print("")
-        print(f"{GRAQL_BOT} Let me think, will take a moment, please be patient...")
+        print(f"{GRAQL_BOT} Let me think, will take a moment, please be patient (talking to Highlander Grakn Server)...")
         iterator = transaction.query(graql_query)
         answers = iterator.collect_concepts()
         if hasattr(answers[0], 'value'):
@@ -115,11 +129,13 @@ def process_user_input(user_input):
         rows_returned = responses.shape[0] # 0=col count, 0=row count
         print("")
         if rows_returned == 1:
-            print(f"{GRAQL_BOT} Yay! We found it (at least we think we did)!")
+            print(f"{GRAQL_BOT} Yay! We found it (at least we think we did)! Going ahead and running it for you!")
+            print(f"{GRAQL_BOT} Hope I'm not being too hasty!")
         elif rows_returned > 1:
-            print(f"{GRAQL_BOT} Not sure which one you meant! But we found others!")
+            print(get_random_message(found_something_from_input))
+            print("Here is our list:")
         else:
-            print(f"{GRAQL_BOT} Nice try, but we could find nothing! Do you want to try another query?")
+            print(get_random_message(could_not_find_input))
             return
 
         print()
@@ -149,11 +165,11 @@ def process_user_input(user_input):
         print("")
         print(get_random_message(error_message_decorators))
         print("")
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        show_divider()
         print(f"{GRAQL_BOT} {Fore.RED}{Style.BRIGHT} Execution halted, due to an error:")
         print(ex)
         print(Style.RESET_ALL)
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        show_divider()
 
 def does_user_want_to_stop(user_input):
     if user_input.lower().strip() == "exit":
@@ -170,6 +186,9 @@ def clear_screen():
         # Linux of OS X
         os.system('clear')
 
+def show_divider():
+    print(f"{Style.DIM}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~{Style.RESET_ALL}")
+
 if __name__ == "__main__":
     '''
       The code below:
@@ -182,9 +201,11 @@ if __name__ == "__main__":
 
     ## get user's question selection
     user_input = ""
-    print(f"{GRAQL_BOT} {Fore.MAGENTA}Enter/paste your query in English or Graql, exit to leave the prompt! (Let the force be with us!){Style.RESET_ALL}")
+    print(f"{GRAQL_BOT} {Fore.MAGENTA}Enter/paste your query in English or Graql.")
+    print(f"And may the force be with us!{Style.RESET_ALL}")
+    print('Type "exit" at the prompt to leave! "clear" to clear the screen.')
     while True:
-        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        show_divider()        
         print(f"{GRAQL_BOT} {Fore.MAGENTA}English or Graql >{Style.RESET_ALL}")
         user_input = input()
         user_input = user_input.replace("\t", " ")

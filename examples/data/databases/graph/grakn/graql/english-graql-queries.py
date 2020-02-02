@@ -77,7 +77,7 @@ match
    $min-date == 2018-09-10T00:00:00; $started-at > $min-date;
 get $phone-number;
         """,
-                               'These are numbers of the customers who called +86 921 547 9004 since 2018-09-10T00:00:00'
+    'These are numbers of the customers who called +86 921 547 9004 since 2018-09-10T00:00:00'
                                ],
     'UNDER_20_PHONE_CALLS_LONDON': ["""
 match
@@ -132,7 +132,7 @@ match
     (caller: $customer-a, callee: $customer-b) isa call;
 get $phone-number-a, $phone-number-b;
     """,
-            'The customers who have called the single number are'],
+            'The numbers of the customers who have called the single number are'],
     'CALL_DURATION_COMPARISON': [["""
 match
     $customer isa person, has age < 20;
