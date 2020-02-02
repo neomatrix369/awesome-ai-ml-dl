@@ -8,6 +8,24 @@ On start-up, useful details including time to start-up the Grakn server and dura
 
 Also, available experimental usage of GraalVM, to take advantages of the performance benefits of this JVM.
 
+- [Goals](#goals)
+- [Scripts provided](#scripts-provided)
+  - [Performance Scripts provided](#performance-scripts-provided)
+- [Usage](#usage)
+  - [Setting your environment](#setting-your-environment)
+  - [Running Grakn docker container](#running-grakn-docker-container)
+  - [Run the performance script in the Grakn docker container](#run-the-performance-script-in-the-grakn-docker-container)
+  - [Build the Grakn docker container](#build-the-grakn-docker-container)
+  - [Docker image on Docker Hub](#docker-image-on-docker-hub)
+  - [Building Grakn](#building-grakn)
+    - [Known issues doing the above](#known-issues-doing-the-above)
+- [Graql](#graql)
+  - [English-to-Graql](#english-to-graql)
+  - [Graql-to-English](#graql-to-english)
+- [Resources](#resources)
+
+--- 
+
 ## Goals
 
 - Run Grakn and Graql in a docker container
@@ -65,7 +83,19 @@ See [Building Grakn](./docs/building-grakn.md)
 - [java.lang.NoClassDefFoundError: Lorg/codehaus/janino/ScriptEvaluator](https://github.com/oracle/graal/issues/1943) - moving back to GraalVM CE 19.2.1 seem to have resolved the issue.
 - [6 Unsupported features exception (log4j might be one of the reasons)](https://github.com/oracle/graal/issues/2115) - being discussed with the GraalVM team.
 
-### Resources
+## Graql
+
+See [Graql README](./graql/README.md)
+
+### English-to-Graql
+
+See [English-to-Graql](./graql/English-to-Graql.md)
+
+### Graql-to-English
+
+See [Graql-to-English](./graql/Graql-to-English.md)
+
+## Resources
 
 - [Home](https://grakn.ai)
 - [GitHub](https://github.com/graknlabs) | [Grakn](https://github.com/graknlabs/Grakn) | [Graql](https://github.com/graknlabs/graql) | [benchmark](https://github.com/graknlabs/benchmark)
