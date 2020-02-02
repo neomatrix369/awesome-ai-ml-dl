@@ -84,6 +84,8 @@ or
 
 Get me the phone number of people who have received a call from a customer aged over 50 after this customer (potential person) made a call to another customer aged under 20.
 
+### Graql
+
     match
         $potential_caller isa person, has city "London", has age > 50;
         $company isa company, has name "Telecom";

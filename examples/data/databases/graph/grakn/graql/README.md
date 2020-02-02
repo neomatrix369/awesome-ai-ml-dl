@@ -73,13 +73,11 @@ Also, see the [Examples overview](https://dev.grakn.ai/docs/examples/phone-calls
 
 ## English-to-Graql
 
-See [English to Graql](./graql/English-to-Graql.md)
+See [English to Graql](./English-to-Graql.md)
 
 ## Graql-to-English
 
-See [Graql to English](./graql/Graql-to-English.md)
-
-### Graql query
+See [Graql to English](./Graql-to-English.md)
 
 ## Resources
 
