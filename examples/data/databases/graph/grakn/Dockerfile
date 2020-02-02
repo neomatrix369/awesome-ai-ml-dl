@@ -20,11 +20,8 @@ ENV GRAKN_VERSION=${GRAKN_VERSION}
 ENV WORKDIR=/home/grakn
 WORKDIR ${WORKDIR}
 
-ENV GRAKN_CORE_LINUX=grakn-core-all-linux
-RUN wget https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/${GRAKN_CORE_LINUX}-${GRAKN_VERSION}.tar.gz --progress=bar:force 2>&1 | tail -f -n +3
-RUN tar zxvf ${GRAKN_CORE_LINUX}-${GRAKN_VERSION}.tar.gz | pv -l >/dev/null
-RUN rm ${GRAKN_CORE_LINUX}-${GRAKN_VERSION}.tar.gz
-RUN ./${GRAKN_CORE_LINUX}-${GRAKN_VERSION}/grakn version
+COPY download-and-install-grakn.sh  ./download-and-install-grakn.sh
+RUN GRAKN_VERSION=${GRAKN_VERSION}  ./download-and-install-grakn.sh
 
 ### GraalVM installation
 ARG GRAALVM_VERSION
@@ -52,7 +49,7 @@ RUN apt-get autoclean
 RUN apt-get clean
 
 ### Install bazel
-RUN apt-get update && apt-get install -qy --no-install-recommends             \
+RUN apt-get update && apt-get install -qy --no-install-recommends              \
     pkg-config zip g++ zlib1g-dev unzip python3 python3-pip python3-setuptools \
     && rm -r /var/lib/apt/lists/*
 ENV BAZEL_VERSION=0.26.1

@@ -67,7 +67,8 @@ runContainer() {
 buildDockerImage() {
 	askDockerUserNameIfAbsent
 	
-	echo "Building image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"; echo ""
+	echo "Building image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
+  echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
 
 	echo "* Fetching docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	time docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
@@ -78,7 +79,8 @@ buildDockerImage() {
                  --build-arg DEFAULT_PORT=${HOST_PORT}          \
                  .
 	echo "* Finished building docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
-	
+	echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
+
 	cleanup
 	pushImageToHub
 	cleanup
