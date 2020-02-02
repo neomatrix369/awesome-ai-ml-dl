@@ -52,8 +52,8 @@ RUN apt-get autoclean
 RUN apt-get clean
 
 ### Install bazel
-RUN apt-get update && apt-get install -qy --no-install-recommends \
-    pkg-config zip g++ zlib1g-dev unzip python3 \
+RUN apt-get update && apt-get install -qy --no-install-recommends             \
+    pkg-config zip g++ zlib1g-dev unzip python3 python3-pip python3-setuptools \
     && rm -r /var/lib/apt/lists/*
 ENV BAZEL_VERSION=0.26.1
 RUN curl -J -L -O  https://github.com/bazelbuild/bazel/releases/download/${BAZEL_VERSION}/bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
@@ -62,8 +62,18 @@ RUN ./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
 RUN export PATH=$HOME/bin:${PATH}
 
 RUN apt-get update && apt-get install -qy vim \
-    --no-install-recommends \
+    --no-install-recommends                   \
     && rm -r /var/lib/apt/lists/*
+
+# Cleaning up once again
+RUN apt-get autoclean
+RUN apt-get clean
+
+### Install grakn-client and supporting tools
+RUN pip3 install --upgrade pip
+RUN pip3 --version
+RUN pip install setuptools ijson==2.3 grakn-client
+
 RUN mkdir -p .cache
 
 COPY grakn_version.txt          ./grakn_version.txt

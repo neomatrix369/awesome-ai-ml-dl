@@ -47,7 +47,7 @@ runContainer() {
 	mkdir -p .cache/bazel
 
   set -x
-	${TIME_IT} docker run --rm                                       \
+  ${TIME_IT} docker run --rm                                       \
                 ${INTERACTIVE_MODE}                                \
                 --workdir ${WORKDIR}                               \
                 ${TOGGLE_ENTRYPOINT}                               \
@@ -71,11 +71,11 @@ buildDockerImage() {
 
 	echo "* Fetching docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	time docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
-	time docker build                                                      \
-	             -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}               \
-	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}                \
-                 --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}          \
-                 --build-arg DEFAULT_PORT=${HOST_PORT}                   \
+	time docker build                                           \
+	             -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}    \
+	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}     \
+                 --build-arg GRAALVM_VERSION=${GRAALVM_VERSION} \
+                 --build-arg DEFAULT_PORT=${HOST_PORT}          \
                  .
 	echo "* Finished building docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	
@@ -107,13 +107,13 @@ pushImageToHub() {
 
 cleanup() {
 	containersToRemove=$(docker ps --quiet --filter "status=exited")
-	[ ! -z "${containersToRemove}" ] && \
+	[ ! -z "${containersToRemove}" ] &&                                \
 	    echo "Remove any stopped container from the local registry" && \
 	    docker rm ${containersToRemove} || (true && echo "No docker processes to clean up")
 
 	imagesToRemove=$(docker images --quiet --filter "dangling=true")
-	[ ! -z "${imagesToRemove}" ] && \
-	    echo "Remove any dangling images from the local registry" && \
+	[ ! -z "${imagesToRemove}" ] &&                                    \
+	    echo "Remove any dangling images from the local registry" &&   \
 	    docker rmi -f ${imagesToRemove} || (true && echo "No docker images to clean up")
 }
 
@@ -178,7 +178,23 @@ IMAGE_NAME=${IMAGE_NAME:-grakn}
 IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}"}
 FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
-JDK_TO_USE="GRAALVM"  ### we are defaulting to GraalVM
+############################################ we are defaulting to GraalVM
+
+JDK_TO_USE="GRAALVM"  
+GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
+COMMON_JAVAOPTS="${COMMON_JAVAOPTS:-'-XX:+UseJVMCINativeLibrary'}"
+GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
+STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
+SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
+
+JDK_SPECIFIC_ENV_VALUES="
+       --env GRAALVM_HOME=${GRAALVM_HOME}
+       --env JAVA_HOME=${GRAALVM_HOME}
+       --env GRAKN_DAEMON_JAVAOPTS=${GRAKN_DAEMON_JAVAOPTS}
+       --env STORAGE_JAVAOPTS=${STORAGE_JAVAOPTS}
+       --env SERVER_JAVAOPTS=${SERVER_JAVAOPTS}"
+
+###########################################################################
 
 INTERACTIVE_MODE="--interactive --tty"
 TIME_IT="time"
@@ -188,7 +204,6 @@ CONTAINER_PORT=48555
 WORKDIR="/home/grakn"
 
 JAVA8_HOME="/usr/local/openjdk-8/"
-JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA8_HOME}"
 
 ## When run in the console mode (command-prompt available)
 TOGGLE_ENTRYPOINT=""
@@ -228,20 +243,12 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --detach)              INTERACTIVE_MODE="--detach";
                          TIME_IT="";
                          shift;;
-  --jdk)                 JDK_TO_USE="${2:-}";
-            						 if [[ "${JDK_TO_USE:-}" = "GRAALVM" ]]; then
-            						    GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
-            						    COMMON_JAVAOPTS="${COMMON_JAVAOPTS:-'-XX:+UseJVMCINativeLibrary'}"
-            						    GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
-            						    STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
-            						    SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
-
-            						    JDK_SPECIFIC_ENV_VALUES="
-            						           --env GRAALVM_HOME=${GRAALVM_HOME}
-            						           --env JAVA_HOME=${GRAALVM_HOME}
-            						           --env GRAKN_DAEMON_JAVAOPTS=${GRAKN_DAEMON_JAVAOPTS}
-            						           --env STORAGE_JAVAOPTS=${STORAGE_JAVAOPTS}
-            						           --env SERVER_JAVAOPTS=${SERVER_JAVAOPTS}"
+  --jdk)                 JDK_TO_USE="${2:-}"; JDK_TO_USE="${JDK_TO_USE^^}"; ### Capitalise our input
+            						 if [[ "${JDK_TO_USE:-}" != "GRAALVM" ]]; then
+                            JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA8_HOME}"
+                            GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
+                            STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
+                            SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
             						 fi
                          shift;;
   --javaopts)            JAVA_OPTS="${2:-}";
