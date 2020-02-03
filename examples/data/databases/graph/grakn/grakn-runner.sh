@@ -70,23 +70,58 @@ buildDockerImage() {
 	askDockerUserNameIfAbsent
 	
 	echo "Building image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
-  if [[ -z "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" ]]; then
-    echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
-  else
-    echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""     
+ 
+  ### Grakn installation
+  GRAKN_CORE_LINUX=grakn-core
+  GRAKN_ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
+  GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.zip
+  GRAKN_UNPACK_COMMAND="unzip ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
+  if [[ "$(isVersionGreaterThanOrEqualTo "${GRAKN_VERSION}" "1.4.3")" = "true" ]]; then
+    GRAKN_CORE_LINUX=grakn-core-all-linux
+    GRAKN_ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
+    GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.tar.gz
+    GRAKN_UNPACK_COMMAND="tar zxvf ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
   fi
+
+  GRAKN_ARTIFACT_URL="https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
+
+  ### GraalVM installation
+  if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
+    echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
+    TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
+    GRAALVM_ARTIFACT_FILENAME=graalvm-ce-${GRAALVM_JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}
+    GRAALVM_ARTIFACT_GITHUB_REPO=graalvm/graalvm-ce-builds
+  else 
+    echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
+    TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_VERSION}
+    GRAALVM_ARTIFACT_FILENAME=graalvm-ce-linux-amd64-${GRAALVM_VERSION}
+    GRAALVM_ARTIFACT_GITHUB_REPO=oracle/graal
+  fi
+
+  GRAALVM_ARTIFACT="${GRAALVM_ARTIFACT_FILENAME}.tar.gz"
+  GRAALVM_ARTIFACT_URL=https://github.com/${GRAALVM_ARTIFACT_GITHUB_REPO}/releases/download/vm-${GRAALVM_VERSION}/${GRAALVM_ARTIFACT}
 
 	echo "* Fetching docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	time docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
-	time docker build                                                    \
-               -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}             \
-	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}              \
-               --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}  \
-               --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}          \
-               --build-arg DEFAULT_PORT=${HOST_PORT}                   \
+	time docker build                                                                             \
+               -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}                                      \
+	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}                                       \
+               --build-arg GRAKN_ARTIFACT_FILENAME=${GRAKN_ARTIFACT_FILENAME}                   \
+               --build-arg GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME_WITH_EXT} \
+               --build-arg GRAKN_ARTIFACT_URL="${GRAKN_ARTIFACT_URL}"                           \
+               --build-arg GRAKN_UNPACK_COMMAND="${GRAKN_UNPACK_COMMAND}"                       \
+               --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}                           \
+               --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}                                   \
+               --build-arg TARGET_GRAALVM_HOME=${TARGET_GRAALVM_HOME}                           \
+               --build-arg GRAALVM_ARTIFACT_FILENAME=${GRAALVM_ARTIFACT_FILENAME}               \
+               --build-arg GRAALVM_ARTIFACT=${GRAALVM_ARTIFACT}                                 \
+               --build-arg GRAALVM_ARTIFACT_URL=${GRAALVM_ARTIFACT_URL}                         \
+               --build-arg DEFAULT_PORT=${HOST_PORT}                                            \
                .
 	echo "* Finished building docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
-	if [[ -z "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" ]]; then
+	if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
+     echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
+  else 
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
   else
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""     
@@ -191,9 +226,8 @@ GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
 
 GRAALVM_JDK_VERSION="${GRAALVM_JDK_VERSION:-}"
-if [[ -z "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" ]]; then
-  IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}"}
-else
+IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}"}
+if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
   GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat graalvm_jdk_version.txt || true)}
   IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}"}
 fi
@@ -203,9 +237,8 @@ FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 ############################################ we are defaulting to GraalVM
 
 JDK_TO_USE="GRAALVM"  
-if [[ -z "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" ]]; then
-   GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
-else
+GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
+if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
   GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}"
 fi
 
@@ -260,23 +293,23 @@ while [[ "$#" -gt 0 ]]; do case $1 in
                          CONTAINER_PORT="${2:-${CONTAINER_PORT}}";
                          shift;;
   --debug)               TOGGLE_ENTRYPOINT="--entrypoint /bin/bash";
-                         shift;;
+                         ;;
   --run-perf-scripts)    TOGGLE_ENTRYPOINT="--entrypoint ${WORKDIR}/runPerformanceBenchmark.sh";
                          echo "Running performance scripts inside the container when it starts off"
-                         shift;;
+                         ;;
   --run-grakn-only)      RUN_GRAKN_ONLY=true; 
                          echo "Running Grakn server only (not running Graql) when container starts."
-                         shift;;
+                         ;;
   --detach)              INTERACTIVE_MODE="--detach";
                          TIME_IT="";
-                         shift;;
-  --jdk)                 JDK_TO_USE="${2:-}"; JDK_TO_USE="${JDK_TO_USE^^}"; ### Capitalise our input
+                         ;;
+  --jdk)                 JDK_TO_USE="${2:-}"; JDK_TO_USE="$(echo ${JDK_TO_USE} | tr '[:lower:]' '[:upper:]')"; ### Capitalise our input
             						 if [[ "${JDK_TO_USE:-}" != "GRAALVM" ]]; then
                             JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA8_HOME}"
                             GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
                             STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
                             SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
-            						 fi
+            						 fi 
                          shift;;
   --javaopts)            JAVA_OPTS="${2:-}";
                          shift;;
