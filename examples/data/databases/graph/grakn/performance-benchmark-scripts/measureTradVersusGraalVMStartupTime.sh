@@ -63,7 +63,7 @@ GRAKN_VERSION="${GRAKN_VERSION:-$(cat ../grakn_version.txt)}"
 time runContainer "Traditional-JDK" "Traditional JDK (version 1.8) Grakn version ${GRAKN_VERSION}" ""
 
 GRAALVM_VERSION="${GRAALVM_VERSION:-$(cat ../graalvm_version.txt)}"
-GRAALVM_JDK_VERSION=""
+GRAALVM_JDK_VERSION="${GRAALVM_JDK_VERSION:-}"
 if [[ $(isVersionGreaterThanOrEqualTo ${GRAALVM_VERSION} 19.3.0) ]]; then
    GRAALVM_JDK_VERSION="${GRAALVM_JDK_VERSION:-$(cat ../graalvm_jdk_version.txt || true)}"
 fi
