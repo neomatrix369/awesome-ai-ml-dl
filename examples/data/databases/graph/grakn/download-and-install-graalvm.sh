@@ -22,14 +22,13 @@ set -o pipefail
 
 source common.sh
 
-TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_VERSION}
-GRAALVM_ARTIFACT_FILENAME=graalvm-ce-linux-amd64-${GRAALVM_VERSION}
-ARTIFACT_GITHUB_REPO=oracle/graal
-
-if [[ $(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0") ]]; then
-	TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
-	GRAALVM_ARTIFACT_FILENAME=graalvm-ce-${GRAALVM_JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}
-	ARTIFACT_GITHUB_REPO=graalvm/graalvm-ce-builds
+TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
+GRAALVM_ARTIFACT_FILENAME=graalvm-ce-${GRAALVM_JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}
+ARTIFACT_GITHUB_REPO=graalvm/graalvm-ce-builds
+if [[ -z "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" ]]; then
+	TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_VERSION}
+	GRAALVM_ARTIFACT_FILENAME=graalvm-ce-linux-amd64-${GRAALVM_VERSION}
+	ARTIFACT_GITHUB_REPO=oracle/graal
 fi
 
 GRAALVM_ARTIFACT="${GRAALVM_ARTIFACT_FILENAME}.tar.gz"
