@@ -291,23 +291,23 @@ while [[ "$#" -gt 0 ]]; do case $1 in
                          CONTAINER_PORT="${2:-${CONTAINER_PORT}}";
                          shift;;
   --debug)               TOGGLE_ENTRYPOINT="--entrypoint /bin/bash";
-                         shift;;
+                         ;;
   --run-perf-scripts)    TOGGLE_ENTRYPOINT="--entrypoint ${WORKDIR}/runPerformanceBenchmark.sh";
                          echo "Running performance scripts inside the container when it starts off"
-                         shift;;
+                         ;;
   --run-grakn-only)      RUN_GRAKN_ONLY=true; 
                          echo "Running Grakn server only (not running Graql) when container starts."
-                         shift;;
+                         ;;
   --detach)              INTERACTIVE_MODE="--detach";
                          TIME_IT="";
-                         shift;;
-  --jdk)                 JDK_TO_USE="${2:-}"; JDK_TO_USE="${JDK_TO_USE^^}"; ### Capitalise our input
+                         ;;
+  --jdk)                 JDK_TO_USE="${2:-}"; JDK_TO_USE="$(echo ${JDK_TO_USE} | tr '[:lower:]' '[:upper:]')"; ### Capitalise our input
             						 if [[ "${JDK_TO_USE:-}" != "GRAALVM" ]]; then
                             JDK_SPECIFIC_ENV_VALUES="--env JAVA_HOME=${JAVA8_HOME}"
                             GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
                             STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
                             SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
-            						 fi
+            						 fi 
                          shift;;
   --javaopts)            JAVA_OPTS="${2:-}";
                          shift;;

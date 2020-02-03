@@ -42,8 +42,7 @@ runContainer() {
 
 	GRAKN_CONTAINER_ID=$(cd .. &&  
 		GRAKN_VERSION=${GRAKN_VERSION} GRAALVM_VERSION=${GRAALVM_VERSION} 
-		     ./grakn-runner.sh --javaopts "${JAVA_OPTS}" 
-		     --jdk "${JDK_TO_USE}" --detach --runContainer)
+		     ./grakn-runner.sh --jdk "${JDK_TO_USE}" --javaopts "${JAVA_OPTS}" --detach --runContainer)
 	GRAKN_CONTAINER_ID=$(echo ${GRAKN_CONTAINER_ID} | tr -d '\n')
 	GRAKN_CONTAINER_ID=${GRAKN_CONTAINER_ID:0:7}
 
