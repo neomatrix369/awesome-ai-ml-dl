@@ -73,13 +73,13 @@ checkForNativeImage() {
 }
 
 isVersionGreaterThanOrEqualTo() {
-  result="greaterThan"      ### returning a value means true
+  result="true"        ### assuming first version is greater than second
   if [[ "$1" = "$2" ]]; then
-  	result="equalTo"      ### returning a value means true
+  	result="true"      ### if they are equal
   else
   	lesser_version="$(echo "$@" | tr " " "\n" | sort -V | head -n 1)"
-  	if [[ "${lesser_version}" = "$1" ]]; then # the first version is lesser than the second
-  		result=""       ### returning empty means false
+  	if [[ "${lesser_version}" = "$1" ]]; then 
+  		result="false" ### the first version is smaller than the second
     fi
   fi
   echo "${result}"

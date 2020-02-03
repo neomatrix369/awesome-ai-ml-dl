@@ -15,13 +15,28 @@ RUN echo "Building the Open Source version (AGPL license), go to https://github.
 RUN apt-get update && apt-get install -y --no-install-recommends wget unzip pv \
     && rm -r /var/lib/apt/lists/*
 
+### Grakn installation
+
 ARG GRAKN_VERSION
 ENV GRAKN_VERSION=${GRAKN_VERSION}
 ENV WORKDIR=/home/grakn
 WORKDIR ${WORKDIR}
 
-COPY download-and-install-grakn.sh  ./download-and-install-grakn.sh
-RUN GRAKN_VERSION=${GRAKN_VERSION}  ./download-and-install-grakn.sh
+ARG ARTIFACT_FILENAME
+ARG ARTIFACT_FILENAME_WITH_EXT
+ARG ARTIFACT_URL
+RUN echo "Downloading artifact from url: ${ARTIFACT_URL}"
+RUN wget ${ARTIFACT_URL} --progress=bar:force 2>&1 | tail -f -n +3
+
+ARG UNPACK_COMMAND
+RUN echo "Unpacking artifact: ${ARTIFACT_FILENAME_WITH_EXT}"
+RUN eval ${UNPACK_COMMAND} | pv -l >/dev/null
+
+RUN echo "Removing artifact: ${ARTIFACT_FILENAME_WITH_EXT}"
+RUN rm ${ARTIFACT_FILENAME_WITH_EXT}
+
+RUN echo "Checking version"
+RUN ./${ARTIFACT_FILENAME}/grakn version
 
 ### GraalVM installation
 ARG GRAALVM_JDK_VERSION
