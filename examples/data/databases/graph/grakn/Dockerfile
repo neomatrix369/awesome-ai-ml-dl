@@ -24,11 +24,17 @@ COPY download-and-install-grakn.sh  ./download-and-install-grakn.sh
 RUN GRAKN_VERSION=${GRAKN_VERSION}  ./download-and-install-grakn.sh
 
 ### GraalVM installation
+
+RUN echo "GRAALVM_HOME=${GRAALVM_HOME}"
+
+ARG GRAALVM_JDK_VERSION
+ENV GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}
+
 ARG GRAALVM_VERSION
 ENV GRAALVM_VERSION="${GRAALVM_VERSION:-19.1.1}"
 
-ENV TARGET_JDK_FOLDER=graalvm-ce-${GRAALVM_VERSION}
-ENV GRAALVM_ARTIFACT_FILENAME=graalvm-ce-linux-amd64-${GRAALVM_VERSION}
+ENV TARGET_JDK_FOLDER=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
+ENV GRAALVM_ARTIFACT_FILENAME=graalvm-ce-${GRAALVM_JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}
 ENV GRAALVM_ARTIFACT="${GRAALVM_ARTIFACT_FILENAME}.tar.gz"
 
 RUN wget https://github.com/oracle/graal/releases/download/vm-${GRAALVM_VERSION}/${GRAALVM_ARTIFACT} --progress=bar:force 2>&1 | tail -f -n +3
@@ -74,6 +80,7 @@ RUN pip install setuptools ijson==2.3 grakn-client
 RUN mkdir -p .cache
 
 COPY grakn_version.txt          ./grakn_version.txt
+COPY graalvm_jdk_version.txt    ./graalvm_jdk_version.txt
 COPY graalvm_version.txt        ./graalvm_version.txt
 COPY startGraknAndGraql.sh      ./startGraknAndGraql.sh
 COPY performance-benchmark-scripts/runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
