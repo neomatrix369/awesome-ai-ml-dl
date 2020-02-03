@@ -50,7 +50,7 @@ rm ${GRAALVM_ARTIFACT}
 rm -fr ${GRAALVM_ARTIFACT_FILENAME}
 
 echo "Downloading native-image"
-RUN ${GRAALVM_HOME}/bin/gu install native-image
+${GRAALVM_HOME}/bin/gu install native-image
 
 echo "Checking version"
 ${GRAALVM_HOME}/bin/java -version
