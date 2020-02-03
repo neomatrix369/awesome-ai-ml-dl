@@ -36,7 +36,7 @@ fi
 
 ARTIFACT_URL=https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/${ARTIFACT_FILENAME_WITH_EXT}
 
-echo "Artifact download from url: ${ARTIFACT_URL}"
+echo "Downloading artifact from url: ${ARTIFACT_URL}"
 wget  ${ARTIFACT_URL} \
      --progress=bar:force 2>&1 | tail -f -n +3
 

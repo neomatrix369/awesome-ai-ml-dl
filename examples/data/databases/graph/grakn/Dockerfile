@@ -24,30 +24,17 @@ COPY download-and-install-grakn.sh  ./download-and-install-grakn.sh
 RUN GRAKN_VERSION=${GRAKN_VERSION}  ./download-and-install-grakn.sh
 
 ### GraalVM installation
-
-RUN echo "GRAALVM_HOME=${GRAALVM_HOME}"
-
 ARG GRAALVM_JDK_VERSION
 ENV GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}
 
 ARG GRAALVM_VERSION
-ENV GRAALVM_VERSION="${GRAALVM_VERSION:-19.1.1}"
+ENV GRAALVM_VERSION="${GRAALVM_VERSION}"
 
-ENV TARGET_JDK_FOLDER=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
-ENV GRAALVM_ARTIFACT_FILENAME=graalvm-ce-${GRAALVM_JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}
-ENV GRAALVM_ARTIFACT="${GRAALVM_ARTIFACT_FILENAME}.tar.gz"
-
-RUN wget https://github.com/oracle/graal/releases/download/vm-${GRAALVM_VERSION}/${GRAALVM_ARTIFACT} --progress=bar:force 2>&1 | tail -f -n +3
-RUN tar xvzf ${GRAALVM_ARTIFACT} -C /usr/local | pv -l >/dev/null
-
-ENV GRAALVM_HOME="/usr/local/${TARGET_JDK_FOLDER}"
-RUN echo "GRAALVM_HOME=${TARGET_GRAALVM_HOME}"
-RUN ${GRAALVM_HOME}/bin/java -version
-RUN rm ${GRAALVM_ARTIFACT}
-RUN rm -fr ${GRAALVM_ARTIFACT_FILENAME}
-
-### Downloading native-image
-RUN ${GRAALVM_HOME}/bin/gu install native-image
+COPY common.sh                        ./common.sh
+COPY download-and-install-graalvm.sh  ./download-and-install-graalvm.sh
+RUN GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}  \
+    GRAALVM_VERSION=${GRAALVM_VERSION}          \
+                                      ./download-and-install-graalvm.sh
 
 ### Cleanup to make space
 RUN echo "Cleaning up old stuff, again"
@@ -86,7 +73,6 @@ COPY startGraknAndGraql.sh      ./startGraknAndGraql.sh
 COPY performance-benchmark-scripts/runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
 COPY mergeJson.sh               ./mergeJson.sh
 COPY builder.sh                 ./builder.sh
-COPY common.sh                  ./common.sh
 COPY grakn-jar-runner.sh        ./grakn-jar-runner.sh
 COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
 

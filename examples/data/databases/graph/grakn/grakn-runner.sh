@@ -20,6 +20,8 @@ set -e
 set -u
 set -o pipefail
 
+source common.sh
+
 findImage() {
 	IMAGE_NAME=$1
 	echo $(docker images ${IMAGE_NAME} -q | head -n1 || true)
@@ -31,10 +33,6 @@ getOpenCommand() {
   elif [[ "$(uname)" = "Darwin" ]]; then
      echo "open"
   fi
-}
-
-isVersionOnOrAfter19_3_0() {
-  echo "$( echo "${GRAALVM_VERSION}" '>=' 19.3.0 | bc -l )"
 }
 
 runContainer() {
@@ -72,7 +70,7 @@ buildDockerImage() {
 	askDockerUserNameIfAbsent
 	
 	echo "Building image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
-  if [[ $(isVersionOnOrAfter19_3_0) ]]; then
+  if [[ $(isVersionGreaterThanOrEqualTo ${GRAALVM_VERSION} 19.3.0) ]]; then
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
   else
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
@@ -88,7 +86,7 @@ buildDockerImage() {
                --build-arg DEFAULT_PORT=${HOST_PORT}                   \
                .
 	echo "* Finished building docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
-	if [[ $(isVersionOnOrAfter19_3_0) ]]; then
+	if [[ $(isVersionGreaterThanOrEqualTo ${GRAALVM_VERSION} 19.3.0) ]]; then
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
   else
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
@@ -193,7 +191,7 @@ GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
 
 GRAALVM_JDK_VERSION=""
-if [[ $(isVersionOnOrAfter19_3_0) ]]; then
+if [[ $(isVersionGreaterThanOrEqualTo ${GRAALVM_VERSION} 19.3.0) ]]; then
   GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat graalvm_jdk_version.txt || true)}
   IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}"}
 else
@@ -205,7 +203,7 @@ FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 ############################################ we are defaulting to GraalVM
 
 JDK_TO_USE="GRAALVM"  
-if [[ $(isVersionOnOrAfter19_3_0) ]]; then
+if [[ $(isVersionGreaterThanOrEqualTo ${GRAALVM_VERSION} 19.3.0) ]]; then
    GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}"
 else
    GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
