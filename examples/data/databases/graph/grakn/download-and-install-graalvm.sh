@@ -22,12 +22,12 @@ set -o pipefail
 
 source common.sh
 
-TARGET_JDK_FOLDER=graalvm-ce-${GRAALVM_VERSION}
+TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_VERSION}
 GRAALVM_ARTIFACT_FILENAME=graalvm-ce-linux-amd64-${GRAALVM_VERSION}
 ARTIFACT_GITHUB_REPO=oracle/graal
 
 if [[ $(isVersionGreaterThanOrEqualTo ${GRAALVM_VERSION} 19.3.0) ]]; then
-	TARGET_JDK_FOLDER=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
+	TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
 	GRAALVM_ARTIFACT_FILENAME=graalvm-ce-${GRAALVM_JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}
 	ARTIFACT_GITHUB_REPO=graalvm/graalvm-ce-builds
 fi
@@ -42,8 +42,8 @@ wget  ${ARTIFACT_URL} \
 echo "Untarring artifact: ${GRAALVM_ARTIFACT}"
 tar xvzf ${GRAALVM_ARTIFACT} -C /usr/local | pv -l >/dev/null
 
-GRAALVM_HOME="/usr/local/${TARGET_JDK_FOLDER}"
-echo "GRAALVM_HOME=${TARGET_GRAALVM_HOME}"
+GRAALVM_HOME="/usr/local/${TARGET_GRAALVM_HOME}"
+echo "GRAALVM_HOME=${GRAALVM_HOME}"
 
 echo "Removing artifact: ${GRAALVM_ARTIFACT}"
 rm ${GRAALVM_ARTIFACT}
