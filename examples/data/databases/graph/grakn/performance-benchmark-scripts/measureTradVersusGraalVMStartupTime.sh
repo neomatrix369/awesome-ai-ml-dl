@@ -20,6 +20,8 @@ set -e
 set -u
 set -o pipefail
 
+source ../common.sh
+
 printPing() {
 	MAX_LIMIT=${1-"100"}
 	i=$((0))
@@ -57,16 +59,12 @@ runContainer() {
 	echo "${JDK_TO_USE}: Grakn in the container (id = ${GRAKN_CONTAINER_ID}) has been shutdown."; echo "";
 }
 
-isVersionOnOrAfter19_3_0() {
-  echo "$( echo "${GRAALVM_VERSION}" '>=' 19.3.0 | bc -l )"
-}
-
 GRAKN_VERSION="${GRAKN_VERSION:-$(cat ../grakn_version.txt)}"
 time runContainer "Traditional-JDK" "Traditional JDK (version 1.8) Grakn version ${GRAKN_VERSION}" ""
 
 GRAALVM_VERSION="${GRAALVM_VERSION:-$(cat ../graalvm_version.txt)}"
 GRAALVM_JDK_VERSION=""
-if [[ $(isVersionOnOrAfter19_3_0) ]]; then
+if [[ $(isVersionGreaterThanOrEqualTo ${GRAALVM_VERSION} 19.3.0) ]]; then
    GRAALVM_JDK_VERSION="${GRAALVM_JDK_VERSION:-$(cat ../graalvm_jdk_version.txt || true)}"
 fi
 
