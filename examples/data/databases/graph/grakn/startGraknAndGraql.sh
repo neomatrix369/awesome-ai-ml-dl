@@ -26,6 +26,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 echo "JAVA_HOME=${JAVA_HOME}"
 export PATH="${JAVA_HOME}/bin:${PATH}"
+echo "PATH=${PATH}"
 java -version
 
 echo -n "Grakn version: (see bottom of the startup text banner)"
