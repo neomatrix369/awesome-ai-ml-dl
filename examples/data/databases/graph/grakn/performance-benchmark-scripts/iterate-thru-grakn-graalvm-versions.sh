@@ -44,27 +44,28 @@ set -o pipefail
 #   19.3.0.2
 #   19.3.1
 
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.4.3 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.4.3 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.4.3 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.3.0 GRAKN_VERSION=1.4.3 ./measureTradVersusGraalVMStartupTime.sh
+source ../common.sh
 
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.5.2 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.5.2 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.5.2 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.3.0 GRAKN_VERSION=1.5.2 ./measureTradVersusGraalVMStartupTime.sh
+GRAALVM_VERSIONS="19.0.0 19.1.0 19.2.0 19.3.0"
+GRAALVM_JDK_VERSIONS="java8 java11"
+GRAKN_VERSIONS="1.4.3 1.5.2 1.5.7 1.6.0 1.6.2"
 
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.5.7 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.5.7 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.5.7 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.3.0 GRAKN_VERSION=1.5.7 ./measureTradVersusGraalVMStartupTime.sh
-
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.6.0 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.6.0 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.6.0 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.3.0 GRAKN_VERSION=1.6.0 ./measureTradVersusGraalVMStartupTime.sh
-
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.6.2 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.6.2 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.6.2 ./measureTradVersusGraalVMStartupTime.sh
-GRAALVM_VERSION=19.3.0 GRAKN_VERSION=1.6.2 ./measureTradVersusGraalVMStartupTime.sh
+for GRAKN_VERSION in ${GRAKN_VERSIONS[@]}
+do
+	for GRAALVM_VERSION in ${GRAALVM_VERSIONS[@]}
+	do
+		if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
+			for GRAALVM_JDK_VERSION in ${GRAALVM_JDK_VERSIONS[@]}
+			do
+				GRAALVM_VERSION=${GRAALVM_VERSION}         \
+				GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
+				GRAKN_VERSION=${GRAKN_VERSION}             \
+				     ./measureTradVersusGraalVMStartupTime.sh
+			done
+		else
+			GRAALVM_VERSION=${GRAALVM_VERSION} \
+			GRAKN_VERSION=${GRAKN_VERSION}     \
+			     ./measureTradVersusGraalVMStartupTime.sh
+        fi
+	done
+done
