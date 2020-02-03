@@ -22,41 +22,64 @@ ENV GRAKN_VERSION=${GRAKN_VERSION}
 ENV WORKDIR=/home/grakn
 WORKDIR ${WORKDIR}
 
-ARG ARTIFACT_FILENAME
-ARG ARTIFACT_FILENAME_WITH_EXT
-ARG ARTIFACT_URL
-RUN echo "Downloading artifact from url: ${ARTIFACT_URL}"
-RUN wget ${ARTIFACT_URL} --progress=bar:force 2>&1 | tail -f -n +3
+ARG GRAKN_ARTIFACT_FILENAME
+ARG GRAKN_ARTIFACT_URL
+RUN echo "Downloading artifact from url: ${GRAKN_ARTIFACT_URL}"
+RUN wget ${GRAKN_ARTIFACT_URL} --progress=bar:force 2>&1 | tail -f -n +3
 
-ARG UNPACK_COMMAND
-RUN echo "Unpacking artifact: ${ARTIFACT_FILENAME_WITH_EXT}"
-RUN eval ${UNPACK_COMMAND} | pv -l >/dev/null
+ARG GRAKN_ARTIFACT_FILENAME_WITH_EXT
+ARG GRAKN_UNPACK_COMMAND
+RUN echo "Unpacking artifact: ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
+RUN ${GRAKN_UNPACK_COMMAND} | pv -l >/dev/null
 
-RUN echo "Removing artifact: ${ARTIFACT_FILENAME_WITH_EXT}"
-RUN rm ${ARTIFACT_FILENAME_WITH_EXT}
+RUN echo "Removing artifact: ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
+RUN rm ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}
 
 RUN echo "Checking version"
-RUN ./${ARTIFACT_FILENAME}/grakn version
+RUN ./${GRAKN_ARTIFACT_FILENAME}/grakn version
 
 ### GraalVM installation
+
 ARG GRAALVM_JDK_VERSION
 ENV GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}
 
 ARG GRAALVM_VERSION
 ENV GRAALVM_VERSION="${GRAALVM_VERSION}"
 
-COPY common.sh                        ./common.sh
-COPY download-and-install-graalvm.sh  ./download-and-install-graalvm.sh
-RUN GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}  \
-    GRAALVM_VERSION=${GRAALVM_VERSION}          \
-                                      ./download-and-install-graalvm.sh
+ARG GRAALVM_ARTIFACT_URL
+RUN echo "Downloading artifact from url: ${GRAALVM_ARTIFACT_URL}"
+RUN wget ${GRAALVM_ARTIFACT_URL} --progress=bar:force 2>&1 | tail -f -n +3
+
+ARG GRAALVM_ARTIFACT
+RUN echo "Untarring artifact: ${GRAALVM_ARTIFACT}"
+RUN tar xvzf ${GRAALVM_ARTIFACT} -C /usr/local | pv -l >/dev/null
+
+ARG TARGET_GRAALVM_HOME
+ENV GRAALVM_HOME="/usr/local/${TARGET_GRAALVM_HOME}"
+RUN echo "GRAALVM_HOME=${GRAALVM_HOME}"
+
+ARG GRAALVM_ARTIFACT_FILENAME
+RUN echo "Removing artifact: ${GRAALVM_ARTIFACT}"
+RUN rm ${GRAALVM_ARTIFACT}
+RUN rm -fr ${GRAALVM_ARTIFACT_FILENAME}
+
+RUN echo "Downloading native-image"
+RUN ${GRAALVM_HOME}/bin/gu install native-image
+
+RUN echo "Checking version"
+RUN ${GRAALVM_HOME}/bin/java -version
+
+RUN echo "JAVA_HOME=${JAVA_HOME}"
+RUN echo "PATH=${PATH}"
 
 ### Cleanup to make space
+
 RUN echo "Cleaning up old stuff, again"
 RUN apt-get autoclean
 RUN apt-get clean
 
 ### Install bazel
+
 RUN apt-get update && apt-get install -qy --no-install-recommends              \
     pkg-config zip g++ zlib1g-dev unzip python3 python3-pip python3-setuptools \
     && rm -r /var/lib/apt/lists/*

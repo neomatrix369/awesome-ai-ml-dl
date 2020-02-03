@@ -71,37 +71,52 @@ buildDockerImage() {
 	
 	echo "Building image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
  
+  ### Grakn installation
   GRAKN_CORE_LINUX=grakn-core
-  ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
-  ARTIFACT_FILENAME_WITH_EXT=${ARTIFACT_FILENAME}.zip
-  UNPACK_COMMAND="unzip ${ARTIFACT_FILENAME_WITH_EXT}"
+  GRAKN_ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
+  GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.zip
+  GRAKN_UNPACK_COMMAND="unzip ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
   if [[ "$(isVersionGreaterThanOrEqualTo "${GRAKN_VERSION}" "1.4.3")" = "true" ]]; then
     GRAKN_CORE_LINUX=grakn-core-all-linux
-    ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
-    ARTIFACT_FILENAME_WITH_EXT=${ARTIFACT_FILENAME}.tar.gz
-    UNPACK_COMMAND="tar zxvf ${ARTIFACT_FILENAME_WITH_EXT}"
+    GRAKN_ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
+    GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.tar.gz
+    GRAKN_UNPACK_COMMAND="tar zxvf ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
   fi
 
-  ARTIFACT_URL="https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/${ARTIFACT_FILENAME_WITH_EXT}"
+  GRAKN_ARTIFACT_URL="https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
 
+  ### GraalVM installation
   if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
     echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
+    TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
+    GRAALVM_ARTIFACT_FILENAME=graalvm-ce-${GRAALVM_JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}
+    GRAALVM_ARTIFACT_GITHUB_REPO=graalvm/graalvm-ce-builds
   else 
     echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
+    TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_VERSION}
+    GRAALVM_ARTIFACT_FILENAME=graalvm-ce-linux-amd64-${GRAALVM_VERSION}
+    GRAALVM_ARTIFACT_GITHUB_REPO=oracle/graal
   fi
+
+  GRAALVM_ARTIFACT="${GRAALVM_ARTIFACT_FILENAME}.tar.gz"
+  GRAALVM_ARTIFACT_URL=https://github.com/${GRAALVM_ARTIFACT_GITHUB_REPO}/releases/download/vm-${GRAALVM_VERSION}/${GRAALVM_ARTIFACT}
 
 	echo "* Fetching docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	time docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
-	time docker build                                                    \
-               -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}             \
-	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}              \
-               --build-arg ARTIFACT_FILENAME=${ARTIFACT_FILENAME}      \
-               --build-arg ARTIFACT_FILENAME_WITH_EXT=${ARTIFACT_FILENAME_WITH_EXT} \
-               --build-arg ARTIFACT_URL="${ARTIFACT_URL}"              \
-               --build-arg UNPACK_COMMAND="${UNPACK_COMMAND}"          \
-               --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}  \
-               --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}          \
-               --build-arg DEFAULT_PORT=${HOST_PORT}                   \
+	time docker build                                                                             \
+               -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}                                      \
+	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}                                       \
+               --build-arg GRAKN_ARTIFACT_FILENAME=${GRAKN_ARTIFACT_FILENAME}                   \
+               --build-arg GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME_WITH_EXT} \
+               --build-arg GRAKN_ARTIFACT_URL="${GRAKN_ARTIFACT_URL}"                           \
+               --build-arg GRAKN_UNPACK_COMMAND="${GRAKN_UNPACK_COMMAND}"                       \
+               --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}                           \
+               --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}                                   \
+               --build-arg TARGET_GRAALVM_HOME=${TARGET_GRAALVM_HOME}                           \
+               --build-arg GRAALVM_ARTIFACT_FILENAME=${GRAALVM_ARTIFACT_FILENAME}               \
+               --build-arg GRAALVM_ARTIFACT=${GRAALVM_ARTIFACT}                                 \
+               --build-arg GRAALVM_ARTIFACT_URL=${GRAALVM_ARTIFACT_URL}                         \
+               --build-arg DEFAULT_PORT=${HOST_PORT}                                            \
                .
 	echo "* Finished building docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
