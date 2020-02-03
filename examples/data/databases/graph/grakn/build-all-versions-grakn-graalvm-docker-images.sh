@@ -16,32 +16,32 @@
 # limitations under the License.
 #
 
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java8 GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.0.0" GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.1.0" GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.2.0" GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java8 GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.4.3 ./grakn-runner.sh --buildDockerImage
 
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java8 GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.0.0" GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.1.0" GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.2.0" GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java8 GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.5.2 ./grakn-runner.sh --buildDockerImage
 
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java8 GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.0.0" GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.1.0" GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.2.0" GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java8 GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.5.7 ./grakn-runner.sh --buildDockerImage
 
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java8  GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.0.0" GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.1.0" GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.2.0" GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java8  GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.6.0 ./grakn-runner.sh --buildDockerImage
 
-GRAALVM_VERSION=19.0.0 GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.1.0 GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.2.0 GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java8  GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
-GRAALVM_VERSION=19.3.0 GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.0.0" GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.1.0" GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.2.0" GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java8  GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
+GRAALVM_VERSION="19.3.0" GRAALVM_JDK_VERSION=java11 GRAKN_VERSION=1.6.2 ./grakn-runner.sh --buildDockerImage
