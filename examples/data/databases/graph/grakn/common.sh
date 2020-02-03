@@ -77,9 +77,9 @@ isVersionGreaterThanOrEqualTo() {
   if [[ "$1" = "$2" ]]; then
   	result=1
   else
-  	lower_version=$(echo "$@" | tr " " "\n" | sort -V | head -n 1)
-  	if [[ "${lower_version}" = "$2" ]]; then # the second version is lower than the first
-  		result=1
+  	lower_version="$(echo "$@" | tr " " "\n" | sort -V | head -n 1)"
+  	if [[ "${lower_version}" = "$1" ]]; then # the first version is lower than the second
+  		result=0
     fi
   fi
   echo result
