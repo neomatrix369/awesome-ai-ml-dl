@@ -25,7 +25,8 @@ source common.sh
 findImage() {
 	IMAGE_NAME=$1
   IMAGE_VERSION=$2
-	echo $(docker images ${IMAGE_NAME} -q | grep ${IMAGE_VERSION} || true)
+  echo $(docker images --filter=reference="${IMAGE_NAME}:${IMAGE_VERSION}" \
+       | grep -v "REPOSITORY" || true)
 }
 
 getOpenCommand() {
@@ -138,11 +139,11 @@ pushImageToHub() {
   IS_FOUND="found"
   if [[ -z "${IMAGE_FOUND}" ]]; then
       IS_FOUND="not found"        
-      echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
+      echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' is ${IS_FOUND} in the local repository"
       exit 
   fi
 
-  echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
+  echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' is ${IS_FOUND} in the local repository"
   docker login --username=${DOCKER_USER_NAME}
   echo "Pushing image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} to Docker Hub"; echo ""
   docker push ${FULL_DOCKER_TAG_NAME}
