@@ -57,15 +57,21 @@ do
 		if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
 			for GRAALVM_JDK_VERSION in ${GRAALVM_JDK_VERSIONS[@]}
 			do
+				LOGFILE="${grakn}-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}-startup-times.md"
 				GRAALVM_VERSION=${GRAALVM_VERSION}         \
 				GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
 				GRAKN_VERSION=${GRAKN_VERSION}             \
-				     ./measureTradVersusGraalVMStartupTime.sh
+				     ./measureTradVersusGraalVMStartupTime.sh &> "${LOGFILE}"
+				cat "${LOGFILE}"
+				echo "Output saved in ${LOGFILE}"
 			done
 		else
+			LOGFILE="${grakn}-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_VERSION}-startup-times.md"
 			GRAALVM_VERSION=${GRAALVM_VERSION} \
 			GRAKN_VERSION=${GRAKN_VERSION}     \
-			     ./measureTradVersusGraalVMStartupTime.sh
+			     ./measureTradVersusGraalVMStartupTime.sh &> "${LOGFILE}"
+			cat "${LOGFILE}"
+			echo "Output saved in ${LOGFILE}"
         fi
 	done
 done
