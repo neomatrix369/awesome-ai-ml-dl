@@ -24,7 +24,8 @@ source common.sh
 
 findImage() {
 	IMAGE_NAME=$1
-	echo $(docker images ${IMAGE_NAME} -q | head -n1 || true)
+  IMAGE_VERSION=$2
+	echo $(docker images ${IMAGE_NAME} -q | grep ${IMAGE_VERSION} || true)
 }
 
 getOpenCommand() {
@@ -130,25 +131,21 @@ buildDockerImage() {
 	cleanup
 }
 
-
 pushImageToHub() {
 	askDockerUserNameIfAbsent
 
-	echo "Pushing image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} to Docker Hub"; echo ""
-	IMAGE_NAME=${IMAGE_NAME:-grakn}
-	IMAGE_VERSION=${IMAGE_VERSION:-${GRAKN_VERSION}}
-	FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
-	
-	IMAGE_FOUND="$(findImage ${FULL_DOCKER_TAG_NAME})"
-    IS_FOUND="found"
-    if [[ -z "${IMAGE_FOUND}" ]]; then
-        IS_FOUND="not found"        
-    fi
-    echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
+  IMAGE_FOUND="$(findImage ${FULL_DOCKER_TAG_NAME} ${IMAGE_VERSION})"
+  IS_FOUND="found"
+  if [[ -z "${IMAGE_FOUND}" ]]; then
+      IS_FOUND="not found"        
+      echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
+      exit 
+  fi
 
-    docker tag ${IMAGE_FOUND} ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
-    docker login --username=${DOCKER_USER_NAME}
-    docker push ${FULL_DOCKER_TAG_NAME}
+  echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
+  docker login --username=${DOCKER_USER_NAME}
+  echo "Pushing image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} to Docker Hub"; echo ""
+  docker push ${FULL_DOCKER_TAG_NAME}
 }
 
 cleanup() {
@@ -224,10 +221,10 @@ GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
 
 GRAALVM_JDK_VERSION="${GRAALVM_JDK_VERSION:-}"
-IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}"}
+IMAGE_VERSION=${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}
 if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
   GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat graalvm_jdk_version.txt || true)}
-  IMAGE_VERSION=${IMAGE_VERSION:-"${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}"}
+  IMAGE_VERSION=${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
 fi
 
 FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
