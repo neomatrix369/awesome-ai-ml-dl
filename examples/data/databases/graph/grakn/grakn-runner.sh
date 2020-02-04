@@ -146,7 +146,7 @@ pushImageToHub() {
   echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' is ${IS_FOUND} in the local repository"
   docker login --username=${DOCKER_USER_NAME}
   echo "Pushing image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} to Docker Hub"; echo ""
-  docker push ${FULL_DOCKER_TAG_NAME}
+  docker push ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
 }
 
 cleanup() {
