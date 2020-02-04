@@ -63,6 +63,7 @@ runContainer() {
                 --workdir ${WORKDIR}                               \
                 ${TOGGLE_ENTRYPOINT}                               \
                 -p ${HOST_PORT}:${CONTAINER_PORT}                  \
+                -p ${DASHBOARD_HOST_PORT}:${DASHBOARD_CONTAINER_PORT}\
                 --env SHARED_FOLDER_PATH="${SHARED_FOLDER_PATH:-}" \
                 --env JDK_TO_USE="${JDK_TO_USE:-}"                 \
                 --env JAVA_OPTS="${JAVA_OPTS:-}"                   \
@@ -222,8 +223,10 @@ askDockerUserNameIfAbsent() {
 INTERACTIVE_MODE="--interactive --tty"
 TIME_IT="time"
 
-HOST_PORT=48555
+HOST_PORT=${HOST_PORT:-48555}
 CONTAINER_PORT=48555
+DASHBOARD_HOST_PORT=${DASHBOARD_HOST_PORT:-4567}
+DASHBOARD_CONTAINER_PORT=4567
 WORKDIR="/home/grakn"
 
 IMAGES_DIR="${SCRIPT_CURRENT_DIR}/images"

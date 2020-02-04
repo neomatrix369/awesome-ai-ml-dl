@@ -60,6 +60,7 @@ waitWhilePortIsNotAvailable() {
   			break
   		else 
   			CONTAINER_ID=$(echo ${FOUND_GRAKN_CONTAINER} | awk '{print $1}' || true)
+  			docker logs -f ${CONTAINER_ID} || true 
   			FAILED=$(docker logs ${CONTAINER_ID} | grep FAILED || true)
 
   			if [[ ! -z "${FAILED}" ]]; then
