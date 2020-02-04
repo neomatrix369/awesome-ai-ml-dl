@@ -62,17 +62,18 @@ do
 				GRAALVM_VERSION=${GRAALVM_VERSION}         \
 				GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
 				GRAKN_VERSION=${GRAKN_VERSION}             \
-				     ./measureTradVersusGraalVMStartupTime.sh &> "${LOGFILE}"
+				     ./measureTradVersusGraalVMStartupTime.sh &> "${LOGFILE}" || true
 				set +x
 				cat "${LOGFILE}"
 				echo "Output saved in ${LOGFILE}"
+				sleep 120
 			done
 		else
 			LOGFILE="grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_VERSION}-startup-times.md"
 			set -x
 			GRAALVM_VERSION=${GRAALVM_VERSION} \
 			GRAKN_VERSION=${GRAKN_VERSION}     \
-			     ./measureTradVersusGraalVMStartupTime.sh &> "${LOGFILE}"
+			     ./measureTradVersusGraalVMStartupTime.sh &> "${LOGFILE}" || true
 			set +x
 			cat "${LOGFILE}"
 			echo "Output saved in ${LOGFILE}"

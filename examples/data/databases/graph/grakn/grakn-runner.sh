@@ -43,6 +43,10 @@ getOpenCommand() {
 runContainer() {
 	askDockerUserNameIfAbsent
 
+  if [[ "$(uname)" = "Linux" ]]; then
+     echo "Linux: Unfortunately mounting and writing to local volumes is currently not available - should be fixed soon. This should work on the MacOS." 
+  fi
+
 	echo "";
   if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
 	   echo "Running container ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}"; echo ""
@@ -280,7 +284,6 @@ VOLUMES_SHARED=""
 CASSANDRA_DATA_STORE_VOLUME=""
 GRAKN_LOGS_VOLUME=""
 if [[ "$(uname)" = "Linux" ]]; then
-  echo "Linux: Unfortunately mounting and writing to local volumes is currently not available - should be fixed soon. This should work on the MacOS." 
   VOLUMES_SHARED="--volume "$(pwd)"/shared:${SHARED_FOLDER_PATH} --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
   CASSANDRA_DATA_STORE_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-db/cassandra:${GRAKN_HOME}/server/db/cassandra"
   GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-logs:${GRAKN_HOME}/logs"
