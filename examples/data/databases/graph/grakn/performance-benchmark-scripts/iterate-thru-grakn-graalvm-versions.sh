@@ -51,11 +51,11 @@ GRAALVM_JDK_VERSIONS="java8 java11"
 GRAKN_VERSIONS="1.4.3 1.5.2 1.5.7 1.6.0 1.6.2"
 
 waitWhilePortIsNotAvailable() {
-	echo "Waiting till port 48555 is available."
+	echo "Waiting till ports 48555 and 4567 are available."
 	KEEP_LOOPING=true
 	while [ "${KEEP_LOOPING}"="true" ];
 	do
-  		FOUND_GRAKN_CONTAINER=$(docker ps | grep 48555 || true)
+  		FOUND_GRAKN_CONTAINER=$(docker ps | grep 48555 | grep 4567|| true)
   		if [[ -z "${FOUND_GRAKN_CONTAINER}" ]]; then
   			break
   		else 
@@ -71,7 +71,7 @@ waitWhilePortIsNotAvailable() {
   			fi
   		fi
 	done
-	echo "Port 48555 should be now available."
+	echo "Ports 48555 and 4567 should be now available."
 }
 
 for GRAKN_VERSION in ${GRAKN_VERSIONS[@]}
@@ -91,7 +91,6 @@ do
 				waitWhilePortIsNotAvailable
 				cat "${LOGFILE}"
 				echo "Output saved in ${LOGFILE}"
-				sleep 120
 			done
 		else			
 			LOGFILE="grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_VERSION}-startup-times.md"
