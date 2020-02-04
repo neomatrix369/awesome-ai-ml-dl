@@ -85,7 +85,7 @@ def print_to_log(title, content):
     print(f"{GRAQL_BOT}", title, content)
     show_divider()
 
-def execute_user_query(query_code, query_response, transaction):
+def execute_user_query(query_code, query_response):
     start_time = time.time()
     result = results_cache.get(query_code)
     retrieve_method = "real-time"
@@ -93,7 +93,10 @@ def execute_user_query(query_code, query_response, transaction):
         retrieve_method = "cache"
     else:
         graql_query = query_response[GRAQL_QUERY]
-        print(f"{GRAQL_BOT} Here's what the Graql query would look like if you typed it, neat isn't it?")
+        if query_code == "HUMAN_GRAQL_QUERY":
+            print(f"{GRAQL_BOT} Nice effort, looks like a well crafted query!") 
+        else:
+            print(f"{GRAQL_BOT} Here's what the Graql query would look like if you typed it, neat isn't it?")
         print("")
         print(f"{Fore.CYAN}{graql_query}{Style.RESET_ALL}")
         print("")
@@ -101,7 +104,8 @@ def execute_user_query(query_code, query_response, transaction):
         iterator = transaction.query(graql_query)
         if type(iterator).__name__ == 'ResponseIterator':
             result = list(iterator)
-            result = result[0].number()
+            if hasattr(result[0], 'number'):
+               result = result[0].number()
         else:    
             answers = iterator.collect_concepts()
             if hasattr(answers[0], 'value'):
@@ -126,45 +130,55 @@ def get_random_message(messages):
     a_random_number = randint(0, len(messages) - 1)
     return messages[a_random_number]
 
+def run_the_actual_graql_query(query_code, graql_query):
+    results = execute_user_query(query_code, graql_query)
+    print(f"{GRAQL_BOT} The above is based on your original input: '{user_input}'")
+    return results
+
 def process_user_input(user_input):
     create_grakn_connection()
     try:
-        responses = pattern_matching.get_filtered_responses(user_input)
-        rows_returned = responses.shape[0] # 0=col count, 0=row count
-        print("")
-        if rows_returned == 1:
-            print(f"{GRAQL_BOT} Yay! We found it (at least we think we did)! Going ahead and running it for you!")
-            print(f"{GRAQL_BOT} Hope I'm not being too hasty!")
-        elif rows_returned > 1:
-            print(get_random_message(found_something_from_input))
-            print("Here is our list:")
+        if "graql:" in user_input:
+            print(f"{GRAQL_BOT} Wow, that's a great change, not many do that these days ;)")
+            print(f"{GRAQL_BOT} Happy to execute it for you, if you think you have your graql-foo down")
+            graql_query = user_input.replace("graql:", "").strip()
+            graql_query_response = [graql_query, "Here's the output to your hand-written query:"]
+            run_the_actual_graql_query("HUMAN_GRAQL_QUERY", graql_query_response)
         else:
-            print(get_random_message(could_not_find_input))
-            return
-
-        print()
-        q_numbers = []
-        for index, row in responses.iterrows():
-            q_numbers.append(index)
-            print(f"   q{Style.BRIGHT}{index}{Style.RESET_ALL}  --->  {row['query_in_english']}")
-            meta_info = f"   Code: {Fore.BLUE}{Style.BRIGHT}{row['query_code']} {Style.RESET_ALL} | Confidence: {Fore.GREEN}{row['confidence']}{Style.RESET_ALL}, {Fore.GREEN}{row['ratio']}%{Style.RESET_ALL})"
-            print(meta_info)
+            responses = pattern_matching.get_filtered_responses(user_input)
+            rows_returned = responses.shape[0] # 0=col count, 0=row count
             print("")
+            if rows_returned == 1:
+                print(f"{GRAQL_BOT} Yay! We found it (at least we think we did)! Going ahead and running it for you!")
+                print(f"{GRAQL_BOT} Hope I'm not being too hasty!")
+            elif rows_returned > 1:
+                print(get_random_message(found_something_from_input))
+                print("Here is our list:")
+            else:
+                print(get_random_message(could_not_find_input))
+                return
 
-        if rows_returned > 1: 
-            print(f"{GRAQL_BOT} Which one of these did you mean, just type the q number?")
-            print(f"{GRAQL_BOT} one of these: {q_numbers}")
-            q_number_entered = input()
-            q_number_entered = q_number_entered.replace("\t", " ").lower()
-        else:
-            q_number_entered = q_numbers[0]
+            print()
+            q_numbers = []
+            for index, row in responses.iterrows():
+                q_numbers.append(index)
+                print(f"   q{Style.BRIGHT}{index}{Style.RESET_ALL}  --->  {row['query_in_english']}")
+                meta_info = f"   Code: {Fore.BLUE}{Style.BRIGHT}{row['query_code']} {Style.RESET_ALL} | Confidence: {Fore.GREEN}{row['confidence']}{Style.RESET_ALL}, {Fore.GREEN}{row['ratio']}%{Style.RESET_ALL})"
+                print(meta_info)
+                print("")
 
-        q_number_entered = int(q_number_entered)
-        query_code = responses['query_code'][q_number_entered]
-        graql_query_response = graql_queries.get(query_code)
-        results = execute_user_query(query_code, graql_query_response, transaction)
-        print(f"{GRAQL_BOT} The above is based on your original input: '{user_input}'")
-        return results
+            if rows_returned > 1: 
+                print(f"{GRAQL_BOT} Which one of these did you mean, just type the q number?")
+                print(f"{GRAQL_BOT} one of these: {q_numbers}")
+                q_number_entered = input()
+                q_number_entered = q_number_entered.replace("\t", " ").lower()
+            else:
+                q_number_entered = q_numbers[0]
+
+            q_number_entered = int(q_number_entered)
+            query_code = responses['query_code'][q_number_entered]
+            graql_query_response = graql_queries.get(query_code)
+            run_the_actual_graql_query(query_code, graql_query_response)
     except Exception as ex:
         print("")
         print(get_random_message(error_message_decorators))
