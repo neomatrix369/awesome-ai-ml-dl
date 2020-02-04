@@ -39,4 +39,4 @@ This process can take a bit of time as the `native-image` building process is a 
 
 ---
 
-[back to README](./README.md)
+[back to README](./../README.md)

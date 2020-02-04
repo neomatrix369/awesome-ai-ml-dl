@@ -44,4 +44,4 @@ $  RUN_GRAKN_ONLY=true startGraknAndGraql.sh
 
 ---
 
-[back to README](./README.md)
+[back to README](./../README.md)

@@ -20,11 +20,11 @@ Also, available experimental usage of GraalVM, to take advantages of the perform
 
 ## Scripts provided
 
-See [Scripts provided](scripts-provided.md).
+See [Scripts provided](./docs/scripts-provided.md).
 
 ### Performance Scripts provided
 
-- [measureTradVersusGraalVMStartupTime.sh](./performance-benchmark-scripts/measureTradVersusGraalVMStartupTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled), see [successful run console](successful-run-console.md) output generated from this script.
+- [measureTradVersusGraalVMStartupTime.sh](./performance-benchmark-scripts/measureTradVersusGraalVMStartupTime.sh) - measure the startup time between traditional JDK and GraalVM (with JVMCI enabled and disabled), see [successful run console](./docs/successful-run-console.md) output generated from this script.
 - [runPerformanceBenchmark.sh](./performance-benchmark-scripts/runPerformanceBenchmark.sh) - script baked into the docker image, run via the [grakn-runner.sh](./grakn-runner.sh) script (see usage text to find out how to run it). This usually takes a bit of time to finish due to the many steps it does with bazel and building [benchmark](https://github.com/graknlabs/benchmark). Also see the [performance script execution output](./performance-benchmark-scripts/output-from-running-performance-script.md).
 
 ## Usage
@@ -42,15 +42,15 @@ You must have an account on Docker hub under the above user name.
 
 ### Running Grakn docker container
 
-See [Grakn Docker container](grakn-docker-container.md)
+See [Grakn Docker container](./docs/grakn-docker-container.md)
 
 ### Run the performance script in the Grakn docker container
 
-See [Run the performance script](run-the-performance-script.md)
+See [Run the performance script](./docs/run-the-performance-script.md)
 
 ### Build the Grakn docker container
 
-See [Build the Grakn docker container](build-the-grakn-docker-container.md)
+See [Build the Grakn docker container](./docs/build-the-grakn-docker-container.md)
 
 ### Docker image on Docker Hub
 
@@ -58,7 +58,7 @@ Find the [Grakn Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix36
 
 ### Building Grakn
 
-See [Building Grakn](building-grakn.md)
+See [Building Grakn](./docs/building-grakn.md)
 
 #### Known issues doing the above
 

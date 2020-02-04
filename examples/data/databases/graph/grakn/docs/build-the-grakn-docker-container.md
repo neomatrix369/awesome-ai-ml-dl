@@ -1,6 +1,6 @@
 ## Build the Grakn docker container
 
-See [Setting your environment](README.md#setting-your-environment) before proceeding
+See [Setting your environment](../README.md#setting-your-environment) before proceeding
 
 ```bash
 $ ./buildDockerImage.sh
@@ -12,7 +12,7 @@ $ GRAKN_VERSION="x.y.z" ./buildDockerImage.sh
 
 **Push built Grakn docker image to Docker hub:**
 
-See [Setting your environment](README.md#setting-your-environment) before proceeding
+See [Setting your environment](../README.md#setting-your-environment) before proceeding
 
 ```bash
 $ ./push-grakn-docker-image-to-hub.sh
@@ -26,4 +26,4 @@ The above will prompt the docker login name and password, before it can push you
 
 ---
 
-[back to README](./README.md)
+[back to README](./../README.md)

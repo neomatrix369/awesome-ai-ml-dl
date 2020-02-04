@@ -1,11 +1,11 @@
 ## Scripts provided
 
-**See in [the current folder](../grakn) to find the below scripts**
+**See in [the current folder](../../grakn) to find the below scripts**
 
-- [grakn_version.txt](grakn_version.txt) - save the version of Grakn used to build and run the docker container
-- [graalvm_version.txt](graalvm_version.txt) - save the version of GraalVM used to build and run the docker container
-- [Dockerfile](./Dockerfile): a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
-- [grakn-runner.sh](grakn-runner.sh) - one script does it all, using CLI args, see script usage text:
+- [grakn_version.txt](../grakn_version.txt) - save the version of Grakn used to build and run the docker container
+- [graalvm_version.txt](../graalvm_version.txt) - save the version of GraalVM used to build and run the docker container
+- [Dockerfile](..//Dockerfile): a dockerfile script to help build a docker image of Grakn and Graql in an isolated environment with the necessary dependencies.
+- [grakn-runner.sh](../grakn-runner.sh) - one script does it all, using CLI args, see script usage text:
 ```
 $ ./grakn-runner.sh --help
 
@@ -44,11 +44,11 @@ $ ./grakn-runner.sh --help
        --help                shows the script usage help text
 
 ```
-The [grakn-runner.sh](grakn-runner.sh) script runs the container which then calls the respective scripts inside the container and the rest you can see by examing the script. It exposes the Grakn port 48555, so Workbase can be used to connect to http://localhost:48555. The graql console is also available in the window running the docker instance via a separate command (see usage text above).
+The [grakn-runner.sh](../grakn-runner.sh) script runs the container which then calls the respective scripts inside the container and the rest you can see by examing the script. It exposes the Grakn port 48555, so Workbase can be used to connect to http://localhost:48555. The graql console is also available in the window running the docker instance via a separate command (see usage text above).
 - Run inside the Grakn docker container
-    - [startGraknAndGraql.sh](./startGraknAndGraql.sh) - entry point script baked into the docker image
-    - [grakn-jar-runner.sh](grakn-jar-runner.sh) - run the Grakn server or console jar files (based on the grakn script provided with the distributable - modified to be able to run the individual jars with the right parameters)
-    - [builder.sh](./builder.sh) - build uberjar and native image from the uberjar for standalone execution (target for native-image is OS specific, uberjar can run on any JVM target), see script usage text:
+    - [startGraknAndGraql.sh](..//startGraknAndGraql.sh) - entry point script baked into the docker image
+    - [grakn-jar-runner.sh](../grakn-jar-runner.sh) - run the Grakn server or console jar files (based on the grakn script provided with the distributable - modified to be able to run the individual jars with the right parameters)
+    - [builder.sh](..//builder.sh) - build uberjar and native image from the uberjar for standalone execution (target for native-image is OS specific, uberjar can run on any JVM target), see script usage text:
     ```
             Usage: ./builder.sh --grakn-home   [/path/to/grak/home]
                  --jarfile      [/path/to/JAR file]
@@ -74,4 +74,4 @@ The [grakn-runner.sh](grakn-runner.sh) script runs the container which then call
 
 ---
 
-[back to README](./README.md)
+[back to README](../README.md)

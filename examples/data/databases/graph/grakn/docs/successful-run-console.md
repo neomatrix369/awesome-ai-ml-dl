@@ -190,5 +190,6 @@ user  0m0.160s
 sys 0m0.143s
 ```
 
+---
 
-[Back to Grakn Main Page](./README.md)
+[Back to Grakn Main Page](./../README.md)
