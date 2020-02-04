@@ -64,9 +64,9 @@ runContainer() {
                 --env JAVA_OPTS="${JAVA_OPTS:-}"                   \
                 --env RUN_GRAKN_ONLY="${RUN_GRAKN_ONLY:-}"         \
                 --env GRAKN_HOME=${GRAKN_HOME}                     \
-                ${JDK_SPECIFIC_ENV_VALUES}                         \
                 ${GRAKN_LOGS_VOLUME}                               \
                 ${CASSANDRA_DATA_STORE_VOLUME}                     \
+                ${JDK_SPECIFIC_ENV_VALUES}                         \
                 ${VOLUMES_SHARED}                                  \
                 ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}
   set +x
@@ -275,9 +275,16 @@ JAVA8_HOME="/usr/local/openjdk-8/"
 ## When run in the console mode (command-prompt available)
 TOGGLE_ENTRYPOINT=""
 SHARED_FOLDER_PATH="${WORKDIR}/shared"
-VOLUMES_SHARED="--volume "$(pwd)"/shared:${SHARED_FOLDER_PATH} --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
-CASSANDRA_DATA_STORE_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-db/cassandra:${WORKDIR}/${GRAKN_CORE_LINUX}-${GRAKN_VERSION}/server/db/cassandra"
-GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-logs:${WORKDIR}/${GRAKN_CORE_LINUX}-${GRAKN_VERSION}/logs"
+
+VOLUMES_SHARED=""
+CASSANDRA_DATA_STORE_VOLUME=""
+GRAKN_LOGS_VOLUME=""
+if [[ "$(uname)" = "Linux" ]]; then
+  echo "Linux: Unfortunately mounting and writing to local volumes is currently not available - should be fixed soon. This should work on the MacOS." 
+  VOLUMES_SHARED="--volume "$(pwd)"/shared:${SHARED_FOLDER_PATH} --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
+  CASSANDRA_DATA_STORE_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-db/cassandra:${GRAKN_HOME}/server/db/cassandra"
+  GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-logs:${GRAKN_HOME}/logs"
+fi
 
 RUN_GRAKN_ONLY=false
 
