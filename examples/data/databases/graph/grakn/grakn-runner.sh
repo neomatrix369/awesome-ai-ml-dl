@@ -43,12 +43,12 @@ getOpenCommand() {
 runContainer() {
 	askDockerUserNameIfAbsent
 
-  if [[ "$(uname)" = "Linux" ]]; then
-     echo "Linux: Unfortunately mounting and writing to local volumes is currently not available - should be fixed soon. This should work on the MacOS." 
-  fi
-
 	echo "";
   if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
+    if [[ "$(uname)" = "Linux" ]]; then
+       echo "Linux: Unfortunately mounting and writing to local volumes is currently not available - should be fixed soon. This should work on the MacOS." 
+    fi
+
 	   echo "Running container ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}"; echo ""
   fi
 
