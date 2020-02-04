@@ -58,18 +58,22 @@ do
 			for GRAALVM_JDK_VERSION in ${GRAALVM_JDK_VERSIONS[@]}
 			do
 				LOGFILE="grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}-startup-times.md"
+				set -x
 				GRAALVM_VERSION=${GRAALVM_VERSION}         \
 				GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
 				GRAKN_VERSION=${GRAKN_VERSION}             \
 				     ./measureTradVersusGraalVMStartupTime.sh &> "${LOGFILE}"
+				set +x
 				cat "${LOGFILE}"
 				echo "Output saved in ${LOGFILE}"
 			done
 		else
 			LOGFILE="grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_VERSION}-startup-times.md"
+			set -x
 			GRAALVM_VERSION=${GRAALVM_VERSION} \
 			GRAKN_VERSION=${GRAKN_VERSION}     \
 			     ./measureTradVersusGraalVMStartupTime.sh &> "${LOGFILE}"
+			set +x
 			cat "${LOGFILE}"
 			echo "Output saved in ${LOGFILE}"
         fi

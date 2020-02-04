@@ -20,7 +20,10 @@ set -e
 set -u
 set -o pipefail
 
-source common.sh
+
+SCRIPT_CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+source "${SCRIPT_CURRENT_DIR}/common.sh"
 
 findImage() {
 	IMAGE_NAME=$1
@@ -42,7 +45,7 @@ runContainer() {
 
 	echo "";
   if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
-	   echo "Running container ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"; echo ""
+	   echo "Running container ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}"; echo ""
   fi
 
 	mkdir -p shared
@@ -64,28 +67,24 @@ runContainer() {
                 ${GRAKN_LOGS_VOLUME}                               \
                 ${CASSANDRA_DATA_STORE_VOLUME}                     \
                 ${VOLUMES_SHARED}                                  \
-                ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
+                ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}
   set +x
 }
 
 buildDockerImage() {
 	askDockerUserNameIfAbsent
 	
-	echo "Building image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
+	echo "Building image ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}"
  
   ### Grakn installation
-  GRAKN_CORE_LINUX=grakn-core
-  GRAKN_ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
-  GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.zip
-  GRAKN_UNPACK_COMMAND="unzip ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
+  GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_HOME}.zip
+  GRAKN_UNPACK_COMMAND="unzip ${GRAKN_ARTIFACT_NAME_WITH_EXT}"
   if [[ "$(isVersionGreaterThanOrEqualTo "${GRAKN_VERSION}" "1.5.2")" = "true" ]]; then
-    GRAKN_CORE_LINUX=grakn-core-all-linux
-    GRAKN_ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
-    GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.tar.gz
-    GRAKN_UNPACK_COMMAND="tar zxvf ${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
+    GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_HOME}.tar.gz
+    GRAKN_UNPACK_COMMAND="tar zxvf ${GRAKN_ARTIFACT_NAME_WITH_EXT}"
   fi
 
-  GRAKN_ARTIFACT_URL="https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/${GRAKN_ARTIFACT_FILENAME_WITH_EXT}"
+  GRAKN_ARTIFACT_URL="https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/${GRAKN_ARTIFACT_NAME_WITH_EXT}"
 
   ### GraalVM installation
   if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
@@ -103,13 +102,13 @@ buildDockerImage() {
   GRAALVM_ARTIFACT="${GRAALVM_ARTIFACT_FILENAME}.tar.gz"
   GRAALVM_ARTIFACT_URL=https://github.com/${GRAALVM_ARTIFACT_GITHUB_REPO}/releases/download/vm-${GRAALVM_VERSION}/${GRAALVM_ARTIFACT}
 
-	echo "* Fetching docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
-	time docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
+	echo "* Fetching docker image ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} from Docker Hub"
+	time docker pull ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} || true
 	time docker build                                                                             \
-               -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}                                      \
+               -t ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}                                      \
 	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}                                       \
-               --build-arg GRAKN_ARTIFACT_FILENAME=${GRAKN_ARTIFACT_FILENAME}                   \
-               --build-arg GRAKN_ARTIFACT_FILENAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME_WITH_EXT} \
+               --build-arg GRAKN_HOME=${GRAKN_HOME}                                             \
+               --build-arg GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_ARTIFACT_NAME_WITH_EXT}         \
                --build-arg GRAKN_ARTIFACT_URL="${GRAKN_ARTIFACT_URL}"                           \
                --build-arg GRAKN_UNPACK_COMMAND="${GRAKN_UNPACK_COMMAND}"                       \
                --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}                           \
@@ -120,7 +119,7 @@ buildDockerImage() {
                --build-arg GRAALVM_ARTIFACT_URL=${GRAALVM_ARTIFACT_URL}                         \
                --build-arg DEFAULT_PORT=${HOST_PORT}                                            \
                .
-	echo "* Finished building docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
+	echo "* Finished building docker image ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} from Docker Hub"
 	if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
   else 
@@ -135,7 +134,7 @@ buildDockerImage() {
 pushImageToHub() {
 	askDockerUserNameIfAbsent
 
-  IMAGE_FOUND="$(findImage ${FULL_DOCKER_TAG_NAME} ${IMAGE_VERSION})"
+  IMAGE_FOUND="$(findImage ${FULL_DOCKER_REPO_NAME} ${IMAGE_VERSION})"
   IS_FOUND="found"
   if [[ -z "${IMAGE_FOUND}" ]]; then
       IS_FOUND="not found"        
@@ -145,8 +144,8 @@ pushImageToHub() {
 
   echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' is ${IS_FOUND} in the local repository"
   docker login --username=${DOCKER_USER_NAME}
-  echo "Pushing image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} to Docker Hub"; echo ""
-  docker push ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
+  echo "Pushing image ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} to Docker Hub"; echo ""
+  docker push ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}
 }
 
 cleanup() {
@@ -211,24 +210,29 @@ askDockerUserNameIfAbsent() {
 }
 
 #### Start of script
-SCRIPT_CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 IMAGES_DIR="${SCRIPT_CURRENT_DIR}/images"
 
 DOCKER_USER_NAME="${DOCKER_USER_NAME:-neomatrix369}"
-
 IMAGE_NAME=${IMAGE_NAME:-grakn}
+FULL_DOCKER_REPO_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"      ### Using this field as Repository name of the image (using Docker terms)
 
 GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
 
 GRAALVM_JDK_VERSION="${GRAALVM_JDK_VERSION:-}"
-IMAGE_VERSION=${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}
+IMAGE_VERSION=${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}   ### Using this field as Tag name of the image (using Docker terms)
+
 if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
   GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat graalvm_jdk_version.txt || true)}
   IMAGE_VERSION=${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
 fi
 
-FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
+GRAKN_CORE_LINUX=grakn-core
+GRAKN_HOME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
+if [[ "$(isVersionGreaterThanOrEqualTo "${GRAKN_VERSION}" "1.5.2")" = "true" ]]; then
+  GRAKN_CORE_LINUX=grakn-core-all-linux
+  GRAKN_HOME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
+fi
 
 ############################################ we are defaulting to GraalVM
 
@@ -265,8 +269,8 @@ JAVA8_HOME="/usr/local/openjdk-8/"
 TOGGLE_ENTRYPOINT=""
 SHARED_FOLDER_PATH="${WORKDIR}/shared"
 VOLUMES_SHARED="--volume "$(pwd)"/shared:${SHARED_FOLDER_PATH} --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
-CASSANDRA_DATA_STORE_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-db/cassandra:${WORKDIR}/grakn-core-all-linux-${GRAKN_VERSION}/server/db/cassandra"
-GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-logs:${WORKDIR}/grakn-core-all-linux-${GRAKN_VERSION}/logs"
+CASSANDRA_DATA_STORE_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-db/cassandra:${WORKDIR}/${GRAKN_HOME}/server/db/cassandra"
+GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-logs:${WORKDIR}/${GRAKN_HOME}/logs"
 
 RUN_GRAKN_ONLY=false
 
