@@ -280,13 +280,14 @@ JAVA8_HOME="/usr/local/openjdk-8/"
 TOGGLE_ENTRYPOINT=""
 SHARED_FOLDER_PATH="${WORKDIR}/shared"
 
-VOLUMES_SHARED=""
-CASSANDRA_DATA_STORE_VOLUME=""
-GRAKN_LOGS_VOLUME=""
+VOLUMES_SHARED="--volume "$(pwd)"/shared:${SHARED_FOLDER_PATH} --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
+CASSANDRA_DATA_STORE_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-db/cassandra:${GRAKN_HOME}/server/db/cassandra"
+GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-logs:${GRAKN_HOME}/logs"
+
 if [[ "$(uname)" = "Linux" ]]; then
-  VOLUMES_SHARED="--volume "$(pwd)"/shared:${SHARED_FOLDER_PATH} --volume $(pwd)/.cache/bazel:$(pwd)/.cache/bazel"
-  CASSANDRA_DATA_STORE_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-db/cassandra:${GRAKN_HOME}/server/db/cassandra"
-  GRAKN_LOGS_VOLUME="--volume $(pwd)/shared/grakn-${GRAKN_VERSION}-logs:${GRAKN_HOME}/logs"
+  VOLUMES_SHARED=""
+  CASSANDRA_DATA_STORE_VOLUME=""
+  GRAKN_LOGS_VOLUME=""
 fi
 
 RUN_GRAKN_ONLY=false
