@@ -36,7 +36,7 @@ echo ""
 
 echo ""
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-time ./${GRAKN_HOME}/grakn server start --benchmark
+time ${GRAKN_HOME}/grakn server start --benchmark
 echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Grakn server is running..."
@@ -47,6 +47,6 @@ if [[ "${RUN_GRAKN_ONLY:-}" = "true" ]]; then
 else
 	echo "Starting Graql console..."
 	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-	time ./${GRAKN_HOME}/grakn console
+	time ${GRAKN_HOME}/grakn console
 	/bin/bash
 fi

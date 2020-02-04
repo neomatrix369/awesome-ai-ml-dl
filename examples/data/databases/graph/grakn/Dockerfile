@@ -36,7 +36,7 @@ RUN rm ${GRAKN_ARTIFACT_NAME_WITH_EXT}
 
 ARG GRAKN_HOME
 RUN echo "Checking version"
-RUN ./${GRAKN_HOME}/grakn version
+RUN ${GRAKN_HOME}/grakn version
 
 ### GraalVM installation
 

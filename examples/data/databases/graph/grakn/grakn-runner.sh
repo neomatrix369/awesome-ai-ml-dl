@@ -63,6 +63,7 @@ runContainer() {
                 --env JDK_TO_USE="${JDK_TO_USE:-}"                 \
                 --env JAVA_OPTS="${JAVA_OPTS:-}"                   \
                 --env RUN_GRAKN_ONLY="${RUN_GRAKN_ONLY:-}"         \
+                --env GRAKN_HOME=${GRAKN_HOME}                     \
                 ${JDK_SPECIFIC_ENV_VALUES}                         \
                 ${GRAKN_LOGS_VOLUME}                               \
                 ${CASSANDRA_DATA_STORE_VOLUME}                     \
@@ -77,10 +78,10 @@ buildDockerImage() {
 	echo "Building image ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}"
  
   ### Grakn installation
-  GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_HOME}.zip
+  GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.zip
   GRAKN_UNPACK_COMMAND="unzip ${GRAKN_ARTIFACT_NAME_WITH_EXT}"
   if [[ "$(isVersionGreaterThanOrEqualTo "${GRAKN_VERSION}" "1.5.2")" = "true" ]]; then
-    GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_HOME}.tar.gz
+    GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.tar.gz
     GRAKN_UNPACK_COMMAND="tar zxvf ${GRAKN_ARTIFACT_NAME_WITH_EXT}"
   fi
 
@@ -103,11 +104,18 @@ buildDockerImage() {
   GRAALVM_ARTIFACT_URL=https://github.com/${GRAALVM_ARTIFACT_GITHUB_REPO}/releases/download/vm-${GRAALVM_VERSION}/${GRAALVM_ARTIFACT}
 
 	echo "* Fetching docker image ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} from Docker Hub"
-	time docker pull ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} || true
+
+  if [[ -z "$(findImage ${FULL_DOCKER_REPO_NAME} ${IMAGE_VERSION})" ]]; then
+     echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' not found in the local repository, attempting to pull from Docker Hub"
+     time docker pull ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} || true
+  else 
+    echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' found in the local repository"  
+  fi
 	time docker build                                                                             \
-               -t ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}                                      \
+               -t ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}                                     \
 	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}                                       \
                --build-arg GRAKN_HOME=${GRAKN_HOME}                                             \
+               --build-arg GRAKN_ARTIFACT_FILENAME=${GRAKN_ARTIFACT_FILENAME}                   \
                --build-arg GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_ARTIFACT_NAME_WITH_EXT}         \
                --build-arg GRAKN_ARTIFACT_URL="${GRAKN_ARTIFACT_URL}"                           \
                --build-arg GRAKN_UNPACK_COMMAND="${GRAKN_UNPACK_COMMAND}"                       \
@@ -126,8 +134,6 @@ buildDockerImage() {
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
   fi
   
-	cleanup
-	pushImageToHub
 	cleanup
 }
 
@@ -210,6 +216,13 @@ askDockerUserNameIfAbsent() {
 }
 
 #### Start of script
+INTERACTIVE_MODE="--interactive --tty"
+TIME_IT="time"
+
+HOST_PORT=48555
+CONTAINER_PORT=48555
+WORKDIR="/home/grakn"
+
 IMAGES_DIR="${SCRIPT_CURRENT_DIR}/images"
 
 DOCKER_USER_NAME="${DOCKER_USER_NAME:-neomatrix369}"
@@ -228,11 +241,13 @@ if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" 
 fi
 
 GRAKN_CORE_LINUX=grakn-core
-GRAKN_HOME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
+GRAKN_ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
 if [[ "$(isVersionGreaterThanOrEqualTo "${GRAKN_VERSION}" "1.5.2")" = "true" ]]; then
   GRAKN_CORE_LINUX=grakn-core-all-linux
-  GRAKN_HOME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
+  GRAKN_ARTIFACT_FILENAME=${GRAKN_CORE_LINUX}-${GRAKN_VERSION}
 fi
+
+GRAKN_HOME="${WORKDIR}/${GRAKN_CORE_LINUX}-${GRAKN_VERSION}"
 
 ############################################ we are defaulting to GraalVM
 
@@ -255,13 +270,6 @@ JDK_SPECIFIC_ENV_VALUES="
        --env SERVER_JAVAOPTS=${SERVER_JAVAOPTS}"
 
 ###########################################################################
-
-INTERACTIVE_MODE="--interactive --tty"
-TIME_IT="time"
-
-HOST_PORT=48555
-CONTAINER_PORT=48555
-WORKDIR="/home/grakn"
 
 JAVA8_HOME="/usr/local/openjdk-8/"
 
