@@ -115,7 +115,6 @@ buildDockerImage() {
                -t ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}                                     \
 	             --build-arg GRAKN_VERSION=${GRAKN_VERSION}                                       \
                --build-arg GRAKN_HOME=${GRAKN_HOME}                                             \
-               --build-arg GRAKN_ARTIFACT_FILENAME=${GRAKN_ARTIFACT_FILENAME}                   \
                --build-arg GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_ARTIFACT_NAME_WITH_EXT}         \
                --build-arg GRAKN_ARTIFACT_URL="${GRAKN_ARTIFACT_URL}"                           \
                --build-arg GRAKN_UNPACK_COMMAND="${GRAKN_UNPACK_COMMAND}"                       \
