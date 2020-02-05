@@ -1,0 +1,171 @@
+
+~~~ Running Grakn in a Docker container using the Traditional JDK (version 1.8) Grakn version 1.5.7
+
++ docker run --rm --detach --workdir /home/grakn --user=grakn -p 48555:48555 -p 4567:4567 --env SHARED_FOLDER_PATH=/home/grakn/shared --env JDK_TO_USE=TRADITIONAL-JDK --env JAVA_OPTS= --env RUN_GRAKN_ONLY=false --env GRAKN_HOME=/home/grakn/grakn-core-all-linux-1.5.7 --env JAVA_HOME=/usr/local/openjdk-8/ neomatrix369/grakn:1.5.7-GRAALVM-CE-19.2.0
++ set +x
+
+Traditional-JDK: Grakn in the container is now starting (id = 791c437)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JAVA_HOME=/usr/local/openjdk-8/
+PATH=/usr/local/openjdk-8//bin:/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b08)
+OpenJDK 64-Bit Server VM (build 25.242-b08, mixed mode)
+Grakn version: (see bottom of the startup text banner)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================================================================================
+      ________  _____     _______  __    __  __    __      _______  _______  _____     _______
+     |   __   ||   _  \  |   _   ||  |  /  /|  \  |  |    |   _   ||   _   ||   _  \  |   ____|
+     |  |  |__||  | |  | |  | |  ||  | /  / |   \ |  |    |  | |__||  | |  ||  | |  | |  |
+     |  | ____ |  |_| /  |  |_|  ||  |/  /  |    \|  |    |  |     |  | |  ||  |_| /  |  |____
+     |  ||_   ||   _  \  |   _   ||   _  \  |   _    |    |  |  __ |  | |  ||   _  \  |   ____|
+     |  |__|  ||  | \  \ |  | |  ||  | \  \ |  | \   |    |  |_|  ||  |_|  ||  | \  \ |  |____
+     |________||__|  \__\|__| |__||__|  \__\|__|  \__|    |_______||_______||__|  \__\|_______|
+
+                                         THE KNOWLEDGE GRAPH
+====================================================================================================
+                                                                                      Version: 1.5.7
+Starting Storage......SUCCESS
+Starting Grakn Core Server..........SUCCESS
+
+real	0m20.761s
+user	0m8.622s
+sys	0m0.765s
+^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Grakn server is running...
+Starting Graql console...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome to Grakn Console. You are now in Grakn Wonderland!
+Copyright (C) 2019 Grakn Labs Limited
+
+
+real	0m7.566s
+user	0m1.380s
+sys	0m0.132s
+
+Traditional-JDK: Shutting down Grakn in the container (id = 791c437)
+Traditional-JDK: Grakn in the container (id = 791c437) has been shutdown.
+
+
+real	0m29.404s
+user	0m0.118s
+sys	0m0.061s
+
+~~~ Running Grakn in a Docker container using the GraalVM CE  (version 19.2.0), JVMCI disabled, Grakn version 1.5.7
+
++ docker run --rm --detach --workdir /home/grakn --user=grakn -p 48555:48555 -p 4567:4567 --env SHARED_FOLDER_PATH=/home/grakn/shared --env JDK_TO_USE=GRAALVM --env JAVA_OPTS=-XX:-UseJVMCINativeLibrary --env RUN_GRAKN_ONLY=false --env GRAKN_HOME=/home/grakn/grakn-core-all-linux-1.5.7 --env GRAALVM_HOME=/usr/local/graalvm-ce-19.2.0 --env JAVA_HOME=/usr/local/graalvm-ce-19.2.0 --env GRAKN_DAEMON_JAVAOPTS=-XX:+UseJVMCINativeLibrary --env STORAGE_JAVAOPTS=-XX:+UseJVMCINativeLibrary --env SERVER_JAVAOPTS=-XX:+UseJVMCINativeLibrary neomatrix369/grakn:1.5.7-GRAALVM-CE-19.2.0
++ set +x
+
+GRAALVM: Grakn in the container is now starting (id = e165ce0)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JAVA_HOME=/usr/local/graalvm-ce-19.2.0
+PATH=/usr/local/graalvm-ce-19.2.0/bin:/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+openjdk version "1.8.0_222"
+OpenJDK Runtime Environment (build 1.8.0_222-20190711120915.buildslave.jdk8u-src-tar--b08)
+OpenJDK 64-Bit GraalVM CE 19.2.0 (build 25.222-b08-jvmci-19.2-b02, mixed mode)
+Grakn version: (see bottom of the startup text banner)
+STORAGE_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+SERVER_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+GRAKN_DAEMON_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================================================================================
+      ________  _____     _______  __    __  __    __      _______  _______  _____     _______
+     |   __   ||   _  \  |   _   ||  |  /  /|  \  |  |    |   _   ||   _   ||   _  \  |   ____|
+     |  |  |__||  | |  | |  | |  ||  | /  / |   \ |  |    |  | |__||  | |  ||  | |  | |  |
+     |  | ____ |  |_| /  |  |_|  ||  |/  /  |    \|  |    |  |     |  | |  ||  |_| /  |  |____
+     |  ||_   ||   _  \  |   _   ||   _  \  |   _    |    |  |  __ |  | |  ||   _  \  |   ____|
+     |  |__|  ||  | \  \ |  | |  ||  | \  \ |  | \   |    |  |_|  ||  |_|  ||  | \  \ |  |____
+     |________||__|  \__\|__| |__||__|  \__\|__|  \__|    |_______||_______||__|  \__\|_______|
+
+                                         THE KNOWLEDGE GRAPH
+====================================================================================================
+                                                                                      Version: 1.5.7
+Starting Storage......SUCCESS
+Starting Grakn Core Server..........SUCCESS
+
+real	0m20.381s
+user	0m7.308s
+sys	0m0.969s
+^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Grakn server is running...
+Starting Graql console...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome to Grakn Console. You are now in Grakn Wonderland!
+Copyright (C) 2019 Grakn Labs Limited
+
+
+real	0m9.243s
+user	0m1.488s
+sys	0m0.175s
+
+GRAALVM: Shutting down Grakn in the container (id = e165ce0)
+GRAALVM: Grakn in the container (id = e165ce0) has been shutdown.
+
+
+real	0m30.764s
+user	0m0.121s
+sys	0m0.050s
+
+~~~ Running Grakn in a Docker container using the GraalVM CE  (version 19.2.0), JVMCI enabled, Grakn version 1.5.7
+
++ docker run --rm --detach --workdir /home/grakn --user=grakn -p 48555:48555 -p 4567:4567 --env SHARED_FOLDER_PATH=/home/grakn/shared --env JDK_TO_USE=GRAALVM --env JAVA_OPTS=-XX:+UseJVMCINativeLibrary --env RUN_GRAKN_ONLY=false --env GRAKN_HOME=/home/grakn/grakn-core-all-linux-1.5.7 --env GRAALVM_HOME=/usr/local/graalvm-ce-19.2.0 --env JAVA_HOME=/usr/local/graalvm-ce-19.2.0 --env GRAKN_DAEMON_JAVAOPTS=-XX:+UseJVMCINativeLibrary --env STORAGE_JAVAOPTS=-XX:+UseJVMCINativeLibrary --env SERVER_JAVAOPTS=-XX:+UseJVMCINativeLibrary neomatrix369/grakn:1.5.7-GRAALVM-CE-19.2.0
++ set +x
+
+GRAALVM: Grakn in the container is now starting (id = 445955c)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JAVA_HOME=/usr/local/graalvm-ce-19.2.0
+PATH=/usr/local/graalvm-ce-19.2.0/bin:/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+openjdk version "1.8.0_222"
+OpenJDK Runtime Environment (build 1.8.0_222-20190711120915.buildslave.jdk8u-src-tar--b08)
+OpenJDK 64-Bit GraalVM CE 19.2.0 (build 25.222-b08-jvmci-19.2-b02, mixed mode)
+Grakn version: (see bottom of the startup text banner)
+STORAGE_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+SERVER_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+GRAKN_DAEMON_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================================================================================
+      ________  _____     _______  __    __  __    __      _______  _______  _____     _______
+     |   __   ||   _  \  |   _   ||  |  /  /|  \  |  |    |   _   ||   _   ||   _  \  |   ____|
+     |  |  |__||  | |  | |  | |  ||  | /  / |   \ |  |    |  | |__||  | |  ||  | |  | |  |
+     |  | ____ |  |_| /  |  |_|  ||  |/  /  |    \|  |    |  |     |  | |  ||  |_| /  |  |____
+     |  ||_   ||   _  \  |   _   ||   _  \  |   _    |    |  |  __ |  | |  ||   _  \  |   ____|
+     |  |__|  ||  | \  \ |  | |  ||  | \  \ |  | \   |    |  |_|  ||  |_|  ||  | \  \ |  |____
+     |________||__|  \__\|__| |__||__|  \__\|__|  \__|    |_______||_______||__|  \__\|_______|
+
+                                         THE KNOWLEDGE GRAPH
+====================================================================================================
+                                                                                      Version: 1.5.7
+Starting Storage......SUCCESS
+Starting Grakn Core Server..........SUCCESS
+
+real	0m20.230s
+user	0m7.208s
+sys	0m0.977s
+^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Grakn server is running...
+Starting Graql console...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome to Grakn Console. You are now in Grakn Wonderland!
+Copyright (C) 2019 Grakn Labs Limited
+
+
+real	0m7.943s
+user	0m1.500s
+sys	0m0.188s
+[35mgrakn[0m> 
+GRAALVM: Shutting down Grakn in the container (id = 445955c)
+GRAALVM: Grakn in the container (id = 445955c) has been shutdown.
+
+
+real	0m29.217s
+user	0m0.132s
+sys	0m0.037s
