@@ -61,6 +61,7 @@ runContainer() {
   ${TIME_IT} docker run --rm                                       \
                 ${INTERACTIVE_MODE}                                \
                 --workdir ${WORKDIR}                               \
+                --user=grakn                                       \
                 ${TOGGLE_ENTRYPOINT}                               \
                 -p ${HOST_PORT}:${CONTAINER_PORT}                  \
                 -p ${DASHBOARD_HOST_PORT}:${DASHBOARD_CONTAINER_PORT}\
