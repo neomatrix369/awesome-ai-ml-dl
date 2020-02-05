@@ -47,7 +47,7 @@ set -o pipefail
 source ../common.sh
 
 GRAALVM_VERSIONS="19.0.0 19.1.0 19.2.0 19.3.0"
-GRAALVM_JDK_VERSIONS="java8 java11"
+GRAALVM_JDK_VERSIONS="java8" # java11 is not supported by Grakn yet (only Java 8)
 GRAKN_VERSIONS="1.4.3 1.5.2 1.5.7 1.6.0 1.6.2"
 
 waitWhilePortIsNotAvailable() {
