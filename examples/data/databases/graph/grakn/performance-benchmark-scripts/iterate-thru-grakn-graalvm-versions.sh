@@ -115,3 +115,6 @@ do
         fi
 	done
 done
+
+echo "Use the below command to filter through the metrics produced"
+echo "    $ cd linux; grep \"Running Grakn\\|graql console\\|Shutting down\" -b3 -a5 *.logs | grep -v \"docker\\|set\""
