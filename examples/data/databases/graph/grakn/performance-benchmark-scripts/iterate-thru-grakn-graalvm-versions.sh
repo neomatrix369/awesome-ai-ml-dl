@@ -74,7 +74,14 @@ waitWhilePortIsNotAvailable() {
 	echo "Ports 48555 and 4567 should be now available."
 }
 
-OSNAME_LOWER_CASE=$(echo $(uname) | tr '[:upper:]' '[:lower:]')
+if [[ "$(uname)" = "Linux" ]]; then
+   OSNAME_LOWER_CASE="linux"
+elif [[ "$(uname)" = "Darwin" ]]; then
+   OSNAME_LOWER_CASE="macos"
+elif [[ "$(uname)" == CYGWIN* || "$(uname)" == MINGW* ]] ; then
+   OSNAME_LOWER_CASE="windows"
+fi
+
 mkdir -p "${OSNAME_LOWER_CASE}"
 
 for GRAKN_VERSION in ${GRAKN_VERSIONS[@]}
