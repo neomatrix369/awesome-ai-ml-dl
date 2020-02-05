@@ -74,6 +74,9 @@ waitWhilePortIsNotAvailable() {
 	echo "Ports 48555 and 4567 should be now available."
 }
 
+OSNAME_LOWER_CASE=$(echo $(uname) | tr '[:upper:]' '[:lower:]')
+mkdir -p "${OSNAME_LOWER_CASE}"
+
 for GRAKN_VERSION in ${GRAKN_VERSIONS[@]}
 do
 	for GRAALVM_VERSION in ${GRAALVM_VERSIONS[@]}
@@ -81,7 +84,7 @@ do
 		if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
 			for GRAALVM_JDK_VERSION in ${GRAALVM_JDK_VERSIONS[@]}
 			do
-				LOGFILE="grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}-startup-times.md"
+				LOGFILE="${OSNAME_LOWER_CASE}/grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}-startup-times.logs"
 				set -x
 				GRAALVM_VERSION=${GRAALVM_VERSION}         \
 				GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
@@ -93,7 +96,7 @@ do
 				echo "Output saved in ${LOGFILE}"
 			done
 		else			
-			LOGFILE="grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_VERSION}-startup-times.md"
+			LOGFILE="${OSNAME_LOWER_CASE}/grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_VERSION}-startup-times.logs"
 			set -x
 			GRAALVM_VERSION=${GRAALVM_VERSION} \
 			GRAKN_VERSION=${GRAKN_VERSION}     \
