@@ -55,7 +55,7 @@ waitWhilePortIsNotAvailable() {
 	KEEP_LOOPING=true
 	while [ "${KEEP_LOOPING}"="true" ];
 	do
-  		FOUND_GRAKN_CONTAINER=$(docker ps | grep 48555 | grep 4567|| true)
+  		FOUND_GRAKN_CONTAINER=$(docker ps | grep "48555\|4567" || true)
   		if [[ -z "${FOUND_GRAKN_CONTAINER}" ]]; then
   			break
   		else 
