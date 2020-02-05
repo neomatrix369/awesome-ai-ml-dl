@@ -99,8 +99,7 @@ runBuildsSerial() {
 }
 
 
-FOUND_PARALLEL=$(which parallel | grep -v "not found")
-set -e
+FOUND_PARALLEL="$(which parallel | grep -v "not found" || true)"
 if [ -z "${FOUND_PARALLEL}" ]; then
   echo "*** Parallel not installed on this box, run the below: \n sudo apt-get install parallel or see https://www.gnu.org/software/parallel/."
   runBuildsSerial
