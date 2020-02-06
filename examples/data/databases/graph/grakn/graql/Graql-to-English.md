@@ -40,12 +40,27 @@ Schema please
 
 ### English (literal)
 
-- Find customers of type person, with attribute phone number populated (valid entry)
+- Find customers of type person, with attribute phone number populated (valid entries)
 - Find a company whose attribute name is Telecom
 - Find a contract relationship between a customer and company
 - Find a target (customer) of entity type person and with a phone number attribute of value "+86 921 547 9004"
 - Find a call relationship between a customer and a target (also customer) where the call attribute started-at > a given minimum date of 2018-09-10T00:00:00
 - Find the phone number of the target
+
+### English (simplifications)
+
+- Find a company by the name Telecom 
+- And customers who have a contract with this company
+- ~Find customers of type person, with attribute phone number populated (valid entries) (automatically filtered)~
+- And find the customer with the telephone number "+86 921 547 9004"
+- Find all the calls made by this customer to others on or after the date 10-9-2018 starting mid-night (or September 10th 2018 starting mid-night)
+- Gather and return the phone numbers of all these people who were called
+
+### English (further simplifications)
+
+- Find the customer from the company Telecom with the telephone number "+86 921 547 9004"
+- Get the numbers of all the calls made by this customer on or after the date 10-9-2018 mid-night (or September 10th 2018 mid-night)
+
 
 ### English (created by human)
 
