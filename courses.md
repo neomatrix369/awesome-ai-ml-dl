@@ -3,6 +3,7 @@
 - [Algorithms](#algorithms)
 - [Cambridge Spark](#cambridge-spark)
 - [Datacamp](#datacamp)
+- [DATAQUEST](https://www.dataquest.io/)
 - [Dataiku](#dataiku)
 - [Data Science](#data-science)
 - [Computer Vision](#computer-vision)
