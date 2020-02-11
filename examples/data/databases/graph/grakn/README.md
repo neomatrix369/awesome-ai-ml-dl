@@ -109,6 +109,7 @@ See [Graql-to-English](./graql/Graql-to-English.md)
 - Community
   - [Slack](https://grakn.ai/slack)
   - [Discuss](https://discuss.grakn.ai/)
+  - [Video](youtube.com/c/graknlabs)
 - Cloud
   - Grakn on AWS: [Grakn Profile (AWS Marketplace)](https://aws.amazon.com/marketplace/seller-profile?id=35eaf0dd-eda4-4b8d-b78a-443f6c619104)| [Grakn KGMS(AWS Marketplace)](https://aws.amazon.com/marketplace/pp/GRAKNAI-Grakn-KGMS/B07H8RMX5X) | [Deploy Grakn on AWS](https://dev.grakn.ai/docs/cloud-deployment/aws) | [Blog](https://blog.grakn.ai/grakn-kgms-is-now-on-aws-db871ecdb425)
   - Grakn on Google: [Deploy Grakn on Google](https://dev.grakn.ai/docs/cloud-deployment/google-cloud) | [GRAKN.AI with Google Bigtable via JanusGraph](https://blog.grakn.ai/grakn-ai-with-google-bigtable-via-janusgraph-cc46fd0958df) | [Blog](https://blog.grakn.ai/grakn-ai-on-google-cloud-f18f6692670c)
