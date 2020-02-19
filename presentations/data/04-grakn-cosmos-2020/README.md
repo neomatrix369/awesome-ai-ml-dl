@@ -2,7 +2,7 @@
 
 ### Slides
 
-See [slides (PDF)](./GraknCosmos2020/Naturally,-getting-productive,-my-journey-with-Grakn-and-Graql.pdf)
+See [slides (PDF)](../../../examples/data/databases/graph/grakn/presentations/GraknCosmos2020/Naturally,-getting-productive,-my-journey-with-Grakn-and-Graql.pdf)
 
 ### Video
 
