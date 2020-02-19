@@ -144,9 +144,10 @@ See [Other Tools](./things-to-know.md#other-tools)
 ### Presentations
 
 - [NLP presentations](./natural-language-processing/README.md#presentations)
- - [Better NLP - presentations](./examples/better-nlp/presentations)
+  - [Better NLP - presentations](./examples/better-nlp/presentations)
 - [Data presentations](./presentations/data/)
- - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
+  - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
+  - [Graph database: Grakn (GraknCosmos 2020)](../examples/data/databases/graph/grakn/presentations/README.md) 
 
 ### Best Practices
 
