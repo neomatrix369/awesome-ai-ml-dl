@@ -65,6 +65,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [Jupyter notebook for entity recognition and sentiment analysis](../notebooks/nlp/20190411-spacy-and-textblob-nlp-entity-recognition-and-sentiment-analysis.ipynb)
 - [Kaggle kernel: NLP uncertainty](https://www.kaggle.com/allunia/hidden-treasures-in-our-groceries)
 - [Better NLP - notebooks](../examples/better-nlp/notebooks)
+- Also see notebooks under [Natural Language Processing (NLP)](../notebooks/README.md#natural-language-processing-nlp) in the [Notebooks](../notebooks/README.md) section
 
 ## Unstructured to structured data
 

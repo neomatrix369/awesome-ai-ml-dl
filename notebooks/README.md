@@ -43,7 +43,13 @@ See [Notebooks from NVIDIA's RAPIDS](../cloud-devops-infra/gpus/rapids.md#notebo
 ## Natural Language Processing (NLP) 
 
 - [NLP related notebooks](../natural-language-processing/README.md#notebooks)
-- Better NLP Notebooks: [Jupyter](../examples/better-nlp/notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb) | [Google Colab](../examples/better-nlp/notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
+- Better NLP Notebooks: 
+  - Jupyter
+    - [Spacy/Texacy Examples](../examples/better-nlp/notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb) 
+    - [Summarisers Examples](../examples/better-nlp/notebooks/jupyter/better_nlp_summarisers.ipynb)
+  - Google Colab
+    - [Spacy/Texacy Examples](../examples/better-nlp/notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
+    - [Summarisers Examples](../examples/better-nlp/notebooks/google-colab/better_nlp_summarisers.ipynb)
 - [Bag of words notebook](../blogs/keras-bag-of-words-expanded-version/data-scripts-notebooks/)
 
 ## Neural Networks
