@@ -35,4 +35,7 @@ echo "fs.inotify.max_user_watches=100000" > /etc/sysctl.conf
 curl --silent --location https://deb.nodesource.com/setup_8.x | \
                                          bash - && apt-get install nodejs -y
 
+apt-get install -y libc-ares2 libnode64 libuv1 nodejs-doc
+apt-get install -y npm
+
 ./install-dependencies.sh

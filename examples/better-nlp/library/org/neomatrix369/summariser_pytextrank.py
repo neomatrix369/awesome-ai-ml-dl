@@ -48,6 +48,7 @@ import pylab as plt
 # pylint: disable=E0401
 import pytextrank
 
+import os
 
 class SummariserPyTextRank:
     """
@@ -161,18 +162,16 @@ class SummariserPyTextRank:
             by the name specified in top_sentences_output
         """
 
-        key_phrases = ", ".join({
-            [
-                phrase for phrase in \
-                    pytextrank.limit_keyphrases(key_phrases_output, phrase_limit=12)
-            ]
-        })
+        phrases = pytextrank.limit_keyphrases(key_phrases_output, phrase_limit=12)
+        key_phrases = ", ".join([phrase for phrase in phrases])
 
         sentence_iterator = sorted(pytextrank.limit_sentences( \
                  top_sentences_output, word_limit=150), key=lambda x: x[1])
         sentences = []
         for sentence_text in sentence_iterator:
-            sentences.append(pytextrank.make_sentence(sentence_text))
+            print("sentence_text: ", sentence_text[0])
+            print("make sentence(sentence_text):", pytextrank.make_sentence(sentence_text[0]))
+            sentences.append(pytextrank.make_sentence(sentence_text[0]))
 
         return " ".join(sentences), key_phrases
 
@@ -199,9 +198,14 @@ class SummariserPyTextRank:
             Returns dictionaries containing summarised text, token ranks,
             key phrases, and an object containing the graph
         """
-        paragraph_output = "paragraph_output.json"
-        key_phrases_output = "key_phrases_output.json"
-        top_sentences_output = "top_sentences_output.json"
+        working_directory = os.path.dirname(text_file)
+        if not working_directory:
+            working_directory = os.path.abspath(os.path.curdir)
+            text_file = os.path.join(working_directory, text_file)
+
+        paragraph_output = os.path.join(working_directory, "paragraph_output.json")
+        key_phrases_output = os.path.join(working_directory, "key_phrases_output.json")
+        top_sentences_output = os.path.join(working_directory, "top_sentences_output.json")
 
         # Stage 1: Perform statistical parsing/tagging on a document in JSON format
         self.perform_statistical_parsing_tagging(text_file, paragraph_output)
