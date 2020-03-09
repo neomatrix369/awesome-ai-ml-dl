@@ -169,8 +169,6 @@ class SummariserPyTextRank:
                  top_sentences_output, word_limit=150), key=lambda x: x[1])
         sentences = []
         for sentence_text in sentence_iterator:
-            print("sentence_text: ", sentence_text[0])
-            print("make sentence(sentence_text):", pytextrank.make_sentence(sentence_text[0]))
             sentences.append(pytextrank.make_sentence(sentence_text[0]))
 
         return " ".join(sentences), key_phrases
