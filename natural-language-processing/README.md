@@ -39,6 +39,8 @@ See [Course, Tutorial, Learning resource](./course-tutorial-learning-resources.m
 
 ## Library, Framework, Models, Tools, Services
 
+- [Better NLP](https://bit.ly/better-nlp-launch)
+
 See [Library, Framework, Models, Tools, Services](./library-framework-models-tools-services.md)
 
 ## Metaphor detection
@@ -62,6 +64,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [NLP using word vectors with Spacy notebook](https://github.com/central-ldn-data-sci/nlp-using-word-vectors/blob/master/NLP%20using%20Word%20Vectors%20with%20Spacy.ipynb)
 - [Jupyter notebook for entity recognition and sentiment analysis](../notebooks/nlp/20190411-spacy-and-textblob-nlp-entity-recognition-and-sentiment-analysis.ipynb)
 - [Kaggle kernel: NLP uncertainty](https://www.kaggle.com/allunia/hidden-treasures-in-our-groceries)
+- [Better NLP - notebooks](../examples/better-nlp/notebooks)
 
 ## Unstructured to structured data
 
