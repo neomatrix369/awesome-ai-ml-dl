@@ -34,13 +34,17 @@
 - [VizDoom AI competition](http://vizdoom.cs.put.edu.pl/competition-cig-2017) [deadlink]
 - [Numerai](https://numer.ai/) - data science tournaments | [Keynote](https://youtu.be/YojhLjLrG1M)
 - [10 Data Science Competitions for you to hone your skills for 2020](https://towardsdatascience.com/10-data-science-competitions-for-you-to-hone-your-skills-for-2020-32d87ee19cc9)
-- [Kaggle Kernels Guide for Beginners — Step by Step Tutorial](https://towardsdatascience.com/kaggle-kernels-for-beginners-a-step-by-step-guide-3db6b1cd7606)
+- [QuantQuest](https://quant-quest.com/)
 
 ## Coding challenges
 
 - [Hacker Rank](https://lnkd.in/gEufBUu)
 - [Codeacademy](https://lnkd.in/gGQ7cuv)
 - [LeetCode](https://leetcode.com/)
+
+## Resources
+
+- [Kaggle Kernels Guide for Beginners — Step by Step Tutorial](https://towardsdatascience.com/kaggle-kernels-for-beginners-a-step-by-step-guide-3db6b1cd7606)
 
 # Contributing
 
