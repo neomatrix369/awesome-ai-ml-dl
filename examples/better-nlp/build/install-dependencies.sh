@@ -30,6 +30,6 @@ python --version
 pip --version
 
 # Install python packages for NLP
-python -m pip install spacy textacy pytextrank nltk
+python -m pip install spacy textacy "pytextrank>=2.0.1" nltk
 
 python -m pip install jupyterlab pandas matplotlib
