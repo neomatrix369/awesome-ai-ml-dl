@@ -48,6 +48,10 @@ See [Pandas profiling](./pandas-profiling.md)
 
 See [Bamboo UI](./bamboolib.md)
 
+### Dabl
+
+[Dabl: Data Analysis Baseline Library](https://dabl.github.io/dev/) (just like [Pandas profiling](./data/pandas-profiling.md)) | [GitHub](https://github.com/dabl/dabl)
+
 ### Redis modules
 
 - [neural-redis](https://github.com/antirez/neural-redis) - Online trainable neural networks as Redis data types

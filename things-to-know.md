@@ -91,6 +91,7 @@ See [Courses](./courses.md#courses)
 - Cloud-based data software & APIs (AWS, GCP, Azure, etc.)
 - [Pandas profiling](./data/pandas-profiling.md)
 - [Bamboolib](./data/bamboolib.md)
+- [Dabl: Data Analysis Baseline Library](https://dabl.github.io/dev/) (just like [Pandas profiling](./data/pandas-profiling.md)) | [GitHub](https://github.com/dabl/dabl)
 - Also see resources under **Data**: [[1]](./README-details.md#data) | [[2]](./data/README.md#data)
 
 ## IDEs
