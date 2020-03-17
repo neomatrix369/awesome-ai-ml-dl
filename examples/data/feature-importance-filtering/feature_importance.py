@@ -1,3 +1,21 @@
+#!/bin/python
+
+#
+# Copyright 2019 Mani Sarkar
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
 from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
 
@@ -20,6 +38,8 @@ def convert_columns_into_categorical(dataset):
     return dataset
 
 
+### Inspired by blog post https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
+### Credits to Susan Li (https://medium.com/@actsusanli)
 def get_feature_importance_with_regression_method(X_train, y_train):
     X_train = convert_columns_into_categorical(X_train)
 
@@ -29,7 +49,8 @@ def get_feature_importance_with_regression_method(X_train, y_train):
 
     return X_train.columns[rfe.support_]
 
-
+### Inspired by blog post https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
+### Credits to Susan Li (https://medium.com/@actsusanli)
 def get_feature_importance_with_logit_method(X_train, y_train, show_summary_only=False, p_values_cutoff=P_VALUES_STD_CUTOFF):
     X_train = convert_columns_into_categorical(X_train)
 
