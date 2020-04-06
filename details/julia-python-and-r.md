@@ -112,6 +112,7 @@
   - [ICCV](http://iccv2019.thecvf.com/) 
   - [ECCV](https://eccv2020.eu/)
   - [BMVC](https://bmvc2019.org/)
+  - [NeurIPS](https://nips.cc/)
   
   ### Blogs
 
