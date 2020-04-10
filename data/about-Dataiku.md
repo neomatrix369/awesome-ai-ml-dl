@@ -1,4 +1,4 @@
-## Dataiku
+## Dataiku  [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss)
 
 - [Download DSS Free edition](https://www.dataiku.com/dss/trynow/free-edition/)
 - Download trial editions:
