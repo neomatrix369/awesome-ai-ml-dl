@@ -19,6 +19,7 @@
   - [Dataiku YouTube Channel](https://www.youtube.com/channel/UCSMqVwPTmerMiCaL_zKRjBw)
   - [Dataiku Academy](https://academy.dataiku.com/5.1/)
   - [Dataiku Learn](https://www.dataiku.com/learn/) | [Tutorials](https://www.dataiku.com/learn/portals/tutorials.html) | [Dataiku ML: Your First Deep Learning Model](https://academy.dataiku.com/latest/tutorial/machine-learning/deep-learning-first.html) | [Dataiku: Machine Learning](https://academy.dataiku.com/latest/tutorial/machine-learning/skills.html)
+  - **[Dataiku Community](https://community.dataiku.com)** - new portal to bring Data Scientists and Machine Learning engineers together
 
 ---
 
