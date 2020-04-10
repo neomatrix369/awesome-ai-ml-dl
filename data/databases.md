@@ -26,6 +26,10 @@
 - [Time-scale](https://www.timescale.com/)
 - [kdb+](https://en.wikipedia.org/wiki/Kdb%2B) - is a column-based relational time series database (TSDB) with in-memory (IMDB) abilities, developed and marketed by [Kx Systems](https://kx.com/)
 
+## Misc.
+- [Difference between JOIN and UNION in SQL](https://www.geeksforgeeks.org/difference-between-join-and-union-in-sql/)
+- [Difference between COMMIT and ROLLBACK in SQL](https://www.geeksforgeeks.org/difference-between-commit-and-rollback-in-sql/)
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
