@@ -29,6 +29,17 @@
   - [Activation Function](./wandb/Activation-Function.png)
 - Videos
   - Tutorial: https://www.wandb.com/classes/intro/overview
+- GitHub
+   - Organisation: https://github.com/wandb
+   - W&B Client: https://github.com/wandb/client
+   - W&B User issues: https://github.com/wandb/user-issues 
+   - W&B Examples: https://github.com/wandb/examples
+   - W&B Artifacts examples: https://github.com/wandb/artifacts-examples
+   - W&B CodeSearchNet: https://github.com/wandb/codesearchnet (an F/OSS benchmarking project in collaboration with GitHub)
+   - W&B Training: https://github.com/wandb/wandb-training
+   - W&B Tutorial: https://github.com/wandb/tutorial
+   - W&B GitBook: https://github.com/wandb/gitbook
+   - W&B Docs: https://github.com/wandb/docs
 - Additional resources
   - [Error caused by missing input_shape in your first layer](https://stackoverflow.com/questions/52690293/tensorflow-attributeerror-nonetype-object-has-no-attribute-original-name-sc)
   - [Bloomberg summary colab notebook](https://colab.research.google.com/drive/1lfLR9WRzmjOMmnNmePys4-8WNfZ5xC90#scrollTo=wbjXyjFRaT1d)
