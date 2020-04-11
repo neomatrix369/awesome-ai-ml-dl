@@ -45,6 +45,11 @@
   - [Bloomberg summary colab notebook](https://colab.research.google.com/drive/1lfLR9WRzmjOMmnNmePys4-8WNfZ5xC90#scrollTo=wbjXyjFRaT1d)
   - [Implementation of W&B for model param tuning](https://www.kaggle.com/robertehshi/basics-of-nfl-expost)
   - https://talktotransformer.com/ - Adam Daniel King's implementation of GPT-2 on the back of the PyTorch version
+  - https://app.wandb.ai/sayakpaul/jigsaw-toxic/reports/Kaggle-Starter-Kernel---Jigsaw-Multilingual-Toxic-Comment-Classification--Vmlldzo3NjE1MQ
+  - https://www.wandb.com/kaggle | https://www.youtube.com/watch?v=MFJnkgUTMrM&
+  - https://www.wandb.com/articles/model-explorations-and-hyperparameter-search-with-w-b-and-kubernetes (Robert Porsch)
+  - https://www.kaggle.com/robertehshi/basics-of-nfl-expost (Robert Lutz)
+  - https://app.wandb.ai/cayush/pytorchlightning/reports/Use-Pytorch-Lightning-with-Weights-%26-Biases--Vmlldzo2NjQ1Mw
   - ...for more [see this](./wandb/More-resources.md)
 
 ---
