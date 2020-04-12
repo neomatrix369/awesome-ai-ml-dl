@@ -10,7 +10,9 @@
 - [Resources on GitHub on interpretability](https://github.com/topics/interpretability)
 - [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - A Curated, but Probably Biased and Incomplete, List of Awesome Machine Learning Interpretability Resources
 - [Seldon's opensource library for MachineLearning model inspection and interpretation](https://github.com/SeldonIO/alibi)
-
+- [Elifive](https://eli5.readthedocs.io/en/latest/overview.html) | [GitHub](https://github.com/TeamHG-Memex/eli5)
+- [Shap](https://github.com/slundberg/shap) [1](https://blog.dominodatalab.com/shap-lime-python-libraries-part-1-great-explainers-pros-cons/) [2](https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/)
+    
 ## Articles, blog posts, papers, notebooks, books, presentations
 
 - [DataRobot: Model Interpretability - What is Model Interpretability in Machine Learning?](https://www.datarobot.com/wiki/interpretability/)
@@ -42,6 +44,12 @@
 - [Explainable AI: The Royal Society](https://www.linkedin.com/posts/nabihbawazir_explainable-ai-the-royal-society-activity-6610121083649695744-SXrL)
 - [Important Model Evaluation Metrics for Machine Learning Everyone should know - Tavish Srivastava](https://www.linkedin.com/posts/vipulppatel_important-model-evaluation-metrics-everyone-ugcPost-6607395953429266432-cDiV)
 - [Read Pavel Pscheidl’s latest blog for a step by step on how to import, inspect, and score with MOJO models inside #H2O](https://lnkd.in/gbNtfMn) | [LinkedIn](https://www.linkedin.com/posts/pavel-pscheidl-19b15990_h2o-ai-ml-activity-6606566698516656128-Bk93)
+- [Time to push explainable AI 🔬💪🏽](https://www.linkedin.com/posts/huggingface_exbert-activity-6654074548163489792-yjj0)
+- [🔥🚀 How to explain a ML model such that the explanation is truthful to the model and yet interpretable to us?](https://media-exp1.licdn.com/dms/image/C4E22AQFhqlWOu4i6ug/feedshare-shrink_800/0?e=1589414400&v=beta&t=BZ91YA4gBTevwy5gHBT6TZ3nZ0QKBSMEfHTxUJUc3oY) [LinkedIn Post](https://www.linkedin.com/posts/hamed-zitoun-54428658_machinelearning-deeplearning-artificialintelligence-activity-6630725520386519043--7gr)
+- Now you can print Machine Learning Interpretation Dashboard with single line of code: [Favio Vazquez's post](https://medium.com/datos-y-ciencia/weekly-digest-for-data-science-and-ai-python-and-r-volume-20-b1c9fb885621) | [Detailed Explanation](https://datascienceplus.com/understanding-titanic-dataset-with-h2os-automl-dalex-and-lares-library/) [LinkedIn Post](https://www.linkedin.com/posts/nabihbawazir_machinelearning-datascience-artificialintelligence-activity-6635858894444990464-6grx)
+- [Analysing ML models with imandra](https://www.linkedin.com/posts/isaacbaum_analysing-machine-learning-models-with-imandra-activity-6635136920240340992-BOp0)
+- [How Explainable AI is helping algorithms avoid bias](https://www.forbes.com/sites/simonchandler/2020/02/18/how-explainable-ai-is-helping-algorithms-avoid-bias/#7d21a68a5ed3) [LinkedIn Post](https://www.linkedin.com/posts/bo-li-8503b896_httpswwwforbescomsitessimonchandler-activity-6635931803196710912-dRQR)
+- [Building blocks of Interpretability](https://distill.pub/2018/building-blocks/)
 
 ## Calibration
 

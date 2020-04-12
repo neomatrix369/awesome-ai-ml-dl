@@ -8,6 +8,7 @@
 - [DeepAR](#deepar)
 - [Methods: ARMA/ARIMA/SARIMA and others](#methods-armaarimasarima-and-others)
 - [Non-stationary Time-series](#non-stationary-time-series)
+- [Look-ahead bias](#look-ahead-bias)
 - [Generalized Additive Models](#generalized-additive-models)
 - [Courses / Tutorials / Workshops](#courses--tutorials--workshops)
 - [Applied Time series](applied-time-series)
@@ -32,6 +33,7 @@
 - [Introduction to Time Series Classification in Python](https://blog.edugrad.com/introduction-to-time-series-classification-in-python/)
 - [Time Series Analysis in Python: An Introduction](https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a)
 - [An Introduction to Time-series Analysis Using Python and Pandas](https://medium.com/towards-artificial-intelligence/an-introduction-to-time-series-analysis-using-python-and-pandas-222fe72b191a)
+- [Time Series Analysis with Pandas](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_time-series-analysis-with-pandas-activity-6639096721928396800-n8ia)
 - [Time Series Forecast: A basic introduction using Python](https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000)
 - [Deep Learning for Time Series | Dimitry Larko | Kaggle Days](https://www.youtube.com/watch?v=svNwWSgz2NM&feature=youtu.be)
 - [(Video) Ian Ozsvald: A gentle introduction to Pandas timeseries and Seaborn | PyData London 2019](https://www.youtube.com/watch?v=8upGdZMlkYM (1hr 24m))
@@ -84,10 +86,16 @@
 - [7 methods to perform Time Series forecasting (with Python codes)](https://www.analyticsvidhya.com/blog/2018/02/time-series-forecasting-methods/)
 - [11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
 - [List of Time Series Method](https://www.linkedin.com/posts/nabihbawazir_list-of-time-series-method-for-business-activity-6603565390427709440-HnS-)
+- [Implement an ARIMA model using statsmodels (Python)](https://www.linkedin.com/posts/data-science-central_implement-an-arima-model-using-statsmodels-activity-6628365239232589825-GRHk)
+- [Self aware streaming with ARIMA (Timeseries models)](https://www.linkedin.com/posts/isaacbaum_self-aware-streaming-activity-6626980492765904896-5-_a)
 
 ## Non-stationary Time-series
 
 - [A Gentle Introduction to Handling a Non-Stationary Time Series in Python](https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/)
+
+## Look-ahead bias
+
+- [Avoiding Look Ahead Bias in Time Series Modelling](https://www.linkedin.com/posts/data-science-central_avoiding-look-ahead-bias-in-time-series-modelling-activity-6628076836083511297-GLEm)
 
 ## Generalized Additive Models
 
@@ -127,12 +135,17 @@
 
 - [(Video) Dafne van Kuppevelt | Deep learning for time series made easy](https://www.youtube.com/watch?v=9X_4i7zdSY8 (22m))
 - [(Video) 1D Convolutional Neural Networks for Time Series Modeling - Nathan Janos, Jeff Roach](https://www.youtube.com/watch?v=nMkqWxMjWzg (35m))
+- [How to Develop Convolutional Neural Network Models for Time Series ind_forecasting-uncertainty-at-airbnb_confirm](https://machinelearningmastery.com/how-to-develop-convolutional-neural-network-models-for-time-series-forecasting/)
 - [(Video) Igor Gotlibovych: Deep Learning and Time Series Forecasting for Smarter Energy | PyData London 2019](https://www.youtube.com/watch?v=p6mKFs6HVlg (40m))
 - [Based on Deep Learning for Time-Series Forecasting Course](https://github.com/kmfullerton/Deep_Learning_Time_Series)
 - [Deep-Learning-for-Time-Series-Forecasting](https://github.com/Geo-Joy/Deep-Learning-for-Time-Series-Forecasting)
 - [How to Get Started with Deep Learning for Time Series Forecasting (7-Day Mini-Course)](https://www.aiproblog.com/index.php/2018/09/03/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
 - [The Promise of Recurrent Neural Networks for Time Series Forecasting](https://machinelearningmastery.com/promise-recurrent-neural-networks-time-series-forecasting/)
 - [Google Stock Price Time Series Prediction with RNN(LSTM) using pytorch from Scratch](https://in.pycon.org/cfp/2018/proposals/google-stock-price-time-series-prediction-with-rnnlstm-using-pytorch-from-scratch~b67Rd/)
+- [Time Series and Decentralized Networks - Upcoming free webinar http://bit.ly/3b40pKL](https://www.linkedin.com/posts/data-science-central_time-series-and-decentralized-networks-activity-6647291431524319232-zbSy)
+- [How to Develop Deep Learning Models for Univariate Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-deep-learning-models-for-univariate-time-series-forecasting/)
+- [How to Develop Multilayer Perceptron Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-multilayer-perceptron-models-for-time-series-forecasting/)
+
 
 ## Forecasting
 
@@ -159,6 +172,8 @@
 - [(Video) Tamara Louie: Applying Statistical Modeling & Machine Learning to Perform Time-Series Forecasting](https://www.youtube.com/watch?v=JntA9XaTebs (1hr 26m))
 - [(Video) Jeffrey Yau: Time Series Forecasting using Statistical and Machine Learning Models | PyData NYC 2017](https://www.youtube.com/watch?v=_vQ0W_qXMxk (32m))
 - [(Video) Igor Gotlibovych: Deep Learning and Time Series Forecasting for Smarter Energy | PyData London 2019](https://www.youtube.com/watch?v=p6mKFs6HVlg (40m))
+- [Selecting Forecasting Methods in Data Science](https://www.linkedin.com/posts/vincentg_selecting-forecasting-methods-in-data-science-activity-6637418894577459200-NXel)
+- Multi-step Time Series Forecasting with Machine Learning for Electricity Usage: [Part 1](https://machinelearningmastery.com/multi-step-time-series-forecasting-with-machine-learning-models-for-household-electricity-consumption/) [Part 2](https://www.linkedin.com/posts/jasonbrownlee_multi-step-time-series-forecasting-with-machine-activity-6640791155732807680-IdDZ)
 
 ## Forecasting using Prophet
 
@@ -178,6 +193,7 @@
 - [Master’s Thesis: Time Series Data Prediction and Analysis](https://dspace.cvut.cz/bitstream/handle/10467/70524/F3-DP-2017-Ostashchuk-Oleg-Prediction%20Time%20Series%20Data%20Analysis.pdf)
 - [App that will plot a single time-series sensor history and make predictions using Prophet](https://github.com/robmarkcole/HASS-time-series-prediction)
 - [Cassandra NoSQL + Bokeh + Prophet for stock time series analysis](https://github.com/robmarkcole/CassandraTime)
+- [How to make time-data cyclical for prediction?](https://www.linkedin.com/posts/vincentg_how-to-make-time-data-cyclical-for-prediction-activity-6648404528720867329-azaJ)
 - [Book (paid): Advances in Financial Machine Learning by Marcos Lopez de Prado](https://www.amazon.co.uk/Advances-Financial-Machine-Learning-Marcos/dp/1119482089?SubscriptionId=AKIAILSHYYTFIVPWUY6Q&tag=duckduckgo-brave-uk-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1119482089) (also available on [Safari Books](https://my.safaribooksonline.com/login))
 
 ## Trend estimation / trend analysis
@@ -197,6 +213,7 @@
 - [(Video) Aileen Nielsen - Irregular time series and how to whip them](https://www.youtube.com/watch?v=E4NMZyfao2c (29m))
 - [(Video) Pydata Time-series talks](https://www.youtube.com/results?search_query=pydata+time+series)
 - [Videos by Ashrith Barthur on Security, Time-series and Anomaly detection](https://www.youtube.com/results?search_query=h2o+ashrith)
+- [Outlier detection with time series data mining](https://www.linkedin.com/posts/data-science-central_outlier-detection-with-time-series-data-mining-activity-6652403632190877696-8wVh)
 - [Financial: time series](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
 - [Driverless AI's time-series support](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/time-series.html)
 - [Time Series with Driverless AI - Marios Michailidis and Mathias Müller - H2O AI World London 2018](https://www.youtube.com/watch?v=EGVY7-Spv8E)

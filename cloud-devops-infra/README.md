@@ -57,6 +57,15 @@ reproducible research
   - [Nextflow](https://www.nextflow.io/) - Data-driven computational pipelines. Nextflow enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages.
   - [StackHPC suites of repositories: AI, ML, DL, Cloud, HPC](https://github.com/stackhpc) | [StackHPC](http://stackhpc.com/)
   - [cortex](https://www.cortex.dev/) - Machine learning deployment platform: Deploy machine learning models to production
+  - [#Uber introduces #Fiber, an #AI development and distributed training platform for methods including reinforcement learning and population-based learning.](https://www.linkedin.com/posts/inna-vogel-nlp_introduction-to-fiber-activity-6649564159828606976-Jmi6) 
+  - [H2O Framework for Machine Learning](https://www.linkedin.com/posts/data-science-central_h2o-framework-for-machine-learning-activity-6635175109445382144-ISgt)
+  - [ML Framework: Introducing Ludwig, a Code-Free Deep Learning Toolbox](https://eng.uber.com/introducing-ludwig/)
+  - [ML Pipelines](https://www.linkedin.com/posts/artificialintelligenceconsultant_activity-6639429321943539712-vRug)
+  - [ML Framework by Abhishek Thakur](https://www.linkedin.com/posts/abhi1thakur_machinelearning-python-datascience-activity-6644289209181978625-wZtJ)
+    - [Episode 1 Intro and building a machine learning framework](https://lnkd.in/e5Syy5N)
+    - [Episode 2 A Cross Validation Framework](https://lnkd.in/eDjFTGW)
+    - [Episode 3 Handling Categorical Features in Machine Learning Problems](https://lnkd.in/e9Qc5fe)
+    - [Episode 4 Simple and Basic Binary Classification Metrics](https://lnkd.in/eGZtcPW)
   - [See also: Data > Programs and Tools](../data/programs-and-tools.md#programs-and-tools)
 
 ## CPU
@@ -122,6 +131,8 @@ reproducible research
   - [GraphCore](http://graphcore.ai) | Videos: [Simon Knowles - More complex models and more powerful machines](https://www.youtube.com/watch?v=dLvkF_TmyAc&feature=youtu.be) | [Graphcore tech Concept](https://youtu.be/cSXbhEsUUGo?t=916) | [A new kind of hardware designed for machine intelligence - GraphCore Presentations](http://www.bristol.bcs.org.uk/2017/graphcore.pdf) | [V‍ID‌EO‌‍: SCA‌LING‌‍ THRO‌UG‍HP‌‍U‌T P‍R‌O‍C‍ESSO‌‍RS FO‌‍R‍ MAC‌HINE INTELLIG‌ENC‌‍E](https://www.graphcore.ai/posts/video-scaling-throughput-processors-for-machine-intelligence)
   - [What makes the IPU's architecture so efficient](https://www.linkedin.com/posts/graphcore_if-youd-like-to-know-what-makes-the-ipus-activity-6617716840384778240-PUS0)
   - [How do we implement large-scale #NLP models on IPU](https://www.linkedin.com/posts/graphcore_arianna-saracino-product-support-engineer-activity-6615949485463920640-7Pwa)
+  - [Graphcore are making Poplar Software Documentation publicly available](https://www.graphcore.ai/posts/graphcore-makes-poplar-sdk-docs-publicly-available?utm_content=121700693&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092)
+   - [Watch the Graphcore quick guide to the #IPU](https://www.graphcore.ai/products/ipu?utm_campaign=Machine%20Intelligence%20Positioning&utm_content=120000808&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092) [LinkedIn Post](https://www.linkedin.com/posts/graphcore_ipu-ai-semiconductors-activity-6640930639287730176-bRvL)
 
 ## Performance
 

@@ -17,6 +17,7 @@ The question to ask ourselves: _Do we know our data...?_
     + [Data preprocessing / Data Wrangling](./data-preparation.md#data-preprocessing--data-wrangling)
 - [Data Generation](./README.md#data-generation)
 - [Feature Selection](./README.md#feature-selection)
+- [Feature Importance](./README.md#feature-importance)
 - [Feature Engineering](./README.md#feature-engineering)
 - [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
 - [Model deployment](./README.md#model-deployment)
@@ -49,6 +50,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
   - [Starting a Data Project](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
   - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
 - [JustCause package/framework - framework to foster good scientific practice in the research of causality methods](https://www.linkedin.com/posts/florianwilhelm_introduction-activity-6624318058347405312-fdBa) | [PyPu](https://pypi.org/project/JustCause/) | [GitHub](https://github.com/inovex/justcause)
+- [“Metaflow is a human-friendly Python library”](https://github.com/Netflix/metaflow) [LinkedIn Post](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_netflixmetaflow-activity-6638658912201527296-1QqW)
 
 ## Datasets and sources of raw data
 
@@ -79,6 +81,14 @@ See [Data Generation](./data-generation.md#data-generation)
 ## Feature Selection
 
 See [Feature Selection](./feature-selection.md)
+
+## Feature Importance
+
+- [Example: Feature Importance implementation (python)](../examples/data/feature-importance-filtering)
+- [How to Calculate Feature Importance With Python](https://machinelearningmastery.com/calculate-feature-importance-with-python/)
+- RFPimp:
+   - [RF Importance](https://explained.ai/rf-importance/index.html)
+   - [Explaining Feature Importance by example of a Random Forest](https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
 
 ## Feature engineering
 

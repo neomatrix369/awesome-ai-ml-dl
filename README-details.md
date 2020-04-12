@@ -30,6 +30,8 @@
 ### Artificial Intelligence
 
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
+- [12 thought leaders on LinkedIn who are creating original content to learn Artificial Intelligence and Machine Learning](https://www.linkedin.com/posts/ajitjaokar_12-thought-leaders-on-linkedin-who-are-creating-activity-6627455043429814272-MK_n)
+- [AI Repository by Goku Mohandas](https://www.linkedin.com/posts/asif-bhat_datascience-data-dataanalysis-activity-6643083915873615872-je6g)
 - See [Artificial Intelligence](./details/artificial-intelligence.md)
 
 ### Automation
@@ -44,6 +46,7 @@
 - [Data science competitions to build a better world](https://www.drivendata.org/)
 - [An ethics checklist for data scientists](http://deon.drivendata.org/)
   - [python package: deon](https://pypi.org/project/deon/)
+- [👉A Practical guide to Responsible Artificial Intelligence (AI) by PwC 👈](https://www.linkedin.com/posts/asif-bhat_ai-activity-6642499836232986624-FCNj)
 - [Data ethics literacy cards](https://public.zenkit.com/i/2RH604FcHf/iK2Z5J9kr/do-you-know-your-data?v=1wyJ56INd&hide=workspaceLists) by [Anisha Fernando](https://twitter.com/techgirl_9) | [Join the Slack community](https://dataethicsinpractice.slack.com/join/shared_invite/enQtODAwMDIxMzU3MTUyLTg5YTM3ZTIyYTg3ZTU0N2M4MDhmYjE3YmRlYTUyNTA5ZWE1MTRkYmJjYTNlM2YzYTk1YWNhZmY1N2RlYzg5Y2U) | [The Private Lives of Data: YouTube video](https://www.youtube.com/watch?v=pXtQj2UNMYE)
 
 ### Java

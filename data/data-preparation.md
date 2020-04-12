@@ -19,6 +19,11 @@
 - [Working with missing data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html)
 - [Missing values in a dataset](https://www.datasciencecentral.com/profiles/blogs/how-to-treat-missing-values-in-your-data-1)
 
+### Imbalanced data
+
+- [Develop a Model for the Imbalanced Classification of Good and Bad Credit](https://machinelearningmastery.com/imbalanced-classification-of-good-and-bad-credit/)
+- [One-Class Classification Algorithms for Imbalanced Datasets](https://machinelearningmastery.com/one-class-classification-algorithms/)
+- [Step-By-Step Framework for Imbalanced Classification Projects](https://machinelearningmastery.com/framework-for-imbalanced-classification-projects/)
 
 ## Data preprocessing / Data wrangling / Data manipulation
 
@@ -33,6 +38,8 @@
 - [SQLAlchemy](https://lnkd.in/gjvbm7h)
 - [Extract online data (code in Java)](https://www.datasciencecentral.com/profiles/blogs/java-coding-sample-to-extract-online-data)
 - [Data preparation for factor analysis](https://www.linkedin.com/posts/data-science-central_data-preparation-for-factor-analysis-activity-6608507889915092992-T1Vv)
+- [7 Pandas Functions to Reduce Your Data Manipulation Stress by Andre Ye](https://towardsdatascience.com/7-pandas-functions-to-reduce-your-data-manipulation-stress-25981e44cc7d) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_7-pandas-functions-to-reduce-your-data-manipulation-activity-6655006784069214208-R9Zn)
+
 
 ### Scaling and normalisation
 

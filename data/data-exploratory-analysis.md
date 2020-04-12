@@ -20,6 +20,22 @@ aka *_Exploratory Data Analysis_*
 - [Introduction of Python for Data Analysis](https://www.linkedin.com/posts/nabihbawazir_python-for-data-analysis-activity-6605350672881721344-aE0_)
 - [Data Analysis Method: Mathematics Optimization to Build Decision Making](https://www.linkedin.com/posts/data-science-central_data-analysis-method-mathematics-optimization-activity-6606212768343347201-vzat)
 
+### Tools
+
+- [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/)
+- [Dabl: Data Analysis Baseline Library (Pandas profiling like tool)](https://dabl.github.io/dev/) | [GitHub](https://github.com/dabl/dabl)
+- [Bamboolib](./bamboolib.md)
+- [CleverCSV](https://github.com/alan-turing-institute/CleverCSV)
+- [edaviz - Python Library for Data Exploration and Visualization in Jupyter Notebook](https://www.youtube.com/watch?v=eYEeYv11YrQ)
+- [Getting Started with pandas a powerful Python data analysis toolkit](https://www.datasciencecentral.com/profiles/blogs/getting-started-with-pandas-a-powerful-python-data-analysis) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_getting-started-with-pandas-a-powerful-python-activity-6651512263251410944-5bSl)
+- [A Complete Tutorial to Learn Data Analysis with Python From Scratch](https://www.linkedin.com/posts/iamsivab_introduction-to-programming-in-pythonpdf-activity-6640574471667318784-yt-g)
+
+- See [Data > Programs and Tools](./programs-and-tools.md#programs-and-tools) and [Things to know: Primary tools to analyse data](../things-to-know.md#primary-tools-to-analyse-data)
+
+### Missing values
+
+- [How to Treat Missing Values in Your Data](https://www.linkedin.com/posts/data-science-central_how-to-treat-missing-values-in-your-data-activity-6627609785242046464-A_69)
+
 ### Correlations
 
 - [How to detect spurious correlations, and how to find the real ones](https://www.linkedin.com/posts/data-science-central_how-to-detect-spurious-correlations-and-activity-6623713080754913280-dU8f)
@@ -28,6 +44,24 @@ aka *_Exploratory Data Analysis_*
 - [13 Great Articles and Tutorials about Correlation](https://www.linkedin.com/posts/data-science-central_13-great-articles-and-tutorials-about-correlation-activity-6622173938812280832-Fa4a)
 - [Testing for Normality using Skewness and Kurtosis](https://www.linkedin.com/posts/ashishpatel2604_artificialintelligence-deeplearning-datascience-activity-6603851612719026176-zx0u)
 - [Variable Reduction: An art as well as Science](https://www.linkedin.com/posts/data-science-central_variable-reduction-an-art-as-well-as-science-activity-6607678425375342592-xrSp)
+- [[Discussion] How to see relation between categorical columns?](https://www.facebook.com/groups/AnalyticsEdge/permalink/2578728952342061/)
+
+### Clustering
+
+- [Clustering with non numeric data](https://www.linkedin.com/posts/data-science-central_clustering-with-non-numeric-data-activity-6607783116335534080-aWRV)
+- [Clustering Python](https://github.com/ACFaul/Clustering-Python)
+- [Clustering Matlab](https://github.com/ACFaul/Clustering-Matlab)
+- [Clustering with non numeric data](https://www.linkedin.com/posts/data-science-central_clustering-with-non-numeric-data-activity-6607783116335534080-aWRV)
+- [Have u ever heard about Bounded Clustering?](https://towardsdatascience.com/bounded-clustering-7ac02128c893) [LinkedIn Post](https://www.linkedin.com/posts/ashishpatel2604_bounded-clustering-activity-6604231470691217408-Fhyn)
+- [Spectral Clustering : How Math is Redefining Decision Making](https://www.datasciencecentral.com/profiles/blogs/spectral-clustering-how-math-is-redefining-decision-making) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_spectral-clustering-how-math-is-redefining-activity-6644369189828120576-R50H)
+- [Python: Implementing a k-means algorithm with sklearn](https://www.datasciencecentral.com/profiles/blogs/python-implementing-a-k-means-algorithm-with-sklearn) [LinkedIn Post](https://www.linkedin.com/posts/vincentg_python-implementing-a-k-means-algorithm-activity-6646407378474450944-wDzH)
+- [Journey to Machine Learning – K-Means Clustering](https://www.linkedin.com/pulse/all-cheatsheets-one-place-vipul-patel/) [LinkedIn Post](https://www.linkedin.com/posts/vipulppatel_data-analytics-businessintelligence-activity-6640085732100710400-oGp7)
+   - [Comparison of Segmentation Approaches using Clustering (9 pages)](https://www.linkedin.com/feed/update/urn:li:activity:6540091805428518912?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BmoauZl5XRFyXpGV91RiG2w%3D%3D)
+   - [Guide to HIERARCHICAL Clustering (23 pages) and how to Perform it in Python](https://www.linkedin.com/feed/update/urn:li:activity:6539263090955997184/) 
+- [K-Means Clustering — One rule to group them all](https://www.linkedin.com/posts/towards-data-science_k-means-clusteringone-rule-to-group-them-activity-6654401590067245056-9k9d)
+- [10 Clustering Algorithms With Python](https://machinelearningmastery.com/clustering-algorithms-with-python/)
+- [Finding organic clusters in complex data-networks](https://www.datasciencecentral.com/profiles/blogs/finding-organic-clusters-in-complex-data-networks) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_finding-organic-clusters-in-complex-data-networks-activity-6650907272413274112-p-H7)
+- [How to Develop an Encoder-Decoder Model for Sequence-to-Sequence Prediction in Keras](https://machinelearningmastery.com/develop-encoder-decoder-model-sequence-sequence-prediction-keras/)
 
 ### Outliers
 

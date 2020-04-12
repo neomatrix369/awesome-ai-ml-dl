@@ -5,6 +5,8 @@
 - [What is dimensionality reduction? What is the difference between feature selection and extraction?](https://datascience.stackexchange.com/questions/130/what-is-dimensionality-reduction-what-is-the-difference-between-feature-selecti)
 - [Feature Engineering and Feature Selection](https://media.licdn.com/dms/document/C511FAQF45u2wk4WYKQ/feedshare-document-pdf-analyzed/0?e=1570834800&v=beta&t=lNVqtm3JJYvvPHpsl0uc6mZJjVGWgJ8Toz29tNJA4GI) [deadlink]
 - [Feature Selection Techniques in Machine Learning with Python - Raheel Shaikh](https://www.linkedin.com/posts/vipulppatel_feature-selection-techniques-in-ml-with-python-ugcPost-6603482535081062400-3ZH9)
+- [Fast Combinatorial Feature Selection with New Definition of Predictive Power](https://www.datasciencecentral.com/profiles/blogs/feature-selection-based-on-predictive-power) [Tweet](https://twitter.com/analyticbridge/status/1237759942544822272)
+
 
 # Contributing
 

@@ -30,6 +30,11 @@
 ### Generate data from existing
 
 - [SMOTE with Imbalance Data](https://www.kaggle.com/qianchao/smote-with-imbalance-data)
+- SMOTE library:
+  - [PyPi](https://pypi.org/search/?q=smote&o=-zscore) 
+  - [Docs](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.over_sampling.SMOTE.html)
+  - [SMOTE explained](http://rikunert.com/SMOTE_explained)
+  - [ML | Handling Imbalanced Data with SMOTE and Near Miss Algorithm in Python](https://www.geeksforgeeks.org/ml-handling-imbalanced-data-with-smote-and-near-miss-algorithm-in-python/)
 - [imbalanced-learn library](https://imbalanced-learn.readthedocs.io/en/stable/introduction.html)
 - [SO discussion on using Python libraries](https://stackoverflow.com/questions/51322554/smote-with-missing-values)
 - [Simple example of how stock prices can be generated](https://stackoverflow.com/questions/8597731/are-there-known-techniques-to-generate-realistic-looking-fake-stock-data)

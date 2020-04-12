@@ -11,6 +11,10 @@
 - [Sentiment analysis visualisation](http://awjuliani.github.io/books/)
 - [Code resources for Central London Data Science Project Nights meetup on word vectors](https://github.com/central-ldn-data-sci/nlp-using-word-vectors)
 - [Choosing a Python Library for Sentiment Analysis](https://www.iflexion.com/blog/sentiment-analysis-python)
+- [Tensorflow sentiment analysis model](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6638266864780877824-T1bx)
+- [Using Transformer-Based Language Models for Sentiment Analysis](https://www.linkedin.com/posts/towards-data-science_using-transformer-based-language-models-for-activity-6653776678344511488-zxZw)
+- [ICYMI: My latest video is about training a BERT model to detect positive and negative sentiment using IMDB's 50K reviews dataset](https://www.linkedin.com/posts/abhi1thakur_training-sentiment-model-using-bert-and-serving-activity-6642331889921216512-FKJN)
+- [Benchmarking Off-The-Shelf Sentiment Analysis](https://www.linkedin.com/posts/towards-data-science_benchmarking-off-the-shelf-sentiment-analysis-activity-6642745739833413632-l7QU)
 
 # Contributing
 

@@ -9,6 +9,8 @@
   - See [example](../examples/JuPyteR/README.md) in the `examples/JuPyteR` folder
   - [Data notebooks](../data/README.md#notebooks)
 - [nbdime: Jupyter Notebook Diff and Merge tools - command-line tools](https://github.com/jupyter/nbdime) | [nbdiffex - Jupyter notebook checkpoint differ extension](https://gist.github.com/psychemedia/4a5137cf9a4eddba65c8ff673d19abf2#nbdiffex---jupyter-notebook-checkpoint-differ)
+- [Handy python notebook having Important #ml models code in one place](https://www.linkedin.com/posts/ashutoshtripathi1_reference-python-notebook-for-imp-ml-models-ugcPost-6627595235960676352-FWwA)
+
 
 ## RAPIDS
 

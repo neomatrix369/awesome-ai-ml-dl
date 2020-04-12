@@ -5,6 +5,7 @@
    - [Learning to Identify Metaphors from a Corpus of Proverbs](https://aclweb.org/anthology/D16-1220)
    - [Metaphor Detection with Cross-Lingual Model Transfer](https://www.cs.cmu.edu/~anatoleg/metaphor-acl14.pdf)
    - [Metaphor Interpretation Using Paraphrases Extracted from the Web](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3779216/)
+   - [Natural Language Processing: Measuring Semantic Relatedness](https://www.linkedin.com/posts/data-science-central_natural-language-processing-measuring-semantic-activity-6647330201426542592-wxqU)
 
 
 # Contributing

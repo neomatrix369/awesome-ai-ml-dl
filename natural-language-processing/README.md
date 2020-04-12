@@ -6,6 +6,7 @@ NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java
 NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/pulls/neomatrix369/dl4j-nlp-cuda.svg)](https://hub.docker.com/r/neomatrix369/dl4j-nlp-cuda)
 
 - [General](#general)
+- [Datasets](#datasets)
 - [Java/JVM](#javajvm)
 - [Courses, Tutorial, Learning resource](#courses-tutorial-learning-resource)
 - [Cloud](#cloud)
@@ -23,6 +24,11 @@ NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/p
 ## General
 
 See [General](./general.md)
+
+## Datasets
+
+- [UPDATE: 28 new datasets arrived, if you need a dataset for your NLP machine learning task check the Big Bad #NLP Database with more than 200 datasets](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6641729887877033984-1Jq-)
+- [Looking for datasets for #NLP tasks?](https://www.linkedin.com/posts/parulpandeyindia_nlp-quantumstat-activity-6627512229895995392-x8zJ)
 
 ## Java/JVM
 

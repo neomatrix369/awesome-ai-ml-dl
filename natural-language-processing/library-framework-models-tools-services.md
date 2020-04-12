@@ -32,6 +32,8 @@
   - [Spacy Cheatsheet](https://www.datacamp.com/community/blog/spacy-cheatsheet)
   - [NeuralCoref 4.0: Coreference Resolution in spaCy with Neural Networks](https://github.com/huggingface/neuralcoref)
   - [StarSpace: Learning embeddings for classification, retrieval and ranking](https://github.com/facebookresearch/StarSpace)
+  - [Entity Embeddings for Categorical Variables](https://www.linkedin.com/posts/abhi1thakur_machinelearning-deeplearning-python-activity-6645663647869779968-Hj92)
+  - [𝗕𝗹𝗼𝗴𝗽𝗼𝘀𝘁 Acoustic Word Embeddings - Introduction to the field of acoustic word embeddings (AWEs) for those with a background in speech processing, NLP, or DL/ML](https://www.linkedin.com/posts/philipvollet_nlp-deeplearning-naturallanguageprocessing-activity-6642321964998381568-EsmD)
   - [Free NLP service - Natural Language for Developers](https://wit.ai)
   - [Do you want to convert English to Integers/Floats?](https://www.linkedin.com/posts/amrrs_python-nlg-nlp-activity-6620696848455831552-qTvG)
   - [How do we implement large-scale #NLP models on IPU](https://www.linkedin.com/posts/graphcore_arianna-saracino-product-support-engineer-activity-6615949485463920640-7Pwa)
