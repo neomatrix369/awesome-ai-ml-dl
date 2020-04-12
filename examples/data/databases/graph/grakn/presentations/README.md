@@ -6,7 +6,7 @@ See [slides (PDF)](./GraknCosmos2020/Naturally,-getting-productive,-my-journey-w
 
 ### Video
 
-(being processed)
+- [YouTube video](https://www.youtube.com/watch?v=Cef2nPEmybs&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=2&t=0s)
 
 ### Speakers
 
