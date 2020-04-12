@@ -19,6 +19,18 @@
 - [Sigmoid Neuron Learning Algorithm Explained With Math](https://towardsdatascience.com/sigmoid-neuron-learning-algorithm-explained-with-math-eb9280e53f07)
 - [Linear regression in Python: Use of numpy, scipy, and statsmodels](https://www.linkedin.com/posts/data-science-central_httpswwwdatasciencecentralcomprofiles-activity-6607284839810945024-hxnF)
 - [Smooth markets: A basic mechanism for organizing gradient-based learners Balduzzi et al](https://lnkd.in/e-PrH45)
+- [27 Great Articles About Machine Learning Algorithms](https://www.linkedin.com/posts/vincentg_27-great-articles-about-machine-learning-activity-6634648891654492161-c632)
+- [Alternatives to the Gradient Descent Algorithm](https://www.linkedin.com/posts/data-science-central_alternatives-to-the-gradient-descent-algorithm-activity-6627445954511458304-5j1V)
+- [A Tour of Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+- [Shortest Path Algorithms, Part 2: Floyd�Warshall's And A-Star](https://www.linkedin.com/posts/vincentg_key-graph-based-shortest-path-algorithms-activity-6647272320631128064-KXb4)
+- [Journey to Machine Learning – Support Vector Machines](https://www.linkedin.com/posts/vipulppatel_data-analytics-businessintelligence-activity-6632121501585809408-knOP)
+- [Predicting AirBnB prices in Lisbon: Trees and Random Forest](https://www.linkedin.com/posts/towards-data-science_predicting-airbnb-prices-in-lisbon-trees-activity-6647284148094545920-w5YF)
+- [10 types of regressions. Which one to use?](https://www.linkedin.com/posts/data-science-central_10-types-of-regressions-which-one-to-use-activity-6641726778312314882-xY-N)
+- [Backpropagation and Labeled data](https://www.linkedin.com/posts/deeplearningai_backpropagation-and-labeled-data-are-the-activity-6626194119683305472-c-ON)
+- [140 ML Formulas](https://www.linkedin.com/posts/bo-li-8503b896_140-machine-learning-formulas-activity-6632888211825881088-8q_V)
+- [Sparse Forest with FIL](https://www.linkedin.com/posts/miguelusque_sparse-forests-with-fil-activity-6628874338785337344-89hf)
+- [Google T5 Explores the Limits of Transfer Learning](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_google-t5-explores-the-limits-of-transfer-activity-6631788661920804864-wH9d)
+
 
 # Contributing
 

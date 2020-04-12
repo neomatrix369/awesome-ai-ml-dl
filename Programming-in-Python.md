@@ -48,6 +48,8 @@
 - [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
 - [Neural Networks Matrices exploration - Under the Hood Mathematical Operations](https://github.com/souravs17031999/NeuralNets-Pure-Python)
 - [Understand the use of *args and **kwargs](https://morioh.com/p/252b73e0be0a?f=5c21f93bc16e2556b555ab2f&fbclid=IwAR2P_D8kr9Gf2gCjd2pf57ugkuv0qBfG0JEuAijGgl3JE2o_N1_MVk7u8CM)
+- [Here are some great Python Resources to learn #DataScience and #MachineLearning](https://www.linkedin.com/posts/asif-bhat_datascience-machinelearning-activity-6638314806367621120-vWp0)
+- [👉 🐍Machine Learning Projects with Python 🐍👈](https://www.linkedin.com/posts/asif-bhat_machine-learning-projects-activity-6643602873957605376-5VJ4)
 
 ## Courses
 

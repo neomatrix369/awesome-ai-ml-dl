@@ -6,6 +6,7 @@
    - [Bring deep learning into the browser &mdash; In Browser AI](https://inbrowser.ai/)
    - [Run Keras models in the browser, with GPU support using WebGL](https://github.com/transcranial/keras-js)
    - [Tensorflow.js: bringing ML into the browser](https://skillsmatter.com/skillscasts/11876-tensorflow-js-bringing-ml-into-the-browser) [deadlink]
+   - [Machine Learning in Javascript- A compilation of Resources](https://twitter.com/DataScienceCtrl/status/1233099732672753665)
    - See [this link](https://github.com/josephmisiti/awesome-machine-learning#javascript) for more JavaScript related ML links
 
 

@@ -57,6 +57,15 @@ reproducible research
   - [Nextflow](https://www.nextflow.io/) - Data-driven computational pipelines. Nextflow enables scalable and reproducible scientific workflows using software containers. It allows the adaptation of pipelines written in the most common scripting languages.
   - [StackHPC suites of repositories: AI, ML, DL, Cloud, HPC](https://github.com/stackhpc) | [StackHPC](http://stackhpc.com/)
   - [cortex](https://www.cortex.dev/) - Machine learning deployment platform: Deploy machine learning models to production
+  - [#Uber introduces #Fiber, an #AI development and distributed training platform for methods including reinforcement learning and population-based learning.](https://www.linkedin.com/posts/inna-vogel-nlp_introduction-to-fiber-activity-6649564159828606976-Jmi6) 
+  - [H2O Framework for Machine Learning](https://www.linkedin.com/posts/data-science-central_h2o-framework-for-machine-learning-activity-6635175109445382144-ISgt)
+  - [ML Framework: Introducing Ludwig, a Code-Free Deep Learning Toolbox](https://eng.uber.com/introducing-ludwig/)
+  - [ML Pipelines](https://www.linkedin.com/posts/artificialintelligenceconsultant_activity-6639429321943539712-vRug)
+  - [ML Framework by Abhishek Thakur](https://www.linkedin.com/posts/abhi1thakur_machinelearning-python-datascience-activity-6644289209181978625-wZtJ)
+    - [Episode 1 Intro and building a machine learning framework](https://lnkd.in/e5Syy5N)
+    - [Episode 2 A Cross Validation Framework](https://lnkd.in/eDjFTGW)
+    - [Episode 3 Handling Categorical Features in Machine Learning Problems](https://lnkd.in/e9Qc5fe)
+    - [Episode 4 Simple and Basic Binary Classification Metrics](https://lnkd.in/eGZtcPW)
   - [See also: Data > Programs and Tools](../data/programs-and-tools.md#programs-and-tools)
 
 ## CPU
