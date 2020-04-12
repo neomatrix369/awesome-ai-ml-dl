@@ -61,9 +61,10 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Visualisation tool Orange](https://orange.biolab.si/#Orange-Features) - Thanks [wguesdon](https://github.com/wguesdon) for sharing this link with us
   - [Drawing Attention to Climate Change With Interactive Generative Art](https://www.datasciencecentral.com/profiles/blogs/drawing-attention-to-climate-change-with-interactive-generative) [LinkedIn post](https://www.linkedin.com/posts/data-science-central_drawing-attention-to-climate-change-with-activity-6651300865799962624-0-5d)
   - [Top 5 graph visualisation tools](https://www.datasciencecentral.com/profiles/blogs/top-5-graph-visualisation-tools) [LinkedIn post](https://www.linkedin.com/posts/data-science-central_top-5-graph-visualisation-tools-activity-6644610781100994560-w6rN)
-
-👉 Which Chart or Graph is right for you 👈
-https://www.linkedin.com/posts/asif-bhat_data-visualization-activity-6651241553824186368-ZBe-
+  - [Visualize Categorical Relationships With Catscatter](https://www.linkedin.com/posts/towards-data-science_visualize-categorical-relationships-with-activity-6653475444580581376-y43i)
+  - [📊 Data Visualization With Python (#Matplotlib) 📊](https://www.linkedin.com/posts/asif-bhat_data-visualization-matplotlib-activity-6652842499503153152-He0N)
+  - [A Comparative Analysis of Top 6 BI and Data Visualization Tools in 2018](https://www.linkedin.com/posts/data-science-central_a-comparative-analysis-of-top-6-bi-and-data-activity-6650615095447605248-dJs6)
+  - [Data Visualization for KPI and KRI](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6637544069860024320-JNPk)
 
    
 # Contributing

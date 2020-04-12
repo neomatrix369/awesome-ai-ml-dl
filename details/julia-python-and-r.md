@@ -60,6 +60,12 @@
   - [How To Train Interpretable Neural Networks That Accurately Extrapolate From Small Data By Christopher Rackauckas](https://lnkd.in/e7hsfBc)
 | [LinkedIn](https://www.linkedin.com/posts/montrealai_artificialintelligence-machinelearning-neuralnetworks-activity-6623714880987951105-VYU9)
   - [How to generate neural network confidence intervals with Keras](https://www.linkedin.com/posts/kranthi-kumar9_how-to-generate-neural-network-confidence-activity-6606228692798672896-ClI9)
+  - [A pair of interrelated neural networks in DQN by Rafael Stekolshchik](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_a-pair-of-interrelated-neural-networks-in-activity-6647411736238526466-LtLc)
+  - [How to Visualize Filters and Feature Maps in Convolutional Neural Networks](https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/)
+  - [Understand the Impact of Learning Rate on Neural Network Performance](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
+  - [Neural Module Networks for Reasoning over Text: [Paper]](https://arxiv.org/abs/1912.04971) | [Code](https://nitishgupta.github.io/nmn-drop/) [LinkedIn Post](https://www.linkedin.com/posts/montrealai_neuralnetworks-reasoning-symbolicai-activity-6630879104814116864-Opyq)
+  - [”A Beginner's Guide to the Mathematics of Neural Networks”](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&rep=rep1&type=pdf) [LinkedIn Post](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-neuralnetworks-activity-6637386735531683840-9RGJ)
+  - [Machine Learning: Data Insights for Model Building](https://towardsdatascience.com/machine-learning-data-insights-for-model-building-b6bdea0ac092) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_machine-learning-data-insights-for-model-activity-6644068456784367616-Ylyl)
 
   ## Generative Adversarial Network (GAN)
 
@@ -68,10 +74,22 @@
    - [Collection of generative models, e.g. GAN, VAE in Pytorch and Tensorflow](https://github.com/wiseodd/generative-models)
    - [A probabilistic programming language in TensorFlow. Deep generative models, variational inference](https://github.com/blei-lab/edward)
    - [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/pdf/1805.06605.pdf)
+   - [GAN Playground](https://reiinakano.com/gan-playground/
 
   ## Genetic Algorithms
 
   - [Introduction to Genetic Algorithms & their application in data science](https://media.licdn.com/dms/document/C511FAQE99ZtwL7srQA/feedshare-document-pdf-analyzed/0?e=1570906800&v=beta&t=OiKdTPzo2ozpBzVl0N_5JPvzAoqsS2iie9cHNK4BXCg) [deadlink]
+  - [Hands-On Genetic Algorithms with Python playlist](https://www.youtube.com/playlist?list=PLeLcvrwLe186eQR5Y-T_kOZEjADAwTScy)
+  - [Genetic Algorithm: The Nature of Code playlist](https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV)
+    - [Session 2 - Genetic Algorithms - Intelligence and Learning The Coding Train](https://www.youtube.com/watch?v=c8gZguZWYik&list=PLRqwX-V7Uu6bw4n02JP28QDuUdNi3EXxJ)
+    - [Coding Challenge #35.4: Traveling Salesperson with Genetic Algorithm](https://www.youtube.com/watch?v=M3KTWnTrU_c)
+    - [Coding Challenge #35.5: TSP with Genetic Algorithm and Crossover](https://www.youtube.com/watch?v=hnxn6DtLYcY)
+    - [11.2: Neuroevolution: Crossover and Mutation - The Nature of Code](https://www.youtube.com/watch?v=kCx2DElEpP8)
+    - [Live Stream #52: Genetic Algorithms](https://www.youtube.com/watch?v=DIXtg5VVz2E)
+    - [11.1: Introduction to Neuroevolution - The Nature of Code](https://www.youtube.com/watch?v=lu5ul7z4icQ)
+    - [Live Stream #54 - Phyllotaxis and More on Genetic Algorithms](https://www.youtube.com/watch?v=MQMJ0xWSMWE)
+    - [Coding Challenge #133: Times Tables Cardioid Visualization](https://www.youtube.com/watch?v=bl3nc_a1nvs)
+    - [Coding Challenge #125: Fourier Series](https://www.youtube.com/watch?v=Mm2eYfj0SgA)
 
   ## RNN
 
@@ -147,6 +165,16 @@
   - [Data Science Process by Nabih Bawazir](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-activity-6607204688909701120-9RqN)
   - [Forecasting through ARIMA Modeling using R – Step-by-step Guide](https://www.linkedin.com/posts/data-science-central_forecasting-through-arima-modeling-using-activity-6626001092964597760-hk17)
   - [📌50 Days of Machine Learning📌](https://www.linkedin.com/posts/asif-bhat_machine-learning-activity-6626017189273133056-jDbu)
+  - [𝐄𝐯𝐞𝐫𝐲 𝐝𝐚𝐭𝐚 𝐬𝐜𝐢𝐞𝐧𝐭𝐢𝐬𝐭 𝐬𝐡𝐨𝐮𝐥𝐝 𝐡𝐚𝐯𝐞 𝐤𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐞 𝐨𝐟 𝐭𝐡𝐢𝐬 𝐜𝐨𝐧𝐜𝐞𝐩𝐭](https://www.linkedin.com/posts/ashishpatel2604_curious-case-of-vanishing-gradient-problem-activity-6636215191229030400-d1K0)
+  - [𝐓𝐡𝐞 𝟐𝟎 𝐁𝐞𝐬𝐭 𝐃𝐚𝐭𝐚 𝐒𝐜𝐢𝐞𝐧𝐜𝐞 𝐁𝐨𝐨𝐤𝐬 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧𝐥𝐢𝐧𝐞 𝐢𝐧 𝟐𝟎𝟐𝟎. 𝐀𝐥𝐥 𝐁𝐨𝐨𝐤'𝐬 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐥𝐢𝐧𝐤 is 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐢𝐧 𝐛𝐞𝐥𝐨𝐰 𝐥𝐢𝐧𝐤](https://www.ubuntupit.com/best-data-science-books-available-online/) [LinkedIn Post](https://www.linkedin.com/posts/ashishpatel2604_source-artificialintelligence-machinelearning-activity-6633336129548587008-syg9)
+  - [20 short tutorials all data scientists should read (and practice)](https://www.datasciencecentral.com/profiles/blogs/17-short-tutorials-all-data-scientists-should-read-and-practice) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_20-short-tutorials-all-data-scientists-should-activity-6644021900437700608-eU4g)
+  - [MUST READ ARTICLES FOR DATA SCIENCE ENTHUSIAST](https://www.linkedin.com/posts/asif-bhat_datascience-dataanalysis-dataanlytics-activity-6637587385976741888-alyC)
+  - [Refined Data is the Key to Train Machine Learning](https://www.datasciencecentral.com/profiles/blogs/refined-data-is-the-key-to-train-machine-learning) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_refined-data-is-the-key-to-train-machine-activity-6651979333210562560-2EBe)
+  - [Here are some great Python Resources to learn #DataScience and #MachineLearning](https://www.linkedin.com/posts/asif-bhat_datascience-machinelearning-activity-6651730563055050752-GoF4)
+  - [Best Python Libraries for DS](https://www.linkedin.com/pulse/episode-4-best-python-libraries-data-science-favio-vazquez/?trackingId=1P6otJgQTNuacbKkQLmO9g%3D%3D) [LinkedIn Post](https://www.linkedin.com/posts/bamboolib_episode-4-best-python-libraries-for-data-activity-6633678154634412033-QTFC)
+  - [Question: Tool framework for starting data science with Python](https://www.datasciencecentral.com/forum/topics/tool-framework-for-starting-data-science-with-python) [LinkedIn Post](https://www.linkedin.com/posts/vincentg_tool-framework-for-starting-data-science-activity-6650216470729015296-79m7)
+  - [The technique of learning data science](https://media-exp1.licdn.com/dms/image/C5122AQFSM5oG-PGK_A/feedshare-shrink_800/0?e=1589414400&v=beta&t=_E_9qWfsR4W-Tk6ivdURBm9A_Q8cntdkXw2aUDxllGQ) [LinkedIn Post](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artficialintellegence-activity-6654179633300369408-umcc)
+  - [10 Books Data Scientists Should Read During Lockdown](https://towardsdatascience.com/10-books-data-scientists-should-read-during-lockdown-f49b68fad650) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_10-books-data-scientists-should-read-during-activity-6654498437012299776-GMRC)
   - See [Algorithms](../courses.md#algorithms) under [Courses](../courses.md#courses)
 
   ## Machine Learning
@@ -259,6 +287,12 @@
    - [A curated list of resources dedicated to bayesian deep learning](https://www.linkedin.com/posts/data-science-central_a-curated-list-of-resources-dedicated-to-activity-6606636571997327360-szZp)
    - [The Complete Deep learning Masterpiece by Andrew Ng](https://www.linkedin.com/posts/stevenouri_deep-learning-tutorial-ugcPost-6604304219593945089-B9Wt)
    - [How Rossum is using deep learning to extract data from any document](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_how-rossum-is-using-deep-learning-to-extract-activity-6605832802078347264-ZsW8)
+   - [🔥 Deep Learning Book - Notes🔥](https://github.com/hadrienj/deepLearningBook-Notes) [LinkedIn Post](https://www.linkedin.com/posts/asif-bhat_deeplearning-linearalgebra-activity-6644162502441734144-tnxh)
+   - [Deep Learning Research and other progress from MIT](https://www.facebook.com/groups/DataScienceWithPython/permalink/817250872096462/)
+   - [21 Curated Blogs About Deep Learning and Data Science](https://www.linkedin.com/posts/data-science-central_21-curated-blogs-about-deep-learning-and-activity-6639991847345283072-BEfA)
+   - [What are RNNs and LSTMs in Deep Learning?](https://www.unite.ai/what-are-rnns-and-lstms-in-deep-learning/) [LinkedIn Post](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_what-are-rnns-and-lstms-in-deep-learning-activity-6640168930906259456-3856)
+   - [MIT Deep Learning online course *New 2020 Edition* ALL! New lectures every week for the rest of the course with slides, video coding labs‼️: [Video](https://www.youtube.com/watch?v=rZufA635dq4&feature=youtu.be) [Course](http://introtodeeplearning.com/) [LinkedIn Post](https://www.linkedin.com/posts/philipvollet_deeplearning-machinelearning-datascience-activity-6639413377464573952-fDMx)
+   - [Complete Deep Learning Drizzle](https://github.com/kmario23/deep-learning-drizzle) [LinkedIn Post](https://www.linkedin.com/posts/nabihbawazir_analytics-datascience-artificialintelligence-activity-6654369906005499904-NbWP)
    - See [Deep Learning](../courses.md#deep-learning) in [Courses](../courses.md#courses)
   
   #### Reinforcement Learning
