@@ -26,6 +26,17 @@
 - [Time-scale](https://www.timescale.com/)
 - [kdb+](https://en.wikipedia.org/wiki/Kdb%2B) - is a column-based relational time series database (TSDB) with in-memory (IMDB) abilities, developed and marketed by [Kx Systems](https://kx.com/)
 
+### Posts on Graph/Graph Networks/Graph Databases
+
+- Technical comparison between the two most popular knowledge bases, #Grakn and #neo4j: [Part 1/2](https://towardsdatascience.com/neo4j-vs-grakn-part-i-basics-f2fe3511ce88) [Part 2/2](https://towardsdatascience.com/neo4j-vs-grakn-part-ii-semantics-11a0847ae7a2) [LinkedIn Post](https://www.linkedin.com/posts/duygu-altinok-4021389a_neo4j-vs-grakn-part-i-basics-activity-6638014291217793024-pdnV)
+- [Information Extraction from Receipts with Graph Convolutional Networks and how to implement it](https://www.linkedin.com/posts/philipvollet_machinelearning-python-dataengineer-activity-6636513160427786240-Bkk1)
+- [Intro to Graph Representation Learning](https://www.linkedin.com/posts/montrealai_pytorch-graph-representationlearning-activity-6637936272298033152-MXlA)
+- [Memory-Based Graph Networks](https://deepai.org/publication/memory-based-graph-networks)
+- [Universal Invariant and Equivariant Graph Neural Networks](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_universal-invariant-and-equivariant-graph-activity-6636212749133246464-_xqf)
+- [Auto-Generated KG](https://www.linkedin.com/posts/bo-li-8503b896_auto-generated-knowledge-graphs-activity-6637543428051828736-jVdT)
+- [Graph Convolutional Neural Networks for Molecule Generation | NTU Graph Deep Learning Lab](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_graph-convolutional-neural-networks-for-molecule-activity-6640244313009737728-IdCP)
+
+
 ## Misc.
 - [Difference between JOIN and UNION in SQL](https://www.geeksforgeeks.org/difference-between-join-and-union-in-sql/)
 - [Difference between COMMIT and ROLLBACK in SQL](https://www.geeksforgeeks.org/difference-between-commit-and-rollback-in-sql/)
