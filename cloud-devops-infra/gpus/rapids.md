@@ -31,6 +31,11 @@ The RAPIDS suite of software libraries, built on [CUDA-X AI](https://www.develop
 - [Advanced level notebooks](https://github.com/rapidsai/notebooks-contrib/tree/master/advanced_notebooks/tutorials)
 - [DBScan notebook](https://github.com/rapidsai/notebooks/blob/master/tutorials/DBSCAN_Demo_Full.ipynb)
 
+## Kaggle
+
+- [RAPIDS in Kaggle competition](https://www.kaggle.com/cdeotte/rapids/) [LinkedIn](https://www.linkedin.com/posts/miguelusque_kaggle-rapids-gpu-activity-6628421575299383297-Ifuu)
+- [Here is the first ever successful implementation of NVIDIA #rapids library in a Kaggle kernel. It achieves 600X speedup of the kNN as compared to #sklearn](https://www.kaggle.com/cdeotte/rapids-gpu-knn-mnist-0-97) [LinkedIn](https://www.linkedin.com/posts/tunguz_rapids-sklearn-ml-activity-6626833143032885248-XQA6)
+
 ## Librares
 
 - cuSpatial: Spatiotemporal Processing using CUDA | [blog](https://medium.com/rapids-ai/releasing-cuspatial-to-accelerate-geospatial-and-spatiotemporal-processing-b686d8b32a9) | [GitHub](https://github.com/rapidsai/cuspatial)
