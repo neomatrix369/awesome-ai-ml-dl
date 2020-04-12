@@ -42,6 +42,9 @@
 
 ## Intermediate / Advanced Python
 
+- [Numpy  *****QUICK REFERENCE*****](https://www.linkedin.com/posts/asif-bhat_numpy-cheat-sheet-activity-6633320071966089217-bu96)
+- [Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+- [100 Exercises ✅ Numpy ✅](https://www.linkedin.com/posts/asif-bhat_100-numpy-exercises-activity-6633319536751939584-hvfu)
 - [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
 - [Neural Networks Matrices exploration - Under the Hood Mathematical Operations](https://github.com/souravs17031999/NeuralNets-Pure-Python)
 - [Understand the use of *args and **kwargs](https://morioh.com/p/252b73e0be0a?f=5c21f93bc16e2556b555ab2f&fbclid=IwAR2P_D8kr9Gf2gCjd2pf57ugkuv0qBfG0JEuAijGgl3JE2o_N1_MVk7u8CM)
@@ -127,6 +130,9 @@ with nothing but Python
 - [Explanation of most popular Data Science Library (in Python)](https://www.linkedin.com/posts/nabihbawazir_artificialintellegence-datascience-machinelearning-activity-6617700382200164352-RDhs)
 - [50 most popular Python libraries and frameworks used in data science](https://www.linkedin.com/posts/nabihbawazir_python-datascience-dataanalysis-activity-6604589510447722496-AvyE)
 - [Python for 9 Purposes: The graphics miss Scikit-Learn and of course "Pandas"](https://www.linkedin.com/posts/nabihbawazir_python-for-9-purposesthe-graphics-miss-scikit-learn-activity-6605860742774259712-Was0)
+- [Free python tools](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6627149341998051328-oqZr)
+- [Tips N Tricks: 3 Simple and Easy Ways to Cache Functions in Python](https://www.youtube.com/watch?v=H_FDL0oRAWE)
+- [A simple video that explains in a very simple way how you can use joblib to speed up almost any function](https://www.youtube.com/watch?v=Ny3O4VpACkc)
 
 ## Best practices
 
