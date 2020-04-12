@@ -259,6 +259,8 @@ See [Courses](./courses.md#courses)
 - [Automated model selection (e.g. auto-sklearn, xcessiv)](https://stats.stackexchange.com/questions/20836/algorithms-for-automatic-model-selection)
 - [Automated model architecture searches (e.g. darts, enas)](https://www.fast.ai/2018/07/16/auto-ml2/)
 - [Automated hyperparameter tuning (e.g. hyperopt, ray.tune](https://databricks.com/blog/2019/07/18/automated-hyperparameter-tuning-scaling-and-tracking-on-demand-webinar-and-faqs-now-available.html)
+- [Automated Machine Learning Hyperparameter Tuning in Python](https://www.datasciencecentral.com/profiles/blogs/automated-machine-learning-hyperparameter-tuning-in-python-a) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_automated-machine-learning-hyperparameter-activity-6650229303994826752-H7Pi)
+- [Machine Learning incl. #AutoML overfits. On a mission to develop Causal AI](https://www.linkedin.com/posts/causalens_causal-ai-commodity-trading-use-case-activity-6637402428813692928-TuVM)
 - Automation of full ML pipelines: (e.g. [Google AutoML](https://cloud.google.com/automl/), [H2O Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/))
 - See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
