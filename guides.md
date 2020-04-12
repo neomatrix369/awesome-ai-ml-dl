@@ -19,6 +19,9 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
     - [Purgatorio](#purgatorio)
     - [Inferno](#inferno)
   - [Contribute to Virgili0](#contribute-to-virgili0)
+  - [👉 Feynman Learning Technique 👈](https://www.linkedin.com/posts/asif-bhat_neverstoplearning-asifbhat-activity-6639250916010717185-avMT)
+  - [👉 How to Learn #AI 👈](https://www.linkedin.com/posts/asif-bhat_datasciencepost-on-instagram-artificialintelligence-activity-6634407139324588032-DD4K)
+
 - [Contributing](#contributing)
 
 ---
