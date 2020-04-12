@@ -7,6 +7,7 @@
 - [Build a simple text summarisation tool using NLTK](https://medium.com/@wilamelima/build-a-simple-text-summarisation-tool-using-nltk-ff0984fedb4f)
 - Summarise Text with TFIDF in Python: [Post 1/2](https://towardsdatascience.com/tfidf-for-piece-of-text-in-python-43feccaa74f8) | [Post 2/2](https://medium.com/@shivangisareen/summarise-text-with-tfidf-in-python-bc7ca10d3284)
 - [How to Make a Text Summarizer - Intro to Deep Learning #10 by Siraj Raval](https://www.youtube.com/watch?v=ogrJaOIuBx4)
+- [Summarization Task using Bart and T5 models from Hugging Face 😷 Transformers check out the code! ](https://www.linkedin.com/posts/philipvollet_nlp-deeplearning-machinelearning-activity-6650990213931769856-Hp1m)
 - **Better NLP Summarisers**: Notebooks: [Google Colab](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/examples/better-nlp/notebooks/google-colab/better_nlp_summarisers.ipynb) | [Jupyter](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/examples/better-nlp/notebooks/jupyter/better_nlp_summarisers.ipynb) | [Kaggle Kernel](https://www.kaggle.com/neomatrix369/better-nlp-summarisers-notebook) | [Code](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/better-nlp/library/org/neomatrix369)
 
 # Contributing
