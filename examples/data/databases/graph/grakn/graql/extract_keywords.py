@@ -1,5 +1,4 @@
 print('Loading nltk libraries, please wait...')
-import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize 
 print('Finished loading nltk libraries.')
