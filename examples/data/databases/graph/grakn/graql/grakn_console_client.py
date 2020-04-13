@@ -2,35 +2,37 @@
 # Credits to GrakLabs for creating the original version
 # Original version can be found at https://github.com/graknlabs/examples/tree/master/phone_calls/python/queries.py
 #
-#!/usr/bin/python
+# !/usr/bin/python
 # -*- coding: utf-8 -*-
 
 # supress warnings
 import warnings
+
 warnings.filterwarnings('ignore')
 
-from random import randint            
+from random import randint
 import os
 import sys
-    
+
 import time
 from grakn.client import GraknClient
 
 from colorama import Fore, Back, Style
 
 import importlib
+
 queries = importlib.import_module("english-graql-queries")
 main_queries_in_english = queries.main_queries_in_english
-alternative_queries_in_english=queries.alternative_queries_in_english
+alternative_queries_in_english = queries.alternative_queries_in_english
 graql_queries = queries.graql_queries
 
-pattern_matching=importlib.import_module("pattern-matching")
+pattern_matching = importlib.import_module("pattern-matching")
 
 GRAQL_BOT = f"{Fore.GREEN}GraqlBot:{Style.RESET_ALL}"
 
 # results from graql_query
-GRAQL_QUERY=0
-RESPONSE_TEMPLATE=1
+GRAQL_QUERY = 0
+RESPONSE_TEMPLATE = 1
 
 keyspace_name = "phone_calls"
 
@@ -97,13 +99,14 @@ def execute_user_query(query_code, query_response):
     else:
         graql_query = query_response[GRAQL_QUERY]
         if query_code == "HUMAN_GRAQL_QUERY":
-            print(f"{GRAQL_BOT} Nice effort, looks like a well crafted query!") 
+            print(f"{GRAQL_BOT} Nice effort, looks like a well crafted query!")
         else:
             print(f"{GRAQL_BOT} Here's what the Graql query would look like if you typed it, neat isn't it?")
         print("")
         print(f"{Fore.CYAN}{graql_query}{Style.RESET_ALL}")
         print("")
-        print(f"{GRAQL_BOT} Let me think, will take a moment, please be patient (talking to Highlander Grakn Server)...")
+        print(
+            f"{GRAQL_BOT} Let me think, will take a moment, please be patient (talking to Highlander Grakn Server)...")
         iterator = transaction.query(graql_query)
         if type(iterator).__name__ == 'ResponseIterator':
             result = list(iterator)
@@ -120,7 +123,7 @@ def execute_user_query(query_code, query_response):
 
         results_cache.update({query_code: []})
         results_cache[query_code] = result
-        
+
     end_time = time.time()
     duration = end_time - start_time
     time_it_took_msg = f'{GRAQL_BOT} And it took me {Fore.YELLOW}{duration} seconds{Style.RESET_ALL} ' \
@@ -154,7 +157,7 @@ def process_user_input(user_input):
             run_the_actual_graql_query("HUMAN_GRAQL_QUERY", graql_query_response)
         else:
             responses = pattern_matching.get_filtered_responses(user_input)
-            rows_returned = responses.shape[0] # 0=col count, 0=row count
+            rows_returned = responses.shape[0]  # 0=col count, 0=row count
             print("")
             if rows_returned == 1:
                 print(f"{GRAQL_BOT} Yay! We found it (at least we think we did)! Going ahead and running it for you!")
@@ -177,7 +180,7 @@ def process_user_input(user_input):
                 print(meta_info)
                 print("")
 
-            if rows_returned > 1: 
+            if rows_returned > 1:
                 print(f"{GRAQL_BOT} Which one of these did you mean, just type the q number?")
                 print(f"{GRAQL_BOT} one of these: {q_numbers}")
                 q_number_entered = input()
@@ -211,7 +214,7 @@ def does_user_want_to_clear_screen(user_input):
 
 
 def clear_screen():
-    if sys.platform == "win32": 
+    if sys.platform == "win32":
         os.system('cls')
     else:
         # Linux of OS X
@@ -239,7 +242,7 @@ if __name__ == "__main__":
     print(f"And may the force be with us!{Style.RESET_ALL}")
     print('Type "exit" at the prompt to leave! "clear" to clear the screen.')
     while True:
-        show_divider()        
+        show_divider()
         print(f"{GRAQL_BOT} {Fore.MAGENTA}English or Graql >{Style.RESET_ALL}")
         user_input = input()
         user_input = user_input.replace("\t", " ")
@@ -248,4 +251,4 @@ if __name__ == "__main__":
         if does_user_want_to_clear_screen(user_input):
             clear_screen()
         else:
-          process_user_input(user_input)
+            process_user_input(user_input)
