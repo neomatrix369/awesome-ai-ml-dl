@@ -16,6 +16,7 @@ import sys
 
 import time
 from grakn.client import GraknClient
+from grakn.service.Session.util.ResponseReader import ConceptMap, Value
 
 from colorama import Fore, Back, Style
 
@@ -36,6 +37,7 @@ RESPONSE_TEMPLATE = 1
 
 keyspace_name = "phone_calls"
 
+global connection_to_grakn_exists
 connection_to_grakn_exists = False
 client = None
 session = None
@@ -77,6 +79,7 @@ def create_grakn_connection():
     global client, session, transaction, connection_to_grakn_exists
 
     if not connection_to_grakn_exists:
+        print("(Connected to Grakn Server)")
         client = GraknClient(uri="localhost:48555")
         session = client.session(keyspace=keyspace_name)
         ## create a transaction to talk to the Grakn server
@@ -88,6 +91,17 @@ def print_to_log(title, content):
     show_divider()
     print(f"{GRAQL_BOT}", title, content)
     show_divider()
+
+
+def contains_type(iterator, type):
+    for each in iterator:
+        if isinstance(each, type):
+            return True
+    return False
+
+
+def get_results(query):
+    return transaction.query(query)
 
 
 def execute_user_query(query_code, query_response):
@@ -107,19 +121,25 @@ def execute_user_query(query_code, query_response):
         print("")
         print(
             f"{GRAQL_BOT} Let me think, will take a moment, please be patient (talking to Highlander Grakn Server)...")
-        iterator = transaction.query(graql_query)
-        if type(iterator).__name__ == 'ResponseIterator':
-            result = list(iterator)
-            if hasattr(result[0], 'number'):
-               result = result[0].number()
-        else:    
+
+        iterator = get_results(graql_query)
+        if contains_type(iterator, ConceptMap):
+            iterator = get_results(graql_query)
             answers = iterator.collect_concepts()
             if hasattr(answers[0], 'value'):
                 result = [answer.value() for answer in answers]
-            else: 
-                print(f"{GRAQL_BOT} 😲 Schema found, 😩 we don't have the expertise to build it at the moment, "
-                      f"your best bet it to use Graql Console or Workbase")
+            else:
+                print(f"{GRAQL_BOT} 😲 Schema found, 😩 we don't have the expertise to build it at "
+                      f"the moment, your best bet it to use Graql Console or Workbase")
                 return
+        else:
+            iterator = get_results(graql_query)
+            if contains_type(iterator, Value):
+                iterator = get_results(graql_query)
+                first_answer = list(iterator)
+                result = 0
+                if len(first_answer) > 0:
+                    result = first_answer[0].number()
 
         results_cache.update({query_code: []})
         results_cache[query_code] = result
@@ -193,6 +213,8 @@ def process_user_input(user_input):
             graql_query_response = graql_queries.get(query_code)
             run_the_actual_graql_query(query_code, graql_query_response)
     except Exception as ex:
+        global connection_to_grakn_exists
+        connection_to_grakn_exists = False
         print("")
         print(get_random_message(error_message_decorators))
         print("")
