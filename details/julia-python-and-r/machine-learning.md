@@ -111,6 +111,7 @@
 
 ## Books
 
+- [Thoughtful Machine Learning with Python: A Test-Driven Approach (Book)](https://www.linkedin.com/posts/ayonroy2000_thoughtful-machine-learning-activity-6641148383790764032-W3EG)
 - [Machine Learning Books](https://www.youtube.com/watch?v=AHnd-vVN5VM&list=PLcQCwsZDEzFkaBv6-7FYt2p9ofempmagq)
 - [The "Python Machine Learning (1st edition)" book code repository and info resource](https://github.com/rasbt/python-machine-learning-book)
 - [ML Engineering EBook](https://www.linkedin.com/posts/andriyburkov_as-promised-i-have-just-put-online-the-fifth-activity-6622486751728459776-teGe)
