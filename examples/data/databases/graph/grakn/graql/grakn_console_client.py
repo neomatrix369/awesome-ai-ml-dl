@@ -70,6 +70,7 @@ found_something_from_input = [
     f"{GRAQL_BOT} Not promising the moon but we do have some useful stuff on our end you know!"
 ]
 
+
 def create_grakn_connection():
     global client, session, transaction, connection_to_grakn_exists
 
@@ -80,10 +81,12 @@ def create_grakn_connection():
         transaction = session.transaction().read()
         connection_to_grakn_exists = True
 
+
 def print_to_log(title, content):
     show_divider()
     print(f"{GRAQL_BOT}", title, content)
     show_divider()
+
 
 def execute_user_query(query_code, query_response):
     start_time = time.time()
@@ -111,7 +114,8 @@ def execute_user_query(query_code, query_response):
             if hasattr(answers[0], 'value'):
                 result = [answer.value() for answer in answers]
             else: 
-                print(f"{GRAQL_BOT} 😲 Schema found, 😩 we don't have the expertise to build it at the moment, your best bet it to use Graql Console or Workbase")
+                print(f"{GRAQL_BOT} 😲 Schema found, 😩 we don't have the expertise to build it at the moment, "
+                      f"your best bet it to use Graql Console or Workbase")
                 return
 
         results_cache.update({query_code: []})
@@ -119,21 +123,25 @@ def execute_user_query(query_code, query_response):
         
     end_time = time.time()
     duration = end_time - start_time
-    time_it_took_msg = f'{GRAQL_BOT} And it took me {Fore.YELLOW}{duration} seconds{Style.RESET_ALL} ({retrieve_method}) to execute this query.'
+    time_it_took_msg = f'{GRAQL_BOT} And it took me {Fore.YELLOW}{duration} seconds{Style.RESET_ALL} ' \
+                       f'({retrieve_method}) to execute this query. '
     print_to_log(query_response[RESPONSE_TEMPLATE], result)
     print(time_it_took_msg)
     print(get_random_message(took_time_messages))
 
     return result
 
+
 def get_random_message(messages):
     a_random_number = randint(0, len(messages) - 1)
     return messages[a_random_number]
+
 
 def run_the_actual_graql_query(query_code, graql_query):
     results = execute_user_query(query_code, graql_query)
     print(f"{GRAQL_BOT} The above is based on your original input: '{user_input}'")
     return results
+
 
 def process_user_input(user_input):
     create_grakn_connection()
@@ -163,7 +171,9 @@ def process_user_input(user_input):
             for index, row in responses.iterrows():
                 q_numbers.append(index)
                 print(f"   q{Style.BRIGHT}{index}{Style.RESET_ALL}  --->  {row['query_in_english']}")
-                meta_info = f"   Code: {Fore.BLUE}{Style.BRIGHT}{row['query_code']} {Style.RESET_ALL} | Confidence: {Fore.GREEN}{row['confidence']}{Style.RESET_ALL}, {Fore.GREEN}{row['ratio']}%{Style.RESET_ALL})"
+                meta_info = f"   Code: {Fore.BLUE}{Style.BRIGHT}{row['query_code']} {Style.RESET_ALL} | Confidence: " \
+                            f"{Fore.GREEN}{row['confidence']}{Style.RESET_ALL}, " \
+                            f"{Fore.GREEN}{row['ratio']}%{Style.RESET_ALL})"
                 print(meta_info)
                 print("")
 
@@ -189,13 +199,16 @@ def process_user_input(user_input):
         print(Style.RESET_ALL)
         show_divider()
 
+
 def does_user_want_to_stop(user_input):
     if user_input.lower().strip() == "exit":
         print(f"{GRAQL_BOT} {Fore.YELLOW} Hastla vista! See you soon! {Style.RESET_ALL}")
         sys.exit(0)
 
+
 def does_user_want_to_clear_screen(user_input):
     return user_input.lower().strip() == "cls" or user_input.lower().strip() == "clear"
+
 
 def clear_screen():
     if sys.platform == "win32": 
@@ -204,8 +217,11 @@ def clear_screen():
         # Linux of OS X
         os.system('clear')
 
+
 def show_divider():
-    print(f"{Style.DIM}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~{Style.RESET_ALL}")
+    print(f"{Style.DIM}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+          f"~~~~~~~~~~~~~~~~~~~~{Style.RESET_ALL}")
+
 
 if __name__ == "__main__":
     '''
