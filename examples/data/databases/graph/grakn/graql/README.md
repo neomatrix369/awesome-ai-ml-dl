@@ -79,6 +79,48 @@ See [English to Graql](./English-to-Graql.md)
 
 See [Graql to English](./Graql-to-English.md)
 
+## Running CLI interface for PoC
+
+Before doing this ensure that your database instance (local or Docker) has the data applied as expected by following the [Schema](README.md#schema) and [Data](README.md#data) steps. Otherwise the below queries won't return a good response. To find out the results of the interactions, also open the [presentation](../presentation/GraknCosmos2020/Naturally,-getting-productive,-my-journey-with-Grakn-and-Graql.pdf) alongside.
+
+```
+(from parent folder, run the below)
+$ ./grakn-runner.sh --run-grakn-only --runContainer
+
+(once the Grakn server is ready, run the below using Python3)
+$ ./run-python-in-docker.sh
+
+(inside the docker container follow the steps mentioned)
+$ pip install -r requirements.txt
+
+$ python grakn_console_client.py
+```
+
+When presented with the prompt:
+```
+GraqlBot: English or Graql >
+```
+
+Any one of these queries can be tried out:
+```
+show schema
+```
+or
+```
+Give me a list of customers calling each other in London or Cambridge
+```
+or
+```
+Since September which customers called
+```
+or
+```
+Calls related to September 10th or 14th
+```
+or a Graql query like:
+```
+graql: match $customer isa person, has age < 20; $company isa company, has name "Telecom"; (customer: $customer, provider: $company) isa contract; (caller: $customer, callee: $anyone) isa call, has duration $duration; get $duration; mean $duration;
+```
 ## Resources
 
 - [Workbase overview](https://dev.grakn.ai/docs/workbase/overview)
