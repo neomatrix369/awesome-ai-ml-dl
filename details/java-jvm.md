@@ -209,6 +209,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
   - [Clojure related ML links](https://github.com/josephmisiti/awesome-machine-learning#clojure)
   - [Scicloj](https://scicloj.github.io/) - an open, free and dynamic hub aimed at advancing doing data science, machine learning and numerical computing in Clojure | [GitHub](https://github.com/scicloj) | [Zulip](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science) | [Twitter](https://twitter.com/scicloj) | [Youtube](http://yt.vu/+scicloj) | [scicloj@gmail.com](mailto:scicloj@gmail.com)
+  - [Practicalli Data Science](https://www.youtube.com/playlist?list=PLpr9V-R8ZxiDUXIR2z8Y8wvhpoPyl0t_D) - data capture, transformation and visualisation - YouTube playlist
 
 ### Scala
 
