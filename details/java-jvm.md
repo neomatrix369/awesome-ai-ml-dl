@@ -176,6 +176,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Onnx Runtime](https://github.com/microsoft/onnxruntime/pull/2215 )
   - [Tensorflow Java - optimizers](https://github.com/Craigacp/tensorflow-java/tree/optimizers )
   - [Tensorflow Java - optimizers (MNIST)](https://github.com/Craigacp/tensorflow-java/blob/optimizers/tensorflow-sandbox/src/main/java/org/tensorflow/sandbox/MNISTTest.java )
+  - [Tensorflow SIG](https://gitter.im/tensorflow/sig-io)
 
 ## Java Specification Requests
 
