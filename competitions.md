@@ -10,16 +10,7 @@
     - [Active DS Competition: 2019 Data Science Bowl](https://www.kaggle.com/c/data-science-bowl-2019)
     - [Active ML Competition: RSNA Intracranial Hemorrhage Detection](https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection)
     - [Active ML Competition: ASHRAE - Great Energy Predictor III](https://www.kaggle.com/c/ashrae-energy-prediction)
-    - [Active DS Competition: NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020)
-    - RAPIDS
-        - [RAPIDS in Kaggle competition](https://www.kaggle.com/cdeotte/rapids/) [LinkedIn](https://www.linkedin.com/posts/miguelusque_kaggle-rapids-gpu-activity-6628421575299383297-Ifuu)
-        - [Here is the first ever successful implementation of NVIDIA #rapids library in a Kaggle kernel. It achieves 600X speedup of the kNN as compared to #sklearn](https://www.kaggle.com/cdeotte/rapids-gpu-knn-mnist-0-97) [LinkedIn](https://www.linkedin.com/posts/tunguz_rapids-sklearn-ml-activity-6626833143032885248-XQA6)
-    - [Kaggle, chat with RCTatman](https://youtu.be/n_CTGZSq4m0)
-    - [Episode 1.1: Intro and building a machine learning framework](https://www.youtube.com/watch?v=ArygUBY0QXw) [MLFramework](https://github.com/abhishekkrthakur/mlframework)
-    - [Episode 1.2: Building an inference for the machine learning framework](https://www.youtube.com/watch?v=zcqgj-Udcqs)
-    - [Tips N Tricks #3: Creating a clean inference kernel/notebook on Kaggle](https://www.youtube.com/watch?v=C7Tsfrq_g18)
-    - [Interview with Abhishek Thakur | World's First Triple Grandmaster | Kaggle](https://www.youtube.com/watch?v=8lniZVqRLA0)
-    - [My journey to 4x GM on Kaggle](https://www.youtube.com/watch?v=z15TKkAPNUM)
+    - [Active DS Competition: NFL Big Data Bowl](https://www.kaggle.com/c/nfl-big-data-bowl-2020)    
 - [Bitgrit competition platform](https://competition.bitgrit.net/)
 - [CrowdAI](https://www.crowdai.org/challenges?challenge_filter=active)
 - [Crowd Analytix](https://www.crowdanalytix.com/community)
@@ -54,6 +45,15 @@
 ## Resources
 
 - [Kaggle Kernels Guide for Beginners — Step by Step Tutorial](https://towardsdatascience.com/kaggle-kernels-for-beginners-a-step-by-step-guide-3db6b1cd7606)
+- RAPIDS
+  - [RAPIDS in Kaggle competition](https://www.kaggle.com/cdeotte/rapids/) [LinkedIn](https://www.linkedin.com/posts/miguelusque_kaggle-rapids-gpu-activity-6628421575299383297-Ifuu)
+  - [Here is the first ever successful implementation of NVIDIA #rapids library in a Kaggle kernel. It achieves 600X speedup of the kNN as compared to #sklearn](https://www.kaggle.com/cdeotte/rapids-gpu-knn-mnist-0-97) [LinkedIn](https://www.linkedin.com/posts/tunguz_rapids-sklearn-ml-activity-6626833143032885248-XQA6)
+- [Kaggle, chat with RCTatman](https://youtu.be/n_CTGZSq4m0)
+- [Episode 1.1: Intro and building a machine learning framework](https://www.youtube.com/watch?v=ArygUBY0QXw) [MLFramework](https://github.com/abhishekkrthakur/mlframework)
+- [Episode 1.2: Building an inference for the machine learning framework](https://www.youtube.com/watch?v=zcqgj-Udcqs)
+- [Tips N Tricks #3: Creating a clean inference kernel/notebook on Kaggle](https://www.youtube.com/watch?v=C7Tsfrq_g18)
+- [Interview with Abhishek Thakur | World's First Triple Grandmaster | Kaggle](https://www.youtube.com/watch?v=8lniZVqRLA0)
+- [My journey to 4x GM on Kaggle](https://www.youtube.com/watch?v=z15TKkAPNUM)
 
 # Contributing
 
