@@ -79,7 +79,10 @@
   ## Genetic Algorithms
 
   - [Introduction to Genetic Algorithms & their application in data science](https://media.licdn.com/dms/document/C511FAQE99ZtwL7srQA/feedshare-document-pdf-analyzed/0?e=1570906800&v=beta&t=OiKdTPzo2ozpBzVl0N_5JPvzAoqsS2iie9cHNK4BXCg) [deadlink]
-  - [Hands-On Genetic Algorithms with Python playlist](https://www.youtube.com/playlist?list=PLeLcvrwLe186eQR5Y-T_kOZEjADAwTScy)
+  - Hands-On Genetic Algorithms with Python book:
+    - [Static images in each chapter](https://static.packt-cdn.com/downloads/9781838557744_ColorImages.pdf)
+    - [Video playlist over each chapter](https://www.youtube.com/playlist?list=PLeLcvrwLe186eQR5Y-T_kOZEjADAwTScy)
+    - [Code from the book](https://github.com/PacktPublishing/Hands-On-Genetic-Algorithms-with-Python)
   - [Genetic Algorithm: The Nature of Code playlist](https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV)
     - [Session 2 - Genetic Algorithms - Intelligence and Learning The Coding Train](https://www.youtube.com/watch?v=c8gZguZWYik&list=PLRqwX-V7Uu6bw4n02JP28QDuUdNi3EXxJ)
     - [Coding Challenge #35.4: Traveling Salesperson with Genetic Algorithm](https://www.youtube.com/watch?v=M3KTWnTrU_c)
