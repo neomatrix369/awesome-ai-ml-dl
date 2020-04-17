@@ -2,6 +2,7 @@
 
 - [General](#general)
 - [Generative Adversarial Network (GAN)](#generative-adversarial-network-gan)
+- [Genetic Algorithms](#genetic-algorithms) 
 - [RNN](#rnn)
 - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
 - [Computer Vision](#computer-vision)
@@ -80,6 +81,7 @@
 
   - [Introduction to Genetic Algorithms & their application in data science](https://media.licdn.com/dms/document/C511FAQE99ZtwL7srQA/feedshare-document-pdf-analyzed/0?e=1570906800&v=beta&t=OiKdTPzo2ozpBzVl0N_5JPvzAoqsS2iie9cHNK4BXCg) [deadlink]
   - Hands-On Genetic Algorithms with Python book:
+    - Book: [Amazon](https://www.amazon.com/Hands-Genetic-Algorithms-Python-intelligence-ebook/dp/B0842372RQ/) | [Packt Publishing](https://www.packtpub.com/data/hands-on-genetic-algorithms-with-python)
     - [Static images in each chapter](https://static.packt-cdn.com/downloads/9781838557744_ColorImages.pdf)
     - [Video playlist over each chapter](https://www.youtube.com/playlist?list=PLeLcvrwLe186eQR5Y-T_kOZEjADAwTScy)
     - [Code from the book](https://github.com/PacktPublishing/Hands-On-Genetic-Algorithms-with-Python)

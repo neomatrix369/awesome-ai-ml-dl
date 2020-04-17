@@ -50,6 +50,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Julia, Python & R](./details/julia-python-and-r.md#julia-python-and-r)
     - [General](./details/julia-python-and-r.md#general)
     - [Generative Adversarial Network (GAN)](./details/julia-python-and-r.md#generative-adversarial-network-gan)
+    - [Genetic Algorithms](./details/julia-python-and-r.md#genetic-algorithms)
     - [RNN](./details/julia-python-and-r.md#rnn)
     - [Natural Language Processing (NLP)](./details/julia-python-and-r.md#natural-language-processing-nlp)
     - [Computer Vision (CV)](./details/julia-python-and-r.md#computer-vision)
