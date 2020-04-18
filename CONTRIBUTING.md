@@ -19,7 +19,7 @@ There are two required criteria for a pull request:
 
 2. If an entry does not meet conditions *(a)* to *(d)* there has to be an explanation either in the description or the pull request why it should be added to the list.
 
-Self-promotion is not encouraged, but your suggestion will of course be approved if the criteria match.
+Self-promotion is not encouraged, but your suggestion will of course be approved if the criteria match. Self-promotion can be done within reasons if the content shared is useful to the audience and helps the current and future community, or around those lines. These kinds of submissions will be looked into case-by-case basis.
 
 Furthermore, please ensure your pull request follows the following guidelines:
 
