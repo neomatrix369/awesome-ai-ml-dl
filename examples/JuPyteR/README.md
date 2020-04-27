@@ -1,15 +1,20 @@
-# JuPyteR
+# JuPyteR [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 [JuPyteR notebooks](https://jupyter.org/) also gives us the facility to write notebooks using Java, Scala and other JVM and non-JVM languages in addition to Python, R and Julia.
 
 In theory, the below instructions should work for all operating systems i.e. Linux, MacOS and Windows. Although it has been only tested for Linux and MacOS.
 
-### Kernels
-These are provided using via kernels, for e.g. the [IJava kernel](https://github.com/SpencerPark/IJava) when installed, provides Java language support in Jupyter notebooks. Take a look at the docs and examples provided on [https://github.com/SpencerPark/IJava]().
+## Blogs
+
+- [Running Jupyter notebooks on Oracle Cloud Infrastructure](https://medium.com/@neomatrix369/running-your-jupyter-notebooks-on-the-cloud-ed970326649f)
+
+## Kernels
+
+These are provided using via kernels, for e.g. the [IJava kernel](https://github.com/SpencerPark/IJava) when installed, provides Java language support in Jupyter notebooks. Take a look at the docs and examples provided on [https://github.com/SpencerPark/IJava](https://github.com/SpencerPark/IJava).
 
 Pre-requisite: only supports JDK versions 9 and higher
 
-Graal compiler can be enabled for JDK 9 and higher, for platforms where it is supported, see table below:
+GraalVM compiler can be enabled for JDK 9 and higher, for platforms where it is supported, see table below:
 
 |JDK/JRE Version  | Platforms             | 
 |----------------:|:----------------------|
@@ -17,34 +22,68 @@ Graal compiler can be enabled for JDK 9 and higher, for platforms where it is su
 |Java 10          | Linux and MacOS       |
 |Java 11 or higher| Linux, MacOS, Windows |
 
+#### Switches to enable the GraalVM compiler in Java 9
+
+```
+  export JAVA_OPTS="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
+  export JAVA_TOOL_OPTIONS="${JAVA_TOOL_OPTIONS} ${JAVA_OPTS}"
+```
+
+or
+
+```
+  export ENABLE_GRAALVM_COMPILER="-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler"
+
+  java [-cp] [...] [-jar] [...] \
+       ${ENABLE_GRAALVM_COMPILER}
+```
+
 ### Additional source of kernels
 - [beakerx](http://beakerx.com/) - Is another source where a wider range of kernels can be found (covering many JVM languages).
 
 ![beakerx](beakerx-homepage-screenshot.png)
-- [https://github.com/scijava/scijava-jupyter-kernel]() - aims to be a polyglot Jupyter kernel. It uses the [Scijava scripting languages](https://imagej.net/Scripting#Supported_languages) to execute the code in Jupyter client and it's possible to use different languages in the same notebook (covers a number of JVM languages).
+- [https://github.com/scijava/scijava-jupyter-kernel](https://github.com/scijava/scijava-jupyter-kernel) - aims to be a polyglot Jupyter kernel. It uses the [Scijava scripting languages](https://imagej.net/Scripting#Supported_languages) to execute the code in Jupyter client and it's possible to use different languages in the same notebook (covers a number of JVM languages).
 
-- [https://github.com/ligee/kotlin-jupyter]() - Basic kotlin (1.2.21) REPL kernel for jupyter
+- [https://github.com/ligee/kotlin-jupyter](https://github.com/ligee/kotlin-jupyter) - Basic kotlin (1.2.21) REPL kernel for jupyter
 ![Kotlin for Jupyter](https://github.com/ligee/kotlin-jupyter/raw/master/samples/ScreenShotInJupyter.png)
 
 - [Wikipedia of Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) - a list of available kernels, add yours to the list in case it isn't mentioned.
 
 ### Write kernels
 
-Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel]() in order to embark into the world of kernel creation, maybe the [example folder](https://github.com/SpencerPark/jupyter-jvm-basekernel/tree/master/example) is a good one to look at as well.
+Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel](https://github.com/SpencerPark/jupyter-jvm-basekernel) in order to embark into the world of kernel creation, maybe the [example folder](https://github.com/SpencerPark/jupyter-jvm-basekernel/tree/master/example) is a good one to look at as well.
 
 ## Get started: Automated (via scripts)
 
 ### Source location
 
-Go to example [project root](./examples/JuPyteR) to perform the commands mentioned in the sections below.
+Go to example [project root](../JuPyteR) to perform the commands mentioned in the sections below.
 
 ### Local environment
 
 ```
-./install-java-kernel.sh
+$ cd build-docker-image
+
+$ [install Java 9 SDK and set the PATH and JAVA_HOME]
+$ ./install-jupyter-notebooks.sh
+$ ./install-java-kernel.sh
 ```
 
-We should see the below output:
+We should see the below two sets of outputs:
+
+```
+Installing Jupyter notebook and dependencies
+JDK9, Linux only: We are enabling JVMCI flags (enabling Graal as Tier-2 compiler)
+Graal setting: please check docs for higher versions of Java and for other platforms
+PATH=/opt/java/openjdk//bin:/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+JAVA_OPTS=-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler
+openjdk 9.0.4
+...
+Successfully installed MarkupSafe-1.1.1 Send2Trash-1.5.0 attrs-19.1.0 backports-abc-0.5 backports.shutil-get-terminal-size-1.0.0 bleach-3.1.0 configparser-3.8.1 decorator-4.4.0 defusedxml-0.6.0 entrypoints-0.3 enum34-1.1.6 functools32-3.2.3.post2 futures-3.3.0 ipaddress-1.0.22 ipykernel-4.10.1 ipython-5.8.0 ipython-genutils-0.2.0 ipywidgets-7.5.1...
+```
+
+and
 
 ```
 A list of already installed kernels in your jupyter environment
@@ -109,7 +148,7 @@ $ unzip ijava-1.2.0.zip
 
 ### Install the kernel
 
-**Pre-requisite:** _Java 9_ should be the current JDK your *JAVA_HOME* should point to, when installing the pre-compiled binary from [https://github.com/SpencerPark/IJava/releases/]()
+**Pre-requisite:** _Java 9_ should be the current JDK your *JAVA_HOME* should point to, when installing the pre-compiled binary from [https://github.com/SpencerPark/IJava/releases/](https://github.com/SpencerPark/IJava/releases/)
 
 #### Method 1: via the `jupyter` command on the command-line
 
@@ -190,18 +229,18 @@ Also checkout the live links (JuPyteR notebooks online).
 
 Inspired by these tweets:
 
-- [https://twitter.com/java/status/1081275824492371968]()
-- [https://twitter.com/java/status/1082365504461824000]()
+- [https://twitter.com/java/status/1081275824492371968](https://twitter.com/java/status/1081275824492371968)
+- [https://twitter.com/java/status/1082365504461824000](https://twitter.com/java/status/1082365504461824000)
 
-Thank you [@nicolas_frankel](twitter.com/@nicolas_frankel) and the good folks behind [beakerx.com]().
+Thank you [@nicolas_frankel](http://twitter.com/@nicolas_frankel) and the good folks behind [beakerx.com](https://beakerx.com).
 
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
 
-Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../../LICENSE.md) policy.
 
 ---
 
-Back to example [project root](./examples/JuPyteR) </br>
+Back to example [project root](../JuPyteR) </br>
 Back to [main page (table of contents)](../../README.md)

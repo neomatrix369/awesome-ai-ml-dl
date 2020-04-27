@@ -1,0 +1,169 @@
+# Mathematics, Statistics, Probability & Probabilistic programming
+
+## Mathematics
+
+- [Math Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/math-fundamentals/math-fundamentals.md)
+- [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
+- [Topic-wise notes: maths & stats](https://www.ctanujit.org/lecture-notes.html)
+- [Number Representation Systems Explained in One Picture](https://www.datasciencecentral.com/profiles/blogs/number-representation-systems-explained-in-one-picture)
+- Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- [A Simple Introduction to Complex Stochastic Processes](https://www.linkedin.com/posts/data-science-central_a-simple-introduction-to-complex-stochastic-activity-6615015773003935744-wfUL)
+- [Quick math references](https://www.linkedin.com/posts/asif-bhat_mathematics-quick-reference-activity-6621165265302458368-XRFB)
+- [Mathematics for Machine Learning](https://lnkd.in/edgvceK)
+- [Patrick Landreman: A Crash Course in Applied Linear Algebra | PyData New York 2019](https://www.youtube.com/watch?v=wkxgZirbCr4) 
+- [👏Linear Algebra👏 by Jim Hefferon](https://www.linkedin.com/posts/asif-bhat_linear-algebra-activity-6621491653905608704-8gkg)
+- [#Tensor #Calculus for Deep learning which is used in Google #Tensorflow. Designed by Prof. Dr. Cornelis P. Dullemond](https://www.linkedin.com/posts/ashishpatel2604_tensor-calculus-for-deep-learning-activity-6602889964453756928-Y7Nk)
+- [Mathematical Understanding of CNN: course notes of Andrew Ng](https://www.linkedin.com/posts/ashishpatel2604_amazing-cnn-notes-ugcPost-6602853333562687488-PG8e)
+- [”A Beginner's Guide to the Mathematics of Neural Networks”](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&rep=rep1&type=pdf) [LinkedIn Post](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-neuralnetworks-activity-6637386735531683840-9RGJ)
+- [Visual proof of the so-called Nicomachus theorem](https://media-exp1.licdn.com/dms/image/C4E22AQHlY8BHlHAA5g/feedshare-shrink_1280/0?e=1589414400&v=beta&t=NyBaXMFDQcf21eZQWOlBeMPXo1MWbC0ejv5Q2DMkj44 [Wikipedia](https://en.wikipedia.org/wiki/Ars_Conjectandi) [LinkedIn Post](https://www.linkedin.com/posts/marco-tavora_mathematics-proof-math-activity-6639419651048689664-3hlj) (LinkedIn Sign-in required)
+- [This simple introduction to #matrix theory offers a refreshing perspective on the subject](https://www.datasciencecentral.com/profiles/blogs/new-approach-to-linear-algebra-in-machine-learning)
+[LinkedIn Post](https://www.linkedin.com/posts/ashishpatel2604_linear-algebra-for-machine-learning-algorithms-activity-6627219245514227712-cppj)
+- ✅Mathematics for Data Science✅: [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) | [Khan Academy: Math](https://www.khanacademy.org/math/) | [Krista King's classes](https://www.udemy.com/user/kristaking/) [LinkedIn Post](https://www.linkedin.com/posts/asif-bhat_datascience-probability-linearalgebra-activity-6626778764787449856-NTNx)
+- [Mathematics for Machine Learning](https://www.youtube.com/watch?v=vLJcduC4lBM&list=PLcQCwsZDEzFmlSc6levE3UV9rZ8yY-D_7)
+- [Explaining the maths of #backpropagation is hard and there are many good resources covering the maths of #deeplearning ](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+[LinkedIn Post](https://www.linkedin.com/posts/ajitjaokar_a-step-by-step-backpropagation-example-activity-6626831675756212225-9-CG)
+- [Math model: simulating an epidemic](https://www.youtube.com/watch?v=gxAaO2rsdIs&feature=share&fbclid=IwAR2tcfTH08Z7oKBvaAqg9q4-JZ3iGZICE-l0Wl_Qx8EBDugWmmNT5YzPHZw)
+- [🐍 Linear Algebra in Python 🐍](https://github.com/abhat222/Linear-Algebra/blob/master/Linear%20Algebra.ipynb) [LinkedIn Post](https://www.linkedin.com/posts/asif-bhat_linear-algebra-activity-6645022216448811008-DEvZ)
+- [Neural-Symbolic Learning and Reasoning 📝](https://arxiv.org/abs/1711.03902) [LinkedIn Post](https://www.linkedin.com/posts/asif-bhat_neural-symbolic-learning-reasoning-activity-6630241195400495104-bpYo)
+
+## Statistics
+
+- [Statistics Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/statistics-fundamentals/statistics-fundamentals.md)
+- [Statistics for Machine learning (paid book: Packt Publishing)](https://www.packtpub.com/big-data-and-business-intelligence/statistics-machine-learning)
+- [Topic-wise notes: maths & stats](https://www.ctanujit.org/lecture-notes.html)
+- [5 Lesson 5 Measures Of Skewness And Kurtosis](https://sol.du.ac.in/mod/book/view.php?chapterid=1067&id=1317) [deadlink]
+- [Data Types in Statistics](https://towardsdatascience.com/data-types-in-statistics-347e152e8bee)
+- [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
+- [Fractional Exponentials - Dataset to Benchmark Statistical Tests](https://www.datasciencecentral.com/profiles/blogs/weird-mathematical-object-fractional-exponential)
+- [Amortized Monte Carlo Integration](https://www.youtube.com/watch?v=-oHCqLFLTAI) by [Tom Rainforth](http://www.robots.ox.ac.uk/~twgr/)
+- [Kernel Embeddings, Meta Learning & Distributional Transfer](https://www.youtube.com/watch?v=vjG-2RjHnAA) by [Dino Sejdinovic](http://www.stats.ox.ac.uk/~sejdinov/)
+- [Thomas Wiecki’s presentation: Machine Learning and Statistics - don't mind the gap](https://docs.google.com/presentation/d/1buknIrG5b8u0twrwvlxcTudIOdx68AlqDiST_A_jJ9g/edit#slide=id.g3dc76d9ec1_0_6) | [Thomas Wiecki](https://twitter.com/twiecki)
+- [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
+- [G. James, D. Witten et al., An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
+- [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization)
+- [Learning from Data: the art of statistics](http://www.lse.ac.uk/Events/2019/03/20190327t1830vHKT/Learning-from-Data) | [The Art of Statistics: Learning from Data by David Spiegelhalter](https://www.amazon.com/Art-Statistics-Learning-Pelican-Books-ebook/dp/B07HQDJD99)
+- [Statistical Rethinking](https://issuu.com/biwugrok17/docs/pdf_download_online_pdf_statistical) [deadlink]
+- Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- [32 Type of Statisical Distribution, by Rasmus Baath](https://www.linkedin.com/posts/nabihbawazir_32-type-of-statisical-distribution-by-rasmus-activity-6610812725444612098-l1n-)
+- [Book: Statistics for Non-Statisticians](https://www.linkedin.com/posts/data-science-central_book-statistics-for-non-statisticians-activity-6610350028454141952-gJ_l)
+- [👉 Statistics Quick Reference 👈](https://www.linkedin.com/posts/asif-bhat_statistics-activity-6620801636182917120-Z32y)
+- [A Semi-Supervised Classification Algorithm using Markov Chain and Random Walk in R](https://www.linkedin.com/posts/data-science-central_a-semi-supervised-classification-algorithm-activity-6614306095047462912-7rjG)
+- [Interesting Problem: Self-correcting Random Walks](https://www.linkedin.com/posts/data-science-central_interesting-problem-self-correcting-random-activity-6622308830137114624-9D2L)
+- 24 Uses of Statistical Modeling: [Part I](https://www.linkedin.com/posts/data-science-central_24-uses-of-statistical-modeling-part-i-activity-6616738123302924288-fPqG) | [Part II](https://www.linkedin.com/posts/data-science-central_24-uses-of-statistical-modeling-part-ii-activity-6606560053312970752-6X1H)
+- [Encyclopedia of Statistics by Data Science Central](https://www.linkedin.com/posts/ashishpatel2604_encyclopediastatistics-activity-6606068070370902016-TA04)
+- [Statistical Inquiry Cycle](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6624989612928536576-Z7NE)
+- [Your Guide to Master Hypothesis Testing in Statistics](https://www.linkedin.com/posts/data-science-central_your-guide-to-master-hypothesis-testing-in-activity-6624332159144509441-HVq_)
+- [🎯 Most #important #statistics concept for a #Datascientist in one #image and its an extension](https://www.linkedin.com/posts/ashishpatel2604_important-statistics-datascientist-activity-6625408616923004929-TC4A)
+- [Basic Understanding 🤔 of Statistics🕸️ Notes 📔 Best Statistics courses on Internet](https://www.linkedin.com/posts/ashishpatel2604_basics-of-statistic-by-udacity-ugcPost-6603602906786693120-VLBR)
+- [Statistics Cheatsheet](https://www.linkedin.com/posts/nabihbawazir_statistics-cheatsheet-activity-6605755821471166464--U80)
+- [Didn't Learn Statistics Yet?](https://www.linkedin.com/posts/iamsivab_42-open-problems-in-mathematics-ugcPost-6604724523625472000-TieN)
+- [7 Traps to Avoid Being Fooled by Statistical Randomness](https://www.linkedin.com/posts/data-science-central_7-traps-to-avoid-being-fooled-by-statistical-activity-6607693525188427777-ZEsL)
+- [Three classes of metrics: centrality, volatility, and bumpiness](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/three-classes-of-metrics-centrality-volatility-and-bumpiness)
+
+Why Including Effect Size and Knowing your Statistical Power ~ are Important](https://www.datasciencecentral.com/profiles/blogs/why-including-effect-size-and-knowing-your-statistical-power-are
+
+Important #Statistics formula in one picture...👈👈👈Must reas](https://www.linkedin.com/posts/ashishpatel2604_statistics-artificialintelligence-machinelearning-activity-6635127417809801216-l94G
+
+
+The Cartoon Guide To Statistics](https://www.linkedin.com/posts/iamsivab_the-cartoon-guide-to-statistics-activity-6638031133118423040-7h7Y
+
+9 Off-the-beaten-path Statistical Science Topics with Interesting Applications](https://www.linkedin.com/posts/data-science-central_9-off-the-beaten-path-statistical-science-activity-6645774952333131776-zGdV
+
+Here are some essential math/stats for #DataScience](https://www.linkedin.com/posts/nabihbawazir_datascience-datascience-statistics-activity-6639121813903368192-BdWh
+
+Stats + Data Science Education](https://www.linkedin.com/posts/mattdancho_datascience-machinelearning-activity-6639131770174357505-RZ_Z
+
+Statistics for Data Science in One Picture](https://www.linkedin.com/posts/data-science-central_statistics-for-data-science-in-one-picture-activity-6638978669270360064-4YSS
+
+Diff between stats and DS: big data and inferential stats](https://www.linkedin.com/posts/ajitjaokar_the-difference-between-statistics-and-data-activity-6637582237258825728-IAIm
+
+Data Science: The End of Statistics?](https://www.linkedin.com/posts/data-science-central_data-science-the-end-of-statistics-activity-6645803640802070528-BGmH
+
+Statistical Significance Tests for Comparing Machine Learning Algorithms](https://machinelearningmastery.com/statistical-significance-tests-for-comparing-machine-learning-algorithms/
+
+Statistical Modeling; Selecting Predictors is a Challenge for Data Scientists](https://www.linkedin.com/posts/data-science-central_statistical-modeling-selecting-predictors-activity-6642542151878144000-3tD0
+
+Machine Learning vs. Traditional Statistics: Different philosophies, Different Approaches](https://www.linkedin.com/posts/data-science-central_machine-learning-vs-traditional-statistics-activity-6644415494516469760-WT--
+
+Becoming a Master of Statistical Inference by Robert Wood](https://www.linkedin.com/posts/towards-data-science_becoming-a-master-of-statistical-inference-activity-6644473375601369088-mKmB
+
+Ten Simple Rules for Effective Statistical Practice](https://www.linkedin.com/posts/data-science-central_ten-simple-rules-for-effective-statistical-activity-6640293340111794176-3B62
+
+💦 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗶𝘀 𝗮𝗻 𝗲𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗽𝗮𝗿𝘁 𝗳𝗼𝗿 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗱𝗮𝘁𝗮, 𝘀𝗼 𝗯𝗲𝗳𝗼𝗿𝗲 𝗱𝗲𝗲𝗽 𝗱𝗶𝘃𝗲 𝗶𝗻𝘁𝗼 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁𝘀 𝗴𝗼𝗼𝗱 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲 𝘁𝗼 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝘁𝗵𝗲 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹 𝗼𝗳 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗮𝗻𝗱 𝘄𝗵𝗲𝗿𝗲 𝗶𝘁'𝘀 𝘂𝘀𝗲𝗱.](https://www.linkedin.com/posts/ashishpatel2604_statistics-cheat-sheet-activity-6650269088838975488-NtgL
+
+Practical Statistics](https://www.youtube.com/watch?v=CwJ4pcEYjT0&list=PLcQCwsZDEzFnmUDaOHQeWbiP7N_acsFb9
+
+Deciphering information and misinformation: Inspired by the book "A Field Guide to Lies and Statistics"](https://www.linkedin.com/posts/data-science-central_deciphering-information-and-misinformation-activity-6650152295398981632-0TJn
+
+
+💦 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗶𝘀 𝗮𝗻 𝗲𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗽𝗮𝗿𝘁 𝗳𝗼𝗿 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗱𝗮𝘁𝗮, 𝘀𝗼 𝗯𝗲𝗳𝗼𝗿𝗲 𝗱𝗲𝗲𝗽 𝗱𝗶𝘃𝗲 𝗶𝗻𝘁𝗼 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁𝘀 𝗴𝗼𝗼𝗱 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲 𝘁𝗼 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝘁𝗵𝗲 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹 𝗼𝗳 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗮𝗻𝗱 𝘄𝗵𝗲𝗿𝗲 𝗶𝘁'𝘀 𝘂𝘀𝗲𝗱.](https://www.linkedin.com/posts/ashishpatel2604_statistics-cheat-sheet-activity-6650269088838975488-NtgL
+
+- [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
+- [See Data > Statistics section more related links](../data/README.md#statistics)
+
+## Probability and Probabilistic programming
+
+- [Probabilistic Symmetry and Invariant Neural Networks](https://www.youtube.com/watch?v=u8Jt1HkWTn4) by [Benjamin Bloem-Reddy](https://www.stat.ubc.ca/~benbr/)
+- [Practical Probabilistic Programming book (pdf)](http://www.unquotebooks.com/download/practical-probabilistic-programming/)
+- [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
+- [Chris Fonnesbeck’s presentation: PyMC's Big Adventure - Lessons Learned from the Development of Open-source Software for Probabilistic Programming](https://gitpitch.com/fonnesbeck/neurips_2018_talk#/) | [Chris Fonnesbeck](https://twitter.com/fonnesbeck)
+- [Amortized Monte Carlo Integration](https://www.youtube.com/watch?v=-oHCqLFLTAI) by [Tom Rainforth](http://www.robots.ox.ac.uk/~twgr/)
+- Books
+  - [Think Stats, 2nd edition](https://greenteapress.com/wp/think-stats-2e/) | [github](https://github.com/AllenDowney/ThinkStats2) - is an introduction to Probability and Statistics for Python programmers
+- [Learning & Reasoning in Artificial Intelligence](https://www.youtube.com/watch?v=K_GOHepjY2o) by [Thomas Lukasiewicz](http://www.cs.ox.ac.uk/thomas.lukasiewicz/)
+- Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
+- [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods#Weighted_Choice)
+- [👉 Introduction to #probability 👈](https://www.linkedin.com/posts/asif-bhat_introduction-to-probability-activity-6612508393510932480-FXN4)
+- [#Probability #understanding in one #image](https://www.linkedin.com/posts/ashishpatel2604_probability-understanding-image-activity-6625279322162855936-mrHo)
+- [Understanding the applications of Probability in Machine Learning](https://www.linkedin.com/posts/data-science-central_understanding-the-applications-of-probability-activity-6607350877571338241-t30D)
+- [How to approach Hypothesis Testing](https://medium.com/@dhruvaggarwal6/how-to-approach-hypothesis-testing-6257d03bcfee)
+- [Probability for Machine Learning](https://www.youtube.com/watch?v=gHreTUjAf7k&list=PLcQCwsZDEzFm2pG7Dh1DrLFqWgSxhWd9_)
+- [Different Probability Distributions in One Picture](https://www.linkedin.com/posts/vincentg_different-probability-distributions-in-one-activity-6650156322077622272-ToQM)
+- [Probability for Machine Learning](https://www.youtube.com/playlist?list=PLcQCwsZDEzFm2pG7Dh1DrLFqWgSxhWd9_&fbclid=IwAR2_HSTp68ujKbn4u5N1VY2u7NzgugA_xhULAecjLhMS0bzAiOzrclGN-uE)
+- [How to calculate covariance with probability distribution in R?](https://www.facebook.com/groups/AnalyticsEdge/permalink/2585831874965102/)
+- [Data Scientists Must Know Probability](https://www.linkedin.com/posts/towards-data-science_data-scientists-must-know-probability-activity-6646410891954925570-Zdps)
+- [Generating Pareto Distribution in Python](https://www.linkedin.com/posts/towards-data-science_generating-pareto-distribution-in-python-activity-6646307713204658176-mjOW)
+- [Data Science](../courses.md#data-science) in [Courses](../courses.md#courses)
+
+### Bayesian
+
+- [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
+- [Probabilistic Programming & Bayesian Methods for Hackers - Cam Davidson-Pilon](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+- [Bayesian nonparametric ML through randomized loss functions & posterior bootstraps](https://www.youtube.com/watch?v=y_gI9R4Oe0g) by [Chris Holmes](http://www.stats.ox.ac.uk/~cholmes/)
+- [A visual guide to Bayesian thinking](https://www.youtube.com/watch?v=BrK7X_XlGB8)
+- [Visualization in Bayesian workflow](https://arxiv.org/abs/1709.01449)
+- [Skillsmatter: Precision Medicine With Mechanistic, Bayesian Models](https://skillsmatter.com/skillscasts/12129-bayesian-mixer-london-june) [deadlink]
+- [Colin Carroll’s presentation: Tidy and beautiful - Visualizing Bayesian models with xarray and ArviZ](https://colcarroll.github.io/arviz_pydata_nyc/#/) | [Colin Carroll](https://twitter.com/colindcarroll)
+- Books
+  - [Bayesian Data Analysis Third Edition [Gelman]](https://statmodeling.stat.columbia.edu/wp-content/uploads/2013/08/bda3_contents.pdf) | [previous source](https://www.academia.edu/32086149/Bayesian_Data_Analysis_Third_Edition_Gelman_.pdf) [deadlink]
+  - [Think Bayesian](http://greenteapress.com/wp/think-bayes)
+  - [Model Based Machine Learning Book](http://www.mbmlbook.com/)
+  - [Bayesian Analysis with Python: Introduction to statistical modeling and probabilistic programming using PyMC3 and ArviZ](https://www.amazon.com/Bayesian-Analysis-Python-Introduction-probabilistic/dp/1789341655)
+- [Probability Learning I : Bayes’ Theorem](https://towardsdatascience.com/probability-learning-i-bayes-theorem-708a4c02909a)
+- [Probability Learning II: How Bayes’ Theorem is applied in Machine Learning](https://towardsdatascience.com/probability-learning-ii-how-bayes-theorem-is-applied-in-machine-learning-bd747a960962)
+- [Bayesian Framework](https://ekroc.weebly.com/uploads/2/1/6/3/21633182/bayesworkshop1.pdf)
+- [Implementing the Bayesian Framework](https://ekroc.weebly.com/uploads/2/1/6/3/21633182/bayesworkshop2.pdf)
+- [Bayesian Machine Learning](https://www.linkedin.com/posts/data-science-central_bayesian-machine-learning-activity-6623268367648256000-TTcf)
+- [A "quick" introduction to PyMC3 and Bayesian models](https://www.linkedin.com/posts/data-science-central_a-quick-introduction-to-pymc3-and-bayesian-activity-6612010972817215488-k8p8)
+- [Some Applications of Markov Chain in Python](https://www.linkedin.com/posts/data-science-central_some-applications-of-markov-chain-in-python-activity-6622278631290916864-R36q)
+- [A curated list of resources dedicated to bayesian deep learning](https://www.linkedin.com/posts/data-science-central_a-curated-list-of-resources-dedicated-to-activity-6606636571997327360-szZp)
+- [Analysis of Perishable Products Sales Using Bayesian Inference](https://www.linkedin.com/posts/data-science-central_analysis-of-perishable-products-sales-using-activity-6623969792770527232-o4q3)
+- [Naive Bayes for Dummies; A Simple Explanation](https://www.linkedin.com/posts/data-science-central_naive-bayes-for-dummies-a-simple-explanation-activity-6605579607217364992-fYKP)
+- [What is Baysean Linear Regressions (Part 1)](https://www.linkedin.com/posts/dida-datenschmiede_what-is-bayesian-linear-regression-part-activity-6638026854219431936-vxRb)
+- [3 Ways to Think about Bayes’ Rule by Isaac Riley](https://www.linkedin.com/posts/towards-data-science_3-ways-to-think-about-bayes-rule-activity-6644567999183486976-vwBK)
+- [How to Implement Bayesian Optimization from Scratch in Python](https://machinelearningmastery.com/what-is-bayesian-optimization/)
+- [Bayesian Methods and Networks in classical and quantum physics](http://bit.ly/2VryDDp)
+- [An introduction to (and puns on) Bayesian neural networks](https://engineering.papercup.com/posts/bayesian-neural-nets/)
+- [Bayesian Inference Algorithms: MCMC and VI](https://towardsdatascience.com/bayesian-inference-algorithms-mcmc-and-vi-a8dad51ad5f5)
+- [A chat w/ @twiecki about #BayesianHierarchicalModels! What are they? How to build them? And why you should be very careful when building them](https://twitter.com/alex_andorra/status/1238004298245644288)
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../LICENSE.md) policy.
+
+---
+
+Back to [details page (table of contents)](../README-details.md#mathematics_statistics_probability__probabilistic_programming)<br>
+Back to [main page (table of contents)](../README.md)

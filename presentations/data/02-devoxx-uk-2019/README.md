@@ -15,7 +15,7 @@ See [YouTube video on the Devoxx UK channel (~51 mins)](https://www.youtube.com/
 
 ### Abstract
 
-See [Devoxx UK 2019 - talk abstract](https://devoxxuk19.confinabox.com/talk/VEM-8021/Do_we_know_our_data_as_good_as_we_know_our_tools)
+See [Devoxx UK 2019 - talk abstract](https://devoxxuk19.confinabox.com/talk/VEM-8021/Do_we_know_our_data_as_good_as_we_know_our_tools) | [cached version of Talk Abstract](https://webcache.googleusercontent.com/search?q=cache:ggqgEPqxb0MJ:https://devoxxuk19.confinabox.com/talk/VEM-8021/Do_we_know_our_data,_as_good_as_we_know_our_tools%253F+&cd=1&hl=en&ct=clnk&gl=uk)
 
 For many of us who are developer turning data scientist, we are always concerned about how to build a model, train it, etc... And yes, we want the best accuracy (close to 99%).
 
@@ -37,3 +37,13 @@ We will cover some of these techniques:
     preparation - using statistical and physics functions, dimensionality reduction, feature selection, resampling
 
 And using different kinds of plots relevant at different stages.
+
+### Code
+
+- [Simple Data generation code](../../../notebooks/jupyter/data/data-generation)
+
+### Notebooks
+
+- [Notebooks used during the talk](../../../notebooks/jupyter/data/)
+- Also see towards the bottom of [Notebooks](../../../notebooks/README.md)
+

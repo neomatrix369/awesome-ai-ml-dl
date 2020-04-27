@@ -24,3 +24,5 @@ __pycache__
 /.project
 /.pydevproject
 .ipynb_checkpoints
+*shared/
+*.cache

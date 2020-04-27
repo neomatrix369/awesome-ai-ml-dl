@@ -6,8 +6,7 @@
 - Has a community forum and lots of resources on the internet, good feedback and posts on medium
 
 Additional references
-
-- https://course.fast.ai/
+- See [fast.ai](../courses.md#fastai) under [Courses](../courses.md#course)
 - https://docs.fast.ai/training.html
 - https://forums.fast.ai/t/how-should-i-get-started-with-fast-ai-library/17627
 - https://forums.fast.ai/t/another-treat-early-access-to-intro-to-machine-learning-videos/6826
@@ -30,4 +29,5 @@ Additional references
 - [ ] [Hyper parameter tuning: available] 
 - [ ] [Model saving: available]
 
-Back to [Data preparation, cleaning, validation, model creation, training resources](README.md).
+Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>
+Back to [Data page](./README.md#data).

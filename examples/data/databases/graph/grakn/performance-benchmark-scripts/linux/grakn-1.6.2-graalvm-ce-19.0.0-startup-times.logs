@@ -1,0 +1,135 @@
+
+~~~ Running Grakn in a Docker container using the Traditional JDK (version 1.8) Grakn version 1.6.2
+
++ docker run --rm --detach --workdir /home/grakn --user=grakn -p 48555:48555 -p 4567:4567 --env SHARED_FOLDER_PATH=/home/grakn/shared --env JDK_TO_USE=TRADITIONAL-JDK --env JAVA_OPTS= --env RUN_GRAKN_ONLY=false --env GRAKN_HOME=/home/grakn/grakn-core-all-linux-1.6.2 --env JAVA_HOME=/usr/local/openjdk-8/ neomatrix369/grakn:1.6.2-GRAALVM-CE-19.0.0
++ set +x
+
+Traditional-JDK: Grakn in the container is now starting (id = 5ec25bb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JAVA_HOME=/usr/local/openjdk-8/
+PATH=/usr/local/openjdk-8//bin:/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-b08)
+OpenJDK 64-Bit Server VM (build 25.242-b08, mixed mode)
+Grakn version: (see bottom of the startup text banner)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Starting Storage......SUCCESS
+Starting Grakn Core Server.....SUCCESS
+
+^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+real	0m10.496s
+user	0m7.396s
+sys	0m0.559s
+Grakn server is running...
+Starting Graql console...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome to Grakn Console. You are now in Grakn Wonderland!
+Copyright (C) 2019 Grakn Labs Limited
+
+
+real	0m8.764s
+user	0m1.460s
+sys	0m0.146s
+
+Traditional-JDK: Shutting down Grakn in the container (id = 5ec25bb)
+Traditional-JDK: Grakn in the container (id = 5ec25bb) has been shutdown.
+
+
+real	0m20.340s
+user	0m0.139s
+sys	0m0.038s
+
+~~~ Running Grakn in a Docker container using the GraalVM CE  (version 19.0.0), JVMCI disabled, Grakn version 1.6.2
+
++ docker run --rm --detach --workdir /home/grakn --user=grakn -p 48555:48555 -p 4567:4567 --env SHARED_FOLDER_PATH=/home/grakn/shared --env JDK_TO_USE=GRAALVM --env JAVA_OPTS=-XX:-UseJVMCINativeLibrary --env RUN_GRAKN_ONLY=false --env GRAKN_HOME=/home/grakn/grakn-core-all-linux-1.6.2 --env GRAALVM_HOME=/usr/local/graalvm-ce-19.0.0 --env JAVA_HOME=/usr/local/graalvm-ce-19.0.0 --env GRAKN_DAEMON_JAVAOPTS=-XX:+UseJVMCINativeLibrary --env STORAGE_JAVAOPTS=-XX:+UseJVMCINativeLibrary --env SERVER_JAVAOPTS=-XX:+UseJVMCINativeLibrary neomatrix369/grakn:1.6.2-GRAALVM-CE-19.0.0
++ set +x
+
+GRAALVM: Grakn in the container is now starting (id = bdbac2b)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JAVA_HOME=/usr/local/graalvm-ce-19.0.0
+PATH=/usr/local/graalvm-ce-19.0.0/bin:/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (build 1.8.0_212-20190420092731.buildslave.jdk8u-src-tar--b03)
+OpenJDK GraalVM CE 19.0.0 (build 25.212-b03-jvmci-19-b01, mixed mode)
+Grakn version: (see bottom of the startup text banner)
+STORAGE_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+SERVER_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+GRAKN_DAEMON_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Starting Storage......SUCCESS
+Starting Grakn Core Server.....SUCCESS
+
+real	0m10.413s
+user	0m7.594s
+sys	0m0.969s
+^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Grakn server is running...
+Starting Graql console...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome to Grakn Console. You are now in Grakn Wonderland!
+Copyright (C) 2019 Grakn Labs Limited
+
+
+real	0m8.721s
+user	0m1.540s
+sys	0m0.159s
+[35mgrakn[0m> 
+GRAALVM: Shutting down Grakn in the container (id = bdbac2b)
+GRAALVM: Grakn in the container (id = bdbac2b) has been shutdown.
+
+
+real	0m20.230s
+user	0m0.125s
+sys	0m0.047s
+
+~~~ Running Grakn in a Docker container using the GraalVM CE  (version 19.0.0), JVMCI enabled, Grakn version 1.6.2
+
++ docker run --rm --detach --workdir /home/grakn --user=grakn -p 48555:48555 -p 4567:4567 --env SHARED_FOLDER_PATH=/home/grakn/shared --env JDK_TO_USE=GRAALVM --env JAVA_OPTS=-XX:+UseJVMCINativeLibrary --env RUN_GRAKN_ONLY=false --env GRAKN_HOME=/home/grakn/grakn-core-all-linux-1.6.2 --env GRAALVM_HOME=/usr/local/graalvm-ce-19.0.0 --env JAVA_HOME=/usr/local/graalvm-ce-19.0.0 --env GRAKN_DAEMON_JAVAOPTS=-XX:+UseJVMCINativeLibrary --env STORAGE_JAVAOPTS=-XX:+UseJVMCINativeLibrary --env SERVER_JAVAOPTS=-XX:+UseJVMCINativeLibrary neomatrix369/grakn:1.6.2-GRAALVM-CE-19.0.0
++ set +x
+
+GRAALVM: Grakn in the container is now starting (id = da2dca4)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+JAVA_HOME=/usr/local/graalvm-ce-19.0.0
+PATH=/usr/local/graalvm-ce-19.0.0/bin:/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+openjdk version "1.8.0_212"
+OpenJDK Runtime Environment (build 1.8.0_212-20190420092731.buildslave.jdk8u-src-tar--b03)
+OpenJDK GraalVM CE 19.0.0 (build 25.212-b03-jvmci-19-b01, mixed mode)
+Grakn version: (see bottom of the startup text banner)
+STORAGE_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+SERVER_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+GRAKN_DAEMON_JAVAOPTS=-XX:+UseJVMCINativeLibrary
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Starting Storage......SUCCESS
+Starting Grakn Core Server.....SUCCESS
+
+^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Grakn server is running...
+real	0m10.155s
+user	0m7.292s
+sys	0m0.887s
+Starting Graql console...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Welcome to Grakn Console. You are now in Grakn Wonderland!
+Copyright (C) 2019 Grakn Labs Limited
+
+
+real	0m8.616s
+user	0m1.489s
+sys	0m0.156s
+
+GRAALVM: Shutting down Grakn in the container (id = da2dca4)
+GRAALVM: Grakn in the container (id = da2dca4) has been shutdown.
+
+
+real	0m19.877s
+user	0m0.107s
+sys	0m0.060s

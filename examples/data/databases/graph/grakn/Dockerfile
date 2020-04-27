@@ -1,52 +1,127 @@
-FROM buildpack-deps:stretch-scm
+FROM openjdk:8-jdk
 
-# Install Java 8
-COPY --from=java:8u111-jdk /usr/lib/jvm /usr/lib/jvm
+RUN java -version
+RUN echo "JAVA_HOME=${JAVA_HOME}"
+ENV JAVA8_HOME="${JAVA_HOME}"
+RUN echo "JAVA8_HOME=${JAVA8_HOME}"
 
-ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
-ENV PATH=${JAVA_HOME}/bin:${PATH}
+### Grakn, Graql installation
+
+RUN echo "Cleaning up old stuff"
+RUN apt-get autoclean
+RUN apt-get clean
+
+RUN echo "Building the Open Source version (AGPL license), go to https://github.com/graknlabs for further details"
+RUN apt-get update && apt-get install -y --no-install-recommends wget unzip pv \
+    && rm -r /var/lib/apt/lists/*
+
+### Grakn installation
+
+ARG GRAKN_VERSION
+ENV GRAKN_VERSION=${GRAKN_VERSION}
+ENV WORKDIR=/home/grakn
+WORKDIR ${WORKDIR}
+
+ARG GRAKN_ARTIFACT_URL
+RUN echo "Downloading artifact from url: ${GRAKN_ARTIFACT_URL}"
+RUN wget ${GRAKN_ARTIFACT_URL} --progress=bar:force 2>&1 | tail -f -n +3
+
+ARG GRAKN_ARTIFACT_NAME_WITH_EXT
+ARG GRAKN_UNPACK_COMMAND
+RUN echo "Unpacking artifact: ${GRAKN_ARTIFACT_NAME_WITH_EXT}"
+RUN ${GRAKN_UNPACK_COMMAND} | pv -l >/dev/null
+
+RUN echo "Removing artifact: ${GRAKN_ARTIFACT_NAME_WITH_EXT}"
+RUN rm ${GRAKN_ARTIFACT_NAME_WITH_EXT}
+
+ARG GRAKN_HOME
+RUN echo "Checking version"
+RUN ${GRAKN_HOME}/grakn version
+
+### GraalVM installation
+
+ARG GRAALVM_JDK_VERSION
+ENV GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}
+
+ARG GRAALVM_VERSION
+ENV GRAALVM_VERSION="${GRAALVM_VERSION}"
+
+ARG GRAALVM_ARTIFACT_URL
+RUN echo "Downloading artifact from url: ${GRAALVM_ARTIFACT_URL}"
+RUN wget ${GRAALVM_ARTIFACT_URL} --progress=bar:force 2>&1 | tail -f -n +3
+
+ARG GRAALVM_ARTIFACT
+RUN echo "Untarring artifact: ${GRAALVM_ARTIFACT}"
+RUN tar xvzf ${GRAALVM_ARTIFACT} -C /usr/local | pv -l >/dev/null
+
+ARG TARGET_GRAALVM_HOME
+ENV GRAALVM_HOME="/usr/local/${TARGET_GRAALVM_HOME}"
+RUN echo "GRAALVM_HOME=${GRAALVM_HOME}"
+
+ARG GRAALVM_ARTIFACT_FILENAME
+RUN echo "Removing artifact: ${GRAALVM_ARTIFACT}"
+RUN rm ${GRAALVM_ARTIFACT}
+RUN rm -fr ${GRAALVM_ARTIFACT_FILENAME}
+
+RUN echo "Downloading native-image"
+RUN ${GRAALVM_HOME}/bin/gu install native-image
+
+RUN echo "Checking version"
+RUN ${GRAALVM_HOME}/bin/java -version
 
 RUN echo "JAVA_HOME=${JAVA_HOME}"
 RUN echo "PATH=${PATH}"
 
-RUN java -version
-RUN echo "JAVA_HOME=${JAVA_HOME}"
-ENV JAVA_8_HOME="${JAVA_HOME}"
-RUN echo "JAVA_8_HOME=${JAVA_8_HOME}"
+### Cleanup to make space
 
-### Grakn, Graql installation
+RUN echo "Cleaning up old stuff, again"
+RUN apt-get autoclean
+RUN apt-get clean
 
-RUN echo "Building the Open Source version (AGPL license), go to https://github.com/graknlabs for further details"
-RUN apt-get update && apt-get install -y wget unzip pv
+### Install bazel
 
-ARG GRAKN_VERSION
-ENV GRAKN_VERSION=${GRAKN_VERSION:-1.5.2}
-ENV WORKDIR=grakn
-WORKDIR /${WORKDIR}
+RUN apt-get update && apt-get install -qy --no-install-recommends              \
+    pkg-config zip g++ zlib1g-dev unzip python3 python3-pip python3-setuptools \
+    && rm -r /var/lib/apt/lists/*
+ENV BAZEL_VERSION=0.26.1
+RUN curl -J -L -O  https://github.com/bazelbuild/bazel/releases/download/${BAZEL_VERSION}/bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
+RUN chmod +x bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
+RUN ./bazel-${BAZEL_VERSION}-installer-linux-x86_64.sh
+RUN export PATH=$HOME/bin:${PATH}
 
-RUN wget https://github.com/graknlabs/grakn/releases/download/${GRAKN_VERSION}/grakn-core-all-linux-${GRAKN_VERSION}.tar.gz --progress=bar:force 2>&1 | tail -f -n +3
+RUN apt-get update && apt-get install -qy vim \
+    --no-install-recommends                   \
+    && rm -r /var/lib/apt/lists/*
 
-RUN tar zxvf grakn-core-all-linux-${GRAKN_VERSION}.tar.gz | pv -l >/dev/null
+# Cleaning up once again
+RUN apt-get autoclean
+RUN apt-get clean
 
-RUN rm grakn-core-all-linux-${GRAKN_VERSION}.tar.gz
+### Install grakn-client and supporting tools
+RUN pip3 install --upgrade pip
+RUN pip3 --version
+RUN pip install setuptools ijson==2.3 grakn-client
 
-RUN ./grakn-core-all-linux-${GRAKN_VERSION}/grakn version
+RUN mkdir -p .cache
 
-### GraalVM installation
+COPY grakn_version.txt          ./grakn_version.txt
+COPY graalvm_jdk_version.txt    ./graalvm_jdk_version.txt
+COPY graalvm_version.txt        ./graalvm_version.txt
+COPY startGraknAndGraql.sh      ./startGraknAndGraql.sh
+COPY performance-benchmark-scripts/runPerformanceBenchmark.sh ./runPerformanceBenchmark.sh
+COPY mergeJson.sh               ./mergeJson.sh
+COPY builder.sh                 ./builder.sh
+COPY grakn-jar-runner.sh        ./grakn-jar-runner.sh
+COPY 0001-Build-a-distribution-with-uber-jars.patch ./0001-Build-a-distribution-with-uber-jars.patch
 
-ENV GRAALVM_VERSION="1.0.0-rc15"
-RUN wget https://github.com/oracle/graal/releases/download/vm-${GRAALVM_VERSION}/graalvm-ce-${GRAALVM_VERSION}-linux-amd64.tar.gz --progress=bar:force 2>&1 | tail -f -n +3
-RUN tar xvzf graalvm-ce-${GRAALVM_VERSION}-linux-amd64.tar.gz | pv -l >/dev/null
+RUN groupadd -r user_grp && useradd -r -g user_grp grakn
+RUN chown -R grakn:user_grp .
 
-RUN mv graalvm-ce-${GRAALVM_VERSION}/jre /usr/lib/jvm/graalvm-ce-${GRAALVM_VERSION}
-ENV GRAALVM_HOME="/usr/lib/jvm/graalvm-ce-${GRAALVM_VERSION}"
-RUN echo "GRAALVM_HOME=${GRAALVM_HOME}"
-RUN ${GRAALVM_HOME}/bin/java -version
-RUN rm graalvm-ce-${GRAALVM_VERSION}-linux-amd64.tar.gz
-RUN rm -fr graalvm-ce-${GRAALVM_VERSION}
+USER grakn
 
-EXPOSE 4567
+COPY .bashrc ${WORKDIR}/.bashrc
 
-COPY startGraknAndGraql.sh ./startGraknAndGraql.sh
+ARG DEFAULT_PORT
+EXPOSE ${DEFAULT_PORT}
 
 ENTRYPOINT ["bash", "-c", "./startGraknAndGraql.sh"]

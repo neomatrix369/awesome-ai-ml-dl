@@ -1,0 +1,4 @@
+notebooks/
+vulnerabilities/
+dockerfileScan/
+!notebooks/MyFirstJavaNotebook.ipynb

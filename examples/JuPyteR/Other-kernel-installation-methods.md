@@ -18,7 +18,7 @@ $ ./gradlew clean build
 $ ./gradlew installKernel
 ```
 
-Note: please raise any build or installation issues at [https://github.com/SpencerPark/IJava/issues]()
+Note: please raise any build or installation issues at [https://github.com/SpencerPark/IJava/issues](https://github.com/SpencerPark/IJava/issues)
 
 ***Python 2 or 3 (vanilla)***
 

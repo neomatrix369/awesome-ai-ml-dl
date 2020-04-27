@@ -1,39 +1,52 @@
 #!/bin/bash
 
+#
+# Copyright 2019 Mani Sarkar
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
 set -e
 set -u
 set -o pipefail
 
-DEFAULT_JDK="${JAVA_8_HOME}"
-GRAKN_VERSION=${GRAKN_VERSION:-1.5.2}
-GRAKN_PORT=${GRAKN_PORT:-4567}
-
+GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-export JAVA_HOME=${DEFAULT_JDK}
-if [[ "${JDK_TO_USE:-}" = "GRAALVM" ]]; then
-    export JAVA_HOME=${GRAALVM_HOME}
-    export PATH=${GRAALVM_HOME}/bin:${PATH}
-    export GRAKN_DAEMON_JAVAOPTS="-XX:-UseJVMCINativeLibrary ${GRAKN_DAEMON_JAVAOPTS:-}"
-    export STORAGE_JAVAOPTS="-XX:-UseJVMCINativeLibrary ${STORAGE_JAVAOPTS:-}"
-    export SERVER_JAVAOPTS="-XX:-UseJVMCINativeLibrary ${SERVER_JAVAOPTS:-}"
-fi
 
 echo "JAVA_HOME=${JAVA_HOME}"
+export PATH="${JAVA_HOME}/bin:${PATH}"
+echo "PATH=${PATH}"
 java -version
 
-echo -n "Grakn version:"
-./grakn-core-all-linux-${GRAKN_VERSION}/grakn version
+echo -n "Grakn version: (see bottom of the startup text banner)"
+echo ""
 
 (env | grep _JAVAOPTS) || true 
 
-echo -n "GRAKN_PORT=${GRAKN_PORT}"
+echo ""
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn server start 
+time ${GRAKN_HOME}/grakn server start --benchmark
 echo "^^^^^^^^^^^^^^^^^ Time taken for the Grakn server to startup"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Grakn server is running..."
-echo "Dashboard: http://localhost:${GRAKN_PORT}"
-echo "Starting Graql console..."
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-time ./grakn-core-all-linux-${GRAKN_VERSION}/grakn console
+
+if [[ "${RUN_GRAKN_ONLY:-}" = "true" ]]; then
+	echo "Not running Graql console"
+	/bin/bash
+else
+	echo "Starting Graql console..."
+	echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+	time ${GRAKN_HOME}/grakn console
+	/bin/bash
+fi

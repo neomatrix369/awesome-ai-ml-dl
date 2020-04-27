@@ -2,8 +2,11 @@
 
 ### Generate numeric data fitting a model/distribution (to fit linear model / ring / etc)
 
+- [Website to generate syntheric data](https://www.mockaroo.com)
 - [Synthetic data generation — a must-have skill for new data scientists](https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae)
+- [Surprising Uses of Synthetic Random Data Sets](https://www.linkedin.com/posts/data-science-central_surprising-uses-of-synthetic-random-data-activity-6612404601515765760-J0AY)
 - [Python Random Data Generation](https://honingds.com/blog/python-random/)
+- [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods)
 - [How to Generate Test Datasets in Python with scikit-learn](https://machinelearningmastery.com/generate-test-datasets-python-scikit-learn/)
     - Python packages
         - [scikit datasets package](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets)
@@ -21,10 +24,17 @@
 - [Random database/dataframe generator](https://pydbgen.readthedocs.io/en/latest/#)
 - [MyRiad Toolkit](https://github.com/TU-Berlin-DIMA/myriad-toolkit) (Paper: http://vldb.org/pvldb/vol5/p1890_alexanderalexandrov_vldb2012.pdf) - focuses on how to generate massive amounts of data following a database schema (create data for your relational db with users, orders, etc)
 - [Generating Synthetic Data to Match Data Mining Patterns](https://www.researchgate.net/publication/3420044_Generating_Synthetic_Data_to_Match_Data_Mining_Patterns)
+- [Data Mining Process  ➡Techniques, Tools & Examples⬅](https://www.linkedin.com/posts/asif-bhat_data-mining-activity-6621054656615407616-9r8R)
+- [Databake: Generate realistic test data for product dev and demos.](https://www.databake.io/)
 
 ### Generate data from existing
 
 - [SMOTE with Imbalance Data](https://www.kaggle.com/qianchao/smote-with-imbalance-data)
+- SMOTE library:
+  - [PyPi](https://pypi.org/search/?q=smote&o=-zscore) 
+  - [Docs](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.over_sampling.SMOTE.html)
+  - [SMOTE explained](http://rikunert.com/SMOTE_explained)
+  - [ML | Handling Imbalanced Data with SMOTE and Near Miss Algorithm in Python](https://www.geeksforgeeks.org/ml-handling-imbalanced-data-with-smote-and-near-miss-algorithm-in-python/)
 - [imbalanced-learn library](https://imbalanced-learn.readthedocs.io/en/stable/introduction.html)
 - [SO discussion on using Python libraries](https://stackoverflow.com/questions/51322554/smote-with-missing-values)
 - [Simple example of how stock prices can be generated](https://stackoverflow.com/questions/8597731/are-there-known-techniques-to-generate-realistic-looking-fake-stock-data)
@@ -45,6 +55,15 @@
 - [Private Synthetic Data Generation via GANs (Supporting PDF)](https://d253pvgap36xx8.cloudfront.net/formsbuilder/files/d1990068969211e8a29a0242ac110002/main.pdf)
 - [GANs (generative adversarial networks) possible for text as well?](https://datascience.stackexchange.com/questions/24878/gans-generative-adversarial-networks-possible-for-text-as-well)
 
+### Generating Music
+
+- [Generating music in the raw audio domain](https://www.youtube.com/watch?v=y8mOZSJA7Bc) by [Sander Dieleman](http://benanne.github.io/about/)
+
+### Resampling
+
+- [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods)
+- [Resampling Methods: Bootstrap vs jackknife](https://www.linkedin.com/posts/data-science-central_resampling-methods-bootstrap-vs-jackknife-activity-6610622844785221632-bSXb)
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
@@ -53,5 +72,5 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [Data page](./README.md)
+Back to [Data page](./README.md#data) <br/>
 Back to [main page (table of contents)](../README.md)

@@ -1,0 +1,14 @@
+- step:
+    name: run-grakn-benchmark
+    image: neomatrix369/grakn:1.6.2-GRAALVM-CE-19.2.1
+    environment-variables:
+      - name: SOURCE_ROOT_DATA_FOLDER
+        default: "/valohai/inputs/data"
+      - name: TARGET_ROOT_DATA_FOLDER
+        default: "/valohai/outputs"
+    command:
+      - cd {parameter-value:stage}
+      - echo "~~~ Contents of the Valohai inputs folder"; ls -lash ${VALOHAI_INPUTS}
+      - ./runPerformanceBenchmark.sh
+      - echo "~~~ Contents of the Valohai output folder"; ls -lash ${VALOHAI_OUTPUTS}
+    environment: aws-eu-west-1-c5-4xlarge

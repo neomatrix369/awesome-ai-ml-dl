@@ -1,0 +1,17 @@
+.gradle
+.idea
+*.iml
+bin
+build
+target
+local.properties
+logs/
+out
+*.jar
+.deeplearning4j/
+*.pb
+checkpoint*.*
+*.tgz
+*.tar.gz
+dataset-scripts/artifacts/
+.DS_Store

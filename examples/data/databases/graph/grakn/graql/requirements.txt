@@ -1,0 +1,7 @@
+setuptools
+fuzzywuzzy
+ijson==2.3
+pandas<1.0
+grakn-client
+pytictoc
+colorama

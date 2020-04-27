@@ -1,0 +1,111 @@
+From c917c29a13c71a4813b98feaed72829e2cf662d6 Mon Sep 17 00:00:00 2001
+From: Max Vorobev <vmax0770@gmail.com>
+Date: Fri, 19 Jul 2019 18:32:58 +0300
+Subject: [PATCH] Build a distribution with uber-jars
+
+---
+ BUILD         | 26 ++++++++++++++++++++++++++
+ bin/grakn     |  4 ++--
+ console/BUILD | 11 +++++++++++
+ server/BUILD  | 11 +++++++++++
+ 4 files changed, 50 insertions(+), 2 deletions(-)
+
+diff --git a/BUILD b/BUILD
+index 83038dd19..5c2002f85 100644
+--- a/BUILD
++++ b/BUILD
+@@ -52,6 +52,32 @@ assemble_targz(
+     visibility = ["//visibility:public"]
+ )
+ 
++assemble_targz(
++    name = "assemble-linux-deploy-targz",
++    targets = ["//server:server-deploy-deps",
++               "//console:console-deploy-deps",
++               "//bin:assemble-bash-targz"],
++    additional_files = {
++        "//server:conf/logback.xml": "server/conf/logback.xml",
++        "//console:conf/logback.xml": "console/conf/logback.xml",
++        "//server:conf/grakn.properties": "server/conf/grakn.properties",
++        "//server:services/cassandra/cassandra.yaml": "server/services/cassandra/cassandra.yaml",
++        "//server:services/cassandra/logback.xml": "server/services/cassandra/logback.xml",
++        "//server:services/grakn/grakn-core-ascii.txt": "server/services/grakn/grakn-core-ascii.txt",
++        "//:LICENSE": "LICENSE",
++        "//:README.md": "README.md",
++    },
++    empty_directories = [
++        "server/db/cassandra",
++    ],
++    permissions = {
++        "server/services/cassandra/cassandra.yaml": "0777",
++        "server/db/cassandra": "0777",
++    },
++    output_filename = "grakn-core-all-deploy-linux",
++    visibility = ["//visibility:public"]
++)
++
+ assemble_zip(
+     name = "assemble-mac-zip",
+     targets = ["//server:server-deps",
+diff --git a/bin/grakn b/bin/grakn
+index 83cc83a97..5f995ce64 100755
+--- a/bin/grakn
++++ b/bin/grakn
+@@ -23,8 +23,8 @@ JAVA_BIN=java
+ GRAKN_HOME=$(cd "$(dirname "${path}")" && pwd -P)
+ GRAKN_CONFIG="server/conf/grakn.properties"
+ 
+-CONSOLE_JAR_FILENAME=(${GRAKN_HOME}/console/services/lib/io-grakn-core-grakn-console*.jar)
+-SERVER_JAR_FILENAME=(${GRAKN_HOME}/server/services/lib/io-grakn-core-grakn-server*.jar)
++CONSOLE_JAR_FILENAME=(${GRAKN_HOME}/console/services/lib/*console*.jar)
++SERVER_JAR_FILENAME=(${GRAKN_HOME}/server/services/lib/*server*.jar)
+ 
+ # ================================================
+ # common helper functions
+diff --git a/console/BUILD b/console/BUILD
+index 8316c43fe..ee49538f4 100644
+--- a/console/BUILD
++++ b/console/BUILD
+@@ -84,6 +84,17 @@ java_deps(
+     visibility = ["//:__pkg__"]
+ )
+ 
++load("@bazel_tools//tools/build_defs/pkg:pkg.bzl", "pkg_tar")
++pkg_tar(
++    name = "console-deploy-deps",
++    srcs = [
++        ":console-binary_deploy.jar"
++    ],
++    package_dir = "console/services/lib/",
++    extension = "tgz",
++    visibility = ["//:__pkg__"]
++)
++
+ assemble_targz(
+     name = "assemble-linux-targz",
+     output_filename = "grakn-core-console-linux",
+diff --git a/server/BUILD b/server/BUILD
+index 1920e44ff..857b10bd8 100644
+--- a/server/BUILD
++++ b/server/BUILD
+@@ -124,6 +124,17 @@ java_deps(
+     visibility = ["//:__pkg__"]
+ )
+ 
++load("@bazel_tools//tools/build_defs/pkg:pkg.bzl", "pkg_tar")
++pkg_tar(
++    name = "server-deploy-deps",
++    srcs = [
++        ":server-binary_deploy.jar"
++    ],
++    package_dir = "server/services/lib/",
++    extension = "tgz",
++    visibility = ["//:__pkg__"]
++)
++
+ assemble_targz(
+     name = "assemble-linux-targz",
+     output_filename = "grakn-core-server-linux",
+-- 
+2.20.1 (Apple Git-117)
+

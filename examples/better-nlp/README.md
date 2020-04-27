@@ -1,4 +1,4 @@
-# Better NLP
+# Better NLP [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This is a wrapper program/library that encapsulates a couple of NLP libraries that are popular among the AI and ML communities.
 
@@ -60,6 +60,18 @@ You can open these notebooks directly into Google Colab:
 - [better_nlp_spacy_texacy_examples.ipynb](./notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb) 
 - [better_nlp_summarisers.ipynb](./notebooks/google-colab/better_nlp_summarisers.ipynb)
 
+#### Kaggle kernels
+
+- Better NLP: **[Notebook/Kernel](https://www.kaggle.com/neomatrix369/better-nlp-class-notebook)** | [Scripts](https://www.kaggle.com/neomatrix369/betternlpclass)
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F2620712%2F7f251565a07399d0367d0401f3b9e498%2FScreen%20Shot%202019-10-06%20at%2020.25.45.png?generation=1570390145278471&alt=media)
+
+- Better NLP Summarisers: **[Notebook/Kernel](https://www.kaggle.com/neomatrix369/better-nlp-summarisers-notebook)** | Scripts: [Summariser_Cosine_Class](https://www.kaggle.com/neomatrix369/summarisercosineclass) | [Summariser_TFIDF_Class](https://www.kaggle.com/neomatrix369/summarisertfidfclass) | [Summariser_TFIDF_VariationClass](https://www.kaggle.com/neomatrix369/summarisertfidfvariationclass) | [Summariser_PyTextRank_Class](https://www.kaggle.com/neomatrix369/summariser-pytextrank-class)
+
+![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F2620712%2F7073603b0cf742ab00417ed7502bc2a4%2FScreen%20Shot%202019-10-06%20at%2020.28.09.png?generation=1570390178748534&alt=media)
+
+[Utility Script Competition! (September 23rd - Oct 7th): submission, discussion topic](https://www.kaggle.com/general/109651#642354)
+
 ## Installation
 
 Setup an environment needed to be able to run these programs without having to worry about the dependencies they use.
@@ -95,3 +107,14 @@ See [Docker environment](./docs/Docker_environment.md)
 ## Example code
 
 See [Examples and results](./docs/Examples.md)
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also have a read about our [licensing](./LICENSE.md) (and warranty) policy.
+
+---
+
+Back to [NLP page](../../natural-language-processing/README.md#natural-language-processing-nlp) </br>
+Back to [main page (table of contents)](../../README.md)

@@ -1,6 +1,13 @@
-# Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) | Grakn: [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn) | Jupyter-Java: [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) | Zeppelin: [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) 
+Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) 
+
+NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala) | <br/>
+NLP using DL4J (cuda) [![NLP using DL4J (cuda)](https://img.shields.io/docker/pulls/neomatrix369/dl4j-nlp-cuda.svg)](https://hub.docker.com/r/neomatrix369/dl4j-nlp-cuda)
+
+
+Dataiku DSS: [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss) | Grakn: [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn) | Jupyter-Java: [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) | <br/>
+MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer) | Zeppelin: [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin)
 
 ---
 
@@ -10,54 +17,78 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 **Watching the repo will keep you posted of all the changes (commits) that go into the repo.**
 
-- [Awesome AI-ML-DL](README-details.md#awesome-ai-ml-dl) 
+**Also, please [SPONSOR us, find out how-to](https://github.com/sponsors/neomatrix369)!**
+
   - [General](README-details.md#general)
+  - [Artificial Intelligence](README-details.md#artificial-intelligence)
   - [Automation](README-details.md#automation)
+  - [Competitions](competitions.md)
+  - [Courses](courses.md)
   - [Ethics / altruistic motives](README-details.md#ethics--altruistic-motives)
-  - [Java](README-details.md#java)
-    - [Business / General / Semi-technical](README-details.md#business--general--semi-technical)
-    - [Classifier / decision trees](README-details.md#classifier--decision-trees)
-    - [Correlated Cross Occurrence](README-details.md#correlated-cross-occurrence)
-    - [Deep learning](README-details.md#deep-learning)
- 	  - [Genetic Algorithms](README-details.md#genetic-algorithms)
- 	  - [Java projects / related technologies](README-details.md#java-projects--related-technologies)
- 	  - [Natural Language Processing (NLP)](README-details.md#natural-language-processing-nlp)
- 	  - [Neural Networks](README-details.md#neural-networks)
+  - [Java](./details/java-jvm.md#java)
+    - [Business / General / Semi-technical](./details/java-jvm.md#business--general--semi-technical)
+    - [Classifier / decision trees](./details/java-jvm.md#classifier--decision-trees)
+    - [Correlated Cross Occurrence](./details/java-jvm.md#correlated-cross-occurrence)
+    - [Genetic Algorithms](./details/java-jvm.md#genetic-algorithms)
+    - [Java projects / related technologies](./details/java-jvm.md#java-projects--related-technologies)
+    - [Natural Language Processing (NLP)](./natural-language-processing/java-jvm.md#javajvm)
+    - [Neural Networks](./details/java-jvm.md#neural-networks)
  	    - Convolutional Neural Networks (CNN)
  	    - Long Short Term Memory (LSTM)
  	    - Recurrent Neural Network (RNN)
-    - [Reinforcement learning](README-details.md#reinforcement-learning)
-    - [Recommendation systems / Collaborative Filtering (CF)](README-details.md#recommendation-systems--collaborative-filtering-cf)
-    - [Tools & Libraries, Resources](README-details.md#tools--libraries-other-resources)
-    - [How-to / Deploy / DevOps / Serverless](README-details.md#how-to--deploy--devops--serverless)
-    - [Misc](README-details.md#misc)
-  - [Clojure](README-details.md#clojure)
-  - [Scala](README-details.md#scala)
-  - [Julia, Python & R](README-details.md#julia-python--r)
-    - [General](README-details.md#general-1)
-    - [Generative Adversarial Network (GAN)](README-details.md#generative-adversarial-network-gan)
-    - [Natural Language Processing (NLP)](README-details.md#natural-language-processing-nlp-1)
-    - [Machine learning](README-details.md#machine-learning)
-    - [Deep learning](README-details.md#deep-learning-1)
-    - [Reinforcement learning](README-details.md#reinforcement-learning-1)
-    - [More...](README-details.md#more)
+    - [Recommendation systems / Collaborative Filtering (CF)](./details/java-jvm.md#recommendation-systems--collaborative-filtering-cf)
+    - [Data Science](./details/java-jvm.md#data-science)
+    - [Machine Learning](./details/java-jvm.md#machine-learning)
+      - [Deep learning](./details/java-jvm.md#deep-learning)
+         - [Reinforcement learning](./details/java-jvm.md#reinforcement-learning)
+      - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
+    - [Tools & Libraries, Resources](./details/java-jvm.md#tools--libraries-other-resources)
+    - [How-to / Deploy / DevOps / Serverless](./details/java-jvm.md#how-to--deploy--devops--serverless)
+    - [Misc](./details/java-jvm.md#misc)
+  - [Clojure](./details/java-jvm.md#clojure)
+  - [Scala](./details/java-jvm.md#scala)
+  - [Julia, Python & R](./details/julia-python-and-r.md#julia-python-and-r)
+    - [General](./details/julia-python-and-r.md#general)
+    - [Generative Adversarial Network (GAN)](./details/julia-python-and-r.md#generative-adversarial-network-gan)
+    - [Genetic Algorithms](./details/julia-python-and-r.md#genetic-algorithms)
+    - [RNN](./details/julia-python-and-r.md#rnn)
+    - [Natural Language Processing (NLP)](./details/julia-python-and-r.md#natural-language-processing-nlp)
+    - [Computer Vision (CV)](./details/julia-python-and-r.md#computer-vision)
+    - [Data Science](./details/julia-python-and-r.md#data-science)
+    - [Machine learning](./details/julia-python-and-r.md#machine-learning)
+      - [Deep learning](./details/julia-python-and-r.md#deep-learning)
+        - [Reinforcement learning](./details/julia-python-and-r.md#reinforcement-learning)
+      - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
+    - [Programming in Python](Programming-in-Python.md)
+    - [More...](./details/julia-python-and-r.md#more)
   - [JavaScript](README-details.md#javascript)
-  - [Mathematica](README-details.md#mathematica)
-  - [Mathematics, Statistics, Probability & Probabilistic programming](README-details.md#mathematics-statistics-probability--probabilistic-programming)
+  - [Tests & Testing](./details/julia-python-and-r.md#testing)
+  - [Guides](guides.md#guides)
+  - [Study notes](./study-notes/README.md#study-notes)
+  - **[Things to know...](./things-to-know.md)**
+  - [Mathematica](./details/mathematica-wolfram-Language.md#mathematica--wolfram-language)
+  - [Mathematics, Statistics, Probability & Probabilistic programming](./details/maths-stats-probability.md#mathematics-statistics-probability--probabilistic-programming)
   - [Data](README-details.md#data)
-  - [Visualisation](README-details.md#visualisation-1)
+  - [Visualisation](./details/visualisation.md#visualisation)
   - [Graphs](README-details.md#graphs)
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
   - [Time-series / anomaly detection](time-series_anomaly-detection/README.md)
-  - [Notebooks](README-details.md#notebooks)
+  - [Examples](README-details.md#examples)
+  - [Notebooks](./notebooks/README.md#notebooks)
+  - [Presentations](README-details.md#presentations)
   - [Models](README-details.md#models)
-  - [Articles, papers, code, data, courses](README-details.md#articles-papers-code-data)
-  - [Cheatsheets](README-details.md#cheatsheets)
-  - [Misc](README-details.md#misc-1)
+  - [Articles, papers, code, data, courses](./details/articles-papers-code-data-courses.md#articles-papers-code-data-courses)
+  - [Cheatsheets](./details/cheatsheets.md#cheatsheets)
+  - [Misc](./details/misc.md#misc)
 - [Contributing](#contributing)
+- [Sponsoring](#sponsoring)
 
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
 
 Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+# Sponsoring
+
+With [GitHub's new project sponsor program](https://github.com/sponsors) you can now sponsor projects like this, [see how](https://github.com/sponsors/neomatrix369).
