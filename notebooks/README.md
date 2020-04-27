@@ -53,6 +53,7 @@ See [Notebooks from NVIDIA's RAPIDS](../cloud-devops-infra/gpus/rapids.md#notebo
     - [Spacy/Texacy Examples](../examples/better-nlp/notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
     - [Summarisers Examples](../examples/better-nlp/notebooks/google-colab/better_nlp_summarisers.ipynb)
 - [Bag of words notebook](../blogs/keras-bag-of-words-expanded-version/data-scripts-notebooks/)
+- [TFIDF notebook](../I shall update here.)
 
 ## Neural Networks
 
