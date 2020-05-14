@@ -89,6 +89,8 @@ See [Feature Selection](./feature-selection.md)
 - RFPimp:
    - [RF Importance](https://explained.ai/rf-importance/index.html)
    - [Explaining Feature Importance by example of a Random Forest](https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
+- [Catboost model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/catboost_feature_importance_tutorial.ipynb)
+- [LightGBM model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/lightgbm_feature_importance_tutorial.ipynb)
 
 ## Feature engineering
 

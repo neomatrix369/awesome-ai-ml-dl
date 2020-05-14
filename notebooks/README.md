@@ -42,6 +42,9 @@ See [Notebooks from NVIDIA's RAPIDS](../cloud-devops-infra/gpus/rapids.md#notebo
   - [Data Preparation](./jupyter/data/02_Data_Preparation_(Do_we_know_our_data).ipynb)
     - [Data Processing](./data/data-processing/Normalising-a-distribution.ipynb)
   - [Feature Engineering](./jupyter/data/03_Feature_Engineering_(Do_we_know_our_data).ipynb)
+  - Feature Importances
+    - [Catboost model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/catboost_feature_importance_tutorial.ipynb)
+    - [LightGBM model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/lightgbm_feature_importance_tutorial.ipynb)
 
 ## Natural Language Processing (NLP) 
 
