@@ -26,3 +26,5 @@ __pycache__
 .ipynb_checkpoints
 *shared/
 *.cache
+wandb/
+catboost_info/
