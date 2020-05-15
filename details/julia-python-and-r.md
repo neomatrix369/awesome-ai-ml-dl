@@ -25,6 +25,7 @@
    - [Large-scale linear classification, regression and ranking in Python](https://github.com/scikit-learn-contrib/lightning)
    - [AutoKeras: The Killer of Google’s AutoML](https://towardsdatascience.com/autokeras-the-killer-of-googles-automl-9e84c552a319)
    - [A curated list of research, applications and projects built using H2O Machine Learning](https://github.com/h2oai/awesome-h2o) | [H2O GitHub org](https://github.com/h2oai/)
+   - [Tutorial: Debugging in R](https://www.geeksforgeeks.org/debugging-in-r-programming/)
    - [Tutorial: Advanced Jupyter Notebooks](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/)
    - [Scipy Lecture Notes: One document to learn numerics, science, and data with Python](http://scipy-lectures.org/)
    - [Web Scraping - It’s Your Civic Duty](https://pbpython.com/web-scraping-mn-budget.html)
