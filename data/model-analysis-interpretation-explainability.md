@@ -50,6 +50,13 @@
 - [Analysing ML models with imandra](https://www.linkedin.com/posts/isaacbaum_analysing-machine-learning-models-with-imandra-activity-6635136920240340992-BOp0)
 - [How Explainable AI is helping algorithms avoid bias](https://www.forbes.com/sites/simonchandler/2020/02/18/how-explainable-ai-is-helping-algorithms-avoid-bias/#7d21a68a5ed3) [LinkedIn Post](https://www.linkedin.com/posts/bo-li-8503b896_httpswwwforbescomsitessimonchandler-activity-6635931803196710912-dRQR)
 - [Building blocks of Interpretability](https://distill.pub/2018/building-blocks/)
+- Londom City Univeristy Explainable AI Papers
+  - [4._tillman_weyde-understandable-explanations-v5](../web/link/to/CIty_Uni_ExplainableAI/4._tillman_weyde-understandable-explanations-v5.pdf)
+  - [adam_white_clear_ecai.pdf](../web/link/to/CIty_Uni_ExplainableAI/adam_white_clear_ecai.pdf)
+  - [adam_white_clear_talk_wbs](../web/link/to/CIty_Uni_ExplainableAI/adam_white_clear_talk_wbs.pdf)
+  - [aifiancewbs.pdf](../web/link/to/CIty_Uni_ExplainableAI/aifiancewbs.pdf)
+  - [artur_davila_garcez_neural-symbolic_computing_an_effective_methodology_1](../web/link/to/CIty_Uni_ExplainableAI/artur_davila_garcez_neural-symbolic_computing_an_effective_methodology_1.pdf)
+  - [tillman_paper](../web/link/to/CIty_Uni_ExplainableAI/tillman_paper.pdf)
 
 ## Calibration
 
