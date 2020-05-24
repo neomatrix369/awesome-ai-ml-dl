@@ -2,6 +2,6 @@ setuptools
 fuzzywuzzy
 ijson==2.3
 pandas<1.0
-grakn-client
+grakn-client==1.6.0
 pytictoc
 colorama
