@@ -128,6 +128,13 @@ graql: match $customer isa person, has age < 20; $company isa company, has name 
 - [Query pattern](https://dev.grakn.ai/docs/pattern/overview)
 - [Natural Language Processing for Fuzzy String Matching with Python](https://towardsdatascience.com/natural-language-processing-for-fuzzy-string-matching-with-python-6632b7824c49)
 - [Words of estimative probability](https://en.wikipedia.org/wiki/Words_of_estimative_probability)
+
+## Disclaimer
+
+All the code and scripts container in this folder and the main folder `grakn` are a proof-of-concept work to illustrate use-case(s) and usage scenarios. It is not mean to be a full-fledge solution and is adapted to a certain dataset and hence all of the behaviours are in that order.
+
+The code (this repo) and the referred datasets (see Grakns' docs and git repos)are available as F/OSS. The code is available here under the Apache license, see [license.txt](../license.txt) and can be used/changed accordingly. Grakn's resources are available under their said licenses (please check accordingly).
+
 ---
 
 [back to README](../README.md)

@@ -114,6 +114,13 @@ See [Graql-to-English](./graql/Graql-to-English.md)
   - Grakn on AWS: [Grakn Profile (AWS Marketplace)](https://aws.amazon.com/marketplace/seller-profile?id=35eaf0dd-eda4-4b8d-b78a-443f6c619104)| [Grakn KGMS(AWS Marketplace)](https://aws.amazon.com/marketplace/pp/GRAKNAI-Grakn-KGMS/B07H8RMX5X) | [Deploy Grakn on AWS](https://dev.grakn.ai/docs/cloud-deployment/aws) | [Blog](https://blog.grakn.ai/grakn-kgms-is-now-on-aws-db871ecdb425)
   - Grakn on Google: [Deploy Grakn on Google](https://dev.grakn.ai/docs/cloud-deployment/google-cloud) | [GRAKN.AI with Google Bigtable via JanusGraph](https://blog.grakn.ai/grakn-ai-with-google-bigtable-via-janusgraph-cc46fd0958df) | [Blog](https://blog.grakn.ai/grakn-ai-on-google-cloud-f18f6692670c)
 
+## Disclaimer
+
+All the code and scripts container in this folder `grakn` are a proof-of-concept work to illustrate use-case(s) and usage scenarios. It is not mean to be a full-fledge solution and is adapted to show-case certain scenarios and hence all of the behaviours are in that order.
+
+The code (this repo) and the referred datasets (see Grakns' docs and git repos)are available as F/OSS. The code is available here under the Apache license, see [license.txt](../license.txt) and can be used/changed accordingly. Grakn's resources are available under their said licenses (please check accordingly).
+
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
