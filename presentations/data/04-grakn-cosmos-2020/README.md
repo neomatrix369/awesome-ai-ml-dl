@@ -6,7 +6,7 @@ See [slides (PDF)](../../../examples/data/databases/graph/grakn/presentations/Gr
 
 ### Video
 
-(being processed)
+See [YouTube](https://www.youtube.com/watch?v=Cef2nPEmybs)
 
 ### Speakers
 
