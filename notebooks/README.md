@@ -80,6 +80,8 @@ See [Notebooks from NVIDIA's RAPIDS](../cloud-devops-infra/gpus/rapids.md#notebo
 - [ML Notebooks: hands-on](https://github.com/ageron/handson-ml)
 - [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
 - [Dive into Machine Learning with Jupyter notebook, Python, and scikit-learn](http://hangtwenty.github.io/dive-into-machine-learning/)
+- ["The Big Bad NLP Notebooks – Quantum Stat"](https://notebooks.quantumstat.com/)
+
 
 # Contributing
 

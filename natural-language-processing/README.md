@@ -29,6 +29,7 @@ See [General](./general.md)
 
 - [UPDATE: 28 new datasets arrived, if you need a dataset for your NLP machine learning task check the Big Bad #NLP Database with more than 200 datasets](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6641729887877033984-1Jq-)
 - [Looking for datasets for #NLP tasks?](https://www.linkedin.com/posts/parulpandeyindia_nlp-quantumstat-activity-6627512229895995392-x8zJ)
+- ["The Big Bad NLP Database – Quantum Stat"](https://datasets.quantumstat.com/)
 
 ## Java/JVM
 
@@ -71,6 +72,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [Jupyter notebook for entity recognition and sentiment analysis](../notebooks/nlp/20190411-spacy-and-textblob-nlp-entity-recognition-and-sentiment-analysis.ipynb)
 - [Kaggle kernel: NLP uncertainty](https://www.kaggle.com/allunia/hidden-treasures-in-our-groceries)
 - [Better NLP - notebooks](../examples/better-nlp/notebooks)
+- ["The Big Bad NLP Notebooks – Quantum Stat"](https://notebooks.quantumstat.com/)
 - Also see notebooks under [Natural Language Processing (NLP)](../notebooks/README.md#natural-language-processing-nlp) in the [Notebooks](../notebooks/README.md) section
 
 ## Unstructured to structured data
