@@ -18,6 +18,7 @@
 
 - [Working with missing data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html)
 - [Missing values in a dataset](https://www.datasciencecentral.com/profiles/blogs/how-to-treat-missing-values-in-your-data-1)
+- [Iterative Imputation for Missing Values in Machine Learning](https://machinelearningmastery.com/iterative-imputation-for-missing-values-in-machine-learning/)
 
 ### Imbalanced data
 
@@ -50,8 +51,9 @@
 
 ## Misc
 
-- See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model
+- [Data Preparation for Data Mining](http://www.temida.si/~bojan/MPS/materials/Data_preparation_for_data_mining.pdf)
 - [Learning with Limited Labeled Data with Shioulin Sam](https://twimlai.com/twiml-talk-255-learning-with-limited-labeled-data-with-shioulin-sam/)
+- See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model
 
 # Contributing
 

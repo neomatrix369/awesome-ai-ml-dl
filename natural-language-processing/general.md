@@ -21,6 +21,7 @@
 - [Deep Learning for Natural Language Processing: Tutorials with Jupyter Notebooks](https://www.linkedin.com/posts/data-science-central_deep-learning-for-natural-language-processing-activity-6626900078562988032-rJZd)
 - [𝗻𝗲𝘄 𝗣𝘆𝘁𝗵𝗼𝗻 𝗹𝗶𝗯𝗿𝗮𝗿𝘆 𝗳𝗼𝗿 𝘀𝗲𝗻𝘁𝗲𝗻𝗰𝗲 𝗰𝗹𝗮𝘀𝘀𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻](https://www.linkedin.com/posts/philipvollet_nlp-tensorflow-deeplearning-activity-6640063734469414912-Dzgq)
 - [Nice implementation of Pointer-Generator Networks into AllenNLP](https://twitter.com/zacharylipton/status/1231582129789816833)
+- [AllenNLP 1.0 • The free NLP Library build on PyTorch with an interactive online guide](https://www.linkedin.com/posts/philipvollet_nlp-pytorch-machinelearning-activity-6678875055910383616-ycRM)
 - [One of fellow NVIDIANS just shared with me this outstanding paper from JHU / OpenAI discussing the scaling laws in NLP. If this continues to be true we will see substantially larger models in the near future](https://www.linkedin.com/posts/adamgrzywaczewski_one-of-fellow-nvidians-just-shared-with-me-activity-6635862408818630656-oDdW)
 - [NLP and ML](https://www.linkedin.com/posts/activity-6633065834392678400-CsDr)
 - [Abhishek Thakur's NLP videos](https://www.linkedin.com/posts/abhi1thakur_youtube-kaggle-machinelearning-activity-6647795449577127937-DBjT](https://bit.ly/abhitubesub)
@@ -31,7 +32,7 @@
 - [Tokenization and Text Data Preparation with TensorFlow & Keras](https://www.kdnuggets.com/2020/03/tensorflow-keras-tokenization-text-data-prep.html)
 - [How to Develop a Multichannel CNN Model for Text Classification](https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/)
 - [A text-to-speech tool that you can use to generate voices of different characters. The voices are generated in real time. ](https://www.linkedin.com/posts/inna-vogel-nlp_neuralnetworks-maschinelleslernen-deepmind-activity-6652912903559106560-YGT-)
-- [We partnered with Paperspace to make it easier for software engineers to run state-of-the-art NLP in production on GPUs!](https://www.linkedin.com/posts/huggingface_up-and-running-with-transformers-from-hugging-activity-6653340636491591680-RZOW)
+- [𝗛𝗼𝘄 𝗱𝗼 𝘆𝗼𝘂 𝘀𝗲𝗹𝗲𝗰𝘁 𝗮 𝗺𝗼𝗱𝗲𝗹 𝗳𝗼𝗿 𝗡𝗟𝗣❓](https://www.linkedin.com/posts/bhavsarpratik_nlproc-deeplearning-datascience-activity-6668775835656441856-7Mv2)
 
 ### Transformers
 
@@ -43,6 +44,9 @@
 - [𝗧𝗵𝗲 𝗥𝗮𝘀𝗮 𝗠𝗮𝘀𝘁𝗲𝗿𝗰𝗹𝗮𝘀𝘀 - Building contextual AI assistants with libraries like spaCy, Hugging Face, BERT Transformers aka the whole NLP open source family united 🤗](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6640086124473667584-_dQB)
 - [Tokenizers and transformer models by HuggingFace](https://www.linkedin.com/posts/huggingface_today-were-proud-to-release-four-new-official-activity-6641360098344083456-S03d)
 - [Excited to share the code and blog post for ELECTRA, a more efficient pre-training method for NLP Transformers. Pre-train a model to good accuracy using only 1 GPU!](https://www.linkedin.com/posts/philipvollet_nlp-deeplearning-python-activity-6643215711231586304-6qKM)
+- [xfspell — the Transformer Spell Checker • Transformer-based English spell checker trained on 7M+ generated parallel sentences](https://www.linkedin.com/posts/philipvollet_nlp-python-machinelearning-activity-6679322417673908224-D7xq)
+- [We partnered with Paperspace to make it easier for software engineers to run state-of-the-art NLP in production on GPUs!](https://www.linkedin.com/posts/huggingface_up-and-running-with-transformers-from-hugging-activity-6653340636491591680-RZOW)
+- In 5 minutes, fine-tune a pre-trained transformer on anyone's tweets, just by clicking a couple of buttons: [Tweet](https://twitter.com/weights_biases/status/1265740544434597888) | [Blog](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI)
 
 ### BERT
 

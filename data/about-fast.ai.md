@@ -8,11 +8,13 @@
 Additional references
 - See [fast.ai](../courses.md#fastai) under [Courses](../courses.md#course)
 - https://docs.fast.ai/training.html
+- http://forums.fast.ai
 - https://forums.fast.ai/t/how-should-i-get-started-with-fast-ai-library/17627
 - https://forums.fast.ai/t/another-treat-early-access-to-intro-to-machine-learning-videos/6826
 - https://medium.com/@pierre_guillou/fastai-how-to-start-663927d4db63
 - https://www.kdnuggets.com/2019/01/6-most-useful-machine-learning-projects-2018.html
 - https://www.youtube.com/results?search_query=fast.ai
+- [Rachel Thomas | Fast.ai | Applied Ethics | Top Down Learning | CTDS.Show #75](https://www.youtube.com/watch?v=tq_XcFubgKo)
 
 ---
 

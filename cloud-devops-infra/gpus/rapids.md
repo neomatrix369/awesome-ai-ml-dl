@@ -31,23 +31,31 @@ The RAPIDS suite of software libraries, built on [CUDA-X AI](https://www.develop
 - [Advanced level notebooks](https://github.com/rapidsai/notebooks-contrib/tree/master/advanced_notebooks/tutorials)
 - [DBScan notebook](https://github.com/rapidsai/notebooks/blob/master/tutorials/DBSCAN_Demo_Full.ipynb)
 
+## Examples
+
+- [Spark and RAPIDS](https://github.com/rapidsai/spark-examples)
+- [RAPIDS Cloud provider (agnostic)](https://github.com/rapidsai/cloud-ml-examples)
+- [A great example of a Plotly Dash App on RAPIDS](https://dash-rapids-covid19.org/ )
+
 ## Kaggle
 
 - [RAPIDS in Kaggle competition](https://www.kaggle.com/cdeotte/rapids/) [LinkedIn](https://www.linkedin.com/posts/miguelusque_kaggle-rapids-gpu-activity-6628421575299383297-Ifuu)
 - [Here is the first ever successful implementation of NVIDIA #rapids library in a Kaggle kernel. It achieves 600X speedup of the kNN as compared to #sklearn](https://www.kaggle.com/cdeotte/rapids-gpu-knn-mnist-0-97) [LinkedIn](https://www.linkedin.com/posts/tunguz_rapids-sklearn-ml-activity-6626833143032885248-XQA6)
+- [RAPIDS Kaggle Kernel](https://www.kaggle.com/cdeotte/rapids-gpu-knn-mnist-0-97)
+ - [RAPIDS Getting Started](https://rapids.ai/start.html)
 
 ## Librares
 
 - cuSpatial: Spatiotemporal Processing using CUDA | [blog](https://medium.com/rapids-ai/releasing-cuspatial-to-accelerate-geospatial-and-spatiotemporal-processing-b686d8b32a9) | [GitHub](https://github.com/rapidsai/cuspatial)
+- [RAPIDS and supported libraries](https://github.com/rapidsai/cuml#supported-algorithms)
 - See other [CUDA libraries](https://docs.nvidia.com/cuda-libraries/index.html)
 - See other [NVIDIA libraries](https://developer.nvidia.com/nvidia-management-library-nvml)
 
 ## Webinars:
 
 - Accelerating Python in Banking: [Video](http://go.nvidianews.com/dc/Ty58ol2Ube3I8pgmu_WArvStj6XbWRGXWkAZY1LzhWTzLXNHPKS0BV7BGSc_UfLnrsN9qjvyMiH8wtAcnwkDDJE_zyT20X09IhXpUleXnkormNn_I7YN7wCQbIT2P_Y67fyNRPBnfaI7L9zGOJhCom0G7IhBu0tm6dtU1yJ3Hi3MgnKoJ-9JiyUSQYldQvKh-SCGl0PxIVWPv8SGIN1RfB85dtbGPENq_oQmFGMrrdQ=/x0O0020g0DVb6MF0uEm7RNn) | [Slides](https://info.nvidia.com/rs/156-OFN-742/images/FS%20Webinar%20Deck.pdf)
-
 - Accelerating time to value with XGBoost on NVIDIA GPUs: [Video](http://go.nvidianews.com/dc/Ty58ol2Ube3I8pgmu_WArvStj6XbWRGXWkAZY1LzhWTzLXNHPKS0BV7BGSc_UfLnrsN9qjvyMiH8wtAcnwkDDFDtKliOU6Zkt26zjxUl0_65UUdvWmEP_nGV2zaig74zMzbXHBd3ZGsItQME0RixBzSo3sucCenUbYn1ddp8kKSRKyuAw9l1B7ovytLEJfu-I7ZYlDZlwMLPj8Nl0wpOUsXgTACAIyem682A91XzX0E=/s011b6W0RFME0O2nm700E0N) | [Slides](https://info.nvidia.com/rs/156-OFN-742/images/NVIDIA_XGBoost-webinar-20190627.pdf)
-
+- [Accelerated Machine Learning with RAPIDS by Akshit Arora (Slides)](https://github.com/aroraakshit/AcceleratedMLwRAPIDS)
 - See other [NVIDIA Webinars](https://www.nvidia.com/en-gb/about-nvidia/webinar-portal/)
 
 ## Developers
@@ -66,6 +74,7 @@ programming-and-performance/nvidia-rapids-/)
 - [RAPIDS Forum](https://devtalk.nvidia.com/default/topic/1066888/cuda-)
 - [RAPIDS YouTube channel](https://www.youtube.com/playlist?list=PL5B692fm6--tQAPcRgSpE6FxPqQi5VtwE)
 - [RAPIDS Community](https://rapids.ai/community.html)
+
 
 ### Drivers
 

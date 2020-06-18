@@ -1,6 +1,6 @@
 # Visualisation
 
-  - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) [deadlink]
+  - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) [deadlink] | [Vega: Homepage](https://vega.github.io) | [Vega: GitHub](https://github.com/vega) | [Vega-lite](https://vega.github.io/vega-lite/)
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
   - [Data Visualisation by Kaggle.com](https://www.kaggle.com/learn/data-visualization)
   - [How the BBC Visual and Data Journalism team works with graphics in R](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535)
@@ -65,8 +65,9 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [📊 Data Visualization With Python (#Matplotlib) 📊](https://www.linkedin.com/posts/asif-bhat_data-visualization-matplotlib-activity-6652842499503153152-He0N)
   - [A Comparative Analysis of Top 6 BI and Data Visualization Tools in 2018](https://www.linkedin.com/posts/data-science-central_a-comparative-analysis-of-top-6-bi-and-data-activity-6650615095447605248-dJs6)
   - [Data Visualization for KPI and KRI](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6637544069860024320-JNPk)
+  - Penrose: from mathematical notation to beautiful diagrams: [Homepage](http://penrose.ink/) | [SIGGRAPH '20 paper](http://penrose.ink/siggraph20) | [video: Penrose in action](https://vimeo.com/416822487)
+  - [Introducing 3D ggplots with rayshader](https://www.linkedin.com/posts/stevenouri_innovation-artificialintelligence-visualization-ugcPost-6668681520477274112-1JQ5)
 
-   
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!

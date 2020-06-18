@@ -37,6 +37,8 @@
    - [Complete Deep Learning Drizzle](https://github.com/kmario23/deep-learning-drizzle) [LinkedIn Post](https://www.linkedin.com/posts/nabihbawazir_analytics-datascience-artificialintelligence-activity-6654369906005499904-NbWP)
    - [SeizureNet – A #MachineLearning Framework. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode #HealthTech ](https://bit.ly/3c1gEsw](https://www.linkedin.com/posts/dr-ganapathi-pulipaka-56417a2_machinelearning-bigdata-analytics-activity-6653808230063583232-KJ7h)
    - [Enhancing materials property prediction by leveraging computational and experimental data using deep transfer learning](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_enhancing-materials-property-prediction-by-activity-6627560725755772928-F3Z-)
+   - [Ayon Roy](https://ayonroy.ml/index.html) | Live session on Discovering Deep Learning |TechTable T20 career: [Slides](https://docs.google.com/presentation/d/1Ph0Bx0MjZsEIe0PiUdGkTQJLzaR58GVqtVk71HaHgio/edit#slide=id.g861b7a5a88_0_23) | [video](https://www.youtube.com/watch?v=eOGtCUeGf7k&feature=youtu.be)
+   - [Weekly #116: 30 Golden Rules of Deep Learning Performance](https://www.youtube.com/watch?v=ZAHaVuwqw2I)
    - See [Deep Learning](../courses.md#deep-learning) in [Courses](../courses.md#courses)
 
 # Contributing

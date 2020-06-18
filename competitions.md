@@ -47,7 +47,8 @@
 
 ## Resources
 
-- [Kaggle Kernels Guide for Beginners — Step by Step Tutorial](https://towardsdatascience.com/kaggle-kernels-for-beginners-a-step-by-step-guide-3db6b1cd7606)
+- [Kaggle Kernels Guide for Beginners — Step by Step Tutorial](https://towardsdatascience.com/kaggle-kernels-for-beginners-a-step-by-step-guide-3db6b1cd7606) | [Best Data Scientists on Kaggle from 2011-2020](https://www.youtube.com/watch?v=guLZ_2WcEqM) | [What Kaggle has learned from almost a million data scientists - Anthony Goldbloom (Kaggle)](https://www.youtube.com/watch?v=jmHbS8z57yI)
+
 - RAPIDS
   - [RAPIDS in Kaggle competition](https://www.kaggle.com/cdeotte/rapids/) [LinkedIn](https://www.linkedin.com/posts/miguelusque_kaggle-rapids-gpu-activity-6628421575299383297-Ifuu)
   - [Here is the first ever successful implementation of NVIDIA #rapids library in a Kaggle kernel. It achieves 600X speedup of the kNN as compared to #sklearn](https://www.kaggle.com/cdeotte/rapids-gpu-knn-mnist-0-97) [LinkedIn](https://www.linkedin.com/posts/tunguz_rapids-sklearn-ml-activity-6626833143032885248-XQA6)
@@ -57,6 +58,7 @@
 - [Tips N Tricks #3: Creating a clean inference kernel/notebook on Kaggle](https://www.youtube.com/watch?v=C7Tsfrq_g18)
 - [Interview with Abhishek Thakur | World's First Triple Grandmaster | Kaggle](https://www.youtube.com/watch?v=8lniZVqRLA0)
 - [My journey to 4x GM on Kaggle](https://www.youtube.com/watch?v=z15TKkAPNUM)
+- Also see [NVIDIA's RAPIDS](./cloud-devops-infra/gpus/rapids.md#rapids)
 
 # Contributing
 

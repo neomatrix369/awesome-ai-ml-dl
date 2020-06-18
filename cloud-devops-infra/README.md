@@ -83,6 +83,12 @@ reproducible research
     - [Intel® AI Developer Webinar Series](https://software.seek.intel.com/AIWebinarSeries?registration_source=IDZ) | [All webinars listing](https://intelvs.on24.com/vshow/IntelWebinarEvents/#content/2033414)
     - The PlaidML Tensor Compiler - [webinar](https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?&eventid=2026509&sessionid=1&username=&partnerref=&format=fhaudio&mobile=false&flashsupportedmobiledevice=false&helpcenter=false&key=B27628973F7FA8B9758983E373E36ED1&text_language_id=en&playerwidth=1000&playerheight=700&overwritelobby=y&eventuserid=246511746&contenttype=A&mediametricsessionid=207230377&mediametricid=2857349&usercd=246511746&mode=launch)
     - nGraph - Unlocking next-generation performance with deep learning compilers: [webinar](https://intelvs.on24.com/vshow/IntelWebinarEvents/#content/2033414) | [slides](https://event.on24.com/event/20/33/41/2/rt/1/documents/resourceList1565185524584/s_ngraphwebinar1565185512750.pdf) | [homepage](https://www.ngraph.ai/) | [github](https://github.com/NervanaSystems/ngraph)
+    - Intel Analysers/Profilers:
+      - [Webinar slides: offload your code to GPU (part 1)](https://event.on24.com/event/23/51/32/1/rt/1/documents/resourceList1590781996922/s_webinarslides1590781995277.pdf)
+      - [oneAPI Toolkits](https://software.intel.com/content/www/us/en/develop/tools/oneapi.html#oneapi-toolkits)
+      - [Tech Decoded](https://techdecoded.intel.io/)
+      - [Intel® Advisor](https://software.intel.com/content/www/us/en/develop/tools/advisor.html)
+      - [Intel® Advisor Cookbook](https://www.intel.com/content/www/us/en/develop/documentation/advisor-cookbook/top.html)
     - Also see [Intel](../courses.md#intel) in [Courses](../courses.md#courses)
  
  _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
@@ -102,6 +108,7 @@ reproducible research
   - [Create GPU Arrays and Move to DL Frameworks with DLPack](https://www.linkedin.com/posts/activity-6625024900585316352-PucI)
   - [GPU Accelerated data viz tools](https://www.linkedin.com/posts/murraydata_data-todashboard-activity-6623659330199781376-YIUQ)
   - [This tool is nice to monitor not only RAPIDS but also deep learning workloads](https://www.linkedin.com/posts/miguelusque_gpu-dashboards-in-jupyter-lab-activity-6611570222585401344-n1Qe)
+  - [InstaDeep™ powers AI as a Service with shared NVMe: Excelero NVMesh™ feeds unlimited streams of data to GPU-based systems with local performance for AI and ML end-users](https://www.excelero.com/press/instadeep-powers-ai-as-a-service-with-shared-nvme/)
   - See [NVIDIA's RAPIDS](./gpus/rapids.md)
 
 ## TPU
@@ -132,7 +139,13 @@ reproducible research
   - [What makes the IPU's architecture so efficient](https://www.linkedin.com/posts/graphcore_if-youd-like-to-know-what-makes-the-ipus-activity-6617716840384778240-PUS0)
   - [How do we implement large-scale #NLP models on IPU](https://www.linkedin.com/posts/graphcore_arianna-saracino-product-support-engineer-activity-6615949485463920640-7Pwa)
   - [Graphcore are making Poplar Software Documentation publicly available](https://www.graphcore.ai/posts/graphcore-makes-poplar-sdk-docs-publicly-available?utm_content=121700693&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092)
-   - [Watch the Graphcore quick guide to the #IPU](https://www.graphcore.ai/products/ipu?utm_campaign=Machine%20Intelligence%20Positioning&utm_content=120000808&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092) [LinkedIn Post](https://www.linkedin.com/posts/graphcore_ipu-ai-semiconductors-activity-6640930639287730176-bRvL)
+  - [Watch the Graphcore quick guide to the #IPU](https://www.graphcore.ai/products/ipu?utm_campaign=Machine%20Intelligence%20Positioning&utm_content=120000808&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092) [LinkedIn Post](https://www.linkedin.com/posts/graphcore_ipu-ai-semiconductors-activity-6640930639287730176-bRvL)
+  - [Dissecting the Graphcore IPU Architecture via Microbenchmarking](https://www.graphcore.ai/hubfs/assets/pdf/Citadel%20Securities%20Technical%20Report%20-%20Dissecting%20the%20Graphcore%20IPU%20Architecture%20via%20Microbenchmarking%20Dec%202019.pdf?utm_content=109984229&utm_medium=social&utm_source=twitter&hss_channel=tw)
+  - [Graphcore C2 Card performance for image-based deep learning application](https://www.graphcore.ai/hubfs/Graphcore%20C2%20Card%20performance%20for%20image%20based%20deep%20learning%20application_v2.pdf)
+  - [Graphcore Whitepaper: DELL DSS8440 GRAPHCORE IPU SERVER](https://www.graphcore.ai/hubfs/Lead%20gen%20assets/DSS8440%20IPU%20Server%20White%20Paper_2020.pdf)
+  - [Graphcore Benchmarks](https://www.graphcore.ai/hubfs/assets/pdf/Benchmarks_slides_May2020-comp.pdf)
+  - [Graphcore GitHub](https://github.com/graphcore)
+
 
 ## Performance
 

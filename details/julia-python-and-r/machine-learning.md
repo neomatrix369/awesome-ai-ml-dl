@@ -77,22 +77,24 @@
   - [10 Must-read Machine Learning Articles (March 2020)](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_10-must-read-machine-learning-articles-march-activity-6654347366629421056-Ao6a)
   - [Restart from basics, here's the learning path (ML)](https://www.linkedin.com/posts/nabihbawazir_restart-from-basics-heres-the-learning-activity-6654875758999244800-0vlX)
   - [Feedback Recurrent AutoEncoder](https://www.linkedin.com/posts/montrealai_deeplearning-machinelearning-speechprocessing-activity-6627924132694675456-Wq5P)
-- [Understanding and Selecting Recommenders](https://www.linkedin.com/posts/data-science-central_understanding-and-selecting-recommenders-activity-6628772424047435777-j0kF)
-- [New State of the Art AI Optimizer: Rectified Adam (RAdam)](https://www.linkedin.com/posts/montrealai_machinelearning-tensorflow-pytorch-activity-6632771367508992006-6wcx)
-- [Supervised vs Unsupervised Learning Workflow](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6627200131420778496-zMVV)
-- [Concrete Compressive Strength Prediction using Machine Learning](https://www.linkedin.com/posts/towards-data-science_concrete-compressive-strength-prediction-activity-6644946997524725760-bbxh)
-- [Learning from unlabelled data](https://www.linkedin.com/posts/montrealai_deeplearning-machinelearning-semisupervisedlearning-activity-6641340729899700224-PP8Q)
-- [Its becoming clearer than ever before that there are huge advantages of training very large models.](https://www.linkedin.com/posts/adamgrzywaczewski_its-becoming-clearer-than-ever-before-that-activity-6645674351192522752-vxsF)
-- [Survival Analysis in R](https://www.geeksforgeeks.org/survival-analysis-in-r/)
-- [How to Reduce Overfitting Using Weight Constraints in Keras](https://machinelearningmastery.com/how-to-reduce-overfitting-in-deep-neural-networks-with-weight-constraints-in-keras/)
+  - [Understanding and Selecting Recommenders](https://www.linkedin.com/posts/data-science-central_understanding-and-selecting-recommenders-activity-6628772424047435777-j0kF)
+  - [New State of the Art AI Optimizer: Rectified Adam (RAdam)](https://www.linkedin.com/posts/montrealai_machinelearning-tensorflow-pytorch-activity-6632771367508992006-6wcx)
+  - [Supervised vs Unsupervised Learning Workflow](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6627200131420778496-zMVV)
+  - [Concrete Compressive Strength Prediction using Machine Learning](https://www.linkedin.com/posts/towards-data-science_concrete-compressive-strength-prediction-activity-6644946997524725760-bbxh)
+  - [Learning from unlabelled data](https://www.linkedin.com/posts/montrealai_deeplearning-machinelearning-semisupervisedlearning-activity-6641340729899700224-PP8Q)
+  - [Its becoming clearer than ever before that there are huge advantages of training very large models.](https://www.linkedin.com/posts/adamgrzywaczewski_its-becoming-clearer-than-ever-before-that-activity-6645674351192522752-vxsF)
+  - [Survival Analysis in R](https://www.geeksforgeeks.org/survival-analysis-in-r/)
+  - [How to Reduce Overfitting Using Weight Constraints in Keras](https://machinelearningmastery.com/how-to-reduce-overfitting-in-deep-neural-networks-with-weight-constraints-in-keras/)
+  - [How to Configure XGBoost for Imbalanced Classification](https://machinelearningmastery.com/xgboost-for-imbalanced-classification)
   - Algorithms
     - See [Machine Learning algorithms](./machine-learning-algorithms.md)
   - See [Machine Learning](../courses.md#machine-learning) in [Courses](../courses.md#courses)
   - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
   - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
-  - See [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)  
-  
+  - See [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
+
 ## Metrics
+
   - [Understanding Maximum Likelihood Estimation  (MLE)](https://www.linkedin.com/posts/towards-data-science_understanding-maximum-likelihood-estimation-activity-6642383355608473600-1Uvq)
   - [Precision vs significance / accuracy vs precision / bias vs variance](https://www.linkedin.com/posts/vincentg_precision-vs-significance-accuracy-vs-precision-activity-6643604148749164545-R3TG)
   - [Model? Or do you mean Weight of Evidence (WoE) and Information Value (IV)? by Jackie Tan](https://www.linkedin.com/posts/towards-data-science_model-or-do-you-mean-weight-of-evidence-activity-6643425221107830784-xjl7)
