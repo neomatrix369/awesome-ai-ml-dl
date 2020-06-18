@@ -141,6 +141,7 @@ reproducible research
   - [Graphcore are making Poplar Software Documentation publicly available](https://www.graphcore.ai/posts/graphcore-makes-poplar-sdk-docs-publicly-available?utm_content=121700693&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092)
   - [Watch the Graphcore quick guide to the #IPU](https://www.graphcore.ai/products/ipu?utm_campaign=Machine%20Intelligence%20Positioning&utm_content=120000808&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092) [LinkedIn Post](https://www.linkedin.com/posts/graphcore_ipu-ai-semiconductors-activity-6640930639287730176-bRvL)
   - [Dissecting the Graphcore IPU Architecture via Microbenchmarking](https://www.graphcore.ai/hubfs/assets/pdf/Citadel%20Securities%20Technical%20Report%20-%20Dissecting%20the%20Graphcore%20IPU%20Architecture%20via%20Microbenchmarking%20Dec%202019.pdf?utm_content=109984229&utm_medium=social&utm_source=twitter&hss_channel=tw)
+  - [Learn how to develop and train models for the Graphcore #IPU using TensorFlow](https://hubs.ly/H0qFL1Y0)
   - [Graphcore C2 Card performance for image-based deep learning application](https://www.graphcore.ai/hubfs/Graphcore%20C2%20Card%20performance%20for%20image%20based%20deep%20learning%20application_v2.pdf)
   - [Graphcore Whitepaper: DELL DSS8440 GRAPHCORE IPU SERVER](https://www.graphcore.ai/hubfs/Lead%20gen%20assets/DSS8440%20IPU%20Server%20White%20Paper_2020.pdf)
   - [Graphcore Benchmarks](https://www.graphcore.ai/hubfs/assets/pdf/Benchmarks_slides_May2020-comp.pdf)

@@ -41,6 +41,10 @@
 - [Data preparation for factor analysis](https://www.linkedin.com/posts/data-science-central_data-preparation-for-factor-analysis-activity-6608507889915092992-T1Vv)
 - [7 Pandas Functions to Reduce Your Data Manipulation Stress by Andre Ye](https://towardsdatascience.com/7-pandas-functions-to-reduce-your-data-manipulation-stress-25981e44cc7d) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_7-pandas-functions-to-reduce-your-data-manipulation-activity-6655006784069214208-R9Zn)
 
+### Transformations
+
+- [How to Use Quantile Transforms for Machine Learning](https://machinelearningmastery.com/quantile-transforms-for-machine-learning/)
+- [pre-processing filters like denoising, smoothing, thresholding, rescaling with python. As a part 3 of this series, in this post I have explained other pre-processing methods like masking, blending, image sharpening, erosion, dilation, geometric transformation](https://www.let-the-data-confess.com/image-pre-processing-through-opencv-part-3/)
 
 ### Scaling and normalisation
 

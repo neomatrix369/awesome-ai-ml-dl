@@ -59,10 +59,11 @@
 
 - [Generating music in the raw audio domain](https://www.youtube.com/watch?v=y8mOZSJA7Bc) by [Sander Dieleman](http://benanne.github.io/about/)
 
-### Resampling
+### Sampling
 
 - [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods)
 - [Resampling Methods: Bootstrap vs jackknife](https://www.linkedin.com/posts/data-science-central_resampling-methods-bootstrap-vs-jackknife-activity-6610622844785221632-bSXb)
+- [Oversampling/Undersampling in Logistic Regression](https://www.linkedin.com/posts/vincentg_oversamplingundersampling-in-logistic-regression-activity-6664247426364252162-Md0U)
 
 # Contributing
 

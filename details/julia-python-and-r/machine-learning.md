@@ -10,7 +10,7 @@
   - [A curated list of awesome Machine Learning frameworks, libraries and software](https://github.com/josephmisiti/awesome-machine-learning)
   - [Top ML repos](https://github.com/yazdotai/top-machine-learning)
   - [Hands on ML](https://github.com/ageron/handson-ml)
-  - [𝗣𝘆𝘁𝗵𝗼𝗻 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀](https://www.linkedin.com/posts/martinroberts_python-machine-learning-projects-activity-6620692910499295232-B8Gq)
+  - [3 types of projects you should do if you are just diving into #datascience, #machinelearning](https://www.linkedin.com/posts/ayonroy2000_datascience-machinelearning-activity-6668565412839604224-fIKZ)
   - [ML for Software Engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
   - [PredictionIO, a machine learning server for developers and ML engineers. Built on Apache Spark, HBase and Spray](https://github.com/apache/predictionio)
   - [Dive into Machine Learning with Python Jupyter notebook and scikit-learn!](https://github.com/hangtwenty/dive-into-machine-learning)

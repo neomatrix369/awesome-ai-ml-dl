@@ -23,6 +23,7 @@
     - [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
     - [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
     - [Linear Discriminant Analysis is a simple yet intuitive technique.  At it's first description it is very similar to PCA.  In PCA to find the eigen value and eigen factors we use covariance matrix](https://www.youtube.com/watch?v=D2HArUvOQaw&feature=youtu.be) | [Other PCA tutorials](https://youtu.be/D2HArUvOQaw)
+    - [Principal Component Analysis for Dimensionality Reduction in Python](https://www.linkedin.com/posts/jasonbrownlee_principal-component-analysis-for-dimensionality-activity-6664240738139799552-gCqp)
 
 # Contributing
 

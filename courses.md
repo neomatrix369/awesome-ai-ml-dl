@@ -22,7 +22,6 @@
 ## Algorithms
 
 - [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI) | [2](https://www.coursera.org/browse/computer-science/algorithms)
-- [🉐 𝘈𝘋𝘝𝘈𝘕𝘛𝘈𝘎𝘌𝘚 𝘈𝘕𝘋 🉐𝘗𝘐𝘛𝘍𝘈𝘓𝘓𝘚 𝘖𝘍 𝘋𝘐𝘍𝘍𝘌𝘙𝘌𝘕𝘛 𝘈𝘓𝘎𝘖𝘙𝘐𝘛𝘏𝘔𝘚](https://www.linkedin.com/posts/ashishpatel2604_datascience-deeplearning-machinelearning-activity-6668792791658852352-87Po)
 
 ## Cambridge Spark
 

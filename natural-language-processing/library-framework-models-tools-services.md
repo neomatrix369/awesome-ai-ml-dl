@@ -39,6 +39,7 @@
   - [How do we implement large-scale #NLP models on IPU](https://www.linkedin.com/posts/graphcore_arianna-saracino-product-support-engineer-activity-6615949485463920640-7Pwa)
   - [NLP in fraud dectection: Case study](https://www.linkedin.com/posts/data-science-central_natural-language-understanding-nlu-in-fraud-activity-6623003404279005184-Fg_L)
   - TextAttack – a really cool Python framework for attacking NLP models and augmenting text datasets: [GitHub](https://github.com/QData/TextAttack/) | [Tweet](https://twitter.com/lavanyaai/status/1260384065481392129)
+  - Albumentations package for NLP data augmentation: [Kaggle Kernel 1](https://www.kaggle.com/shonenkov/tpu-training-super-fast-xlmroberta) | [Kaggle Kernel 2](https://www.kaggle.com/shonenkov/nlp-albumentations)
 
 # Contributing
 

@@ -50,6 +50,7 @@
 - [A Semi-Supervised Classification Algorithm using Markov Chain and Random Walk in R](https://www.linkedin.com/posts/data-science-central_a-semi-supervised-classification-algorithm-activity-6614306095047462912-7rjG)
 - [Interesting Problem: Self-correcting Random Walks](https://www.linkedin.com/posts/data-science-central_interesting-problem-self-correcting-random-activity-6622308830137114624-9D2L)
 - 24 Uses of Statistical Modeling: [Part I](https://www.linkedin.com/posts/data-science-central_24-uses-of-statistical-modeling-part-i-activity-6616738123302924288-fPqG) | [Part II](https://www.linkedin.com/posts/data-science-central_24-uses-of-statistical-modeling-part-ii-activity-6606560053312970752-6X1H)
+- [Statistical Models (detailed diagram)](https://www.dropbox.com/s/5a8w8kckyfeaix0/statistical%20models%20-%20diagram.pdf?dl=0)
 - [Encyclopedia of Statistics by Data Science Central](https://www.linkedin.com/posts/ashishpatel2604_encyclopediastatistics-activity-6606068070370902016-TA04)
 - [Statistical Inquiry Cycle](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6624989612928536576-Z7NE)
 - [Your Guide to Master Hypothesis Testing in Statistics](https://www.linkedin.com/posts/data-science-central_your-guide-to-master-hypothesis-testing-in-activity-6624332159144509441-HVq_)
@@ -59,45 +60,24 @@
 - [Didn't Learn Statistics Yet?](https://www.linkedin.com/posts/iamsivab_42-open-problems-in-mathematics-ugcPost-6604724523625472000-TieN)
 - [7 Traps to Avoid Being Fooled by Statistical Randomness](https://www.linkedin.com/posts/data-science-central_7-traps-to-avoid-being-fooled-by-statistical-activity-6607693525188427777-ZEsL)
 - [Three classes of metrics: centrality, volatility, and bumpiness](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/three-classes-of-metrics-centrality-volatility-and-bumpiness)
-
-Why Including Effect Size and Knowing your Statistical Power ~ are Important](https://www.datasciencecentral.com/profiles/blogs/why-including-effect-size-and-knowing-your-statistical-power-are
-
-Important #Statistics formula in one picture...👈👈👈Must reas](https://www.linkedin.com/posts/ashishpatel2604_statistics-artificialintelligence-machinelearning-activity-6635127417809801216-l94G
-
-
-The Cartoon Guide To Statistics](https://www.linkedin.com/posts/iamsivab_the-cartoon-guide-to-statistics-activity-6638031133118423040-7h7Y
-
-9 Off-the-beaten-path Statistical Science Topics with Interesting Applications](https://www.linkedin.com/posts/data-science-central_9-off-the-beaten-path-statistical-science-activity-6645774952333131776-zGdV
-
-Here are some essential math/stats for #DataScience](https://www.linkedin.com/posts/nabihbawazir_datascience-datascience-statistics-activity-6639121813903368192-BdWh
-
-Stats + Data Science Education](https://www.linkedin.com/posts/mattdancho_datascience-machinelearning-activity-6639131770174357505-RZ_Z
-
-Statistics for Data Science in One Picture](https://www.linkedin.com/posts/data-science-central_statistics-for-data-science-in-one-picture-activity-6638978669270360064-4YSS
-
-Diff between stats and DS: big data and inferential stats](https://www.linkedin.com/posts/ajitjaokar_the-difference-between-statistics-and-data-activity-6637582237258825728-IAIm
-
-Data Science: The End of Statistics?](https://www.linkedin.com/posts/data-science-central_data-science-the-end-of-statistics-activity-6645803640802070528-BGmH
-
-Statistical Significance Tests for Comparing Machine Learning Algorithms](https://machinelearningmastery.com/statistical-significance-tests-for-comparing-machine-learning-algorithms/
-
-Statistical Modeling; Selecting Predictors is a Challenge for Data Scientists](https://www.linkedin.com/posts/data-science-central_statistical-modeling-selecting-predictors-activity-6642542151878144000-3tD0
-
-Machine Learning vs. Traditional Statistics: Different philosophies, Different Approaches](https://www.linkedin.com/posts/data-science-central_machine-learning-vs-traditional-statistics-activity-6644415494516469760-WT--
-
-Becoming a Master of Statistical Inference by Robert Wood](https://www.linkedin.com/posts/towards-data-science_becoming-a-master-of-statistical-inference-activity-6644473375601369088-mKmB
-
-Ten Simple Rules for Effective Statistical Practice](https://www.linkedin.com/posts/data-science-central_ten-simple-rules-for-effective-statistical-activity-6640293340111794176-3B62
-
-💦 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗶𝘀 𝗮𝗻 𝗲𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗽𝗮𝗿𝘁 𝗳𝗼𝗿 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗱𝗮𝘁𝗮, 𝘀𝗼 𝗯𝗲𝗳𝗼𝗿𝗲 𝗱𝗲𝗲𝗽 𝗱𝗶𝘃𝗲 𝗶𝗻𝘁𝗼 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁𝘀 𝗴𝗼𝗼𝗱 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲 𝘁𝗼 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝘁𝗵𝗲 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹 𝗼𝗳 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗮𝗻𝗱 𝘄𝗵𝗲𝗿𝗲 𝗶𝘁'𝘀 𝘂𝘀𝗲𝗱.](https://www.linkedin.com/posts/ashishpatel2604_statistics-cheat-sheet-activity-6650269088838975488-NtgL
-
-Practical Statistics](https://www.youtube.com/watch?v=CwJ4pcEYjT0&list=PLcQCwsZDEzFnmUDaOHQeWbiP7N_acsFb9
-
-Deciphering information and misinformation: Inspired by the book "A Field Guide to Lies and Statistics"](https://www.linkedin.com/posts/data-science-central_deciphering-information-and-misinformation-activity-6650152295398981632-0TJn
-
-
-💦 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗶𝘀 𝗮𝗻 𝗲𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗽𝗮𝗿𝘁 𝗳𝗼𝗿 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗱𝗮𝘁𝗮, 𝘀𝗼 𝗯𝗲𝗳𝗼𝗿𝗲 𝗱𝗲𝗲𝗽 𝗱𝗶𝘃𝗲 𝗶𝗻𝘁𝗼 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁𝘀 𝗴𝗼𝗼𝗱 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲 𝘁𝗼 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝘁𝗵𝗲 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹 𝗼𝗳 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗮𝗻𝗱 𝘄𝗵𝗲𝗿𝗲 𝗶𝘁'𝘀 𝘂𝘀𝗲𝗱.](https://www.linkedin.com/posts/ashishpatel2604_statistics-cheat-sheet-activity-6650269088838975488-NtgL
-
+- [Why Including Effect Size and Knowing your Statistical Power ~ are Important](https://www.datasciencecentral.com/profiles/blogs/why-including-effect-size-and-knowing-your-statistical-power-are)
+- [Important #Statistics formula in one picture...👈👈👈Must reas](https://www.linkedin.com/posts/ashishpatel2604_statistics-artificialintelligence-machinelearning-activity-6635127417809801216-l94G)
+- [The Cartoon Guide To Statistics](https://www.linkedin.com/posts/iamsivab_the-cartoon-guide-to-statistics-activity-6638031133118423040-7h7Y)
+- [9 Off-the-beaten-path Statistical Science Topics with Interesting Applications](https://www.linkedin.com/posts/data-science-central_9-off-the-beaten-path-statistical-science-activity-6645774952333131776-zGdV)
+- [Here are some essential math/stats for #DataScience](https://www.linkedin.com/posts/nabihbawazir_datascience-datascience-statistics-activity-6639121813903368192-BdWh)
+- [Stats + Data Science Education](https://www.linkedin.com/posts/mattdancho_datascience-machinelearning-activity-6639131770174357505-RZ_Z)
+- [Statistics for Data Science in One Picture](https://www.linkedin.com/posts/data-science-central_statistics-for-data-science-in-one-picture-activity-6638978669270360064-4YSS)
+- [Diff between stats and DS: big data and inferential stats](https://www.linkedin.com/posts/ajitjaokar_the-difference-between-statistics-and-data-activity-6637582237258825728-IAIm)
+- [Data Science: The End of Statistics?](https://www.linkedin.com/posts/data-science-central_data-science-the-end-of-statistics-activity-6645803640802070528-BGmH)
+- [Statistical Significance Tests for Comparing Machine Learning Algorithms](https://machinelearningmastery.com/statistical-significance-tests-for-comparing-machine-learning-algorithms/)
+- [Statistical Modeling; Selecting Predictors is a Challenge for Data Scientists](https://www.linkedin.com/posts/data-science-central_statistical-modeling-selecting-predictors-activity-6642542151878144000-3tD0)
+- [Machine Learning vs. Traditional Statistics: Different philosophies, Different Approaches](https://www.linkedin.com/posts/data-science-central_machine-learning-vs-traditional-statistics-activity-6644415494516469760-WT--)
+- [Becoming a Master of Statistical Inference by Robert Wood](https://www.linkedin.com/posts/towards-data-science_becoming-a-master-of-statistical-inference-activity-6644473375601369088-mKmB)
+- [Ten Simple Rules for Effective Statistical Practice](https://www.linkedin.com/posts/data-science-central_ten-simple-rules-for-effective-statistical-activity-6640293340111794176-3B62)
+- [💦 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗶𝘀 𝗮𝗻 𝗲𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗽𝗮𝗿𝘁 𝗳𝗼𝗿 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗱𝗮𝘁𝗮, 𝘀𝗼 𝗯𝗲𝗳𝗼𝗿𝗲 𝗱𝗲𝗲𝗽 𝗱𝗶𝘃𝗲 𝗶𝗻𝘁𝗼 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁𝘀 𝗴𝗼𝗼𝗱 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲 𝘁𝗼 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱 𝘁𝗵𝗲 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹 𝗼𝗳 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 𝗮𝗻𝗱 𝘄𝗵𝗲𝗿𝗲 𝗶𝘁'𝘀 𝘂𝘀𝗲𝗱.](https://www.linkedin.com/posts/ashishpatel2604_statistics-cheat-sheet-activity-6650269088838975488-NtgL)
+- [Practical Statistics](https://www.youtube.com/watch?v=CwJ4pcEYjT0&list=PLcQCwsZDEzFnmUDaOHQeWbiP7N_acsFb9)
+- [Deciphering information and misinformation: Inspired by the book "A Field Guide to Lies and Statistics"](https://www.linkedin.com/posts/data-science-central_deciphering-information-and-misinformation-activity-6650152295398981632-0TJn)
+- [The 17 equations that changed the course of history](https://www.linkedin.com/posts/vincentg_the-17-equations-that-changed-the-course-activity-6664334747927400449-ya4I)
 - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
 - [See Data > Statistics section more related links](../data/README.md#statistics)
 
