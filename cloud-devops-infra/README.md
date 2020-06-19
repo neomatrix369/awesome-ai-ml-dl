@@ -58,6 +58,7 @@ reproducible research
   - [StackHPC suites of repositories: AI, ML, DL, Cloud, HPC](https://github.com/stackhpc) | [StackHPC](http://stackhpc.com/)
   - [cortex](https://www.cortex.dev/) - Machine learning deployment platform: Deploy machine learning models to production
   - [#Uber introduces #Fiber, an #AI development and distributed training platform for methods including reinforcement learning and population-based learning.](https://www.linkedin.com/posts/inna-vogel-nlp_introduction-to-fiber-activity-6649564159828606976-Jmi6) 
+  - [A curated list of awesome pipeline toolkits inspired by Awesome Sysadmin](https://github.com/pditommaso/awesome-pipeline)
   - [H2O Framework for Machine Learning](https://www.linkedin.com/posts/data-science-central_h2o-framework-for-machine-learning-activity-6635175109445382144-ISgt)
   - [ML Framework: Introducing Ludwig, a Code-Free Deep Learning Toolbox](https://eng.uber.com/introducing-ludwig/)
   - [ML Pipelines](https://www.linkedin.com/posts/artificialintelligenceconsultant_activity-6639429321943539712-vRug)

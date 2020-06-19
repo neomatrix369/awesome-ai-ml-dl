@@ -108,6 +108,8 @@
 - [How to calculate covariance with probability distribution in R?](https://www.facebook.com/groups/AnalyticsEdge/permalink/2585831874965102/)
 - [Data Scientists Must Know Probability](https://www.linkedin.com/posts/towards-data-science_data-scientists-must-know-probability-activity-6646410891954925570-Zdps)
 - [Generating Pareto Distribution in Python](https://www.linkedin.com/posts/towards-data-science_generating-pareto-distribution-in-python-activity-6646307713204658176-mjOW)
+- [Capsule Networks -- A Probabilistic Perspective](https://www.linkedin.com/posts/montrealai_artificialintelligence-capsulenetworks-machinelearning-activity-6657124988568563712-WArH)
+- Pomegranate: [PyPi](https://pypi.org/project/pomegranate/) | [docs](https://pomegranate.readthedocs.io/en/latest/) | [GitHub](https://github.com/jmschrei/pomegranate)
 - [Data Science](../courses.md#data-science) in [Courses](../courses.md#courses)
 
 ### Bayesian

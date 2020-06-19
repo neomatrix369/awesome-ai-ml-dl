@@ -46,10 +46,12 @@
 - [Time series analysis discussion on Analytics Vidhya](https://discuss.analyticsvidhya.com/t/time-series-analysis/67474)
 - [Book (free): Introduction toTime Series and Forecasting, Second Edition by Peter J. Brockwell and Richard A. Davis](http://home.iitj.ac.in/~parmod/document/introduction%20time%20series.pdf)
 - [Book (paid): Introduction to Time Series Forecasting With Python](https://machinelearningmastery.com/introduction-to-time-series-forecasting-with-python/)
+- Time Series Data Analysis: [post](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6679602339004981249-HNG_] | [Videos](https://www.youtube.com/channel/UCwBs8TLOogwyGd0GxHCp-Dw/search?query=timeseries)
 
 ## Classification
 
 - [A Hands-On Introduction to Time Series Classification (with Python Code)](https://www.analyticsvidhya.com/blog/2019/01/introduction-time-series-classification/)
+
 
 ## Feature engineering
 
@@ -154,6 +156,7 @@
 - [A comprehensive beginner’s guide to create a Time Series Forecast (with Codes in Python and R)](https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/)
 - [What Is Time Series Forecasting?](https://machinelearningmastery.com/time-series-forecasting/)
 - [Time Series Forecasting as Supervised Learning](https://machinelearningmastery.com/time-series-forecasting-supervised-learning/)
+- [How to Convert a Time Series to a Supervised Learning Problem in Python](https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/)
 - [Autoregression Models for Time Series Forecasting With Python](https://machinelearningmastery.com/autoregression-models-time-series-forecasting-python/)
 - [Time Series Forecasting with Python 7-Day Mini-Course](https://machinelearningmastery.com/time-series-forecasting-python-mini-course/)
 - [A Gentle Introduction to Exponential Smoothing for Time Series Forecasting in Python](https://machinelearningmastery.com/exponential-smoothing-for-time-series-forecasting-in-python/)
@@ -169,15 +172,18 @@
 - [(Video) About Practice Problem: Time Series Analysis](https://datahack.analyticsvidhya.com/contest/practice-problem-time-series-2/)
 - [Encoding Time Series as Images](https://medium.com/analytics-vidhya/encoding-time-series-as-images-b043becbdbf3)
 - [A Multivariate Time Series Guide to Forecasting and Modeling (with Python codes)](https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/)
+- [Multivariate Time Series Forecasting with LSTMs in Keras](https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/)
 - [(Video) Tamara Louie: Applying Statistical Modeling & Machine Learning to Perform Time-Series Forecasting](https://www.youtube.com/watch?v=JntA9XaTebs (1hr 26m))
 - [(Video) Jeffrey Yau: Time Series Forecasting using Statistical and Machine Learning Models | PyData NYC 2017](https://www.youtube.com/watch?v=_vQ0W_qXMxk (32m))
 - [(Video) Igor Gotlibovych: Deep Learning and Time Series Forecasting for Smarter Energy | PyData London 2019](https://www.youtube.com/watch?v=p6mKFs6HVlg (40m))
 - [Selecting Forecasting Methods in Data Science](https://www.linkedin.com/posts/vincentg_selecting-forecasting-methods-in-data-science-activity-6637418894577459200-NXel)
 - Multi-step Time Series Forecasting with Machine Learning for Electricity Usage: [Part 1](https://machinelearningmastery.com/multi-step-time-series-forecasting-with-machine-learning-models-for-household-electricity-consumption/) [Part 2](https://www.linkedin.com/posts/jasonbrownlee_multi-step-time-series-forecasting-with-machine-activity-6640791155732807680-IdDZ)
 - [Probabilistic Forecasting: Learning Uncertainty](https://www.datasciencecentral.com/profiles/blogs/probabilistic-forecasting-learning-uncertainty)
+- [GluonTS: Probabilistic time series forecasting](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/133762)
 - [Three Approaches to Predicting Uncertainty](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/133613)
-- [Probabilistic Forecasting: Learning Uncertainty](https://www.datasciencecentral.com/profiles/blogs/probabilistic-forecasting-learning-uncertainty)
 - [Aggregated resources on the topic "uncertainty"](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/155085)
+- [11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+- [Correlation, causation and forecasting](https://otexts.com/fpp2/causality.html)
 
 ## Forecasting using Prophet
 
@@ -224,6 +230,7 @@
 - [My team won $20,000 and 1st place in Kaggle's Earthquake Prediction competition](https://www.linkedin.com/pulse/my-team-won-20000-1st-place-kaggles-earthquake-corey-levinson/?trackingId=yAsezLzPTDyCuR6z0e4a1g%3D%3D)
   - [Discussions on Kaggle](https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/94390)
   - [Kaggle Kernel](https://www.kaggle.com/dkaraflos/1-geomean-nn-and-6featlgbm-2-259-private-lb)
+- [A small library to backtest timeseries data](https://github.com/EricSchles/backtester)
 - [Time-series on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series/)
 - [Time-series Forecasting on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series-forecasting/)
 - **[And many more Time-series posts on MachineLearningMastery.com](https://machinelearningmastery.com/?s=time+series&post_type=post&submit=Search)**
