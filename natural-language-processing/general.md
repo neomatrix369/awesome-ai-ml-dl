@@ -65,6 +65,7 @@
 - In 5 minutes, fine-tune a pre-trained transformer on anyone's tweets, just by clicking a couple of buttons: [Tweet](https://twitter.com/weights_biases/status/1265740544434597888) | [Blog](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI) 
 - [A Transformer-based Approach for Source Code Summarization](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6663306539186565120-KVi7)
 - [Using transformers. a more general guide to training models using transformers](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU)
+- [Find great posts on Transformers and NLP](https://www.pragmatic.ml/)
 
 ## Text generation
 

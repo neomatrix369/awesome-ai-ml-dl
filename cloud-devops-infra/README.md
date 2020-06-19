@@ -78,6 +78,7 @@ reproducible research
   - Probing the CPU (Windows)
       - [perfview](https://github.com/Microsoft/perfview) - general profiling on Windows
       - [perfview for .net](https://www.infoq.com/presentations/perfview-net) - excellent overview by Sasha Goldshtein
+  - [Neural Magic: GPU-class performance on CPU](./about-neural-magic.md)
   - Intel
     - [Intel® Developer Zone](https://software.intel.com/en-us/home)
     - [Intel® AI Developer Home Page](https://software.intel.com/en-us/ai)
