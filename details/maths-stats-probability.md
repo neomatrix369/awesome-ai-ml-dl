@@ -25,9 +25,14 @@
 - [Math model: simulating an epidemic](https://www.youtube.com/watch?v=gxAaO2rsdIs&feature=share&fbclid=IwAR2tcfTH08Z7oKBvaAqg9q4-JZ3iGZICE-l0Wl_Qx8EBDugWmmNT5YzPHZw)
 - [🐍 Linear Algebra in Python 🐍](https://github.com/abhat222/Linear-Algebra/blob/master/Linear%20Algebra.ipynb) [LinkedIn Post](https://www.linkedin.com/posts/asif-bhat_linear-algebra-activity-6645022216448811008-DEvZ)
 - [Neural-Symbolic Learning and Reasoning 📝](https://arxiv.org/abs/1711.03902) [LinkedIn Post](https://www.linkedin.com/posts/asif-bhat_neural-symbolic-learning-reasoning-activity-6630241195400495104-bpYo)
+- [Mathematics is important for #machinelearning, #datascience, #artificialintelligence](https://www.linkedin.com/posts/ayonroy2000_machinelearning-datascience-artificialintelligence-activity-6657652370069127168-O-cJ)
+- [The Math of Random Forests and Feature Importance in Scikit-learn and Spark](https://www.linkedin.com/posts/data-science-central_the-math-of-decision-trees-random-forest-activity-6656775689431240705-kwf_)
+- [Let's Learn Basic Mathematics - Sigma Notations](https://www.linkedin.com/posts/nabihbawazir_statistics-data-datascience-activity-6664146836003127296-wgLS)
+- [Why Study Linear Algebra?😉](https://www.linkedin.com/posts/iamsivab_linear-algebra-in-4-pages-activity-6673551357896736768-FI05)
 
 ## Statistics
 
+- [Statistics formula for Data Science](https://www.linkedin.com/posts/ashishpatel2604_datascience-deeplearning-machinelearning-activity-6673393253339025408-ngqH)
 - [Statistics Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/statistics-fundamentals/statistics-fundamentals.md)
 - [Statistics for Machine learning (paid book: Packt Publishing)](https://www.packtpub.com/big-data-and-business-intelligence/statistics-machine-learning)
 - [Topic-wise notes: maths & stats](https://www.ctanujit.org/lecture-notes.html)
