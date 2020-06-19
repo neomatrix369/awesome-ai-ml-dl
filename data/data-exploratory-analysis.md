@@ -19,17 +19,23 @@ aka *_Exploratory Data Analysis_*
 - [Python for Data Analysis by Boston University](https://www.linkedin.com/posts/nabihbawazir_python-for-data-analysis-activity-6610035849155440640-pLAs)
 - [Introduction of Python for Data Analysis](https://www.linkedin.com/posts/nabihbawazir_python-for-data-analysis-activity-6605350672881721344-aE0_)
 - [Data Analysis Method: Mathematics Optimization to Build Decision Making](https://www.linkedin.com/posts/data-science-central_data-analysis-method-mathematics-optimization-activity-6606212768343347201-vzat)
+- [How To Determine If A Sample Is Representative](https://www.linkedin.com/posts/vincentg_how-to-determine-if-a-sample-is-representative-activity-6657012501504421888-aaPa)
+- [Data Analysis Method: Mathematics Optimization to Build Decision Making](https://www.linkedin.com/posts/data-science-central_data-analysis-method-mathematics-optimization-activity-6661023930838503425-bJtJ)
+- Dataprep.eda: Accelerate your EDA: [original post](https://www.linkedin.com/posts/towards-data-science_dataprepeda-accelerate-your-eda-activity-6655814355810168832-RTPQ) | [blog](https://towardsdatascience.com/dataprep-eda-accelerate-your-eda-eb845a4088bc)
+
+
+
 
 ### Tools
 
 - [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/)
 - [Dabl: Data Analysis Baseline Library (Pandas profiling like tool)](https://dabl.github.io/dev/) | [GitHub](https://github.com/dabl/dabl)
 - [Bamboolib](./bamboolib.md)
+- [ppscore - a Python implementation of the Predictive Power Score (PPS)](https://pypi.org/project/ppscore/) - from the makers of [Bamboolib](./bamboolib.md)
 - [CleverCSV](https://github.com/alan-turing-institute/CleverCSV)
 - [edaviz - Python Library for Data Exploration and Visualization in Jupyter Notebook](https://www.youtube.com/watch?v=eYEeYv11YrQ)
 - [Getting Started with pandas a powerful Python data analysis toolkit](https://www.datasciencecentral.com/profiles/blogs/getting-started-with-pandas-a-powerful-python-data-analysis) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_getting-started-with-pandas-a-powerful-python-activity-6651512263251410944-5bSl)
 - [A Complete Tutorial to Learn Data Analysis with Python From Scratch](https://www.linkedin.com/posts/iamsivab_introduction-to-programming-in-pythonpdf-activity-6640574471667318784-yt-g)
-
 - See [Data > Programs and Tools](./programs-and-tools.md#programs-and-tools) and [Things to know: Primary tools to analyse data](../things-to-know.md#primary-tools-to-analyse-data)
 
 ### Missing values
@@ -75,6 +81,7 @@ aka *_Exploratory Data Analysis_*
 - [Introduction to Outlier Detection Methods](https://www.linkedin.com/posts/data-science-central_introduction-to-outlier-detection-methods-activity-6607029146876985345-Bbup)
 -[️Outlier corrections](https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba)
 -[️Outliers in Logistic Regression](https://www.analyticbridge.datasciencecentral.com/forum/topics/outliers-in-logistic-regression)
+- [How to Scale Data With Outliers for Machine Learning](https://machinelearningmastery.com/robust-scaler-transforms-for-machine-learning/)
 
 ### Omitting variables
 

@@ -13,6 +13,7 @@
 - [CleverCSV](https://github.com/alan-turing-institute/CleverCSV)
 - [Data Cleaning Software Options - Pros And Cons](https://www.pivigo.com/blog?post=Data%20Cleaning%20Software%20Options%20-%20Pros%20And%20Cons)
 - [Data Cleansing with Apache Spark and Optimus](https://www.linkedin.com/posts/data-science-central_data-cleansing-with-apache-spark-and-optimus-activity-6606304380595556352-zYFJ)
+- [Basic Data Cleaning for Machine Learning (That You Must Perform)](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/)
 
 ### Missing values
 
@@ -40,6 +41,7 @@
 - [Extract online data (code in Java)](https://www.datasciencecentral.com/profiles/blogs/java-coding-sample-to-extract-online-data)
 - [Data preparation for factor analysis](https://www.linkedin.com/posts/data-science-central_data-preparation-for-factor-analysis-activity-6608507889915092992-T1Vv)
 - [7 Pandas Functions to Reduce Your Data Manipulation Stress by Andre Ye](https://towardsdatascience.com/7-pandas-functions-to-reduce-your-data-manipulation-stress-25981e44cc7d) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_7-pandas-functions-to-reduce-your-data-manipulation-activity-6655006784069214208-R9Zn)
+- [Data Prepossessing](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-aertificialintellegence-activity-6657362083665018880-2rzc)
 
 ### Transformations
 

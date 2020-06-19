@@ -70,6 +70,7 @@ See [Datasets](./datasets.md)
 ## Data Collection
 
 - [👉 Effective Data Collection 👈](https://www.linkedin.com/posts/asif-bhat_data-collection-activity-6625312371869089793-4LrM)
+- [The Ultimate Guide to Effective Data Collection](https://www.linkedin.com/posts/iamsivab_the-ultimate-guide-to-effective-data-collection-activity-6656175779732381697-lv6X)
 
 ## Hypothesis
 
@@ -127,6 +128,7 @@ See [Post model-creation analysis, ML interpretation/explainability](./model-ana
 
 ## Statistics
 
+- [Mode of a Log-Normal distribution by Sahil Gupta](https://www.linkedin.com/posts/towards-data-science_mode-of-a-log-normal-distribution-activity-6664846621953662976-znG1)
 See [Statistics.md](statistics.md#statistics)
 
 ## Visualisation

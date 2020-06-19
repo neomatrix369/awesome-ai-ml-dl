@@ -65,6 +65,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Data Visualization Purpose: Andrew Abela & Stephen Few](https://www.linkedin.com/posts/nabihbawazir_data-visualization-purpose-activity-6606961340106018816-uDZd)
   - [Data Visualisation by Purpose (Ellie K, Miller post)](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6623855200325197824-0nxv)
   - [👉 Which Chart or Graph is right for you 👈](https://www.linkedin.com/posts/asif-bhat_data-visualisation-activity-6623861062238334977-EP68)
+  - [A Beginners Guide to Creating Clean and Appetizing Python Charts](https://towardsdatascience.com/a-beginners-guide-to-creating-clean-and-appetizing-python-charts-f7e1cf1899d2?source=social.tw)
 
 ## Books and other resources
   - [Italo Calvino: text & data | data visualization book by Hanna Piotrowska (Dyrcz)](https://www.behance.net/gallery/83315693/Calvinos-book-text-data-data-visualization?fbclid=IwAR0zj9iwNSDOp2x7n8Kh-CaKaJ3vZjGHfWMIloWZklNuH_QQKzpMxnQOXUM)
