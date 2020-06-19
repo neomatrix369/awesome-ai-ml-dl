@@ -13,6 +13,8 @@
 - [MemGraph](https://memgraph.com/) - Open source projects from the world's fastest graph database. | [GitHub](https://github.com/memgraph)
 - [TigerGraph](https://www.tigergraph.com/) - TigerGraph is the fastest and most scalable graph database analytics platform—and the only native parallel graph database. Previously GraphSQL | [GitHub](https://github.com/tigergraph)
 - [Graph Database via MathWorks interfaces](https://uk.mathworks.com/help/database/graph-database.html) - Explore, manage, store, and analyze graph data in Neo4j® database using MATLAB® interface to Neo4j or Database Toolbox™ Interface for Neo4j Bolt Protocol | [Database Toolbox](https://uk.mathworks.com/products/database.html)
+- [COMP 766 - Graph Representation Learning](https://cs.mcgill.ca/~wlh/comp766)
+- [𝗞𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 𝗚𝗿𝗮𝗽𝗵 𝗘𝗺𝗯𝗲𝗱𝗱𝗶𝗻𝗴𝘀 𝗮𝗻𝗱 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗮𝗯𝗹𝗲 𝗔𝗜 (Good read & my paper of the day)](https://www.linkedin.com/posts/philipvollet_knowledge-graph-embeddings-and-explainable-activity-6662231581974908928-vtKT)
 
 ### Redis modules
 - [neural-redis](https://github.com/antirez/neural-redis) - Online trainable neural networks as Redis data types

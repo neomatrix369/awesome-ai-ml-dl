@@ -122,6 +122,13 @@
 - [Two New Free Books on Machine Learning](https://www.linkedin.com/posts/data-science-central_two-new-free-books-on-machine-learning-activity-6651587789072715776-09QA)
 - [The Hundred-Page Machine Learning Book by Andriy Burkov](https://www.linkedin.com/posts/andriyburkov_chapter-10-other-forms-of-learning-activity-6653853295150452736-Bm5d)
 
+## Uncertainty
+
+- [GitHub topic: uncertainties](https://github.com/topics/uncertainties)
+- [Charles's talk on Probability, Uncertainty: The Surprising Utility of Surprise](https://docs.google.com/presentation/d/1PVonxRuMns5TjNXLReg6C3mFlVyWylBZfCgJZNFENoA/edit?usp=sharing)
+- [Aggregated resources on the topic "uncertainty"](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/155085)
+
+
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!

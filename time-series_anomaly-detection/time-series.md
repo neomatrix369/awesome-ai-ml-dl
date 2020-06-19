@@ -174,6 +174,10 @@
 - [(Video) Igor Gotlibovych: Deep Learning and Time Series Forecasting for Smarter Energy | PyData London 2019](https://www.youtube.com/watch?v=p6mKFs6HVlg (40m))
 - [Selecting Forecasting Methods in Data Science](https://www.linkedin.com/posts/vincentg_selecting-forecasting-methods-in-data-science-activity-6637418894577459200-NXel)
 - Multi-step Time Series Forecasting with Machine Learning for Electricity Usage: [Part 1](https://machinelearningmastery.com/multi-step-time-series-forecasting-with-machine-learning-models-for-household-electricity-consumption/) [Part 2](https://www.linkedin.com/posts/jasonbrownlee_multi-step-time-series-forecasting-with-machine-activity-6640791155732807680-IdDZ)
+- [Probabilistic Forecasting: Learning Uncertainty](https://www.datasciencecentral.com/profiles/blogs/probabilistic-forecasting-learning-uncertainty)
+- [Three Approaches to Predicting Uncertainty](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/133613)
+- [Probabilistic Forecasting: Learning Uncertainty](https://www.datasciencecentral.com/profiles/blogs/probabilistic-forecasting-learning-uncertainty)
+- [Aggregated resources on the topic "uncertainty"](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/155085)
 
 ## Forecasting using Prophet
 

@@ -136,6 +136,12 @@
 - [An introduction to (and puns on) Bayesian neural networks](https://engineering.papercup.com/posts/bayesian-neural-nets/)
 - [Bayesian Inference Algorithms: MCMC and VI](https://towardsdatascience.com/bayesian-inference-algorithms-mcmc-and-vi-a8dad51ad5f5)
 - [A chat w/ @twiecki about #BayesianHierarchicalModels! What are they? How to build them? And why you should be very careful when building them](https://twitter.com/alex_andorra/status/1238004298245644288)
+- Bayesian Hyperparameter Optimization - A Primer: [Blog](https://www.wandb.com/articles/bayesian-hyperparameter-optimization-a-primer) | [Notebook](https://colab.research.google.com/drive/1SNP7ioYd3LHj2HmNDJIG2N7rPh1IiDbm?authuser=1#scrollTo=nkCUrzzIeLSM)
+- [How to Implement Bayesian Optimization from Scratch in Python](https://machinelearningmastery.com/what-is-bayesian-optimization/)
+- [Develop an Intuition for Bayes Theorem With Worked Examples](https://machinelearningmastery.com/intuition-for-bayes-theorem-with-worked-examples/)
+- [Bayesian Stats 101 for Data Scientists](https://www.linkedin.com/posts/towards-data-science_bayesian-stats-101-for-data-scientists-activity-6655949045678387202-qlgP)
+- [New Marketing Insight from Unsupervised Bayesian Belief Networks](https://www.linkedin.com/posts/vincentg_new-marketing-insight-from-unsupervised-bayesian-activity-6657419179529949184-nyP4)
+
 
 # Contributing
 

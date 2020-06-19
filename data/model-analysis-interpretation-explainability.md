@@ -5,6 +5,8 @@
 - [Yellowbrick](https://www.scikit-yb.org/en/latest/#yellowbrick-machine-learning-visualization) - is a suite of visual diagnostic tools called “Visualizers” that extend the Scikit-Learn API to allow human steering of the model selection process
 - [Shap](https://github.com/slundberg/shap) - A unified approach to explain the output of any machine learning model
 - [LIME](https://github.com/marcotcr/lime)
+- Seldon's Model explainability: [Alibi](https://www.seldon.io/tech/products/alibi/) | [Github](https://github.com/SeldonIO/alibi)
+- QuantumBlacksLabs' CasualNex: [Post 1](https://www.mckinsey.com/about-us/new-at-mckinsey-blog/causalnex-our-new-open-source-library-leverages-cause-and-effect-relationships-in-data) | [Post 2](https://medium.com/quantumblack/introducing-causalnex-driving-models-which-respect-cause-and-effect-a561545f0a5e) | [GitHub](https://github.com/quantumblacklabs/causalnex)
 - [4 Python Libraries For Getting Better Model Interpretability](https://www.analyticsindiamag.com/4-python-libraries-for-getting-better-model-interpretability/)
 - [Integrated Gradients: Axiomatic Attribution for Deep Networks](https://github.com/ankurtaly/Integrated-Gradients) | [Paper](https://arxiv.org/abs/1703.01365)
 - [Resources on GitHub on interpretability](https://github.com/topics/interpretability)
@@ -12,7 +14,9 @@
 - [Seldon's opensource library for MachineLearning model inspection and interpretation](https://github.com/SeldonIO/alibi)
 - [Elifive](https://eli5.readthedocs.io/en/latest/overview.html) | [GitHub](https://github.com/TeamHG-Memex/eli5)
 - [Shap](https://github.com/slundberg/shap) [1](https://blog.dominodatalab.com/shap-lime-python-libraries-part-1-great-explainers-pros-cons/) [2](https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/)
-    
+- [Demystifying Black-Box Models with SHAP Value Analysis](https://www.linkedin.com/posts/vincentg_demystifying-black-box-models-with-shap-value-activity-6657041692224483328-ixRo)
+
+
 ## Articles, blog posts, papers, notebooks, books, presentations
 
 - [DataRobot: Model Interpretability - What is Model Interpretability in Machine Learning?](https://www.datarobot.com/wiki/interpretability/)

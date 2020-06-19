@@ -68,6 +68,10 @@
   - [Neural Module Networks for Reasoning over Text: [Paper]](https://arxiv.org/abs/1912.04971) | [Code](https://nitishgupta.github.io/nmn-drop/) [LinkedIn Post](https://www.linkedin.com/posts/montrealai_neuralnetworks-reasoning-symbolicai-activity-6630879104814116864-Opyq)
   - [”A Beginner's Guide to the Mathematics of Neural Networks”](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&rep=rep1&type=pdf) [LinkedIn Post](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-neuralnetworks-activity-6637386735531683840-9RGJ)
   - [Machine Learning: Data Insights for Model Building](https://towardsdatascience.com/machine-learning-data-insights-for-model-building-b6bdea0ac092) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_machine-learning-data-insights-for-model-activity-6644068456784367616-Ylyl)
+  - [Representation of NN with different variants](https://www.linkedin.com/posts/ashishpatel2604_datascience-deeplearning-machinelearning-activity-6676025346330112000-c2YB)
+  - [Neural Networks are Function Approximation Algorithms](https://machinelearningmastery.com/neural-networks-are-function-approximators/)
+  - [Troubleshooting Deep NNs](http://josh-tobin.com/assets/pdf/troubleshooting-deep-neural-networks-01-19.pdf)
+  - [Understand the Impact of Learning Rate on Neural Network Performance](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
 
   ## Generative Adversarial Network (GAN)
 
@@ -82,10 +86,11 @@
 
   - [Introduction to Genetic Algorithms & their application in data science](https://media.licdn.com/dms/document/C511FAQE99ZtwL7srQA/feedshare-document-pdf-analyzed/0?e=1570906800&v=beta&t=OiKdTPzo2ozpBzVl0N_5JPvzAoqsS2iie9cHNK4BXCg) [deadlink]
   - Hands-On Genetic Algorithms with Python book:
-    - Book: [Amazon](https://www.amazon.com/Hands-Genetic-Algorithms-Python-intelligence-ebook/dp/B0842372RQ/) | [Packt Publishing](https://www.packtpub.com/data/hands-on-genetic-algorithms-with-python)
+    - Book: [Amazon](https://www.amazon.com/Hands-Genetic-Algorithms-Python-intelligence-ebook/dp/B0842372RQ/) | [Packt Publishing](https://www.packtpub.com/data/hands-on-genetic-algorithms-with-python) | [Free chapter 7](https://static.packt-cdn.com/downloads/9781838557744_ColorImages.pdf)
     - [Static images in each chapter](https://static.packt-cdn.com/downloads/9781838557744_ColorImages.pdf)
     - [Video playlist over each chapter](https://www.youtube.com/playlist?list=PLeLcvrwLe186eQR5Y-T_kOZEjADAwTScy)
     - [Code from the book](https://github.com/PacktPublishing/Hands-On-Genetic-Algorithms-with-Python)
+    - [Enhancing Machine Learning Models using Genetic Algorithms by Eyal W.](https://www.youtube.com/watch?v=ubit7SU5BJQ)
   - [Genetic Algorithm: The Nature of Code playlist](https://www.youtube.com/watch?v=9zfeTw-uFCw&list=PLRqwX-V7Uu6bJM3VgzjNV5YxVxUwzALHV)
     - [Session 2 - Genetic Algorithms - Intelligence and Learning The Coding Train](https://www.youtube.com/watch?v=c8gZguZWYik&list=PLRqwX-V7Uu6bw4n02JP28QDuUdNi3EXxJ)
     - [Coding Challenge #35.4: Traveling Salesperson with Genetic Algorithm](https://www.youtube.com/watch?v=M3KTWnTrU_c)
@@ -192,7 +197,10 @@
 
   ### Testing
 
-  See [Machine Learning > Testing](./julia-python-and-r/machine-learning.md#testing) 
+  - [A machine learning testing framework for sklearn and pandas. The goal is to help folks assess whether things have changed over time](https://github.com/EricSchles/drifter_ml)
+  - [Testing Machine Learning Models with Eric Schles](https://www.youtube.com/watch?v=bZtdnFVAfbs)
+  
+  Also see [Machine Learning > Testing](./julia-python-and-r/machine-learning.md#testing) 
    
   ### Deep Learning
 

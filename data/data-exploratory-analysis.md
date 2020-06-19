@@ -63,6 +63,9 @@ aka *_Exploratory Data Analysis_*
 - [10 Clustering Algorithms With Python](https://machinelearningmastery.com/clustering-algorithms-with-python/)
 - [Finding organic clusters in complex data-networks](https://www.datasciencecentral.com/profiles/blogs/finding-organic-clusters-in-complex-data-networks) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_finding-organic-clusters-in-complex-data-networks-activity-6650907272413274112-p-H7)
 - [How to Develop an Encoder-Decoder Model for Sequence-to-Sequence Prediction in Keras](https://machinelearningmastery.com/develop-encoder-decoder-model-sequence-sequence-prediction-keras/)
+- [10 Clustering Algorithms With Python](https://machinelearningmastery.com/clustering-algorithms-with-python/)
+- [An Introduction to Clustering and different methods of clustering](https://www.linkedin.com/posts/data-science-central_an-introduction-to-clustering-and-different-activity-6657823846013419520-3o5Y)
+- [Scale-Invariant Clustering and Regression](https://www.linkedin.com/posts/data-science-central_scale-invariant-clustering-and-regression-activity-6657477059243229184-1ibv)
 
 ### Outliers
 
