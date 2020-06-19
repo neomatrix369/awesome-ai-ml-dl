@@ -44,6 +44,16 @@ reproducible research
   - [NavOps](http://www.univa.com/products/navops.php) - Cloud Migration for HPC | [Datasheet](http://www.univa.com/resources/files/univa-navops-launch-datasheet.pdf)
   - [Verne Global: HPC Cloud](https://verneglobal.com/solutions/hpc-cloud) | [NVIDIA DGX Ready](https://verneglobal.com/dgxready)
   - [Weights and Biases](https://wandb.com) | [Learn more about WandB](../data/about-Weights-and-Biases.md)
+  - [RealityEngine.ai](https://RealityEngine.ai) | [Research](https://www.realityengines.ai/research) | [Blogs](https://medium.com/reality-engines)
+    - Videos
+      - [Workshop: Unsupervised Learning and Deep Learning Based Forecasting](https://www.youtube.com/watch?v=amTzgvJg-ZE) 
+      - [AutoML Core Concepts and Hands-On Workshop](https://www.youtube.com/watch?v=QbqsOcX7KZo&feature=em-lbcastemail)
+      - [Workshop: Large Scale Deep Learning Recommender](https://www.youtube.com/watch?v=MpC-RuFw-SY)
+    - Notebooks
+      - Workshop: Unsupervised Learning and Deep Learning Based Forecasting: [Anomaly Workbook](https://bit.ly/RE_anomaly) | [Forecasting Workbook](https://bit.ly/REforecasting) 
+      - AutoML Core Concepts and Hands-On Workshop: [Regression Notebook](https://colab.research.google.com/drive/1Rajb3bHw45k4PWvDlxsQNCd3j5WuHbIm#forceEdit=true&sandboxMode=true) | [Classification Notebook](https://bit.ly/RE_classification)
+      - [Workshop: Large Scale Deep Learning Recommender](https://bit.ly/RE_streaming)
+      - [Reality Engines Demo](https://github.com/jsutch/RealityEngines-Demo) 
 
 ## Tools
 
