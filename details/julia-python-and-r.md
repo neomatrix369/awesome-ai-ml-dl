@@ -223,14 +223,14 @@ See [Programming in Python](../Programming-in-Python.md)
 
 ## Programming in R
 
-- [Tutorial: Debugging in R](https://www.geeksforgeeks.org/debugging-in-r-programming/)
-- [Tutorial: ANOVA Test in R Programming](https://www.geeksforgeeks.org/anova-test-in-r-programming/)   
-- [Tutorial: Survival Analysis in R](https://www.geeksforgeeks.org/survival-analysis-in-r/)
-- [Tutorial: Using ggplot2 in R](https://www.geeksforgeeks.org/using-ggplot2-package-in-r-programming/)
-- [Tutorial: Principal component analysis in R](https://www.geeksforgeeks.org/principal-component-analysis-with-r-programming/)
-- [Tutorial: Working with Excel files](https://www.geeksforgeeks.org/working-with-excel-files-in-r-programming/)
-- [Tutorial: Logistic Regression in R](https://www.geeksforgeeks.org/logistic-regression-in-r-programming/)
-- [Tutorial: Random Forest Approach in R Programming](https://www.geeksforgeeks.org/random-forest-approach-in-r-programming/)
+- [Debugging in R](https://www.geeksforgeeks.org/debugging-in-r-programming/)
+- [ANOVA Test in R Programming](https://www.geeksforgeeks.org/anova-test-in-r-programming/)   
+- [Survival Analysis in R](https://www.geeksforgeeks.org/survival-analysis-in-r/)
+- [Using ggplot2 in R](https://www.geeksforgeeks.org/using-ggplot2-package-in-r-programming/)
+- [Principal component analysis in R](https://www.geeksforgeeks.org/principal-component-analysis-with-r-programming/)
+- [Working with Excel files](https://www.geeksforgeeks.org/working-with-excel-files-in-r-programming/)
+- [Logistic Regression in R](https://www.geeksforgeeks.org/logistic-regression-in-r-programming/)
+- [Random Forest Approach in R Programming](https://www.geeksforgeeks.org/random-forest-approach-in-r-programming/)
 
 ## Visualisation
 
