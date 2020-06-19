@@ -21,6 +21,10 @@
 - Pricing & features: https://www.wandb.com/pricing
 - Documentations
   - https://docs.wandb.com/docs/started.html
+  - Sweeps: https://docs.wandb.com/sweeps
+  - Framework docs: https://docs.wandb.com/library/frameworks
+  - Group: https://docs.wandb.com/library/advanced/grouping
+  - Resuming tracking: https://docs.wandb.com/library/advanced/resuming
 - Examples
   - https://docs.wandb.com/docs/examples.html
 - Code & concepts
@@ -50,6 +54,18 @@
   - https://www.wandb.com/articles/model-explorations-and-hyperparameter-search-with-w-b-and-kubernetes (Robert Porsch)
   - https://www.kaggle.com/robertehshi/basics-of-nfl-expost (Robert Lutz)
   - https://app.wandb.ai/cayush/pytorchlightning/reports/Use-Pytorch-Lightning-with-Weights-%26-Biases--Vmlldzo2NjQ1Mw
+  - [Automate Kaggle model training with Skorch and W&B:](https://app.wandb.ai/cayush/undefined/reports/Automate-ML-experiments-with-Skorch-and-W%26B--Vmlldzo4NTQ1NQ?utm_source=social_twitter&utm_medium=report&utm_campaign=report_author)
+  - [W&B Sweep: NeRF-–-Representing-Scenes-as-Neural-Radiance-Fields-for-View-Synthesis](https://app.wandb.ai/sweep/nerf/reports/NeRF-%E2%80%93-Representing-Scenes-as-Neural-Radiance-Fields-for-View-Synthesis--Vmlldzo3ODIzMA) | [Notebook 1](https://github.com/lavanyashukla/neural_networks/blob/master/Hyperparameter_Sweeps_with_W%26B.ipynb) | [Notebook 2](https://github.com/lavanyashukla/neural_networks/blob/master/Hyperparameter_Optimization_on_a_NeRF.ipynb)
+  - [Track model performance](https://app.wandb.ai/lavanyashukla/visualize-models/reports/Track-Model-Performance--Vmlldzo1NTk2MA)
+  - [Hyper parameter sweeps](https://colab.research.google.com/drive/1gKixa6hNUB8qrn1CfHirOfTEQm0qLCSS)
+  - [GPU metrics](https://app.wandb.ai/stacey/estuary/reports/System-metrics-for-model-comparison--Vmlldzo1NzI5Mg)
+  - [Visualise model prediction](https://app.wandb.ai/lavanyashukla/visualize-predictions/reports/Visualize-Model-Predictions--Vmlldzo1NjM4OA/)
+  - [Visualise Scikit Models](https://app.wandb.ai/lavanyashukla/visualize-sklearn/reports/Visualize-Scikit-Models--Vmlldzo0ODIzNg)
+  - [Save and restore models](https://app.wandb.ai/lavanyashukla/save_and_restore/reports/Saving-and-Restoring-Models-with-W%26B--Vmlldzo3MDQ3Mw)
+  - [Keras and W&B](https://www.kaggle.com/robertehshi/basics-of-nfl-expost)
+  - [Pytorch and W&B](https://app.wandb.ai/cayush/pytorchlightning/reports/Use-Pytorch-Lightning-with-Weights-%26-Biases--Vmlldzo2NjQ1Mw)
+  - [Tracking experiments](https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0)
+  - Implementing W&B sweeps: [Sweeps](https://docs.wandb.com/sweeps/overview ) | [Notebook](https://colab.research.google.com/drive/1gKixa6hNUB8qrn1CfHirOfTEQm0qLCSS )
   - ...for more [see this](./wandb/More-resources.md)
 
 ---

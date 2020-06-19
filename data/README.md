@@ -74,6 +74,10 @@ See [Datasets](./datasets.md)
 
 - [How to approach Hypothesis Testing](https://medium.com/@dhruvaggarwal6/how-to-approach-hypothesis-testing-6257d03bcfee)
 - [Does Your Hypothesis Development Canvas Tell a Story?](https://www.linkedin.com/posts/data-science-central_does-your-hypothesis-development-canvas-tell-activity-6618701060817108993-EKjQ)
+- [A Complete Guide to Hypothesis Testing](https://towardsdatascience.com/a-complete-guide-to-hypothesis-testing-2e0279fa9149)
+- [An introduction to Statistical Inference and Hypothesis testing](https://twitter.com/DataScienceCtrl/status/1261325769155973122)
+- [A set of descriptive statistics and hypothesis tests across different types of data](https://github.com/EricSchles/describer_ml)
+- [The statistical analysis t-test explained for beginners and experts](https://towardsdatascience.com/the-statistical-analysis-t-test-explained-for-beginners-and-experts-fd0e358bbb62)
 
 ## Data Exploratory Analysis
 

@@ -17,6 +17,7 @@ The RAPIDS suite of software libraries, built on [CUDA-X AI](https://www.develop
 
 - [RAPIDS on Medium.com](https://medium.com/rapids-ai) - is a great place to catch up with RAPIDS new functionality
 - [RAPIDS: NVIDIA Developer Blog](https://devblogs.nvidia.com/tag/rapids/)
+- [With RayTune and RAPIDS, you can now tune Random Forest Classifiers 30x faster  -  while getting a 5% accuracy boost](https://www.linkedin.com/feed/update/urn:li:activity:6667135917431627776/)
 - See other [NVIDIA blogs](https://blogs.nvidia.com/)
 
 ## Tutorials (with notebooks)
