@@ -51,6 +51,13 @@
 - [Here are some great Python Resources to learn #DataScience and #MachineLearning](https://www.linkedin.com/posts/asif-bhat_datascience-machinelearning-activity-6638314806367621120-vWp0)
 - [👉 🐍Machine Learning Projects with Python 🐍👈](https://www.linkedin.com/posts/asif-bhat_machine-learning-projects-activity-6643602873957605376-5VJ4)
 - [Python NumPy for Artificial Intelligence : 14. Array Comparison | Logical Operations](https://www.youtube.com/watch?v=G8qbRwB-L8Y&feature=youtu.be)
+- [The Ultimate NumPy Tutorial for Data Science Beginners](https://www.analyticsvidhya.com/blog/2020/04/the-ultimate-numpy-tutorial-for-data-science-beginners/)
+- [Can machine learning help build a better stock portfolio?](https://bit.ly/2zfl6G6)
+- [How to Develop Voting Ensembles With Python](https://machinelearningmastery.com/voting-ensembles-with-python/)
+- [How to Develop Super Learner Ensembles in Python](https://machinelearningmastery.com/super-learner-ensemble-in-python/)
+- [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
+- [5 free books for learning Python for DS](https://towardsdatascience.com/5-free-books-for-learning-python-for-data-science-87be443c084)
+- [7 advanced tricks in pandas for data science](https://www.linkedin.com/posts/towards-data-science_7-advanced-tricks-in-pandas-for-data-science-activity-6655303741224423424-SJtU)
 
 ## Courses
 
