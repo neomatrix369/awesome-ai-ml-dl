@@ -41,6 +41,8 @@
   - [NLP in fraud dectection: Case study](https://www.linkedin.com/posts/data-science-central_natural-language-understanding-nlu-in-fraud-activity-6623003404279005184-Fg_L)
   - TextAttack – a really cool Python framework for attacking NLP models and augmenting text datasets: [GitHub](https://github.com/QData/TextAttack/) | [Tweet](https://twitter.com/lavanyaai/status/1260384065481392129)
   - Albumentations package for NLP data augmentation: [Kaggle Kernel 1](https://www.kaggle.com/shonenkov/tpu-training-super-fast-xlmroberta) | [Kaggle Kernel 2](https://www.kaggle.com/shonenkov/nlp-albumentations)
+  - [#BLINK - an Entity Linking python library](https://www.linkedin.com/posts/inna-vogel-nlp_blink-neuralnetworks-deeplearning-activity-6671381112528404480-YD8r)
+  - [#WhatLies is a python library visualizing word embeddings as well as operations on them](https://www.linkedin.com/posts/inna-vogel-nlp_whatlies-activity-6661164569232187392-bjZ9)
 
 # Contributing
 

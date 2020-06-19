@@ -36,9 +36,22 @@
 - [Natural Language Processing with Python: The Free eBook](https://www.kdnuggets.com/2020/06/natural-language-processing-python-free-ebook.html)
 - [NLP Paper summaries](https://github.com/dair-ai/nlp_paper_summaries)
 - [Brainsources for #NLP Enthusiasts a curated list of picked resources for beginners and advanced practitioners!](https://www.linkedin.com/posts/philipvollet_nlp-activity-6672018066173431809-H_t4)
+- [Embeddings in Natural Language Processing Theory and Advances in Vector Representation of Meaning as eBook](https://www.linkedin.com/posts/philipvollet_nlp-activity-6658595562893385728-qTCF)
+- 𝗣𝗮𝘁𝘁𝗲𝗿𝗻-𝗘𝘅𝗽𝗹𝗼𝗶𝘁𝗶𝗻𝗴-𝗧𝗿𝗮𝗶𝗻𝗶𝗻𝗴 (PET) a semi-supervised training procedure that reformulates input examples as cloze-style phrases which help the language model understand the given task: [GitHub](https://lnkd.in/dcZ3CQD) | [Paper](https://lnkd.in/d2wym86)
+- [#Google introduced an NLP benchmark #Xtreme encouraging developments of multilingual AI models](https://www.linkedin.com/posts/inna-vogel-nlp_google-xtreme-maschinelleslernen-activity-6657607590140227584-u-Eu)
+- [NLP for every Language by Microsoft](links: https://pos.li/2ffwht)
+- [How to Develop a Multichannel CNN Model for Text Classification](https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/)
+- [Introduce 𝗔𝗺𝗯𝗶𝗴𝗤𝗔, 𝗮 𝗻𝗲𝘄 𝗼𝗽𝗲𝗻-𝗱𝗼𝗺𝗮𝗶𝗻 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻 𝗮𝗻𝘀𝘄𝗲𝗿𝗶𝗻𝗴 task which involves predicting a set of question-answer pairs, where every plausible answer is paired with a disambiguated rewrite of the original question](https://www.linkedin.com/posts/philipvollet_nlp-activity-6660779141794676736-Iz_O)
+- [𝗡𝗟𝗣 𝗳𝗼𝗿 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀: 𝗧𝗼𝗸𝗲𝗻𝗶𝘇𝗮𝘁𝗶𝗼𝗻 new video in the series NLP for Developers with the amazing Rachael from Rasa](https://www.linkedin.com/posts/philipvollet_nlp-activity-6660777477406765056-63UD)
+- [A tale about LDA2vec: when LDA meets word2vec](https://www.linkedin.com/posts/vincentg_a-tale-about-lda2vec-when-lda-meets-word2vec-activity-6665251541223555072-UhLZ)
+- Amazing Talk by Lorenzo Ampil about T5 and its applications: 
+[Video](https://www.youtube.com/watch?v=4LYw_UIdd4A) | [T5 Training notebook (Kaggle)](https://www.kaggle.com/enzoamp/t5-for-q-a-training-tutorial-pytorch) | [T5 Inference notebook (Kaggle)](https://www.kaggle.com/enzoamp/t5-q-a-inference-5-epochs-pytorch) | [T5 Tutorial Repo (Github)](https://github.com/enzoampil/t5-intro)
+- New release of Spark NLP 2.5 with a DL-based Context Spell Checker: 
+[Spell Checker as Notebook in action](https://lnkd.in/eE83ezj) | [Spark NLP workshop notebooks (git repo)](https://lnkd.in/e9CXikR)
 
 ### Transformers
 
+- [Openly share the contents of our internal weekly science Tuesdays at *Hugging Face* where we discuss recent papers at the frontier of NLP!](https://www.linkedin.com/posts/thomas-wolf-a056857_openscience-nlp-ai-activity-6656282308489949185-C0EO)
 - [Stanford University Question Answering #Dataset is famous because of most of the famous #deeplearning #algorithm of #NLP tested on this dataset such as #Bert, #transformar , #xlnet, #gpt, etc. Author Paton W. has written incredible article series on this dataset with #PyTorch #framework.](https://www.linkedin.com/posts/ashishpatel2604_question-answering-with-pytorch-transformers-activity-6618697249356640256-Vfi_)
 - [What's the secret behind ERNIE, Baidu, Inc.'s very own Transformer model? ](https://www.linkedin.com/posts/pascalbiese_ai-artificialintelligence-machinelearning-activity-6640969622105411586-ieJL) 
 - [Ever wondered what happens when predicting more than one token at once with Seq2Seq #transformers?](https://www.linkedin.com/posts/andrea-gatto_transformers-nlp-nlproc-activity-6643099191293943808-s6N9)
@@ -64,6 +77,7 @@
 
 ### BERT
 
+- [Emotion Classification using Fine-tuned BERT model with tutorial & Colab Notebook](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6656425348877606912-Am3_)
 - [Google open-sources BERT, a state-of-the-art pretraining technique for natural language processing](https://venturebeat.com/2018/11/02/google-open-sources-bert-a-state-of-the-art-training-technique-for-natural-language-processing/)
 - [A Primer in BERTology:](https://www.linkedin.com/posts/philipvollet_nlp-deeplearning-nlp-activity-6640068737485549568-px08)
 - [A Primer in BERTology: What we know about how BERT works](https://www.linkedin.com/posts/montrealai_transformer-nlp-bert-activity-6639202358209372161-pvJV)
