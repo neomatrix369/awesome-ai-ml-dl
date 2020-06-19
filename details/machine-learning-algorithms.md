@@ -41,6 +41,7 @@
 - [How to Develop Multi-Output Regression Models with Python](https://machinelearningmastery.com/multi-output-regression-models-with-python/)
 - [A Gentle Introduction to Cross-Entropy for Machine Learning](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)
 - [How to Calculate Correlation Between Variables in Python](https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/)
+- [TabNet : Attentive Interpretable Tabular Learning](https://github.com/dreamquark-ai/tabnet)
 
 # Contributing
 

@@ -44,6 +44,7 @@ reproducible research
   - [NavOps](http://www.univa.com/products/navops.php) - Cloud Migration for HPC | [Datasheet](http://www.univa.com/resources/files/univa-navops-launch-datasheet.pdf)
   - [Verne Global: HPC Cloud](https://verneglobal.com/solutions/hpc-cloud) | [NVIDIA DGX Ready](https://verneglobal.com/dgxready)
   - [Weights and Biases](https://wandb.com) | [Learn more about WandB](../data/about-Weights-and-Biases.md)
+  - Marvin AI: [About Marvin AI](https://cwiki.apache.org/confluence/display/incubator/Marvin-AI) | [Apache Marvin AI: MLOps platform](https://marvin.apache.org/) | [GitHub](https://github.com/marvin-ai) | [Video](https://www.youtube.com/watch?v=M5_yQCRIftw)
   - [RealityEngine.ai](https://RealityEngine.ai) | [Research](https://www.realityengines.ai/research) | [Blogs](https://medium.com/reality-engines)
     - Videos
       - [Workshop: Unsupervised Learning and Deep Learning Based Forecasting](https://www.youtube.com/watch?v=amTzgvJg-ZE) 
@@ -72,6 +73,8 @@ reproducible research
   - [H2O Framework for Machine Learning](https://www.linkedin.com/posts/data-science-central_h2o-framework-for-machine-learning-activity-6635175109445382144-ISgt)
   - [ML Framework: Introducing Ludwig, a Code-Free Deep Learning Toolbox](https://eng.uber.com/introducing-ludwig/) | [Ludwig is a toolbox built on top of TensorFlow that allows to train and test deep learning models without the need to write code](https://github.com/uber/ludwig)
   - [ML Pipelines](https://www.linkedin.com/posts/artificialintelligenceconsultant_activity-6639429321943539712-vRug)
+  - [Large SVDs Dask + CuPy + Zarr + Genomics](https://blog.dask.org/2020/05/13/large-svds)
+  - [Determined AI](https://determined.ai/developers/) | [About Niel Conway](http://www.neilconway.org/) | [Determined: Open-source Deep Learning Training Platform](https://www.youtube.com/watch?v=C6tOb655Zts)
   - [ML Framework by Abhishek Thakur](https://www.linkedin.com/posts/abhi1thakur_machinelearning-python-datascience-activity-6644289209181978625-wZtJ)
     - [Episode 1 Intro and building a machine learning framework](https://lnkd.in/e5Syy5N)
     - [Episode 2 A Cross Validation Framework](https://lnkd.in/eDjFTGW)
@@ -171,6 +174,8 @@ reproducible research
   - [DeepOBS: A Deep Learning Optimizer Benchmark Suite](https://arxiv.org/abs/1903.05499)
   - [PMLB](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4) - a large benchmark suite for machine learning evaluation and comparison
   - [Deep Learning Benchmarking Suite](https://github.com/HewlettPackard/dlcookbook-dlbs) | [HPE Deep Learning Cookbook](https://www.hpe.com/software/dl-cookbook)
+  - [Hyperdimensional Computing: An Introduction to Computing in Distributed Representation with High-Dimensional Random Vectors](http://www.rctn.org/vs265/kanerva09-hyperdimensional.pdf)
+  - [Performance profiling in TF 2 (TF Dev Summit '20)](https://www.youtube.com/watch?v=pXHAQIhhMhI)
 
 ## Misc
 
