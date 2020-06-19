@@ -21,6 +21,7 @@
    + [Feature Engineering: Data scientist's Secret Sauce](https://www.linkedin.com/posts/vincentg_feature-engineering-data-scientists-secret-activity-6657351483786358784-L7Mc)
    - [Python Feature Engineering Cookbook by Dr Soledad Galli](https://www.linkedin.com/posts/ajitjaokar_python-feature-engineering-cookbook-activity-6671226001567100928-Wfxn)
    - [How to Use Polynomial Feature Transforms for Machine Learning](https://machinelearningmastery.com/polynomial-features-transforms-for-machine-learning/)
+   - [Transforming Quantitative Data to Qualitative Data](https://www.linkedin.com/feed/update/urn:li:activity:6674858845854019584/)
 
 ## Dimensionality Reduction
 

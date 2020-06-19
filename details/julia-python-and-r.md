@@ -190,6 +190,8 @@
   - [10 Books Data Scientists Should Read During Lockdown](https://towardsdatascience.com/10-books-data-scientists-should-read-during-lockdown-f49b68fad650) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_10-books-data-scientists-should-read-during-activity-6654498437012299776-GMRC)
   - [Free Books: Data Science & AI](https://www.linkedin.com/posts/data-science-central_free-books-data-science-ai-activity-6634661722558906368-ch5W)
   - [50 external machine learning / data science resources and articles](https://www.linkedin.com/posts/data-science-central_50-external-machine-learning-data-science-activity-6626884983975919616-_FEW)
+  - [Bayesian Stats 101 for Data Scientists](https://www.linkedin.com/posts/towards-data-science_bayesian-stats-101-for-data-scientists-activity-6655949045678387202-qlgP)
+  - [Statistics formula for Data Science](https://www.linkedin.com/posts/ashishpatel2604_datascience-deeplearning-machinelearning-activity-6673393253339025408-ngqH)
   - See [Algorithms](../courses.md#algorithms) under [Courses](../courses.md#courses)
 
   ## Machine Learning

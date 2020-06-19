@@ -9,6 +9,7 @@ aka *_Exploratory Data Analysis_*
 - [Understand Your Machine Learning Data With Descriptive Statistics in Python](https://machinelearningmastery.com/understand-machine-learning-data-descriptive-statistics-python/)
 - [Visualize Machine Learning Data in Python With Pandas](https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/)
 - [8 Tactics to Combat Imbalanced Classes in Your Machine Learning Dataset](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
+- [Step-By-Step Framework for Imbalanced Classification Projects](https://machinelearningmastery.com/framework-for-imbalanced-classification-projects/)
 - [Exploring and Transforming H2O DataFrame in R and Python](https://dzone.com/articles/exploring-amp-transforming-h2o-data-frame-in-r-and)
 - [ML with H2O by Sudalai Rajkumar](https://www.slideshare.net/0xdata/machine-learning-with-h2o-114163519) (slide 20 onwards)
 - [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)

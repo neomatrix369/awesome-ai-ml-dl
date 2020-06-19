@@ -62,6 +62,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [The difference between Statistics and Data Science: Big Data and Inferential Statistics](https://www.datasciencecentral.com/profiles/blogs/the-difference-between-statistics-and-data-science-big-data-and)
 - [DataScience resources (in the form of a book) from Eric](https://github.com/EricSchles/datascience_book)
 - [Data Exploration and API First Design: Deep Learning Hands-On Series with Eric Schles](https://gist.github.com/lidderupk/f6562beadd39406a033c738201f46c12)
+- [Augmented Analytics Engine](https://www.linkedin.com/posts/data-science-central_augmented-analytics-engine-activity-6648764149864153088-dZWX)
 
 ## Datasets and sources of raw data
 

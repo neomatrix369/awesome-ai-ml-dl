@@ -32,7 +32,8 @@
   - [Machine Learning on Marketing](https://www.linkedin.com/feed/update/urn:li:activity:6532232283498352640)
   - [Understand How to answer Why](https://www.linkedin.com/feed/update/urn:li:activity:6519055798948204544)
   - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
-  - [Stack your ML models using an ensemble library: picknmix](https://github.com/picknmix/picknmix) by [Cheuk Ting Ho](https://github.com/Cheukting)
+  - [Supercharged Prediction with Ensemble Learning by James Briggs](https://www.linkedin.com/posts/towards-data-science_supercharged-prediction-with-ensemble-learning-activity-6657527642369200128-pUpt)
+  - [Stacking Ensemble Machine Learning With Python](https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/)
   - [Technical Notes On Using Data Science & Artificial Intelligence](https://github.com/chrisalbon/notes)
   - ML Flashcards: [website](https://machinelearningflashcards.com/) | [github](https://github.com/chrisalbon/MachineLearningFlashcards.com)
   - [Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386) by [Chris Albon](https://www.amazon.com/Chris-Albon/e/B07CHGKH7J/ref=dp_byline_cont_book_1)
@@ -77,6 +78,8 @@
   - [10 Must-read Machine Learning Articles (March 2020)](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_10-must-read-machine-learning-articles-march-activity-6654347366629421056-Ao6a)
   - [Restart from basics, here's the learning path (ML)](https://www.linkedin.com/posts/nabihbawazir_restart-from-basics-heres-the-learning-activity-6654875758999244800-0vlX)
   - [Feedback Recurrent AutoEncoder](https://www.linkedin.com/posts/montrealai_deeplearning-machinelearning-speechprocessing-activity-6627924132694675456-Wq5P)
+  - [Controllable Variational Autoencoder](https://www.linkedin.com/posts/montrealai_machinelearning-variationalautoencoders-vae-activity-6657862439071215616-j6oY)
+  - [A Gentle Introduction to LSTM Autoencoders](https://machinelearningmastery.com/lstm-autoencoders/)
   - [Understanding and Selecting Recommenders](https://www.linkedin.com/posts/data-science-central_understanding-and-selecting-recommenders-activity-6628772424047435777-j0kF)
   - [New State of the Art AI Optimizer: Rectified Adam (RAdam)](https://www.linkedin.com/posts/montrealai_machinelearning-tensorflow-pytorch-activity-6632771367508992006-6wcx)
   - [Supervised vs Unsupervised Learning Workflow](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6627200131420778496-zMVV)
@@ -93,12 +96,24 @@
   - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
   - See [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
+## Tools, libraries, packages
+
+- [Stack your ML models using an ensemble library: picknmix](https://github.com/picknmix/picknmix) by [Cheuk Ting Ho](https://github.com/Cheukting)
+- [PYCARET 1.0.0 - A simple, fast and efficient way to do machine learning in Python](https://www.linkedin.com/posts/montrealai_datascience-machinelearning-artificialintelligence-activity-6655244720467439616-OqVQ)
+- [Hummingbird - python library that compiles trained ML models into tensor computation for faster inference. Supported models include sklearn decision trees, random forest, lightgbm, xgboost](https://www.linkedin.com/posts/sudalairajkumar_machinelearning-activity-6676336916499181568-N0Z3)
+- [Huawei’s MindSpore: A new competitor for TensorFlow and PyTorch?](https://towardsdatascience.com/huaweis-mindspore-a-new-competitor-for-tensorflow-and-pytorch-d319deff2aec)
+- Hermione ML: [pypi](https://pypi.org/project/hermione-ml/) | [GitHub](https://github.com/A3Data/hermione)
+- Speed ML: [github](https://github.com/Speedml/speedml) | [Notebook](https://github.com/Speedml/notebooks/blob/master/titanic/titanic-solution-using-speedml.ipynb)
+
 ## Metrics
 
   - [Understanding Maximum Likelihood Estimation  (MLE)](https://www.linkedin.com/posts/towards-data-science_understanding-maximum-likelihood-estimation-activity-6642383355608473600-1Uvq)
   - [Precision vs significance / accuracy vs precision / bias vs variance](https://www.linkedin.com/posts/vincentg_precision-vs-significance-accuracy-vs-precision-activity-6643604148749164545-R3TG)
   - [Model? Or do you mean Weight of Evidence (WoE) and Information Value (IV)? by Jackie Tan](https://www.linkedin.com/posts/towards-data-science_model-or-do-you-mean-weight-of-evidence-activity-6643425221107830784-xjl7)
   - [Performance Metrics in Binary Classification](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6627411911984197633-wZEG](https://machinelearningmastery.com/tour-of-evaluation-metrics-for-imbalanced-classification/)
+  - [Tour of Evaluation Metrics for Imbalanced Classification](https://machinelearningmastery.com/tour-of-evaluation-metrics-for-imbalanced-classification/)
+  - [How to Use ROC Curves and Precision-Recall Curves for Classification in Python](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/)
+  - [Loss Functions Deep Dive](https://alexisalulema.com/2017/12/15/classification-loss-functions-part-ii/) | [Part I of that blog post](https://alexisalulema.com/2017/12/07/loss-functions-part-1/)
 
 ## Testing
 
@@ -111,7 +126,6 @@
 
 - [Open Sourcing Manifold, a Visual Debugging Tool for Machine Learning](https://www.linkedin.com/posts/miketamir_open-sourcing-manifold-a-visual-debugging-activity-6635929832096096256-rbuf)
 
-
 ## Books
 
 - [Thoughtful Machine Learning with Python: A Test-Driven Approach (Book)](https://www.linkedin.com/posts/ayonroy2000_thoughtful-machine-learning-activity-6641148383790764032-W3EG)
@@ -121,6 +135,7 @@
 - [Free Books: Data Science & AI](https://www.linkedin.com/posts/data-science-central_free-books-data-science-ai-activity-6634661722558906368-ch5W)
 - [Two New Free Books on Machine Learning](https://www.linkedin.com/posts/data-science-central_two-new-free-books-on-machine-learning-activity-6651587789072715776-09QA)
 - [The Hundred-Page Machine Learning Book by Andriy Burkov](https://www.linkedin.com/posts/andriyburkov_chapter-10-other-forms-of-learning-activity-6653853295150452736-Bm5d)
+- [Top ML Books to Read in 2019](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6657201069321486336-GwXB)
 
 ## Uncertainty
 
