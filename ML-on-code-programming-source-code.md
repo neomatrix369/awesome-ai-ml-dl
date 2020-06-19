@@ -33,6 +33,11 @@
 - [ML on Code devroom at FOSDEM](https://archive.fosdem.org/2019/schedule/track/ml_on_code/)
 - [The Open Source Show: Machine Learning on Code](https://channel9.msdn.com/Shows/The-Open-Source-Show/Machine-Learning-on-Code) by Rob Caron, Lacey Butler, Allison Cordle
 - [Machine Learning for Programming](https://ml4p.org/) - conference held in 2018 in Oxford, UK
+- [A Transformer-based Approach for Source Code Summarization](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6663306539186565120-KVi7)
+- Text generation models in action - code autocompletion: 
+  - [TabNine](https://www.tabnine.com/)
+  - https://github.com/Quantum-Game/quantum-tensors | https://transformer.huggingface.co/doc/gpt2-large (just not Markov Model, but some LSTM or maybe even Transformer)
+- TransCoder: An AI from Facebook that uses seq2seq attention model composed of encoder and decoder with transformer architecture to translate code from one programming language to another: [Paper](https://lnkd.in/ep9DmBr) | [Press release](https://venturebeat.com/2020/06/08/facebooks-transcoder-ai-converts-code-from-one-programming-language-into-another/)
 
 # Contributing
 

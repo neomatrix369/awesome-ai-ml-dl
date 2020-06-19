@@ -18,12 +18,28 @@
    + [FEATURE-ENGINE: AN OPEN SOURCE PYTHON PACKAGE TO CREATE REPRODUCIBLE FEATURE ENGINEERING STEPS AND SMOOTH MODEL DEPLOYMENT](https://www.trainindata.com/feature-engine)
    + [Feature Engineering with Tidyverse](https://www.datasciencecentral.com/profiles/blogs/feature-engineering-with-tidyverse) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_feature-engineering-with-tidyverse-activity-6645714064209166337-4szB)
    + [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - look for topics: Feature Engineering • Feature Selection
+   + [Feature Engineering: Data scientist's Secret Sauce](https://www.linkedin.com/posts/vincentg_feature-engineering-data-scientists-secret-activity-6657351483786358784-L7Mc)
+   - [Python Feature Engineering Cookbook by Dr Soledad Galli](https://www.linkedin.com/posts/ajitjaokar_python-feature-engineering-cookbook-activity-6671226001567100928-Wfxn)
+   - [How to Use Polynomial Feature Transforms for Machine Learning](https://machinelearningmastery.com/polynomial-features-transforms-for-machine-learning/)
 
-- Dimensionality Reduction
-    - [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
-    - [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
-    - [Linear Discriminant Analysis is a simple yet intuitive technique.  At it's first description it is very similar to PCA.  In PCA to find the eigen value and eigen factors we use covariance matrix](https://www.youtube.com/watch?v=D2HArUvOQaw&feature=youtu.be) | [Other PCA tutorials](https://youtu.be/D2HArUvOQaw)
-    - [Principal Component Analysis for Dimensionality Reduction in Python](https://www.linkedin.com/posts/jasonbrownlee_principal-component-analysis-for-dimensionality-activity-6664240738139799552-gCqp)
+## Dimensionality Reduction
+
+  - [Feature engineering and Dimensionality reduction](https://towardsdatascience.com/dimensionality-reduction-for-machine-learning-80a46c2ebb7e)
+  - [Seven Techniques for Data Dimensionality Reduction](https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html)
+  - [Linear Discriminant Analysis is a simple yet intuitive technique.  At it's first description it is very similar to PCA.  In PCA to find the eigen value and eigen factors we use covariance matrix](https://www.youtube.com/watch?v=D2HArUvOQaw&feature=youtu.be) | [Other PCA tutorials](https://youtu.be/D2HArUvOQaw)
+  - [Principal Component Analysis for Dimensionality Reduction in Python](https://www.linkedin.com/posts/jasonbrownlee_principal-component-analysis-for-dimensionality-activity-6664240738139799552-gCqp)
+  - Principal Component Analysis is a beautiful tool: [original thread](https://www.facebook.com/groups/mathfordatascience/permalink/1178371322496956/?__cft__[0]=AZUKcr9SXK7J6g5tJgW9ItNFc6z7qNJWmThqcyh-aCjwjRrVJ6ecPBdFIRUwOCLXNAnOf5W9v1-ZlKaLjeJ4bo1wH2mYXLTCOBcAvjy5_JL7ggNubGZoApyTcHjXdeA0j4wTGNcjdbtfd0xoPdBjkRCJ5nbXGlpQm_lpwkcfIusz8g&__tn__=%2CO%2CP-R) | [video](https://www.youtube.com/watch?v=otv4AUIp9HQ&feature=youtu.be)
+  - [Lecture 38 Principal Component Analysis](https://www.youtube.com/watch?v=C6fH5Nfoj40&feature=youtu.be)
+  - Kernel PCA methods
+    - Notable papers are:
+        - [Nonlinear Component Analysis as a Kernel Eigenvalue Problem](https://www.face-rec.org/algorithms/Kernel/kernelPCA_scholkopf.pdf)
+        - [Kernel PCA for novelty detection](https://www.researchgate.net/publication/222828640_Kernel_PCA_for_novelty_detection)
+    - Additional resources:
+      - [Section 3.3.3 for the equivalent kernel of linear regression in Bishop](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf)
+      - [A short introduction to the kernel trick on Medium](https://medium.com/@zxr.nju/what-is-the-kernel-trick-why-is-it-important-98a98db0961d)
+      - [A mini lecture on the kernel trick](https://www.youtube.com/watch?v=JiM_LXpAtLc)
+      - [Kernel PCA Notebook](https://scikit-learn.org/stable/auto_examples/decomposition/plot_kernel_pca.html#sphx-glr-auto-examples-decomposition-plot-kernel-pca-py)
+      - [Kernel Interpolation for Scalable Structured Gaussian Processes](https://arxiv.org/abs/1503.01057)
 
 # Contributing
 

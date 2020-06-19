@@ -5,7 +5,6 @@
 - [10 Common NLP Terms Explained for the Text Analysis Novice](https://www.linkedin.com/posts/data-science-central_10-common-nlp-terms-explained-for-the-text-activity-6640745308944945152-Aamj)
 - [king - man + woman is queen; but why?](https://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)
 - [The 4 Biggest Open Problems in NLP](http://ruder.io/4-biggest-open-problems-in-nlp/)
-- [OpenAI let us try its state-of-the-art NLP text generator](https://venturebeat.com/2019/02/14/openai-let-us-generate-text-with-an-ai-model-that-achieves-state-of-the-art-performance-in-several-nlp-tasks/)
 - [LaMachine](https://proycon.github.io/LaMachine/) - LaMachine is a unified software distribution for Natural Language Processing. Integration of numerous open-source NLP tools, programming libraries, web-services and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines (bare-metal, Virtual Machines and Docker containers).
 - [Awesome NLP](https://github.com/keon/awesome-nlp)
 - [Facebook's LASER](https://github.com/facebookresearch/LASER)
@@ -25,6 +24,7 @@
 - [One of fellow NVIDIANS just shared with me this outstanding paper from JHU / OpenAI discussing the scaling laws in NLP. If this continues to be true we will see substantially larger models in the near future](https://www.linkedin.com/posts/adamgrzywaczewski_one-of-fellow-nvidians-just-shared-with-me-activity-6635862408818630656-oDdW)
 - [NLP and ML](https://www.linkedin.com/posts/activity-6633065834392678400-CsDr)
 - [Abhishek Thakur's NLP videos](https://www.linkedin.com/posts/abhi1thakur_youtube-kaggle-machinelearning-activity-6647795449577127937-DBjT](https://bit.ly/abhitubesub)
+- Approaching any NLP problem: [Slides](https://www.slideshare.net/abhishekkrthakur/approaching-almost-any-nlp-problem) | [Video](https://www.kaggle.com/abhishek/approaching-almost-any-nlp-problem-on-kaggle)
 - [The future of NLP in Python | Keynote from Ines Montani @PyConColombia 02.2020](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6639035296694448128-hStT)
 - [A complete NLP classification pipeline in scikit-learn](https://www.linkedin.com/posts/towards-data-science_a-complete-nlp-classification-pipeline-in-activity-6646103619060006912-G1ri)
 - [State-of-the-art NLP Made Easy with AdaptNLP](https://opendatascience.com/state-of-the-art-nlp-made-easy-with-adaptnlp/?utm_campaign=Learning%20Posts&utm_content=120061865&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9358547)
@@ -33,6 +33,9 @@
 - [How to Develop a Multichannel CNN Model for Text Classification](https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/)
 - [A text-to-speech tool that you can use to generate voices of different characters. The voices are generated in real time. ](https://www.linkedin.com/posts/inna-vogel-nlp_neuralnetworks-maschinelleslernen-deepmind-activity-6652912903559106560-YGT-)
 - [𝗛𝗼𝘄 𝗱𝗼 𝘆𝗼𝘂 𝘀𝗲𝗹𝗲𝗰𝘁 𝗮 𝗺𝗼𝗱𝗲𝗹 𝗳𝗼𝗿 𝗡𝗟𝗣❓](https://www.linkedin.com/posts/bhavsarpratik_nlproc-deeplearning-datascience-activity-6668775835656441856-7Mv2)
+- [Natural Language Processing with Python: The Free eBook](https://www.kdnuggets.com/2020/06/natural-language-processing-python-free-ebook.html)
+- [NLP Paper summaries](https://github.com/dair-ai/nlp_paper_summaries)
+- [Brainsources for #NLP Enthusiasts a curated list of picked resources for beginners and advanced practitioners!](https://www.linkedin.com/posts/philipvollet_nlp-activity-6672018066173431809-H_t4)
 
 ### Transformers
 
@@ -46,7 +49,18 @@
 - [Excited to share the code and blog post for ELECTRA, a more efficient pre-training method for NLP Transformers. Pre-train a model to good accuracy using only 1 GPU!](https://www.linkedin.com/posts/philipvollet_nlp-deeplearning-python-activity-6643215711231586304-6qKM)
 - [xfspell — the Transformer Spell Checker • Transformer-based English spell checker trained on 7M+ generated parallel sentences](https://www.linkedin.com/posts/philipvollet_nlp-python-machinelearning-activity-6679322417673908224-D7xq)
 - [We partnered with Paperspace to make it easier for software engineers to run state-of-the-art NLP in production on GPUs!](https://www.linkedin.com/posts/huggingface_up-and-running-with-transformers-from-hugging-activity-6653340636491591680-RZOW)
-- In 5 minutes, fine-tune a pre-trained transformer on anyone's tweets, just by clicking a couple of buttons: [Tweet](https://twitter.com/weights_biases/status/1265740544434597888) | [Blog](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI)
+- In 5 minutes, fine-tune a pre-trained transformer on anyone's tweets, just by clicking a couple of buttons: [Tweet](https://twitter.com/weights_biases/status/1265740544434597888) | [Blog](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI) 
+- [A Transformer-based Approach for Source Code Summarization](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6663306539186565120-KVi7)
+- [Using transformers. a more general guide to training models using transformers](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU)
+
+## Text generation
+
+- Text generation models in action - code autocompletion: 
+  - [TabNine](https://www.tabnine.com/)
+  - https://github.com/Quantum-Game/quantum-tensors | https://transformer.huggingface.co/doc/gpt2-large (just not Markov Model, but some LSTM or maybe even Transformer)
+- TransCoder: An AI from Facebook that uses seq2seq attention model composed of encoder and decoder with transformer architecture to translate code from one programming language to another: [Paper](https://lnkd.in/ep9DmBr) | [Press release](https://venturebeat.com/2020/06/08/facebooks-transcoder-ai-converts-code-from-one-programming-language-into-another/)
+- [OpenAI let us try its state-of-the-art NLP text generator](https://venturebeat.com/2019/02/14/openai-let-us-generate-text-with-an-ai-model-that-achieves-state-of-the-art-performance-in-several-nlp-tasks/)
+- [How to Develop a Word-Level Neural Language Model and Use it to Generate Text](https://machinelearningmastery.com/how-to-develop-a-word-level-neural-language-model-in-keras/)
 
 ### BERT
 
@@ -62,7 +76,8 @@
 - [𝗧𝗵𝗲 𝗥𝗮𝘀𝗮 𝗠𝗮𝘀𝘁𝗲𝗿𝗰𝗹𝗮𝘀𝘀 - Building contextual AI assistants with libraries like spaCy, Hugging Face, BERT Transformers aka the whole NLP open source family united 🤗](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6640086124473667584-_dQB)
 - [TGIF! Text Extraction from a corpus using BERT](https://www.linkedin.com/posts/abhi1thakur_pytorch-machinelearning-datascience-activity-6649256926989303809-ZVPK)
 - [A visual summary of #ALBERT by Amitchaudhary](https://www.linkedin.com/posts/inna-vogel-nlp_visual-paper-summary-albert-a-lite-bert-activity-6653207200116334592-_HuU)
-
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (paper)](https://arxiv.org/pdf/1810.04805.pdf)
+- [Does model size matter? A comparison of BERT and DistilBERT](https://app.wandb.ai/jack-morris/david-vs-goliath/reports/Does-model-size-matter%3F-Comparing-BERT-vs.-DistilBERT-using-Sweeps--VmlldzoxMDUxNzU)
 
 # Contributing
 

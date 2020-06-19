@@ -51,6 +51,16 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
   - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
 - [JustCause package/framework - framework to foster good scientific practice in the research of causality methods](https://www.linkedin.com/posts/florianwilhelm_introduction-activity-6624318058347405312-fdBa) | [PyPu](https://pypi.org/project/JustCause/) | [GitHub](https://github.com/inovex/justcause)
 - [“Metaflow is a human-friendly Python library”](https://github.com/Netflix/metaflow) [LinkedIn Post](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_netflixmetaflow-activity-6638658912201527296-1QqW)
+- [5 free books for learning Python for DS](https://towardsdatascience.com/5-free-books-for-learning-python-for-data-science-87be443c084)
+- [7 advanced tricks in pandas for data science](https://www.linkedin.com/posts/towards-data-science_7-advanced-tricks-in-pandas-for-data-science-activity-6655303741224423424-SJtU)
+- [The Ultimate NumPy Tutorial for Data Science Beginners](https://www.analyticsvidhya.com/blog/2020/04/the-ultimate-numpy-tutorial-for-data-science-beginners/)
+- [Top 10 Data science podcast must follow for learn new things](https://www.linkedin.com/posts/ashishpatel2604_datascience-deeplearning-machinelearning-activity-6667325165476675585-NM-9)
+- [Top 20 Youtube Channels for Data Science](https://www.linkedin.com/posts/nabihbawazir_statistics-data-datascience-activity-6673538746262142976-iPim)
+- [Advanced Data Science from IBM](https://youtu.be/qx242g9kHtY)
+- [𝟏𝟐 𝐒𝐭𝐞𝐩𝐬 𝐭𝐨 𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧-𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐃𝐚𝐭𝐚 𝐒𝐜𝐢𝐞𝐧𝐜𝐞 𝐂𝐨𝐝𝐞](https://www.linkedin.com/posts/ashishpatel2604_production-quality-code-activity-6656451504498675712-0Wq3)
+- [Top 10 Popular GitHub Repositories to learn about Data Science](https://www.linkedin.com/posts/towards-data-science_top-10-popular-github-repositories-to-learn-activity-6657344687885688832-TVf7)
+- [The difference between Statistics and Data Science: Big Data and Inferential Statistics](https://www.datasciencecentral.com/profiles/blogs/the-difference-between-statistics-and-data-science-big-data-and)
+- [DataScience resources (in the form of a book) from Eric](https://github.com/EricSchles/datascience_book)
 
 ## Datasets and sources of raw data
 
@@ -91,6 +101,8 @@ See [Feature Selection](./feature-selection.md)
    - [Explaining Feature Importance by example of a Random Forest](https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
 - [Catboost model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/catboost_feature_importance_tutorial.ipynb)
 - [LightGBM model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/lightgbm_feature_importance_tutorial.ipynb)
+- [The 4 types of additive Feature Importances](https://twitter.com/TDataScience/status/1264958410405171202)
+- [The Math of Random Forests and Feature Importance in Scikit-learn and Spark](https://www.linkedin.com/posts/data-science-central_the-math-of-decision-trees-random-forest-activity-6656775689431240705-kwf_)
 
 ## Feature engineering
 
