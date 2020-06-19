@@ -148,7 +148,7 @@
 - [Develop an Intuition for Bayes Theorem With Worked Examples](https://machinelearningmastery.com/intuition-for-bayes-theorem-with-worked-examples/)
 - [Bayesian Stats 101 for Data Scientists](https://www.linkedin.com/posts/towards-data-science_bayesian-stats-101-for-data-scientists-activity-6655949045678387202-qlgP)
 - [New Marketing Insight from Unsupervised Bayesian Belief Networks](https://www.linkedin.com/posts/vincentg_new-marketing-insight-from-unsupervised-bayesian-activity-6657419179529949184-nyP4)
-
+- [Everything you need to know about Gaussian Distribution](https://deepai.org/machine-learning-glossary-and-terms/gaussian-distribution)
 
 # Contributing
 

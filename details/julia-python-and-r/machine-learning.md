@@ -52,7 +52,7 @@
   - [A-Z Machine Learning Resources](https://lnkd.in/fVqeSfk)
   - [𝗣𝘆𝘁𝗵𝗼𝗻 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀](https://www.linkedin.com/posts/martinroberts_python-machine-learning-projects-activity-6620692910499295232-B8Gq)
   - [Machine Learning Map](https://www.linkedin.com/posts/nabihbawazir_machine-learning-map-activity-6604287294356713472-Zdrk)
-  - [Machine Learning Mindmap](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintellegence-activity-6620949255924346881-QMmy)
+  - Machine Learning Mindmap: [1](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintellegence-activity-6620949255924346881-QMmy) | [2](https://www.linkedin.com/posts/nabihbawazir_statistics-data-datascience-activity-6674203172506087425-IIFe)
   - [Machine Learning from scratch!](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-neuralnetworks-activity-6622205152554213376-TkTs)
   - [Machine Learning in Oracle Database](https://blogs.oracle.com/machinelearning/machine-learning-in-oracle-database)
   - [34 External Machine Learning Resources and Related Articles](https://www.linkedin.com/posts/data-science-central_34-external-machine-learning-resources-and-activity-6621826667289591808-0EZP)
@@ -89,6 +89,9 @@
   - [Survival Analysis in R](https://www.geeksforgeeks.org/survival-analysis-in-r/)
   - [How to Reduce Overfitting Using Weight Constraints in Keras](https://machinelearningmastery.com/how-to-reduce-overfitting-in-deep-neural-networks-with-weight-constraints-in-keras/)
   - [How to Configure XGBoost for Imbalanced Classification](https://machinelearningmastery.com/xgboost-for-imbalanced-classification)
+  - Approaching (almost) Any Machine Learning Problem | by Abhishek Thakur | Kaggle Days Dubai | Kaggle: [original post](https://www.linkedin.com/pulse/approaching-almost-any-machine-learning-problem-abhishek-thakur) | [Video](https://www.youtube.com/watch?v=uWVR_axaVwk) | [Slides](https://www.slideshare.net/abhishekkrthakur/approaching-almost-any-machine-learning-problem-kaggledays-dubai) - highly recommended
+  - [Prediction Intervals for Machine Learning](https://machinelearningmastery.com/prediction-intervals-for-machine-learning/)
+  - [🔥The things that are changing in an experiment are called 𝙑𝘼𝙍𝙄𝘼𝘽𝙇𝙀𝙎.](https://www.linkedin.com/posts/ashishpatel2604_artificialintelligence-machinelearning-bigdata-activity-6660947977479303168-nutF)
   - Algorithms
     - See [Machine Learning algorithms](./machine-learning-algorithms.md)
   - See [Machine Learning](../courses.md#machine-learning) in [Courses](../courses.md#courses)
@@ -101,9 +104,11 @@
 - [Stack your ML models using an ensemble library: picknmix](https://github.com/picknmix/picknmix) by [Cheuk Ting Ho](https://github.com/Cheukting)
 - [PYCARET 1.0.0 - A simple, fast and efficient way to do machine learning in Python](https://www.linkedin.com/posts/montrealai_datascience-machinelearning-artificialintelligence-activity-6655244720467439616-OqVQ)
 - [Hummingbird - python library that compiles trained ML models into tensor computation for faster inference. Supported models include sklearn decision trees, random forest, lightgbm, xgboost](https://www.linkedin.com/posts/sudalairajkumar_machinelearning-activity-6676336916499181568-N0Z3)
+- [Scikit-Lego v.0.4.4](https://www.linkedin.com/posts/vincentwarmerdam_scikit-lego-v044-is-out-now-we-now-support-activity-6670949973439336448-Dhds)
 - [Huawei’s MindSpore: A new competitor for TensorFlow and PyTorch?](https://towardsdatascience.com/huaweis-mindspore-a-new-competitor-for-tensorflow-and-pytorch-d319deff2aec)
 - Hermione ML: [pypi](https://pypi.org/project/hermione-ml/) | [GitHub](https://github.com/A3Data/hermione)
 - Speed ML: [github](https://github.com/Speedml/speedml) | [Notebook](https://github.com/Speedml/notebooks/blob/master/titanic/titanic-solution-using-speedml.ipynb)
+- Embedded Learning Library: [HomePage](https://microsoft.github.io/ELL) | [GitHub](https://github.com/Microsoft/ELL)
 
 ## Metrics
 

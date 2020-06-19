@@ -73,6 +73,8 @@
   - [Neural Networks are Function Approximation Algorithms](https://machinelearningmastery.com/neural-networks-are-function-approximators/)
   - [Troubleshooting Deep NNs](http://josh-tobin.com/assets/pdf/troubleshooting-deep-neural-networks-01-19.pdf)
   - [Understand the Impact of Learning Rate on Neural Network Performance](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
+  - [Andrej Karpathy’s blog post: Neural Network recipes](http://karpathy.github.io/2019/04/25/recipe/)
+  - [Spektral is a Python library for graph deep learning, based on the Keras API and TensorFlow 2](https://github.com/danielegrattarola/spektral/)
 
   ## Generative Adversarial Network (GAN)
 
@@ -173,6 +175,8 @@
   - [Data Science In One Pictures](https://www.linkedin.com/posts/nabihbawazir_artificialintelligence-facialrecognition-activity-6611503084294234112-eH0K)
   - [Data Science complete PDF](https://sites.google.com/view/data-science-complete-pdf/home?fbclid=IwAR0ftE_DavpoCUJ77ipkxNHydUhZw_yYw5tNo6xjbce50Ge-XYRjAz67Tj8)
   - [Data Science Cheatsheet](https://www.linkedin.com/posts/data-science-central_machine-learning-and-data-science-cheat-sheet-activity-6623699004276428800-DYcb)
+  - [FREE #AI/ #DataScience/ #MachineLearning CHEAT SHEETS courtesy of Stanford University!](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks)
+  - [All in One Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://www.linkedin.com/posts/iamsivab_cheat-sheets-for-ai-neural-networks-activity-6655792426420142080-4QlD)
   - [Data Science Lifecycle](https://www.linkedin.com/posts/nabihbawazir_data-science-lifecycle-activity-6606559313404227584-XyIi)
   - [50 most popular Python libraries and frameworks used in data science](https://www.linkedin.com/posts/nabihbawazir_python-datascience-dataanalysis-activity-6604589510447722496-AvyE)
   - [Data Science Process by Nabih Bawazir](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-activity-6607204688909701120-9RqN)
