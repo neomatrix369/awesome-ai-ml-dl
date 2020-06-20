@@ -48,6 +48,8 @@ exit_code=0
 pushd "$GRAKN_HOME" > /dev/null
 exit_if_java_not_found
 
+CURRENT_DIR=$(pwd)
+
 if [ -z "$1" ]; then
     echo "Missing argument. Possible commands are:"
     echo "  Server:          grakn server [--help]"
@@ -55,10 +57,13 @@ if [ -z "$1" ]; then
     echo "  Version:         grakn version"
 elif [ "$1" = "console" ]; then
     if [ -f "${CONSOLE_JAR_FILENAME}" ]; then
+        echo "Grakn Core Console is included in this Grakn distribution."
+        CONSOLE_SERVICE_LIB=${GRAKN_HOME}/console/services/lib
         SERVICE_LIB_CP="console/services/lib/*"
         CLASSPATH="${GRAKN_HOME}/${SERVICE_LIB_CP}:${GRAKN_HOME}/console/conf/"
         set -x
-        java -agentlib:native-image-agent=config-merge-dir=META-INF/native-image  ${CONSOLE_JAVAOPTS} -cp "${CLASSPATH}" -Dgrakn.dir="${GRAKN_HOME}" grakn.core.console.GraknConsole "$@"
+        java -agentlib:native-image-agent=config-merge-dir=${CURRENT_DIR}/META-INF/native-image \
+             ${CONSOLE_JAVAOPTS} -cp "${CLASSPATH}" -Dgrakn.dir="${GRAKN_HOME}" grakn.core.console.GraknConsole "$@"
         set +x
     else
         echo "Grakn Core Console is not included in this Grakn distribution."
@@ -66,6 +71,7 @@ elif [ "$1" = "console" ]; then
     fi
 elif [[ "$1" = "server" ]] || [[ "$1" = "version" ]]; then
     if [[ -f "${SERVER_JAR_FILENAME}" ]]; then
+        echo "Grakn Core Server is included in this Grakn distribution."
         SERVICE_LIB_CP="server/services/lib/*"
         CLASSPATH="${GRAKN_HOME}/${SERVICE_LIB_CP}:${GRAKN_HOME}/server/conf/"
         
@@ -85,7 +91,7 @@ elif [[ "$1" = "server" ]] || [[ "$1" = "version" ]]; then
                -Dserver.javaopts="${SERVER_JAVAOPTS}"\
                ${GRAKN_DAEMON_JAVAOPTS} \
                -cp "${GRAKN_HOME}/server/conf/" \
-               -agentlib:native-image-agent=config-merge-dir="${SERVER_SERVICE_LIB}/META-INF/native-image" \
+               -agentlib:native-image-agent=config-merge-dir="${CURRENT_DIR}/META-INF/native-image" \
                -jar ${SERVER_SERVICE_LIB_JAR} \
                $@
           set +x

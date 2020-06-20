@@ -28,3 +28,4 @@ __pycache__
 *.cache
 wandb/
 catboost_info/
+*.logs

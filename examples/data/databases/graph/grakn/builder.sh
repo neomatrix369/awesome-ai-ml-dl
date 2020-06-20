@@ -72,10 +72,10 @@ setupVariables() {
 
 	IMAGE_NAME=$(basename ${JARFILE%.*})
 	OPTIONS="${2:-} --no-fallback --no-fallback --report-unsupported-elements-at-runtime --allow-incomplete-classpath"
-	OPTIONS="${OPTIONS} -H:ReflectionConfigurationFiles=${PWD}/META-INF/native-image/reflect-config.json"
-	OPTIONS="${OPTIONS} -H:DynamicProxyConfigurationFiles=${PWD}/META-INF/native-image/proxy-config.json"
-	OPTIONS="${OPTIONS} -H:ResourceConfigurationFiles=${PWD}/META-INF/native-image/resource-config.json"
-	OPTIONS="${OPTIONS} -H:JNIConfigurationFiles=${PWD}/META-INF/native-image/jni-config.json"
+	OPTIONS="${OPTIONS} -H:ReflectionConfigurationFiles=${PATH_TO_GRAKN_HOME}/META-INF/native-image/reflect-config.json"
+	OPTIONS="${OPTIONS} -H:DynamicProxyConfigurationFiles=${PATH_TO_GRAKN_HOME}/META-INF/native-image/proxy-config.json"
+	OPTIONS="${OPTIONS} -H:ResourceConfigurationFiles=${PATH_TO_GRAKN_HOME}/META-INF/native-image/resource-config.json"
+	OPTIONS="${OPTIONS} -H:JNIConfigurationFiles=${PATH_TO_GRAKN_HOME}/META-INF/native-image/jni-config.json"
 
 	if [[ "${SHOW_STACK_TRACES}" = "true" ]]; then
 	   OPTIONS="${OPTIONS} -H:+ReportExceptionStackTraces"
@@ -118,9 +118,8 @@ buildUberJar() {
 }
 
 extractMetaInfo() {
-	mkdir -p "META-INF/native-image"
-	CURRENT_DIR=$(pwd)
-	nativeImageMetaInfFolder="${CURRENT_DIR}/META-INF/native-image"
+	mkdir -p "${PATH_TO_GRAKN_HOME}/META-INF/native-image"
+	nativeImageMetaInfFolder="${PATH_TO_GRAKN_HOME}/META-INF/native-image"
 	
 	JARFILE_FULL_PATH=""
 	if [[ -z "${JARFILE:-}" ]]; then
@@ -151,7 +150,7 @@ buildNativeImage() {
 	echo ""
 	echo "~~~~ ${IMAGE_NAME}: Building native-image from ${JARFILE} which may take a bit of time"
 	rm -f ${IMAGE_NAME} && echo "Deleting existing ${IMAGE_NAME}"
-	NATIVE_IMAGE_BUILD_LOGS="${SHARED_FOLDER_PATH:-$(pwd)}/native-image-build-for-${IMAGE_NAME}.logs"
+	NATIVE_IMAGE_BUILD_LOGS="${PATH_TO_GRAKN_HOME:-$(pwd)}/native-image-build-for-${IMAGE_NAME}.logs"
 	echo ""; echo "You can follow the build process by doing this:"
 	echo "       $ tail -f ${NATIVE_IMAGE_BUILD_LOGS}"
 	echo "native-image version $(native-image --version)" 
