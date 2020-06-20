@@ -148,23 +148,23 @@ extractMetaInfo() {
 
 buildNativeImage() {
 	echo ""
-	echo "~~~~ ${IMAGE_NAME}: Building native-image from ${JARFILE} which may take a bit of time"
-	rm -f ${IMAGE_NAME} && echo "Deleting existing ${IMAGE_NAME}"
+	echo "~~~~ ${IMAGE_NAME}: Building native-image from ${JARFILE} which may take a bit of time in ${PATH_TO_GRAKN_HOME}"
+	rm -f ${PATH_TO_GRAKN_HOME}/${IMAGE_NAME} && echo "Deleting existing ${IMAGE_NAME}"
 	NATIVE_IMAGE_BUILD_LOGS="${PATH_TO_GRAKN_HOME:-$(pwd)}/native-image-build-for-${IMAGE_NAME}.logs"
 	echo ""; echo "You can follow the build process by doing this:"
 	echo "       $ tail -f ${NATIVE_IMAGE_BUILD_LOGS}"
 	echo "native-image version $(native-image --version)" 
 	set -x
-	time native-image ${OPTIONS} -jar ${JARFILE} ${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOGS}"
+	time native-image ${OPTIONS} -jar ${JARFILE} ${PATH_TO_GRAKN_HOME}/${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOGS}"
 	set +x
-	echo "~~~~ Finished building native-image '${IMAGE_NAME}' from ${JARFILE}."
+	echo "~~~~ Finished building native-image '${IMAGE_NAME}' from ${JARFILE} in ${PATH_TO_GRAKN_HOME}."
 }
 
 testNativeImage() {
 	echo ""
-	echo "~~~~ Testing built binary ${IMAGE_NAME}"
-	${IMAGE_NAME} 
-	echo "~~~~ Finished testing built binary ${IMAGE_NAME}"
+	echo "~~~~ Testing built binary ${IMAGE_NAME} in ${PATH_TO_GRAKN_HOME}"
+	${PATH_TO_GRAKN_HOME}/${IMAGE_NAME} 
+	echo "~~~~ Finished testing built binary ${IMAGE_NAME} in ${PATH_TO_GRAKN_HOME}"
 }
 
 while [[ "$#" -gt 0 ]]; do case $1 in
