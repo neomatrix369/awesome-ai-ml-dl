@@ -75,6 +75,7 @@ See [Datasets](./datasets.md)
 
 ## Hypothesis
 
+- [Correlation, causation, multicollinearity, confounding features or variables](https://otexts.com/fpp2/causality.html)
 - [How to approach Hypothesis Testing](https://medium.com/@dhruvaggarwal6/how-to-approach-hypothesis-testing-6257d03bcfee)
 - [Does Your Hypothesis Development Canvas Tell a Story?](https://www.linkedin.com/posts/data-science-central_does-your-hypothesis-development-canvas-tell-activity-6618701060817108993-EKjQ)
 - [A Complete Guide to Hypothesis Testing](https://towardsdatascience.com/a-complete-guide-to-hypothesis-testing-2e0279fa9149)
