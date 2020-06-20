@@ -52,10 +52,10 @@ runContainer() {
 	   echo "Running container ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}"; echo ""
   fi
 
-	mkdir -p shared
+  mkdir -p shared
   mkdir -p shared/grakn-${GRAKN_VERSION}-logs
   mkdir -p shared/grakn-${GRAKN_VERSION}-db/cassandra
-	mkdir -p .cache/bazel
+  mkdir -p .cache/bazel
 
   set -x
   ${TIME_IT} docker run --rm                                       \
