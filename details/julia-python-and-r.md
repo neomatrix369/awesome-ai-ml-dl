@@ -231,6 +231,9 @@ See [Programming in Python](../Programming-in-Python.md)
 - [Working with Excel files](https://www.geeksforgeeks.org/working-with-excel-files-in-r-programming/)
 - [Logistic Regression in R](https://www.geeksforgeeks.org/logistic-regression-in-r-programming/)
 - [Random Forest Approach in R Programming](https://www.geeksforgeeks.org/random-forest-approach-in-r-programming/)
++ [K-NN Classifier in R programming](https://www.geeksforgeeks.org/k-nn-classifier-in-r-programming/)
++ [Naive Bayes Classifier in R programming](https://www.geeksforgeeks.org/naive-bayes-classifier-in-r-programming/)
++ [Association Rule Mining in R programming](https://www.geeksforgeeks.org/association-rule-mining-in-r-programming/)
 
 ## Visualisation
 
