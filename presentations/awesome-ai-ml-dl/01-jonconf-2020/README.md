@@ -8,7 +8,7 @@ See [slides (PDF)](_nn_things_every_Java_Developer_should_know_about_AI_ML_DL.pd
 
 [When available]
 
-### Speakers
+### Speaker
 
 - [Mani Sarkar](http://github.com/neomatrix369) | [jOnConf profile](https://jonconf.com/speakers/mani-sarkar/)
 
