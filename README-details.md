@@ -146,6 +146,8 @@ See [Other Tools](./things-to-know.md#other-tools)
 
 ### Presentations
 
+- ["nn" things every Java Developer should know about AI/ML/DL](./presentations/awesome-ai-ml-dl/01-jonconf-2020#nn-things-every-java-developer-should-know-about-aimldl)
+- [From backend development to machine learning](./presentations/awesome-ai-ml-dl/02-abhishektalks-2020#from-backend-development-to-machine-learning)
 - [NLP presentations](./natural-language-processing/README.md#presentations)
   - [Better NLP - presentations](./examples/better-nlp/presentations)
 - [Data presentations](./presentations/data/)
