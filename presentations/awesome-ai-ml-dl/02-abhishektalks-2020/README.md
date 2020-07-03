@@ -3,7 +3,7 @@
 
 ### Slides
 
-See [slides (PDF)]()
+See [slides (PDF)](Backend_developer_to_Machine_Learning_Engineer.pdf)
 
 ### Video
 
