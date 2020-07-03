@@ -1,6 +1,5 @@
 ## From backend development to machine learning
 
-Talks #6 on [#AbhishekTalks](https://www.youtube.com/watch?v=PX1RoRD3o7o&list=PL98nY_tJQXZl79DdyMQDvGDgv6A3zsMIf)
 
 ### Slides
 
@@ -8,7 +7,7 @@ See [slides (PDF)]()
 
 ### Video
 
-See [YouTube](https://www.youtube.com/watch?v=sdPOyqMfK7M)
+See Talks #6 on [#AbhishekTalks](https://www.youtube.com/watch?v=sdPOyqMfK7M), see also other [Talks](https://www.youtube.com/watch?v=PX1RoRD3o7o&list=PL98nY_tJQXZl79DdyMQDvGDgv6A3zsMIf)
 
 ### Speaker
 
