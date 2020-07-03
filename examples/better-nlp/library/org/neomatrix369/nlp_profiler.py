@@ -1,3 +1,19 @@
+#!/bin/bash
+
+# Copyright 2020 Mani Sarkar
+
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+
+#     http://www.apache.org/licenses/LICENSE-2.0
+
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 from itertools import groupby
 
 import re
@@ -56,6 +72,8 @@ def sentiment_polarity(score):
 def sentiment_polarity_score(text):
 	return TextBlob(text).sentiment.polarity
 
+ ### See https://en.wikipedia.org/wiki/Words_of_estimative_probability
+ 
 subjectivity_words_of_probability_estimation = [
     ["Very subjective", 99, 100],  # Certain: 100%: Give or take 0%
     ### The General Area of Possibility
