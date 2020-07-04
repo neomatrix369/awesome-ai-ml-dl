@@ -3,7 +3,7 @@
 
 ### Slides
 
-See [slides (PDF)](Backend_developer_to_Machine_Learning_Engineer.pdf)
+See [slides (PDF)](Backend_developer_to_Machine_Learning_Engineer.pdf) - please download to be able to click on the links (see top corner for Download button when on the page with the PDF displayed)
 
 ### Video
 
