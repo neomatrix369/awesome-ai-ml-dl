@@ -64,16 +64,28 @@ def apply_text_profiling(dataframe, text_column):
 
 # Docs: https://textblob.readthedocs.io/en/dev/quickstart.html
 
+sentiment_polarity_words_of_probability_estimation = [
+    ["Very positive", 99, 100],  # Certain: 100%: Give or take 0%
+    ### The General Area of Possibility
+    ["Quite positive", 87, 99],  # Almost Certain: 93%: Give or take 6%
+    ["Pretty positive", 51, 87],  # Probable: 75%: Give or take about 12%
+    ["Neutral", 49, 51],  # Chances About Even: 50%: Give or take about 10%
+    ["Pretty negative", 12, 49],  # Probably Not: 30%: Give or take about 10%
+    ["Quite negative", 2, 12],  # Almost Certainly Not 7%: Give or take about 5%
+    ["Very negative", 0, 2]  # Impossible 0%: Give or take 0%
+]
+
 def sentiment_polarity(score):
     if score == NOT_APPLICABLE:
         return NOT_APPLICABLE
 
     score = float(score)
-    if score < 0:
-        return "Negative"
-    if score > 0:
-        return "Positive"
-    return "Neutral"
+    score = (score - (- 1)) / (1 - (-1)) # see https://stats.stackexchange.com/questions/70801/how-to-normalize-data-to-0-1-range
+    score = score * 100
+
+    for each_slab in sentiment_polarity_words_of_probability_estimation:
+        if (score >= each_slab[1]) and (score <= each_slab[2]):
+            return each_slab[0]
 
 def sentiment_polarity_score(text):
     if (not text) or (len(text.strip()) == 0):
