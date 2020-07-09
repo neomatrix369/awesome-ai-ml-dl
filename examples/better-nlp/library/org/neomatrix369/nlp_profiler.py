@@ -31,12 +31,15 @@ STOP_WORDS = set(stopwords.words('english'))
 
 nltk.download('punkt')
 
+NOT_APPLICABLE = "N/A"
+
 
 ### Emojis
 
 def apply_text_profiling(dataframe, text_column):
-    columns_to_drop = list(set(checkpoint_dataset.columns) - set([text_column]))
+    columns_to_drop = list(set(dataframe.columns) - set([text_column]))
     new_dataframe = dataframe.drop(columns=columns_to_drop, axis=1).copy()
+
     new_dataframe['sentiment_polarity_score'] = new_dataframe[text_column].apply(sentiment_polarity_score)
     new_dataframe['sentiment_polarity'] = new_dataframe['sentiment_polarity_score'].apply(sentiment_polarity)
     new_dataframe['sentiment_subjectivity_score'] = new_dataframe[text_column].apply(sentiment_subjectivity_score)
@@ -57,21 +60,26 @@ def apply_text_profiling(dataframe, text_column):
     new_dataframe['stop_words_count'] = new_dataframe[text_column].apply(count_stop_words)
     new_dataframe['dates_count'] = new_dataframe[text_column].apply(count_dates)
 
-	return new_dataframe
+    return new_dataframe
 
 # Docs: https://textblob.readthedocs.io/en/dev/quickstart.html
 
 def sentiment_polarity(score):
-	score = float(score)
-	if score < 0:
-		return "Negative"
-	if score > 0:
-		return "Positive"
-	return "Neutral"
+    if score == NOT_APPLICABLE:
+        return NOT_APPLICABLE
 
+    score = float(score)
+    if score < 0:
+        return "Negative"
+    if score > 0:
+        return "Positive"
+    return "Neutral"
 
 def sentiment_polarity_score(text):
-	return TextBlob(text).sentiment.polarity
+    if (not text) or (len(text.strip()) == 0):
+        return NOT_APPLICABLE
+
+    return TextBlob(text).sentiment.polarity
 
  ### See https://en.wikipedia.org/wiki/Words_of_estimative_probability
  
@@ -87,13 +95,20 @@ subjectivity_words_of_probability_estimation = [
 ]
 
 def sentiment_subjectivity(score):
-	score = float(score) * 100
-	for each_slab in subjectivity_words_of_probability_estimation:
-		if (score >= each_slab[1]) and (score <= each_slab[2]):
-			return each_slab[0]
+    if score == NOT_APPLICABLE:
+        return NOT_APPLICABLE
+
+    score = float(score) * 100
+
+    for each_slab in subjectivity_words_of_probability_estimation:
+        if (score >= each_slab[1]) and (score <= each_slab[2]):
+            return each_slab[0]
 
 def sentiment_subjectivity_score(text):
-	return TextBlob(text).sentiment.subjectivity
+    if len(text.strip()) == 0:
+        return NOT_APPLICABLE
+
+    return TextBlob(text).sentiment.subjectivity
 
 spellcheck_words_of_probability_estimation = [
     ["Good", 99, 100],  # Certain: 100%: Give or take 0%
@@ -108,12 +123,12 @@ spellcheck_words_of_probability_estimation = [
 
 def spellcheck_score(text):
     if len(text.strip()) == 0:
-        return 0
+        return NOT_APPLICABLE
 
     tokenized_text = word_tokenize(text)
 
     if len(tokenized_text) == 0:
-        return 0
+        return NOT_APPLICABLE
 
     total_score = 0.0
     for each_word in tokenized_text:
@@ -124,10 +139,13 @@ def spellcheck_score(text):
     return total_score / len(tokenized_text)
 
 def spelling_quality(score):
-	score = float(score) * 100
-	for each_slab in spellcheck_words_of_probability_estimation:
-		if (score >= each_slab[1]) and (score <= each_slab[2]):
-			return each_slab[0]
+    if score == NOT_APPLICABLE:
+        return NOT_APPLICABLE
+
+    score = float(score) * 100
+    for each_slab in spellcheck_words_of_probability_estimation:
+        if (score >= each_slab[1]) and (score <= each_slab[2]):
+            return each_slab[0]
 
 def gather_emojis(text):
     emoji_expaned_text = emoji.demojize(text)
