@@ -106,13 +106,21 @@ spellcheck_words_of_probability_estimation = [
 ]
 
 def spellcheck_score(text):
-	tokenized_text = word_tokenize(text)
-	total_score = 0.0
-	for each_word in tokenized_text:
-		spellchecked_word = Word(each_word).spellcheck()
-		_, score = spellchecked_word[0]
-		total_score += score
-	return total_score / len(tokenized_text)
+    if len(text.strip()) == 0:
+        return 0
+
+    tokenized_text = word_tokenize(text)
+
+    if len(tokenized_text) == 0:
+        return 0
+
+    total_score = 0.0
+    for each_word in tokenized_text:
+        spellchecked_word = Word(each_word).spellcheck()
+        _, score = spellchecked_word[0]
+        total_score += score
+
+    return total_score / len(tokenized_text)
 
 def spelling_quality(score):
 	score = float(score) * 100
