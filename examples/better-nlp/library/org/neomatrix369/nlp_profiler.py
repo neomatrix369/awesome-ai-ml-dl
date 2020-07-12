@@ -44,6 +44,7 @@ def apply_text_profiling(dataframe, text_column, params={}):
 
     high_level_analysis = False
     granular_analysis = False
+    do_grammar_check = False
     if (not params): 
         high_level_analysis = True
         granular_analysis = True
@@ -52,6 +53,8 @@ def apply_text_profiling(dataframe, text_column, params={}):
             high_level_analysis = params['high_level']
         if 'granular' in params:
             granular_analysis = params['granular']
+        if 'grammar_check' in params:
+            do_grammar_check = params['grammar_check']
 
     if high_level_analysis:
         new_dataframe['sentiment_polarity_score'] = new_dataframe[text_column].apply(sentiment_polarity_score)
@@ -60,8 +63,9 @@ def apply_text_profiling(dataframe, text_column, params={}):
         new_dataframe['sentiment_subjectivity'] = new_dataframe['sentiment_subjectivity_score'].apply(sentiment_subjectivity)
         new_dataframe['spellcheck_score'] = new_dataframe[text_column].apply(spellcheck_score)
         new_dataframe['spelling_quality'] = new_dataframe['spellcheck_score'].apply(spelling_quality)
-        new_dataframe['grammar_check_score'] = new_dataframe[text_column].apply(grammar_check_score)
-        new_dataframe['grammar_check'] = new_dataframe['grammar_check_score'].apply(grammar_quality)
+        if do_grammar_check: 
+            new_dataframe['grammar_check_score'] = new_dataframe[text_column].apply(grammar_check_score)
+            new_dataframe['grammar_check'] = new_dataframe['grammar_check_score'].apply(grammar_quality)
 
     if granular_analysis: 
         new_dataframe['sentences_count'] = new_dataframe[text_column].apply(count_sentences)
