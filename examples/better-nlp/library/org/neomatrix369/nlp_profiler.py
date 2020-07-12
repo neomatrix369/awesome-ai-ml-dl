@@ -34,36 +34,49 @@ nltk.download('punkt')
 NOT_APPLICABLE = "N/A"
 
 
-### Emojis
-
-def apply_text_profiling(dataframe, text_column):
+def apply_text_profiling(dataframe, text_column, params={}):
+    print(f"params: {params}")
     columns_to_drop = list(set(dataframe.columns) - set([text_column]))
     new_dataframe = dataframe.drop(columns=columns_to_drop, axis=1).copy()
 
-    new_dataframe['sentiment_polarity_score'] = new_dataframe[text_column].apply(sentiment_polarity_score)
-    new_dataframe['sentiment_polarity'] = new_dataframe['sentiment_polarity_score'].apply(sentiment_polarity)
-    new_dataframe['sentiment_subjectivity_score'] = new_dataframe[text_column].apply(sentiment_subjectivity_score)
-    new_dataframe['sentiment_subjectivity'] = new_dataframe['sentiment_subjectivity_score'].apply(sentiment_subjectivity)
-    new_dataframe['spellcheck_score'] = new_dataframe[text_column].apply(spellcheck_score)
-    new_dataframe['spelling_quality'] = new_dataframe['spellcheck_score'].apply(spelling_quality)
-    new_dataframe['sentences_count'] = new_dataframe[text_column].apply(count_sentences)
-    new_dataframe['characters_count'] = new_dataframe[text_column].apply(len)
-    new_dataframe['spaces_count'] = new_dataframe[text_column].apply(count_spaces)
-    new_dataframe['words_count'] = new_dataframe[text_column].apply(words_count)
-    new_dataframe['duplicates_count'] = new_dataframe[text_column].apply(count_duplicates)
-    new_dataframe['chars_excl_spaces_count'] = new_dataframe[text_column].apply(count_characters_excluding_spaces)
-    new_dataframe['emoji_count'] = new_dataframe[text_column].apply(count_emojis)
-    new_dataframe['whole_numbers_count'] = new_dataframe[text_column].apply(count_whole_numbers)
-    new_dataframe['alpha_numeric_count'] = new_dataframe[text_column].apply(count_alpha_numeric)
-    new_dataframe['non_alpha_numeric_count'] = new_dataframe[text_column].apply(count_non_alpha_numeric)
-    new_dataframe['punctuations_count'] = new_dataframe[text_column].apply(count_punctuations)
-    new_dataframe['stop_words_count'] = new_dataframe[text_column].apply(count_stop_words)
-    new_dataframe['dates_count'] = new_dataframe[text_column].apply(count_dates)
+    high_level_analysis = False
+    granular_analysis = False
+    if (not params): 
+        high_level_analysis = True
+        granular_analysis = True
+    else:
+        if 'high_level' in params:
+            high_level_analysis = params['high_level']
+        if 'granular' in params:
+            granular_analysis = params['granular']
+
+    if high_level_analysis: 
+        new_dataframe['sentiment_polarity_score'] = new_dataframe[text_column].apply(sentiment_polarity_score)
+        new_dataframe['sentiment_polarity'] = new_dataframe['sentiment_polarity_score'].apply(sentiment_polarity)
+        new_dataframe['sentiment_subjectivity_score'] = new_dataframe[text_column].apply(sentiment_subjectivity_score)
+        new_dataframe['sentiment_subjectivity'] = new_dataframe['sentiment_subjectivity_score'].apply(sentiment_subjectivity)
+        new_dataframe['spellcheck_score'] = new_dataframe[text_column].apply(spellcheck_score)
+        new_dataframe['spelling_quality'] = new_dataframe['spellcheck_score'].apply(spelling_quality)
+
+    if granular_analysis: 
+        new_dataframe['sentences_count'] = new_dataframe[text_column].apply(count_sentences)
+        new_dataframe['characters_count'] = new_dataframe[text_column].apply(len)
+        new_dataframe['spaces_count'] = new_dataframe[text_column].apply(count_spaces)
+        new_dataframe['words_count'] = new_dataframe[text_column].apply(words_count)
+        new_dataframe['duplicates_count'] = new_dataframe[text_column].apply(count_duplicates)
+        new_dataframe['chars_excl_spaces_count'] = new_dataframe[text_column].apply(count_characters_excluding_spaces)
+        new_dataframe['emoji_count'] = new_dataframe[text_column].apply(count_emojis)
+        new_dataframe['whole_numbers_count'] = new_dataframe[text_column].apply(count_whole_numbers)
+        new_dataframe['alpha_numeric_count'] = new_dataframe[text_column].apply(count_alpha_numeric)
+        new_dataframe['non_alpha_numeric_count'] = new_dataframe[text_column].apply(count_non_alpha_numeric)
+        new_dataframe['punctuations_count'] = new_dataframe[text_column].apply(count_punctuations)
+        new_dataframe['stop_words_count'] = new_dataframe[text_column].apply(count_stop_words)
+        new_dataframe['dates_count'] = new_dataframe[text_column].apply(count_dates)
 
     return new_dataframe
 
+### Sentiment analysis
 # Docs: https://textblob.readthedocs.io/en/dev/quickstart.html
-
 sentiment_polarity_words_of_probability_estimation = [
     ["Very positive", 99, 100],  # Certain: 100%: Give or take 0%
     ### The General Area of Possibility
@@ -122,6 +135,8 @@ def sentiment_subjectivity_score(text):
 
     return TextBlob(text).sentiment.subjectivity
 
+### Spell check
+
 spellcheck_words_of_probability_estimation = [
     ["Good", 99, 100],  # Certain: 100%: Give or take 0%
     ### The General Area of Possibility
@@ -158,6 +173,8 @@ def spelling_quality(score):
     for each_slab in spellcheck_words_of_probability_estimation:
         if (score >= each_slab[1]) and (score <= each_slab[2]):
             return each_slab[0]
+
+### Emojis
 
 def gather_emojis(text):
     emoji_expaned_text = emoji.demojize(text)
