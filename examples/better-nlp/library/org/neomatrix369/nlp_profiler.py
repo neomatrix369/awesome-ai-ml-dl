@@ -45,16 +45,19 @@ def apply_text_profiling(dataframe, text_column, params={}):
     high_level_analysis = False
     granular_analysis = False
     do_grammar_check = False
-    if (not params): 
-        high_level_analysis = True
-        granular_analysis = True
-    else:
-        if 'high_level' in params:
-            high_level_analysis = params['high_level']
-        if 'granular' in params:
-            granular_analysis = params['granular']
-        if 'grammar_check' in params:
-            do_grammar_check = params['grammar_check']
+    if (not params):
+        params = {
+            'high_level': high_level_analysis,
+            'granular': granular_analysis,
+            'grammar_check': do_grammar_check
+        }
+
+    if 'high_level' in params:
+        high_level_analysis = params['high_level']
+    if 'granular' in params:
+        granular_analysis = params['granular']
+    if 'grammar_check' in params:
+        do_grammar_check = params['grammar_check']
 
     if high_level_analysis:
         new_dataframe['sentiment_polarity_score'] = new_dataframe[text_column].apply(sentiment_polarity_score)
