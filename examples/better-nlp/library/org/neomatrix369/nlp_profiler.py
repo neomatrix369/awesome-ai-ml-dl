@@ -22,7 +22,7 @@ from textblob import TextBlob
 from textblob import Word
 
 # Grammar Check
-import grammar_check
+import language_tool_python
 
 import emoji
 from nltk.corpus import stopwords
@@ -54,8 +54,6 @@ def apply_text_profiling(dataframe, text_column, params={}):
             granular_analysis = params['granular']
 
     if high_level_analysis:
-        tool = grammar_check.LanguageTool('en-GB')
-
         new_dataframe['sentiment_polarity_score'] = new_dataframe[text_column].apply(sentiment_polarity_score)
         new_dataframe['sentiment_polarity'] = new_dataframe['sentiment_polarity_score'].apply(sentiment_polarity)
         new_dataframe['sentiment_subjectivity_score'] = new_dataframe[text_column].apply(sentiment_subjectivity_score)
@@ -185,13 +183,14 @@ def spelling_quality(score):
 ### Grammar check
 
 def grammar_check_score(text):
+    tool = language_tool_python.LanguageTool('en-GB')
     matches = tool.check(text)
     return len(matches)
 
 
 def grammar_quality(score):
     if score != 0:
-        return f"{score} issues"
+        return f"{score} issue(s)"
 
     return "No issues"
 
