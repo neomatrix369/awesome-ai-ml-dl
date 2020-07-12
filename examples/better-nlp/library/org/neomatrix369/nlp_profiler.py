@@ -21,6 +21,9 @@ import re
 from textblob import TextBlob
 from textblob import Word
 
+# Grammar Check
+import grammar_check
+
 import emoji
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -50,13 +53,17 @@ def apply_text_profiling(dataframe, text_column, params={}):
         if 'granular' in params:
             granular_analysis = params['granular']
 
-    if high_level_analysis: 
+    if high_level_analysis:
+        tool = grammar_check.LanguageTool('en-GB')
+
         new_dataframe['sentiment_polarity_score'] = new_dataframe[text_column].apply(sentiment_polarity_score)
         new_dataframe['sentiment_polarity'] = new_dataframe['sentiment_polarity_score'].apply(sentiment_polarity)
         new_dataframe['sentiment_subjectivity_score'] = new_dataframe[text_column].apply(sentiment_subjectivity_score)
         new_dataframe['sentiment_subjectivity'] = new_dataframe['sentiment_subjectivity_score'].apply(sentiment_subjectivity)
         new_dataframe['spellcheck_score'] = new_dataframe[text_column].apply(spellcheck_score)
         new_dataframe['spelling_quality'] = new_dataframe['spellcheck_score'].apply(spelling_quality)
+        new_dataframe['grammar_check_score'] = new_dataframe[text_column].apply(grammar_check_score)
+        new_dataframe['grammar_check'] = new_dataframe['grammar_check_score'].apply(grammar_quality)
 
     if granular_analysis: 
         new_dataframe['sentences_count'] = new_dataframe[text_column].apply(count_sentences)
@@ -173,6 +180,21 @@ def spelling_quality(score):
     for each_slab in spellcheck_words_of_probability_estimation:
         if (score >= each_slab[1]) and (score <= each_slab[2]):
             return each_slab[0]
+
+
+### Grammar check
+
+def grammar_check_score(text):
+    matches = tool.check(text)
+    return len(matches)
+
+
+def grammar_quality(score):
+    if score != 0:
+        return f"{score} issues"
+
+    return "No issues"
+
 
 ### Emojis
 
