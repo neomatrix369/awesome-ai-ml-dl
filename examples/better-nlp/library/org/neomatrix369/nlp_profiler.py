@@ -47,8 +47,8 @@ def apply_text_profiling(dataframe, text_column, params={}):
     do_grammar_check = False
     if (not params):
         params = {
-            'high_level': high_level_analysis,
-            'granular': granular_analysis,
+            'high_level': True,
+            'granular': True,
             'grammar_check': do_grammar_check
         }
 
