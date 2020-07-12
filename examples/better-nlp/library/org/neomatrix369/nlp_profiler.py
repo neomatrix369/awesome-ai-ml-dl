@@ -150,14 +150,14 @@ def sentiment_subjectivity_score(text):
 ### Spell check
 
 spellcheck_words_of_probability_estimation = [
-    ["Good", 99, 100],  # Certain: 100%: Give or take 0%
+    ["Very good", 99, 100],  # Certain: 100%: Give or take 0%
     ### The General Area of Possibility
     ["Quite good", 87, 99],  # Almost Certain: 93%: Give or take 6%
     ["Pretty good", 63, 87],  # Probable: 75%: Give or take about 12%
     ["So/so", 40, 63],  # Chances About Even: 50%: Give or take about 10%
     ["Pretty bad", 12, 40],  # Probably Not: 30%: Give or take about 10%
     ["Quite bad", 2, 12],  # Almost Certainly Not 7%: Give or take about 5%
-    ["Bad", 0, 2]  # Impossible 0%: Give or take 0%
+    ["Very bad", 0, 2]  # Impossible 0%: Give or take 0%
 ]
 
 def spellcheck_score(text):
