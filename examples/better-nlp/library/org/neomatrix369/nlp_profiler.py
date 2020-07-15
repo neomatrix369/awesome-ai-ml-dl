@@ -62,10 +62,16 @@ def apply_text_profiling(dataframe, text_column, params={}):
     if high_level_analysis:
         new_dataframe['sentiment_polarity_score'] = new_dataframe[text_column].apply(sentiment_polarity_score)
         new_dataframe['sentiment_polarity'] = new_dataframe['sentiment_polarity_score'].apply(sentiment_polarity)
+        new_dataframe['sentiment_polarity_summarised'] = new_dataframe['sentiment_polarity'].apply(sentiment_polarity_summarised)
+
         new_dataframe['sentiment_subjectivity_score'] = new_dataframe[text_column].apply(sentiment_subjectivity_score)
         new_dataframe['sentiment_subjectivity'] = new_dataframe['sentiment_subjectivity_score'].apply(sentiment_subjectivity)
-        new_dataframe['spellcheck_score'] = new_dataframe[text_column].apply(spellcheck_score)
-        new_dataframe['spelling_quality'] = new_dataframe['spellcheck_score'].apply(spelling_quality)
+        new_dataframe['sentiment_subjectivity_summarised'] = new_dataframe['sentiment_subjectivity'].apply(sentiment_subjectivity_summarised)
+
+        new_dataframe['spelling_quality_score'] = new_dataframe[text_column].apply(spelling_quality_score)
+        new_dataframe['spelling_quality'] = new_dataframe['spelling_quality_score'].apply(spelling_quality)
+        new_dataframe['spelling_quality_summarised'] = new_dataframe['spelling_quality'].apply(spelling_quality_summarised)
+
         if do_grammar_check: 
             new_dataframe['grammar_check_score'] = new_dataframe[text_column].apply(grammar_check_score)
             new_dataframe['grammar_check'] = new_dataframe['grammar_check_score'].apply(grammar_quality)
@@ -88,7 +94,18 @@ def apply_text_profiling(dataframe, text_column, params={}):
     return new_dataframe
 
 ### Sentiment analysis
+
+def sentiment_polarity_summarised(sentiment_polarity):
+    if 'negative' in sentiment_polarity.lower():
+        return 'Negative'
+    if 'positive' in sentiment_polarity.lower():
+        return 'Positive'
+
+    return sentiment_polarity
+
+
 # Docs: https://textblob.readthedocs.io/en/dev/quickstart.html
+### See https://en.wikipedia.org/wiki/Words_of_estimative_probability
 sentiment_polarity_words_of_probability_estimation = [
     ["Very positive", 99, 100],  # Certain: 100%: Give or take 0%
     ### The General Area of Possibility
@@ -118,8 +135,25 @@ def sentiment_polarity_score(text):
 
     return TextBlob(text).sentiment.polarity
 
- ### See https://en.wikipedia.org/wiki/Words_of_estimative_probability
- 
+
+def sentiment_polarity_summarised(sentiment_polarity):
+    if 'negative' in sentiment_polarity.lower():
+        return 'Negative'
+    if 'positive' in sentiment_polarity.lower():
+        return 'Positive'
+
+    return sentiment_polarity
+
+### Sentiment Subjectivity
+
+def sentiment_subjectivity_summarised(sentiment_subjectivity):
+    if 'subjective' in sentiment_subjectivity.lower():
+        return 'Subjective'
+    if 'objective' in sentiment_subjectivity.lower():
+        return 'Objective'
+
+    return sentiment_subjectivity
+
 subjectivity_words_of_probability_estimation = [
     ["Very subjective", 99, 100],  # Certain: 100%: Give or take 0%
     ### The General Area of Possibility
@@ -149,7 +183,7 @@ def sentiment_subjectivity_score(text):
 
 ### Spell check
 
-spellcheck_words_of_probability_estimation = [
+spelling_quality_words_of_probability_estimation = [
     ["Very good", 99, 100],  # Certain: 100%: Give or take 0%
     ### The General Area of Possibility
     ["Quite good", 87, 99],  # Almost Certain: 93%: Give or take 6%
@@ -160,7 +194,15 @@ spellcheck_words_of_probability_estimation = [
     ["Very bad", 0, 2]  # Impossible 0%: Give or take 0%
 ]
 
-def spellcheck_score(text):
+def spelling_quality_summarised(spelling_quality):
+    if 'good' in spelling_quality.lower():
+        return 'Good'
+    if 'bad' in spelling_quality.lower():
+        return 'Bad'
+
+    return spelling_quality
+
+def spelling_quality_score(text):
     if len(text.strip()) == 0:
         return NOT_APPLICABLE
 
@@ -182,7 +224,7 @@ def spelling_quality(score):
         return NOT_APPLICABLE
 
     score = float(score) * 100
-    for each_slab in spellcheck_words_of_probability_estimation:
+    for each_slab in spelling_quality_words_of_probability_estimation:
         if (score >= each_slab[1]) and (score <= each_slab[2]):
             return each_slab[0]
 
