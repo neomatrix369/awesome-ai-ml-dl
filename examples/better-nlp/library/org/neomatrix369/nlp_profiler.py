@@ -14,6 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+### Kaggle Utility script: https://www.kaggle.com/neomatrix369/nlp-profiler-class
+### Kaggle kernel: https://www.kaggle.com/neomatrix369/nlp-profiler-simple-dataset
+### Jupyter Notebook: https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/examples/better-nlp/notebooks/jupyter/nlp_profiler.ipynb
+
 from itertools import groupby
 
 import re
