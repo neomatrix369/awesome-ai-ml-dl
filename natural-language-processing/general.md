@@ -28,7 +28,7 @@
 - [The future of NLP in Python | Keynote from Ines Montani @PyConColombia 02.2020](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6639035296694448128-hStT)
 - [A complete NLP classification pipeline in scikit-learn](https://www.linkedin.com/posts/towards-data-science_a-complete-nlp-classification-pipeline-in-activity-6646103619060006912-G1ri)
 - [State-of-the-art NLP Made Easy with AdaptNLP](https://opendatascience.com/state-of-the-art-nlp-made-easy-with-adaptnlp/?utm_campaign=Learning%20Posts&utm_content=120061865&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9358547)
-- 𝗦𝗹𝗶𝗱𝗲𝘀 Transfer Learning in NLP with code & notebooks](https://www.linkedin.com/posts/philipvollet_transfer-learning-in-nlp-activity-6641565080431407104-xbA_
+- [𝗦𝗹𝗶𝗱𝗲𝘀 Transfer Learning in NLP with code & notebooks](https://www.linkedin.com/posts/philipvollet_transfer-learning-in-nlp-activity-6641565080431407104-xbA_
 - [Tokenization and Text Data Preparation with TensorFlow & Keras](https://www.kdnuggets.com/2020/03/tensorflow-keras-tokenization-text-data-prep.html)
 - [How to Develop a Multichannel CNN Model for Text Classification](https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/)
 - [A text-to-speech tool that you can use to generate voices of different characters. The voices are generated in real time. ](https://www.linkedin.com/posts/inna-vogel-nlp_neuralnetworks-maschinelleslernen-deepmind-activity-6652912903559106560-YGT-)
