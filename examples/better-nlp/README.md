@@ -72,6 +72,12 @@ You can open these notebooks directly into Google Colab:
 
 [Utility Script Competition! (September 23rd - Oct 7th): submission, discussion topic](https://www.kaggle.com/general/109651#642354)
 
+- NLP Profiler:
+**[Notebook/Kernel](https://www.kaggle.com/neomatrix369/nlp-profiler-simple-dataset)** | [Script](https://www.kaggle.com/neomatrix369/nlp-profiler-class) | [Other related links](https://www.kaggle.com/general/166954)
+
+![](https://user-images.githubusercontent.com/1570917/88474968-8fb48980-cf23-11ea-944d-0a1069174ede.png)
+
+
 ## Installation
 
 Setup an environment needed to be able to run these programs without having to worry about the dependencies they use.
