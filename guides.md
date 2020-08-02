@@ -21,6 +21,7 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
   - [Contribute to Virgili0](#contribute-to-virgili0)
   - [👉 Feynman Learning Technique 👈](https://www.linkedin.com/posts/asif-bhat_neverstoplearning-asifbhat-activity-6639250916010717185-avMT)
   - [👉 How to Learn #AI 👈](https://www.linkedin.com/posts/asif-bhat_datasciencepost-on-instagram-artificialintelligence-activity-6634407139324588032-DD4K)
+  - [👉 Python to Neural Networks : A Guide for Beginners 👈] (https://www.linkedin.com/feed/update/urn:li:activity:6690911303441219584/)
 
 - [Contributing](#contributing)
 
