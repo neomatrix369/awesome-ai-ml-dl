@@ -234,6 +234,9 @@ See [Programming in Python](../Programming-in-Python.md)
 + [K-NN Classifier in R programming](https://www.geeksforgeeks.org/k-nn-classifier-in-r-programming/)
 + [Naive Bayes Classifier in R programming](https://www.geeksforgeeks.org/naive-bayes-classifier-in-r-programming/)
 + [Association Rule Mining in R programming](https://www.geeksforgeeks.org/association-rule-mining-in-r-programming/)
++ [Lasso Regression in R programming](https://www.geeksforgeeks.org/lasso-regression-in-r-programming/)
++ [Ridge Regression in R programming](https://www.geeksforgeeks.org/ridge-regression-in-r-programming/)
++ [Elastic Net Regression in R programming](https://www.geeksforgeeks.org/elastic-net-regression-in-r-programming/)
 
 ## Visualisation
 
