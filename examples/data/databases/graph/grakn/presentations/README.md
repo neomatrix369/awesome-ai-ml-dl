@@ -14,4 +14,4 @@ See [slides (PDF)](./GraknCosmos2020/Naturally,-getting-productive,-my-journey-w
 
 ### Abstract
 
-See [Sessionize page](https://sessionize.com/app/speaker/session/profile/edit/216f74f1-3a41-4f3f-9ed7-4ef34a179d70)
+See [Sessionize page](https://sessionize.com/s/mani-sarkar/naturally_getting_productive_with_g/25601)
