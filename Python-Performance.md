@@ -4,7 +4,7 @@
 - [Python and performance](https://github.com/ameroueh/performance)
 - [NumPy aware dynamic Python compiler using LLVM ](https://github.com/ameroueh/numba) | [Numba](http://numba.pydata.org/)
 - [Profiling in Python](https://github.com/mkunesch/profiling-talk) - by [Markus Kunesch](https://github.com/mkunesch)
-  - Profiling: [Profiling with Pycharm 1](https://stackoverflow.com/questions/32926847/profiling-a-python-program-with-pycharm-or-any-other-ide#32926882) | [Profiling with Pycharm 2](https://softwaretester.info/python-profiling-with-pycharm-community-edition/) | [PyCharm and cProfile](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000057970-Is-there-a-way-to-force-PyCharm-to-use-cProfile-) | [Call tree with Python Profilers](https://stackoverflow.com/questions/4544784/how-can-you-get-the-call-tree-with-python-profilers)
+  - Profiling: [Profiling with Pycharm 1](https://stackoverflow.com/questions/32926847/profiling-a-python-program-with-pycharm-or-any-other-ide#32926882) | [Profiling with Pycharm 2](https://softwaretester.info/python-profiling-with-pycharm-community-edition/) | [PyCharm and cProfile](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000057970-Is-there-a-way-to-force-PyCharm-to-use-cProfile-) | [Call tree with Python Profilers](https://stackoverflow.com/questions/4544784/how-can-you-get-the-call-tree-with-python-profilers) | [Call Graph: Python](https://github.com/ianozsvald/callgraph_james_powell) | [James Powel video on Call Graph: Python](https://twitter.com/dontusethiscode)
 - Speed up Python/Pandas
   - [How to optimise your Pandas code](https://kanoki.org/2019/01/09/how-to-optimize-your-pandas-code/)
   - [Python Itertools: For a faster and memory efficient code](https://kanoki.org/2019/02/08/python-itertools/)
@@ -46,7 +46,9 @@
   - [Compiling Python code with @jit](https://numba.pydata.org/numba-doc/latest/user/jit.html)
     - [Automatic parallelization with @jit](https://numba.pydata.org/numba-doc/latest/user/parallel.html#numba-parallel)
   - [numba.vectorize()](https://numba.pydata.org/numba-doc/dev/user/vectorize.html)
-- Tools and frameworks: Dask, Swifter, Modin
+- Tools and frameworks: Dask, Swifter, Modin, etc...
+  - [dtype_diet: Attempt to shrink Pandas dtypes without losing data so you have more RAM (and maybe more speed)](https://github.com/ianozsvald/dtype_diet)
+  - [dtype_diet](https://github.com/ianozsvald/dtype_diet) 
   - [Speed Up Pandas apply function using Dask or Swifter (tutorial)](https://gdcoder.com/speed-up-pandas-apply-function-using-dask-or-swifter-tutorial/)
   - [Swifter using only single core issue](https://github.com/jmcarpenter2/swifter/issues/45) (`allow_dask_on_strings(enable=True`))
   - Notes for Swifter:
@@ -70,6 +72,7 @@
     - [Reddit: Dask golem](https://www.reddit.com/r/GolemProject/comments/ban7uq/dask_golem_data_science_gold/)
   - [High fidelity benchmark runner](https://github.com/softdevteam/krun) | [Homepage](http://soft-dev.org/src/krun/)
   - [ReBench: Execute and Document Benchmarks Reproducibly](https://github.com/smarr/ReBench) | [implementation](https://github.com/smarr/are-we-fast-yet)
+  - [ipython_memory_usage: IPython tool to report memory usage deltas for every command you type. ](https://github.com/ianozsvald/ipython_memory_usage)
   - [perfplot](https://awesomeopensource.com/project/nschloe/perfplot?categoryPage=26) | [github](https://github.com/nschloe/perfplot) 
 - High Performance Python talk by [Ian Oszvald](https://twitter.com/ianozsvald/): Blogs: [1](https://ianozsvald.com/2019/11/16/higher-performance-python-at-pydatacambridge-2019/) o [2](https://ianozsvald.com/2019/11/22/higher-performance-python-odsc-2019/)  | [Slides](https://speakerdeck.com/ianozsvald/higher-performance-python-odsc-2019) | [Useful resources shared](https://twitter.com/DataChaz/status/1197608275606413312)
   - [Making Pandas Fly (EuroPython 2020)](https://speakerdeck.com/ianozsvald/making-pandas-fly-europython-2020) | [Blog](https://ianozsvald.com/2020/07/24/making-pandas-fly-at-europython-2020/)
