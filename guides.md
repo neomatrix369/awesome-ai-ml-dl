@@ -32,13 +32,13 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
 ### Existing guides
 
 #### Learning to learn
-  - [Deadlink][Virgilio's Teaching Strategy - Learning to Learn](https://github.com/virgili0/Virgilio/blob/master/Topics/teaching.md)
+  - [Deadlink] [Virgilio's Teaching Strategy - Learning to Learn](https://github.com/virgili0/Virgilio/blob/master/Topics/teaching.md)
 
 #### Just beginning
-  - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/Topics/Demystification.md)
+  - [Deadlink] [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/Topics/Demystification.md)
 
 #### Fundamentals
-  - [Math Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/math-fundamentals/math-fundamentals.md)
+  - [Deadlink] [Math Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/math-fundamentals/math-fundamentals.md)
   - [Statistics Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/statistics-fundamentals/statistics-fundamentals.md)
   - [Python Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/python-fundamentals/python-fundamentals.md)
   - [Jupyter Notebook](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/jupyter-notebook/jupyter-notebook.md)
