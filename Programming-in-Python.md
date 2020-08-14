@@ -197,6 +197,13 @@ See [Machine Learning Testing](./details/julia-python-and-r.md#testing)
 - [NumPy aware dynamic Python compiler using LLVM ](https://github.com/ameroueh/numba) | [Numba](http://numba.pydata.org/)
 - [Profiling in Python](https://github.com/mkunesch/profiling-talk) - by [Markus Kunesch](https://github.com/mkunesch)
 - High Performance Python talk by [Ian Oszvald](https://twitter.com/ianozsvald/): Blogs: [1](https://ianozsvald.com/2019/11/16/higher-performance-python-at-pydatacambridge-2019/) o [2](https://ianozsvald.com/2019/11/22/higher-performance-python-odsc-2019/)  | [Slides](https://speakerdeck.com/ianozsvald/higher-performance-python-odsc-2019) | [Useful resources shared](https://twitter.com/DataChaz/status/1197608275606413312)
+  - [Making Pandas Fly (EuroPython 2020)](https://speakerdeck.com/ianozsvald/making-pandas-fly-europython-2020) | [Blog](https://ianozsvald.com/2020/07/24/making-pandas-fly-at-europython-2020/)
+  - [Making Pandas Fly (PyDataAmsterdam 2020)](https://speakerdeck.com/ianozsvald/making-pandas-fly-pydataamsterdam-2020) | [Blog](https://ianozsvald.com/2020/06/23/making-pandas-fly-for-pydataamsterdam-2020/)
+  - [Making Pandas Fly (PyDataUK 2020)](https://speakerdeck.com/ianozsvald/pydatauk-making-pandas-fly) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
+  - [Making Pandas Fly (PyDataBudapest 2020)](https://speakerdeck.com/ianozsvald/making-pandas-fly) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
+  - [Flying Pandas - Dask, Modin and Vaex (Remote Pizza Python 2020)](https://speakerdeck.com/ianozsvald/flying-pandas-modin-dask-and-vaex) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
+  - [Tools for Higher Performance python (ODSC 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python-odsc-2019) | [Blog](https://ianozsvald.com/2019/11/22/higher-performance-python-odsc-2019/)
+  - [Tools for Higher Performance python (PyDataCambridge 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python) | [Blog](https://ianozsvald.com/2019/11/16/higher-performance-python-at-pydatacambridge-2019/)
 
 ## Competitions & coding challenges
 
