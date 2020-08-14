@@ -11,16 +11,20 @@
   - [Python/Pandas performance](https://www.youtube.com/results?search_query=%2Bpython+%2Bpandas+%2Bperformance) ([notebook](https://github.com/softhints/python/blob/master/notebooks/pandas/How_to_Optimize_and_Speed_Up_Pandas.ipynb))
   - [High-Performance Pandas: eval() and query()](https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html)
   - [Fast, Flexible, Easy and Intuitive: How to Speed Up Your Pandas Projects](https://realpython.com/fast-flexible-pandas)
+  - [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+  - [Speeding up python code using numpy](https://www.kdnuggets.com/2019/06/speeding-up-python-code-numpy.html)
   - [Using Cython Nuitka Numba ShedSkin Pythran Transonic](https://twitter.com/ianozsvald/status/1226436048428900353)
   - [using Dask / Vaex / Modin to speed up Pandas-like operations](https://twitter.com/ianozsvald/status/1225748724363780096)
-- Misc
-  - [lambda functions or nested functions ('def')?](https://stackoverflow.com/questions/134626/which-is-more-preferable-to-use-lambda-functions-or-nested-functions-def)
-  - Pandas GroupBy speedup
-    - [Improving the performance of Pandas Group](https://stackoverflow.com/questions/47392758/improving-the-performance-of-pandas-groupby)
-    - [Pandas groupby](https://realpython.com/pandas-groupby/)
-    - [Faster pandas with parallel processing](https://towardsdatascience.com/faster-pandas-with-parallel-processing-cudf-vs-modin-f2318c594084)
-    - [Optimize Custom Grouping Function](https://medium.com/dunder-data/pandas-challenge-001-optimize-custom-grouping-function-44a9f2f321f8)
-    - [Speed up pandas 4x](https://www.kdnuggets.com/2019/11/speed-up-pandas-4x.html)
+- Pandas GroupBy speedup
+  - [Improving the performance of Pandas Group](https://stackoverflow.com/questions/47392758/improving-the-performance-of-pandas-groupby)
+  - [Pandas groupby](https://realpython.com/pandas-groupby/)
+  - [Faster pandas with parallel processing](https://towardsdatascience.com/faster-pandas-with-parallel-processing-cudf-vs-modin-f2318c594084)
+  - [Optimize Custom Grouping Function](https://medium.com/dunder-data/pandas-challenge-001-optimize-custom-grouping-function-44a9f2f321f8)
+  - [Speed up pandas 4x](https://www.kdnuggets.com/2019/11/speed-up-pandas-4x.html)
+  - Faster than `for` loops or fast loops
+    - [Speeding up Python Code: Fast Filtering and Slow Loops](https://towardsdatascience.com/speeding-up-python-code-fast-filtering-and-slow-loops-8e11a09a9c2f)
+    - [If you have slow loops in Python, you can fix it…until you can’t](https://www.freecodecamp.org/news/if-you-have-slow-loops-in-python-you-can-fix-it-until-you-cant-3a39e03b6f35/)
+    - [PythonSpeed: PerformanceTips: Loops](https://wiki.python.org/moin/PythonSpeed/PerformanceTips#Loops)
 - Vectorizations
   - [Python & Vectorization](https://towardsdatascience.com/python-vectorization-5b882eeef658?fbclid=IwAR0sS8uNZlf_iiXw3_qwvUXxh-0UlrJ_nNIFlPJ0hBSHFvGtW2y2fFETqsQ)
   - [SO: what-is-vectorization?](https://stackoverflow.com/questions/1422149/what-is-vectorization)
@@ -31,7 +35,7 @@
 - [numba](http://numba.pydata.org/)
   - [Using numba](https://tedboy.github.io/pandas/enhancingperf/enhancingperf2.html)
   - [Performance Tips](http://numba.pydata.org/numba-doc/latest/user/performance-tips.html)
-    - [njit explained](https://github.com/numba/numba/issues/3523)
+    - [@njit explained](https://github.com/numba/numba/issues/3523)
   - [Compiling Python code with @jit](https://numba.pydata.org/numba-doc/latest/user/jit.html)
     - [Automatic parallelization with @jit](https://numba.pydata.org/numba-doc/latest/user/parallel.html#numba-parallel)
   - [numba.vectorize()](https://numba.pydata.org/numba-doc/dev/user/vectorize.html)
@@ -43,3 +47,10 @@
   - [Flying Pandas - Dask, Modin and Vaex (Remote Pizza Python 2020)](https://speakerdeck.com/ianozsvald/flying-pandas-modin-dask-and-vaex) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
   - [Tools for Higher Performance python (ODSC 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python-odsc-2019) | [Blog](https://ianozsvald.com/2019/11/22/higher-performance-python-odsc-2019/)
   - [Tools for Higher Performance python (PyDataCambridge 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python) | [Blog](https://ianozsvald.com/2019/11/16/higher-performance-python-at-pydatacambridge-2019/)
+- Performance highlights (notes)
+  - best practice - when and how to focus on performance
+  - profiling - understand what's slow to focus your efforts (timeit,line_profiler, pyspy)
+  - making numerical code faster - better algorithms, numpy, numba,joblib for parallelisation
+  - faster pandas - solving tasks faster, avoiding subtle errors that will eat your time
+  - unit tests - use of unit tests to support correctness during optimisation
+  - estimate benefits in scenarios for optimisation vs refactoring vs buying hardware vs other options
