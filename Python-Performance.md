@@ -54,3 +54,13 @@
   - faster pandas - solving tasks faster, avoiding subtle errors that will eat your time
   - unit tests - use of unit tests to support correctness during optimisation
   - estimate benefits in scenarios for optimisation vs refactoring vs buying hardware vs other options
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have a read about our [licensing](LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](README.md)
