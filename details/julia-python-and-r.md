@@ -237,6 +237,8 @@ See [Programming in Python](../Programming-in-Python.md)
 + [Lasso Regression in R programming](https://www.geeksforgeeks.org/lasso-regression-in-r-programming/)
 + [Ridge Regression in R programming](https://www.geeksforgeeks.org/ridge-regression-in-r-programming/)
 + [Elastic Net Regression in R programming](https://www.geeksforgeeks.org/elastic-net-regression-in-r-programming/)
++ [Quantile Regression in R](https://geeksforgeeks.org/quantile-regression-in-r-programming/amp/)
++ [LOOCV (Leave One Out Cross-Validation) in R Programming](https://www.geeksforgeeks.org/loocvleave-one-out-cross-validation-in-r-programming/amp/)
 
 ## Visualisation
 
