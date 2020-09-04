@@ -2,6 +2,7 @@
 
 - [Python High Performance - Second Edition](https://github.com/PacktPublishing/Python-High-Performance-Second-Edition)
 - [Python and performance](https://github.com/ameroueh/performance)
+- [Many things Performance in Python (Kaggle Kernel)](https://www.kaggle.com/neomatrix369/many-things-performance-in-python)
 - [NumPy aware dynamic Python compiler using LLVM ](https://github.com/ameroueh/numba) | [Numba](http://numba.pydata.org/)
 - [Profiling in Python](https://github.com/mkunesch/profiling-talk) - by [Markus Kunesch](https://github.com/mkunesch)
   - Profiling: [Profiling with Pycharm 1](https://stackoverflow.com/questions/32926847/profiling-a-python-program-with-pycharm-or-any-other-ide#32926882) | [Profiling with Pycharm 2](https://softwaretester.info/python-profiling-with-pycharm-community-edition/) | [PyCharm and cProfile](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000057970-Is-there-a-way-to-force-PyCharm-to-use-cProfile-) | [Call tree with Python Profilers](https://stackoverflow.com/questions/4544784/how-can-you-get-the-call-tree-with-python-profilers) | [Call Graph: Python](https://github.com/ianozsvald/callgraph_james_powell) | [James Powel video on Call Graph: Python](https://twitter.com/dontusethiscode)
