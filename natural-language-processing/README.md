@@ -48,6 +48,7 @@ See [Course, Tutorial, Learning resource](./course-tutorial-learning-resources.m
 ## Library, Framework, Models, Tools, Services
 
 - [Better NLP](https://bit.ly/better-nlp-launch)
+- [NLP Profiler](https://github.com/neomatrix369/nlp_profiler)
 
 See [Library, Framework, Models, Tools, Services](./library-framework-models-tools-services.md)
 
