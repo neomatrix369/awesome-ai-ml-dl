@@ -14,8 +14,10 @@ The above listed URL can be opened in the browser to access the notebook(s) in t
 
 ### NLP profiler
 
-See [nlp_profiler.ipynb](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/examples/better-nlp/notebooks/jupyter/nlp_profiler.ipynb)
+See [nlp_profiler.ipynb](https://github.com/neomatrix369/nlp_profiler/blob/master/notebooks/jupyter/nlp_profiler.ipynb)
 
 ![](https://user-images.githubusercontent.com/1570917/88475059-706a2c00-cf24-11ea-8088-7516d3c4a159.png) ![](https://user-images.githubusercontent.com/1570917/88475060-73651c80-cf24-11ea-8c44-21352f7be5bc.png)
+
+Find the [NLP Profiler library here](https://github.com/neomatrix369/nlp_profiler/).
 
 [Return to main page](../README.md)

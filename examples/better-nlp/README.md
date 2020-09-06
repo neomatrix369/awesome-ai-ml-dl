@@ -9,7 +9,7 @@ The idea is to keep the API language as high-level as possible, so its easier to
 Libraries / frameworks covered:
 
 - SpaCy ([site](https://spacy.io/) | [docs](https://spacy.io/usage/))
-- Textacy ([github](https://github.com/chartbeat-labs/textacy) | [docs](https://chartbeat-labs.github.io/textacy/))
+- Textacy ([github](https://github.com/chartbeat-labs/textacy) | [docs]https://textacy.readthedocs.io)
 - nltk ([site](http://www.nltk.org/) | [docs](https://buildmedia.readthedocs.org/media/pdf/nltk/latest/nltk.pdf))
 
 Non-NLP related libraries / frameworks used:
@@ -73,7 +73,7 @@ You can open these notebooks directly into Google Colab:
 [Utility Script Competition! (September 23rd - Oct 7th): submission, discussion topic](https://www.kaggle.com/general/109651#642354)
 
 - NLP Profiler:
-**[Notebook/Kernel](https://www.kaggle.com/neomatrix369/nlp-profiler-simple-dataset)** | [Script](https://www.kaggle.com/neomatrix369/nlp-profiler-class) | [Other related links](https://www.kaggle.com/general/166954)
+**[Library](https://github.com/neomatrix369/nlp_profiler)** | [Notebook/Kernel](https://www.kaggle.com/neomatrix369/nlp-profiler-simple-dataset) | [Script](https://www.kaggle.com/neomatrix369/nlp-profiler-class) | [Other related links](https://www.kaggle.com/general/166954)
 
 ![](https://user-images.githubusercontent.com/1570917/88474968-8fb48980-cf23-11ea-944d-0a1069174ede.png)
 
