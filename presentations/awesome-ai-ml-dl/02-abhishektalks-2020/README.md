@@ -3,7 +3,7 @@
 
 ### Slides
 
-See [slides (PDF)](Backend_developer_to_Machine_Learning_Engineer.pdf) - please download to be able to click on the links (see top corner for Download button when on the page with the PDF displayed)
+See [slides (PDF)](Backend_developer_to_Machine_Learning_Engineer.pdf) - please download to be able to click on the links (see top corner for Download button when on the page with the PDF displayed). `Linux` or `Windows` users in case links don't work, try to open the PDF in a web browser and it should work.
 
 ### Video
 

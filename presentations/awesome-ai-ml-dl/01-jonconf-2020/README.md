@@ -6,7 +6,7 @@ See [slides (PDF)](_nn_things_every_Java_Developer_should_know_about_AI_ML_DL.pd
 
 ### Video
 
-[When available]
+See [YouTube](https://www.youtube.com/watch?v=2daclN-yAfI)
 
 ### Speaker
 
