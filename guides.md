@@ -40,7 +40,7 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
 #### Fundamentals
   - [Math Fundamentals](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/math-fundamentals.md)
   - [Statistics Fundamentals](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/statistics-fundamentals.md)
-  - [Python Fundamentals](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/python-fundamentals.md)
+  - [Python Fundamentals](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/python-fundamentals.md) 
   - [Jupyter Notebook](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/jupyter-notebook.md)
   - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/the-data-science-process.md)
 
@@ -52,14 +52,14 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
   - [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/select-and-train-machine-learning-models/machine-learning-theory.md)
   - [Introduction to Artificial Neural Networks](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/ANN.md)
   - ML Study paths
-    - [Machine Learning Study Path](https://github.com/virgili0/Virgilio/blob/master/LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)
+    - [Machine Learning Study Path](https://github.com/virgili0/Virgilio/blob/master/LearningPaths/Machine%20Learning%20Engineer%20Career%20Path) [deadlink]
   - Computer Vision
     - [Introduction to Computer Vision using OpenCV and Python](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb) 
 
 #### New To Data Science
-  - [Basic Python](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/PythonBasic.md)
-  - [Matrix Algebra](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb)
-  - [Python for Data Science](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/PythonDataScience.ipynb)
+  - [Basic Python](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/PythonBasic.md) [deadlink] | [Alternative: Python Basics](https://virgili0.github.io/Virgilio/purgatorio/fundamentals/python-fundamentals.html#why-python)
+  - [Matrix Algebra](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/MatrixAlgebra.ipynb) [deadlink] | [Alternative: Matrix Algebra](https://virgili0.github.io/Virgilio/inferno/tools/wolfram-alpha.html#a-first-taste)
+  - [Python for Data Science](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/PythonDataScience.ipynb) [deadlink]
 
 #### Data Science skills
   - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/f719225777afe22430ce62bf025c60b4cd46c076/content/purgatorio/fundamentals/the-data-science-process.md)
