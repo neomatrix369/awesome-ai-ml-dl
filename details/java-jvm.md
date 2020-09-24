@@ -112,6 +112,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ## Machine Learning
 
+- [Tribuo](https://tribuo.org/) | [Github](https://github.com/oracle/tribuo) | [The Oracle Labs Configuration and Utilities Toolkit](http://github.com/oracle/olcut) - Java ML library from Oracle Labs
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
 - [What do you need for ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
 - [Do you really need ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
