@@ -1,4 +1,4 @@
-**What exactly is the Dirichlet Multinomial Model?**🤔
+**What exactly is the Dirichlet Multinomial Model?** 🤔
 
 Dirichlet Multinomial Mixtures (DMM) is simply a probabilistic method for the clustering of community data. It is an infinite mixture model, which means that the method can infer the optimal number of community types. Before going deep into the understanding of how a DMM works, let us first see the basic issues of clustering and later acknowledge how can a DMM cater to these issues! There might arise several issues while clustering text data and below listed are few important ones:
 1. Setting of the **number of clusters**
@@ -21,7 +21,7 @@ Here, K is the number of mixture components (clusters). Now, the problem becomes
 
 **Was all this mathematics so hard to process?**
 ⭐Here is an easy to understand graphical model of GMM!!
-![DMM_graphical_view](https://github.com/UmaGunturi/awesome-ai-ml-dl/blob/master/formulae/dmm_graphical_view.png)
+   ![DMM_graphical_view](https://github.com/UmaGunturi/awesome-ai-ml-dl/blob/master/formulae/dmm_graphical_view.png)
 
 💡Another model derived from DMM is GSDMM as mentioned in [paper](http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/KDD14-GSDMM.pdf):
       In this excellent short text clustering problem, they estimate the mixture component (cluster) z for each document d and introduce a GSDMM algorithm. To the best of my knowledge, this is one of the best attempts made to use DMM in text clustering. They found that GSDMM has the following nice properties: 
@@ -34,29 +34,33 @@ Here, K is the number of mixture components (clusters). Now, the problem becomes
 ❓**Are there any exisiting implementations of GSDMM?**
 
 The possible implementations of the collapsed Gibbs Sampling algorithm for Dirichlet Multinomial Mixture model (GSDMM):
-Paper Link: http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/KDD14-GSDMM.pdf
-Java Source Code: https://github.com/WHUIR/GSDMM 
-Python Implementation: https://github.com/jrmazarura/GPM
+Paper Link: http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/KDD14-GSDMM.pdf  
+Java Source Code: https://github.com/WHUIR/GSDMM  
+Available Python Implementation: https://github.com/jrmazarura/GPM  
 
-💡Some details about the python implementation:
+💡Some details about the Python Implementation:
 GPyM_TM is a python package that is primarily used to perform text clustering. This library provides two models - GSDMM (It is Dirichlet Multinomial Model) and GPM (It is a Poisson Model). Topic modeling is one of the applications that can be achieved by text clustering.
 
 ❓What does this package do?
 
-- GSDMM.DMM() is a function that takes two mandatory input parameters - corpus and number of clusters desired by us. Other optional input parameters are confidence parameters in the Dirichlet Multinomial Model, number of Gibbs Sampler iterations.Few outputs of GSDMM.DMM()that can prove to be useful is,
+GSDMM.DMM() is a function that takes two mandatory input parameters - corpus and number of clusters desired by us. Other optional input parameters are confidence parameters in the Dirichlet Multinomial Model, number of Gibbs Sampler iterations.Few outputs of GSDMM.DMM()that can prove to be useful is:
+
 1. *Theta* - It provides the probability distributions of different roles for a given user. This distribution is based on the content of the user given as input. The number of roles is equal to the number of clusters we have specified in the input arguments of GSDMM.DMM().
 2. *The Size of finalAssignments vector*- denotes the optimal number of clusters that GSDMM has found for our data.
 3. *Selected_theta* - It provides the probability distributions of different roles for a given user but the number of roles is equal to the optimal number of clusters GSDMM() has found out.
 
 
-💡**Other Useful References**
 
-📌https://www.kdd.org/kdd2016/papers/files/rpp0617-yinAemb.pdf
-📌https://www.cs.cmu.edu/~knigam/papers/multinomial-aaaiws98.pdf
-📌https://github.com/jackyin12/GSDMM
-📌http://keg.cs.tsinghua.edu.cn/jietang/publications/KDD15-Han-Tang-Prob-Community-Role.pdf
-📌https://link.springer.com/article/10.1023/A:1007692713085
-📌https://www.jstor.org/stable/2982840?origin=crossref
+❌Disclaimer: This list is not intended to be exhaustive, nor to cover every single topic related to DMM. There are plenty of amazing resources available and this is rather a pick of the most recent impactful works in the past few years  mostly influenced by what I read. Here are a few picks for you:
+
+🌍**Useful References**
+
+📌https://www.kdd.org/kdd2016/papers/files/rpp0617-yinAemb.pdf  
+📌https://www.cs.cmu.edu/~knigam/papers/multinomial-aaaiws98.pdf  
+📌https://github.com/jackyin12/GSDMM  
+📌http://keg.cs.tsinghua.edu.cn/jietang/publications/KDD15-Han-Tang-Prob-Community-Role.pdf  
+📌https://link.springer.com/article/10.1023/A:1007692713085  
+📌https://www.jstor.org/stable/2982840?origin=crossref  
 
 
 
