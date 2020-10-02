@@ -70,6 +70,7 @@
   - [Stanford Computer Vision Lab : Teaching](http://vision.stanford.edu/teaching.html) - Contains publications other than courses (free)
   - [Introduction to CV, IBM](https://www.coursera.org/learn/introduction-computer-vision-watson-opencv) (free, paid for certification)
   - [Convolutional Neural Networks, Coursera](https://www.coursera.org/learn/convolutional-neural-networks) (free, paid for certification)
+  - [Generative Adversarial Networks (GANs) Specialization Coursera](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
 
 ### Image Processing
 
@@ -163,6 +164,8 @@
 ## Natural Language Processing (NLP)
 
 - [How to Get Started with Deep Learning for Natural Language Processing (7-Day Mini-Course)](https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/)
+- [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing)
+
 
 ## Python: Best practices
 
