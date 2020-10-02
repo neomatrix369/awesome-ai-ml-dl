@@ -1,4 +1,4 @@
-__What exactly is the Dirichlet Multinomial Model?__🤔
+**What exactly is the Dirichlet Multinomial Model?**🤔
 
 Dirichlet Multinomial Mixtures (DMM) is simply a probabilistic method for the clustering of community data. It is an infinite mixture model, which means that the method can infer the optimal number of community types. Before going deep into the understanding of how a DMM works, let us first see the basic issues of clustering and later acknowledge how can a DMM cater to these issues! There might arise several issues while clustering text data and below listed are few important ones:
 1. Setting of the **number of clusters**
