@@ -53,6 +53,7 @@
   - [Clustering with non numeric data](https://www.linkedin.com/posts/data-science-central_clustering-with-non-numeric-data-activity-6607783116335534080-aWRV)
   - [Have u ever heard about Bounded Clustering?](https://www.linkedin.com/posts/ashishpatel2604_bounded-clustering-activity-6604231470691217408-Fhyn)
   - [Unsupervised Learning Techniques](https://www.linkedin.com/posts/nabihbawazir_statistics-data-datascience-activity-6672270392184442880-F-Pv)
+  - [What exactly is the Dirichlet Multinomial Model?](dmm.md)
 
   ## Active Learning
 
