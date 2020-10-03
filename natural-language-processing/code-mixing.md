@@ -1,0 +1,2 @@
+Linguists refer to this use of two or more languages concurrently in a conversation as code-switching. Thought to be a natural outgrowth of multilingual usage, code-switching is considered to be distinct from other linguistic practices, including language transfer, and language borrowing. In addition to the use of language, code-switching also involves switching between dialects, styles of speech, gestures, body language, and vocal registers.
+
