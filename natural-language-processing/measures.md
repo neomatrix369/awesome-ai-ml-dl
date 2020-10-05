@@ -1,7 +1,9 @@
 **Quantitative Measures for modeling Code-switching and Code-Mixing across corpora!** 💡  
 
 
-This is the extention to the [introduction to code-mixing and code-switching](https://github.com/UmaGunturi/awesome-ai-ml-dl/blob/master/natural-language-processing/code-mixing.md) , before starting to read this, it is recommended to read the previous part for better understanding! 
+Below work is the extension to the [introduction to code-mixing and code-switching](https://github.com/UmaGunturi/awesome-ai-ml-dl/blob/master/natural-language-processing/code-mixing.md), before starting to read this, it is recommended to read the previous part for better understanding of Code-Mixing!  
+
+As described in [introduction to code-mixing and code-switching](https://github.com/UmaGunturi/awesome-ai-ml-dl/blob/master/natural-language-processing/code-mixing.md), in developing technologies for code-switched speech, it would be desirable to be able to predict the extent of the language mixing and the  regularity with which it might occur. Below are few metrics that allow for the classification and visualization of multilingual corpora according to the ratio of languages represented, the probability of switching between them etc. Applying these metrics to corpora of different languages and genres, we find that they display distinct probabilities and periodicities of switching. We should note that all of these measures are language-independent and can be used to compare corpora across language combinations.
 
 ⭐ **The Multilingual Index (M-index):**  
   
@@ -42,14 +44,13 @@ This is the extention to the [introduction to code-mixing and code-switching](ht
 
 ❌Disclaimer: This list is not intended to be exhaustive, nor to cover every single topic in Code-Mixing and Code-Switching. There are plenty of amazing resources available and this is rather a pick of the most recent impactful works in the past few years/months mostly influenced by what I read. Here are a few picks for you:  
 
-📌https://pdfs.semanticscholar.org/25a5/cf5c7dc2269cf67d98b2fb46317a4d16b581.pdf?_ga=2.55487915.165814036.1592417776-1121702791.1588953899  
-📌https://amitavadas.com/Code-Mixing.html  
-📌https://github.com/AtmaHou/Task-Oriented-Dialogue-Research-Progress-Survey
-📌https://symbiosiscollege.edu.in/assets/pdf/elearning/tyba/English/code-switching-2.pdf  
+📌https://pdfs.semanticscholar.org/25a5/cf5c7dc2269cf67d98b2fb46317a4d16b581.pdf?_ga=2.55487915.165814036.1592417776-1121702791.1588953899    
+📌https://amitavadas.com/Code-Mixing.html   
+📌https://github.com/AtmaHou/Task-Oriented-Dialogue-Research-Progress-Survey  
+📌https://symbiosiscollege.edu.in/assets/pdf/elearning/tyba/English/code-switching-2.pdf   
 📌http://www.lrec-conf.org/proceedings/lrec2014/pdf/922_Paper.pdf  
-📌https://pdfs.semanticscholar.org/25a5/cf5c7dc2269cf67d98b2fb46317a4d16b581.pdf?_ga=2.55487915.165814036.1592417776-1121702791.1588953899  
-📌https://www.aclweb.org/anthology/W18-3210.pdf  
-📌https://arxiv.org/pdf/1810.00662.pdf  
+📌https://www.aclweb.org/anthology/W18-3210.pdf    
+📌https://arxiv.org/pdf/1810.00662.pdf   
  
   
   
