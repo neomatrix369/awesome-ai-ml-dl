@@ -1,91 +1,96 @@
+**Named Entity Recognition** 🤔
+
 Considering recent increases in computing power and decreases in the costs of data storage, data scientists and developers can build large knowledge bases that contain millions of entities and hundreds of millions of facts about them. These knowledge bases are key contributors to intelligent computer behavior. Surprisingly, Named Entity Recognition operates at the back of many popular technologies such as smart assistants (Siri, Google Now), machine reading, and deep interpretation of natural language. This post gives you a brief introduction to Named Entity Recognition and uses cases related.
 
-**NER Introduction**  
+**1. Introduction**  
 
 
-NER is an information extraction technique to identify and classify named entities in text. In detail, it’s a process where an algorithm takes a string of text (sentence or paragraph) as input and identifies relevant nouns (mainly people, places, and organizations…) that are mentioned in that string. NER has a wide variety of use cases in the business like, when you are writing an email and mention time or attaching a file, Gmail offers to set a calendar notification or remind you to attach the file in case you are sending the email without an attachment.  
+NER is an information extraction technique to identify and classify named entities in text. In detail, it’s a process where an algorithm takes a string of text (sentence or paragraph) as input and identifies relevant nouns (mainly people, places, and organizations…) that are mentioned in that string. NER has a wide variety of use cases in the business like, when you are writing an email and mention time or attaching a file, Gmail offers to set a calendar notification or remind you to attach the file in case you are sending the email without an attachment. Other applications of NER include: extracting important named entities from legal, financial, and medical documents, classifying content for news providers, improving the search algorithms, and etc. 
 
-
-Other applications of NER include: extracting important named entities from legal, financial, and medical documents, classifying content for news providers, improving the search algorithms, and etc. For the rest of this article, we are going to have a short intro to basic terminology in NER and different approaches to tackle the NER problem, then we will jump into a detailed discussion of each use case.  
-
-
-**Language**  
+**1.1 Language**  
 
 NER research works are not just in English. But there are also many other kinds of research talking about problems in other languages, for example, German, Spain, Dutch, Japanese, Chinese, Arabic and many more languages ​​that have occurred in the last 15 years.  
 
 
-**Entity Types**  
+**1.2 Entity Types**  
 
 Text formats can be news, science, official, informal or domain topics like sports, business, finance, etc..
 Most studies are conducted in 3 major categories: “persons”, “locations” and “organization”. But there are many other categories listed below in use.  
 
-* “Locations” can be divided into many different parts, such as city, state, country.  
-* “Persons” may be divided according to their occupation. That is the name of People in whatever profession, such as politician, entertainer  
-* “Timex” is the type of “time” and “date”  
-* “Numex”  
-* “Money”  
-* “Percent”  
+📌 “Locations” can be divided into many different parts, such as city, state, country.  
+📌 “Persons” may be divided according to their occupation. That is the name of People in whatever profession, such as politician, entertainer  
+📌 “Timex” is the type of “time” and “date”  
+📌 “Numex”  
+📌 “Money”  
+📌 “Percent”  
 
-2. NER Methods
+**2. NER Methods** 
 
-Classical Approaches: Mostly rule-based. For further read, follow this video by Sentdex that uses the NLTK package in python for NER.  
+**2.1 Classical Approaches:** ⭐ 
 
-Machine Learning Approaches: There are two main methods in this category:  
+Mostly rule-based. For further read, follow this [video](https://www.youtube.com/watch?v=LFXsG7fueyk) by Sentdex that uses the NLTK package in python for NER.  
 
-A- Multi-class classification Task where named entities are our labels so we can apply different classification algorithms. The problem here is that identifying and labeling named entities require a thorough understanding of the context of a sentence and sequence of the word labels in it, which this method ignores that.
-B- Another method in this category is the Conditional Random Field (CRF) model. It is a probabilistic graphical model that can be used to model sequential data such as labels of words in a sentence. The CRF model can catch the features of the present and past names in an arrangement however it can’t comprehend the setting of the forward labels; this shortcoming plus the extra feature engineering involved with training a CRF model makes it less appealing to be adopted by the industry.  
+**2.2 Machine Learning Approaches:** ⭐
+
+There are two main methods in this category:  
+
+**A-** Multi-class classification Task where named entities are our labels so we can apply different classification algorithms. The problem here is that identifying and labeling named entities require a thorough understanding of the context of a sentence and sequence of the word labels in it, which this method ignores that.  
+**B-** Another method in this category is the Conditional Random Field (CRF) model. It is a probabilistic graphical model that can be used to model sequential data such as labels of words in a sentence. The CRF model can catch the features of the present and past names in an arrangement however it can’t comprehend the setting of the forward labels; this shortcoming plus the extra feature engineering involved with training a CRF model makes it less appealing to be adopted by the industry.  
 
 
-Deep Learning Approaches: Before discussing details about Deep Learning approaches (state-of-the-art) to NER, we need to analyze proper and clear metrics to evaluate the performance of our models. Generally, we use accuracy while training a neural network in different epochs as an evaluation metric. However, in the case of NER, we might be dealing with important financial, medical, or legal documents and accurate identification of named entities in those documents determines the success of the model. In other words, false positives and false negatives have a business cost in a NER task. Therefore, our principal metric to evaluate our models will be the F1 score because we need a balance between precision and recall.  
+**2.3 Deep Learning Approaches:**  ⭐
 
-Evaluation Metrics of NER  
+Before discussing details about Deep Learning approaches (state-of-the-art) to NER, we need to analyze proper and clear metrics to evaluate the performance of our models. Generally, we use accuracy while training a neural network in different epochs as an evaluation metric. However, in the case of NER, we might be dealing with important financial, medical, or legal documents and accurate identification of named entities in those documents determines the success of the model. In other words, false positives and false negatives have a business cost in a NER task. Therefore, our principal metric to evaluate our models will be the F1 score because we need a balance between precision and recall.  
 
-CoNLL: Computational Natural Language Learning  
+**3 Evaluation Metrics of NER**  
+
+**3.1 CoNLL: Computational Natural Language Learning**  
 
 “Precision is the percentage of named entities found by the learning model that is correct. Recall is the percentage of named entities present in the corpus that are found by the model. A named entity is correct only if it is an exact match of the corresponding entity in the data file.”  
 The Language-Independent Named Entity Recognition task introduced at CoNLL-2003 measures the performance of the systems in terms of precision, recall, and f1-score.  
 
 
-Automatic Content Extraction (ACE)  
+**3.2 Automatic Content Extraction (ACE)**  
+
 The ACE challenges use a more complex evaluation metric which includes a weighting schema, Check References for deeper understanding.
 Replicating experiments and baselines from ACE are a little complex since all the datasets and results are not open and free, so I guess this challenge results and experiments will fade away with time.  
 
-Message Understanding Conference (MUC)  
+**3.4 Message Understanding Conference (MUC)**  
+
 MUC introduced detailed metrics in an evaluation considering different categories of errors these metrics can be defined as in terms of comparing the response of a model against golden annotation:  
 
-Correct (COR): both are the same;  
-Incorrect (INC): the output of a system and the golden annotation don’t match;  
-Partial (PAR): system and the golden annotation are somewhat “similar” but not the same;  
-Missing (MIS): a golden annotation is not captured by a system;  
-Spurius (SPU): model produces a response which doesn’t exist in the golden annotation;  
-The SemEval’13 introduced four different ways to measure precision/recall/f1-score results based on the metrics defined by MUC-  
-Strict: exact boundary surface string match and entity type;  
-Exact: exact boundary match over the surface string, regardless of the type;  
-Partial: partial boundary match over the surface string, regardless of the type;  
-Type: some overlap between the system tagged entity and the gold annotation is required;  
+* **Correct (COR):** both are the same;   
+* **Incorrect (INC):** the output of a system and the golden annotation don’t match;    
+* **Partial (PAR):** system and the golden annotation are somewhat “similar” but not the same;   
+* **Missing (MIS):** a golden annotation is not captured by a system;  
+* **Spurius (SPU):** model produces a response which doesn’t exist in the golden annotation;  
 
-Use Cases of NER  
 
-Classification and Detection of Fake News  
+
+**4 Use Cases of NER**  
+
+**4.1 Classification and Detection of Fake News**  
+
 News and publishing houses generate large amounts of online content on a daily basis and managing them correctly is very important to get the most use of each article. Named Entity Recognition can automatically investigate entire articles and expose which are the major people, organizations, and places discussed in them. Knowing the relevant tags for each article helps in automatically classifying the articles in defined hierarchies and enable smooth content discovery. An example of how this work can be seen in the example below. 
 
-Efficient Search Algorithms
+**4.2 Efficient Search Algorithms**  
+
 Let’s suppose you are intending to design an internal search algorithm for an online publisher that has millions of articles. If for every search query the algo ends up searching all the words in millions of articles, the process will take hell lot of time! Instead, if NER can be run once on all the articles and the relevant entities (tags) associated with each of those articles are stored separately, this could speed up the search process incredibly! With this approach, a search term will be matched with only the small list of entities discussed in each article leading to faster search execution.
 
-Customer Support
+**4.3 Customer Support**  
+
 There are a number of ways to make the process of customer feedback procedure smooth and easy by using NER. Let’s take an example to understand the process. If you are handling the customer support department of an electronic store with multiple branches worldwide, you go through a number mentions in your customers’ feedback. Like this for instance,
 
-Conclusion  
+**5 Conclusion**  
 
-Named Entity Recognition has been developing continuously for over 15 years. The novel use is to extract different types of information (name, date, time, location) from the text. In addition, there are more than 20 languages and more than 200 types of entities. Most researches are interested in specific information on topic types such as news articles, web page information, etc..
 
-This provides an overview of techniques for creating a NERC system, from manual rule-based assignments to providing good and accurate results. But it comes with the time it takes to set the rules like, Supervised learning requires a large corpus that has been labeled, Semi-supervised and unsupervised learning allows for rapid recognition of entities without having to have a large labeled corpus.
+Named Entity Recognition has been developing continuously for over 15 years. The novel use is to extract different types of information (name, date, time, location) from the text. In addition, there are more than 20 languages and more than 200 types of entities. Most researches are interested in specific information on topic types such as news articles, web page information, etc..This provides an overview of techniques for creating a NERC system, from manual rule-based assignments to providing good and accurate results. But it comes with the time it takes to set the rules like, Supervised learning requires a large corpus that has been labeled, Semi-supervised and unsupervised learning allows for rapid recognition of entities without having to have a large labeled corpus.
 
-References:  
-To know more about NER Deep learning approaches - Refer to https://www.depends-on-the-definition.com/introduction-named-entity-recognition-python/  
-More details about LSTMs can be found [here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
--An implementation of the MUC evaluation metrics can be found:
-https://github.com/jantrienes/nereval
-“Automatic Content Extraction 2008 Evaluation Plan (ACE08)”  
-“The Automatic Content Extraction (ACE) Program Tasks, Data, and Evaluation”  
-http://www.aclweb.org/anthology/M93-1007  
+**References:**  
+📌 To know more about NER Deep learning approaches - Refer to https://www.depends-on-the-definition.com/introduction-named-entity-recognition-python/  
+📌 More details about LSTMs can be found [here](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+📌 An implementation of the MUC evaluation metrics can be found:
+* https://github.com/jantrienes/nereval
+* [“Automatic Content Extraction 2008 Evaluation Plan (ACE08)”](http://www.eng.utah.edu/~cs6961/papers/ACE-2008-description.pdf)
+* [“The Automatic Content Extraction (ACE) Program Tasks, Data, and Evaluation”](https://pdfs.semanticscholar.org/0617/dd6924df7a3491c299772b70e90507b195dc.pdf) 
+* http://www.aclweb.org/anthology/M93-1007  
