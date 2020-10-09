@@ -7,6 +7,7 @@
 - [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
 - [A framework for dialog research + datasets](https://parl.ai/)
 - [How Rossum is using deep learning to extract data from any document](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_how-rossum-is-using-deep-learning-to-extract-activity-6605832802078347264-ZsW8)
+- [Everything you need to know about Named Entity Recognition!!](https://github.com/UmaGunturi/awesome-ai-ml-dl/blob/master/natural-language-processing/ner.md)
 - See [Natural Language Processing (NLP)](../courses.md#naturallanguageprocessing-nlp) in [Courses](../courses.md#courses)
 
 # Contributing
