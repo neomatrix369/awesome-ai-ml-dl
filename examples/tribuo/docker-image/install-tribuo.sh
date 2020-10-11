@@ -45,11 +45,17 @@ curl -sL https://github.com/shyiko/mvnw/releases/download/0.1.0/mvnw.tar.gz | ta
 # as they fail when building an ONNX related sub-project.
 # The below does build jars with dependencies which we can
 # directly use for the notebooks
-echo "Building Tribuo using Gradle"
+echo "Building Tribuo using Maven"
 set -x
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 ./mvnw install package -fn -DskipTests -DtestFailureIgnore=true || true \
        && echo "Skipping test failures - not ideal"
+(cd Regression/XGBoost && \
+    ../../mvnw install package -fn -DskipTests -DtestFailureIgnore=true || true \
+    && echo "Skipping test failures - not ideal")
+(cd Regression/RegressionTree \
+    && ../../mvnw install package -fn -DskipTests -DtestFailureIgnore=true || true \
+    && echo "Skipping test failures - not ideal")
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 set +x
 
@@ -79,19 +85,23 @@ cp ${REGRESSION_SGD_FOLDER}/tribuo-regression-sgd-${TRIBUO_VERSION}-jar-with-dep
    tutorials/tribuo-regression-sgd-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
 
 cp ${REGRESSION_XGBOOST_FOLDER}/tribuo-regression-xgboost-${TRIBUO_VERSION}-jar-with-dependencies.jar \
-   tutorials/tribuo-regression-xgboost-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar || true
+   tutorials/tribuo-regression-xgboost-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar || \
+   true && echo "tribuo-regression-xgboost*.jar has NOT been built."
 
 cp ${REGRESSION_TREE_FOLDER}/tribuo-regression-tree-${TRIBUO_VERSION}-jar-with-dependencies.jar \
-   tutorials/tribuo-regression-tree-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar || true
+   tutorials/tribuo-regression-tree-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar || \
+   true && echo "tribuo-regression-tree*.jar has NOT been built."
 
 echo "Downloading datasets"
-wget https://archive.ics.uci.edu/ml/machine-learning-databases/iris/bezdekIris.data
-mv bezdekIris.data tutorials
+wget --directory-prefix=tutorials \
+     https://archive.ics.uci.edu/ml/machine-learning-databases/iris/bezdekIris.data
 
-wget https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
-mv winequality-red.csv tutorials
+wget --directory-prefix=tutorials \
+     https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
 
-wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
-wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz \
+     http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz \
+     http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
 
 cd ..
