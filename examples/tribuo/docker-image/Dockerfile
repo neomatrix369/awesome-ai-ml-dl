@@ -27,7 +27,7 @@ RUN ${JAVA_11_HOME}/bin/java -version
 RUN ${GRAALVM_HOME}/bin/java -version
 
 ### Install packages
-RUN apt-get update && apt-get install -qy unzip git vim
+RUN apt-get update && apt-get install -qy unzip git vim libgomp1 glibc-*
 
 RUN unzip -version
 RUN git --version
@@ -42,6 +42,7 @@ RUN ./install-java-kernel.sh --installJar
 COPY common.sh common.sh
 
 ### Install Tribuo
+RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${JAVA_HOME}/lib/server/:${JAVA_HOME}/lib/amd64/server/ 
 COPY install-tribuo.sh install-tribuo.sh
 RUN ./install-tribuo.sh
 
