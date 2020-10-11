@@ -56,6 +56,9 @@ openNotebookInBrowser() {
 	echo "";
 	echo "****************************************************"
 	echo "Attaching back to container, with ID ${CONTAINER_ID}"
+	echo ""
+	echo "Use below command to connect to the running container via a new session/shell:"
+	echo "                docker exec -it ${CONTAINER_ID} /bin/bash"
 	echo "****************************************************"
 	echo ""; echo "You can terminate your Jupyter session with a Ctrl-C"
 	echo "";
@@ -182,7 +185,7 @@ showUsageText() {
        --javaopts            sets the JAVA_OPTS environment variable
                              inside the container as it starts
        --notebookMode        runs the Jupyter/Jupyhai notebook server
-                             (default: returns to command-prompt on startup)
+                             (default: opens the page in a browser)
        --cleanup             (command action) remove exited containers and
                              dangling images from the local repository
        --buildImage          (command action) build the docker image

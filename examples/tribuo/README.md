@@ -31,24 +31,28 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 
 ```bash
 $ ./docker-runner.sh --help
-
-       Usage: ./docker-runner.sh --dockerUserName [docker user name]
+      Usage: ./docker-runner.sh --dockerUserName [Docker user name]
                                  --detach
+                                 --jdk [GRAALVM]
+                                 --javaopts [java opt arguments]
+                                 --notebookMode
+                                 --cleanup
                                  --buildImage
                                  --runContainer
                                  --pushImageToHub
-                                 --cleanup
                                  --help
 
-       --dockerUserName      docker user name as on Docker Hub
-                             (mandatory with build and push commands)
+       --dockerUserName      your Docker user name as on Docker Hub
+                             (mandatory with build, run and push commands)
        --detach              run container and detach from it,
                              return control to console
-       --jdk                 name of the JDK to use (currently supports 
-                             GRAALVM only, default is blank which 
+       --jdk                 name of the JDK to use (currently supports
+                             GRAALVM only, default is blank which
                              enables the traditional JDK)
        --javaopts            sets the JAVA_OPTS environment variable
                              inside the container as it starts
+       --notebookMode        runs the Jupyter/Jupyhai notebook server
+                             (default: opens the page in a browser)
        --cleanup             (command action) remove exited containers and
                              dangling images from the local repository
        --buildImage          (command action) build the docker image
@@ -60,6 +64,12 @@ $ ./docker-runner.sh --help
 **Run the Tribuo docker container:**
 
 ```bash
+
+### runs the Jupyter/Jupyhai notebook server and opens the page in a browser
+$ ./docker-runner.sh --notebookMode --runContainer
+
+or
+
 $ ./docker-runner.sh --runContainer
 
 or
