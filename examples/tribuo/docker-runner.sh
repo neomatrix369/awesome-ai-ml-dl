@@ -86,8 +86,8 @@ runContainer() {
 
 	mkdir -p shared/notebooks
 
-	${TIME_IT} docker run                                      \
-	            --rm                                           \
+	${TIME_IT} docker run                                        \
+	            --rm                                             \
                 ${INTERACTIVE_MODE}                            \
                 ${TOGGLE_ENTRYPOINT}                           \
                 -p ${HOST_PORT}:${CONTAINER_PORT}              \

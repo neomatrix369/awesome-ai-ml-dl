@@ -46,7 +46,11 @@ curl -sL https://github.com/shyiko/mvnw/releases/download/0.1.0/mvnw.tar.gz | ta
 # The below does build jars with dependencies which we can
 # directly use for the notebooks
 echo "Building Tribuo using Gradle"
-./mvnw install package -DskipTests -DtestFailureIgnore=true
+set -x
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+./mvnw install package -fn -DskipTests -DtestFailureIgnore=true
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+set +x
 
 TRIBUO_VERSION="4.1.0-SNAPSHOT"
 TRIBUO_VERSION_IN_NOTEBOOK=4.0.0
@@ -69,10 +73,13 @@ cp ${CORE_FOLDER}/tribuo-core-${TRIBUO_VERSION}.jar \
 
 cp ${CLASSIFICATION_FOLDER}/tribuo-classification-experiments-${TRIBUO_VERSION}-jar-with-dependencies.jar \
    tutorials/tribuo-classification-experiments-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
+
 cp ${REGRESSION_SGD_FOLDER}/tribuo-regression-sgd-${TRIBUO_VERSION}-jar-with-dependencies.jar \
    tutorials/tribuo-regression-sgd-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
+
 cp ${REGRESSION_XGBOOST_FOLDER}/tribuo-regression-xgboost-${TRIBUO_VERSION}-jar-with-dependencies.jar \
    tutorials/tribuo-regression-xgboost-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
+
 cp ${REGRESSION_TREE_FOLDER}/tribuo-regression-tree-${TRIBUO_VERSION}-jar-with-dependencies.jar \
    tutorials/tribuo-regression-tree-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
 

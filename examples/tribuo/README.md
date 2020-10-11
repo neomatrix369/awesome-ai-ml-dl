@@ -1,4 +1,4 @@
-# Tribuo [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Tribuo [![Tribuo](https://img.shields.io/docker/pulls/neomatrix369/tribuo.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 ---
