@@ -32,14 +32,20 @@ curl -sL https://github.com/shyiko/mvnw/releases/download/0.1.0/mvnw.tar.gz | ta
 (MAVEN_VERSION=3.6.3 &&
   sed -iEe "s/[0-9]\+[.][0-9]\+[.][0-9]\+/${MAVEN_VERSION}/g" .mvn/wrapper/maven-wrapper.properties)
 
-### Ideally we could have just downloaded the jars from maven central
-## We need
-#      "tribuo-classification-experiments-4.0.0-jar-with-dependencies.jar"
+## Ideally we could have just downloaded the jars from maven central
+## But we need the below, and it's not clear if the Maven central Jars 
+## have dependencies with them:
+#
+#      "tribuo-core-4.1.0-SNAPSHOT.jar"
 #      "tribuo-json-4.0.0-jar-with-dependencies.jar"
+#      "tribuo-classification-experiments-4.0.0-jar-with-dependencies.jar"
 #      "tribuo-regression-sgd-4.0.0-jar-with-dependencies.jar"
 #      "tribuo-regression-xgboost-4.0.0-jar-with-dependencies.jar"
 #      "tribuo-regression-tree-4.0.0-jar-with-dependencies.jar"
-### and other dependencies needed for the notebooks in the 'tutorials' folder.
+#      "tribuo-anomaly-libsvm-4.0.0-jar-with-dependencies.jar"
+#      "tribuo-clustering-kmeans-4.0.0-jar-with-dependencies.jar"
+#
+## and other dependencies needed for the notebooks in the 'tutorials' folder.
 
 # But we will build instead, skipping tests and ignoring test failures,
 # as they fail when building an ONNX related sub-project.
@@ -69,6 +75,8 @@ CLASSIFICATION_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-classification-experiments/${T
 REGRESSION_SGD_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-regression-sgd/${TRIBUO_VERSION}"
 REGRESSION_XGBOOST_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-regression-xgboost/${TRIBUO_VERSION}"
 REGRESSION_TREE_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-regression-tree/${TRIBUO_VERSION}"
+CLUSTERING_KMEANS_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-clustering-kmeans/${TRIBUO_VERSION}"
+ANOMALY_LIBSVM_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-anomaly-libsvm/${TRIBUO_VERSION}"
 
 echo "Copying the necessary jars into the tutorials folder"
 
@@ -85,12 +93,16 @@ cp ${REGRESSION_SGD_FOLDER}/tribuo-regression-sgd-${TRIBUO_VERSION}-jar-with-dep
    tutorials/tribuo-regression-sgd-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
 
 cp ${REGRESSION_XGBOOST_FOLDER}/tribuo-regression-xgboost-${TRIBUO_VERSION}-jar-with-dependencies.jar \
-   tutorials/tribuo-regression-xgboost-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar || \
-   true && echo "tribuo-regression-xgboost*.jar has NOT been built."
+   tutorials/tribuo-regression-xgboost-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
 
 cp ${REGRESSION_TREE_FOLDER}/tribuo-regression-tree-${TRIBUO_VERSION}-jar-with-dependencies.jar \
-   tutorials/tribuo-regression-tree-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar || \
-   true && echo "tribuo-regression-tree*.jar has NOT been built."
+   tutorials/tribuo-regression-tree-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
+
+cp ${CLUSTERING_KMEANS_FOLDER}/tribuo-clustering-kmeans-${TRIBUO_VERSION}-jar-with-dependencies.jar \
+   tutorials/tribuo-clustering-kmeans-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
+
+cp ${ANOMALY_LIBSVM_FOLDER}/tribuo-anomaly-libsvm-${TRIBUO_VERSION}-jar-with-dependencies.jar \
+   tutorials/tribuo-anomaly-libsvm-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
 
 echo "Downloading datasets"
 wget --directory-prefix=tutorials \
