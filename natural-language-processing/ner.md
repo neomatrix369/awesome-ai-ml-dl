@@ -71,7 +71,7 @@ MUC introduced detailed metrics in an evaluation considering different categorie
 
 **4.1 Classification and Detection of Fake News**  
 
-News and publishing houses generate large amounts of online content on a daily basis and managing them correctly is very important to get the most use of each article. Named Entity Recognition can automatically investigate entire articles and expose which are the major people, organizations, and places discussed in them. Knowing the relevant tags for each article helps in automatically classifying the articles in defined hierarchies and enable smooth content discovery. An example of how this work can be seen in the example below. 
+News and publishing houses generate large amounts of online content on a daily basis and managing them correctly is very important to get the most use of each article. Named Entity Recognition can automatically investigate entire articles and expose which are the major people, organizations, and places discussed in them. Knowing the relevant tags for each article helps in automatically classifying the articles in defined hierarchies and enable smooth content discovery.
 
 **4.2 Efficient Search Algorithms**  
 
@@ -79,10 +79,9 @@ Let’s suppose you are intending to design an internal search algorithm for an 
 
 **4.3 Customer Support**  
 
-There are a number of ways to make the process of customer feedback procedure smooth and easy by using NER. Let’s take an example to understand the process. If you are handling the customer support department of an electronic store with multiple branches worldwide, you go through a number mentions in your customers’ feedback. Like this for instance,
+There are a number of ways to make the process of customer feedback procedure smooth and easy by using NER. Let’s take an example to understand the process. If you are handling the customer support department of an electronic store with multiple branches worldwide, you go through a number mentions in your customers’ feedback. 
 
 **5 Conclusion**  
-
 
 Named Entity Recognition has been developing continuously for over 15 years. The novel use is to extract different types of information (name, date, time, location) from the text. In addition, there are more than 20 languages and more than 200 types of entities. Most researches are interested in specific information on topic types such as news articles, web page information, etc..This provides an overview of techniques for creating a NERC system, from manual rule-based assignments to providing good and accurate results. But it comes with the time it takes to set the rules like, Supervised learning requires a large corpus that has been labeled, Semi-supervised and unsupervised learning allows for rapid recognition of entities without having to have a large labeled corpus.
 
