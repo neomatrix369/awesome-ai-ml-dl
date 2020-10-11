@@ -11,6 +11,8 @@
 - [Summarization Task using Bart and T5 models from Hugging Face 😷 Transformers check out the code! ](https://www.linkedin.com/posts/philipvollet_nlp-deeplearning-machinelearning-activity-6650990213931769856-Hp1m)
 - [A Transformer-based Approach for Source Code Summarization](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6663306539186565120-KVi7)
 - **Better NLP Summarisers**: Notebooks: [Google Colab](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/examples/better-nlp/notebooks/google-colab/better_nlp_summarisers.ipynb) | [Jupyter](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/examples/better-nlp/notebooks/jupyter/better_nlp_summarisers.ipynb) | [Kaggle Kernel](https://www.kaggle.com/neomatrix369/better-nlp-summarisers-notebook) | [Code](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/better-nlp/library/org/neomatrix369)
+- [Code-Mixing _ya_ Code-Switching ?](code-mixing.md)
+- [Quantitative Measures for Modeling a Code-Mixed corpus!](measures.md)
 
 # Contributing
 

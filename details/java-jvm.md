@@ -43,7 +43,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Difference between Machine Learning, Data Science, AI, Deep Learning, and Statistics](https://www.datasciencecentral.com/profiles/blogs/difference-between-machine-learning-data-science-ai-deep-learning) ([Tweet](https://twitter.com/java/status/947129400083890176))
   - [You Could Become an AI Master Before You Know It. Here’s How.](https://www.technologyreview.com/s/608921/you-could-become-an-ai-master-before-you-know-it-heres-how/) ([Tweet](https://twitter.com/java/status/920620763262148609))
   - [Why Java Will Dominate the Future of Machine Learning, AI, and Big Data](https://www.deepnetts.com/blog/why-java-will-dominate-the-future-of-machine-learning-ai-and-big-data.html) ([Tweet](https://twitter.com/java/status/1065642563468709889)) | [About DeepNetts](https://www.deepnetts.com/product.html) | [Download DeepNetts](https://deepnetts.com:10172/download/faces/user/signUpAndDownload.xhtml)
-  - [Using Java for Artificial Intelligence](https://skymind.ai/wiki/java-ai) ([Tweet](https://twitter.com/java/status/1037728632142213120))
+  - [Using Java for Artificial Intelligence](https://skymind.ai/wiki/java-ai) [deadlink] ([Tweet](https://twitter.com/java/status/1037728632142213120))
   - [Want A Bigger Bang From AI? Embed It Into Your Apps](https://www.forbes.com/sites/oracle/2018/11/27/want-a-bigger-bang-from-ai-embed-it-into-your-apps/#1c07cc7a4e2d) ([Tweet](https://twitter.com/java/status/1068779734337708032))
   - [A Beginner's Guide to Automated Machine Learning & AI](https://t.co/s7lvKY9Y7z) ([Tweet](https://twitter.com/java/status/1051844141808664576))
   - [Five TED Talks on AI to watch](https://enterprisersproject.com/article/2017/10/5-ted-talks-ai-watch) ([Tweet](https://twitter.com/java/status/924260487554043904))
@@ -112,6 +112,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ## Machine Learning
 
+- [Tribuo](https://tribuo.org/) | [Github](https://github.com/oracle/tribuo) | [The Oracle Labs Configuration and Utilities Toolkit](http://github.com/oracle/olcut) - Java ML library from Oracle Labs
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
 - [What do you need for ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
 - [Do you really need ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
