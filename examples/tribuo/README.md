@@ -128,4 +128,5 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Go to [Machine Learning page](../README.md#machine-learning)
+Go to [Java/JVM Machine Learning page](../../details/java-jvm.md#javajvm) </br>
+Go to [Main page](../../README.md)
