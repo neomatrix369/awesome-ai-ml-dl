@@ -59,6 +59,9 @@ openNotebookInBrowser() {
 	echo ""
 	echo "Use below command to connect to the running container via a new session/shell:"
 	echo "                docker exec -it ${CONTAINER_ID} /bin/bash"
+    echo ""
+	echo "The example Tribuo notebooks can be found in the tribuo/tuturials folder"
+	echo ""
 	echo "****************************************************"
 	echo ""; echo "You can terminate your Jupyter session with a Ctrl-C"
 	echo "";

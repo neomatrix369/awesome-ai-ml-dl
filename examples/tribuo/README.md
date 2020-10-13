@@ -81,11 +81,12 @@ $ ./docker-runner.sh --help
 
 $ ./docker-runner.sh --notebookMode --runContainer
 
+### (The example Tribuo notebooks can be found in the tribuo/tuturials folder
 ### (remember container ID published in the console)
 ```
 
 
-_To start a second session in the above running instance, do the below:_
+_[Optional] To start a second session in the above running instance, do the below:_
 ```bash
 $ docker exec -it [CONTAINER_ID] /bin/bash"
 
