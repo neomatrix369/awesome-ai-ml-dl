@@ -8,6 +8,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 # Table of contents
 
 - [Goals](#goals)
+- [Tribuo Classification example: as a Java CLI app](#tribuo-classification-example-as-a-java-cli-app)
 - [Scripts provided](#scripts-provided)
 - [Usage](#usage)
   - [Help](#help)
@@ -26,6 +27,49 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 - Run using the traditional JDK 11 (OpenJDK or vendor specific versions)
 - Run using the polyglot JVM i.e. GraalVM JDK (Community version from Oracle Labs), when running performing operations from the CLI 
 - Play with and learn from with some examples for each of the libraries provided
+
+
+## Tribuo Classification example: as a Java CLI app
+
+Run the Classification example as show in the [tutorial notebook](https://github.com/oracle/tribuo/blob/main/tutorials/irises-tribuo-v4.ipynb) as a Java App run from the CLI.
+
+Perform the below steps in order to be able to build and run the example provided in the `src` folder in the repo:
+
+```
+$ git clone https://github.com/neomatrix369/awesome-ai-ml-dl
+$ cd awesome-ai-ml-dl/examples/tribuo
+
+$ mvn clean build 
+```
+
+Once the artifact is built, you will see the artifact `target/tribuo-classification-1.0-with-dependencies.jar`, followed by this run this:
+
+```bash
+$ time java -jar target/tribuo-classification-1.0-with-dependencies.jar
+```
+
+And you will see an output that looks like this:
+```
+~~~ Loading the data
+Oct 13, 2020 6:06:36 PM org.tribuo.data.csv.CSVIterator getRow
+WARNING: Ignoring extra newline at line 151
+Training data size = 105, number of features = 4, number of classes = 3
+Testing data size = 45, number of features = 4, number of classes = 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.
+.
+.
+      "transformations" : [ ],
+      "is-sequence" : "false",
+      "is-dense" : "false",
+      "class-name" : "org.tribuo.MutableDataset"
+    },
+    "class-name" : "org.tribuo.classification.sgd.linear.LinearSGDModel"
+  }
+}
+java -jar target/tribuo-classification-1.0-with-dependencies.jar    1.61s user 0.14s system 176% cpu 0.993 total
+```
+See detailed [output here](tribuo-classification-example-output.txt).
 
 ## Scripts provided
 

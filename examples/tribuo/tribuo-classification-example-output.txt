@@ -1,0 +1,618 @@
+~~~ Loading the data
+Oct 13, 2020 6:12:51 PM org.tribuo.data.csv.CSVIterator getRow
+WARNING: Ignoring extra newline at line 151
+~~~~~~ Splitting datasets
+Training data size = 105, number of features = 4, number of classes = 3
+Testing data size = 45, number of features = 4, number of classes = 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Training the model ~~~
+LinearSGDTrainer(objective=LogMulticlass,optimiser=AdaGrad(initialLearningRate=1.0,epsilon=0.1,initialValue=0.0),epochs=5,minibatchSize=1,seed=12345)
+Oct 13, 2020 6:12:51 PM org.tribuo.classification.sgd.linear.LinearSGDTrainer train
+INFO: Training SGD classifier with 105 examples
+Oct 13, 2020 6:12:51 PM org.tribuo.classification.sgd.linear.LinearSGDTrainer train
+INFO: Labels - (0,Iris-versicolor,34), (1,Iris-virginica,35), (2,Iris-setosa,36)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Evaluating the model ~~~
+Class                           n          tp          fn          fp      recall        prec          f1
+Iris-versicolor                16          16           0           1       1.000       0.941       0.970
+Iris-virginica                 15          14           1           0       0.933       1.000       0.966
+Iris-setosa                    14          14           0           0       1.000       1.000       1.000
+Total                          45          44           1           1
+Accuracy                                                                    0.978
+Micro Average                                                               0.978       0.978       0.978
+Macro Average                                                               0.978       0.980       0.978
+Balanced Error Rate                                                         0.022
+                   Iris-versicolor   Iris-virginica      Iris-setosa
+Iris-versicolor                 16                0                0
+Iris-virginica                   1               14                0
+Iris-setosa                      0                0               14
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Model Metadata ~~~
+CategoricalFeature(name=petalLength,id=0,count=105,map={1.2=1, 6.9=1, 3.6=1, 3.0=1, 1.7=4, 4.9=4, 4.4=3, 3.5=2, 5.9=2, 5.4=1, 4.0=4, 1.4=12, 4.5=4, 5.0=2, 5.5=3, 6.7=2, 3.7=1, 1.9=1, 6.0=2, 5.2=1, 5.7=2, 4.2=2, 4.7=2, 4.8=4, 1.6=4, 5.8=2, 3.8=1, 6.3=1, 3.3=1, 1.0=1, 5.6=4, 5.1=5, 4.6=3, 4.1=2, 1.5=9, 1.3=4, 3.9=3, 6.6=1, 6.1=2})
+
+CategoricalFeature(name=petalWidth,id=1,count=105,map={2.0=3, 0.5=1, 1.2=3, 0.3=6, 1.6=2, 0.1=3, 0.4=5, 2.5=3, 2.3=4, 1.7=2, 1.1=3, 2.1=4, 0.6=1, 1.4=6, 1.0=5, 2.4=1, 1.8=12, 0.2=20, 1.9=4, 1.5=7, 1.3=8, 2.2=2})
+
+CategoricalFeature(name=sepalLength,id=2,count=105,map={6.9=3, 6.4=3, 7.4=1, 4.9=4, 4.4=1, 5.9=3, 5.4=5, 7.2=3, 7.7=3, 5.0=8, 6.2=2, 5.5=5, 6.7=7, 6.0=3, 5.2=2, 6.5=3, 5.7=4, 4.7=2, 4.8=3, 5.8=4, 5.3=1, 6.8=3, 6.3=5, 7.3=1, 5.6=6, 5.1=7, 4.6=4, 7.6=1, 7.1=1, 6.6=2, 6.1=5})
+
+CategoricalFeature(name=sepalWidth,id=3,count=105,map={2.0=1, 2.8=10, 3.6=4, 2.3=3, 2.5=5, 3.1=8, 3.8=4, 3.0=19, 2.6=4, 4.4=1, 3.3=4, 3.5=4, 2.4=2, 3.2=10, 2.9=5, 3.7=3, 3.4=6, 2.2=2, 3.9=2, 4.2=1, 2.7=7})
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Model Provenance ~~~
+~~~~~~ Datasets provenance
+TrainTestSplitter(
+	class-name = org.tribuo.evaluation.TrainTestSplitter
+	source = CSVLoader(
+			class-name = org.tribuo.data.csv.CSVLoader
+			outputFactory = LabelFactory(
+					class-name = org.tribuo.classification.LabelFactory
+				)
+			response-name = species
+			separator = ,
+			quote = "
+			path = file:/Users/swami/git-repos/ai-ml-dl-stuff/awesome-ai-ml-dl/examples/tribuo/datasets/bezdekIris.data
+			file-modified-time = 2020-10-13T17:20:28.144+01:00
+			resource-hash = 0FED2A99DB77EC533A62DC66894D3EC6DF3B58B6A8F3CF4A6B47E4086B7F97DC
+		)
+	train-proportion = 0.7
+	seed = 1
+	size = 150
+	is-train = true
+)
+~~~~~~ Trainer provenance
+LogisticRegressionTrainer(
+	class-name = org.tribuo.classification.sgd.linear.LogisticRegressionTrainer
+	seed = 12345
+	minibatchSize = 1
+	shuffle = true
+	epochs = 5
+	optimiser = AdaGrad(
+			class-name = org.tribuo.math.optimisers.AdaGrad
+			epsilon = 0.1
+			initialLearningRate = 1.0
+			initialValue = 0.0
+			host-short-name = StochasticGradientOptimiser
+		)
+	objective = LogMulticlass(
+			class-name = org.tribuo.classification.sgd.objectives.LogMulticlass
+			host-short-name = LabelObjective
+		)
+	loggingInterval = 1000
+	train-invocation-count = 0
+	is-sequence = false
+	host-short-name = Trainer
+)
+~~~~~~ Save provenance in JSON format
+[ {
+  "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ObjectMarshalledProvenance",
+  "object-name" : "linearsgdmodel-0",
+  "object-class-name" : "org.tribuo.classification.sgd.linear.LinearSGDModel",
+  "provenance-class" : "org.tribuo.provenance.ModelProvenance",
+  "map" : {
+    "instance-values" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.MapMarshalledProvenance",
+      "map" : { }
+    },
+    "tribuo-version" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "tribuo-version",
+      "value" : "4.0.1",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "trainer" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "trainer",
+      "value" : "logisticregressiontrainer-2",
+      "provenance-class" : "org.tribuo.provenance.impl.TrainerProvenanceImpl",
+      "additional" : "",
+      "is-reference" : true
+    },
+    "trained-at" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "trained-at",
+      "value" : "2020-10-13T18:12:51.765927+01:00",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.DateTimeProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "dataset" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "dataset",
+      "value" : "mutabledataset-1",
+      "provenance-class" : "org.tribuo.provenance.DatasetProvenance",
+      "additional" : "",
+      "is-reference" : true
+    },
+    "class-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "class-name",
+      "value" : "org.tribuo.classification.sgd.linear.LinearSGDModel",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    }
+  }
+}, {
+  "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ObjectMarshalledProvenance",
+  "object-name" : "mutabledataset-1",
+  "object-class-name" : "org.tribuo.MutableDataset",
+  "provenance-class" : "org.tribuo.provenance.DatasetProvenance",
+  "map" : {
+    "num-features" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "num-features",
+      "value" : "4",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "num-examples" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "num-examples",
+      "value" : "105",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "num-outputs" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "num-outputs",
+      "value" : "3",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "tribuo-version" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "tribuo-version",
+      "value" : "4.0.1",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "datasource" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "datasource",
+      "value" : "traintestsplitter-3",
+      "provenance-class" : "org.tribuo.evaluation.TrainTestSplitter$SplitDataSourceProvenance",
+      "additional" : "",
+      "is-reference" : true
+    },
+    "transformations" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ListMarshalledProvenance",
+      "list" : [ ]
+    },
+    "is-sequence" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "is-sequence",
+      "value" : "false",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "is-dense" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "is-dense",
+      "value" : "false",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "class-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "class-name",
+      "value" : "org.tribuo.MutableDataset",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    }
+  }
+}, {
+  "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ObjectMarshalledProvenance",
+  "object-name" : "logisticregressiontrainer-2",
+  "object-class-name" : "org.tribuo.classification.sgd.linear.LogisticRegressionTrainer",
+  "provenance-class" : "org.tribuo.provenance.impl.TrainerProvenanceImpl",
+  "map" : {
+    "seed" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "seed",
+      "value" : "12345",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.LongProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "minibatchSize" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "minibatchSize",
+      "value" : "1",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "train-invocation-count" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "train-invocation-count",
+      "value" : "0",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "is-sequence" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "is-sequence",
+      "value" : "false",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "shuffle" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "shuffle",
+      "value" : "true",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "epochs" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "epochs",
+      "value" : "5",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "optimiser" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "optimiser",
+      "value" : "adagrad-4",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl",
+      "additional" : "",
+      "is-reference" : true
+    },
+    "host-short-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "host-short-name",
+      "value" : "Trainer",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "class-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "class-name",
+      "value" : "org.tribuo.classification.sgd.linear.LogisticRegressionTrainer",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "objective" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "objective",
+      "value" : "logmulticlass-5",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl",
+      "additional" : "",
+      "is-reference" : true
+    },
+    "loggingInterval" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "loggingInterval",
+      "value" : "1000",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance",
+      "additional" : "",
+      "is-reference" : false
+    }
+  }
+}, {
+  "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ObjectMarshalledProvenance",
+  "object-name" : "traintestsplitter-3",
+  "object-class-name" : "org.tribuo.evaluation.TrainTestSplitter",
+  "provenance-class" : "org.tribuo.evaluation.TrainTestSplitter$SplitDataSourceProvenance",
+  "map" : {
+    "train-proportion" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "train-proportion",
+      "value" : "0.7",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "seed" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "seed",
+      "value" : "1",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.LongProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "size" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "size",
+      "value" : "150",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.IntProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "source" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "source",
+      "value" : "csvloader-6",
+      "provenance-class" : "org.tribuo.data.csv.CSVLoader$CSVLoaderProvenance",
+      "additional" : "",
+      "is-reference" : true
+    },
+    "class-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "class-name",
+      "value" : "org.tribuo.evaluation.TrainTestSplitter",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "is-train" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "is-train",
+      "value" : "true",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.BooleanProvenance",
+      "additional" : "",
+      "is-reference" : false
+    }
+  }
+}, {
+  "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ObjectMarshalledProvenance",
+  "object-name" : "adagrad-4",
+  "object-class-name" : "org.tribuo.math.optimisers.AdaGrad",
+  "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl",
+  "map" : {
+    "epsilon" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "epsilon",
+      "value" : "0.1",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "initialLearningRate" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "initialLearningRate",
+      "value" : "1.0",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "initialValue" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "initialValue",
+      "value" : "0.0",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.DoubleProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "host-short-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "host-short-name",
+      "value" : "StochasticGradientOptimiser",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "class-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "class-name",
+      "value" : "org.tribuo.math.optimisers.AdaGrad",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    }
+  }
+}, {
+  "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ObjectMarshalledProvenance",
+  "object-name" : "logmulticlass-5",
+  "object-class-name" : "org.tribuo.classification.sgd.objectives.LogMulticlass",
+  "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.impl.ConfiguredObjectProvenanceImpl",
+  "map" : {
+    "host-short-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "host-short-name",
+      "value" : "LabelObjective",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "class-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "class-name",
+      "value" : "org.tribuo.classification.sgd.objectives.LogMulticlass",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    }
+  }
+}, {
+  "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ObjectMarshalledProvenance",
+  "object-name" : "csvloader-6",
+  "object-class-name" : "org.tribuo.data.csv.CSVLoader",
+  "provenance-class" : "org.tribuo.data.csv.CSVLoader$CSVLoaderProvenance",
+  "map" : {
+    "resource-hash" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "resource-hash",
+      "value" : "0FED2A99DB77EC533A62DC66894D3EC6DF3B58B6A8F3CF4A6B47E4086B7F97DC",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.HashProvenance",
+      "additional" : "SHA256",
+      "is-reference" : false
+    },
+    "path" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "path",
+      "value" : "file:/Users/swami/git-repos/ai-ml-dl-stuff/awesome-ai-ml-dl/examples/tribuo/datasets/bezdekIris.data",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.URLProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "file-modified-time" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "file-modified-time",
+      "value" : "2020-10-13T17:20:28.144+01:00",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.DateTimeProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "quote" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "quote",
+      "value" : "\"",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.CharProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "response-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "response-name",
+      "value" : "species",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "outputFactory" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "outputFactory",
+      "value" : "labelfactory-7",
+      "provenance-class" : "org.tribuo.classification.LabelFactory$LabelFactoryProvenance",
+      "additional" : "",
+      "is-reference" : true
+    },
+    "separator" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "separator",
+      "value" : ",",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.CharProvenance",
+      "additional" : "",
+      "is-reference" : false
+    },
+    "class-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "class-name",
+      "value" : "org.tribuo.data.csv.CSVLoader",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    }
+  }
+}, {
+  "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.ObjectMarshalledProvenance",
+  "object-name" : "labelfactory-7",
+  "object-class-name" : "org.tribuo.classification.LabelFactory",
+  "provenance-class" : "org.tribuo.classification.LabelFactory$LabelFactoryProvenance",
+  "map" : {
+    "class-name" : {
+      "marshalled-class" : "com.oracle.labs.mlrg.olcut.provenance.io.SimpleMarshalledProvenance",
+      "key" : "class-name",
+      "value" : "org.tribuo.classification.LabelFactory",
+      "provenance-class" : "com.oracle.labs.mlrg.olcut.provenance.primitives.StringProvenance",
+      "additional" : "",
+      "is-reference" : false
+    }
+  }
+} ]
+~~~~~~ Print model metadata as raw string
+linear-sgd-model - Model(class-name=org.tribuo.classification.sgd.linear.LinearSGDModel,dataset=Dataset(class-name=org.tribuo.MutableDataset,datasource=SplitDataSourceProvenance(className=org.tribuo.evaluation.TrainTestSplitter,innerSourceProvenance=CSV(class-name=org.tribuo.data.csv.CSVLoader,outputFactory=OutputFactory(class-name=org.tribuo.classification.LabelFactory),response-name=species,separator=,,quote=",path=file:/Users/swami/git-repos/ai-ml-dl-stuff/awesome-ai-ml-dl/examples/tribuo/datasets/bezdekIris.data,file-modified-time=2020-10-13T17:20:28.144+01:00,resource-hash=SHA-256[0FED2A99DB77EC533A62DC66894D3EC6DF3B58B6A8F3CF4A6B47E4086B7F97DC]),trainProportion=0.7,seed=1,size=150,isTrain=true),transformations=[],is-sequence=false,is-dense=false,num-examples=105,num-features=4,num-outputs=3,tribuo-version=4.0.1),trainer=Trainer(class-name=org.tribuo.classification.sgd.linear.LogisticRegressionTrainer,seed=12345,minibatchSize=1,shuffle=true,epochs=5,optimiser=StochasticGradientOptimiser(class-name=org.tribuo.math.optimisers.AdaGrad,epsilon=0.1,initialLearningRate=1.0,initialValue=0.0,host-short-name=StochasticGradientOptimiser),objective=LabelObjective(class-name=org.tribuo.classification.sgd.objectives.LogMulticlass,host-short-name=LabelObjective),loggingInterval=1000,train-invocation-count=0,is-sequence=false,host-short-name=Trainer),trained-at=2020-10-13T18:12:51.765927+01:00,instance-values={},tribuo-version=4.0.1)
+~~~~~~ Save evaluation provenance data as JSON
+~~~~~~ Print evaluation provenance data (JSON)
+{
+  "tribuo-version" : "4.0.1",
+  "dataset-provenance" : {
+    "num-features" : "4",
+    "num-examples" : "45",
+    "num-outputs" : "3",
+    "tribuo-version" : "4.0.1",
+    "datasource" : {
+      "train-proportion" : "0.7",
+      "seed" : "1",
+      "size" : "150",
+      "source" : {
+        "resource-hash" : "0FED2A99DB77EC533A62DC66894D3EC6DF3B58B6A8F3CF4A6B47E4086B7F97DC",
+        "path" : "file:/Users/swami/git-repos/ai-ml-dl-stuff/awesome-ai-ml-dl/examples/tribuo/datasets/bezdekIris.data",
+        "file-modified-time" : "2020-10-13T17:20:28.144+01:00",
+        "quote" : "\"",
+        "response-name" : "species",
+        "outputFactory" : {
+          "class-name" : "org.tribuo.classification.LabelFactory"
+        },
+        "separator" : ",",
+        "class-name" : "org.tribuo.data.csv.CSVLoader"
+      },
+      "class-name" : "org.tribuo.evaluation.TrainTestSplitter",
+      "is-train" : "false"
+    },
+    "transformations" : [ ],
+    "is-sequence" : "false",
+    "is-dense" : "false",
+    "class-name" : "org.tribuo.MutableDataset"
+  },
+  "class-name" : "org.tribuo.provenance.EvaluationProvenance",
+  "model-provenance" : {
+    "instance-values" : { },
+    "tribuo-version" : "4.0.1",
+    "trainer" : {
+      "seed" : "12345",
+      "minibatchSize" : "1",
+      "train-invocation-count" : "0",
+      "is-sequence" : "false",
+      "shuffle" : "true",
+      "epochs" : "5",
+      "optimiser" : {
+        "epsilon" : "0.1",
+        "initialLearningRate" : "1.0",
+        "initialValue" : "0.0",
+        "host-short-name" : "StochasticGradientOptimiser",
+        "class-name" : "org.tribuo.math.optimisers.AdaGrad"
+      },
+      "host-short-name" : "Trainer",
+      "class-name" : "org.tribuo.classification.sgd.linear.LogisticRegressionTrainer",
+      "objective" : {
+        "host-short-name" : "LabelObjective",
+        "class-name" : "org.tribuo.classification.sgd.objectives.LogMulticlass"
+      },
+      "loggingInterval" : "1000"
+    },
+    "trained-at" : "2020-10-13T18:12:51.765927+01:00",
+    "dataset" : {
+      "num-features" : "4",
+      "num-examples" : "105",
+      "num-outputs" : "3",
+      "tribuo-version" : "4.0.1",
+      "datasource" : {
+        "train-proportion" : "0.7",
+        "seed" : "1",
+        "size" : "150",
+        "source" : {
+          "resource-hash" : "0FED2A99DB77EC533A62DC66894D3EC6DF3B58B6A8F3CF4A6B47E4086B7F97DC",
+          "path" : "file:/Users/swami/git-repos/ai-ml-dl-stuff/awesome-ai-ml-dl/examples/tribuo/datasets/bezdekIris.data",
+          "file-modified-time" : "2020-10-13T17:20:28.144+01:00",
+          "quote" : "\"",
+          "response-name" : "species",
+          "outputFactory" : {
+            "class-name" : "org.tribuo.classification.LabelFactory"
+          },
+          "separator" : ",",
+          "class-name" : "org.tribuo.data.csv.CSVLoader"
+        },
+        "class-name" : "org.tribuo.evaluation.TrainTestSplitter",
+        "is-train" : "true"
+      },
+      "transformations" : [ ],
+      "is-sequence" : "false",
+      "is-dense" : "false",
+      "class-name" : "org.tribuo.MutableDataset"
+    },
+    "class-name" : "org.tribuo.classification.sgd.linear.LinearSGDModel"
+  }
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
