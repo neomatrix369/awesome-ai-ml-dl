@@ -31,9 +31,14 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 
 ## Tribuo Classification example: as a Java CLI app
 
+Requirements before proceeding:
+- Java 11 or higher
+- JAVA_HOME set correctly
+- Maven 3.5 of higher
+
 Run the Classification example as show in the [tutorial notebook](https://github.com/oracle/tribuo/blob/main/tutorials/irises-tribuo-v4.ipynb) as a Java App run from the CLI.
 
-Perform the below steps in order to be able to build and run the example provided in the `src` folder in the repo:
+Perform the below steps in order to be able to build and run the example provided in the [`src` folder](src/main/java/org/neomatrix369/tribuo) in this folder:
 
 ```
 $ git clone https://github.com/neomatrix369/awesome-ai-ml-dl
