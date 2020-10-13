@@ -5,6 +5,19 @@
 
 Run a docker container with Tribuo (a ML Library, written in Java), running under the traditional Java 11 (from OpenJDK or another source) or GraalVM.
 
+# Table of contents
+
+- [Goals](#goals)
+- [Scripts provided](#scripts-provided)
+- [Usage](#usage)
+  - [Help](#help)
+  - [Run the Tribuo docker container](#run-the-tribuo-docker-container)
+  - [Other methods to run the container](#other-methods-to-run-the-container)
+- [Build the docker container](#build-the-docker-container)
+- [Push built Tribuo docker image to Docker hub](#push-built-tribuo-docker-image-to-docker-hub)
+- [Docker image on Docker Hub](#docker-image-on-docker-hub)
+- [Contributing](#contributing)
+
 ## Goals
 
 - Run docker container Tribuo
@@ -85,7 +98,7 @@ $ docker exec -it [CONTAINER_ID] /bin/bash"
 $ ./docker-runner.sh --runContainer
 ```
 
-#### Other methods to run the container
+### Other methods to run the container
 
 ```bash
 $ ./docker-runner.sh --runContainer --dockerUserName [your docker user name]
