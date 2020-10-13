@@ -27,7 +27,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 
 ## Usage
 
-**Help:**
+### Help
 
 ```bash
 $ ./docker-runner.sh --help
@@ -61,19 +61,33 @@ $ ./docker-runner.sh --help
        --help                shows the script usage help text
 ```
 
-**Run the Tribuo docker container:**
+### Run the Tribuo docker container
 
+#### Run the Jupyter/Jupyhai notebook server and open it the browser
 ```bash
 
-### runs the Jupyter/Jupyhai notebook server and opens the page in a browser
 $ ./docker-runner.sh --notebookMode --runContainer
 
-or
+### (remember container ID published in the console)
+```
 
+
+_To start a second session in the above running instance, do the below:_
+```bash
+$ docker exec -it [CONTAINER_ID] /bin/bash"
+
+### (apply above the container ID published in the previous console)
+```
+
+#### Run the docker container to the command prompt
+
+```bash
 $ ./docker-runner.sh --runContainer
+```
 
-or
+#### Other methods to run the container
 
+```bash
 $ ./docker-runner.sh --runContainer --dockerUserName [your docker user name]
 
 or run in GraalVM mode
@@ -85,7 +99,7 @@ or run by switching off JVMCI flag (default: on) when running in GRAALVM mode
 $ ./docker-runner.sh --javaopts "-XX:-UseJVMCINativeLibrary"
 ```
 
-**Build the docker container:**
+### Build the docker container
 
 Ensure your environment has the below variable set, or set it in your `.bashrc` or `.bash_profile` or the relevant startup script:
 
@@ -104,7 +118,7 @@ orgr
 $ ./docker-runner.sh --buildImage --dockerUserName "your_docker_username"
 ```
 
-**Push built Tribuo docker image to Docker hub:**
+### Push built Tribuo docker image to Docker hub
 
 ```bash
 $ ./docker-runner.sh --pushImageToHub
@@ -116,7 +130,7 @@ $ ./docker-runner.sh --pushImageToHub --dockerUserName "your_docker_username"
 
 The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
 
-**Docker image on Docker Hub**
+### Docker image on Docker Hub
 
 Find the [Tribuo Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/tribuo). The `docker-runner.sh --pushImageToHub` script pushes the image to the Docker hub and the `docker-runner.sh --runContainer` script runs it from the local repository. If absent, in the the local repository, it downloads this image from Docker Hub.
 
