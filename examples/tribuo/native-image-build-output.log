@@ -1,0 +1,16 @@
+[tribuo-classification-1.0-with-dependencies:1607]    classlist:  10,863.83 ms,  0.96 GB
+[tribuo-classification-1.0-with-dependencies:1607]        (cap):   4,333.40 ms,  0.96 GB
+[tribuo-classification-1.0-with-dependencies:1607]        setup:  12,774.00 ms,  0.96 GB
+[tribuo-classification-1.0-with-dependencies:1607]     (clinit):     719.49 ms,  2.59 GB
+[tribuo-classification-1.0-with-dependencies:1607]   (typeflow):  39,522.00 ms,  2.59 GB
+[tribuo-classification-1.0-with-dependencies:1607]    (objects):  33,084.83 ms,  2.59 GB
+[tribuo-classification-1.0-with-dependencies:1607]   (features):   1,718.02 ms,  2.59 GB
+[tribuo-classification-1.0-with-dependencies:1607]     analysis:  76,661.66 ms,  2.59 GB
+[tribuo-classification-1.0-with-dependencies:1607]     universe:   2,274.06 ms,  2.59 GB
+[tribuo-classification-1.0-with-dependencies:1607]      (parse):  13,905.49 ms,  2.59 GB
+[tribuo-classification-1.0-with-dependencies:1607]     (inline):  18,593.38 ms,  3.38 GB
+[tribuo-classification-1.0-with-dependencies:1607]    (compile): 167,926.32 ms,  4.61 GB
+[tribuo-classification-1.0-with-dependencies:1607]      compile: 205,588.75 ms,  4.61 GB
+[tribuo-classification-1.0-with-dependencies:1607]        image:   8,909.69 ms,  4.93 GB
+[tribuo-classification-1.0-with-dependencies:1607]        write:   2,679.96 ms,  4.93 GB
+[tribuo-classification-1.0-with-dependencies:1607]      [total]: 320,619.87 ms,  4.93 GB

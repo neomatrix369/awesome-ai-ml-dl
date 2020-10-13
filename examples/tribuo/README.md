@@ -5,6 +5,20 @@
 
 Run a docker container with Tribuo (a ML Library, written in Java), running under the traditional Java 11 (from OpenJDK or another source) or GraalVM.
 
+# Table of contents
+
+- [Goals](#goals)
+- [Tribuo Classification example: as a Java CLI app](#tribuo-classification-example-as-a-java-cli-app)
+- [Scripts provided](#scripts-provided)
+- [Usage](#usage)
+  - [Help](#help)
+  - [Run the Tribuo docker container](#run-the-tribuo-docker-container)
+  - [Other methods to run the container](#other-methods-to-run-the-container)
+- [Build the docker container](#build-the-docker-container)
+- [Push built Tribuo docker image to Docker hub](#push-built-tribuo-docker-image-to-docker-hub)
+- [Docker image on Docker Hub](#docker-image-on-docker-hub)
+- [Contributing](#contributing)
+
 ## Goals
 
 - Run docker container Tribuo
@@ -13,6 +27,71 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 - Run using the traditional JDK 11 (OpenJDK or vendor specific versions)
 - Run using the polyglot JVM i.e. GraalVM JDK (Community version from Oracle Labs), when running performing operations from the CLI 
 - Play with and learn from with some examples for each of the libraries provided
+
+
+## Tribuo Classification example: as a Java CLI app
+
+Requirements before proceeding:
+- Java 11 or higher
+- JAVA_HOME set correctly
+- Maven 3.5 of higher
+
+Run the Classification example as show in the [tutorial notebook](https://github.com/oracle/tribuo/blob/main/tutorials/irises-tribuo-v4.ipynb) as a Java App run from the CLI.
+
+Perform the below steps in order to be able to build and run the example provided in the [`src` folder](src/main/java/org/neomatrix369/tribuo) in this folder:
+
+```
+$ git clone https://github.com/neomatrix369/awesome-ai-ml-dl
+$ cd awesome-ai-ml-dl/examples/tribuo
+
+$ mvn clean package 
+```
+
+Once the artifact is built, you will see the artifact `target/tribuo-classification-1.0-with-dependencies.jar`, followed by this run this:
+
+```bash
+$ time java -jar target/tribuo-classification-1.0-with-dependencies.jar
+```
+
+And you will see an output that looks like this:
+```
+~~~ Loading the data
+Oct 13, 2020 6:06:36 PM org.tribuo.data.csv.CSVIterator getRow
+WARNING: Ignoring extra newline at line 151
+Training data size = 105, number of features = 4, number of classes = 3
+Testing data size = 45, number of features = 4, number of classes = 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.
+.
+.
+      "transformations" : [ ],
+      "is-sequence" : "false",
+      "is-dense" : "false",
+      "class-name" : "org.tribuo.MutableDataset"
+    },
+    "class-name" : "org.tribuo.classification.sgd.linear.LinearSGDModel"
+  }
+}
+java -jar target/tribuo-classification-1.0-with-dependencies.jar    1.61s user 0.14s system 176% cpu 0.993 total
+```
+See detailed [output here](tribuo-classification-example-output.txt).
+
+### `native-image` build [optional]
+In case you are running GraalVM CE or EE, you could do the below:
+
+```bash
+$ time native-image --no-fallback -jar target/tribuo-classification-1.0-with-dependencies.jar
+```
+You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](native-image-build-output.log).
+
+Once the native-image is built, you can run it with (no JDK dependencies needed):
+```bash
+$ time tribuo-classification-1.0-with-dependencies
+```
+
+You shoud see the same [output](tribuo-classification-example-output.txt) as before.
+
+_Note: You will also notice it runs faster than the `jar` version, of course this could change when the dataset and/or other end-to-end training/evaluation flow changes (**no speed guaranutees**, it will depend on various factors)._
 
 ## Scripts provided
 
@@ -27,7 +106,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 
 ## Usage
 
-**Help:**
+### Help
 
 ```bash
 $ ./docker-runner.sh --help
@@ -61,19 +140,34 @@ $ ./docker-runner.sh --help
        --help                shows the script usage help text
 ```
 
-**Run the Tribuo docker container:**
+### Run the Tribuo docker container
 
+#### Run the Jupyter/Jupyhai notebook server and open it the browser
 ```bash
 
-### runs the Jupyter/Jupyhai notebook server and opens the page in a browser
 $ ./docker-runner.sh --notebookMode --runContainer
 
-or
+### (The example Tribuo notebooks can be found in the tribuo/tuturials folder
+### (remember container ID published in the console)
+```
 
+
+_[Optional] To start a second session in the above running instance, do the below:_
+```bash
+$ docker exec -it [CONTAINER_ID] /bin/bash"
+
+### (apply above the container ID published in the previous console)
+```
+
+#### Run the docker container to the command prompt
+
+```bash
 $ ./docker-runner.sh --runContainer
+```
 
-or
+### Other methods to run the container
 
+```bash
 $ ./docker-runner.sh --runContainer --dockerUserName [your docker user name]
 
 or run in GraalVM mode
@@ -85,7 +179,7 @@ or run by switching off JVMCI flag (default: on) when running in GRAALVM mode
 $ ./docker-runner.sh --javaopts "-XX:-UseJVMCINativeLibrary"
 ```
 
-**Build the docker container:**
+### Build the docker container
 
 Ensure your environment has the below variable set, or set it in your `.bashrc` or `.bash_profile` or the relevant startup script:
 
@@ -104,7 +198,7 @@ orgr
 $ ./docker-runner.sh --buildImage --dockerUserName "your_docker_username"
 ```
 
-**Push built Tribuo docker image to Docker hub:**
+### Push built Tribuo docker image to Docker hub
 
 ```bash
 $ ./docker-runner.sh --pushImageToHub
@@ -116,7 +210,7 @@ $ ./docker-runner.sh --pushImageToHub --dockerUserName "your_docker_username"
 
 The above will prompt the docker login name and password, before it can push your image to Docker hub (you must have an account on Docker hub).
 
-**Docker image on Docker Hub**
+### Docker image on Docker Hub
 
 Find the [Tribuo Docker Image on Docker Hub](https://hub.docker.com/r/neomatrix369/tribuo). The `docker-runner.sh --pushImageToHub` script pushes the image to the Docker hub and the `docker-runner.sh --runContainer` script runs it from the local repository. If absent, in the the local repository, it downloads this image from Docker Hub.
 
@@ -128,4 +222,5 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Go to [Machine Learning page](../README.md#machine-learning)
+Go to [Java/JVM Machine Learning page](../../details/java-jvm.md#javajvm) </br>
+Go to [Main page](../../README.md)
