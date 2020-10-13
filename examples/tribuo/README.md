@@ -44,7 +44,7 @@ Perform the below steps in order to be able to build and run the example provide
 $ git clone https://github.com/neomatrix369/awesome-ai-ml-dl
 $ cd awesome-ai-ml-dl/examples/tribuo
 
-$ mvn clean build 
+$ mvn clean package 
 ```
 
 Once the artifact is built, you will see the artifact `target/tribuo-classification-1.0-with-dependencies.jar`, followed by this run this:
@@ -75,6 +75,23 @@ Testing data size = 45, number of features = 4, number of classes = 3
 java -jar target/tribuo-classification-1.0-with-dependencies.jar    1.61s user 0.14s system 176% cpu 0.993 total
 ```
 See detailed [output here](tribuo-classification-example-output.txt).
+
+### `native-image` build [optional]
+In case you are running GraalVM CE or EE, you could do the below:
+
+```bash
+$ time native-image --no-fallback -jar target/tribuo-classification-1.0-with-dependencies.jar
+```
+You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](native-image-build-output.log).
+
+Once the native-image is built, you can run it with (no JDK dependencies needed):
+```bash
+$ time tribuo-classification-1.0-with-dependencies
+```
+
+You shoud see the same [output](tribuo-classification-example-output.txt) as before.
+
+_Note: You will also notice it runs faster than the `jar` version, of course this could change when the dataset and/or other end-to-end training/evaluation flow changes (**no speed guaranutees**, it will depend on various factors)._
 
 ## Scripts provided
 
