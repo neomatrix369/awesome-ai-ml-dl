@@ -9,6 +9,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 
 - [Goals](#goals)
 - [Tribuo Classification example: as a Java CLI app](#tribuo-classification-example-as-a-java-cli-app)
+  - [native-image build (optional)](#native-image-build-optional)
 - [Scripts provided](#scripts-provided)
 - [Usage](#usage)
   - [Help](#help)
@@ -33,7 +34,8 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 
 Requirements before proceeding:
 - Java 11 or higher
-- JAVA_HOME set correctly
+  - GraalVM CE or EE (to able to build a `native-image`) (optional)
+- `JAVA_HOME` set correctly
 - Maven 3.5 of higher
 
 Run the Classification example as show in the [tutorial notebook](https://github.com/oracle/tribuo/blob/main/tutorials/irises-tribuo-v4.ipynb) as a Java App run from the CLI.
@@ -76,8 +78,13 @@ java -jar target/tribuo-classification-1.0-with-dependencies.jar    1.61s user 0
 ```
 See detailed [output here](tribuo-classification-example-output.txt).
 
-### `native-image` build [optional]
-In case you are running GraalVM CE or EE, you could do the below:
+### `native-image` build (optional)
+
+Requirements before proceeding:
+- JAR build with steps from previous section
+- GraalVM CE or EE (to able to build a `native-image`)
+
+Please follow the below to be able to build a native-image from the already built jar:
 
 ```bash
 $ time native-image --no-fallback -jar target/tribuo-classification-1.0-with-dependencies.jar
