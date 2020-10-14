@@ -18,6 +18,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 - [Build the docker container](#build-the-docker-container)
 - [Push built Tribuo docker image to Docker hub](#push-built-tribuo-docker-image-to-docker-hub)
 - [Docker image on Docker Hub](#docker-image-on-docker-hub)
+- [Presentation](../../presentations/awesome-ai-ml-dl/03-makeitweek-2020/README.md)
 - [Contributing](#contributing)
 
 ## Goals
