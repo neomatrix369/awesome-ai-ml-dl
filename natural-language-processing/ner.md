@@ -57,14 +57,9 @@ Replicating experiments and baselines from ACE are a little complex since all th
 
 **3.4 Message Understanding Conference (MUC)**  
 
-MUC introduced detailed metrics in an evaluation considering different categories of errors these metrics can be defined as in terms of comparing the response of a model against golden annotation:  
+The MUC-5 Scoring System is evaluation software that aligns and scores the templates produced by the information extraction systems under evaluation in comparison to an "answer key" created by humans . The Scoring System produces comprehensive summary reports showing the overall scores for the templates in the test set ; these may be supplemented by detailed score reports showing scores for each template individually. To understand the scoring categories, see [this](https://www.aclweb.org/anthology/M93-1007.pdf)
 
-* **Correct (COR):** both are the same;   
-* **Incorrect (INC):** the output of a system and the golden annotation don’t match;    
-* **Partial (PAR):** system and the golden annotation are somewhat “similar” but not the same;   
-* **Missing (MIS):** a golden annotation is not captured by a system;  
-* **Spurius (SPU):** model produces a response which doesn’t exist in the golden annotation;  
-
+Below is a summary table with meaning of each scoring category!
 
 
 **4 Use Cases of NER**  
@@ -83,7 +78,7 @@ There are a number of ways to make the process of customer feedback procedure sm
 
 **5 Conclusion**  
 
-Named Entity Recognition has been developing continuously for over 15 years. The novel use is to extract different types of information (name, date, time, location) from the text. In addition, there are more than 20 languages and more than 200 types of entities. Most researches are interested in specific information on topic types such as news articles, web page information, etc..This provides an overview of techniques for creating a NERC system, from manual rule-based assignments to providing good and accurate results. But it comes with the time it takes to set the rules like, Supervised learning requires a large corpus that has been labeled, Semi-supervised and unsupervised learning allows for rapid recognition of entities without having to have a large labeled corpus.
+Named Entity Recognition has been developing continuously for over 15 years. The novel use is to extract different types of information (name, date, time, location) from the text. In addition, there are more than 20 languages and more than 200 types of entities. Most researches are interested in specific information on topic types such as news articles, web page information, etc...This provides an overview of techniques for creating a NERC system, from manual rule-based assignments to providing good and accurate results. But it comes with the time it takes to set the rules like, Supervised learning requires a large corpus that has been labeled, Semi-supervised and unsupervised learning allows for rapid recognition of entities without having to have a large labeled corpus.
 
 **References:**  
 📌 To know more about NER Deep learning approaches - Refer to https://www.depends-on-the-definition.com/introduction-named-entity-recognition-python/  
