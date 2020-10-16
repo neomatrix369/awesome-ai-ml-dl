@@ -89,10 +89,14 @@ Named Entity Recognition has been developing continuously for over 15 years. The
 * [“Automatic Content Extraction 2008 Evaluation Plan (ACE08)”](http://www.eng.utah.edu/~cs6961/papers/ACE-2008-description.pdf)
 * [“The Automatic Content Extraction (ACE) Program Tasks, Data, and Evaluation”](https://pdfs.semanticscholar.org/0617/dd6924df7a3491c299772b70e90507b195dc.pdf) 
 * http://www.aclweb.org/anthology/M93-1007  
-📌 Useful wrapper program/libraries: Better NLP Find about the library [here](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/better-nlp)
-📌 Other NLP libraries out there: 
-* StanfordNLP
-* Vowpal Wabbit
-* Pytext
+
+
+📌 Useful wrapper program/libraries:  **Better NLP** Find about the library [here](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/better-nlp)  
+
+📌 Other NLP libraries out there:   
+* StanfordNLP  
+* Vowpal Wabbit  
+* Pytext  
+
 
 
