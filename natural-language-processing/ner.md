@@ -60,7 +60,7 @@ Replicating experiments and baselines from ACE are a little complex since all th
 The MUC-5 Scoring System is evaluation software that aligns and scores the templates produced by the information extraction systems under evaluation in comparison to an "answer key" created by humans . The Scoring System produces comprehensive summary reports showing the overall scores for the templates in the test set ; these may be supplemented by detailed score reports showing scores for each template individually. To understand the scoring categories, see [this](https://www.aclweb.org/anthology/M93-1007.pdf)
 
 Below is a summary table with meaning of each scoring category!
-![scoring](https://github.com/UmaGunturi/awesome-ai-ml-dl/blob/master/natural-language-processing/formulae/scoring.png)
+![scoring](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/natural-language-processing/formulae/scoring.png)
 
 
 **4 Use Cases of NER**  
