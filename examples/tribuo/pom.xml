@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.neomatrix369.tribuo</groupId>
-  <artifactId>tribuo-classification</artifactId>
+  <artifactId>tribuo-machine</artifactId>
   <version>1.0</version>
 
-  <name>tribuo-classification</name>
+  <name>tribuo-machine</name>
   <packaging>jar</packaging>
 
   <properties>
@@ -77,7 +77,7 @@
                           <transformers>
                               <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                               <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                  <mainClass>org.neomatrix369.tribuo.ClassificationExample</mainClass>
+                                  <mainClass>org.neomatrix369.tribuo.TribuoMachine</mainClass>
                               </transformer>
                           </transformers>
                       </configuration>

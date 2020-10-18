@@ -13,8 +13,9 @@ import com.oracle.labs.mlrg.olcut.config.json.*;
 
 public class ClassificationExample 
 {
-    public static void main( String[] args ) throws Exception
+    public void run() throws Exception
     {
+        System.out.println("~~ Running Tribuo Machine Classification");
     	System.out.println("~~~ Loading the data");
 		var labelFactory = new LabelFactory();
 		var csvLoader = new CSVLoader<>(labelFactory);

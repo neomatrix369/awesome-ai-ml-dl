@@ -8,7 +8,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 # Table of contents
 
 - [Goals](#goals)
-- [Tribuo Classification example: as a Java CLI app](#tribuo-classification-example-as-a-java-cli-app)
+- [Tribuo examples: as a Java CLI app](#tribuo-examples-as-a-java-cli-app)
   - [native-image build (optional)](#native-image-build-optional)
 - [Scripts provided](#scripts-provided)
 - [Usage](#usage)
@@ -31,7 +31,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 - Play with and learn from with some examples for each of the libraries provided
 
 
-## Tribuo Classification example: as a Java CLI app
+## Tribuo examples: as a Java CLI app
 
 Requirements before proceeding:
 - Java 11 or higher
@@ -39,7 +39,7 @@ Requirements before proceeding:
 - `JAVA_HOME` set correctly
 - Maven 3.5 of higher
 
-Run the Classification example as show in the [tutorial notebook](https://github.com/oracle/tribuo/blob/main/tutorials/irises-tribuo-v4.ipynb) as a Java App run from the CLI.
+Run the Classification or Regression example as illustrated in the tutorial notebooks: [Classification](https://github.com/oracle/tribuo/blob/main/tutorials/irises-tribuo-v4.ipynb) | [Regression](https://github.com/oracle/tribuo/blob/main/tutorials/regression-tribuo-v4.ipynb) as a Java App run from the CLI.
 
 Perform the below steps in order to be able to build and run the example provided in the [`src` folder](src/main/java/org/neomatrix369/tribuo) in this folder:
 
@@ -50,10 +50,16 @@ $ cd awesome-ai-ml-dl/examples/tribuo
 $ mvn clean package 
 ```
 
-Once the artifact is built, you will see the artifact `target/tribuo-classification-1.0-with-dependencies.jar`, followed by this run this:
+Once the artifact is built, you will see the artifact `target/tribuo-machine-1.0-with-dependencies.jar`, followed by this run this:
 
 ```bash
-$ time java -jar target/tribuo-classification-1.0-with-dependencies.jar
+# classification example
+$ time java -jar target/tribuo-machine-1.0-with-dependencies.jar
+
+or 
+
+# regression example
+$ time java -jar target/tribuo-machine-1.0-with-dependencies.jar --regression
 ```
 
 And you will see an output that looks like this:
@@ -75,9 +81,9 @@ Testing data size = 45, number of features = 4, number of classes = 3
     "class-name" : "org.tribuo.classification.sgd.linear.LinearSGDModel"
   }
 }
-java -jar target/tribuo-classification-1.0-with-dependencies.jar    1.61s user 0.14s system 176% cpu 0.993 total
+java -jar target/tribuo-machine-1.0-with-dependencies.jar    1.61s user 0.14s system 176% cpu 0.993 total
 ```
-See detailed [output here](tribuo-classification-example-output.txt).
+See detailed [Classification output](tribuo-classification-example-output.txt) and [Regression output](tribuo-regression-example-output.txt).
 
 ### `native-image` build (optional)
 
@@ -88,16 +94,23 @@ Requirements before proceeding:
 Please follow the below to be able to build a native-image from the already built jar:
 
 ```bash
-$ time native-image --no-fallback -jar target/tribuo-classification-1.0-with-dependencies.jar
+$ time native-image --no-fallback -H:+ReportExceptionStackTraces \
+       -jar target/tribuo-machine-1.0-with-dependencies.jar
 ```
 You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](native-image-build-output.log).
 
 Once the native-image is built, you can run it with (no JDK dependencies needed):
 ```bash
-$ time tribuo-classification-1.0-with-dependencies
+# classification example
+$ time tribuo-machine-1.0-with-dependencies
+
+or
+
+# regression example
+$ time tribuo-machine-1.0-with-dependencies --regression
 ```
 
-You shoud see the same [output](tribuo-classification-example-output.txt) as before.
+You should see the same [Classification output](tribuo-classification-example-output.txt) and [Regression output](tribuo-regression-example-output.txt) as before.
 
 _Note: You will also notice it runs faster than the `jar` version, of course this could change when the dataset and/or other end-to-end training/evaluation flow changes (**no speed guaranutees**, it will depend on various factors)._
 

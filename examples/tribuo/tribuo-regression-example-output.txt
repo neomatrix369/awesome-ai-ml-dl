@@ -1,0 +1,225 @@
+~ Running Tribuo Machine
+CLI Params: [--regression]
+~~ Running Tribuo Machine Regression
+~~~ Loading the data
+~~~~~~ Splitting datasets
+Training data size = 1119, number of features = 11, number of classes = 1
+Testing data size = 480, number of features = 11, number of classes = 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Training the model ~~~
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: Training SGD regressor with 1119 examples
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: Output variable MultipleRegressionOutput({name=DIM-0,id=0,count=1119,maxMap=8.000000,min=3.000000,mean=5.647006,variance=0.652565})
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 279, average loss = 2.7349709533420157
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 558, average loss = 1.408877775216907
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 837, average loss = 0.9445969452848351
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 1116, average loss = 0.8002664450889385
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 1395, average loss = 0.8091806024292503
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 1674, average loss = 0.5223622692438902
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 1953, average loss = 0.5890725908619024
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 2232, average loss = 0.4217994892236185
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 2511, average loss = 0.4393996937103565
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 2790, average loss = 0.32625762028240196
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 3069, average loss = 0.46856892551586005
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 3348, average loss = 0.31671579111844783
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 3627, average loss = 0.3866566541779559
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 3906, average loss = 0.3436664260270478
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 4185, average loss = 0.3343234446559799
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 4464, average loss = 0.23551171421763892
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 4743, average loss = 0.2462419238329046
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 5022, average loss = 0.28665988087432265
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 5301, average loss = 0.33901409366341695
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 5580, average loss = 0.24253766189870293
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 5859, average loss = 0.27251993777250527
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 6138, average loss = 0.24306206820747406
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 6417, average loss = 0.25053060283012135
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 6696, average loss = 0.1697095860041296
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 6975, average loss = 0.2568400254966259
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 7254, average loss = 0.22286920901126028
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 7533, average loss = 0.11861592907514283
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 7812, average loss = 0.2755484609627389
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 8091, average loss = 0.19704415811644566
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 8370, average loss = 0.20376203296774126
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 8649, average loss = 0.1546543016010379
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 8928, average loss = 0.2144093491335745
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 9207, average loss = 0.2395611214209784
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 9486, average loss = 0.1508394939633052
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 9765, average loss = 0.14184088462969136
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 10044, average loss = 0.1627227343073862
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 10323, average loss = 0.23730911439862118
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 10602, average loss = 0.1555081642289615
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 10881, average loss = 0.14270551361694842
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 11160, average loss = 0.15466527527008356
+Training Linear Regression (SGD) took (00:00:00:249)
+Evaluation (train):
+  RMSE 0.979522
+  MAE 0.741870
+  R^2 -0.471611
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Evaluating the model ~~~
+Evaluation (test):
+  RMSE 0.967450
+  MAE 0.720619
+  R^2 -0.439255
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Improving over standard SGD with AdaGrad ~~~
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: Training SGD regressor with 1119 examples
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: Output variable MultipleRegressionOutput({name=DIM-0,id=0,count=1119,maxMap=8.000000,min=3.000000,mean=5.647006,variance=0.652565})
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 279, average loss = 0.8634860498602568
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 558, average loss = 0.3786265502076657
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 837, average loss = 0.2530552559093176
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 1116, average loss = 0.1848916757184356
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 1395, average loss = 0.17112792152104553
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 1674, average loss = 0.10713901873592714
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 1953, average loss = 0.10562244158479375
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 2232, average loss = 0.05402103585599369
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 2511, average loss = 0.031084882365444395
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 2790, average loss = 0.010515894663534114
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 3069, average loss = 0.11420872116719145
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 3348, average loss = -0.0013555109763545817
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 3627, average loss = 0.044403626328399
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 3906, average loss = 0.025924837504701932
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 4185, average loss = 0.021604001769087146
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 4464, average loss = 0.025864389031887734
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 4743, average loss = 0.02243646064786479
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 5022, average loss = 0.011263160952772832
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 5301, average loss = 0.03826352818729325
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 5580, average loss = 0.02380548659228583
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 5859, average loss = 0.011744566459834106
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 6138, average loss = 0.01094331541227416
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 6417, average loss = 0.006599689534445269
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 6696, average loss = 0.02403636120245149
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 6975, average loss = 0.006956154215533089
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 7254, average loss = 0.06058896224185145
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 7533, average loss = -0.04862658270643232
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 7812, average loss = 0.06292222098878862
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 8091, average loss = 0.013822902467694477
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 8370, average loss = 0.007034070916117108
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 8649, average loss = -0.0503332672997115
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 8928, average loss = 0.07183125420171667
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 9207, average loss = 0.008095171952161978
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 9486, average loss = 0.027628357879450983
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 9765, average loss = -0.014173361383996235
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 10044, average loss = 0.02610881501542875
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 10323, average loss = 0.04266486484850483
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 10602, average loss = -0.001545057852356335
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 10881, average loss = -0.013050638721721554
+Oct 18, 2020 10:56:15 AM org.tribuo.regression.sgd.linear.LinearSGDTrainer train
+INFO: At iteration 11160, average loss = 0.03571663089447978
+Training Linear Regression (AdaGrad) took (00:00:00:159)
+Evaluation (train):
+  RMSE 0.735311
+  MAE 0.575096
+  R^2 0.170709
+Evaluation (test):
+  RMSE 0.737994
+  MAE 0.585709
+  R^2 0.162497
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Trees and ensembles ~~~
+Training CART took (00:00:00:307)
+Evaluation (train):
+  RMSE 0.545205
+  MAE 0.406670
+  R^2 0.544085
+Evaluation (test):
+  RMSE 0.657900
+  MAE 0.494812
+  R^2 0.334420
+Training XGBoost took (00:00:00:301)
+Evaluation (train):
+  RMSE 0.143871
+  MAE 0.097167
+  R^2 0.968252
+Evaluation (test):
+  RMSE 0.599478
+  MAE 0.426673
+  R^2 0.447378
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

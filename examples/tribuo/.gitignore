@@ -1,4 +1,4 @@
 target
 .gradle
 build
-tribuo-classification-1.0-with-dependencies*
+tribuo*-with-dependencies*
