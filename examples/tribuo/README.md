@@ -47,7 +47,12 @@ Perform the below steps in order to be able to build and run the example provide
 $ git clone https://github.com/neomatrix369/awesome-ai-ml-dl
 $ cd awesome-ai-ml-dl/examples/tribuo
 
-$ mvn clean package 
+## build the Tribuo Machine uberjar (aka shadowjar)
+$ mvn clean package
+
+or 
+
+$ ./gradlew clean shadowjar --info
 ```
 
 Once the artifact is built, you will see the artifact `target/tribuo-machine-1.0-with-dependencies.jar`, followed by this run this:
@@ -58,8 +63,16 @@ $ time java -jar target/tribuo-machine-1.0-with-dependencies.jar
 
 or 
 
+$ time java -jar build/libs/tribuo-machine-1.0-with-dependencies.jar
+
+or 
+
 # regression example
 $ time java -jar target/tribuo-machine-1.0-with-dependencies.jar --regression
+
+or
+
+$ time java -jar build/libs/tribuo-machine-1.0-with-dependencies.jar --regression
 ```
 
 And you will see an output that looks like this:
@@ -96,6 +109,11 @@ Please follow the below to be able to build a native-image from the already buil
 ```bash
 $ time native-image --no-fallback -H:+ReportExceptionStackTraces \
        -jar target/tribuo-machine-1.0-with-dependencies.jar
+
+or
+
+$ time native-image --no-fallback -H:+ReportExceptionStackTraces \
+       -jar build/libs/tribuo-machine-1.0-with-dependencies.jar
 ```
 You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](native-image-build-output.log).
 
