@@ -52,7 +52,10 @@ $ mvn clean package
 
 or 
 
-$ ./gradlew clean shadowjar --info
+$ ./gradlew clean build --info
+
+# build only shadowJar
+$ ./gradlew clean shadowJar --info
 ```
 
 Once the artifact is built, you will see the artifact `target/tribuo-machine-1.0-with-dependencies.jar`, followed by this run this:
