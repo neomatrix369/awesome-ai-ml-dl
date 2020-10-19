@@ -3,9 +3,11 @@
  */
 
 plugins {
+    // uberjar/shadowJar config
     id 'com.github.johnrengelman.shadow' version '6.1.0'
-    id 'java'
+
     id 'application'
+    id 'java'
     id 'maven-publish'
 }
 
@@ -58,6 +60,7 @@ jar {
     }
 }
 
+// uberjar/shadowJar config
 shadowJar {
     archiveClassifier.set('with-dependencies')
 }
