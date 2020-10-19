@@ -54,14 +54,9 @@ curl -sL https://github.com/shyiko/mvnw/releases/download/0.1.0/mvnw.tar.gz | ta
 echo "Building Tribuo using Maven"
 set -x
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-./mvnw install package -fn -DskipTests -DtestFailureIgnore=true || true \
-       && echo "Skipping test failures - not ideal"
-(cd Regression/XGBoost && \
-    ../../mvnw install package -fn -DskipTests -DtestFailureIgnore=true || true \
-    && echo "Skipping test failures - not ideal")
-(cd Regression/RegressionTree \
-    && ../../mvnw install package -fn -DskipTests -DtestFailureIgnore=true || true \
-    && echo "Skipping test failures - not ideal")
+echo "Skipping test failures - not ideal, but to gain some speed"
+./mvnw install package -DskipTests
+       
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 set +x
 
