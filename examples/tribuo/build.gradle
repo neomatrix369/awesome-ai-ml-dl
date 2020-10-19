@@ -35,9 +35,10 @@ repositories {
 // Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
 
 dependencies {
-    implementation 'org.tribuo:tribuo-all:4.0.1'
-    // transitive = true // for Groovy
-    // isTransitive = true // for Kotlin
+    implementation('org.tribuo:tribuo-all:4.0.1@pom') {
+        transitive = true // for Groovy
+        // isTransitive = true // for Kotlin
+    }
 }
 
 group = 'org.neomatrix369.tribuo'
