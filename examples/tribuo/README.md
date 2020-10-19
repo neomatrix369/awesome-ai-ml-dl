@@ -99,7 +99,7 @@ Testing data size = 45, number of features = 4, number of classes = 3
 }
 java -jar target/tribuo-machine-1.0-with-dependencies.jar    1.61s user 0.14s system 176% cpu 0.993 total
 ```
-See detailed [Classification output](tribuo-classification-example-output.txt) and [Regression output](tribuo-regression-example-output.txt).
+See detailed [Classification output](outputs/tribuo-classification-example-output.txt) and [Regression output](outputs/tribuo-regression-example-output.txt).
 
 ### `native-image` build (optional)
 
@@ -118,7 +118,7 @@ or
 $ time native-image --no-fallback -H:+ReportExceptionStackTraces \
        -jar build/libs/tribuo-machine-1.0-with-dependencies.jar
 ```
-You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](native-image-build-output.log).
+You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](outputs/native-image-build-output.log).
 
 Once the native-image is built, you can run it with (no JDK dependencies needed):
 ```bash
@@ -131,7 +131,7 @@ or
 $ time tribuo-machine-1.0-with-dependencies --regression
 ```
 
-You should see the same [Classification output](tribuo-classification-example-output.txt) and [Regression output](tribuo-regression-example-output.txt) as before.
+You should see the same [Classification output](outputs/tribuo-classification-example-output.txt) and [Regression output](outputs/tribuo-regression-example-output.txt) as before.
 
 _Note: You will also notice it runs faster than the `jar` version, of course this could change when the dataset and/or other end-to-end training/evaluation flow changes (**no speed guaranutees**, it will depend on various factors)._
 
