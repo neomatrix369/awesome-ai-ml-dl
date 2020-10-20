@@ -89,8 +89,9 @@ runContainer() {
 
 	mkdir -p shared/notebooks
 
-	${TIME_IT} docker run                                        \
-	            --rm                                             \
+	pullImage tribuo
+	${TIME_IT} docker run                                      \
+	            --rm                                           \
                 ${INTERACTIVE_MODE}                            \
                 ${TOGGLE_ENTRYPOINT}                           \
                 -p ${HOST_PORT}:${CONTAINER_PORT}              \
@@ -128,19 +129,28 @@ buildImage() {
 
 pushImage() {
 	IMAGE_NAME="tribuo"
-  IMAGE_VERSION=$(cat docker-image/version.txt)
-  FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
-	
-	IMAGE_FOUND="$(findImage ${FULL_DOCKER_TAG_NAME})"
-    IS_FOUND="found"
-    if [[ -z "${IMAGE_FOUND}" ]]; then
-        IS_FOUND="not found"        
-    fi
-    echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
+	IMAGE_VERSION=$(cat docker-image/version.txt)
+	FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
-    docker tag ${IMAGE_FOUND} ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
-    docker push ${FULL_DOCKER_TAG_NAME}
+	IMAGE_FOUND="$(findImage ${FULL_DOCKER_TAG_NAME})"
+	IS_FOUND="found"
+	if [[ -z "${IMAGE_FOUND}" ]]; then
+		IS_FOUND="not found"        
+	fi
+	echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
+
+	docker tag ${IMAGE_FOUND} ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
+	docker push ${FULL_DOCKER_TAG_NAME}
 }
+
+pullImage() {
+	IMAGE_NAME="tribuo"
+	IMAGE_VERSION=$(cat docker-image/version.txt)
+	FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
+	
+	docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
+}
+
 
 pushImageToHub() {
 	askDockerUserNameIfAbsent
@@ -151,6 +161,16 @@ pushImageToHub() {
 	docker login --username=${DOCKER_USER_NAME}
 	pushImage tribuo
 }
+
+pullImageFromHub() {
+	askDockerUserNameIfAbsent
+	setVariables
+
+	echo "Pulling image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"; echo ""
+
+	pullImage tribuo
+}
+
 
 cleanup() {
 	containersToRemove=$(docker ps --quiet --filter "status=exited")
@@ -176,6 +196,7 @@ showUsageText() {
                                  --buildImage
                                  --runContainer
                                  --pushImageToHub
+                                 --pullImageFromHub								 
                                  --help
 
        --dockerUserName      your Docker user name as on Docker Hub
@@ -194,6 +215,7 @@ showUsageText() {
        --buildImage          (command action) build the docker image
        --runContainer        (command action) run the docker image as a docker container
        --pushImageToHub      (command action) push the docker image built to Docker Hub
+       --pullImageFromHub    (command action) pull the latest docker image from Docker Hub	   
        --help                shows the script usage help text
 
 HEREDOC
@@ -254,6 +276,8 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --runContainer)        runContainer;
                          exit 0;;
   --pushImageToHub)      pushImageToHub;
+                         exit 0;;
+  --pullImageFromHub)    pullImageFromHub;
                          exit 0;;
   *) echo "Unknown parameter passed: $1";
      showUsageText;
