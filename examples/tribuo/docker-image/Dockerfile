@@ -1,4 +1,4 @@
-FROM valohai/jupyhai as base-image
+FROM jupyter/datascience-notebook as base-image
 
 ### Install JDK 11 from AdoptOpenJDK images
 COPY --from=adoptopenjdk/openjdk11 /opt/java /opt/java

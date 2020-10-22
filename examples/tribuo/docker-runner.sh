@@ -40,16 +40,18 @@ openNotebookInBrowser() {
 
 	CONTAINER_ID=$(docker ps | grep "${HOST_PORT}->${CONTAINER_PORT}" | awk '{print $1}' || true)
 
-	sleep 5
+	sleep 7
 
 	echo ""; echo "Displaying the missed log messages for container ${CONTAINER_ID}"
 	docker logs ${CONTAINER_ID}
-	URL="http://localhost:${HOST_PORT}"
+
+	URL="$(docker logs ${CONTAINER_ID} | grep '8888/?token' | grep ' or http' | grep -v 'NotebookApp' | awk '{print $2}' || true)"
+	URL="${URL:-https://localhost:${HOST_PORT}}"
 	echo ""; echo "Opening Jupyter Notebook in a browser:"
 	echo " ${URL}"
 	OPEN_CMD="$(getOpenCommand)"
 	"${OPEN_CMD}" "${URL}"
-
+	
 	docker exec ${CONTAINER_ID} \
 	       /bin/bash -c         \
 	       "echo JAVA_HOME=${JAVA_HOME}; echo PATH=${PATH}; echo JDK_TO_USE=${JDK_TO_USE}; java -version"

@@ -73,7 +73,11 @@ installJar() {
 		exit -1
 	fi
 
+	# Used when using valohai/jupyhai or /opt/conda/share/jupyter/kernels as base image
 	KERNEL_CONFIG_FOLDER="/opt/conda/share/jupyter/kernels"
+	
+    # Using jupyter/repo2docker as base image
+	# KERNEL_CONFIG_FOLDER="/usr/local/share/jupyter/kernels"
 	if [[ ! -e "${KERNEL_CONFIG_FOLDER}" ]]; then
 		echo "${KERNEL_CONFIG_FOLDER} not found, try a different path"
 		exit -1
