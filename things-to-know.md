@@ -23,6 +23,8 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Cloud computing products](#cloud-computing-products)
 - [Automated pipelines](#automated-pipelines)
 - [Automated machine learning tools (or partial AutoML tools)](#automated-machine-learning-tools-or-partial-automl-tools)
+- [Tools to help manage machine learning experiments](#tools-to-help-manage-machine-learning-experiments)
+- [Publicly share or deploy your data analysis or machine learning applications](#publicly-share-or-deploy-your-data-analysis-or-machine-learning-applications)
 - [Relational database products](#relational-database-products)
 - [Other Tools](#other-tools)
 - [Contributing](#contributing)
@@ -38,12 +40,14 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - Experimentation and iteration to improve existing ML models
 - Do research that advances the state of the art of machine learning
 
+
 ## Media sources
 
 - [Hacker News](https://news.ycombinator.com/)
 - [Twitter: data science influencers](https://twitter.com)
 - [Reddit: r/machinelearning, r/datascience, etc](https://reddit.com)
 - [Kaggle: forums, blog, social media, etc](https://kaggle.com)
+- Course Forums (forums.fast.ai, Coursera forums, etc) 
 - Podcasts
   - [Chai Time Data Science](https://chaitimedatascience.com/)
   - [Linear Digressions](https://lineardigressions.com/)
@@ -58,12 +62,14 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - Journal Publications: traditional publications, preprint journals, etc
 - Course Forums: [forums.fast.ai](https://forums.fast.ai), etc
 - [YouTube](https://www.youtube.com): [Google Cloud AI Adventures](https://www.youtube.com/watch?v=HcqpanDadyQ&list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2), [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A), etc
+- Email newsletters (Data Elixir, O'Reilly Data & AI, etc) 
+
 
 ## Useful blogs to read
 
-  - [What I Learned from Writing a Data Science Article Every Week for a Year](https://towardsdatascience.com/what-i-learned-from-writing-a-data-science-article-every-week-for-a-year-201c0357e0ce?source=search_post---------0)
-  - [Why you should be a Generalist first, Specialist later as a Data Scientist?](https://towardsdatascience.com/why-you-should-be-a-generalist-first-specialist-later-as-a-data-scientist-f26d687f8c6)
-  - [Lessons from the deep end of data science slides](https://halfstackdatascience.com/wp-content/uploads/2019/11/Lessons-from-the-deep-end-of-data-science-2019-11-04.pdf) | [halfstackdatascience site](https://halfstackdatascience.com/lessons-from-the-deep-end-of-data-science)
+- [What I Learned from Writing a Data Science Article Every Week for a Year](https://towardsdatascience.com/what-i-learned-from-writing-a-data-science-article-every-week-for-a-year-201c0357e0ce?source=search_post---------0)
+- [Why you should be a Generalist first, Specialist later as a Data Scientist?](https://towardsdatascience.com/why-you-should-be-a-generalist-first-specialist-later-as-a-data-scientist-f26d687f8c6)
+- [Lessons from the deep end of data science slides](https://halfstackdatascience.com/wp-content/uploads/2019/11/Lessons-from-the-deep-end-of-data-science-2019-11-04.pdf) | [halfstackdatascience site](https://halfstackdatascience.com/lessons-from-the-deep-end-of-data-science)
 
 ## Course providers
 
@@ -76,11 +82,14 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Udacity](http://Udacity.com)
 - [Udemy](http://Udemy.com)
 - University Courses
+- Cloud-certification programs (direct from AWS, Azure, GCP, or similar)
 - [Kaggle Courses (Kaggle Learn)](https://www.kaggle.com/learn/overview)
+
 
 ## Courses
 
 See [Courses](./courses.md#courses)
+
 
 ## Primary tools to analyse data
 
@@ -94,19 +103,24 @@ See [Courses](./courses.md#courses)
 - [Dabl: Data Analysis Baseline Library](https://dabl.github.io/dev/) (just like [Pandas profiling](./data/pandas-profiling.md)) | [GitHub](https://github.com/dabl/dabl)
 - Also see resources under **Data**: [[1]](./README-details.md#data) | [[2]](./data/README.md#data)
 
+
 ## IDEs
 
-- [Vim/Emacs](https://www.vim.org/)
+- [Vim](https://www.vim.org/)
+- [Emacs](https://www.gnu.org/software/emacs/)
+- [Spacemacs: Emacs + Vim](https://www.spacemacs.org/)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Spyder](https://www.spyder-ide.org/)
 - [RStudio](https://rstudio.com/)
 - [Atom](https://ide.atom.io/)
 - [Jupyter (JupyterLab, Jupyter Notebooks, etc...)](https://jupyter.org/)
 - [Sublime Text](https://www.sublimetext.com/)
-- [Visual Studio / Visual Studio Code](https://code.visualstudio.com/)
+- [VSCode](https://code.visualstudio.com/)
+- [Visual Studio](https://visualstudio.microsoft.com/)
 - [MATLAB](https://www.mathworks.com/products/matlab.html)
 - [Notepad++](https://notepad-plus-plus.org/)
 - Also see [Cheatsheets](./details/cheatsheets.md)
+
 
 ## Hosted Notebook products
 
@@ -115,17 +129,24 @@ See [Courses](./courses.md#courses)
 - [Paperspace / Gradient](https://gradient.paperspace.com/)
 - [Code Ocean](https://codeocean.com/)
 - [AWS Notebook Products (EMR Notebooks, Sagemaker Notebooks, etc)](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-working-with.html)
+- [Amazon EMR Notebooks](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks.html)
+- [Amazon Sagemaker Studio](https://docs.aws.amazon.com/sagemaker/latest/dg/notebooks.html)
+- [Databricks Collaborative Notebooks](https://databricks.com/product/collaborative-notebooks)
 - [Google Colab](https://colab.research.google.com/)
 - [Google Cloud Notebook Products (AI Platform, Datalab, etc)](https://cloud.google.com/ai-platform-notebooks/)
+- [Google Cloud Datalab Notebooks](https://cloud.google.com/datalab/docs/how-to/working-with-notebooks)
 - [Binder / JupyterHub](https://mybinder.org/)
 - [Kaggle Notebooks (Kernels)](https://www.kaggle.com/kernels/)
 - [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio/)
 - Also see resources under [Notebooks](./notebooks/README.md#notebooks) and [Cheatsheets](./details/cheatsheets.md)
 
+
 ## Programming languages
 
+- [Swift](https://en.wikipedia.org/wiki/Swift)
 - [MATLAB](https://www.mathworks.com/products/matlab.html)
 - [R](https://en.wikipedia.org/wiki/R_(programming_language))
+- [Julia](https://en.wikipedia.org/wiki/Julia_%28programming_language%29)
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 - [Java](https://en.wikipedia.org/wiki/Java)
 - [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
@@ -135,6 +156,7 @@ See [Courses](./courses.md#courses)
 - [Python](https://www.python.org/), **also see [Programming in Python](./Programming-in-Python.md)**
 - [Typescript](https://syntaxcorrect.com/The_TypeScript_Programming_Language)
 - Also see [Cheatsheets](./details/cheatsheets.md)
+
 
 ## Data visualization libraries or tools
 
@@ -152,6 +174,7 @@ See [Courses](./courses.md#courses)
 - [Bamboolib](./data/bamboolib.md)
 - See more resources under [Visualisation](./details/visualisation.md) and [Cheatsheets](./details/cheatsheets.md)
 
+
 ## Specialized hardware
 
 - [CPUs](./cloud-devops-infra/README.md#cpu)
@@ -161,6 +184,7 @@ See [Courses](./courses.md#courses)
 - [FPGA](./cloud-devops-infra/README.md#fpga)
 - [IPU](./cloud-devops-infra/README.md#ipu)
 - See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md)
+
 
 ## Machine learning Algorithms
 
@@ -176,6 +200,7 @@ See [Courses](./courses.md#courses)
 - [Transformer Networks (BERT, gpt-2, etc)](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
 - See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning)
 
+
 ## Machine learning frameworks
 
 - [RandomForest](https://cran.r-project.org/web/packages/randomForest/index.html)
@@ -185,11 +210,19 @@ See [Courses](./courses.md#courses)
 - [Keras](https://keras.io/)
 - [Caret](https://cran.r-project.org/web/packages/caret/index.html)
 - [PyTorch](https://pytorch.org/) | Also see [PyTorch](./details/pytorch.md)
+  - PyTorch Lightening: [Homepage](pytorchlightning.ai) | [Github](github.com/PyTorchLightning/pytorch-lightning) | [Docs](pytorch-lightning.readthedocs.io/en/stable/)
 - [Fast.ai](https://docs.fast.ai/)
 - [Spark Mlib](https://spark.apache.org/mllib/)
 - [Scikit-learn](https://scikit-learn.org/stable/)
 - [Xgboost](https://xgboost.readthedocs.io/en/latest/)
+- [CatBoost](https://catboost.ai/docs/)
+- [H2O 3](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html/)
+- [Prophet](https://facebook.github.io/prophet/)
+- [Tidymodels](https://github.com/tidymodels/tidymodels)
+- [MXNet](https://github.com/apache/incubator-mxnet/)
+- [JAX](https://github.com/google/jax/)
 - See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning) and [Cheatsheets](./details/cheatsheets.md)
+
 
 ## Machine learning products
 
@@ -218,6 +251,10 @@ See [Courses](./courses.md#courses)
 - [Microsoft Analysis Services](https://azure.microsoft.com/en-us/services/analysis-services/)
 - [Google BigQuery](https://cloud.google.com/bigquery/)
 - [Databricks](https://databricks.com/)
+- [Microsoft Azure Data Lake Storage](https://azure.microsoft.com/en-us/services/storage/data-lake-storage/#overview)
+- [Apache Spark](https://spark.apache.org/)
+- [Apache Hive](https://hive.apache.org/)
+- [Apache Pig](https://pig.apache.org/)
 - See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools), [Databases](./data/README.md#databases) and [Cheatsheets](./details/cheatsheets.md)
 
 
@@ -233,6 +270,7 @@ See [Courses](./courses.md#courses)
 - [Amazon Web Services (AWS)](https://aws.amazon.com)
 - [Microsoft Azure](https://azure.microsoft.com/en-us/)
 - [Salesforce Cloud](https://www.salesforce.com/products/sales-cloud/features/)
+- [Tencent Cloud](https://intl.cloud.tencent.com)
 - See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
@@ -258,8 +296,9 @@ See [Courses](./courses.md#courses)
 - [Automated feature engineering/selection (e.g. tpot, boruta_py)](https://www.featuretools.com/)
 - [Automated model selection (e.g. auto-sklearn, xcessiv)](https://stats.stackexchange.com/questions/20836/algorithms-for-automatic-model-selection)
 - [Automated model architecture searches (e.g. darts, enas)](https://www.fast.ai/2018/07/16/auto-ml2/)
-- [Automated hyperparameter tuning (e.g. hyperopt, ray.tune](https://databricks.com/blog/2019/07/18/automated-hyperparameter-tuning-scaling-and-tracking-on-demand-webinar-and-faqs-now-available.html)
+- [Automated hyperparameter tuning (e.g. hyperopt, ray.tune, Vizier)](https://databricks.com/blog/2019/07/18/automated-hyperparameter-tuning-scaling-and-tracking-on-demand-webinar-and-faqs-now-available.html)
 - [Automated Machine Learning Hyperparameter Tuning in Python](https://www.datasciencecentral.com/profiles/blogs/automated-machine-learning-hyperparameter-tuning-in-python-a) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_automated-machine-learning-hyperparameter-activity-6650229303994826752-H7Pi)
+- Automation of full ML pipelines (e.g. Google AutoML, H20 Driverless AI)
 - [Machine Learning incl. #AutoML overfits. On a mission to develop Causal AI](https://www.linkedin.com/posts/causalens_causal-ai-commodity-trading-use-case-activity-6637402428813692928-TuVM)
 - Automation of full ML pipelines: (e.g. [Google AutoML](https://cloud.google.com/automl/), [H2O Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/))
 - See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
@@ -279,6 +318,32 @@ See [Courses](./courses.md#courses)
 - [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/)
 - See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./details/cheatsheets.md)
 
+
+## Tools to help manage machine learning experiments
+* [Valohai](https://valohai.ai/)
+* [Neptune.ai](https://neptune.ai/)
+* [Weights & Biases](https://www.wandb.com/)
+* [Comet.ml](https://www.comet.ml/site/)
+* [Sacred + Omniboard](https://github.com/IDSIA/sacred/)
+* [TensorBoard](https://www.tensorflow.org/tensorboard/)
+* [Polyaxon](https://guild.ai/ Guild.ai https://polyaxon.com/)
+* [Trains](https://github.com/allegroai/trains/)
+* [Domino Model Monitor](https://www.dominodatalab.com/product/domino-model-monitor/)
+* [Apache Airflow](https://airflow.apache.org/)
+
+
+## Publicly share or deploy your data analysis or machine learning applications
+
+* [Plotly Dash](https://plotly.com/dash/)
+* [Streamlit](https://www.streamlit.io/)
+* [NBViewer](https://nbviewer.jupyter.org/)
+* [Binder](https://mybinder.org/)
+* [GitHub](https://github.com/)
+* [Personal blog](https://medium.com/)
+* [Kaggle](https://www.kaggle.com/)
+* [Colab](https://colab.research.google.com)
+
+
 ## Relational database products 
 
 - [Oracle Database](https://www.oracle.com/database/index.html)
@@ -291,7 +356,31 @@ See [Courses](./courses.md#courses)
 - [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
 - [MySQL](https://www.mysql.com/)
 - [Google Cloud SQL](https://cloud.google.com/sql/docs/)
+- [Google Cloud Firestore](https://cloud.google.com/firestore)
+- [MongoDB](https://www.mongodb.com)
+- [Snowflake](https://www.snowflake.com)
+- [IBM Db2](https://www.ibm.com/analytics/db2)
 - See other resources under [Databases](./data/README.md#databases) and [Cheatsheets](./details/cheatsheets.md)
+
+
+## Business intelligence tools
+
+* [Amazon QuickSight](https://aws.amazon.com/quicksight/)
+* [Microsoft Power BI](https://powerbi.microsoft.com/en-us/)
+* [Google Data Studio](https://datastudio.google.com)
+* [Tableau](https://www.tableau.com/solutions/salesforce)
+* [Qlik](https://www.qlik.com/us/)
+* [Domo](https://www.domo.com/)
+* [TIBCO Spotfire](https://www.tibco.com/products/tibco-spotfire)
+* [Alteryx](https://www.alteryx.com/)
+* [Sisense](https://www.sisense.com/)
+* [SAP Analytics Cloud](https://www.sapanalytics.cloud/product)
+* [Snowplow Analytics](https://snowplowanalytics.com/)
+* [Looker](https://cloud.google.com/looker)
+* [ChartIO: Cloud-based data analytics exploration for all](https://chartio.com/)
+* [Salesforce](https://www.salesforce.com/)
+* [Einstein Analytics](https://www.salesforce.com/products/einstein-analytics/overview/)
+
 
 ## Other Tools
 
@@ -299,6 +388,7 @@ See [Courses](./courses.md#courses)
 - [Latex](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/tools/latex/latex.md)
 - [Regex](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/tools/regex/regex.ipynb)
 - [Wolfram Alpha](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/tools/wolfram-alpha/wolfram-alpha.md)
+
 
 # Contributing
 
