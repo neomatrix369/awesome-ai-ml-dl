@@ -6,6 +6,9 @@
 - [NumPy aware dynamic Python compiler using LLVM ](https://github.com/ameroueh/numba) | [Numba](http://numba.pydata.org/)
 - [Profiling in Python](https://github.com/mkunesch/profiling-talk) - by [Markus Kunesch](https://github.com/mkunesch)
   - Profiling: [Profiling with Pycharm 1](https://stackoverflow.com/questions/32926847/profiling-a-python-program-with-pycharm-or-any-other-ide#32926882) | [Profiling with Pycharm 2](https://softwaretester.info/python-profiling-with-pycharm-community-edition/) | [PyCharm and cProfile](https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000057970-Is-there-a-way-to-force-PyCharm-to-use-cProfile-) | [Call tree with Python Profilers](https://stackoverflow.com/questions/4544784/how-can-you-get-the-call-tree-with-python-profilers) | [Call Graph: Python](https://github.com/ianozsvald/callgraph_james_powell) | [James Powel video on Call Graph: Python](https://twitter.com/dontusethiscode)
+  - [Scalene](https://github.com/emeryberger/scalene)
+  - [pytest-benchmark](https://pypi.org/project/pytest-benchmark/)
+  - [VizTracer](https://github.com/gaogaotiantian/viztracer)
 - Speed up Python/Pandas
   - [How to optimise your Pandas code](https://kanoki.org/2019/01/09/how-to-optimize-your-pandas-code/)
   - [Python Itertools: For a faster and memory efficient code](https://kanoki.org/2019/02/08/python-itertools/)
