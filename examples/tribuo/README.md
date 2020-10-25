@@ -56,7 +56,17 @@ $ ./gradlew clean build --info
 
 # build only shadowJar
 $ ./gradlew clean shadowJar --info
+
+
+# using the builder.sh script
+## build uber jar via mvn as the build tool
+./builder.sh --buildUberJar
+
+## build uber jar via gradle as the build tool
+./builder.sh --build-tool gradle --buildUberJar
 ```
+
+
 
 Once the artifact is built, you will see the artifact `target/tribuo-machine-1.0-with-dependencies.jar`, followed by this run this:
 
@@ -110,25 +120,26 @@ Requirements before proceeding:
 Please follow the below to be able to build a native-image from the already built jar:
 
 ```bash
-$ time native-image --no-fallback -H:+ReportExceptionStackTraces \
-       -jar target/tribuo-machine-1.0-with-dependencies.jar
+## build native-image from the mvn built artifact (jar file in target folder)
+./builder.sh --extract
+./builder.sh --buildNativeImage
 
-or
-
-$ time native-image --no-fallback -H:+ReportExceptionStackTraces \
-       -jar build/libs/tribuo-machine-1.0-with-dependencies.jar
+## build native-image from the gradle built artifact (jar file in build/libs folder)
+./builder.sh --build-tool gradle --extract
+./builder.sh --build-tool gradle --buildNativeImage
 ```
+
 You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](outputs/native-image-build-output.log).
 
 Once the native-image is built, you can run it with (no JDK dependencies needed):
 ```bash
 # classification example
-$ time tribuo-machine-1.0-with-dependencies
+$ time ./tribuo-machine-1.0-with-dependencies
 
 or
 
 # regression example
-$ time tribuo-machine-1.0-with-dependencies --regression
+$ time ./tribuo-machine-1.0-with-dependencies --regression
 ```
 
 You should see the same [Classification output](outputs/tribuo-classification-example-output.txt) and [Regression output](outputs/tribuo-regression-example-output.txt) as before.

@@ -2,3 +2,4 @@ target
 .gradle
 build
 tribuo*-with-dependencies*
+META-INF

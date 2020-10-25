@@ -1,16 +1,19 @@
-[tribuo-classification-1.0-with-dependencies:1607]    classlist:  10,863.83 ms,  0.96 GB
-[tribuo-classification-1.0-with-dependencies:1607]        (cap):   4,333.40 ms,  0.96 GB
-[tribuo-classification-1.0-with-dependencies:1607]        setup:  12,774.00 ms,  0.96 GB
-[tribuo-classification-1.0-with-dependencies:1607]     (clinit):     719.49 ms,  2.59 GB
-[tribuo-classification-1.0-with-dependencies:1607]   (typeflow):  39,522.00 ms,  2.59 GB
-[tribuo-classification-1.0-with-dependencies:1607]    (objects):  33,084.83 ms,  2.59 GB
-[tribuo-classification-1.0-with-dependencies:1607]   (features):   1,718.02 ms,  2.59 GB
-[tribuo-classification-1.0-with-dependencies:1607]     analysis:  76,661.66 ms,  2.59 GB
-[tribuo-classification-1.0-with-dependencies:1607]     universe:   2,274.06 ms,  2.59 GB
-[tribuo-classification-1.0-with-dependencies:1607]      (parse):  13,905.49 ms,  2.59 GB
-[tribuo-classification-1.0-with-dependencies:1607]     (inline):  18,593.38 ms,  3.38 GB
-[tribuo-classification-1.0-with-dependencies:1607]    (compile): 167,926.32 ms,  4.61 GB
-[tribuo-classification-1.0-with-dependencies:1607]      compile: 205,588.75 ms,  4.61 GB
-[tribuo-classification-1.0-with-dependencies:1607]        image:   8,909.69 ms,  4.93 GB
-[tribuo-classification-1.0-with-dependencies:1607]        write:   2,679.96 ms,  4.93 GB
-[tribuo-classification-1.0-with-dependencies:1607]      [total]: 320,619.87 ms,  4.93 GB
+[./tribuo-machine-1.0-with-dependencies:6249]    classlist:   8,670.34 ms,  0.96 GB
+[./tribuo-machine-1.0-with-dependencies:6249]        (cap):   3,150.19 ms,  0.96 GB
+[./tribuo-machine-1.0-with-dependencies:6249]        setup:  10,909.13 ms,  0.96 GB
+WARNING: Could not register reflection metadata for org.apache.commons.logging.impl.Log4JLogger. Reason: java.lang.NoClassDefFoundError: org/apache/log4j/Priority.
+WARNING: Could not register reflection metadata for org.apache.commons.logging.impl.Log4JLogger. Reason: java.lang.NoClassDefFoundError: org/apache/log4j/Priority.
+WARNING: Could not register reflection metadata for org.apache.commons.logging.impl.Log4JLogger. Reason: java.lang.NoClassDefFoundError: org/apache/log4j/Priority.
+[./tribuo-machine-1.0-with-dependencies:6249]     (clinit):     718.74 ms,  1.89 GB
+[./tribuo-machine-1.0-with-dependencies:6249]   (typeflow):  24,601.72 ms,  1.89 GB
+[./tribuo-machine-1.0-with-dependencies:6249]    (objects):  24,979.83 ms,  1.89 GB
+[./tribuo-machine-1.0-with-dependencies:6249]   (features):   1,625.40 ms,  1.89 GB
+[./tribuo-machine-1.0-with-dependencies:6249]     analysis:  53,002.36 ms,  1.89 GB
+[./tribuo-machine-1.0-with-dependencies:6249]     universe:   2,362.23 ms,  1.89 GB
+[./tribuo-machine-1.0-with-dependencies:6249]      (parse):  12,619.28 ms,  1.89 GB
+[./tribuo-machine-1.0-with-dependencies:6249]     (inline):   9,037.57 ms,  2.54 GB
+[./tribuo-machine-1.0-with-dependencies:6249]    (compile): 137,657.52 ms,  4.78 GB
+[./tribuo-machine-1.0-with-dependencies:6249]      compile: 163,287.59 ms,  4.78 GB
+[./tribuo-machine-1.0-with-dependencies:6249]        image:   9,142.49 ms,  4.78 GB
+[./tribuo-machine-1.0-with-dependencies:6249]        write:   1,934.76 ms,  4.78 GB
+[./tribuo-machine-1.0-with-dependencies:6249]      [total]: 250,247.06 ms,  4.78 GB
