@@ -53,6 +53,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Two years in the life of AI, ML, DL and Java](https://medium.com/@neomatrix369/two-years-in-the-life-of-ai-ml-dl-and-java-6bfe6eb8182a)
   - [Oracle AI blog posts](https://blogs.oracle.com/ai/)
   - [H2O.ai Driverless on Oracle Cloude Infrastructure](https://blogs.oracle.com/cloud-infrastructure/h2oai-driverless-ai-cruises-on-oracle-cloud-infrastructure-gpus)
+  - [Java AI libraries with Gluon Mobile](https://gluonhq.com/java-ai-libraries-with-gluon-mobile/)
 
 ## Classifier / decision trees
 
@@ -97,6 +98,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Neural Networks and Decision Trees](https://www.youtube.com/watch?v=v0bv0HTboOg) by [Ryutaro Tanno](https://rt416.github.io/)
   - [predestination: Conway's Game of Life](https://github.com/SamirTalwar/predestination) by [Samir Talwar](https://github.com/SamirTalwar/) | [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
   - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
+  - [Introduction to Machine Learning and Neural Networks for Java Developers](https://blogs.oracle.com/developers/introduction-to-machine-learning-and-neural-networks-for-java-developers)
 
 ## Recommendation systems / Collaborative Filtering (CF)
 
@@ -130,6 +132,8 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 - [Angel-ML: high-performance distributed machine learning platform (Java-base, Linux Foundation)](https://lfai.foundation/projects/angel-ml/)
 - [Machine Learning in Oracle Database](https://blogs.oracle.com/machinelearning/machine-learning-in-oracle-database)
+- [Building Models of Java Code from Source and JAR Files](https://bit.ly/2Mfxt5P)
+- [Introduction to Machine Learning and Neural Networks for Java Developers](https://blogs.oracle.com/developers/introduction-to-machine-learning-and-neural-networks-for-java-developers)
 - See [Java/JVM](../courses.md#javajvm) in [Courses](../courses.md)
 - See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
 - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
@@ -151,6 +155,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [DL4J: Deep Learning for Java](https://deeplearning4j.org/) | [Docs/Guide](https://deeplearning4j.org/docs/latest/) | [Quickstart](https://deeplearning4j.org/docs/latest/deeplearning4j-quickstart) | [Tutorial](https://deeplearning4j.org/tutorials/setup) | [Roadmap for Beginners](https://deeplearning4j.org/docs/latest/deeplearning4j-beginners) | [DL4J Eclipse GitHub](https://github.com/eclipse/deeplearning4j) | DL4J Examples: [GitHub](https://github.com/deeplearning4j/dl4j-examples) o [Semantic site](https://semantive.com/deep-learning-examples/) o [Examples Tour](https://deeplearning4j.org/docs/latest/deeplearning4j-examples-tour)| [Setup Environment](https://www.tutorialkart.com/machine-learning/setup-environment-for-deep-learning-with-deeplearning4j/) | [Using DL4J](https://www.quora.com/How-do-I-use-deep-learning-in-Java) | Support: [gitter.im](https://gitter.im/deeplearning4j/deeplearning4j/) o [gitter guidelines](https://github.com/eclipse/deeplearning4j/blob/master/deeplearning4j/GITTER_GUIDELINES.md) o [GitHub Issues](https://github.com/deeplearning4j/deeplearning4j/issues) o [Stackoverflow](https://stackoverflow.com/search?tab=newest&q=deeplearning4j)
   - [DL Workshop at Devoxx UK 2018](https://github.com/davesnowdon/devoxxuk2018-dl-workshop) by [davesnowdon](https://github.com/davesnowdon)
   - [ND4J (Wikipedia)](https://en.wikipedia.org/wiki/ND4J_(software) | [ND4J in DL4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
+  - ND4J: Scientific Computing on the JVM: [1](https://github.com/deeplearning4j/nd4j) [2](https://github.com/deeplearning4j/libnd4j)
   - [How to do Deep Learning for Java?](https://medium.com/@neomatrix369/how-to-do-deep-learning-for-java-on-the-valohai-platform-eec8ba9f71d8) | [Original post](https://blog.valohai.com/how-to-do-deep-learning-for-java-on-the-valohai-platform?from=3oxenia9mtr6)
   - [Free AI Training - Java-based deep-learning tools to analyze and train data, then send the resulting changes back to the server](https://www.youtube.com/watch?v=MXH_nn1dmsE) ([Tweet](https://twitter.com/java/status/1071422649501409280))
   - [Deep Learning Resources](https://skymind.com/wiki/deeplearning-research-papers)
@@ -178,6 +183,8 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Tensorflow Java - optimizers](https://github.com/Craigacp/tensorflow-java/tree/optimizers )
   - [Tensorflow Java - optimizers (MNIST)](https://github.com/Craigacp/tensorflow-java/blob/optimizers/tensorflow-sandbox/src/main/java/org/tensorflow/sandbox/MNISTTest.java )
   - [Tensorflow SIG](https://gitter.im/tensorflow/sig-io)
+  - [Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity.](https://www.linkedin.com/posts/philipvollet_deeplearning-apache-opensource-activity-6695531619316486144-2K9V)
+  - [Tornedo VM](https://github.com/beehive-lab/TornadoVM)
 
 ## Java Specification Requests
 

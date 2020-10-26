@@ -42,7 +42,7 @@
 - [Data preparation for factor analysis](https://www.linkedin.com/posts/data-science-central_data-preparation-for-factor-analysis-activity-6608507889915092992-T1Vv)
 - [7 Pandas Functions to Reduce Your Data Manipulation Stress by Andre Ye](https://towardsdatascience.com/7-pandas-functions-to-reduce-your-data-manipulation-stress-25981e44cc7d) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_7-pandas-functions-to-reduce-your-data-manipulation-activity-6655006784069214208-R9Zn)
 - [Data Prepossessing](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-aertificialintellegence-activity-6657362083665018880-2rzc)
-
+- 
 ### Transformations
 
 - [How to Use Quantile Transforms for Machine Learning](https://machinelearningmastery.com/quantile-transforms-for-machine-learning/)
@@ -57,6 +57,7 @@
 
 ## Misc
 
+- [Pandera - Pandas data validation](https://www.linkedin.com/posts/madewithml_path-explain-made-with-ml-activity-6691703758189150208-KUwr)
 - [Data Preparation for Data Mining](http://www.temida.si/~bojan/MPS/materials/Data_preparation_for_data_mining.pdf)
 - [Learning with Limited Labeled Data with Shioulin Sam](https://twimlai.com/twiml-talk-255-learning-with-limited-labeled-data-with-shioulin-sam/)
 - See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model

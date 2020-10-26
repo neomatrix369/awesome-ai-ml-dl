@@ -19,6 +19,7 @@ The question to ask ourselves: _Do we know our data...?_
 - [Feature Selection](./README.md#feature-selection)
 - [Feature Importance](./README.md#feature-importance)
 - [Feature Engineering](./README.md#feature-engineering)
+- [Hyperparameter tuning](#hyperparameter-tuning)
 - [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
 - [Model deployment](./README.md#model-deployment)
 - [Statistics](./README.md#statistics)
@@ -111,13 +112,22 @@ See [Feature Selection](./feature-selection.md)
 - [LightGBM model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/lightgbm_feature_importance_tutorial.ipynb)
 - [The 4 types of additive Feature Importances](https://twitter.com/TDataScience/status/1264958410405171202)
 - [The Math of Random Forests and Feature Importance in Scikit-learn and Spark](https://www.linkedin.com/posts/data-science-central_the-math-of-decision-trees-random-forest-activity-6656775689431240705-kwf_)
+- Path Explain - toolkit for feature attributions: [GitHub](https://github.com/suinleelab/path_explain) | [PyPI](https://pypi.org/project/path-explain/) | [Path Explain on MWML](https://madewithml.com/projects/1931/path-explain/)
 
 ## Feature engineering
 
 See [Feature engineering](./feature-engineering.md)
 
-## Post model-creation analysis, ML interpretation/explainability
+## Hyperparameter tuning
 
+- [Ray Tune Sweeps](https://docs.wandb.com/sweeps/ray-tune)
+- [W&B Sweeps](https://docs.wandb.com/sweeps)
+- [Automated Machine Learning Hyperparameter Tuning in Python](https://www.linkedin.com/posts/vincentg_automated-machine-learning-hyperparameter-activity-6693176296077348864-7Ihf)
+
+## Post model-creation analysis, ML interpretation/explainability
+- [Pruning: DL models](https://www.subhadityamukherjee.me/2020/09/25/Pruning.html)
+- [Pruning models](https://app.wandb.ai/authors/pruning/reports/Plunging-into-Model-Pruning-in-Deep-Learning--VmlldzoxMzcyMDg](https://app.wandb.ai/authors/pruning/reports/Scooping-into-Model-Pruning-in-Deep-Learning--VmlldzoxMzcyMDg?utm_source=social_slack&utm_medium=slack&utm_campaign=report_author)
+- [Poor Man’s BERT • Exploring Pruning as an Alternative to Knowledge Distillation.](https://www.linkedin.com/posts/philipvollet_nlp-nlproc-innovation-activity-6693396556227473408--3Ro)
 See [Post model-creation analysis, ML interpretation/explainability](./model-analysis-interpretation-explainability.md)
 
 ## Model deployment

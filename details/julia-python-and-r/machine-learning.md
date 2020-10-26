@@ -68,6 +68,9 @@
   - Grid search & Tuning Hyperparameters
     - [Parallel grid search H2O](https://www.linkedin.com/posts/pavel-pscheidl-19b15990_parallel-grid-search-in-h2o-activity-6623902801170964480-nV82)
     - [Selecting and Tuning Hyperparameters](https://www.linkedin.com/posts/alastairkerrmuir_hyperparameter-selection-and-tuning-meetup-ugcPost-6621172444340240384-9WBj)
+    - [Ray Tune Sweeps](https://docs.wandb.com/sweeps/ray-tune)
+    - [W&B Sweeps](https://docs.wandb.com/sweeps)
+    - [Automated Machine Learning Hyperparameter Tuning in Python](https://www.linkedin.com/posts/vincentg_automated-machine-learning-hyperparameter-activity-6693176296077348864-7Ihf)
   - [👉 Rules of Machine Learning 👈](https://www.linkedin.com/posts/asif-bhat_rules-of-machine-learning-activity-6641688922382536704-9qVG)
   - [✍ Machine Learning - Lecture Notes ✍ Credits - Sebastian Raschka](https://www.linkedin.com/posts/asif-bhat_machine-learning-notes-activity-6645970418664636416-7x7K)
   - [Machine Learning in Parallel with Support Vector Machines, Generalized Linear Models, and Adaptive Boosting](https://www.linkedin.com/posts/data-science-central_machine-learning-in-parallel-with-support-activity-6651994434005200898-XhsG)
