@@ -16,6 +16,7 @@
   - [High-Performance Pandas: eval() and query()](https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html)
   - [Fast, Flexible, Easy and Intuitive: How to Speed Up Your Pandas Projects](https://realpython.com/fast-flexible-pandas)
   - [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+  - [How do you speed up your numerical calculations in Numpy and Pandas? Using a small library called NumExpr with symbolic expression and other cool tricks.](https://www.linkedin.com/posts/ajitjaokar_speed-up-your-numpy-and-pandas-with-numexpr-activity-6680574379069440000-kyQ3)
   - [Speeding up python code using numpy](https://www.kdnuggets.com/2019/06/speeding-up-python-code-numpy.html)
   - [Using Cython Nuitka Numba ShedSkin Pythran Transonic](https://twitter.com/ianozsvald/status/1226436048428900353)
   - [using Dask / Vaex / Modin to speed up Pandas-like operations](https://twitter.com/ianozsvald/status/1225748724363780096)
@@ -43,6 +44,7 @@
   - [numba.vectorize()](https://numba.pydata.org/numba-doc/dev/user/vectorize.html)
   - [Fast, Flexible, Easy and Intuitive: How to Speed Up Your Pandas Projects](https://realpython.com/fast-flexible-pandas/) (See **Vectorization** section towards lower half of the page)
   - [Chapter 4. NumPy Basics: Arrays and Vectorized Computation by Wes McKinney](https://learning.oreilly.com/library/view/python-for-data/9781449323592/ch04.html)
+  - [Backtest Trading Strategies with Pandas — Vectorized Backtesting](https://towardsdatascience.com/backtest-trading-strategies-with-pandas-vectorized-backtesting-26001b0ba3a5?source=social.tw)
 - [numba](http://numba.pydata.org/)
   - [Using numba](https://tedboy.github.io/pandas/enhancingperf/enhancingperf2.html)
   - [Performance Tips](http://numba.pydata.org/numba-doc/latest/user/performance-tips.html)
@@ -88,6 +90,7 @@
   - [Flying Pandas - Dask, Modin and Vaex (Remote Pizza Python 2020)](https://speakerdeck.com/ianozsvald/flying-pandas-modin-dask-and-vaex) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
   - [Tools for Higher Performance python (ODSC 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python-odsc-2019) | [Blog](https://ianozsvald.com/2019/11/22/higher-performance-python-odsc-2019/)
   - [Tools for Higher Performance python (PyDataCambridge 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python) | [Blog](https://ianozsvald.com/2019/11/16/higher-performance-python-at-pydatacambridge-2019/)
+  - [Sprinting Pandas](https://speakerdeck.com/ianozsvald/sprinting-pandas-at-odsc-2020)
   - [High Performance Python book by Ian Ozvald & Micha Gorelick](https://www.amazon.co.uk/High-Performance-Python-Performant-Programming/dp/1492055026/ref=sr_1_1?dchild=1&keywords=High+Performance+Python&qid=1603742945&sr=8-1) | [High Performance Python book examples github repo](https://github.com/mynameisfiber/high_performance_python_2e)
 - Performance highlights (notes)
   - best practice - when and how to focus on performance

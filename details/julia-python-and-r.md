@@ -86,6 +86,7 @@
   - [Understand the Impact of Learning Rate on Neural Network Performance](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
   - [Andrej Karpathy’s blog post: Neural Network recipes](http://karpathy.github.io/2019/04/25/recipe/)
   - [Spektral is a Python library for graph deep learning, based on the Keras API and TensorFlow 2](https://github.com/danielegrattarola/spektral/)
+  - [PyGLN Gated Linear Network (GLN implementations for NumPy, PyTorch, TensorFlow and JAX: A new family of neural networks introduced by DeepMind](https://www.linkedin.com/posts/philipvollet_machinelearning-neuralnetwork-network-activity-6693036479427563520-AYtm)
 
   ## Generative Adversarial Network (GAN)
 
@@ -94,7 +95,7 @@
    - [Collection of generative models, e.g. GAN, VAE in Pytorch and Tensorflow](https://github.com/wiseodd/generative-models)
    - [A probabilistic programming language in TensorFlow. Deep generative models, variational inference](https://github.com/blei-lab/edward)
    - [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/pdf/1805.06605.pdf)
-   - [GAN Playground](https://reiinakano.com/gan-playground/
+   - [GAN Playground](https://reiinakano.com/gan-playground/)
 
   ## Genetic Algorithms
 

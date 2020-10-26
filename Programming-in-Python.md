@@ -58,6 +58,7 @@
 - [Python Machine Learning Mini-Course](https://machinelearningmastery.com/python-machine-learning-mini-course/)
 - [5 free books for learning Python for DS](https://towardsdatascience.com/5-free-books-for-learning-python-for-data-science-87be443c084)
 - [7 advanced tricks in pandas for data science](https://www.linkedin.com/posts/towards-data-science_7-advanced-tricks-in-pandas-for-data-science-activity-6655303741224423424-SJtU)
+- [Sqlite saving numpy serialised into the database](https://github.com/ebmdatalab/openprescribing/tree/master/openprescribing/matrixstore)
 
 ## Courses
 
@@ -111,9 +112,6 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 ## Services, other resources
 - [The first real-time semantic code analysis - powered by AI](https://semmle.com/ - A code analysis platform for finding zero-days and automating variant analysis.](deepcode.ai) | [GitHub](https://github.com/DeepCodeAI)
 - [Python Zero to Hero - Ep.12 - Python linting and auto-formating](https://dev.to/cheukting_ho/python-zero-to-hero-ep-12-python-linting-and-auto-formating-p55)
-- [Python Zero to Hero - Ep.10 - More Pytest and Mock](https://dev.to/cheukting_ho/python-zero-to-hero-ep-10-more-pytest-and-mock-55e6)
-- [Python Zero to Hero - Ep.7 - Unit testing with Pytest](https://dev.to/cheukting_ho/python-zero-to-hero-ep-7-unit-testing-with-pytest-1al6)
-- [Python Zero to Hero - Ep.11 - Python property-based testing](https://dev.to/cheukting_ho/python-zero-to-hero-ep-11-python-property-based-testing-1692)
 - [Nine simple steps for better-looking python code](https://towardsdatascience.com/nine-simple-steps-for-better-looking-python-code-87e5d9d3b1cf)
 
 ## Cookie cutter: Python project templates
@@ -191,6 +189,10 @@ with nothing but Python
 - [An Introduction to Mocking in Python](https://www.toptal.com/python/an-introduction-to-mocking-in-python)
 - [PyCharm: Testing Your First Python Application](https://www.jetbrains.com/help/pycharm/testing-your-first-python-application.html)
 - [unittest — Unit testing framework](https://docs.python.org/2/library/unittest.html)
+- [Python Zero to Hero - Ep.10 - More Pytest and Mock](https://dev.to/cheukting_ho/python-zero-to-hero-ep-10-more-pytest-and-mock-55e6)
+- [Python Zero to Hero - Ep.7 - Unit testing with Pytest](https://dev.to/cheukting_ho/python-zero-to-hero-ep-7-unit-testing-with-pytest-1al6)
+- [Python Zero to Hero - Ep.11 - Python property-based testing](https://dev.to/cheukting_ho/python-zero-to-hero-ep-11-python-property-based-testing-1692)
+- [Backtest Trading Strategies with Pandas — Vectorized Backtesting](https://towardsdatascience.com/backtest-trading-strategies-with-pandas-vectorized-backtesting-26001b0ba3a5?source=social.tw)
 
 ### Machine Learning
 
