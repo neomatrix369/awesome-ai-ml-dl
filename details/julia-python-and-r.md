@@ -26,7 +26,6 @@
    - [Large-scale linear classification, regression and ranking in Python](https://github.com/scikit-learn-contrib/lightning)
    - [AutoKeras: The Killer of Google’s AutoML](https://towardsdatascience.com/autokeras-the-killer-of-googles-automl-9e84c552a319)
    - [A curated list of research, applications and projects built using H2O Machine Learning](https://github.com/h2oai/awesome-h2o) | [H2O GitHub org](https://github.com/h2oai/)
-   - [Tutorial: Advanced Jupyter Notebooks](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/)
    - [Scipy Lecture Notes: One document to learn numerics, science, and data with Python](http://scipy-lectures.org/)
    - [Web Scraping - It’s Your Civic Duty](https://pbpython.com/web-scraping-mn-budget.html)
    - [Python for Computational Science and Engineering (book)](http://www.southampton.ac.uk/~fangohr/teaching/python/book.html)
@@ -37,6 +36,17 @@
      - Part A: https://www.youtube.com/watch?v=p0snNMCbvN4&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=8
      - Part B: https://www.youtube.com/watch?v=j4IgXflsZtg&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=9
      - Part C: https://www.youtube.com/watch?v=kHZmFVDm0QQ&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=10
+  
+  ### Jupyter
+
+  - [handcalcs: a library to render Python calculation code automatically in Latex for your Jupyter Notebook!](https://www.linkedin.com/posts/philipvollet_datascience-python-datascientist-activity-6703912203441070080-5BHm)
+  - [The Uncompromising Python Code Formatter also for your Jupyter Notebook!](https://www.linkedin.com/posts/philipvollet_python-jupyternotebook-programming-activity-6722049722435158017-3XuZ)
+  - [ipygany: Jupyter into the third dimension](https://www.linkedin.com/posts/philipvollet_datascience-jupyter-innovation-activity-6722236336453099520-pmfo)
+  - [Visual Jupyter Notebook Pipeline editor for building Notebook-based AI pipelines, simplifying the conversion of multiple notebooks into batch jobs or workflow](https://www.linkedin.com/posts/stevenouri_technology-datascience-machinelearning-activity-6690535922452299776-J1YR)
+  - [Jupyter Notebooks sidebar for memory](https://github.com/yuvipanda/nbresuse)
+  - [A JupyterLab extension for displaying dashboards of GPU usage](https://github.com/rapidsai/jupyterlab-nvdashboard)
+  - [Tutorial: Advanced Jupyter Notebooks](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/)
+
 
   ## Supervised
 

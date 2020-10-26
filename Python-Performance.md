@@ -78,6 +78,8 @@
   - [ReBench: Execute and Document Benchmarks Reproducibly](https://github.com/smarr/ReBench) | [implementation](https://github.com/smarr/are-we-fast-yet)
   - [ipython_memory_usage: IPython tool to report memory usage deltas for every command you type. ](https://github.com/ianozsvald/ipython_memory_usage)
   - [perfplot](https://awesomeopensource.com/project/nschloe/perfplot?categoryPage=26) | [github](https://github.com/nschloe/perfplot) 
+  - [Opytimizer • A Nature-Inspired Python Optimizer. Did you ever reach a bottleneck in your computational experiments? ](https://www.linkedin.com/posts/philipvollet_python-python3-tensorflow-activity-6693021973813055488-5Z29) 
+- [How the CPython compiler works](https://news.ycombinator.com/item?id=24565499)
 - High Performance Python talk by [Ian Oszvald](https://twitter.com/ianozsvald/): Blogs: [1](https://ianozsvald.com/2019/11/16/higher-performance-python-at-pydatacambridge-2019/) o [2](https://ianozsvald.com/2019/11/22/higher-performance-python-odsc-2019/)  | [Slides](https://speakerdeck.com/ianozsvald/higher-performance-python-odsc-2019) | [Useful resources shared](https://twitter.com/DataChaz/status/1197608275606413312)
   - [Making Pandas Fly (EuroPython 2020)](https://speakerdeck.com/ianozsvald/making-pandas-fly-europython-2020) | [Blog](https://ianozsvald.com/2020/07/24/making-pandas-fly-at-europython-2020/)
   - [Making Pandas Fly (PyDataAmsterdam 2020)](https://speakerdeck.com/ianozsvald/making-pandas-fly-pydataamsterdam-2020) | [Blog](https://ianozsvald.com/2020/06/23/making-pandas-fly-for-pydataamsterdam-2020/)
@@ -86,6 +88,7 @@
   - [Flying Pandas - Dask, Modin and Vaex (Remote Pizza Python 2020)](https://speakerdeck.com/ianozsvald/flying-pandas-modin-dask-and-vaex) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
   - [Tools for Higher Performance python (ODSC 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python-odsc-2019) | [Blog](https://ianozsvald.com/2019/11/22/higher-performance-python-odsc-2019/)
   - [Tools for Higher Performance python (PyDataCambridge 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python) | [Blog](https://ianozsvald.com/2019/11/16/higher-performance-python-at-pydatacambridge-2019/)
+  - [High Performance Python book by Ian Ozvald & Micha Gorelick](https://www.amazon.co.uk/High-Performance-Python-Performant-Programming/dp/1492055026/ref=sr_1_1?dchild=1&keywords=High+Performance+Python&qid=1603742945&sr=8-1) | [High Performance Python book examples github repo](https://github.com/mynameisfiber/high_performance_python_2e)
 - Performance highlights (notes)
   - best practice - when and how to focus on performance
   - profiling - understand what's slow to focus your efforts (timeit,line_profiler, pyspy)

@@ -70,6 +70,7 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 - [7+ Python Cheat Sheets for Beginners and Experts](https://sinxloud.com/python-cheat-sheet-beginner-advanced/)
 - [Python for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
 - [30 seconds of python](https://github.com/30-seconds/30-seconds-of-python)
+- [Comprehensive Python cheatsheet](https://www.linkedin.com/posts/ashishpatel2604_comprehensive-python-cheatsheet-activity-6685556002110152704-mInG)
 
 ## Database
 
@@ -107,6 +108,14 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 * [multilint](https://github.com/adamchainz/multilint) - a wrapper around `flake8`, `isort` and `modernize`
 * [prospector](https://github.com/PyCQA/prospector) - a wrapper around `pylint`, `pep8`, `mccabe` and others
 
+## Services, other resources
+- [The first real-time semantic code analysis - powered by AI](https://semmle.com/ - A code analysis platform for finding zero-days and automating variant analysis.](deepcode.ai) | [GitHub](https://github.com/DeepCodeAI)
+- [Python Zero to Hero - Ep.12 - Python linting and auto-formating](https://dev.to/cheukting_ho/python-zero-to-hero-ep-12-python-linting-and-auto-formating-p55)
+- [Python Zero to Hero - Ep.10 - More Pytest and Mock](https://dev.to/cheukting_ho/python-zero-to-hero-ep-10-more-pytest-and-mock-55e6)
+- [Python Zero to Hero - Ep.7 - Unit testing with Pytest](https://dev.to/cheukting_ho/python-zero-to-hero-ep-7-unit-testing-with-pytest-1al6)
+- [Python Zero to Hero - Ep.11 - Python property-based testing](https://dev.to/cheukting_ho/python-zero-to-hero-ep-11-python-property-based-testing-1692)
+- [Nine simple steps for better-looking python code](https://towardsdatascience.com/nine-simple-steps-for-better-looking-python-code-87e5d9d3b1cf)
+
 ## Cookie cutter: Python project templates
 
 - [For Python projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#python)
@@ -116,6 +125,7 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 
 ## Frameworks
 
+- [Python for MicroControllers](https://micropython.org/)
 - [streamlit.io](https://streamlit.io/) - the fastest way to build custom ML tools | [Docs](https://streamlit.io/docs) | [GitHub](https://github.com/streamlit/streamlit) | [Blog](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace) | [Community](https://discuss.streamlit.io/)
   - Crash courses
     - [Getting started](https://youtu.be/_9WiB2PDO7k) | [source files](examples/python/frameworks/streamlit/)
@@ -142,6 +152,9 @@ with nothing but Python
 - [Python for 9 Purposes: The graphics miss Scikit-Learn and of course "Pandas"](https://www.linkedin.com/posts/nabihbawazir_python-for-9-purposesthe-graphics-miss-scikit-learn-activity-6605860742774259712-Was0)
 - [Free python tools](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6627149341998051328-oqZr)
 - [Tips N Tricks: 3 Simple and Easy Ways to Cache Functions in Python](https://www.youtube.com/watch?v=H_FDL0oRAWE)
+- [HPy](https://github.com/hpyproject/hpy)
+- [🗽 𝙂𝙧𝙖𝙙𝙞𝙤 𝙥𝙮𝙩𝙝𝙤𝙣 𝙡𝙞𝙗𝙧𝙖𝙧𝙮 : 𝙃𝙖𝙨𝙨𝙡𝙚-𝙁𝙧𝙚𝙚 𝙎𝙝𝙖𝙧𝙞𝙣𝙜 𝙖𝙣𝙙 𝙏𝙚𝙨𝙩𝙞𝙣𝙜 𝙤𝙛 𝙈𝙇 𝙈𝙤𝙙𝙚𝙡𝙨 𝙞𝙣 𝙩𝙝𝙚 𝙒𝙞𝙡𝙙](https://www.linkedin.com/posts/ashishpatel2604_machinelearning-gui-python-activity-6691757766748504064-sPCX)
+- [The Python scientific stack, compiled to WebAssembly.](https://alpha.iodide.io/) [GitHub](https://github.com/iodide-project/pyodide)
 - [A simple video that explains in a very simple way how you can use joblib to speed up almost any function](https://www.youtube.com/watch?v=Ny3O4VpACkc)
 
 ## Best practices
@@ -162,6 +175,8 @@ with nothing but Python
   - [Code Craft : Part I – Why We Need Code Craft](https://codemanship.wordpress.com/2019/10/01/code-craft-part-i-why-we-need-code-craft/)
   - [Code Craft : Part II – Version Control is Seat Belts for Programmers](https://codemanship.wordpress.com/2019/10/02/code-craft-part-ii-version-control-is-seat-belts-for-programmers/)
   - [Code Craft : Part III – Unit Tests are an Early Warning System for Programmers](https://codemanship.wordpress.com/2019/10/04/code-craft-part-iii-unit-tests-are-an-early-warning-system-for-programmers/)
+- ["Stop writing classes"](https://www.youtube.com/watch?v=o9pEzgHorH0 )
+- [How to package Python apps with BeeWare Briefcase](https://www.infoworld.com/article/3570295/how-to-package-python-apps-with-beeware-briefcase.html?utm_medium=email&utm_source=topic+optin&utm_campaign=awareness&utm_content=20200815+prog+nl&mkt_tok=eyJpIjoiWkRjd09XTmhZV0ppTnpBeSIsInQiOiJNTkNUTmpJZlB0REdcL2E0b3VBVlZKTlhHTCtuckZEQ25rREpIc3VtakFmdFB6UlZhUFIrMnNlaERrOXpmWFAzNUpYWVBXNEZXZWVaRmtjTDRURFY5ZlJWNHF0N2YwR01hUmlYaFQwd052a2pycjRZaWdReG16OEVYRmRZbTVOOGkifQ%3D%3D)
 
 ## Versioning
 
