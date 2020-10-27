@@ -57,6 +57,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
   - [Learning Machines 101](https://www.learningmachines101.com/)
   - [Talking Machines](http://www.thetalkingmachines.com/)
   - _[Top 10 Best Podcasts on AI, Analytics, Data Science, Machine Learning](https://www.kdnuggets.com/2019/07/best-podcasts-ai-analytics-data-science-machine-learning.html)_
+  - [Podcast PyMCR](https://anchor.fm/pydatamcr)
 - Blogs: [Towards Data Science](https://towardsdatascience.com), [Medium](https://medium.com), [Analytics Vidhya](https://AnalyticsVidhya.com), [KDnuggets](https://KDnuggets.com), etc
 - Slack Communities: [ods.ai](https://ods.ai), [kagglenoobs](https://kagglenoobs.herokuapp.com), etc
 - Journal Publications: traditional publications, preprint journals, etc
@@ -316,6 +317,9 @@ See [Courses](./courses.md#courses)
 - [Xcessiv](https://github.com/reiinakano/xcessiv/) 
 - [MLbox](https://github.com/AxeldeRomblay/MLBox/)
 - [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/)
+- [The 3 Best Free Online Resources to Learn MLOps](https://telesto.ai/the-3-best-free-online-resources-to-learn-mlops/)
+- [An awesome list of references for MLOps - Machine Learning Operations 👉 ml-ops.org](https://github.com/visenger/awesome-mlops)
+- [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning)
 - See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./details/cheatsheets.md)
 
 

@@ -21,7 +21,7 @@
     - [Neural Network tutorial](https://reference.wolfram.com/language/tutorial/NeuralNetworksIntroduction.html) - the main introduction on how to program with neural networks in Mathematica / Wolfram Language
     - [Wolfram Neural Net Repository](https://resources.wolframcloud.com/NeuralNetRepository/) - The Wolfram Neural Net Repository is a public resource that hosts an expanding collection of trained and untrained neural network models, suitable for immediate evaluation, training, visualization, transfer learning and more
   - [Neural Networks Matrices exploration - Under the Hood Mathematical Operations](https://github.com/souravs17031999/NeuralNets-Pure-Python)
-
+  - [Stephen Wolfram: Cellular Automata, Computation, and Physics](https://youtu.be/ez773teNFYA)
 
 # Contributing
 

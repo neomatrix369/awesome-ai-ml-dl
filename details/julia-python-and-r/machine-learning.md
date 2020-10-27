@@ -102,6 +102,7 @@
   - [🔥The things that are changing in an experiment are called 𝙑𝘼𝙍𝙄𝘼𝘽𝙇𝙀𝙎.](https://www.linkedin.com/posts/ashishpatel2604_artificialintelligence-machinelearning-bigdata-activity-6660947977479303168-nutF)
   - [Machine Learning Basics: Polynomial Regression](https://towardsdatascience.com/machine-learning-basics-polynomial-regression-3f9dd30223d1?source=social.tw)
   - [Correlation explained in a way everyone can understand!](https://www.linkedin.com/posts/cassie-kozyrkov-9531919_what-is-correlation-activity-6687468594722283520-Vs4j)
+  - [Correlation Coefficients in One Picture](https://www.linkedin.com/posts/vincentg_correlation-coefficients-in-one-picture-activity-6699471272285388800--9DS)
   - [How to Use Quantile Transforms for Machine Learning](https://machinelearningmastery.com/quantile-transforms-for-machine-learning/)
   - [Gath-Geva fuzzy clustering (python)](https://github.com/ashish-code/FuzzyVisualEncoding)
   - [Some Notable Recent ML Papers and Future Trends](https://arankomatsuzaki.wordpress.com/2020/10/15/some-notable-recent-ml-papers-and-future-trends/)

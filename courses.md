@@ -52,6 +52,10 @@
 - [Data courses on Udacity](https://eu.udacity.com/courses/school-of-data-science)
 - [Latest Machine learning, visualization, data mining techniques. Online Masters in Data Analytic from Penn State](https://twitter.com/analyticbridge/status/1102667686302179336)
 - [Coursera Course: Probability and distribution](https://media.licdn.com/dms/document/C511FAQGFKgIKuW_EEA/feedshare-document-pdf-analyzed/0?e=1571785200&v=beta&t=XyEEqUgi3y4L1hiZ7CxlxbAXyZmM_zcCCdn-Lr04ns8) [deadlink]
+- Coursera Bayesian courses:
+  * https://www.coursera.org/learn/bayesian-statistics
+  * https://www.coursera.org/learn/bayesian
+  * https://www.coursera.org/learn/bayesian-methods-in-machine-learning
 - [Coursera Data Science Methodology course](https://www.coursera.org/learn/data-science-methodology?aid=true)
     - From Problem to Approach and From Requirements to Collection
         - Business Understanding

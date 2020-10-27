@@ -83,11 +83,14 @@
 - [Practical Statistics](https://www.youtube.com/watch?v=CwJ4pcEYjT0&list=PLcQCwsZDEzFnmUDaOHQeWbiP7N_acsFb9)
 - [Deciphering information and misinformation: Inspired by the book "A Field Guide to Lies and Statistics"](https://www.linkedin.com/posts/data-science-central_deciphering-information-and-misinformation-activity-6650152295398981632-0TJn)
 - [The 17 equations that changed the course of history](https://www.linkedin.com/posts/vincentg_the-17-equations-that-changed-the-course-activity-6664334747927400449-ya4I)
+- [While there is lot of amazing content on statistics, many of them do not talk on how it is applied on real world data. Most statistics blog take some sample X and Y value and demonstrate statistical tests and functions (applied Stats)](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_applied-statistics-for-data-science-youtube-activity-6693022691223568384-g4j3)
+- [Statistics 110: Probability](https://projects.iq.harvard.edu/stat110/home)
 - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
 - [See Data > Statistics section more related links](../data/README.md#statistics)
 
 ## Probability and Probabilistic programming
 
+- [Statistics 110: Probability](https://projects.iq.harvard.edu/stat110/home)
 - [Probabilistic Symmetry and Invariant Neural Networks](https://www.youtube.com/watch?v=u8Jt1HkWTn4) by [Benjamin Bloem-Reddy](https://www.stat.ubc.ca/~benbr/)
 - [Practical Probabilistic Programming book (pdf)](http://www.unquotebooks.com/download/practical-probabilistic-programming/)
 - [Suite of probabilitic programming language repos from Improbable.io](https://github.com/improbable-research)
@@ -110,6 +113,7 @@
 - [Generating Pareto Distribution in Python](https://www.linkedin.com/posts/towards-data-science_generating-pareto-distribution-in-python-activity-6646307713204658176-mjOW)
 - [Capsule Networks -- A Probabilistic Perspective](https://www.linkedin.com/posts/montrealai_artificialintelligence-capsulenetworks-machinelearning-activity-6657124988568563712-WArH)
 - Pomegranate: [PyPi](https://pypi.org/project/pomegranate/) | [docs](https://pomegranate.readthedocs.io/en/latest/) | [GitHub](https://github.com/jmschrei/pomegranate)
+- [A Gentle Introduction to Probability Density Estimation](https://machinelearningmastery.com/probability-density-estimation/)
 - [Data Science](../courses.md#data-science) in [Courses](../courses.md#courses)
 
 ### Bayesian
@@ -144,11 +148,35 @@
 - [Bayesian Inference Algorithms: MCMC and VI](https://towardsdatascience.com/bayesian-inference-algorithms-mcmc-and-vi-a8dad51ad5f5)
 - [A chat w/ @twiecki about #BayesianHierarchicalModels! What are they? How to build them? And why you should be very careful when building them](https://twitter.com/alex_andorra/status/1238004298245644288)
 - Bayesian Hyperparameter Optimization - A Primer: [Blog](https://www.wandb.com/articles/bayesian-hyperparameter-optimization-a-primer) | [Notebook](https://colab.research.google.com/drive/1SNP7ioYd3LHj2HmNDJIG2N7rPh1IiDbm?authuser=1#scrollTo=nkCUrzzIeLSM)
+- [A Conceptual Explanation of Bayesian Hyperparameter Optimization for Machine Learning](https://towardsdatascience.com/a-conceptual-explanation-of-bayesian-model-based-hyperparameter-optimization-for-machine-learning-b8172278050f)
 - [How to Implement Bayesian Optimization from Scratch in Python](https://machinelearningmastery.com/what-is-bayesian-optimization/)
 - [Develop an Intuition for Bayes Theorem With Worked Examples](https://machinelearningmastery.com/intuition-for-bayes-theorem-with-worked-examples/)
 - [Bayesian Stats 101 for Data Scientists](https://www.linkedin.com/posts/towards-data-science_bayesian-stats-101-for-data-scientists-activity-6655949045678387202-qlgP)
 - [New Marketing Insight from Unsupervised Bayesian Belief Networks](https://www.linkedin.com/posts/vincentg_new-marketing-insight-from-unsupervised-bayesian-activity-6657419179529949184-nyP4)
 - [Everything you need to know about Gaussian Distribution](https://deepai.org/machine-learning-glossary-and-terms/gaussian-distribution)
+- Naive Bayesian meetups (Password to access the videos is: Bayes2020)
+   - [Meetup 1](https://vimeo.com/442020274)
+   - [Meetup 2](https://vimeo.com/442024578)
+   - [Meetup 3](https://vimeo.com/445354913)
+   - [Meetup 4](https://vimeo.com/445696592)
+   - [Meetup 6](https://vimeo.com/448036613)
+   - [Meetup 7](https://vimeo.com/450071190)
+   - [Meetup 8](https://vimeo.com/450726667)
+   - [Meetup 9](https://vimeo.com/453991489)
+   - [Meetup 10](https://vimeo.com/453992440)
+- [Michael Betancourt blogs (Bayesian)](https://betanalpha.github.io/writing/)
+- [Bayesian Analysis](https://projecteuclid.org/euclid.ba/1516093227)
+- [Bayesian Data Analysis](https://www.stat.columbia.edu/~gelman/book/)
+- [Bayesian Basics, Explained](https://www.kdnuggets.com/2016/12/bayesian-basics-explained.html)
+- Naive Bayesian
+    + [Book: Bayes Theorem: A visual intro for Beginners](https://www.amazon.com/Bayes-Theorem-Examples-Introduction-Beginners-ebook/dp/B01LZ1T9IX)
+    + [Article: How to become a Bayesian in 8 steps: an annotated reading List](https://link.springer.com/article/10.3758/s13423-017-1317-5)
+    + [Bayesian Methods for ML](https://www.coursera.org/learn/bayesian-methods-in-machine-learning)
+    + [Book: A student's guide to Bayesian Stats: Ben Lambert](https://www.amazon.com/Students-Guide-Bayesian-Statistics/dp/1473916356)
+    + Coursera Bayesian courses:
+      + https://www.coursera.org/learn/bayesian-statistics
+      + https://www.coursera.org/learn/bayesian
+      + https://www.coursera.org/learn/bayesian-methods-in-machine-learning
 
 # Contributing
 

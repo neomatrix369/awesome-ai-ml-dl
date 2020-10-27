@@ -123,6 +123,7 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 
 ## Frameworks
 
+- [Rich is a Python library for writing rich text with color and style to the terminal and for displaying advanced content such as tables, markdown, and syntax highlighted code!](https://www.linkedin.com/feed/update/urn:li:activity:6695712483468017664/)
 - [Python for MicroControllers](https://micropython.org/)
 - [streamlit.io](https://streamlit.io/) - the fastest way to build custom ML tools | [Docs](https://streamlit.io/docs) | [GitHub](https://github.com/streamlit/streamlit) | [Blog](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace) | [Community](https://discuss.streamlit.io/)
   - Crash courses
@@ -143,6 +144,7 @@ with nothing but Python
         - [Crash course on create web apps using Anvil](https://training.talkpython.fm/courses/explore_anvil/anvil-web-apps-with-just-python)
         - [Security](https://anvil.works/docs/security)
     - [Forum](https://anvil.works/forum/)
+    - [FastAPI](https://github.com/tiangolo/fastapi) | [Docs](fastapi.tiangolo.com) | [Author](tiangolo.com)
   - [Assembly](https://mardix.github.io/assembly/) - A Pythonic Object-Oriented Web Framework built on Flask
 - [A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
 - [Explanation of most popular Data Science Library (in Python)](https://www.linkedin.com/posts/nabihbawazir_artificialintellegence-datascience-machinelearning-activity-6617700382200164352-RDhs)

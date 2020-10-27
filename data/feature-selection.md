@@ -8,6 +8,15 @@
 - [Fast Combinatorial Feature Selection with New Definition of Predictive Power](https://www.datasciencecentral.com/profiles/blogs/feature-selection-based-on-predictive-power) [Tweet](https://twitter.com/analyticbridge/status/1237759942544822272)
 - [How to Choose a Feature Selection Method For Machine Learning](https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/)
 - [How to Perform Feature Selection for Regression Data](https://machinelearningmastery.com/feature-selection-for-regression-data/)
+- [A Comparative Study on Feature Selection in Text Categorization by Yiming Yang and Jan O. Pedersen](https://lnkd.in/gZGpQRG)
+- TextFeatureSelection • a Python package providing feature selection for text tokens through filter method of feature selection and we can set a threshold to decide which words to be included. There are 4 methods for helping feature selection.: [pypi](https://pypi.org/project/TextFeatureSelection/) | [Docs](https://lnkd.in/gtdQwQE)
+- [Feature Stores for ML](https://featurestore.org/)
+- [Entropy based feature selection for text categorization by Christine Lageron, Christophe Moulin, Mathias Géry](https://lnkd.in/gK56uJd)
+- [Feature Selection and Weighting Methods in Sentiment Analysis by Tim O`Keefe and Irena Koprinska](https://is.gd/PoIYzb)
+- [A Comparative Study on Feature Selection in Text Categorization by Yiming Yang and Jan O. Pedersen](https://lnkd.in/gZGpQRG)
+- [Entropy based feature selection for text categorization by Christine Largeron, Christophe Moulin, Mathias Géry](https://lnkd.in/gK56uJd)
+- [Categorical Proportional Difference: A Feature Selection Method for Text Categorization by Mondelle Simeon, Robert J. Hilderman](https://is.gd/60Clbn)
+- [Feature Selection and Weighting Methods in Sentiment Analysis by Tim O`Keefe and Irena Koprinska](https://is.gd/PoIYzb)
 
 # Contributing
 
