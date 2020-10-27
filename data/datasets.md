@@ -45,11 +45,20 @@
 - [Surprising Uses of Synthetic Random Data Sets](https://www.linkedin.com/posts/data-science-central_surprising-uses-of-synthetic-random-data-activity-6612404601515765760-J0AY)
 - [How to find datasets for Artificial Intelligence training](https://medium.com/shallow-thoughts-about-deep-learning/how-to-find-datasets-for-artificial-intelligence-9131b2e72e88?fbclid=IwAR1up1xYvKUX4-7DJFs62hTqrfhfLuY9TdNXK56mnmTiUocvv0hgPj6vf4k)
 - [Great Github list of public data sets](https://www.linkedin.com/posts/data-science-central_great-github-list-of-public-data-sets-activity-6620739516317646849-YMxO)
+- [Wikimedia datasets](https://dumps.wikimedia.org/)
+- [Open Graph Benchmark: Datasets for Machine Learning on Graphs -](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-analytics-activity-6715867835287109633-Y_MN)
+- [PaySim on kaggle for Money Laundering dataset(s)](https://www.kaggle.com/ntnu-testimon/paysim1)
 - [Sklearn provides direct access to openml datasets which hosts around 20,000 datasets and you can access it directly in your python code](https://lnkd.in/g-YYFay) [LinkedIn Post](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6653512803644768256-w1mM)
 
 ## Courses
 
 See [Courses](../courses.md#courses)
+
+## Tools and other resources
+
+- [Measuring dataset similarity using optimal transport](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-datascientist-activity-6715145819273744384-JghQ)
+- [Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics - A model-based tool to characterize and diagnose datasets.](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-ai-activity-6715138376556793856-T5AC)
+- [#Texthero is a high-level #Python API to easily and efficiently work with text-based datasets. ](https://www.linkedin.com/posts/inna-vogel-nlp_texthero-text-preprocessing-representation-activity-6689190055614926848-eWF4)
 
 # Contributing
 

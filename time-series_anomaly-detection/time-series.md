@@ -44,6 +44,7 @@
 - [Playing with time series data in python](https://towardsdatascience.com/playing-with-time-series-data-in-python-959e2485bff8?source=---------45---------------------)
 - [Presentation: An Introduction to Time Series Forecasting with Python](https://www.researchgate.net/publication/324889271_An_Introduction_to_Time_Series_Forecasting_with_Python)
 - [Time series analysis discussion on Analytics Vidhya](https://discuss.analyticsvidhya.com/t/time-series-analysis/67474)
+- [In Time series model one has to master lot of concepts Stationary, Trend, Trend Stationary, Additive and Multiplicative seasonality, detrending among others](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6684306319253626880-R2Wm)
 - [Book (free): Introduction toTime Series and Forecasting, Second Edition by Peter J. Brockwell and Richard A. Davis](http://home.iitj.ac.in/~parmod/document/introduction%20time%20series.pdf)
 - [Book (paid): Introduction to Time Series Forecasting With Python](https://machinelearningmastery.com/introduction-to-time-series-forecasting-with-python/)
 - Time Series Data Analysis: [post](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6679602339004981249-HNG_] | [Videos](https://www.youtube.com/channel/UCwBs8TLOogwyGd0GxHCp-Dw/search?query=timeseries)
@@ -90,6 +91,7 @@
 - [List of Time Series Method](https://www.linkedin.com/posts/nabihbawazir_list-of-time-series-method-for-business-activity-6603565390427709440-HnS-)
 - [Implement an ARIMA model using statsmodels (Python)](https://www.linkedin.com/posts/data-science-central_implement-an-arima-model-using-statsmodels-activity-6628365239232589825-GRHk)
 - [Self aware streaming with ARIMA (Timeseries models)](https://www.linkedin.com/posts/isaacbaum_self-aware-streaming-activity-6626980492765904896-5-_a)
+- [When modeling time series with ARIMA one needs to define the order of AR](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6685537800835743744-z3lM)
 
 ## Non-stationary Time-series
 
@@ -144,6 +146,7 @@
 - [How to Get Started with Deep Learning for Time Series Forecasting (7-Day Mini-Course)](https://www.aiproblog.com/index.php/2018/09/03/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
 - [The Promise of Recurrent Neural Networks for Time Series Forecasting](https://machinelearningmastery.com/promise-recurrent-neural-networks-time-series-forecasting/)
 - [Google Stock Price Time Series Prediction with RNN(LSTM) using pytorch from Scratch](https://in.pycon.org/cfp/2018/proposals/google-stock-price-time-series-prediction-with-rnnlstm-using-pytorch-from-scratch~b67Rd/)
+- [Outstanding results predicting Apple Stock with Continual ML using Global News (with Python)](https://towardsdatascience.com/making-a-continual-ml-pipeline-to-predict-apple-stock-with-global-news-python-90e5d6610b21)
 - [Time Series and Decentralized Networks - Upcoming free webinar http://bit.ly/3b40pKL](https://www.linkedin.com/posts/data-science-central_time-series-and-decentralized-networks-activity-6647291431524319232-zbSy)
 - [How to Develop Deep Learning Models for Univariate Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-deep-learning-models-for-univariate-time-series-forecasting/)
 - [How to Develop Multilayer Perceptron Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-multilayer-perceptron-models-for-time-series-forecasting/)
@@ -151,6 +154,11 @@
 
 ## Forecasting
 
+- [11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://www.linkedin.com/feed/update/urn:li:activity:6717984798209654784/)
+- [How to Grid Search Deep Learning Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-grid-search-deep-learning-models-for-time-series-forecasting/)
+- [Forecasting the weather with neural ODEs](https://www.linkedin.com/posts/montrealai_artificialintelligence-machinelearning-neuralordinarydifferentialequations-activity-6685542038953308160-eoFI)
+- [Love this free book on forecasting - check it out here: https://otexts.com/fpp2/](https://www.linkedin.com/posts/kylemckiou_machinelearning-stats-statistics-activity-6682632348204449792-FvYE)
+- [Trending post is Time Series Forecasting using @TensorFlow.](https://www.linkedin.com/posts/madewithml_time-series-forecasting-made-with-ml-activity-6694237555669516289-dxrf)
 - [Forecasting versus Prediction](https://www.datascienceblog.net/post/machine-learning/forecasting_vs_prediction/)
 - [Preprocessing for Time Series Forecasting](https://medium.com/analytics-vidhya/preprocessing-for-time-series-forecasting-3a331dbfb9c2)
 - [A comprehensive beginner’s guide to create a Time Series Forecast (with Codes in Python and R)](https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/)
@@ -173,6 +181,7 @@
 - [Encoding Time Series as Images](https://medium.com/analytics-vidhya/encoding-time-series-as-images-b043becbdbf3)
 - [A Multivariate Time Series Guide to Forecasting and Modeling (with Python codes)](https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/)
 - [Multivariate Time Series Forecasting with LSTMs in Keras](https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/)
+- [When I started time series videos there were lot of request that came in for Multivariate Time Series modeling](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6687574768889290752-hpso)
 - [(Video) Tamara Louie: Applying Statistical Modeling & Machine Learning to Perform Time-Series Forecasting](https://www.youtube.com/watch?v=JntA9XaTebs (1hr 26m))
 - [(Video) Jeffrey Yau: Time Series Forecasting using Statistical and Machine Learning Models | PyData NYC 2017](https://www.youtube.com/watch?v=_vQ0W_qXMxk (32m))
 - [(Video) Igor Gotlibovych: Deep Learning and Time Series Forecasting for Smarter Energy | PyData London 2019](https://www.youtube.com/watch?v=p6mKFs6HVlg (40m))
@@ -217,6 +226,7 @@
 - [Python Data Science Handbook: Time series notebook](https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.11-Working-with-Time-Series.ipynb)
 - [Time Series in Python notebook](https://github.com/advaitsave/Introduction-to-Time-Series-forecasting-Python/blob/master/Time%20Series%20in%20Python.ipynb)
 - [A modern Time Series tutorial (Kaggle Kernel)](https://www.kaggle.com/rohanrao/a-modern-time-series-tutorial)
+- [Different analysis we typically do on data that has time element to it like lag plot, auto correlation plot and others](https://youtu.be/3sH1kisAK9s](https://github.com/srivatsan88/End-to-End-Time-Series/blob/master/Timeseries_Data_analysis.ipynb)
 
 ## Misc
 
@@ -231,6 +241,8 @@
   - [Discussions on Kaggle](https://www.kaggle.com/c/LANL-Earthquake-Prediction/discussion/94390)
   - [Kaggle Kernel](https://www.kaggle.com/dkaraflos/1-geomean-nn-and-6featlgbm-2-259-private-lb)
 - [A small library to backtest timeseries data](https://github.com/EricSchles/backtester)
+- [Tsaug - a python package for time series augmentation from Arundo Analytics (Tailai Wen and Roy K. )](https://www.linkedin.com/posts/madewithml_tsaug-made-with-ml-activity-6698561289607880705-DKoX)
+- VAE-SNE: a deep generative model for dimensionality reduction and clustering • Usefull for unsupervised action recognition to detect and classify repeated motifs of stereotyped behavior in high-dimensional timeseries data: [GitHub](https://lnkd.in/gN9qvDK) | [Paper](https://lnkd.in/gawkgNr](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-bioinformatics-activity-6690327432823742464-dI7M) 
 - [Time-series on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series/)
 - [Time-series Forecasting on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series-forecasting/)
 - **[And many more Time-series posts on MachineLearningMastery.com](https://machinelearningmastery.com/?s=time+series&post_type=post&submit=Search)**

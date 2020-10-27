@@ -2,10 +2,12 @@
 
 ## Tools, Libraries, Packages, Frameworks
   - [Vega](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) [deadlink] | [Vega: Homepage](https://vega.github.io) | [Vega: GitHub](https://github.com/vega) | [Vega-lite](https://vega.github.io/vega-lite/)
-  - [Matplotlib](https://www.dataquest.io/blog/matplotlib-tutorial/)
+  - [Matplotlib](https://www.dataquest.io/blog/matplotlib-tutorial/) | [Matplotlib gallery](https://matplotlib.org/3.2.2/gallery/index.html) [1](https://matplotlib.org/gallery.html)[2](https://pythonspot.com/matplotlib-gallery/)[3](https://python-graph-gallery.com/matplotlib/)[4](https://github.com/rasbt/matplotlib-gallery)
   - [Seaborn](https://lnkd.in/gih7hqz)
-  - [Plotly](https://lnkd.in/gBYBMXc)
+  - [Plotly](https://lnkd.in/gBYBMXc) | [Think Data Visualization? Think Plotly!](https://www.linkedin.com/posts/philipvollet_datascience-datascientist-analytics-activity-6715195138328674304-WAXn)
+  - [AutoPlotter • GUI based Exploratory Data Analysis (EDA) Search easily for missing values, data distribution & trends, outliers etc](https://www.linkedin.com/posts/philipvollet_analytics-data-dataexploration-activity-6691932081448218624-5xNy)
   - [Python Graph Gallery](https://lnkd.in/gdGe-ef)
+  - [Algovis is a python library made for visualizing algorithms](https://www.linkedin.com/posts/stevenouri_innovation-machinelearning-python-activity-6694175551722278912-EfSP)
   - Dashboards: [dash](https://plot.ly/dash/) | [pyviz](http://panel.pyviz.org) | [Streamlit]( https://streamlit.io/) | [Plotly Dash](https://plotly.com/dash/)
   - [Quick Introduction to ggplot2](http://blog.echen.me/2012/01/17/quick-introduction-to-ggplot2/) | [r4stats.com: Graphics, ggplot2](http://r4stats.com/examples/graphics-ggplot2/) | [Overview of Python Visualization Tools](https://pbpython.com/visualization-tools-1.html) | [Pandas: visualisation](http://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html) | [Matplotlib tutorial](https://github.com/rougier/matplotlib-tutorial) | [Static and dynamic network visualization with R - Katya Ognyanova](http://kateto.net/network-visualization) | [Visualisation/plots library in Python, inspired by D3-like visualisations](https://github.com/dxe4/uplot) | [Complete Guide to Data Visualization with Python](https://towardsdatascience.com/complete-guide-to-data-visualization-with-python-2dd74df12b5e) [LinkedIn post](https://www.linkedin.com/posts/ericaxelrod_complete-guide-to-data-visualization-with-activity-6639697943198736384-bIjG)
   - [RAWGraphs - The missing link between spreadsheets and data visualization](https://rawgraphs.io/) | [Gallery](https://rawgraphs.io/gallery/) [Learning: How-to](https://rawgraphs.io/learning/) | [Blogs](https://rawgraphs.io/blog/)
@@ -18,13 +20,24 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Visualisation tool Orange](https://orange.biolab.si/#Orange-Features) - Thanks [wguesdon](https://github.com/wguesdon) for sharing this link with us
   - [Matplotlib Tutorial – A Complete Guide to Python Plot w/ Examples](https://lnkd.in/fFkUgQP)
   - [10 Useful Python Data Visualization Libraries for Any Discipline](https://mode.com/blog/python-data-visualization-libraries/)
-     - [Top 50 matplotlib Visualizations – The Master Plots (with full python code)](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#1.-Scatter-plot)- 
+     - [Top 50 matplotlib Visualizations – The Master Plots (with full python code)](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#1.-Scatter-plot)
+     - [5 Powerful Tricks to Visualize Your Data with Matplotlib by Rizky Maulana Nurhidayat](https://www.linkedin.com/posts/towards-data-science_5-powerful-tricks-to-visualize-your-data-activity-6716999017034788864-UCzO)
+  - [Scatter Plot in Python](https://www.youtube.com/watch?v=RsdVAPJ1DZw&feature=youtu.be)
   - [17 Data Visualization Tools & Resources You Should Bookmark](https://www.linkedin.com/posts/data-science-central_17-data-visualization-tools-resources-you-activity-6620724391854555136-v3oo)
   - [Infographics and presentation tools](https://www.fireplusalgebra.com/infographics-and-presentation-tools)
   - [Interactive data visualisation tools and libraries](https://www.fireplusalgebra.com/infographics-and-presentation-tools)
   - [GPU Accelerated data viz tools](https://www.linkedin.com/posts/murraydata_data-todashboard-activity-6623659330199781376-YIUQ)
   - [A Comparative Analysis of Top 6 BI and Data Visualization Tools in 2018](https://www.linkedin.com/posts/data-science-central_a-comparative-analysis-of-top-6-bi-and-data-activity-6650615095447605248-dJs6)
   - [The R package `factoextra` makes it supremely easy to extract and visualize the output of the most common (exploratory) multivariate data analyses (PCA, MFA, etc.)](https://www.linkedin.com/posts/indrajeet-patil-397865174_r-rstats-dataviz-activity-6657548256693800960-VBbk)
+  - [Autoviz: Automatically Visualize any Dataset by Himanshu Sharma](https://www.linkedin.com/posts/towards-data-science_autoviz-automatically-visualize-any-dataset-activity-6690393202836443136-5B4-)
+  - Understand your data with a few lines of code in seconds using DataPrep.eda: [1](https://github.com/sfu-db/dataprep) [2](https://sfu-db.github.io/dataprep/index.html)
+  - [Sweetviz is also one of the best library for EDA and data Visualization,It generate html document with a single line of code,with all plots and features comparisons.🤟](https://pypi.org/project/sweetviz/)
+  - [Dexplot: a new layer on Matplotlib for Pandas users, it works like SeaBorn but with what looks like a cleaner interface](https://github.com/dexplo/dexplot/)
+  - [New release: Whatlies - a toolkit to help visualise what lies in word embeddings. Make visualisation easier of both word embeddings as well as operations on them](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-datascience-activity-6704264100802822144-4TV5)
+  - [An #OpenSource machine learning pipeline for geospatial imagery](https://www.linkedin.com/posts/philipvollet_opensource-machinelearning-geoai-activity-6700296698390020096-7XyA)
+  - [Detexify LaTeX handwritten symbol recognition](https://detexify.kirelabs.org/classify.html)
+  - [latexify_py generates LaTeX math description from Python functions](https://www.linkedin.com/posts/philipvollet_python-latex-math-activity-6700350819059007488-JEJr)
+  - [Interactive Tools for ML, DL and Math](https://github.com/Machine-Learning-Tokyo/Interactive_Tools)
 
 ## Implmentations and examples
 
@@ -35,10 +48,11 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Visualizing #KMeans algorithm with D3.js](https://www.linkedin.com/posts/nabihbawazir_kmeans-ugcPost-6607183847048220672-1iFK)
   - [Visualize Categorical Relationships With Catscatter](https://www.linkedin.com/posts/towards-data-science_visualize-categorical-relationships-with-activity-6653475444580581376-y43i)
   - [📊 Data Visualization With Python (#Matplotlib) 📊](https://www.linkedin.com/posts/asif-bhat_data-visualization-matplotlib-activity-6652842499503153152-He0N)
+  - [Timestamp Data Visualization by Matplotlib](https://www.datasciencecentral.com/profiles/blogs/timestamp-data-and-visualization-by-matplotlib)
   - [Quick and Easy Data Visualizations in Python with Code](https://towardsdatascience.com/5-quick-and-easy-data-visualizations-in-python-with-code-a2284bae952f)
   - [Interactive Data Visualization in Python With Bokeh](https://realpython.com/python-data-visualization-bokeh/)
   - [Data Visualization in R](https://lnkd.in/fEvZB_N)
-  - [The Next Level of Data Visualization in Python (Plotly)](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e) [LinkedIn post](https://lnkd.in/fKn4cPM)
+  - [The Next Level of Data Visualization in Python (Plotly)](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e) [LinkedIn post](https://lnkd.in/fKn4cPM) | [Show GPT-3 a single code snippet and it creates a full working Plotly chart for you](https://www.linkedin.com/posts/philipvollet_ai-artificialintelligence-dashboard-activity-6692806605131644928-plLk)
   - [Visualise model prediction](https://app.wandb.ai/lavanyashukla/visualize-predictions/reports/Visualize-Model-Predictions--Vmlldzo1NjM4OA/)
   - [Visualise Scikit Models](https://app.wandb.ai/lavanyashukla/visualize-sklearn/reports/Visualize-Scikit-Models--Vmlldzo0ODIzNg)
   - [Track model performance](https://app.wandb.ai/lavanyashukla/visualize-models/reports/Track-Model-Performance--Vmlldzo1NTk2MA)
@@ -47,6 +61,11 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Visualize any Data Easily, from Notebooks to Dashboards | Scipy 2019](https://www.youtube.com/watch?v=7deGS4IPAQ0 (James Bednar)) - highly recommended
 
 ## Posts, articles, papers and other resources
+  - [A very neat and in-depth course on #datavisualization by Ilya Kashnitsky:](https://www.linkedin.com/posts/sanyambhutani_datavisualization-dataviz-datavizualization-activity-6690445984163528704--iuh) [GitHub](https://lnkd.in/eMicn7J)
+  - [mini-course in Kaggle if you want to know more about GIS.](https://www.kaggle.com/learn/geospatial-analysis](https://www.kaggle.com/learn/data-visualization)
+  - [Courses by the University of Helsinki](https://automating-gis-processes.github.io/site/) 
+  - [Visualisation Kaggle kernel (follium 1)](https://www.kaggle.com/bhanvimenghani/folium-chai-eda) 
+  - [Visualisation Kaggle kernel (follium 2)](https://www.kaggle.com/pompelmo/chaieda-police-violence)
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
   - [Data Visualisation by Kaggle.com](https://www.kaggle.com/learn/data-visualization)
   - [How to visualize convolutional features in 40 lines of code](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)
@@ -54,14 +73,19 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - [Data Visualization - Hard Skills](https://github.com/clone95/Virgilio/blob/master/Specializations/HardSkills/DataVisualization.md) from [clone95](http://github.com/clone95) the creator of [Virgilio](http://github.com/clone95/Virgilio)
   - [Optics Illustrations from the Physics Textbooks of Amédée Guillemin (1868/1882)](https://publicdomainreview.org/collections/optics-illustrations-from-the-physics-textbooks-of-amedee-guillemin-1868-1882/)
   - [Accurat studio: The Architecture of a Data Visualization Multilayered Storytelling through “Info-spatial” Compositions](https://medium.com/accurat-studio/the-architecture-of-a-data-visualization-470b807799b4)
+  - [The Legend of Data - Ep.4 - Data Visualization 1](https://dev.to/cheukting_ho/the-legend-of-data-ep-4-data-visualization-1-1b72)
+  - [The Legend of Data - Ep.5 - Data Visualization 2](https://dev.to/cheukting_ho/the-legend-of-data-ep-5-data-visualization-2-i15)
 
 ## How-tos, and why?
   - [How to choose the right visualization for your data ](https://flourish.studio/2018/09/28/choosing-the-right-visualisation/) | [Good example: The best laid plans](https://towardsdatascience.com/the-best-laid-plans-7eb3a22ffbc1) | [Video of talk](https://www.youtube.com/watch?v=YenoaVWHV80) by [Surasti Puri](https://www.surastipuri.com/)
   - [Guide to Visualization](../presentations/data/Data%20Visualization%20–%20How%20to%20Pick%20the%20Right%20Chart%20Type-1.pdf) - How to pick the right chart - by [Janis Gulbis](https://janisgulbis.com/)
   - [How to choose your data visualisations](../data/how-to-choose-your-data-visualisations.jpg)
   - [Data Visualisation: How to pick the right chart type?](https://www.linkedin.com/posts/mani-sarkar_machinelearning-deeplearning-datascience-activity-6616361422089785344-Ehnx)
+  - [Bubble Chart in Python](https://www.youtube.com/watch?v=QmjwRB8QfUI&feature=youtu.be)
   - 👉 How to Design Charts and Graphs 👈: [1](https://www.linkedin.com/posts/asif-bhat_data-visualisation-activity-6623492689587474432-mut5) | [2](https://www.linkedin.com/posts/asif-bhat_data-visualization-activity-6650705670217797632-Zysa)
   - [20 ways visualizing Percentage](https://www.linkedin.com/posts/nabihbawazir_machinelearing-artificailintelligence-datascience-activity-6607004732953329664-KVEq)
+  - [10 Visualizations Every Data Scientist Should Know +](https://www.linkedin.com/feed/update/urn:li:activity:6692865495080730624/)
+  - [Data Visualization for Scientists and Engineers](https://www.jmp.com/en_us/events/statistically-speaking/events/sep-2/live-stream/watch.html)
   - [Data Visualization Purpose: Andrew Abela & Stephen Few](https://www.linkedin.com/posts/nabihbawazir_data-visualization-purpose-activity-6606961340106018816-uDZd)
   - [Data Visualisation by Purpose (Ellie K, Miller post)](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6623855200325197824-0nxv)
   - [👉 Which Chart or Graph is right for you 👈](https://www.linkedin.com/posts/asif-bhat_data-visualisation-activity-6623861062238334977-EP68)
@@ -81,6 +105,7 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
   - ["𝘼 𝙜𝙤𝙤𝙙 𝙫𝙞𝙨𝙪𝙖𝙡𝙞𝙯𝙖𝙩𝙞𝙤𝙣 𝙞𝙨 𝙣𝙤𝙩 𝙟𝙪𝙨𝙩 𝙖 𝙥𝙞𝙘𝙩𝙪𝙧𝙚; 𝙞𝙩 𝙞𝙨 𝙖 𝙨𝙩𝙤𝙧𝙮. 𝙏𝙝𝙚 𝙨𝙩𝙤𝙧𝙮 𝙤𝙛 𝙤𝙣𝙚’𝙨 𝙟𝙤𝙪𝙧𝙣𝙚𝙮 𝙞𝙣 𝙩𝙝𝙚 𝙙𝙖𝙩𝙖."](https://towardsdatascience.com/march-edition-data-visualization-71d6d8d6d317) (Towards Data Science's best stories on data visualization) [LinkedIn post](https://www.linkedin.com/posts/parulpandeyindia_march-edition-data-visualization-activity-6641201649878691840-Bwmr) 
   - [Data Visualization is a very important step in Data Science, so we should try to MASTER it](https://www.linkedin.com/posts/asif-bhat_datascience-dataanalysis-datavisualization-activity-6638314252216176640-A27g)
   - [Data Visualization Effectiveness Profile](http://www.perceptualedge.com/articles/visual_business_intelligence/data_visualization_effectiveness_profile.pdf)
+  - [Effective Visualization Techniques for Data Discovery and Analysis](https://www.jmp.com/en_us/whitepapers/jmp/effective-visualization-techniques.html](https://www.jmp.com/content/dam/jmp/documents/en/white-papers/wp-effective-viz-104502.pdf) 
   - [The Visual Perception of Variation in Data Displays](http://www.perceptualedge.com/articles/visual_business_intelligence/data_visualization_effectiveness_profile.pdf)
   - [An Infographic of “Data Science Landscape”](https://www.youtube.com/dataprofessor) [LinkedIn post](https://www.linkedin.com/posts/chanin-nantasenamat_datascience-machinelearning-ai-activity-6634129557907705856-G6JN)
   - [The Data Science Ecosystem in One Tidy Infographic](https://www.datasciencecentral.com/profiles/blogs/the-data-science-ecosystem-in-one-tidy-infographic) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_the-data-science-ecosystem-in-one-tidy-infographic-activity-6635188705470533632-jmGY)

@@ -14,6 +14,7 @@
 - [Data Cleaning Software Options - Pros And Cons](https://www.pivigo.com/blog?post=Data%20Cleaning%20Software%20Options%20-%20Pros%20And%20Cons)
 - [Data Cleansing with Apache Spark and Optimus](https://www.linkedin.com/posts/data-science-central_data-cleansing-with-apache-spark-and-optimus-activity-6606304380595556352-zYFJ)
 - [Basic Data Cleaning for Machine Learning (That You Must Perform)](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/)
+- [How to Perform Data Cleaning for Machine Learning with Python](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/)
 
 ### Missing values
 
@@ -42,6 +43,7 @@
 - [Data preparation for factor analysis](https://www.linkedin.com/posts/data-science-central_data-preparation-for-factor-analysis-activity-6608507889915092992-T1Vv)
 - [7 Pandas Functions to Reduce Your Data Manipulation Stress by Andre Ye](https://towardsdatascience.com/7-pandas-functions-to-reduce-your-data-manipulation-stress-25981e44cc7d) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_7-pandas-functions-to-reduce-your-data-manipulation-activity-6655006784069214208-R9Zn)
 - [Data Prepossessing](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-aertificialintellegence-activity-6657362083665018880-2rzc)
+- [How to Grid Search Data Preparation Techniques](https://machinelearningmastery.com/grid-search-data-preparation-techniques/)
 
 ### Transformations
 
@@ -53,10 +55,12 @@
 - [Scale, Standardize, or Normalize with Scikit-Learn](https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02)
 - [Scale, Standardize or Normalize with scikit-learn](https://www.kaggle.com/discdiver/guide-to-scaling-and-standardizing)
 - [Mean normalization and Feature scaling](https://www.linkedin.com/posts/data-science-central_mean-normalization-and-feature-scaling-activity-6617945072522575872-My8E)
+- [How to Easily Calculate the Mean Absolute Deviation in Excel - Statology](https://www.statology.org/how-to-easily-calculate-the-mean-absolute-deviation-in-excel/](https://en.wikipedia.org/wiki/Average_absolute_deviation)
 - [Normalising a distribution notebook](../notebooks/data/data-processing/Normalising-a-distribution.ipynb)
 
 ## Misc
 
+- [Pandera - Pandas data validation](https://www.linkedin.com/posts/madewithml_path-explain-made-with-ml-activity-6691703758189150208-KUwr)
 - [Data Preparation for Data Mining](http://www.temida.si/~bojan/MPS/materials/Data_preparation_for_data_mining.pdf)
 - [Learning with Limited Labeled Data with Shioulin Sam](https://twimlai.com/twiml-talk-255-learning-with-limited-labeled-data-with-shioulin-sam/)
 - See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model

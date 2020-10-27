@@ -37,11 +37,14 @@ aka *_Exploratory Data Analysis_*
 - [edaviz - Python Library for Data Exploration and Visualization in Jupyter Notebook](https://www.youtube.com/watch?v=eYEeYv11YrQ)
 - [Getting Started with pandas a powerful Python data analysis toolkit](https://www.datasciencecentral.com/profiles/blogs/getting-started-with-pandas-a-powerful-python-data-analysis) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_getting-started-with-pandas-a-powerful-python-activity-6651512263251410944-5bSl)
 - [A Complete Tutorial to Learn Data Analysis with Python From Scratch](https://www.linkedin.com/posts/iamsivab_introduction-to-programming-in-pythonpdf-activity-6640574471667318784-yt-g)
+- [AutoPlotter • GUI based Exploratory Data Analysis (EDA) Search easily for missing values, data distribution & trends, outliers etc](https://www.linkedin.com/posts/philipvollet_analytics-data-dataexploration-activity-6691932081448218624-5xNy)
+- [Great expectations (profiling data)](https://github.com/great-expectations/great_expectations)
 - See [Data > Programs and Tools](./programs-and-tools.md#programs-and-tools) and [Things to know: Primary tools to analyse data](../things-to-know.md#primary-tools-to-analyse-data)
 
 ### Missing values
 
 - [How to Treat Missing Values in Your Data](https://www.linkedin.com/posts/data-science-central_how-to-treat-missing-values-in-your-data-activity-6627609785242046464-A_69)
+- [Handling Missing Values in Python](https://www.kaggle.com/parulpandey/a-guide-to-handling-missing-values-in-python)
 
 ### Correlations
 
@@ -83,6 +86,7 @@ aka *_Exploratory Data Analysis_*
 -[️Outlier corrections](https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba)
 -[️Outliers in Logistic Regression](https://www.analyticbridge.datasciencecentral.com/forum/topics/outliers-in-logistic-regression)
 - [How to Scale Data With Outliers for Machine Learning](https://machinelearningmastery.com/robust-scaler-transforms-for-machine-learning/)
+- [4 Automatic Outlier Detection Algorithms in Python](https://machinelearningmastery.com/model-based-outlier-detection-and-removal-in-python/)
 
 ### Omitting variables
 
@@ -93,6 +97,7 @@ aka *_Exploratory Data Analysis_*
 - [P-Value Explained in One Picture](https://www.linkedin.com/posts/data-science-central_p-value-explained-in-one-picture-activity-6617794081072443392-BG7_)
 - [p-value and level of significance explained](https://www.linkedin.com/posts/data-science-central_p-value-and-level-of-significance-explained-activity-6622189036842864640-lR81)
 - [P-values ("#Probability #values") are one way to test if the result from an experiment is #statistically #significant](https://www.linkedin.com/posts/ashishpatel2604_probability-values-statistically-activity-6626119679092064257-MjD6)
+- [P-Value Explained in One Picture](https://www.linkedin.com/posts/vincentg_p-value-explained-in-one-picture-activity-6692140719068483584-DEt0)
 
 ### Regression Analysis
 

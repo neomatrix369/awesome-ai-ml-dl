@@ -48,9 +48,8 @@ See [Course, Tutorial, Learning resource](./course-tutorial-learning-resources.m
 ## Library, Framework, Models, Tools, Services
 
 - [Better NLP](https://bit.ly/better-nlp-launch)
-- [NLP Profiler](https://github.com/neomatrix369/nlp_profiler)
-
-See [Library, Framework, Models, Tools, Services](./library-framework-models-tools-services.md)
+- [NLP Profiler](https://github.com/neomatrix369/nlp_profiler) | [PyPi](pypi.org/project/nlp-profiler/)
+- See [Library, Framework, Models, Tools, Services](./library-framework-models-tools-services.md)
 
 ## Metaphor detection
 
@@ -84,6 +83,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [How do I turn unstructured data into structured data?](https://www.quora.com/How-do-I-turn-unstructured-data-into-structured-data)
 - [The Use of NLP to Extract Unstructured Medical Data From Text](https://insidebigdata.com/2018/09/03/use-nlp-extract-unstructured-medical-data-text/)
 - [Step by step guide to extract insights from free text (unstructured data)](https://www.analyticsvidhya.com/blog/2014/08/step-step-guide-extract-inforation-free-text-unstructured-data/)
+- [Date/Time Helpers](https://www.kaggle.com/raenish/cheatsheet-date-helpers)
  
 ## Summarise text
 

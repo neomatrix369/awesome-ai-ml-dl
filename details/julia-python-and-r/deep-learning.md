@@ -40,7 +40,11 @@
 * [Ayon Roy](https://ayonroy.ml/index.html) | Live session on Discovering Deep Learning |TechTable T20 career: [Slides](https://docs.google.com/presentation/d/1Ph0Bx0MjZsEIe0PiUdGkTQJLzaR58GVqtVk71HaHgio/edit#slide=id.g861b7a5a88_0_23) | [video](https://www.youtube.com/watch?v=eOGtCUeGf7k&feature=youtu.be)
 * [Weekly #116: 30 Golden Rules of Deep Learning Performance](https://www.youtube.com/watch?v=ZAHaVuwqw2I)
 * [Official code repo for the O'Reilly Book - Practical Deep Learning for Cloud, Mobile & Edge](https://github.com/PracticalDL/Practical-Deep-Learning-Book) | [Homepage](http://practicaldeeplearning.ai)
-
+* [Implementing original U-Net from scratch using PyTorch](https://www.youtube.com/watch?v=u1loyDCoGbE)
+* [Multiple Stock Prediction Using Deep Learning Network](https://towardsdatascience.com/multiple-stock-prediction-using-deep-learning-network-d19a7acd8551?source=social.tw)
+* [Deep Learning Models for Multi-Output Regression](https://machinelearningmastery.com/deep-learning-models-for-multi-output-regression/)
+* [List of deep learning courses for different problems](https://www.linkedin.com/posts/sudalairajkumar_deeplearning-ml-activity-6682849875089997824-q-6a)
+* [KD Lib: a PyTorch library for knowledge distillation that comes with a whole suite of implemented algorithms and benchmarks!](https://lnkd.in/gubVUq3) | [LinkedIn post](https://www.linkedin.com/posts/het-shah163_kd-lib-made-with-ml-activity-6703658588310704128-SFJU)
 * See [Deep Learning](../courses.md#deep-learning) in [Courses](../courses.md#courses)
 
 # Contributing

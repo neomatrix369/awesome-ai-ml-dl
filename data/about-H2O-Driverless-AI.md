@@ -7,6 +7,7 @@
 - Resources
     - https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.4.2-9/docs/booklets/DriverlessAIBooklet.pdf
     - https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.4.2-9/docs/booklets/MLIBooklet.pdf
+    - [Recipes for Driverless AI](https://github.com/h2oai/driverlessai-recipes)
     - Videos
         - https://www.youtube.com/results?search_query=h2o+driverless
         - https://www.youtube.com/watch?v=yzAhjinmdzk

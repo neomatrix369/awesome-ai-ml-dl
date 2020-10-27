@@ -39,6 +39,8 @@
 - [imbalanced-learn library](https://imbalanced-learn.readthedocs.io/en/stable/introduction.html)
 - [SO discussion on using Python libraries](https://stackoverflow.com/questions/51322554/smote-with-missing-values)
 - [Simple example of how stock prices can be generated](https://stackoverflow.com/questions/8597731/are-there-known-techniques-to-generate-realistic-looking-fake-stock-data)
+- [How to Combine Oversampling and Undersampling for Imbalanced Classification](https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/)
+- [How to deal with the imbalanced class using under-sampling strategy in PyCaret 2.0 👇 👇 👇](https://www.linkedin.com/posts/profile-moez_datascience-machinelearning-opensource-activity-6701323647535075328-4odN)
 - [Generate duplicates and null rows from existing dataset](../notebooks/jupyter/data/data-generation/README.md) | [folder with scripts](../notebooks/jupyter/data/data-generation/)
 
 ### Generate fake images

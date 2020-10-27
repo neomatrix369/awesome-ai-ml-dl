@@ -55,6 +55,7 @@ reproducible research
       - AutoML Core Concepts and Hands-On Workshop: [Regression Notebook](https://colab.research.google.com/drive/1Rajb3bHw45k4PWvDlxsQNCd3j5WuHbIm#forceEdit=true&sandboxMode=true) | [Classification Notebook](https://bit.ly/RE_classification)
       - [Workshop: Large Scale Deep Learning Recommender](https://bit.ly/RE_streaming)
       - [Reality Engines Demo](https://github.com/jsutch/RealityEngines-Demo) 
+  - [Accelerating AI Training with MLPerf Containers and Models from NVIDIA NGC](https://developer.nvidia.com/blog/accelerating-ai-training-with-mlperf-containers-and-models-from-ngc/?ncid=so-elev-58408#cid=ngc01_so-elev_en-us&_lrsc=3642f913-311f-45b0-bbc5-158e51446637&ncid=so-lin-lt-798)
 
 ## Tools
 
@@ -160,9 +161,11 @@ reproducible research
   - [Learn how to develop and train models for the Graphcore #IPU using TensorFlow](https://hubs.ly/H0qFL1Y0)
   - [Graphcore C2 Card performance for image-based deep learning application](https://www.graphcore.ai/hubfs/Graphcore%20C2%20Card%20performance%20for%20image%20based%20deep%20learning%20application_v2.pdf)
   - [Graphcore Whitepaper: DELL DSS8440 GRAPHCORE IPU SERVER](https://www.graphcore.ai/hubfs/Lead%20gen%20assets/DSS8440%20IPU%20Server%20White%20Paper_2020.pdf)
+  - [Product brief: IPU-MACHINE: M2000](https://www.graphcore.ai/hubfs/assets/pdf/IPU-M%20Product%20Brief.pdf?hsLang=en)
+  - [MO‌O‌R‍ INSIG‌HTS - G‌‍R‌‍APHC‍O‌‍R‌E SO‌FTWAR‌E STACK: BUILT TO SC‌‍A‍LE](https://www.graphcore.ai/poplar-white-paper-registration)
+  - [INTELLIGENT MEMO‍R‍Y FO‌R‌‍ INTELLIG‍ENT C‌‍O‍MPU‍TING](https://www.graphcore.ai/posts/intelligent-memory-for-intelligent-computing)
   - [Graphcore Benchmarks](https://www.graphcore.ai/hubfs/assets/pdf/Benchmarks_slides_May2020-comp.pdf)
   - [Graphcore GitHub](https://github.com/graphcore)
-
 
 ## Performance
 

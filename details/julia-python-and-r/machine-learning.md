@@ -60,12 +60,18 @@
   - [Top Machine Learning Algorithm for Preditions](https://www.linkedin.com/posts/nabihbawazir_top-machine-learning-algorithm-for-preditions-activity-6603862704757272576-ULbe)
   - [Pytorch London meetup talk slides](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0)
   - [Learn, play, and create with artificial intelligence: great online portal to perform ML and AI training and experiments](https://www.curiositymachine.org/)
+  - [DeepSpeed: Extreme-scale model training for everyone! Trillion parameter model training with 3D parallelism:](https://www.linkedin.com/posts/philipvollet_machinelearning-deeplearning-datascience-activity-6710065647226900480-Z51K)
+  - [Allegro Trains: Auto-Magical Experiment Manager, Version Control and ML-Ops for AI](https://allegro.ai/](https://allegro.ai/trains-open-source/) | [Github](https://github.com/allegroai/trains/)
   - [👉 Scalars Vectors Matrices and Tensors 👈](https://www.linkedin.com/posts/asif-bhat_scalar-vector-matrix-activity-6644155046256877568-WC4V)
+  - [Introduction to Matrices and Matrix Arithmetic for Machine Learning](https://www.linkedin.com/posts/jasonbrownlee_introduction-to-matrices-and-matrix-arithmetic-activity-6690375170563153920-343z)
   - ML Quick reference - best practices: [1](https://www.linkedin.com/posts/ajitjaokar_data-analytics-businessintelligence-activity-6636140050860036096-KlNK) | [2](https://www.linkedin.com/posts/asif-bhat_machine-learning-activity-6626768838551797761-kVAV)
   - [50 external machine learning / data science resources and articles](https://www.linkedin.com/posts/data-science-central_50-external-machine-learning-data-science-activity-6626884983975919616-_FEW)
   - Grid search & Tuning Hyperparameters
     - [Parallel grid search H2O](https://www.linkedin.com/posts/pavel-pscheidl-19b15990_parallel-grid-search-in-h2o-activity-6623902801170964480-nV82)
     - [Selecting and Tuning Hyperparameters](https://www.linkedin.com/posts/alastairkerrmuir_hyperparameter-selection-and-tuning-meetup-ugcPost-6621172444340240384-9WBj)
+    - [Ray Tune Sweeps](https://docs.wandb.com/sweeps/ray-tune)
+    - [W&B Sweeps](https://docs.wandb.com/sweeps)
+    - [Automated Machine Learning Hyperparameter Tuning in Python](https://www.linkedin.com/posts/vincentg_automated-machine-learning-hyperparameter-activity-6693176296077348864-7Ihf)
   - [👉 Rules of Machine Learning 👈](https://www.linkedin.com/posts/asif-bhat_rules-of-machine-learning-activity-6641688922382536704-9qVG)
   - [✍ Machine Learning - Lecture Notes ✍ Credits - Sebastian Raschka](https://www.linkedin.com/posts/asif-bhat_machine-learning-notes-activity-6645970418664636416-7x7K)
   - [Machine Learning in Parallel with Support Vector Machines, Generalized Linear Models, and Adaptive Boosting](https://www.linkedin.com/posts/data-science-central_machine-learning-in-parallel-with-support-activity-6651994434005200898-XhsG)
@@ -75,6 +81,9 @@
   - [Machine Learning: An Analytical Invitation to Actuaries](https://www.linkedin.com/posts/vincentg_machine-learning-an-analytical-invitation-activity-6651258584812314625-F6Tc)
   - [Machine Learning Yearning](https://www.linkedin.com/posts/iamsivab_machine-learning-yearning-activity-6651109362548994048-Rk_Z)
   - [Machine Learning Technical Landscape in one picture](https://www.datasciencecentral.com/profiles/blogs/mure-picture)
+  - [Machine Learning vs Statistics vs Statistical Learning in One Picture +](https://www.linkedin.com/posts/vincentg_machine-learning-vs-statistics-vs-statistical-activity-6690396478323605504-TGIi)
+  - [3 Types of Regression in One Picture +](https://www.linkedin.com/posts/vincentg_3-types-of-regression-in-one-picture-activity-6694382742718754816-hbYv)
+  - [Calibrating classifiers](https://towardsdatascience.com/calibrating-classifiers-559abc30711a?source=social.tw)
   - [10 Must-read Machine Learning Articles (March 2020)](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_10-must-read-machine-learning-articles-march-activity-6654347366629421056-Ao6a)
   - [Restart from basics, here's the learning path (ML)](https://www.linkedin.com/posts/nabihbawazir_restart-from-basics-heres-the-learning-activity-6654875758999244800-0vlX)
   - [Feedback Recurrent AutoEncoder](https://www.linkedin.com/posts/montrealai_deeplearning-machinelearning-speechprocessing-activity-6627924132694675456-Wq5P)
@@ -89,9 +98,21 @@
   - [Survival Analysis in R](https://www.geeksforgeeks.org/survival-analysis-in-r/)
   - [How to Reduce Overfitting Using Weight Constraints in Keras](https://machinelearningmastery.com/how-to-reduce-overfitting-in-deep-neural-networks-with-weight-constraints-in-keras/)
   - [How to Configure XGBoost for Imbalanced Classification](https://machinelearningmastery.com/xgboost-for-imbalanced-classification)
+  - [How to Fix k-Fold Cross-Validation for Imbalanced Classification](https://machinelearningmastery.com/cross-validation-for-imbalanced-classification/)
+  - [Difference Between Classification and Regression in One Picture](https://www.datasciencecentral.com/profiles/blogs/classification-vs-regression)
+  - [One-Class Classification Algorithms for Imbalanced Datasets](https://machinelearningmastery.com/one-class-classification-algorithms/)
   - Approaching (almost) Any Machine Learning Problem | by Abhishek Thakur | Kaggle Days Dubai | Kaggle: [original post](https://www.linkedin.com/pulse/approaching-almost-any-machine-learning-problem-abhishek-thakur) | [Video](https://www.youtube.com/watch?v=uWVR_axaVwk) | [Slides](https://www.slideshare.net/abhishekkrthakur/approaching-almost-any-machine-learning-problem-kaggledays-dubai) - highly recommended
   - [Prediction Intervals for Machine Learning](https://machinelearningmastery.com/prediction-intervals-for-machine-learning/)
   - [🔥The things that are changing in an experiment are called 𝙑𝘼𝙍𝙄𝘼𝘽𝙇𝙀𝙎.](https://www.linkedin.com/posts/ashishpatel2604_artificialintelligence-machinelearning-bigdata-activity-6660947977479303168-nutF)
+  - [Machine Learning Basics: Polynomial Regression](https://towardsdatascience.com/machine-learning-basics-polynomial-regression-3f9dd30223d1?source=social.tw)
+  - [Correlation explained in a way everyone can understand!](https://www.linkedin.com/posts/cassie-kozyrkov-9531919_what-is-correlation-activity-6687468594722283520-Vs4j)
+  - [Correlation Coefficients in One Picture](https://www.linkedin.com/posts/vincentg_correlation-coefficients-in-one-picture-activity-6699471272285388800--9DS)
+  - [How to Use Quantile Transforms for Machine Learning](https://machinelearningmastery.com/quantile-transforms-for-machine-learning/)
+  - [Gath-Geva fuzzy clustering (python)](https://github.com/ashish-code/FuzzyVisualEncoding)
+  - [Some Notable Recent ML Papers and Future Trends](https://arankomatsuzaki.wordpress.com/2020/10/15/some-notable-recent-ml-papers-and-future-trends/)
+  - [How to Selectively Scale Numerical Input Variables for Machine Learning](https://machinelearningmastery.com/selectively-scale-numerical-input-variables-for-machine-learning/)
+  - [2020 ML Roadmap by Daniel Bourke](https://www.linkedin.com/posts/madewithml_machinelearning-artificialintelligence-madewithml-activity-6695333895698808832-ojY5)
+  - [📌50 Days of Machine Learning📌](https://www.linkedin.com/posts/asif-bhat_machine-learning-activity-6693141519026728960-dWIa)
   - Algorithms
     - See [Machine Learning algorithms](./machine-learning-algorithms.md)
   - See [Machine Learning](../courses.md#machine-learning) in [Courses](../courses.md#courses)
@@ -137,16 +158,20 @@
 - [Machine Learning Books](https://www.youtube.com/watch?v=AHnd-vVN5VM&list=PLcQCwsZDEzFkaBv6-7FYt2p9ofempmagq)
 - [The "Python Machine Learning (1st edition)" book code repository and info resource](https://github.com/rasbt/python-machine-learning-book)
 - [ML Engineering EBook](https://www.linkedin.com/posts/andriyburkov_as-promised-i-have-just-put-online-the-fifth-activity-6622486751728459776-teGe)
+| [The Machine Learning Engineering book written by Andriy Burkov](https://www.mlebook.com/)
+- [The Hundred-Page Machine Learning Book written by Andriy Burkov](https://themlbook.com/)
 - [Free Books: Data Science & AI](https://www.linkedin.com/posts/data-science-central_free-books-data-science-ai-activity-6634661722558906368-ch5W)
 - [Two New Free Books on Machine Learning](https://www.linkedin.com/posts/data-science-central_two-new-free-books-on-machine-learning-activity-6651587789072715776-09QA)
 - [The Hundred-Page Machine Learning Book by Andriy Burkov](https://www.linkedin.com/posts/andriyburkov_chapter-10-other-forms-of-learning-activity-6653853295150452736-Bm5d)
 - [Top ML Books to Read in 2019](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-artificialintelligence-activity-6657201069321486336-GwXB)
+
 
 ## Uncertainty
 
 - [GitHub topic: uncertainties](https://github.com/topics/uncertainties)
 - [Charles's talk on Probability, Uncertainty: The Surprising Utility of Surprise](https://docs.google.com/presentation/d/1PVonxRuMns5TjNXLReg6C3mFlVyWylBZfCgJZNFENoA/edit?usp=sharing)
 - [Aggregated resources on the topic "uncertainty"](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/155085)
+- [Many models workflows in python: part i: Do you want some uncertainty with that?](https://www.alexpghayes.com/blog/many-models-workflows-in-python-part-i/)
 
 
 # Contributing

@@ -3,7 +3,7 @@
 ## Libraries & packages
 
 - [Yellowbrick](https://www.scikit-yb.org/en/latest/#yellowbrick-machine-learning-visualization) - is a suite of visual diagnostic tools called “Visualizers” that extend the Scikit-Learn API to allow human steering of the model selection process
-- [Shap](https://github.com/slundberg/shap) - A unified approach to explain the output of any machine learning model
+- [Shap](https://github.com/slundberg/shap) - A unified approach to explain the output of any machine learning model | [Push the limits of explainability — an ultimate guide to SHAP library](https://medium.com/swlh/push-the-limits-of-explainability-an-ultimate-guide-to-shap-library-a110af566a02)
 - [LIME](https://github.com/marcotcr/lime)
 - Seldon's Model explainability: [Alibi](https://www.seldon.io/tech/products/alibi/) | [Github](https://github.com/SeldonIO/alibi)
 - QuantumBlacksLabs' CasualNex: [Post 1](https://www.mckinsey.com/about-us/new-at-mckinsey-blog/causalnex-our-new-open-source-library-leverages-cause-and-effect-relationships-in-data) | [Post 2](https://medium.com/quantumblack/introducing-causalnex-driving-models-which-respect-cause-and-effect-a561545f0a5e) | [GitHub](https://github.com/quantumblacklabs/causalnex)
@@ -54,6 +54,14 @@
 - [Analysing ML models with imandra](https://www.linkedin.com/posts/isaacbaum_analysing-machine-learning-models-with-imandra-activity-6635136920240340992-BOp0)
 - [How Explainable AI is helping algorithms avoid bias](https://www.forbes.com/sites/simonchandler/2020/02/18/how-explainable-ai-is-helping-algorithms-avoid-bias/#7d21a68a5ed3) [LinkedIn Post](https://www.linkedin.com/posts/bo-li-8503b896_httpswwwforbescomsitessimonchandler-activity-6635931803196710912-dRQR)
 - [Building blocks of Interpretability](https://distill.pub/2018/building-blocks/)
+- [Machine Patterns Design Patterns](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/)
+- [Model Cards](https://research.google/pubs/pub48120/](https://modelcards.withgoogle.com/about)
+- [Language Interpretability Tool](​https://github.com/PAIR-code/lit)
+- [Explainable AI tool from Google](https://pair-code.github.io/what-if-tool/)
+- [What-if-tool on GitHub!](https://pair-code.github.io/what-if-tool/](https://github.com/PAIR-code/what-if-tool)
+- [AI Fairness blog](https://community.ibm.com/community/user/datascience/blogs/tim-bonnemann1/2020/09/02/ibm-series-on-ai-trust-now-available-on-demand-two)
+- [useR2020! Keynote: "Responsible Automation: Towards Interpretable & Fair AutoML"](https://github.com/ledell/useR2020-automl)
+- [Explainable AI by IBM](https://github.com/Trusted-AI/AIX360](https://github.com/IBM/lale) | [(video, slides, codes) on youtube channel](https://www.youtube.com/channel/UCj09XsAWj-RF9kY4UvBJh_A](https://github.com/decentdilettante)
 
 ## Calibration
 

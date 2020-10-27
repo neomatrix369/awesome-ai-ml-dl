@@ -42,6 +42,10 @@
 - [A Gentle Introduction to Cross-Entropy for Machine Learning](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)
 - [How to Calculate Correlation Between Variables in Python](https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/)
 - [TabNet : Attentive Interpretable Tabular Learning](https://github.com/dreamquark-ai/tabnet)
+- [TabNet](https://cloud.google.com/blog/products/ai-machine-learning/ml-model-tabnet-is-easy-to-use-on-cloud-ai-platform)
+- [CascadTabNet is an automatic table recognition method for interpretation of tabular data in document images and extract them](https://www.linkedin.com/posts/philipvollet_datascience-network-analytics-activity-6701574164647690240-ANk3)
+[Better than most LR's out there (Pytorch based)](https://github.com/dreamquark-ai/tabnet)
+- [An overview of gradient descent optimization algorithms](https://ruder.io/optimizing-gradient-descent/)
 
 # Contributing
 
