@@ -23,9 +23,7 @@ aka *_Exploratory Data Analysis_*
 - [How To Determine If A Sample Is Representative](https://www.linkedin.com/posts/vincentg_how-to-determine-if-a-sample-is-representative-activity-6657012501504421888-aaPa)
 - [Data Analysis Method: Mathematics Optimization to Build Decision Making](https://www.linkedin.com/posts/data-science-central_data-analysis-method-mathematics-optimization-activity-6661023930838503425-bJtJ)
 - Dataprep.eda: Accelerate your EDA: [original post](https://www.linkedin.com/posts/towards-data-science_dataprepeda-accelerate-your-eda-activity-6655814355810168832-RTPQ) | [blog](https://towardsdatascience.com/dataprep-eda-accelerate-your-eda-eb845a4088bc)
-
-
-
+- [Having a bunch of data and no idea what's in? What is the best tool for a fast Exploratory Data Analysis? Check this EDA Comparison: Pandas Profiling, Sweetviz, and PandasGUI](https://www.linkedin.com/posts/philipvollet_data-analytics-bigdata-activity-6726856744833835008-NnEY)
 
 ### Tools
 
