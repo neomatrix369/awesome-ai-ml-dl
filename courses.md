@@ -67,6 +67,7 @@
         - Data Preparation
         - Modeling 
         - Model Evaluation
+- [ChaiEDA Sessions: 2x Weekly (Silent) EDA Practise Group](https://www.kaggle.com/getting-started/170570)
 
 ## Computer Vision
 
@@ -87,6 +88,7 @@
 - [Introduction to Machine Learning for Coders](http://course18.fast.ai/ml)
 - [Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 - [Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/)
+- [Fastbook](https://forums.fast.ai/t/mlt-fastbook-reading-discussion-sessions-saturdays-4-6-pm-ist/69421/16) | [GitHub](https://github.com/fastai/fastbook)
 
 ## Intel
 

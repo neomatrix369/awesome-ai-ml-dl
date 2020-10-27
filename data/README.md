@@ -84,6 +84,8 @@ See [Datasets](./datasets.md)
 - [An introduction to Statistical Inference and Hypothesis testing](https://twitter.com/DataScienceCtrl/status/1261325769155973122)
 - [A set of descriptive statistics and hypothesis tests across different types of data](https://github.com/EricSchles/describer_ml)
 - [The statistical analysis t-test explained for beginners and experts](https://towardsdatascience.com/the-statistical-analysis-t-test-explained-for-beginners-and-experts-fd0e358bbb62)
+- [The book of why" by Judea Pearl : A great overview and presents many relevant techniques](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)
+- [Craig's presentation: Visualizing the Why — Strategy and Roadmaps in Context](https://www.dropbox.com/s/knagl9f7u9hxvr7/Strategy%20Maps%20Agile%20Evangelists.pdf?dl=0](https://www.youtube.com/watch?v=LOjsuYzzOkA)
 
 ## Data Exploratory Analysis
 

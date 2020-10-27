@@ -73,6 +73,7 @@ On https://pytorch.org/, just under **"Quick Start Locally"** find **"C++/Java"*
 - [𝗠𝗶𝗻𝗶 𝗖𝗼𝘂𝗿𝘀𝗲 𝗶𝗻 𝗗𝗲𝗲𝗽 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗣𝘆𝗧𝗼𝗿𝗰𝗵 - Trending #GitHub library. People who want to learn PyTorch rapidly then this is the best resource for them](https://www.linkedin.com/posts/ashishpatel2604_github-artificialintelligence-machinelearning-activity-6628665986499338240-tGeg)
 - [PyTorch introduces native automatic mixed precision training. No need to compile apex anymore 😎](https://lnkd.in/dFHG7JS](https://www.linkedin.com/posts/abhi1thakur_pytorch-datascience-python-activity-6651402591974510593-C0lu)
 - [The Incredible Pytorch • This is a curated list of tutorials, projects, libraries, videos, papers, books and anything related to the incredible PyTorch](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6676333739670335489-R31y)
+- Example of Retina Face: [online app](https://retinaface.herokuapp.com) | [GitHub](https://github.com/ternaus/retinaface_demo) | [Author](https://ternaus.github.io)
 
 # Contributing
 

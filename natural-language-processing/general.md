@@ -6,7 +6,7 @@
 - [king - man + woman is queen; but why?](https://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)
 - [The 4 Biggest Open Problems in NLP](http://ruder.io/4-biggest-open-problems-in-nlp/)
 - [LaMachine](https://proycon.github.io/LaMachine/) - LaMachine is a unified software distribution for Natural Language Processing. Integration of numerous open-source NLP tools, programming libraries, web-services and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines (bare-metal, Virtual Machines and Docker containers).
-- [Awesome NLP](https://github.com/keon/awesome-nlp)
+- [Awesome NLP](https://github.com/keon/awesome-nlp) | [Awesome NLP resources](https://www.linkedin.com/posts/philipvollet_nlp-opensource-datascience-activity-6699189891433144320-Gafr)
 - [Facebook's LASER](https://github.com/facebookresearch/LASER)
 - [HOW TO IMPROVE YOUR SKILL ON TEXT DATA?](https://www.linkedin.com/posts/nabihbawazir_repository-machinelearning-patternrecognition-activity-6602810599397298176-hdMX)
 - [How to detect a pattern? Problem and solution](https://www.linkedin.com/posts/data-science-central_how-to-detect-a-pattern-problem-and-solution-activity-6610546324968394753-2AdF)
@@ -24,7 +24,7 @@
 - [One of fellow NVIDIANS just shared with me this outstanding paper from JHU / OpenAI discussing the scaling laws in NLP. If this continues to be true we will see substantially larger models in the near future](https://www.linkedin.com/posts/adamgrzywaczewski_one-of-fellow-nvidians-just-shared-with-me-activity-6635862408818630656-oDdW)
 - [NLP and ML](https://www.linkedin.com/posts/activity-6633065834392678400-CsDr)
 - [Abhishek Thakur's NLP videos](https://www.linkedin.com/posts/abhi1thakur_youtube-kaggle-machinelearning-activity-6647795449577127937-DBjT](https://bit.ly/abhitubesub)
-- Approaching any NLP problem: [Slides](https://www.slideshare.net/abhishekkrthakur/approaching-almost-any-nlp-problem) | [Video](https://www.kaggle.com/abhishek/approaching-almost-any-nlp-problem-on-kaggle)
+- Approaching any NLP problem: [Slides](https://www.slideshare.net/abhishekkrthakur/approaching-almost-any-nlp-problem) | [Video](https://www.youtube.com/watch?v=uWVR_axaVwk) | [Kaggle kernel based on this presentation](https://www.kaggle.com/abhishek/approaching-almost-any-nlp-problem-on-kaggle)
 - [The future of NLP in Python | Keynote from Ines Montani @PyConColombia 02.2020](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6639035296694448128-hStT)
 - [A complete NLP classification pipeline in scikit-learn](https://www.linkedin.com/posts/towards-data-science_a-complete-nlp-classification-pipeline-in-activity-6646103619060006912-G1ri)
 - [State-of-the-art NLP Made Easy with AdaptNLP](https://opendatascience.com/state-of-the-art-nlp-made-easy-with-adaptnlp/?utm_campaign=Learning%20Posts&utm_content=120061865&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9358547)
@@ -32,6 +32,7 @@
 - [Tokenization and Text Data Preparation with TensorFlow & Keras](https://www.kdnuggets.com/2020/03/tensorflow-keras-tokenization-text-data-prep.html)
 - [How to Develop a Multichannel CNN Model for Text Classification](https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/)
 - [A text-to-speech tool that you can use to generate voices of different characters. The voices are generated in real time. ](https://www.linkedin.com/posts/inna-vogel-nlp_neuralnetworks-maschinelleslernen-deepmind-activity-6652912903559106560-YGT-)
+- [Real-Time State-of-the-art Speech Synthesis for Tensorflow 2 - TensorflowTTS](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-nlp-activity-6702587059846078465-v3Zt)
 - [𝗛𝗼𝘄 𝗱𝗼 𝘆𝗼𝘂 𝘀𝗲𝗹𝗲𝗰𝘁 𝗮 𝗺𝗼𝗱𝗲𝗹 𝗳𝗼𝗿 𝗡𝗟𝗣❓](https://www.linkedin.com/posts/bhavsarpratik_nlproc-deeplearning-datascience-activity-6668775835656441856-7Mv2)
 - [Natural Language Processing with Python: The Free eBook](https://www.kdnuggets.com/2020/06/natural-language-processing-python-free-ebook.html)
 - [NLP Paper summaries](https://github.com/dair-ai/nlp_paper_summaries)
@@ -48,6 +49,20 @@
 [Video](https://www.youtube.com/watch?v=4LYw_UIdd4A) | [T5 Training notebook (Kaggle)](https://www.kaggle.com/enzoamp/t5-for-q-a-training-tutorial-pytorch) | [T5 Inference notebook (Kaggle)](https://www.kaggle.com/enzoamp/t5-q-a-inference-5-epochs-pytorch) | [T5 Tutorial Repo (Github)](https://github.com/enzoampil/t5-intro)
 - New release of Spark NLP 2.5 with a DL-based Context Spell Checker: 
 [Spell Checker as Notebook in action](https://lnkd.in/eE83ezj) | [Spark NLP workshop notebooks (git repo)](https://lnkd.in/e9CXikR)
+- [Designing Practical NLP Solutions](https://youtu.be/JpkzK58lkmA)
+- [Cheatsheet - Text Helper Functions 😍](https://www.kaggle.com/raenish/cheatsheet-text-helper-functions/)
+- [Wikipedia Citation rules](https://figshare.com/articles/dataset/Summaries_of_Policies_and_Rules_for_Adding_Citations_to_Wikipedia/7751027)
+- [Web Scrapping, Downloading Twitter Data and Performing Sentimental Analysis using Python](https://towardsdatascience.com/web-scrapping-downloading-twitter-data-and-performing-sentimental-analysis-using-python-fce3ea45c825?source=social.tw)
+- [A Hybrid Approach for Fake News Detection in Twitter Based on User Features and Graph Embeddings ](https://www.linkedin.com/posts/philipvollet_nlp-twitter-news-activity-6692791908768600064-hl39)
+- [A minimal starting point for rapid prototyping interactive Human-AI tools — Quick connection of the Hugging Face pipeline for sentiment analysis with a small visual interface made with D3js](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-artificialintelligence-activity-6699412769063669762-bwXs)
+- [Why Chatbots are so bad - TerminusDB Discussion #12](https://dev.to/terminusdb/what-chatbots-are-so-bad-terminusdb-discussion-12-3n8d)
+- ["Conversational Processes and Causal Explanation" by Hilton:](https://pdfs.semanticscholar.org/5093/4979694fb48e55d0cf38888f67b84ad6601b.pdf)
+- [How to Develop a Word-Level Neural Language Model and Use it to Generate Text](https://machinelearningmastery.com/how-to-develop-a-word-level-neural-language-model-in-keras/)
+- [Using the fresh released CodeXGLUE benchmark dataset from Microsoft with your own dataset or test the included baseline models on your own code?](https://www.linkedin.com/posts/philipvollet_nlp-datascience-machinelearning-activity-6721313950333575168-5dVi)
+- [Dynamic Context-guided Capsule Network for Multimodal Machine Translation — Multimodal machine translation (MMT), which mainly focuses on enhancing text-only translation with visual features, has attracted considerable attention from both computer vision and natural language processing communities.](https://www.linkedin.com/posts/philipvollet_deeplearning-nlp-pytorch-activity-6708604763212263424-3dtX)
+- [The #NLP Model Forge: Generate Model Code On Demand #AI - check out this overview by Matthew Mayo](https://www.kdnuggets.com/2020/08/nlp-model-forge.html#.X0PCodTTDeQ.linkedin)
+- [NLP as a service using Streamlit & FastAPI (Sebastián Ramírez Montaño) w/ Hugging Face transformers by Abhishek Kumar Mishra](https://www.linkedin.com/posts/madewithml_insight-made-with-ml-activity-6701484081949097984-NUsj)
+- [Project Insight is designed to create NLP as a service ](https://lnkd.in/g85xFCz)
 
 ### Transformers
 
@@ -66,6 +81,10 @@
 - [A Transformer-based Approach for Source Code Summarization](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6663306539186565120-KVi7)
 - [Using transformers. a more general guide to training models using transformers](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU)
 - [Find great posts on Transformers and NLP](https://www.pragmatic.ml/)
+- [The broad potential of GPT-3 is not only related to pure language! It can program, design and maybe it will finally replace lawyers and makes the world a better place](https://www.linkedin.com/posts/philipvollet_nlp-gpt3-machinelearning-activity-6691640022606729216-Bsiv)
+- [The pain ends: English to Regex • Never search for regular expressions on StackOverflow again Powered by GPT-3](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6693043670670831616-tUhF)
+- [GPT-3 implementation of Q&A: chatbot conversations (Transformer implementation)](https://colab.research.google.com/drive/1wf6f96tDCWmo7lMEf-6PQxFk8yksKUkG?usp=sharing)
+
 
 ## Text generation
 
@@ -75,6 +94,8 @@
 - TransCoder: An AI from Facebook that uses seq2seq attention model composed of encoder and decoder with transformer architecture to translate code from one programming language to another: [Paper](https://lnkd.in/ep9DmBr) | [Press release](https://venturebeat.com/2020/06/08/facebooks-transcoder-ai-converts-code-from-one-programming-language-into-another/)
 - [OpenAI let us try its state-of-the-art NLP text generator](https://venturebeat.com/2019/02/14/openai-let-us-generate-text-with-an-ai-model-that-achieves-state-of-the-art-performance-in-several-nlp-tasks/)
 - [How to Develop a Word-Level Neural Language Model and Use it to Generate Text](https://machinelearningmastery.com/how-to-develop-a-word-level-neural-language-model-in-keras/)
+- [Neural Deepfake Detection with Factual Structure of Text](https://www.linkedin.com/posts/philipvollet_datascience-nlp-machinelearning-activity-6722741334584762368-XFMb)
+
 
 ### BERT
 
@@ -93,6 +114,20 @@
 - [A visual summary of #ALBERT by Amitchaudhary](https://www.linkedin.com/posts/inna-vogel-nlp_visual-paper-summary-albert-a-lite-bert-activity-6653207200116334592-_HuU)
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (paper)](https://arxiv.org/pdf/1810.04805.pdf)
 - [Does model size matter? A comparison of BERT and DistilBERT](https://app.wandb.ai/jack-morris/david-vs-goliath/reports/Does-model-size-matter%3F-Comparing-BERT-vs.-DistilBERT-using-Sweeps--VmlldzoxMDUxNzU)
+- [Multiple Choice Question Generation with Google T5 NLP model and Text2Text a BERT based model!](https://www.linkedin.com/posts/philipvollet_opensource-datascience-machinelearning-activity-6699178404098527232-yPXi)
+- [TopicBERT: A Transformer transfer learning based memory-graph approach for multimodal streaming social media topic detection](https://www.linkedin.com/posts/philipvollet_datascience-deeplearning-analytics-activity-6701363886358192128-k9sh)
+- [BERT Model Architectures For Semantic Similarity](https://www.youtube.com/watch?v=D-BlhDFXt30)
+- [Top2Vec is an algorithm for topic modeling and semantic search](https://www.linkedin.com/posts/philipvollet_datascience-bigdata-dataanalytics-activity-6705372351665729536-dSUr)
+
+## n-shot learning
+
+- [The 🤗 Transformers master branch now includes a built-in pipeline for zero-shot text classification, to be included in the next release.](https://www.linkedin.com/posts/huggingface_zero-shot-classification-pipeline-activity-6699016990352314368-jAlf)
+- One-Shot Learning for Language Modelling: Implementation of the Matching Networks architecture in PyTorch for a NLP task. The architecture is flexible enough to allow easy experimentation with distance metrics, number of labels per episode, number of examples per label, etc.: [Paper](https://lnkd.in/g9sVg9r) | [GitHub](https://lnkd.in/gf9GVGx) | [Colab](https://lnkd.in/gx6nnrN)
+
+## Neural search
+
+- [Easiest way to build Neural Search](https://www.linkedin.com/posts/philipvollet_nlp-cv-machinelearning-activity-6701498007722037248-1vDn)
+- [Webinar with Malte Pietsch from deepset: implement #NeuralSearch at scale and in the cloud-native settings. State-of-the-art neural search solution!](https://lnkd.in/etVUVVB)
 
 # Contributing
 

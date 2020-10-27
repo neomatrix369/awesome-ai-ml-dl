@@ -36,8 +36,9 @@
      - Part A: https://www.youtube.com/watch?v=p0snNMCbvN4&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=8
      - Part B: https://www.youtube.com/watch?v=j4IgXflsZtg&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=9
      - Part C: https://www.youtube.com/watch?v=kHZmFVDm0QQ&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=10
+  - [Webinar: AI Analytics PART 1: Optimize End-to-End Data Science and Machine Learning Acceleration](https://event.on24.com/event/25/25/92/3/rt/1/documents/resourceList1596477265666/s_webinarslides1596477264742.pdf](https://software.intel.com/content/www/us/en/develop/documentation/get-started-with-ai-linux/top.html](https://github.com/intel/AiKit-code-samples)
   
-  ### Jupyter
+  ### Jupyter and notebook related
 
   - [handcalcs: a library to render Python calculation code automatically in Latex for your Jupyter Notebook!](https://www.linkedin.com/posts/philipvollet_datascience-python-datascientist-activity-6703912203441070080-5BHm)
   - [The Uncompromising Python Code Formatter also for your Jupyter Notebook!](https://www.linkedin.com/posts/philipvollet_python-jupyternotebook-programming-activity-6722049722435158017-3XuZ)
@@ -46,7 +47,8 @@
   - [Jupyter Notebooks sidebar for memory](https://github.com/yuvipanda/nbresuse)
   - [A JupyterLab extension for displaying dashboards of GPU usage](https://github.com/rapidsai/jupyterlab-nvdashboard)
   - [Tutorial: Advanced Jupyter Notebooks](https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial/)
-
+  - [Microsoft Research • Gather is a notebook cleaning tool which use a dependency graph to analyzes and determines the necessary code within a notebook and performs code cleanup, automating this difficult, annoying, and time-consuming task.](https://www.linkedin.com/posts/philipvollet_python-python3-analyst-activity-6693389309015412736-yyJq) | [VSCode Extension](https://lnkd.in/gQVZQuN) | [Blogpost](https://lnkd.in/gxJiPni)
+  - [Open-sourcing Polynote: an IDE-inspired polyglot notebook](https://netflixtechblog.com/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447?gi=69b4f8562541)
 
   ## Supervised
 
@@ -87,6 +89,7 @@
   - [Andrej Karpathy’s blog post: Neural Network recipes](http://karpathy.github.io/2019/04/25/recipe/)
   - [Spektral is a Python library for graph deep learning, based on the Keras API and TensorFlow 2](https://github.com/danielegrattarola/spektral/)
   - [PyGLN Gated Linear Network (GLN implementations for NumPy, PyTorch, TensorFlow and JAX: A new family of neural networks introduced by DeepMind](https://www.linkedin.com/posts/philipvollet_machinelearning-neuralnetwork-network-activity-6693036479427563520-AYtm)
+  - [Understand the Impact of Learning Rate on Neural Network Performance](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
 
   ## Generative Adversarial Network (GAN)
 
@@ -96,6 +99,7 @@
    - [A probabilistic programming language in TensorFlow. Deep generative models, variational inference](https://github.com/blei-lab/edward)
    - [Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models](https://arxiv.org/pdf/1805.06605.pdf)
    - [GAN Playground](https://reiinakano.com/gan-playground/)
+   - [GANs for Anti Money Laundering](https://www.youtube.com/watch?v=PDXaDTnAN2M&feature=youtu.be (upto 1/2 way into the video: t=2570) | [Slides](https://www.slideshare.net/dowlingjim/gans-for-anti-money-laundering)
 
   ## Genetic Algorithms
 

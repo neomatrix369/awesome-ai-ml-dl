@@ -146,6 +146,7 @@
 - [How to Get Started with Deep Learning for Time Series Forecasting (7-Day Mini-Course)](https://www.aiproblog.com/index.php/2018/09/03/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
 - [The Promise of Recurrent Neural Networks for Time Series Forecasting](https://machinelearningmastery.com/promise-recurrent-neural-networks-time-series-forecasting/)
 - [Google Stock Price Time Series Prediction with RNN(LSTM) using pytorch from Scratch](https://in.pycon.org/cfp/2018/proposals/google-stock-price-time-series-prediction-with-rnnlstm-using-pytorch-from-scratch~b67Rd/)
+- [Outstanding results predicting Apple Stock with Continual ML using Global News (with Python)](https://towardsdatascience.com/making-a-continual-ml-pipeline-to-predict-apple-stock-with-global-news-python-90e5d6610b21)
 - [Time Series and Decentralized Networks - Upcoming free webinar http://bit.ly/3b40pKL](https://www.linkedin.com/posts/data-science-central_time-series-and-decentralized-networks-activity-6647291431524319232-zbSy)
 - [How to Develop Deep Learning Models for Univariate Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-deep-learning-models-for-univariate-time-series-forecasting/)
 - [How to Develop Multilayer Perceptron Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-multilayer-perceptron-models-for-time-series-forecasting/)

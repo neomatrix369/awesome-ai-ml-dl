@@ -44,6 +44,7 @@
 * [Multiple Stock Prediction Using Deep Learning Network](https://towardsdatascience.com/multiple-stock-prediction-using-deep-learning-network-d19a7acd8551?source=social.tw)
 * [Deep Learning Models for Multi-Output Regression](https://machinelearningmastery.com/deep-learning-models-for-multi-output-regression/)
 * [List of deep learning courses for different problems](https://www.linkedin.com/posts/sudalairajkumar_deeplearning-ml-activity-6682849875089997824-q-6a)
+* [KD Lib: a PyTorch library for knowledge distillation that comes with a whole suite of implemented algorithms and benchmarks!](https://lnkd.in/gubVUq3) | [LinkedIn post](https://www.linkedin.com/posts/het-shah163_kd-lib-made-with-ml-activity-6703658588310704128-SFJU)
 * See [Deep Learning](../courses.md#deep-learning) in [Courses](../courses.md#courses)
 
 # Contributing

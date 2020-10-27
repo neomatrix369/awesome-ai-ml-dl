@@ -48,6 +48,8 @@
 ## Resources
 
 - [Kaggle Kernels Guide for Beginners — Step by Step Tutorial](https://towardsdatascience.com/kaggle-kernels-for-beginners-a-step-by-step-guide-3db6b1cd7606) | [Best Data Scientists on Kaggle from 2011-2020](https://www.youtube.com/watch?v=guLZ_2WcEqM) | [What Kaggle has learned from almost a million data scientists - Anthony Goldbloom (Kaggle)](https://www.youtube.com/watch?v=jmHbS8z57yI)
+- [Getting ‘More’ out of your Kaggle Notebooks.](https://www.linkedin.com/posts/parulpandeyindia_getting-more-out-of-your-kaggle-notebooks-activity-6703281576970592256-rGPg)
+- [Tackling any Kaggle Competition : The Noob's Way](https://www.kaggle.com/tanulsingh077/tackling-any-kaggle-competition-the-noob-s-way) | [Mr_KnowNothing-s-Weekends](https://github.com/tanulsingh/Mr_KnowNothing-s-Weekends)
 
 - RAPIDS
   - [RAPIDS in Kaggle competition](https://www.kaggle.com/cdeotte/rapids/) [LinkedIn](https://www.linkedin.com/posts/miguelusque_kaggle-rapids-gpu-activity-6628421575299383297-Ifuu)
