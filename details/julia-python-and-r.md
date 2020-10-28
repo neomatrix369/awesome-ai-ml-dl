@@ -70,6 +70,8 @@
   ## Active Learning
 
   - [ViewAL: Active Learning with Viewpoint Entropy for Semantic Segmentation](https://www.linkedin.com/posts/hamed-zitoun-54428658_machinelearning-deeplearning-datascience-activity-6606497055265431552-Grcr)
+  - [Active Learning with PyTorch](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
+  - [Bayesian active learning with Gaussian processes](https://bitbucket.org/JohnReid/2019-bayesian-mixer/raw/5439d0bf0be2d01dc2d95ab89407211a875021ae/Bayesian-Mixer.pdf) | [source code](https://github.com/JohnReid/dynlearn) | [John Reid](http://johnreid.github.io/)
 
   ## Neural Networks
 
