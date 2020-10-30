@@ -60,7 +60,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
         - [Reinforcement learning](./details/julia-python-and-r.md#reinforcement-learning)
       - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
     - [Programming in Python](Programming-in-Python.md)
-    - [AI in Golang](./details/julia-python-go-and-r.md#programming-in-golang)
+    - [AI in Golang](./details/julia-python-and-r.md#programming-in-golang)
     - [More...](./details/julia-python-and-r.md#more)
   - [JavaScript](README-details.md#javascript)
   - [Tests & Testing](./details/julia-python-and-r.md#testing)
