@@ -1,4 +1,4 @@
-# Julia, Python Golang and R
+# Julia, Python and R
 
 - [General](#general)
 - [Generative Adversarial Network (GAN)](#generative-adversarial-network-gan)
@@ -257,19 +257,6 @@ See [Programming in Python](../Programming-in-Python.md)
 + [Elastic Net Regression in R programming](https://www.geeksforgeeks.org/elastic-net-regression-in-r-programming/)
 + [Quantile Regression in R](https://geeksforgeeks.org/quantile-regression-in-r-programming/amp/)
 + [LOOCV (Leave One Out Cross-Validation) in R Programming](https://www.geeksforgeeks.org/loocvleave-one-out-cross-validation-in-r-programming/amp/)
-
-## Programming in Golang
-
-+ [Go binding for Tensorflow](https://pkg.go.dev/github.com/tensorflow/tensorflow/tensorflow/go)
-+ [Why to deploy ML model with Go](https://towardsdatascience.com/why-we-deploy-machine-learning-models-with-go-not-python-a4e35ec16deb)
-+ [GoLearn - Machine Learning library for Go](https://github.com/sjwhitworth/golearn)
-+ [Hands on Deep learning with Go - Github repo](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Go)
-+ [GDeep - Deep learning library written in golang](https://github.com/kuroko1t/gdeep)
-+ [Go-Torch Go binding for pytorch](https://github.com/orktes/go-torch)
-+ [Gorgonia - ML in Go](https://github.com/gorgonia/gorgonia)
-+ [GoBrain - Simple NN written in Go](https://github.com/goml/gobrain)
-+ [Go Scientific Library](https://github.com/cpmech/gosl)
-
 
 ## Visualisation
 

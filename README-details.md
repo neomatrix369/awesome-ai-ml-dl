@@ -4,6 +4,7 @@
 - [Artificial Intelligence](#artificial-intelligence)
 - [Automation](#automation)
 - [Ethics / altruistic motives](#ethics--altruistic-motives)
+- [Golang](#Golang)
 - [Java](#java)
 - [Julia, Python & R](#julia-python--r)
 - [JavaScript](#javascript)
@@ -61,6 +62,18 @@
 - [robotethics | aiethics.ai](aiethics.ai) | [AIethics.AI – Artificial Intelligence and Robot Ethics](https://robotethics.co.uk/decisions/)
 - [UK gov’s guidance](https://www.gov.uk/guidance/understanding-artificial-intelligence-ethics-and-safety)
 - [Google principles](https://ai.google/principles/)
+
+## Golang
+
++ [Go binding for Tensorflow](https://pkg.go.dev/github.com/tensorflow/tensorflow/tensorflow/go)
++ [Why to deploy ML model with Go](https://towardsdatascience.com/why-we-deploy-machine-learning-models-with-go-not-python-a4e35ec16deb)
++ [GoLearn - Machine Learning library for Go](https://github.com/sjwhitworth/golearn)
++ [Hands on Deep learning with Go - Github repo](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Go)
++ [GDeep - Deep learning library written in golang](https://github.com/kuroko1t/gdeep)
++ [Go-Torch Go binding for pytorch](https://github.com/orktes/go-torch)
++ [Gorgonia - ML in Go](https://github.com/gorgonia/gorgonia)
++ [GoBrain - Simple NN written in Go](https://github.com/goml/gobrain)
++ [Go Scientific Library](https://github.com/cpmech/gosl)
 
 ### Java
 
