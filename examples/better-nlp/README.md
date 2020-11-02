@@ -73,9 +73,16 @@ You can open these notebooks directly into Google Colab:
 [Utility Script Competition! (September 23rd - Oct 7th): submission, discussion topic](https://www.kaggle.com/general/109651#642354)
 
 - NLP Profiler:
-**[Library](https://github.com/neomatrix369/nlp_profiler)** | [Notebook/Kernel](https://www.kaggle.com/neomatrix369/nlp-profiler-simple-dataset) | [Script](https://www.kaggle.com/neomatrix369/nlp-profiler-class) | [Other related links](https://www.kaggle.com/general/166954)
+**[Library](https://github.com/neomatrix369/nlp_profiler)** | [![Gitter](https://badges.gitter.im/nlp_profiler/community.svg)](https://gitter.im/nlp_profiler/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) |[Notebook/Kernel](https://www.kaggle.com/neomatrix369/nlp-profiler-simple-dataset) | [Script](https://www.kaggle.com/neomatrix369/nlp-profiler-class) | [Other related links](https://www.kaggle.com/general/166954)
 
-![](https://user-images.githubusercontent.com/1570917/88474968-8fb48980-cf23-11ea-944d-0a1069174ede.png)
+<table>
+  <tr>
+    <td align="center"><a href="https://youtu.be/sdPOyqMfK7M?t=2274"><img alt="Demo of the NLP Profiler library (Abhishek talks #6)" src=https://user-images.githubusercontent.com/1570917/88474968-8fb48980-cf23-11ea-944d-0a1069174ede.png></a> or you find the rest of the <a href=https://www.youtube.com/watch?v=sdPOyqMfK7M>talk here</a></td>
+<td>
+  <td align="center"><a href="https://youtu.be/wHIcQWeOugI?t=808"><img alt="Demo of the NLP Profiler library (NLP Zurich talk)" src=https://secure.meetupstatic.com/photos/event/5/7/3/highres_492541395.jpeg></a> or you find the rest of the <a href=https://www.youtube.com/watch?v=wHIcQWeOugI>talk here</a></td>
+  
+  </tr>
+</table>
 
 
 ## Installation
