@@ -37,6 +37,7 @@ aka *_Exploratory Data Analysis_*
 - [A Complete Tutorial to Learn Data Analysis with Python From Scratch](https://www.linkedin.com/posts/iamsivab_introduction-to-programming-in-pythonpdf-activity-6640574471667318784-yt-g)
 - [AutoPlotter • GUI based Exploratory Data Analysis (EDA) Search easily for missing values, data distribution & trends, outliers etc](https://www.linkedin.com/posts/philipvollet_analytics-data-dataexploration-activity-6691932081448218624-5xNy)
 - [Great expectations (profiling data)](https://github.com/great-expectations/great_expectations)
+- [DTale: Web Client for Visualizing Pandas Objects](https://pypi.org/project/dtale/) | [LinkedIn post](https://www.linkedin.com/posts/philipvollet_datascience-python-jupyter-activity-6729298029536514048-F4Ad)
 - See [Data > Programs and Tools](./programs-and-tools.md#programs-and-tools) and [Things to know: Primary tools to analyse data](../things-to-know.md#primary-tools-to-analyse-data)
 
 ### Missing values
