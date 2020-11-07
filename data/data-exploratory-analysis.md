@@ -38,6 +38,7 @@ aka *_Exploratory Data Analysis_*
 - [AutoPlotter • GUI based Exploratory Data Analysis (EDA) Search easily for missing values, data distribution & trends, outliers etc](https://www.linkedin.com/posts/philipvollet_analytics-data-dataexploration-activity-6691932081448218624-5xNy)
 - [Great expectations (profiling data)](https://github.com/great-expectations/great_expectations)
 - [DTale: Web Client for Visualizing Pandas Objects](https://pypi.org/project/dtale/) | [LinkedIn post](https://www.linkedin.com/posts/philipvollet_datascience-python-jupyter-activity-6729298029536514048-F4Ad)
+- Intake: Intake is a lightweight set of tools for loading and sharing data in data science projects. [GitHub](https://github.com/intake/intake) | [Docs](https://intake.readthedocs.io/en/latest/)
 - See [Data > Programs and Tools](./programs-and-tools.md#programs-and-tools) and [Things to know: Primary tools to analyse data](../things-to-know.md#primary-tools-to-analyse-data)
 
 ### Missing values
