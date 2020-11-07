@@ -55,7 +55,7 @@
 - [Scale, Standardize, or Normalize with Scikit-Learn](https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02)
 - [Scale, Standardize or Normalize with scikit-learn](https://www.kaggle.com/discdiver/guide-to-scaling-and-standardizing)
 - [Mean normalization and Feature scaling](https://www.linkedin.com/posts/data-science-central_mean-normalization-and-feature-scaling-activity-6617945072522575872-My8E)
-- [How to Easily Calculate the Mean Absolute Deviation in Excel - Statology](https://www.statology.org/how-to-easily-calculate-the-mean-absolute-deviation-in-excel/](https://en.wikipedia.org/wiki/Average_absolute_deviation)
+- [How to Easily Calculate the Mean Absolute Deviation in Excel - Statology](https://www.statology.org/how-to-easily-calculate-the-mean-absolute-deviation-in-excel/) | [Wikipedia](https://en.wikipedia.org/wiki/Average_absolute_deviation)
 - [Normalising a distribution notebook](../notebooks/data/data-processing/Normalising-a-distribution.ipynb)
 
 ## Misc
