@@ -13,7 +13,6 @@ _pycache_/*
 __pycache__
 *~
 *.bak
-.DS_Store
 \#*#
 .#*
 
@@ -29,3 +28,4 @@ __pycache__
 wandb/
 catboost_info/
 *.logs
+.DS_Store

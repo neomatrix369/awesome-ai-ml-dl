@@ -15,6 +15,12 @@
 - [Elifive](https://eli5.readthedocs.io/en/latest/overview.html) | [GitHub](https://github.com/TeamHG-Memex/eli5)
 - [Shap](https://github.com/slundberg/shap) [1](https://blog.dominodatalab.com/shap-lime-python-libraries-part-1-great-explainers-pros-cons/) [2](https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/)
 - [Demystifying Black-Box Models with SHAP Value Analysis](https://www.linkedin.com/posts/vincentg_demystifying-black-box-models-with-shap-value-activity-6657041692224483328-ixRo)
+- [Language Interpretability Tool (LIT)](https://github.com/PAIR-code/lit)
+- [Model Cards](https://modelcards.withgoogle.com/about) | [Paper](https://research.google/pubs/pub48120/)
+- [Explainable AI tool from Google](https://pair-code.github.io/what-if-tool/)
+- [What-if-tool on GitHub](https://github.com/PAIR-code/what-if-tool)
+- [useR2020! Keynote: "Responsible Automation: Towards Interpretable & Fair AutoML"](https://github.com/ledell/useR2020-automl)
+- [Explainable AI by IBM](https://github.com/Trusted-AI/AIX360) | [GitHub](https://github.com/IBM/lale) | [(video, slides, codes) on youtube channel](https://www.youtube.com/channel/UCj09XsAWj-RF9kY4UvBJh_A) | [GitHub](https://github.com/decentdilettante)
 
 
 ## Articles, blog posts, papers, notebooks, books, presentations
@@ -55,13 +61,7 @@
 - [How Explainable AI is helping algorithms avoid bias](https://www.forbes.com/sites/simonchandler/2020/02/18/how-explainable-ai-is-helping-algorithms-avoid-bias/#7d21a68a5ed3) [LinkedIn Post](https://www.linkedin.com/posts/bo-li-8503b896_httpswwwforbescomsitessimonchandler-activity-6635931803196710912-dRQR)
 - [Building blocks of Interpretability](https://distill.pub/2018/building-blocks/)
 - [Machine Patterns Design Patterns](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/)
-- [Model Cards](https://research.google/pubs/pub48120/](https://modelcards.withgoogle.com/about)
-- [Language Interpretability Tool](​https://github.com/PAIR-code/lit)
-- [Explainable AI tool from Google](https://pair-code.github.io/what-if-tool/)
-- [What-if-tool on GitHub!](https://pair-code.github.io/what-if-tool/](https://github.com/PAIR-code/what-if-tool)
 - [AI Fairness blog](https://community.ibm.com/community/user/datascience/blogs/tim-bonnemann1/2020/09/02/ibm-series-on-ai-trust-now-available-on-demand-two)
-- [useR2020! Keynote: "Responsible Automation: Towards Interpretable & Fair AutoML"](https://github.com/ledell/useR2020-automl)
-- [Explainable AI by IBM](https://github.com/Trusted-AI/AIX360](https://github.com/IBM/lale) | [(video, slides, codes) on youtube channel](https://www.youtube.com/channel/UCj09XsAWj-RF9kY4UvBJh_A](https://github.com/decentdilettante)
 
 ## Calibration
 
