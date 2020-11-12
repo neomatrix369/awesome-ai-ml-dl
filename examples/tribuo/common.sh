@@ -85,3 +85,16 @@ isVersionGreaterThanOrEqualTo() {
   fi
   echo "${result}"
 }
+
+isGraalVMEE() {
+	result="false"
+	OUTPUT="java_version.txt"
+	java -version &> ${OUTPUT} || true
+	GRAALVM_EE_FOUND=$(grep -i "GraalVM EE" ${OUTPUT})
+	rm -f "${OUTPUT}"
+
+	if [[ ! -z "${GRAALVM_EE_FOUND}" ]]; then
+		result="true"
+	fi
+	echo "${result}"
+}

@@ -115,7 +115,8 @@ See detailed [Classification output](outputs/tribuo-classification-example-outpu
 
 Requirements before proceeding:
 - JAR build with steps from previous section
-- GraalVM CE or EE (to able to build a `native-image`)
+- GraalVM CE (to able to build a `native-image`)
+- [Optional] GraalVM EE (to able to build a profile-guided `native-image`)
 
 Please follow the below to be able to build a native-image from the already built jar:
 
@@ -124,9 +125,16 @@ Please follow the below to be able to build a native-image from the already buil
 ./builder.sh --extract
 ./builder.sh --buildNativeImage
 
+## or to build profile-guided optimisation using GraalVM EE
+./builder.sh --pgo --buildNativeImage
+
+
 ## build native-image from the gradle built artifact (jar file in build/libs folder)
 ./builder.sh --build-tool gradle --extract
 ./builder.sh --build-tool gradle --buildNativeImage
+
+## or to build profile-guided optimisation using GraalVM EE
+./builder.sh --pgo --build-tool gradle --buildNativeImage
 ```
 
 You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](outputs/native-image-build-output.log).
@@ -135,11 +143,15 @@ Once the native-image is built, you can run it with (no JDK dependencies needed)
 ```bash
 # classification example
 $ time ./tribuo-machine-1.0-with-dependencies
+or
+$ time ./tribuo-machine-1.0-with-dependencies-pgo   # build using --pgo option using GraalVM EE
 
 or
 
 # regression example
 $ time ./tribuo-machine-1.0-with-dependencies --regression
+or
+$ time ./tribuo-machine-1.0-with-dependencies-pgo --regression   # build using --pgo option using GraalVM EE
 ```
 
 You should see the same [Classification output](outputs/tribuo-classification-example-output.txt) and [Regression output](outputs/tribuo-regression-example-output.txt) as before.

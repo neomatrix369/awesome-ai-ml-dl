@@ -38,8 +38,12 @@ showUsageText() {
                                                          the native image
        --extract                                         (command) extract the Jar file configuration 
                                                          information and save into the META-INF folder
+       --pgo                                             use profile guided optimisation when building a native-image
+                                                         the generated native-image filename contains a '-pgo' as suffix
+                                                         (works with GraalVM EE jdk only)
        --buildNativeImage                                (command) build the native image from the Jar
                                                          file provided
+
        --help                                            shows the script usage help text
 
 HEREDOC
@@ -49,6 +53,7 @@ JARFILE=""
 BUILD_TOOL="mvn"
 JARFILE_LOCATION="target"
 IMAGE_NAME=""
+USE_PGO="false"
 SHOW_STACK_TRACES=${SHOW_STACK_TRACES:-}
 OPTIONS=""
 
@@ -127,9 +132,45 @@ buildNativeImage() {
 	echo ""
 	echo "native-image version $(native-image --version)"
 	echo ""
-	set -x
-	time native-image ${OPTIONS} -jar ${JARFILE} ./${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOG}"
-	set +x
+	if [[ "$(isGraalVMEE)" == "true" ]]; then
+       echo "Current SDK on the JDK_HOME/PATH path is a GraalVM EE JDK"
+	else
+       echo "Current SDK on the JDK_HOME/PATH path is NOT a GraalVM EE JDK"
+       if [[ "${USE_PGO}" == "true" ]]; then
+          echo "--pgo is not available for this version of the JDK. Falling back to default behaviour."
+       fi
+       USE_PGO="false"
+	fi
+	echo ""
+
+	# See usage docs: https://github.com/oracle/graal/blob/master/substratevm/PGOEnterprise.md
+	if [[ "${USE_PGO}" == "true" ]]; then
+		echo "Instrumenting the native-image and recording profile information"
+		echo ""
+		set -x
+		time native-image --pgo-instrument ${OPTIONS} \
+		     -jar ${JARFILE} ./${IMAGE_NAME}-instrumented &> "${NATIVE_IMAGE_BUILD_LOG}"
+		set +x
+		
+		echo "Running the instrumented native-image to generate "
+		./${IMAGE_NAME}-instrumented --classification
+		mv default.iprof classification.iprof 
+		./${IMAGE_NAME}-instrumented --regression
+		mv default.iprof regression.iprof 
+		echo "Building the final native-image using the generated instrumented profile"
+		echo ""
+		IMAGE_NAME="${IMAGE_NAME}-pgo"
+		set -x
+		time native-image --pgo=classification.iprof,regression.iprof \
+		     ${OPTIONS} -jar ${JARFILE} ./${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOG}"
+		set +x
+	else
+		echo "Building native-image from the Jar file provided"
+		set -x
+		time native-image ${OPTIONS} -jar ${JARFILE} \
+		     ./${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOG}"
+		set +x
+	fi
 	echo "~~~~ Finished building native-image '${IMAGE_NAME}' from ${JARFILE}"
 	echo ""
 	echo "Run the native-image by calling it:"
@@ -140,14 +181,16 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --help)              showUsageText; exit 0;;
   --build-tool)        BUILD_TOOL=${2:-"mvn"}; shift;;
   --jarfile)           JARFILE="${2:-}"; shift;;
-  --extract)           extractMetaInfo; exit 0;;
-  --buildNativeImage)  setupVariables; buildNativeImage; exit 0;;
   --buildUberJar)      buildUberJar; exit 0;;
+  --extract)           extractMetaInfo; exit 0;;
+  --pgo)               USE_PGO="true"; ;;
+  --buildNativeImage)  setupVariables; buildNativeImage; exit 0;;
   *) echo "Unknown parameter passed: $1"; exit 1;;
 esac; shift; done
 
 checkForJarFileParam
 
 if [[ "$#" -eq 0 ]]; then
+	echo "No params passed."
 	showUsageText
 fi
