@@ -1,5 +1,19 @@
-[./tribuo-machine-1.0-with-dependencies-pgo:99174]    classlist:  15,289.30 ms,  0.96 GB
-[./tribuo-machine-1.0-with-dependencies-pgo:99174]        setup:   2,535.70 ms,  0.96 GB
-Error: Cannot load profile: default.iprof. Verify that the file exists and has appropriate access rights.
-Error: Use -H:+ReportExceptionStackTraces to print stacktrace of underlying exception
-Error: Image build request failed with exit status 1
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]    classlist:  14,574.47 ms,  0.96 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]        (cap):   5,757.29 ms,  0.96 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]        setup:  17,421.07 ms,  0.96 GB
+WARNING: Could not register reflection metadata for org.apache.commons.logging.impl.Log4JLogger. Reason: java.lang.NoClassDefFoundError: org/apache/log4j/Priority.
+WARNING: Could not register reflection metadata for org.apache.commons.logging.impl.Log4JLogger. Reason: java.lang.NoClassDefFoundError: org/apache/log4j/Priority.
+WARNING: Could not register reflection metadata for org.apache.commons.logging.impl.Log4JLogger. Reason: java.lang.NoClassDefFoundError: org/apache/log4j/Priority.
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]     (clinit):   1,056.89 ms,  1.90 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]   (typeflow):  33,781.72 ms,  1.90 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]    (objects):  30,846.58 ms,  1.90 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]   (features):   2,548.24 ms,  1.90 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]     analysis:  71,451.91 ms,  1.90 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]     universe:   2,994.49 ms,  1.90 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]      (parse):  15,402.55 ms,  1.90 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]     (inline):  12,825.05 ms,  2.59 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]    (compile): 206,943.04 ms,  4.42 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]      compile: 241,065.12 ms,  4.42 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]        image:   9,119.96 ms,  4.42 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]        write:   2,278.04 ms,  4.42 GB
+[./tribuo-machine-1.0-with-dependencies-pgo:99811]      [total]: 359,882.02 ms,  4.42 GB
