@@ -70,7 +70,7 @@ setupVariables() {
 	checkForJarFileParam
 
 	IMAGE_NAME=$(basename ${JARFILE%.*})
-	OPTIONS="${2:-} --no-fallback --no-fallback --report-unsupported-elements-at-runtime --allow-incomplete-classpath"
+	OPTIONS="${2:-} --no-fallback --report-unsupported-elements-at-runtime --allow-incomplete-classpath"
 	OPTIONS="${OPTIONS} -H:ReflectionConfigurationFiles=./META-INF/native-image/reflect-config.json"
 	OPTIONS="${OPTIONS} -H:DynamicProxyConfigurationFiles=./META-INF/native-image/proxy-config.json"
 	OPTIONS="${OPTIONS} -H:ResourceConfigurationFiles=./META-INF/native-image/resource-config.json"
@@ -152,12 +152,15 @@ buildNativeImage() {
 		     -jar ${JARFILE} ./${IMAGE_NAME}-instrumented &> "${NATIVE_IMAGE_BUILD_LOG}"
 		set +x
 		
-		echo "Running the instrumented native-image to generate "
+		echo "Running the instrumented native-image to generate."
+		set -x
 		./${IMAGE_NAME}-instrumented --classification
-		mv default.iprof classification.iprof 
+		mv default.iprof classification.iprof
 		./${IMAGE_NAME}-instrumented --regression
-		mv default.iprof regression.iprof 
-		echo "Building the final native-image using the generated instrumented profile"
+		mv default.iprof regression.iprof
+		set +x		
+
+		echo "Building the final native-image using the generated instrumented profile."
 		echo ""
 		IMAGE_NAME="${IMAGE_NAME}-pgo"
 		set -x
