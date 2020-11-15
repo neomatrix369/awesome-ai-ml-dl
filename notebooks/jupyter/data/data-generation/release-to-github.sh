@@ -27,7 +27,8 @@ if [[ -z ${GITHUB_TOKEN} ]]; then
   exit 0
 fi
 
-TAG_NAME="v0.1"
+RELEASE_VERSION="0.1"
+TAG_NAME="v${RELEASE_VERSION}"
 POST_DATA=$(printf '{
   "tag_name": "%s",
   "target_commitish": "master",
@@ -66,7 +67,8 @@ function uploadAsset() {
          "https://uploads.github.com/repos/${TARGET_REPO}/releases/${releaseId}/assets?name=${assetName}"
 }
 
-uploadAsset ${RELEASE_ID} ${1:-boston_housing_dataset.zip}
+UPLOAD_ARTIFACT=$1
+uploadAsset ${RELEASE_ID} ${UPLOAD_ARTIFACT}
 
 echo "Finished uploading to GitHub"
 echo ""
@@ -74,4 +76,4 @@ echo "Checkout curl output at ${CURL_OUTPUT}"
 echo ""
 echo "Use curl -O -L [github release url] to download this artifacts."
 echo "    for e.g."
-echo "        curl -O -L https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/boston_housing_dataset.zip"
+echo "        curl -O -L https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/${TAG_NAME}/${UPLOAD_ARTIFACT}"
