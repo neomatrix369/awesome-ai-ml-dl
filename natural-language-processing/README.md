@@ -65,6 +65,9 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [Better NLP - presentations](../examples/better-nlp/presentations)
 - Training Multi-Billion Parameter Language Models with Megatron Webinar: [Slides](https://ssl.lvl3.on24.com/event/20/93/08/9/rt/1/documents/resourceList1571091756296/megatronwebinar17oct20191571091755100.pdf) | 
 [NVIDIA/Megatron-LM github](https://github.com/nvidia/megatron-lm) | [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) | [Subscribe to the Higher Education and Research Newsletter (NVIDIA)](https://www.nvidia.com/en-us/industries/higher-education-research/#subscribe-me-solutions&ncid=em-webi-23619#cid=ix01_em-webi_en-us)
+- NLP Profiler: [Demo](https://github.com/neomatrix369/nlp_profiler/#demo) | [First presentation: Abhishek Talks](https://youtu.be/sdPOyqMfK7M?t=2274) | [Follow-up presentation: NLP Zurich](https://github.com/neomatrix369/nlp_profiler/tree/master/presentations/01-nlp-zurich-2020)
+- Also see [Presentations](../presentations/README.md)
+
 
 ## Notebooks
 
