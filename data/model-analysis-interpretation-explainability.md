@@ -63,12 +63,12 @@
 - [Machine Patterns Design Patterns](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/)
 - [AI Fairness blog](https://community.ibm.com/community/user/datascience/blogs/tim-bonnemann1/2020/09/02/ibm-series-on-ai-trust-now-available-on-demand-two)
 - A number of Explainability/Interpretability related resources shared by [Eduard](EduardErnest) previously aka [@darkprince266](), courtesy City, University of London
-  - [Understandable Explanations for Black-Box Models by Tillman Weyde and others](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/4._tillman_weyde-understandable-explanations-v5.pdf)  
-  - [Measureable Counterfactual Local Explanations for Any Classifier by Adam White and Artur d'Avila Garcez](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/adam_white_clear_ecai.pdf)
-  - [Counterfactual Local Explanations via Regression by Adam White and Artur d'Avila Garcez](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/adam_white_clear_talk_wbs.pdf)
-  - [Continual Learning and Explainable AI through Knowledge Extraction from Deep Networks by Artur d'Avila Garcez](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/aifiancewbs.pdf)
-  - [Neural-Symbolic Computing: An Effective Methodology by Artur d'Avila Garcez and others](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/artur_davila_garcez_neural-symbolic_computing_an_effective_methodology_1.pdf)
-  - [Trepan Reloaded: A Knowledge-driven approach to Explaining Black-box Models by Roberto Confalonieri and others](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/tillman_paper.pdf)
+  - [Understandable Explanations for Black-Box Models](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/4._tillman_weyde-understandable-explanations-v5.pdf) by Tillman Weyde and others
+  - [Measureable Counterfactual Local Explanations for Any Classifier](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/adam_white_clear_ecai.pdf) by Adam White and Artur d'Avila Garcez
+  - [Counterfactual Local Explanations via Regression](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/adam_white_clear_talk_wbs.pdf) by Adam White and Artur d'Avila Garcez
+  - [Continual Learning and Explainable AI through Knowledge Extraction from Deep Networks](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/aifiancewbs.pdf) by Artur d'Avila Garcez
+  - [Neural-Symbolic Computing: An Effective Methodology](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/artur_davila_garcez_neural-symbolic_computing_an_effective_methodology_1.pdf) by Artur d'Avila Garcez and others
+  - [Trepan Reloaded: A Knowledge-driven approach to Explaining Black-box Models](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/tillman_paper.pdf) by Roberto Confalonieri and others
 
 ## Calibration
 
