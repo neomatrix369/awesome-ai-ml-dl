@@ -45,6 +45,7 @@ COPY common.sh common.sh
 RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${JAVA_HOME}/lib/server/:${JAVA_HOME}/lib/amd64/server/ 
 COPY install-tribuo.sh install-tribuo.sh
 RUN ./install-tribuo.sh
+RUN mv tribuo/*.gz tribuo/tutorials
 
 ### Setup user
 COPY .bashrc .bashrc_custom

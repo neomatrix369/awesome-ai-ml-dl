@@ -72,6 +72,7 @@ REGRESSION_XGBOOST_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-regression-xgboost/${TRIBU
 REGRESSION_TREE_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-regression-tree/${TRIBUO_VERSION}"
 CLUSTERING_KMEANS_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-clustering-kmeans/${TRIBUO_VERSION}"
 ANOMALY_LIBSVM_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-anomaly-libsvm/${TRIBUO_VERSION}"
+ONNX_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-onnx/${TRIBUO_VERSION}"
 
 echo "Copying the necessary jars into the tutorials folder"
 
@@ -98,6 +99,9 @@ cp ${CLUSTERING_KMEANS_FOLDER}/tribuo-clustering-kmeans-${TRIBUO_VERSION}-jar-wi
 
 cp ${ANOMALY_LIBSVM_FOLDER}/tribuo-anomaly-libsvm-${TRIBUO_VERSION}-jar-with-dependencies.jar \
    tutorials/tribuo-anomaly-libsvm-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
+
+cp ${ONNX_FOLDER}/tribuo-onnx-${TRIBUO_VERSION}-jar-with-dependencies.jar \
+   tutorials/tribuo-onnx-${TRIBUO_VERSION_IN_NOTEBOOK}-jar-with-dependencies.jar
 
 echo "Downloading datasets"
 wget --directory-prefix=tutorials \
