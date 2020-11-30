@@ -257,6 +257,9 @@ See [Programming in Python](../Programming-in-Python.md)
 + [Elastic Net Regression in R programming](https://www.geeksforgeeks.org/elastic-net-regression-in-r-programming/)
 + [Quantile Regression in R](https://geeksforgeeks.org/quantile-regression-in-r-programming/amp/)
 + [LOOCV (Leave One Out Cross-Validation) in R Programming](https://www.geeksforgeeks.org/loocvleave-one-out-cross-validation-in-r-programming/amp/)
++ [7 Best R Packages for Machine Learning](https://www.geeksforgeeks.org/7-best-r-packages-for-machine-learning/)
++ [Feature Engineering in R Programming](https://www.geeksforgeeks.org/feature-engineering-in-r-programming/)
+
 
 ## Visualisation
 
