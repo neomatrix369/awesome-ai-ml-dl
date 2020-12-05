@@ -31,6 +31,13 @@
   - https://blog.google/products/search/discovering-millions-datasets-web
   - https://datasetsearch.research.google.com
 - [Kaggle Datasets](https://www.kaggle.com/datasets) | Blogs: [1](https://towardsdatascience.com/interesting-datasets-on-kaggle-com-3a4a250b0b85) [2](http://blog.kaggle.com/2016/01/19/introducing-kaggle-datasets/) [3](https://medium.com/@benhamner/introducing-kaggle-datasets-a935f9f76f5) [4](https://stackoverflow.com/questions/52681196/kaggle-datasets-into-jupyter-notebook)
+- More Kaggle Datasets
+  - [Tweet Sentiment Extraction Extended](https://www.kaggle.com/neomatrix369/tweet-sentiment-extraction-extended)
+  - [New York City Taxi Trip Duration Extended](https://www.kaggle.com/neomatrix369/nyc-taxi-trip-duration-extended)
+  - [Air Quality Data in India Extended](https://www.kaggle.com/neomatrix369/air-quality-data-in-india-extended)
+  - [Google Play Store Apps Extended](https://www.kaggle.com/neomatrix369/google-play-store-apps-extended)
+  - [Liverpool Ion Switching competition: 54 features datasets](https://www.kaggle.com/neomatrix369/54-features-datasets-clean-drift-noise-free)
+  - [Liverpool Ion Switching competition: Clean datasets (drift & noise removed)](https://www.kaggle.com/neomatrix369/clean-datasets-drift-noise-removed) 
 - [Carnegie Mellon University Datasets](http://lib.stat.cmu.edu/datasets/)
 - [GeoPlatform Data.gov Search ](https://data.geoplatform.gov/)
 - [Data.gov - Data Catalog](https://catalog.data.gov/dataset)
