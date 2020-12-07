@@ -14,7 +14,7 @@
     - [Closed NLP Competition: Tweet Sentiment Extraction](https://www.kaggle.com/c/tweet-sentiment-extraction/)
         + [Useful NLP and competition resources](https://www.kaggle.com/c/tweet-sentiment-extraction/discussion/159520)
         + [My popular discussions](https://www.kaggle.com/c/tweet-sentiment-extraction/discussion/159361)
-- [Bitgrit competition platform](https://competition.bitgrit.net/)
+- [Bitgrit competition platform](https://bitgrit.net/competition/)
 - [CrowdAI](https://www.crowdai.org/challenges?challenge_filter=active)
 - [Crowd Analytix](https://www.crowdanalytix.com/community)
 - [CodaLab](http://codalab.org/)
