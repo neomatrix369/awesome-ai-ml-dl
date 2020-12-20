@@ -26,7 +26,7 @@ checkForJava() {
 	JAVA_FOUND=$(which java || true)
 
 	if [[ -z "${JAVA_FOUND}" ]]; then
-		echo "No GraalVM JDK installed or available in this environment."
+		echo "No JDK installed or available in this environment."
 		exit -1
 	fi
 	echo "~~~~ Java found"
@@ -37,7 +37,7 @@ checkForGraalVM() {
 	echo "~~~~ Checking for GraalVM JDK"
 	OUTPUT="java_version.txt"
 	java -version &> ${OUTPUT} || true
-	GRAALVM_FOUND=$(grep -i "jvmci" ${OUTPUT})
+	GRAALVM_FOUND=$(grep -i "jvmci" ${OUTPUT} || true)
 
 	if [[ -z "${GRAALVM_FOUND}" ]]; then
 		echo "The JDK currently installed (or currently pointing to) is not a GraalVM JDK."
