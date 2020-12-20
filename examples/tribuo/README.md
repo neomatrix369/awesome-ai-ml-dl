@@ -60,10 +60,10 @@ $ ./gradlew clean shadowJar --info
 
 # using the builder.sh script
 ## build uber jar via mvn as the build tool
-./builder.sh --buildUberJar
+./builder.sh --uber-jar
 
 ## build uber jar via gradle as the build tool
-./builder.sh --build-tool gradle --buildUberJar
+./builder.sh --build-tool gradle --uber-jar
 ```
 
 
@@ -117,27 +117,36 @@ Requirements before proceeding:
 - JAR build with steps from previous section
 - GraalVM CE (to able to build a `native-image`)
 - [Optional] GraalVM EE (to able to build a profile-guided `native-image`)
+- [Optional] UPX (https://upx.github.io) to further compress native-image
 
 Please follow the below to be able to build a native-image from the already built jar:
 
 ```bash
 ## build native-image from the mvn built artifact (jar file in target folder)
 ./builder.sh --extract
-./builder.sh --buildNativeImage
+./builder.sh --native-image
+
+## or compress the resulting native-image file further (default: highest compression)
+./builder.sh --compress 9 --native-image
 
 ## or to build profile-guided optimisation using GraalVM EE
-./builder.sh --pgo --buildNativeImage
+./builder.sh --pgo --native-image
 
+## or compress the resulting native-image file further (default: highest compression)
+./builder.sh --compress 9 --pgo --native-image
 
 ## build native-image from the gradle built artifact (jar file in build/libs folder)
 ./builder.sh --build-tool gradle --extract
-./builder.sh --build-tool gradle --buildNativeImage
+./builder.sh --build-tool gradle --native-image
 
 ## or to build profile-guided optimisation using GraalVM EE
-./builder.sh --pgo --build-tool gradle --buildNativeImage
+./builder.sh --pgo --build-tool gradle --native-image
+
+## or compress the resulting native-image file further (default: highest compression)
+./builder.sh --compress 9 --pgo --build-tool gradle --native-image
 ```
 
-You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](outputs/native-image-build-output.log).
+You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](outputs/native-image-build-output.log) and the [native-image overall run output](outputs/native-image-overall-run.log).
 
 Once the native-image is built, you can run it with (no JDK dependencies needed):
 ```bash

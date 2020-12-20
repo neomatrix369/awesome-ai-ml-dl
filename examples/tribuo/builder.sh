@@ -25,26 +25,61 @@ source common.sh
 showUsageText() {
     cat << HEREDOC
 
-       Usage: $0 --jarfile      [/path/to/JAR file]
-                 --buildUberJar
-                 --extract
-                 --build
-                 --help
+      Usage: $0  [--build-tool      [built tool name]]
+                           --jarfile         [/path/to/JAR file]
+                           --uber-jar
 
-       --build-tool        [built tool name]             name of build tool to use, 
-                                                         options: mvn or gradle, default: mvn
-       --jarfile           [/path/to/JAR file]           path to jar file inside Tribuo Home or elsewhere
-       --buildUberJar                                    (command) build the Uber jar before building 
-                                                         the native image
-       --extract                                         (command) extract the Jar file configuration 
-                                                         information and save into the META-INF folder
-       --pgo                                             use profile guided optimisation when building a native-image
-                                                         the generated native-image filename contains a '-pgo' as suffix
-                                                         (works with GraalVM EE jdk only)
-       --buildNativeImage                                (command) build the native image from the Jar
-                                                         file provided
+                           or
 
-       --help                                            shows the script usage help text
+              $0  --extract
+
+                           or
+
+              $0  [--build-tool      [built tool name]]
+                           [--compress-image  [level]]
+                           [--pgo]
+                           --native-image
+
+      Other options:
+
+       --build-tool        [built tool name]             
+	   
+         build the uber-jar or native-image corresponding to the build-tool of choice.
+         options: mvn or gradle, default: mvn
+
+       --jarfile           [/path/to/JAR file]
+
+         path to jar file inside Tribuo Home or elsewhere
+
+       --uber-jar                                        
+
+         (command) build the Uber jar before building the native image
+
+       --extract                                         
+
+         (command) extract the Jar file configuration 
+         information and save into the META-INF folder
+
+       --pgo
+
+         use profile guided optimisation when building a native-image
+         the generated native-image filename contains a '-pgo' as suffix
+         (works with GraalVM EE jdk only, see https://www.oracle.com/java/graalvm/ for further details)
+
+       --native-image
+	   
+         (command) build the native image from the Jar file provided
+
+       --compress-image    [level]
+	   
+         compress the final executable image built, after running native-image with a level of necessary compression 
+         (using faster to better compress levels). 
+         This feature is supported by UPX, see https://upx.github.io on further details on how to install it.
+         options: 1 to 9 (1: faster compression ... 9: compress better)
+
+       --help
+	   
+         shows the script usage help text
 
 HEREDOC
 }
@@ -117,16 +152,35 @@ extractMetaInfo() {
     set +x
 
 	echo ""; echo "~~~~ Finished running tracing agent on the ${JARFILE}"
-	echo "Now native-image can be run on ${JARFILE} to generate ${IMAGE_NAME} (using the --buildNativeImage parameter)."
+	echo "Now native-image can be run on ${JARFILE} to generate ${IMAGE_NAME} (using the --native-image parameter):"
 	echo ""
+	echo "    $0 --native-image"
+	echo ""
+	echo "See README.md for more such examples."
+	echo ""
+}
+
+checkMetaInfIsPresent() {
+	if [[ !	 -e "META-INF" ]]; then
+	   echo "The 'META-INF' folder is missing, it's possible that the GraalVM tracing agent has not been run to extract meta information about the Jar file".
+	   echo "Please run the below before trying to generate the native-image:"
+	   echo ""
+	   echo "     $0 --extract"
+       echo "" 
+	   echo "Please check out the usage text for further details, if needed."
+	   exit -1
+	fi
 }
 
 buildNativeImage() {
 	echo ""
+
+	checkMetaInfIsPresent
+
 	echo "~~~~ ${IMAGE_NAME}: Building native-image from ${JARFILE} which may take a bit of time"
 	rm -f ./${IMAGE_NAME} && echo "Deleting existing ${IMAGE_NAME}"
 	NATIVE_IMAGE_BUILD_LOG="$(pwd)/outputs/native-image-build-output.log"
-	echo ""; echo "You can follow the build process by doing this:"
+	echo ""; echo "You can follow the build process by doing this in the project root folder:"
 	echo ""
 	echo "       $ tail -f ${NATIVE_IMAGE_BUILD_LOG}"
 	echo ""
@@ -135,8 +189,8 @@ buildNativeImage() {
 	if [[ "$(isGraalVMEE)" == "true" ]]; then
        echo "Current SDK on the JDK_HOME/PATH path is a GraalVM EE JDK"
 	else
-       echo "Current SDK on the JDK_HOME/PATH path is NOT a GraalVM EE JDK"
        if [[ "${USE_PGO}" == "true" ]]; then
+	      echo "Current SDK on the JDK_HOME/PATH path is NOT a GraalVM EE JDK"
           echo "--pgo is not available for this version of the JDK. Falling back to default behaviour."
        fi
        USE_PGO="false"
@@ -145,55 +199,83 @@ buildNativeImage() {
 
 	# See usage docs: https://github.com/oracle/graal/blob/master/substratevm/PGOEnterprise.md
 	if [[ "${USE_PGO}" == "true" ]]; then
-		echo "Instrumenting the native-image and recording profile information"
-		echo ""
-		set -x
-		time native-image --pgo-instrument ${OPTIONS} \
-		     -jar ${JARFILE} ./${IMAGE_NAME}-instrumented &> "${NATIVE_IMAGE_BUILD_LOG}"
-		set +x
-		
-		echo "Running the instrumented native-image to generate."
-		set -x
-		./${IMAGE_NAME}-instrumented --classification
-		mv default.iprof classification.iprof
-		./${IMAGE_NAME}-instrumented --regression
-		mv default.iprof regression.iprof
-		set +x		
-
-		echo "Building the final native-image using the generated instrumented profile."
-		echo ""
-		IMAGE_NAME="${IMAGE_NAME}-pgo"
-		set -x
-		time native-image --pgo=classification.iprof,regression.iprof \
-		     ${OPTIONS} -jar ${JARFILE} ./${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOG}"
-		set +x
+        applyPGO
 	else
 		echo "Building native-image from the Jar file provided"
 		set -x
 		time native-image ${OPTIONS} -jar ${JARFILE} \
 		     ./${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOG}"
 		set +x
+	    echo "~~~~ You could improve performance of the native-image with the --pgo option, check out the usage text via the --help option."
 	fi
 	echo "~~~~ Finished building native-image '${IMAGE_NAME}' from ${JARFILE}"
+
+	compressImage
+
 	echo ""
 	echo "Run the native-image by calling it:"
 	echo "    ./${IMAGE_NAME}"
+}
+
+applyPGO() {
+	echo "Instrumenting the native-image and recording profile information"
+	echo ""
+	set -x
+	time native-image --pgo-instrument ${OPTIONS} \
+			-jar ${JARFILE} ./${IMAGE_NAME}-instrumented &> "${NATIVE_IMAGE_BUILD_LOG}"
+	set +x
+	
+	echo "Running the instrumented native-image to generate."
+	set -x
+	./${IMAGE_NAME}-instrumented --classification
+	mv default.iprof classification.iprof
+	./${IMAGE_NAME}-instrumented --regression
+	mv default.iprof regression.iprof
+	set +x		
+
+	echo "Building the final native-image using the generated instrumented profile."
+	echo ""
+	IMAGE_NAME="${IMAGE_NAME}-pgo"
+	set -x
+	time native-image --pgo=classification.iprof,regression.iprof \
+			${OPTIONS} -jar ${JARFILE} ./${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOG}"
+	set +x
+}
+
+compressImage() {
+	if [[ ! -z "${COMPRESSION_LEVEL}" ]]; then
+	   UPX_EXISTS=$(upx --help || true)
+	   UPX_OUTPUT_FILE="${IMAGE_NAME}_compressed"
+	   if [[ -z "${UPX_EXISTS}" ]]; then
+           echo "~~~~ UPX was NOT found on the path, please install it in this environment and try again."
+		   echo "See https://upx.github.io for further details."
+	   else
+	       echo "~~~~ Attempting to compress native-image '${IMAGE_NAME}' further (using compression level: ${COMPRESSION_LEVEL})"
+	       upx -"${COMPRESSION_LEVEL}" -o "${UPX_OUTPUT_FILE}" "${IMAGE_NAME}"
+		   echo "~~~~ Finished compressing native-image '${IMAGE_NAME}' into '${UPX_OUTPUT_FILE}'"
+	   fi
+	else
+	   echo "~~~~ You could compress the native-image with the --compress-image option, check out the usage text via the --help option."
+	fi
 }
 
 while [[ "$#" -gt 0 ]]; do case $1 in
   --help)              showUsageText; exit 0;;
   --build-tool)        BUILD_TOOL=${2:-"mvn"}; shift;;
   --jarfile)           JARFILE="${2:-}"; shift;;
-  --buildUberJar)      buildUberJar; exit 0;;
+  --uber-jar)          buildUberJar; exit 0;;
   --extract)           extractMetaInfo; exit 0;;
   --pgo)               USE_PGO="true"; ;;
-  --buildNativeImage)  setupVariables; buildNativeImage; exit 0;;
+  --compress-image)    COMPRESSION_LEVEL="${2}"; shift;;
+  --native-image)      setupVariables; buildNativeImage; exit 0;;
   *) echo "Unknown parameter passed: $1"; exit 1;;
 esac; shift; done
 
 checkForJarFileParam
 
 if [[ "$#" -eq 0 ]]; then
-	echo "No params passed."
-	showUsageText
+    echo ""
+	echo "No params passed or one or more options used is missing an necessary flag."
+	echo "Please check usage text using the --help option and try again."
+	echo ""
 fi

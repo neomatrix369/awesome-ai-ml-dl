@@ -1,0 +1,46 @@
+❯ ./builder.sh --compress-image 9 --native-image
+WARNING: Jar file (with full path) not provided as argument to script, assuming jar file: \n   target/tribuo-machine-1.0-with-dependencies.jar.
+
+~~~~ Checking for Java
+~~~~ Java found
+
+~~~~ Checking for GraalVM JDK
+Deleting existing java_version.txt
+~~~~ GraalVM JDK found
+
+~~~~ Checking for 'gu' updater tool
+~~~~ 'gu' updater tool found
+
+~~~~ Checking for 'native-image' tool
+~~~~ 'native-image' tool found
+
+~~~~ tribuo-machine-1.0-with-dependencies: Building native-image from target/tribuo-machine-1.0-with-dependencies.jar which may take a bit of time
+Deleting existing tribuo-machine-1.0-with-dependencies
+
+You can follow the build process by doing this in the project root folder:
+
+       $ tail -f ./outputs/native-image-build-output.log
+
+native-image version GraalVM Version 20.1.0 (Java Version 11.0.7)
+
+
+Building native-image from the Jar file provided
++ native-image --no-fallback --report-unsupported-elements-at-runtime --allow-incomplete-classpath -H:ReflectionConfigurationFiles=./META-INF/native-image/reflect-config.json -H:DynamicProxyConfigurationFiles=./META-INF/native-image/proxy-config.json -H:ResourceConfigurationFiles=./META-INF/native-image/resource-config.json -H:JNIConfigurationFiles=./META-INF/native-image/jni-config.json -jar target/tribuo-machine-1.0-with-dependencies.jar ./tribuo-machine-1.0-with-dependencies
+
+real	0m43.257s
+user	0m0.377s
+sys	0m0.116s
++ set +x
+~~~~ You could improve performance of the native-image with the --pgo option, check out the usage text via the --help option.
+~~~~ Finished building native-image 'tribuo-machine-1.0-with-dependencies' from target/tribuo-machine-1.0-with-dependencies.jar
+~~~~ Attempting to compress native-image 'tribuo-machine-1.0-with-dependencies' further (using compression level: 9)
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2017
+UPX 3.94        Markus Oberhumer, Laszlo Molnar & John Reiser   May 12th 2017
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+  15301712 ->   5338860   34.89%   linux/amd64   tribuo-machine-1.0-with-dependencies_compressed
+
+Packed 1 file.
+~~~~ Finished compressing native-image 'tribuo-machine-1.0-with-dependencies' into 'tribuo-machine-1.0-with-dependencies_compressed'
