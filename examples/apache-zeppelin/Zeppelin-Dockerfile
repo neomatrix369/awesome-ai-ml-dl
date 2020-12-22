@@ -1,10 +1,22 @@
 ARG ZEPPELIN_VERSION
+ARG IMAGE_VERSION
+ARG GRAALVM_VERSION
+ARG GRAALVM_JDK_VERSION
+
+FROM oracle/graalvm-ce:${GRAALVM_VERSION}-${GRAALVM_JDK_VERSION} as graal-jdk-image
+
 FROM apache/zeppelin:${ZEPPELIN_VERSION:-0.8.0}
 
 ### Apache Spark installation
 # Workaround to "fix" https://issues.apache.org/jira/browse/ZEPPELIN-3586
 ARG SPARK_VERSION
 ENV SPARK_VERSION=${SPARK_VERSION:-2.4.3}
+
+LABEL maintainer="Mani Sarkar"
+LABEL example_git_repo="https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/apache-zeppelin"
+LABEL graalvm_version=${GRAALVM_VERSION}-{GRAALVM_JDK_VERSION}
+LABEL version=${IMAGE_VERSION}
+
 
 RUN echo "$LOG_TAG Download Spark binary" && \
     wget -O /tmp/spark-${SPARK_VERSION}-bin-hadoop2.7.tgz https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop2.7.tgz
@@ -19,17 +31,12 @@ RUN rm -fr /usr/lib/jvm/java-1.8.0-openjdk-amd64 /usr/lib/jvm/java-8-openjdk-amd
 
 ### GraalVM installation
 
-ARG GRAALVM_VERSION
-ENV GRAALVM_VERSION=${GRAALVM_VERSION:-19.0.0}
+ENV GRAALVM_VERSION=${GRAALVM_VERSION:-20.3.0}
 
-RUN curl -J -L -O https://github.com/oracle/graal/releases/download/vm-${GRAALVM_VERSION}/graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz
-RUN tar xvzf graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz
-RUN mv graalvm-ce-${GRAALVM_VERSION}/jre /usr/lib/jvm/graalvm-ce-${GRAALVM_VERSION}
-ENV JAVA_HOME=/usr/lib/jvm/graalvm-ce-${GRAALVM_VERSION}
+COPY --from=graal-jdk-image /opt/graalvm-ce-* /usr/lib/jvm/graalvm
+
+ENV JAVA_HOME=/usr/lib/jvm/graalvm
 ENV PATH=$JAVA_HOME/bin:$PATH
-
-RUN rm graalvm-ce-linux-amd64-${GRAALVM_VERSION}.tar.gz
-RUN rm -fr graalvm-ce-${GRAALVM_VERSION}
 
 RUN java -version
 
