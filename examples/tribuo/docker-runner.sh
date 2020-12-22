@@ -116,10 +116,14 @@ buildImage() {
 
 	echo "* Fetching Tribuo docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	time docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
-	time docker build                                                  \
-	             --build-arg WORKDIR=${WORKDIR}                        \
-	             --build-arg JAVA_11_HOME="/opt/java/openjdk"          \
-	             --build-arg GRAALVM_HOME="/opt/java/graalvm"          \
+	time docker build                                                   \
+	             --build-arg WORKDIR=${WORKDIR}                         \
+	             --build-arg JAVA_11_HOME="/opt/java/openjdk"           \
+	             --build-arg GRAALVM_HOME="/opt/java/graalvm"           \
+	             --build-arg IMAGE_VERSION=${IMAGE_VERSION}             \
+	             --build-arg TRIBUO_VERSION=${TRIBUO_VERSION}           \
+                 --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}         \
+                 --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
 	             -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} \
 	             "${IMAGES_DIR}/."
 	echo "* Finished building Tribuo docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
@@ -150,7 +154,7 @@ pullImage() {
 	IMAGE_VERSION=$(cat docker-image/version.txt)
 	FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 	
-	docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
+	docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
 }
 
 
@@ -234,6 +238,9 @@ askDockerUserNameIfAbsent() {
 setVariables() {
 	IMAGE_NAME=${IMAGE_NAME:-tribuo}
 	IMAGE_VERSION=${IMAGE_VERSION:-$(cat docker-image/version.txt)}
+	TRIBUO_VERSION=${TRIBUO_VERSION:-$(cat docker-image/tribuo_version.txt)}
+	GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat docker-image/graalvm_version.txt)}
+	GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat docker-image/graalvm_jdk_version.txt)}
 	FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 }
 

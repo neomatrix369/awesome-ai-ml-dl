@@ -92,8 +92,6 @@ USE_PGO="false"
 SHOW_STACK_TRACES=${SHOW_STACK_TRACES:-}
 OPTIONS=""
 
-TRIBUO_VERSION=${TRIBUO_VERSION:-$(cat ./docker-image/version.txt)}
-
 checkForJarFileParam() {
 	if [[ -z "${JARFILE:-}" ]]; then
 		JARFILE=$(ls ${JARFILE_LOCATION}/*dependencies*.jar || true)
