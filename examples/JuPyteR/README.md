@@ -73,7 +73,7 @@ We should see the below two sets of outputs:
 
 ```
 Installing Jupyter notebook and dependencies
-JDK9, Linux only: We are enabling JVMCI flags (enabling Graal as Tier-2 compiler)
+JDK9/JDK11, Linux only: We are enabling JVMCI flags (enabling Graal as Tier-2 compiler)
 Graal setting: please check docs for higher versions of Java and for other platforms
 PATH=/opt/java/openjdk//bin:/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 JAVA_OPTS=-XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler

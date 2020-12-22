@@ -22,6 +22,8 @@ set -o pipefail
 
 IMAGE_NAME=${IMAGE_NAME:-jupyter-java}
 IMAGE_VERSION=${IMAGE_VERSION:-$(cat ../version.txt)}
+GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
+GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat graalvm_jdk_version.txt)}
 
 if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
   echo "DOCKER_USER_NAME not defined as an environment variable, set to default value: neomatrix369"
@@ -33,9 +35,12 @@ USER=jupyter
 JUPYTER_HOME=/home/${USER}
 
 time docker build \
-                 --build-arg USER=jupyter                    \
-                 --build-arg WORKDIR=${JUPYTER_HOME}         \
-                 -t ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION} \
+                 --build-arg USER=jupyter                               \
+                 --build-arg WORKDIR=${JUPYTER_HOME}                    \
+	             --build-arg IMAGE_VERSION=${IMAGE_VERSION}             \
+                 --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}         \
+                 --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
+                 -t ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}            \
                  .
 
 ./removeUnusedContainersAndImages.sh
