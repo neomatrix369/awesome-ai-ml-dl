@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Copyright 2019 Mani Sarkar
+# Copyright 2019, 2020 Mani Sarkar
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +21,6 @@ set -u
 set -o pipefail
 
 DSS_VERSION=${DSS_VERSION:-5.1.4}
-GRAALVM_VERSION=${GRAALVM_VERSION:-19.1.1}
 
 DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
 
@@ -47,17 +46,17 @@ if [[ "${DETACHED_MODE:-}" = "true" ]]; then
 fi
 
 set -x
-${TIME_IT} docker run --rm                                      \
-                ${INTERACTIVE_MODE}                             \
-                -p ${EXPOSED_PORT}:10000                        \
-                --workdir ${WORKDIR}                            \
-                --env JDK_TO_USE=${JDK_TO_USE:-}                \
-                --env DSS_VERSION=${DSS_VERSION}                \
-                --env JAVA_OPTS=${JAVA_OPTS:-}                  \
-                --env DSS_PORT=10000                            \
-                --env HOME=${WORKDIR}                           \
-                --env DSS_DATADIR=${WORKDIR}/dss                \
-                --user dataiku                                  \
-                ${CUSTOM_ENTRY_POINT}                           \
+${TIME_IT} docker run --rm                                             \
+                ${INTERACTIVE_MODE}                                    \
+                -p ${EXPOSED_PORT}:10000                               \
+                --workdir ${WORKDIR}                                   \
+                --env JDK_TO_USE=${JDK_TO_USE:-}                       \
+                --env DSS_VERSION=${DSS_VERSION}                       \
+                --env JAVA_OPTS=${JAVA_OPTS:-}                         \
+                --env DSS_PORT=10000                                   \
+                --env HOME=${WORKDIR}                                  \
+                --env DSS_DATADIR=${WORKDIR}/dss                       \
+                --user dataiku                                         \
+                ${CUSTOM_ENTRY_POINT}                                  \
                 ${DSS_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
 set +x

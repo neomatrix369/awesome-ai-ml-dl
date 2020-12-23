@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Copyright 2019 Mani Sarkar
+# Copyright 2019, 2020 Mani Sarkar
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +21,8 @@ set -u
 set -o pipefail
 
 DSS_VERSION=${DSS_VERSION:-5.1.4}
-GRAALVM_VERSION=${GRAALVM_VERSION:-19.1.1}
+GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat graalvm_version.txt)}
+GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat graalvm_jdk_version.txt)}
 USER=dataiku
 
 if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
@@ -34,9 +35,10 @@ DSS_DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 echo "* Fetching docker image ${DSS_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 time docker pull ${DSS_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION} || true
-time docker build -t ${DSS_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION} \
-                  --build-arg DSS_VERSION=${DSS_VERSION}          \
-                  --build-arg USER=${USER}                        \
-                  --build-arg WORKDIR=/home/${USER}               \
-                  --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}  \
+time docker build -t ${DSS_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}        \
+                  --build-arg DSS_VERSION=${DSS_VERSION}                 \
+                  --build-arg USER=${USER}                               \
+                  --build-arg WORKDIR=/home/${USER}                      \
+                  --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}         \
+                  --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
                   .
