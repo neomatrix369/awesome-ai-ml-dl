@@ -103,7 +103,7 @@ runContainer() {
                 ${VOLUMES_SHARED}                              \
                 "${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
 
-    if [[ "${NOTEBOOK_MODE}" = "true" ]]; then
+    if [[ "${NOTEBOOK_MODE}" = "true" ]] && [[ "${OPEN_NOTEBOOK}" = "true" ]]; then
 	  openNotebookInBrowser
     fi
 }
@@ -198,6 +198,7 @@ showUsageText() {
                                  --jdk [GRAALVM]
                                  --javaopts [java opt arguments]
                                  --notebookMode
+                                 --doNotOpenNotebook
                                  --cleanup
                                  --buildImage
                                  --runContainer
@@ -216,6 +217,8 @@ showUsageText() {
                              inside the container as it starts
        --notebookMode        runs the Jupyter/Jupyhai notebook server
                              (default: opens the page in a browser)
+       --doNotOpenNotebook   when used with --notebookMode, suppresses 
+                             the opening of the notebook action
        --cleanup             (command action) remove exited containers and
                              dangling images from the local repository
        --buildImage          (command action) build the docker image
@@ -258,6 +261,7 @@ INTERACTIVE_MODE="--interactive --tty"
 TIME_IT="time"
 
 NOTEBOOK_MODE=false
+OPEN_NOTEBOOK=true
 HOST_PORT=8888
 CONTAINER_PORT=8888
 
@@ -280,6 +284,7 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --javaopts)            JAVA_OPTS="${2:-}";
                          shift;;
   --notebookMode)        NOTEBOOK_MODE=true;;
+  --doNotOpenNotebook)   OPEN_NOTEBOOK=false;;
   --buildImage)          buildImage;
                          exit 0;;
   --runContainer)        runContainer;
