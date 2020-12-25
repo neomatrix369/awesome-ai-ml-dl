@@ -15,7 +15,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
   - [Help](#help)
   - [Run the Tribuo docker container](#run-the-tribuo-docker-container)
   - [Other methods to run the container](#other-methods-to-run-the-container)
-  - [Run the Tribuo docker container in the cloud](./deployments/oci/README.md)
+  - [Run the Tribuo in the cloud](./deployments/oci/README.md)
 - [Build the docker container](#build-the-docker-container)
 - [Push built Tribuo docker image to Docker hub](#push-built-tribuo-docker-image-to-docker-hub)
 - [Docker image on Docker Hub](#docker-image-on-docker-hub)

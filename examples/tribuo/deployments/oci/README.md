@@ -13,12 +13,15 @@ network resources necessary to run an instance on OCI
 
 ## Pre-requisites
 
-- Ensure the latest version of the Docker image has been built and push to Docker hub by performing the steps mentioned in the [main README.md](../../README.md)
-- A properly configured [Oracle Cloud Infrastructure account](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm). Please refer these blogposts to understand how you could do this manually: [1](https://medium.com/oracledevs/running-your-jupyter-notebooks-on-the-cloud-ed970326649f) | [2](https://medium.com/oracledevs/running-apache-zeppelin-on-oracle-cloud-infrastructure-b0aecc79597a)
-- or see [Ensure OCI account is created and you can log in](https://docs.oracle.com/en-us/iaas/Content/General/Reference/PaaSprereqs.htm)
-- Note: the above step is one-off, you won't need to do this everything we run instances on the Oracle Cloud. But do ensure the minimum prerequisites are fulfilled.
+- A properly configured [Oracle Cloud Infrastructure account](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm). Please refer these blogposts to understand how you could do this manually: [1](https://medium.com/oracledevs/running-your-jupyter-notebooks-on-the-cloud-ed970326649f) | [2](https://medium.com/oracledevs/running-apache-zeppelin-on-oracle-cloud-infrastructure-b0aecc79597a) or see [Ensure OCI account is created and you can log in](https://docs.oracle.com/en-us/iaas/Content/General/Reference/PaaSprereqs.htm)
+Note: the above step is one-off, you won't need to do this everything we run instances on the Oracle Cloud. But do ensure the minimum prerequisites are fulfilled.
 - [Install Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) (all methods for the various platforms are mentioned)
-- Create your credentials file (one-off, you can reuse this for future purposes). Use the `credentials.rc_template` to create your own credentials file for your OCI account. The file should look like the below (use the `credentials.rc_template` file provided):
+- Clone this repo and in the right folder:
+```bash
+$ git clone https://github.com/neomatrix369/awesome-ai-ml-dl
+$ cd examples/tribuo/deployments/oci
+```
+- Create your credentials file (one-off, you can reuse this for future purposes) in the `examples/tribuo/deployments/oci` folder. Use the `credentials.rc_template` to create your own credentials file for your OCI account. The file should look like the below (as per the `credentials.rc_template` file provided):
 
 ```bash
 ### Terraform env variables
@@ -31,7 +34,6 @@ export TF_VAR_region=[REGION NAME eg: uk-london-1]
 
 ## ssh keys that will be used for remote access authenication
 export TF_VAR_ssh_public_key="$(cat [PATH_TO_SSH_PUBLIC_KEY])"
-export TF_VAR_ssh_private_key="$(cat [PATH_TO_SSH_PRIVATE_KEY])"
 ```
 Note the `TF_VAR` prefix, as it is a terraform convention for input variables. 
 
@@ -62,7 +64,7 @@ $ source credentials.rc
 
 ```bash
 $ terraform init
-$ terraform apply --auto-approve
+$ terraform apply -var "ssh_private_key=$(cat ~/.ssh/id_rsa)" --auto-approve
 ```
 
 The deployment process should end with a list of private/public ip addresses like so:
@@ -114,17 +116,16 @@ $ terraform output instance_public_ips
 - And run the below again:
 
 ```bash
-$ terraform apply --auto-approve
+$ terraform apply -var "ssh_private_key=$(cat ~/.ssh/id_rsa)" --auto-approve
 ```
-
 
 ### Start clean after a failed attempt (errors encountered)
 
 - Run the below before proceeding:
 
 ```bash
-$ terraform destroy --auto-approve
-$ terraform apply --auto-approve
+$ terraform destroy -var "ssh_private_key=$(cat ~/.ssh/id_rsa)" --auto-approve
+$ terraform apply -var "ssh_private_key=$(cat ~/.ssh/id_rsa)" --auto-approve
 ```
 
 This is particularly important on OCI when one or more resources did not get created and before trying again we should clean-up or else Terraform may try to recreate an already existing (invalid instance) resource and you could get errors like "Service rate limit exceeded".
@@ -134,7 +135,7 @@ This is particularly important on OCI when one or more resources did not get cre
 - Remove resources or destroy them with terraform
 
 ```bash
-$ terraform destroy --auto-approve
+$ terraform destroy -var "ssh_private_key=$(cat ~/.ssh/id_rsa)" --auto-approve
 ```
 
 You should see something like this at the end of a successful run:
