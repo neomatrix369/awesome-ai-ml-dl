@@ -10,9 +10,23 @@ network resources necessary to run an instance on OCI
 - adds the necessary permissions to allow services to communicate in the subnet within specific ports (egress and ingress rules)
 - runs the `init.sh` script to install basic tool(s) on the hosts 
 - finally, the `provision.sh` script to prepare the instance ready to be used -- by triggering the docker container to stand up the Jupyter labs server
+- also provides the necessary help in the form of ready-to-use shell-scripts toto perform various tasks with the help of `terraform` and `ssh`
+
+**Table of content**
+- [Pre-requisites](#pre-requisites)
+- [Provisioning Infrastructure using Terraform](#provisioning-infrastructure-using-terraform)
+  + [Setting up credentials](#setting-up-credentials)
+  + [Create infrastructure from the CLI using Terraform](#create-infrastructure-from-the-cli-using-terraform)
+  + [Deploy the docker image with the notebooks and libraries](#deploy-the-docker-image-with-the-notebooks-and-libraries)
+  + [Recover/retry from failed attempt](#recoverretry-from-failed-attempt)
+  + [Start clean after a failed attempt (errors encountered)](#start-clean-after-a-failed-attempt-errors-encountered)
+  + [Destroy infrastructure (cleanup)](#destroy-infrastructure-cleanup)
+- [Security](#security)
+- [OCI and Terraform resources](#oci-and-terraform-resources)
 
 ## Pre-requisites
 
+- **A [Oracle Cloud (OCI)](https://www.oracle.com/cloud/free/) Account (you maybe able to procure some FREE credits via the [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/) program)**
 - A properly configured [Oracle Cloud Infrastructure account](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm). Please refer these blogposts to understand how you could do this manually: [1](https://medium.com/oracledevs/running-your-jupyter-notebooks-on-the-cloud-ed970326649f) | [2](https://medium.com/oracledevs/running-apache-zeppelin-on-oracle-cloud-infrastructure-b0aecc79597a) or see [Ensure OCI account is created and you can log in](https://docs.oracle.com/en-us/iaas/Content/General/Reference/PaaSprereqs.htm)
 Note: the above step is one-off, you won't need to do this everything we run instances on the Oracle Cloud. But do ensure the minimum prerequisites are fulfilled.
 - [Install Terraform](https://learn.hashicorp.com/terraform/getting-started/install.html) (all methods for the various platforms are mentioned)
@@ -32,8 +46,11 @@ export TF_VAR_fingerprint=[FINGERPRINT]
 export TF_VAR_private_key_path=[PATH_TO_YOUR_ACCOUNT_PRIVATE_KEY eg: ~/.oci/key.pem]
 export TF_VAR_region=[REGION NAME eg: uk-london-1]
 
-## ssh keys that will be used for remote access authenication
+### ssh keys that will be used for remote access authenication
 export TF_VAR_ssh_public_key="$(cat [PATH_TO_SSH_PUBLIC_KEY])"
+
+## We won't be assigning the private_key contents into an environment variable but pass it as an argument via the CLI
+echo 'Pass -var "ssh_private_key=$(cat [PATH_TO_YOUR_SSH_PRIVATE_KEY])" when running the "terraform apply" or "terraform destory" commands'
 ```
 Note the `TF_VAR` prefix, as it is a terraform convention for input variables. 
 
@@ -46,11 +63,13 @@ Here is a list of resources on where to look for each of the above resources:
 - And depending on the above choice, make sure you note the location of the Provate key of the key-pair from the above selection, this is needed for `[TF_VAR_private_key_path]`
 Other resources [1](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#five) | [2](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#two) | [3](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#four) | [4](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#five) (look for How to Upload the Public Key)
 - Refer to [Regions page](https://cloud.oracle.com/regions/infrastructure) to look for the Region Identifier that is relevant to your account for the `[TF_VAR_region]` field
-- `[TF_VAR_ssh_public_key]` and `[TF_VAR_ssh_private_key]` are already known to you, they are usually the `~/.ssh/id_rsa.pub` and `~/.ssh/id_rsa` files respectively.
+- `[TF_VAR_ssh_public_key]` and `[TF_VAR_ssh_private_key]` are already known to you, they are referring to the contents of the keys in `~/.ssh/id_rsa.pub` and `~/.ssh/id_rsa` files respectively.
 
 For a summary (also helps to verify the steps) of the above steps please see [here](https://www.terraform.io/docs/providers/oci/index.html).
 
 ## Provisioning Infrastructure using Terraform
+
+### Setting up credentials
 
 - Source your credentials file
 
@@ -85,29 +104,35 @@ instance_public_ips = [
 
 The public IP addresses are fairly dynamic in nature and could be between any range (example shown above). Please make a note of the Public IP above as it will be needed in the following steps.
 
-## Deploy the docker image with the notebooks and libraries
+### Deploy the docker image with the notebooks and libraries
 
 - use ssh and docker to make that end meet
 
 ```bash
-$ ssh opc@[PUBLIC OCI IP] \
-     'cd awesome-ai-ml-dl/examples/tribuo; ./docker-runner.sh --notebookMode --runContainer'
+$ ./run-docker-container-in-the-cloud.sh
 ```
 
-once you see a screen which shows that the Jupyter server is running, copy the line which contains an url with `127.0.0.1`, replace the `127.0.0.1` in the url with the above noted Public IP and open it in the browser.
-
-This should open up a Jupyter Lab web interface and you can navigate through files and folders in the `tribuo` [git repo](https://github.com/oracle/tribuo) that is contained in the container.
-
-Alternative way to find out the Public IP(s) of the created resources:
+and then run this:
 
 ```bash
-$ terraform output instance_public_ips
+$ ./open-notebook-in-browser.sh
+```
 
-[
-  [
-    "132.145.44.253",
-  ],
-]
+To open the Jupyter Lab web interface and you can navigate through files and folders in the `tribuo` [git repo](https://github.com/oracle/tribuo) that is contained in the container. Here under the folder structure `tribuo/tutorials` you shall find a number of Java based notebooks to play with.
+
+![Screen Shot 2020-12-25 at 19 56 52](https://user-images.githubusercontent.com/1570917/103141634-e13d8c00-46ee-11eb-8022-860fb8416500.png)
+**Please watch [this  video](https://youtu.be/2daclN-yAfI?list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&t=2020) to learn how to navigate through the cells and run the cells of the notebook or the whole notebook.**
+
+An alternative way to find out the Public IP(s) of the created resources are:
+
+```bash
+$ ./get-instance-public-ip.sh
+```
+
+and/or the URL to the notebook running on the instance:
+
+```bash
+$ ./get-notebook-url.sh
 ```
 
 ### Recover/retry from failed attempt
@@ -147,19 +172,23 @@ You should see something like this at the end of a successful run:
 Destroy complete! Resources: 7 destroyed.
 ```
 
+### Security
+
+Note that this setup does not take into account establishing a secure `http` i.e. `https` communication between the Jupyter lab instance and the browser. Please beware when using this in your target domain depending on the prerequisites you need to conform to. This example is good for learning and illustration purposes, please do NOT deploy it in production or public facing environments.
+
 ### OCI and Terraform resources
 
 - For more information on Terraform infrastructure management see: [Terraform for OCI](https://www.terraform.io/docs/providers/oci/index.html)
 - [Terraform commands](https://www.terraform.io/docs/commands/index.html)
 - [See working example using Micronaut running on GraalVM](https://github.com/graalvm/graalvm-demos/tree/master/micronaut-webapp/deployments/oci)
+- [Ensure OCI account is created and you can log in](https://docs.oracle.com/en-us/iaas/Content/General/Reference/PaaSprereqs.htm) 
 - Install OCI cli command tool (or use a language specific SDK) -- one-off task]
   - https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdks.htm#Software_Development_Kits_and_Command_Line_Interface
     - [Download CLI](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm#Quickstart)
-        - Setting up the Config File 
-            - [Where to Get the Tenancy's OCID and User's OCID](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#five)
-            - [Regions and Availability Domains](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm#top)
-            - [SDK and CLI configuratuon File](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm)
-- [Ensure OCI account is created and you can log in](https://docs.oracle.com/en-us/iaas/Content/General/Reference/PaaSprereqs.htm) 
+    + Setting up the Config File 
+        + [Where to Get the Tenancy's OCID and User's OCID](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#five)
+        + [Regions and Availability Domains](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm#top)
+        + [SDK and CLI configuratuon File](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm)
 - How to find values of the Terraform OCI related variables
     - [Oracle Cloud Infrastructure account](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm)
 - [What are Compartments?](https://cloud.oracle.com/identity/compartments)
