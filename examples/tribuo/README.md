@@ -1,4 +1,4 @@
-# Tribuo [![Tribuo](https://img.shields.io/docker/pulls/neomatrix369/tribuo.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Tribuo [![Tribuo](https://img.shields.io/docker/pulls/neomatrix369/tribuo.svg)](https://hub.docker.com/r/neomatrix369/tribuo) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 ---
@@ -15,6 +15,7 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
   - [Help](#help)
   - [Run the Tribuo docker container](#run-the-tribuo-docker-container)
   - [Other methods to run the container](#other-methods-to-run-the-container)
+  - **[Run the Tribuo docker container in the cloud](./deployments/oci/README.md)**
 - [Build the docker container](#build-the-docker-container)
 - [Push built Tribuo docker image to Docker hub](#push-built-tribuo-docker-image-to-docker-hub)
 - [Docker image on Docker Hub](#docker-image-on-docker-hub)
@@ -126,13 +127,13 @@ Please follow the below to be able to build a native-image from the already buil
 ./builder.sh --extract
 ./builder.sh --native-image
 
-## or compress the resulting native-image file further (default: highest compression)
+## or compress the resulting native-image file further (-9 for highest compression)
 ./builder.sh --compress 9 --native-image
 
 ## or to build profile-guided optimisation using GraalVM EE
 ./builder.sh --pgo --native-image
 
-## or compress the resulting native-image file further (default: highest compression)
+## or compress the resulting native-image file further (-9 for highest compression)
 ./builder.sh --compress 9 --pgo --native-image
 
 ## build native-image from the gradle built artifact (jar file in build/libs folder)
@@ -142,7 +143,7 @@ Please follow the below to be able to build a native-image from the already buil
 ## or to build profile-guided optimisation using GraalVM EE
 ./builder.sh --pgo --build-tool gradle --native-image
 
-## or compress the resulting native-image file further (default: highest compression)
+## or compress the resulting native-image file further (-9 for highest compression)
 ./builder.sh --compress 9 --pgo --build-tool gradle --native-image
 ```
 
@@ -225,6 +226,7 @@ $ ./docker-runner.sh --notebookMode --runContainer
 ### (remember container ID published in the console)
 ```
 
+![Screen Shot 2020-12-25 at 19 56 52](https://user-images.githubusercontent.com/1570917/103141634-e13d8c00-46ee-11eb-8022-860fb8416500.png). **Please watch [this  video](https://youtu.be/2daclN-yAfI?list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&t=2020) to learn how to navigate through the cells and run the cells of the notebook or the whole notebook.**
 
 _[Optional] To start a second session in the above running instance, do the below:_
 ```bash

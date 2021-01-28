@@ -42,8 +42,8 @@ showUsageText() {
 
       Other options:
 
-       --build-tool        [built tool name]             
-	   
+       --build-tool        [built tool name]
+
          build the uber-jar or native-image corresponding to the build-tool of choice.
          options: mvn or gradle, default: mvn
 
@@ -51,13 +51,13 @@ showUsageText() {
 
          path to jar file inside Tribuo Home or elsewhere
 
-       --uber-jar                                        
+       --uber-jar
 
          (command) build the Uber jar before building the native image
 
-       --extract                                         
+       --extract
 
-         (command) extract the Jar file configuration 
+         (command) extract the Jar file configuration
          information and save into the META-INF folder
 
        --pgo
@@ -67,18 +67,18 @@ showUsageText() {
          (works with GraalVM EE jdk only, see https://www.oracle.com/java/graalvm/ for further details)
 
        --native-image
-	   
+
          (command) build the native image from the Jar file provided
 
        --compress-image    [level]
-	   
-         compress the final executable image built, after running native-image with a level of necessary compression 
-         (using faster to better compress levels). 
+
+         compress the final executable image built, after running native-image with a level of necessary compression
+         (using faster to better compress levels).
          This feature is supported by UPX, see https://upx.github.io on further details on how to install it.
          options: 1 to 9 (1: faster compression ... 9: compress better)
 
        --help
-	   
+
          shows the script usage help text
 
 HEREDOC
@@ -91,8 +91,6 @@ IMAGE_NAME=""
 USE_PGO="false"
 SHOW_STACK_TRACES=${SHOW_STACK_TRACES:-}
 OPTIONS=""
-
-TRIBUO_VERSION=${TRIBUO_VERSION:-$(cat ./docker-image/version.txt)}
 
 checkForJarFileParam() {
 	if [[ -z "${JARFILE:-}" ]]; then
@@ -166,7 +164,7 @@ checkMetaInfIsPresent() {
 	   echo "Please run the below before trying to generate the native-image:"
 	   echo ""
 	   echo "     $0 --extract"
-       echo "" 
+       echo ""
 	   echo "Please check out the usage text for further details, if needed."
 	   exit -1
 	fi
@@ -224,14 +222,14 @@ applyPGO() {
 	time native-image --pgo-instrument ${OPTIONS} \
 			-jar ${JARFILE} ./${IMAGE_NAME}-instrumented &> "${NATIVE_IMAGE_BUILD_LOG}"
 	set +x
-	
+
 	echo "Running the instrumented native-image to generate."
 	set -x
 	./${IMAGE_NAME}-instrumented --classification
 	mv default.iprof classification.iprof
 	./${IMAGE_NAME}-instrumented --regression
 	mv default.iprof regression.iprof
-	set +x		
+	set +x
 
 	echo "Building the final native-image using the generated instrumented profile."
 	echo ""

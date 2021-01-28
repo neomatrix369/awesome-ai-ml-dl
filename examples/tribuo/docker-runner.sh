@@ -103,7 +103,7 @@ runContainer() {
                 ${VOLUMES_SHARED}                              \
                 "${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
 
-    if [[ "${NOTEBOOK_MODE}" = "true" ]]; then
+    if [[ "${NOTEBOOK_MODE}" = "true" ]] && [[ "${OPEN_NOTEBOOK}" = "true" ]]; then
 	  openNotebookInBrowser
     fi
 }
@@ -116,10 +116,14 @@ buildImage() {
 
 	echo "* Fetching Tribuo docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
 	time docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
-	time docker build                                                  \
-	             --build-arg WORKDIR=${WORKDIR}                        \
-	             --build-arg JAVA_11_HOME="/opt/java/openjdk"          \
-	             --build-arg GRAALVM_HOME="/opt/java/graalvm"          \
+	time docker build                                                   \
+	             --build-arg WORKDIR=${WORKDIR}                         \
+	             --build-arg JAVA_11_HOME="/opt/java/openjdk"           \
+	             --build-arg GRAALVM_HOME="/opt/java/graalvm"           \
+	             --build-arg IMAGE_VERSION=${IMAGE_VERSION}             \
+	             --build-arg TRIBUO_VERSION=${TRIBUO_VERSION}           \
+                 --build-arg GRAALVM_VERSION=${GRAALVM_VERSION}         \
+                 --build-arg GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION} \
 	             -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} \
 	             "${IMAGES_DIR}/."
 	echo "* Finished building Tribuo docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
@@ -150,7 +154,7 @@ pullImage() {
 	IMAGE_VERSION=$(cat docker-image/version.txt)
 	FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 	
-	docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
+	docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
 }
 
 
@@ -194,6 +198,7 @@ showUsageText() {
                                  --jdk [GRAALVM]
                                  --javaopts [java opt arguments]
                                  --notebookMode
+                                 --doNotOpenNotebook
                                  --cleanup
                                  --buildImage
                                  --runContainer
@@ -212,6 +217,8 @@ showUsageText() {
                              inside the container as it starts
        --notebookMode        runs the Jupyter/Jupyhai notebook server
                              (default: opens the page in a browser)
+       --doNotOpenNotebook   when used with --notebookMode, suppresses 
+                             the opening of the notebook action
        --cleanup             (command action) remove exited containers and
                              dangling images from the local repository
        --buildImage          (command action) build the docker image
@@ -234,6 +241,9 @@ askDockerUserNameIfAbsent() {
 setVariables() {
 	IMAGE_NAME=${IMAGE_NAME:-tribuo}
 	IMAGE_VERSION=${IMAGE_VERSION:-$(cat docker-image/version.txt)}
+	TRIBUO_VERSION=${TRIBUO_VERSION:-$(cat docker-image/tribuo_version.txt)}
+	GRAALVM_VERSION=${GRAALVM_VERSION:-$(cat docker-image/graalvm_version.txt)}
+	GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION:-$(cat docker-image/graalvm_jdk_version.txt)}
 	FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 }
 
@@ -251,6 +261,7 @@ INTERACTIVE_MODE="--interactive --tty"
 TIME_IT="time"
 
 NOTEBOOK_MODE=false
+OPEN_NOTEBOOK=true
 HOST_PORT=8888
 CONTAINER_PORT=8888
 
@@ -273,6 +284,7 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --javaopts)            JAVA_OPTS="${2:-}";
                          shift;;
   --notebookMode)        NOTEBOOK_MODE=true;;
+  --doNotOpenNotebook)   OPEN_NOTEBOOK=false;;
   --buildImage)          buildImage;
                          exit 0;;
   --runContainer)        runContainer;

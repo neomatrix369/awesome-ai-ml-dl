@@ -1,0 +1,7 @@
+target
+.gradle
+build
+deepnetts*-with-dependencies*
+META-INF
+*.iprof
+logs/
