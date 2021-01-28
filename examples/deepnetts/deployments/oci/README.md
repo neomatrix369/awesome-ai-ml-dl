@@ -118,7 +118,7 @@ and then run this:
 $ ./open-notebook-in-browser.sh
 ```
 
-To open the Jupyter Lab web interface and you can navigate through files and folders in the `deepnetts` [git repo](https://github.com/deepnetts/deepnetts-communityedition) that is contained in the container. Here under the folder structure `deepnetts/tutorials` you shall find a number of Java based notebooks to play with.
+To open the Jupyter Lab web interface and you can navigate through files and folders in the `deepnetts-communityedition` [git repo](https://github.com/deepnetts/deepnetts-communityedition) that is contained in the container. Here under the folder structure `deepnetts-communityedition/notebooks` you shall find a number of Java based notebooks to play with.
 
 ![Screen Shot 2020-12-25 at 19 56 52](https://user-images.githubusercontent.com/1570917/103141634-e13d8c00-46ee-11eb-8022-860fb8416500.png)
 **Please watch [this  video](https://youtu.be/2daclN-yAfI?list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&t=2020) to learn how to navigate through the cells and run the cells of the notebook or the whole notebook.**

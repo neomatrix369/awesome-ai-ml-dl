@@ -40,7 +40,7 @@ Requirements before proceeding:
 - `JAVA_HOME` set correctly
 - Maven 3.5 of higher
 
-Run the Classification or Regression example as illustrated in the tutorial notebooks: [Classification](https://github.com/oracle/deepnetts/blob/main/tutorials/irises-deepnetts-v4.ipynb) | [Regression](https://github.com/oracle/deepnetts/blob/main/tutorials/regression-deepnetts-v4.ipynb) as a Java App run from the CLI.
+Run the Classification or Regression example as illustrated in the tutorial notebooks: [Classification](https://github.com/deepnetts/deepnetts-communityedition/main/notebooks/classification.ipynb) | [Regression](https://github.com/deepnetts/deepnetts-communityedition/main/notebooks/regression.ipynb) as a Java App run from the CLI.
 
 Perform the below steps in order to be able to build and run the example provided in the [`src` folder](src/main/java/org/neomatrix369/deepnetts) in this folder:
 
@@ -91,24 +91,36 @@ $ time java -jar build/libs/deepnetts-machine-1.0-with-dependencies.jar --regres
 
 And you will see an output that looks like this:
 ```
+time java -jar target/deepnetts-machine-1.0-with-dependencies.jar --regression | less
+~ Running DeepNetts Machine
+CLI Params: [--regression]
+~~ Running DeepNetts Machine Regression
 ~~~ Loading the data
-Oct 13, 2020 6:06:36 PM com.deepnetts.data.csv.CSVIterator getRow
-WARNING: Ignoring extra newline at line 151
-Training data size = 105, number of features = 4, number of classes = 3
-Testing data size = 45, number of features = 4, number of classes = 3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~ Splitting datasets
+Training data size = 42
+Testing data size = 18
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Training the model ~~~
+------------------------------------------------------------------------------------------------------------------
+TRAINING NEURAL NETWORK
+-----------------------------------------------------------------------------------------------------------------  
 .
 .
 .
-      "transformations" : [ ],
-      "is-sequence" : "false",
-      "is-dense" : "false",
-      "class-name" : "com.deepnetts.MutableDataset"
-    },
-    "class-name" : "com.deepnetts.classification.sgd.linear.LinearSGDModel"
-  }
-}
-java -jar target/deepnetts-machine-1.0-with-dependencies.jar    1.61s user 0.14s system 176% cpu 0.993 total
+------------------------------------------------------------------------
+~~~ Evaluating the model ~~~
+RSquared: 0.8647233
+MeanSquaredError: 0.0029451316
+ResidualStandardError: 0.05519681
+FStatistics: 370.75085
+
+Original function: y = 0.5 * x + 0.2
+Estimated/learned function: y = 0.5315051 * x + 0.29967403
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Predicted output for 0.2 :[0.40597504]
+java -jar target/deepnetts-machine-1.0-with-dependencies.jar --regression  9.36s user 1.72s system 150% cpu 7.357 total
 ```
 See detailed [Classification output](outputs/deepnetts-classification-example-output.txt) and [Regression output](outputs/deepnetts-regression-example-output.txt).
 
@@ -222,7 +234,7 @@ $ ./docker-runner.sh --help
 
 $ ./docker-runner.sh --notebookMode --runContainer
 
-### (The example DeepNetts notebooks can be found in the deepnetts/tuturials folder
+### (The example DeepNetts notebooks can be found in the deepnetts-communityedition/notebooks folder
 ### (remember container ID published in the console)
 ```
 
