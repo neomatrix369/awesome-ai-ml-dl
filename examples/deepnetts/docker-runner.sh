@@ -62,7 +62,7 @@ openNotebookInBrowser() {
 	echo "Use below command to connect to the running container via a new session/shell:"
 	echo "                docker exec -it ${CONTAINER_ID} /bin/bash"
     echo ""
-	echo "The example Deepnetts note books can be found in the deepnetts/tuturials folder"
+	echo "The example Deepnetts note books can be found in the deepnetts/notebooks folder"
 	echo ""
 	echo "****************************************************"
 	echo ""; echo "You can terminate your Jupyter session with a Ctrl-C"
