@@ -35,10 +35,7 @@ repositories {
 // Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
 
 dependencies {
-    implementation('com.deepnetts:deepnetts-core:1.12@pom') {
-        transitive = true // for Groovy
-        // isTransitive = true // for Kotlin
-    }
+    implementation('com.deepnetts:deepnetts-core:1.12@pom') {}
 }
 
 group = 'org.neomatrix369.deepnetts'
