@@ -45,10 +45,16 @@ openNotebookInBrowser() {
 	echo ""; echo "Displaying the missed log messages for container ${CONTAINER_ID}"
 	docker logs ${CONTAINER_ID}
 
-	URL="$(docker logs ${CONTAINER_ID} | grep '8888/?token' | grep ' or http' | grep -v 'NotebookApp' | awk '{print $2}' || true)"
+	URL="$(docker logs ${CONTAINER_ID} | grep ${CONTAINER_PORT}'/?token' | grep ' or http' | grep -v 'NotebookApp' | awk '{print $2}' || true)"
 	URL="${URL:-https://localhost:${HOST_PORT}}"
-	echo ""; echo "Opening Jupyter Notebook in a browser:"
+	URL=${URL/${CONTAINER_PORT}/${HOST_PORT}}
+
+	echo ""; echo "********************************************************************************************************"
+	echo ""; echo "Opening Jupyter Notebook in a browser:"; echo "";
 	echo " ${URL}"
+	echo ""; echo "";
+	echo "********************************************************************************************************"; echo "";
+
 	OPEN_CMD="$(getOpenCommand)"
 	"${OPEN_CMD}" "${URL}"
 	
@@ -197,6 +203,7 @@ showUsageText() {
                                  --detach
                                  --jdk [GRAALVM]
                                  --javaopts [java opt arguments]
+                                 --hostport [1024-65535]
                                  --notebookMode
                                  --doNotOpenNotebook
                                  --cleanup
@@ -215,6 +222,9 @@ showUsageText() {
                              enables the traditional JDK)
        --javaopts            sets the JAVA_OPTS environment variable
                              inside the container as it starts
+       --hostport            specify an available port between 0 and 65535,
+                             handy when running multiple Jupyter sessions.
+                             (default: 8888)
        --notebookMode        runs the Jupyter/Jupyhai notebook server
                              (default: opens the page in a browser)
        --doNotOpenNotebook   when used with --notebookMode, suppresses 
@@ -282,6 +292,8 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --jdk)                 JDK_TO_USE="${2:-}";
                          shift;;
   --javaopts)            JAVA_OPTS="${2:-}";
+                         shift;;
+  --hostport)            HOST_PORT=${2:-${HOST_PORT}};
                          shift;;
   --notebookMode)        NOTEBOOK_MODE=true;;
   --doNotOpenNotebook)   OPEN_NOTEBOOK=false;;

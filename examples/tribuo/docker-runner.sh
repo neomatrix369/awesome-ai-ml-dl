@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Copyright 2020 Mani Sarkar
+# Copyright 2019, 2020, 2021 Mani Sarkar
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -45,10 +45,16 @@ openNotebookInBrowser() {
 	echo ""; echo "Displaying the missed log messages for container ${CONTAINER_ID}"
 	docker logs ${CONTAINER_ID}
 
-	URL="$(docker logs ${CONTAINER_ID} | grep '8888/?token' | grep ' or http' | grep -v 'NotebookApp' | awk '{print $2}' || true)"
+	URL="$(docker logs ${CONTAINER_ID} | grep ${CONTAINER_PORT}'/?token' | grep ' or http' | grep -v 'NotebookApp' | awk '{print $2}' || true)"
 	URL="${URL:-https://localhost:${HOST_PORT}}"
-	echo ""; echo "Opening Jupyter Notebook in a browser:"
+	URL=${URL/${CONTAINER_PORT}/${HOST_PORT}}
+
+	echo ""; echo "********************************************************************************************************"
+	echo ""; echo "Opening Jupyter Notebook in a browser:"; echo "";
 	echo " ${URL}"
+	echo ""; echo "";
+	echo "********************************************************************************************************"; echo "";
+
 	OPEN_CMD="$(getOpenCommand)"
 	"${OPEN_CMD}" "${URL}"
 	
@@ -62,7 +68,7 @@ openNotebookInBrowser() {
 	echo "Use below command to connect to the running container via a new session/shell:"
 	echo "                docker exec -it ${CONTAINER_ID} /bin/bash"
     echo ""
-	echo "The example Tribuo notebooks can be found in the tribuo/tutorial folder"
+	echo "The example Tribuo notebooks can be found in the tribuo/tutorials folder"
 	echo ""
 	echo "****************************************************"
 	echo ""; echo "You can terminate your Jupyter session with a Ctrl-C"
@@ -197,6 +203,7 @@ showUsageText() {
                                  --detach
                                  --jdk [GRAALVM]
                                  --javaopts [java opt arguments]
+                                 --hostport [1024-65535]
                                  --notebookMode
                                  --doNotOpenNotebook
                                  --cleanup
@@ -215,6 +222,9 @@ showUsageText() {
                              enables the traditional JDK)
        --javaopts            sets the JAVA_OPTS environment variable
                              inside the container as it starts
+       --hostport            specify an available port between 0 and 65535,
+                             handy when running multiple Jupyter sessions.
+                             (default: 8888)
        --notebookMode        runs the Jupyter/Jupyhai notebook server
                              (default: opens the page in a browser)
        --doNotOpenNotebook   when used with --notebookMode, suppresses 
@@ -282,6 +292,8 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --jdk)                 JDK_TO_USE="${2:-}";
                          shift;;
   --javaopts)            JAVA_OPTS="${2:-}";
+                         shift;;
+  --hostport)            HOST_PORT=${2:-${HOST_PORT}};
                          shift;;
   --notebookMode)        NOTEBOOK_MODE=true;;
   --doNotOpenNotebook)   OPEN_NOTEBOOK=false;;
