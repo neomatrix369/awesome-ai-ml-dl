@@ -159,7 +159,6 @@ Please follow the below to be able to build a native-image from the already buil
 ./builder.sh --compress 9 --pgo --build-tool gradle --native-image
 ```
 
-You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](outputs/native-image-build-output.log) and the [native-image overall run output](outputs/native-image-overall-run.log).
 
 Once the native-image is built, you can run it with (no JDK dependencies needed):
 ```bash
@@ -176,7 +175,6 @@ or
 $ time ./deepnetts-machine-1.0-with-dependencies-pgo --regression   # build using --pgo option using GraalVM EE
 ```
 
-You should see the same [Classification output](outputs/deepnetts-classification-example-output.txt) and [Regression output](outputs/deepnetts-regression-example-output.txt) as before.
 
 _Note: You will also notice it runs faster than the `jar` version, of course this could change when the dataset and/or other end-to-end training/evaluation flow changes (**no speed guaranutees**, it will depend on various factors)._
 
@@ -238,7 +236,7 @@ $ ./docker-runner.sh --notebookMode --runContainer
 ### (remember container ID published in the console)
 ```
 
-![Screen Shot 2020-12-25 at 19 56 52](https://user-images.githubusercontent.com/1570917/103141634-e13d8c00-46ee-11eb-8022-860fb8416500.png). **Please watch [this  video](https://youtu.be/2daclN-yAfI?list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&t=2020) to learn how to navigate through the cells and run the cells of the notebook or the whole notebook.**
+![](https://user-images.githubusercontent.com/1570917/106272281-b502b700-6228-11eb-8e85-32007c641304.png) **Please watch [this  video on how to use a Java-based notebook](https://youtu.be/2daclN-yAfI?list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&t=2020) to learn how to navigate through the cells and run the cells of the notebook or the whole notebook.**
 
 _[Optional] To start a second session in the above running instance, do the below:_
 ```bash
