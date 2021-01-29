@@ -10,7 +10,7 @@ See [slides (PDF)](Looking_into_Java_ML_DL_libraries_Tribuo_and_DeepNetts.pdf) -
 
 ### Speaker
 
-- [Mani Sarkar](http://github.com/neomatrix369) | [AirMeet Profile]()
+- [Mani Sarkar](http://github.com/neomatrix369) | [AirMeet Profile](https://www.airmeet.com/e/2d74b270-6043-11eb-9af0-f5e009e37ce1)
 
 ### Abstract
 
