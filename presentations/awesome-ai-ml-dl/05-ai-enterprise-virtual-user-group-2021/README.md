@@ -2,11 +2,11 @@
 
 ### Slides
 
-See [slides (PDF)](Looking_into_Java_ML_DL_libraries_Tribuo_and_DeepNetts.pdf) - please download to be able to click on the links (see top corner for Download button when on the page with the PDF displayed). `Linux` or `Windows` users in case links don't work, try to open the PDF in a web browser and it should work.
+See [slides (PDF)](Looking_into_Java_ML_DL_Libraries_Tribuo_and_DeepNetts.pdf) - please download to be able to click on the links (see top corner for Download button when on the page with the PDF displayed). `Linux` or `Windows` users in case links don't work, try to open the PDF in a web browser and it should work.
 
 ### Video
 
-(To be updated later on)
+See [YouTube](https://www.youtube.com/watch?v=gy4UAfBsWTE).
 
 ### Speaker
 
