@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #
-# Copyright 2019, 2020, 2021 Mani Sarkar
+# Copyright 2019 Mani Sarkar
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -75,12 +75,17 @@ installJar() {
 
 	# Used when using valohai/jupyhai or /opt/conda/share/jupyter/kernels as base image
 	KERNEL_CONFIG_FOLDER="/opt/conda/share/jupyter/kernels"
+	ALT_KERNEL_CONFIG_FOLDER="$HOME/.local/share/jupyter/kernels/"
 	
     # Using jupyter/repo2docker as base image
 	# KERNEL_CONFIG_FOLDER="/usr/local/share/jupyter/kernels"
 	if [[ ! -e "${KERNEL_CONFIG_FOLDER}" ]]; then
-		echo "${KERNEL_CONFIG_FOLDER} not found, try a different path"
-		exit -1
+		if [[ ! -e ${ALT_KERNEL_CONFIG_FOLDER} ]]; then
+			echo "${KERNEL_CONFIG_FOLDER} not found, try a different path"
+			exit -1
+		else
+		   KERNEL_CONFIG_FOLDER="${ALT_KERNEL_CONFIG_FOLDER}"
+		fi
 	fi
 
 	export PATH="${HOME}/.local/bin:${PATH}"
@@ -92,7 +97,12 @@ installJar() {
 
 	echo ""
 	echo "~~~ Using the install.py command to install Java kernel version ${JAVA_KERNEL_VERSION} for the available python environment ~~~ "
-	python install.py --sys-prefix
+	exit_code=0
+	python install.py --sys-prefix || true && exit_code=$?
+	if [[ ${exit_code} -ne 0 ]]; then
+		echo "Retrying installation using: python install.py --user"
+		python install.py --user
+	fi
 
 	echo ""
 	echo "~~~ A list of already installed kernels in your jupyter environment ~~~ "
@@ -102,7 +112,11 @@ installJar() {
 	      \"-XX:+UnlockExperimentalVMOptions\",\
 	      \"-XX:+EnableJVMCI\",\
 	      \"-XX:+UseJVMCICompiler",\
-	'  /opt/conda/share/jupyter/kernels/java/kernel.json
+	'  ${KERNEL_CONFIG_FOLDER}/java/kernel.json
+
+	echo "Removing left over folder and installation file"
+	rm -fr java
+	rm -f install.py
 }
 
 showUsageText() {
