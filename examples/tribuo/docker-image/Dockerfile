@@ -1,14 +1,14 @@
 ARG GRAALVM_VERSION
 ARG GRAALVM_JDK_VERSION
 
-FROM oracle/graalvm-ce:${GRAALVM_VERSION}-${GRAALVM_JDK_VERSION} as graal-jdk-image
+FROM findepi/graalvm:${GRAALVM_VERSION}-${GRAALVM_JDK_VERSION} as graal-jdk-image
 FROM jupyter/datascience-notebook as base-image
 
 ### Install JDK 11 from AdoptOpenJDK images
 COPY --from=adoptopenjdk/openjdk11 /opt/java /opt/java
 
 ### Install GraalVM for Java 11
-COPY --from=graal-jdk-image /opt/graalvm-ce-* /opt/java/graalvm
+COPY --from=graal-jdk-image /graalvm* /opt/java/graalvm
 
 ### Install curl needed for rest of the tasks
 USER root
