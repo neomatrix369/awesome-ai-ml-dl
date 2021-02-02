@@ -29,6 +29,7 @@ public class RegressionDeepNettsExample
     private boolean showOutput;
     private static String csvFilename = "datasets/linear-for-deepnetts.csv";
     private static String csvValidationFilename = "datasets/deepnetts-linear-regression-validation.csv";
+    private static int UNSEEN_DATA_COUNT = 100;
 
     public RegressionDeepNettsExample(boolean showOutput) {
         this.showOutput = showOutput;
@@ -90,7 +91,7 @@ public class RegressionDeepNettsExample
 
 
         // plot predictions for some random data
-        double[][] data = new double[100][2];
+        double[][] data = CsvFile.read(csvValidationFilename, UNSEEN_DATA_COUNT, true);
 
         for(int i=0; i<data.length; i++) {
             data[i][0] =  0.5-Math.random();

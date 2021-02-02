@@ -32,16 +32,26 @@ public class CsvFile {
         }
     }
 
-    public static double[][] read(String fileName, int lines) {
+    public static double[][] read(String fileName, int lines, boolean hasHeader) {
         BufferedReader br = null;
         try {
             double[][] data = new double[lines][2];
             br = new BufferedReader(new FileReader(fileName));
+
+            int startIndex = 0;
+            if (hasHeader) {
+                startIndex = 1;
+            }
             for(int i=0; i<data.length; i++) {
-                String line = br.readLine();
-                String[] strVals = line.split(",");
-                data[i][0] = Double.parseDouble(strVals[0]);
-                data[i][1] = Double.parseDouble(strVals[1]);
+                if (i >= startIndex) {
+                    String line = br.readLine();
+                    String[] strVals = line.split(",");
+                    data[startIndex][0] = Double.parseDouble(strVals[0]);
+                    data[startIndex][1] = Double.parseDouble(strVals[1]);
+                    startIndex = startIndex + 1;
+                } else {
+                    br.readLine();
+                }
             }   br.close();
             return data;
         } catch (FileNotFoundException ex) {
