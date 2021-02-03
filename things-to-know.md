@@ -139,6 +139,7 @@ See [Courses](./courses.md#courses)
 - [Binder / JupyterHub](https://mybinder.org/)
 - [Kaggle Notebooks (Kernels)](https://www.kaggle.com/kernels/)
 - [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio/)
+- [Count](https://count.co)
 - Also see resources under [Notebooks](./notebooks/README.md#notebooks) and [Cheatsheets](./details/cheatsheets.md)
 
 
