@@ -386,6 +386,7 @@ See [Courses](./courses.md#courses)
 * [ChartIO: Cloud-based data analytics exploration for all](https://chartio.com/)
 * [Salesforce](https://www.salesforce.com/)
 * [Einstein Analytics](https://www.salesforce.com/products/einstein-analytics/overview/)
+* [Count](https://count.co)
 
 
 ## Other Tools
