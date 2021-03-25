@@ -16,12 +16,13 @@
 # limitations under the License.
 #
 
-from sklearn.feature_selection import RFE
+from sklearn.feature_selection import RFE, VarianceThreshold
 from sklearn.linear_model import LogisticRegression
 
 import statsmodels.api as sm
 
 import pandas as pd
+import numpy as np
 
 RANDOM_SEED = 42
 FEATURE_IMPORTANCE_CUTOFF = 0.00099
@@ -48,7 +49,7 @@ def convert_columns_into_categorical(dataset):
     return dataset
 
 
-def get_feature_importance_with_regression_method(X_train, y_train):
+def get_feature_importance_with_regression_method(X_train, y_train, features_to_select: int = 20):
     """
     Return a list of features by importance based on the training dataset set passed in.
     A quick Logistic regression is performed on the dataset (hence the split parameters).
@@ -72,13 +73,30 @@ def get_feature_importance_with_regression_method(X_train, y_train):
     X_train = convert_columns_into_categorical(X_train)
 
     logreg = LogisticRegression(random_state=RANDOM_SEED)
-    rfe = RFE(logreg, 20)
+    rfe = RFE(logreg, features_to_select)
     rfe = rfe.fit(X_train, y_train)
 
     return X_train.columns[rfe.support_]
 
 
-def get_feature_importance_with_logit_method(X_train, y_train, show_summary_only=False, p_values_cutoff=P_VALUES_STD_CUTOFF):
+# https://www.wallstreetmojo.com/normalization-formula/
+def normalize(values: np.ndarray) -> np.ndarray:
+    return (values - values.min()) / (values.max() - values.min()) 
+
+
+# Issue: Singularity Matrix error by Logit() method
+# https://stackoverflow.com/questions/20703733/logit-regression-and-singular-matrix-error-in-python
+def variance_threshold_selector(data: pd.DataFrame, threshold: float = 0.5) -> pd.DataFrame:
+    selector = VarianceThreshold(threshold)
+    selector.fit(data)
+    return data[data.columns[selector.get_support(indices=True)]]
+
+
+def get_feature_importance_with_logit_method(X_train, y_train, 
+                                             method: str = None,
+                                             show_summary_only: bool = False, 
+                                             remove_low_variance_cols = False, variance_threshold: float = 0.05,
+                                             p_values_cutoff: float = P_VALUES_STD_CUTOFF):
     """
     Return a list of features by importance based on the training dataset set passed in.
     A quick Logit fitting is performed on the dataset (hence the split parameters).
@@ -90,6 +108,20 @@ def get_feature_importance_with_logit_method(X_train, y_train, show_summary_only
     :param y_train:
         The target or label part of the dataset (hence y_train).
 
+    :param method
+        The method to use as optimiser.
+        Defaults to None, other option is 'bfgs' which is known to work in many cases
+
+    :param remove_low_variance_cols:
+        Drops those columns/features that have a low variance before passing them to the Logit function.
+        If remove_low_variance_cols = False, then the variance_threshold value won't be used.
+        Defaults to False.
+
+    :param variance_threshold:
+        The minimum tolerance value beyond which such columns can be considered to be dropped.
+        This parameter will be ignore if remove_low_variance_cols=False
+        Defaults to 0.05.
+
     :param show_summary_only:
         Does not return filtered features but the whole summary table returned by the Logit function.
         If show_summary_only = True, then the p_values_cutoff value won't be used.
@@ -98,7 +130,7 @@ def get_feature_importance_with_logit_method(X_train, y_train, show_summary_only
     :param p_values_cutoff:
         The cut-off value to use when filtering feature importance.
         All feature with p-value less than this value will be eliminated from the return list.
-        This field will be ignore if show_summary_only=True
+        This parameter will be ignore if show_summary_only=True
         Defaults to 0.05.
 
     :return:
@@ -112,10 +144,16 @@ def get_feature_importance_with_logit_method(X_train, y_train, show_summary_only
         Credits to Susan Li (https://medium.com/@actsusanli)
     """
     X_train = convert_columns_into_categorical(X_train)
+    if remove_low_variance_cols: 
+        X_train = variance_threshold_selector(X_train, variance_threshold)
+    y_train = normalize(y_train)
 
     logit_model = sm.Logit(y_train, X_train, random_state=RANDOM_SEED)
     try:
-        training_results = logit_model.fit()
+        if method: 
+            training_results = logit_model.fit(method=method)
+        else:
+            training_results = logit_model.fit()
         summary = training_results.summary2()
         if show_summary_only:
             return summary
