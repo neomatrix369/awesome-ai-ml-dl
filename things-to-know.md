@@ -336,6 +336,7 @@ See [Courses](./courses.md#courses)
 * [Trains](https://github.com/allegroai/trains/)
 * [Domino Model Monitor](https://www.dominodatalab.com/product/domino-model-monitor/)
 * [Apache Airflow](https://airflow.apache.org/)
+* [Flyte](https://flyte.org/)
 
 
 ## Publicly share or deploy your data analysis or machine learning applications
