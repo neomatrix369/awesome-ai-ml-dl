@@ -24,11 +24,15 @@ aka *_Exploratory Data Analysis_*
 - [Data Analysis Method: Mathematics Optimization to Build Decision Making](https://www.linkedin.com/posts/data-science-central_data-analysis-method-mathematics-optimization-activity-6661023930838503425-bJtJ)
 - Dataprep.eda: Accelerate your EDA: [original post](https://www.linkedin.com/posts/towards-data-science_dataprepeda-accelerate-your-eda-activity-6655814355810168832-RTPQ) | [blog](https://towardsdatascience.com/dataprep-eda-accelerate-your-eda-eb845a4088bc)
 - [Having a bunch of data and no idea what's in? What is the best tool for a fast Exploratory Data Analysis? Check this EDA Comparison: Pandas Profiling, Sweetviz, and PandasGUI](https://www.linkedin.com/posts/philipvollet_data-analytics-bigdata-activity-6726856744833835008-NnEY)
+- [Pandas is great for most day-to-day data analysis](https://github.com/chiphuyen/just-pandas-things)
+- [The Exploratory Data Analysis (EDA) lesson is out for Made With ML's Applied ML in Production course!](https://www.linkedin.com/posts/goku_exploratory-data-analysis-applied-ml-in-activity-6734809864322871296-FDyJ)
+
 
 ### Tools
 
 - [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/)
 - [Dabl: Data Analysis Baseline Library (Pandas profiling like tool)](https://dabl.github.io/dev/) | [GitHub](https://github.com/dabl/dabl)
+- [DataProfiler](https://github.com/capitalone/DataProfiler)
 - [Bamboolib](./bamboolib.md)
 - [ppscore - a Python implementation of the Predictive Power Score (PPS)](https://pypi.org/project/ppscore/) - from the makers of [Bamboolib](./bamboolib.md)
 - [CleverCSV](https://github.com/alan-turing-institute/CleverCSV)
@@ -39,6 +43,11 @@ aka *_Exploratory Data Analysis_*
 - [Great expectations (profiling data)](https://github.com/great-expectations/great_expectations)
 - [DTale: Web Client for Visualizing Pandas Objects](https://pypi.org/project/dtale/) | [LinkedIn post](https://www.linkedin.com/posts/philipvollet_datascience-python-jupyter-activity-6729298029536514048-F4Ad)
 - Intake: Intake is a lightweight set of tools for loading and sharing data in data science projects. [GitHub](https://github.com/intake/intake) | [Docs](https://intake.readthedocs.io/en/latest/)
+- [D-Tale your GUI for pandas dataframes. It's like Excel for pandas! Your new tool for super fast Exploratory Data Analysis (EDA)](https://www.linkedin.com/posts/philipvollet_datascience-python-jupyter-activity-6729298029536514048-F4Ad)
+- [A miscellaneous repo where @clone95 put my studies on time series data analysis and forecasting](https://github.com/clone95/time-series-misc)
+- [If you are starting with machine learning / deep learning and get a new dataset to work on, there are a few things you must always take care of](https://www.linkedin.com/posts/abhi1thakur_if-you-are-starting-with-machine-learning-activity-6766721312451772416-RC6y)
+- [Bayesian Data Analysis](https://avehtari.github.io/BDA_course_Aalto/)
+
 - See [Data > Programs and Tools](./programs-and-tools.md#programs-and-tools) and [Things to know: Primary tools to analyse data](../things-to-know.md#primary-tools-to-analyse-data)
 
 ### Missing values
@@ -76,6 +85,10 @@ aka *_Exploratory Data Analysis_*
 - [10 Clustering Algorithms With Python](https://machinelearningmastery.com/clustering-algorithms-with-python/)
 - [An Introduction to Clustering and different methods of clustering](https://www.linkedin.com/posts/data-science-central_an-introduction-to-clustering-and-different-activity-6657823846013419520-3o5Y)
 - [Scale-Invariant Clustering and Regression](https://www.linkedin.com/posts/data-science-central_scale-invariant-clustering-and-regression-activity-6657477059243229184-1ibv)
+- Hands-on ML with Python: Clustering, Dim Reduction, Time Series Analysis:
+    [GitHub](https://resources.oreilly.com/binderhub/machine-learning-with-python-clustering) | [Jupyter notebook](https://learning.oreilly.com/jupyter-notebooks/hands-on-machine-learning/9781492063179/)
+- [Disadvantages of KMeans Clustering](https://www.inovex.de/blog/disadvantages-of-k-means-clustering/)
+- Clustering workshop on Uni. of Waterloo Discord channel: [Slideshow](https://bit.ly/3bDy1SW() [Google Doc](https://docs.google.com/presentation/d/1bXvU-IImwZyNGeGhXysX0q-pMrKfG7Esj7ZhhEY2d88/edit#slide=id.gc6d1cf1e32_0_147) |[Notebook](https://bit.ly/3bIaWP3 (https://colab.research.google.com/drive/11Gb-6M8DZNNp04zfyKI3thoZQWm2_1Dk#scrollTo=RqFP72NgNAq7) | [Video](https://youtu.be/127zPeHsFpU)
 
 ### Outliers
 

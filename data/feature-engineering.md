@@ -1,10 +1,11 @@
 # Feature Engineering
 
-## General 
+## General
+   - [What works in feature engineering](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220878)
    + [Basic Feature Engineering With Time Series Data in Python](http://machinelearningmastery.com/basic-feature-engineering-time-series-data-python/)
    + [Zillow Prize - EDA, Data Cleaning & Feature Engineering](https://www.kaggle.com/lauracozma/eda-data-cleaning-feature-engineering)
    + [Feature-wise transformations](https://distill.pub/2018/feature-wise-transformations)
-   + [tsfresh](https://tsfresh.readthedocs.io/en/latest/text/introduction.html) - tsfresh is used to to extract characteristics from time series
+   + tsfresh: used to to extract characteristics from time series: [github](https://github.com/blue-yonder/tsfresh) | [Introduction](https://tsfresh.readthedocs.io/en/latest/text/introduction.html) | [Docs](https://tsfresh.readthedocs.io/en/latest/)
    + [featuretools](https://github.com/featuretools/featuretools/) - an open source python framework for automated feature engineering
    + [5 Steps to correctly prepare your data for your machine learning model](https://towardsdatascience.com/5-steps-to-correctly-prep-your-data-for-your-machine-learning-model-c06c24762b73?gi=6b4a6895ab1)
    + [scikit learn's SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html)
@@ -23,6 +24,7 @@
    - [How to Use Polynomial Feature Transforms for Machine Learning](https://machinelearningmastery.com/polynomial-features-transforms-for-machine-learning/)
    - [Transforming Quantitative Data to Qualitative Data](https://www.linkedin.com/feed/update/urn:li:activity:6674858845854019584/)
    - [Feature Engineering and Selection: A Practical Approach for Predictive Models](https://www.feat.engineering/)
+   - [Feature Engineering for Machine Learning: A Comprehensive Overview](https://trainindata.medium.com/feature-engineering-for-machine-learning-a-comprehensive-overview-a7ad04c896f8)
 
 ## Dimensionality Reduction
 

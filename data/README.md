@@ -16,9 +16,10 @@ The question to ask ourselves: _Do we know our data...?_
     + [Data Cleaning](./data-preparation.md#data-cleaning)
     + [Data preprocessing / Data Wrangling](./data-preparation.md#data-preprocessing--data-wrangling)
 - [Data Generation](./README.md#data-generation)
-- [Feature Selection](./README.md#feature-selection)
+- [Feature Extraction](./README.md#feature-extraction)
 - [Feature Importance](./README.md#feature-importance)
 - [Feature Engineering](./README.md#feature-engineering)
+- [Feature Selection](./README.md#feature-selection)
 - [Hyperparameter tuning](#hyperparameter-tuning)
 - [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
 - [Model deployment](./README.md#model-deployment)
@@ -65,6 +66,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 - [Data Exploration and API First Design: Deep Learning Hands-On Series with Eric Schles](https://gist.github.com/lidderupk/f6562beadd39406a033c738201f46c12)
 - [Augmented Analytics Engine](https://www.linkedin.com/posts/data-science-central_augmented-analytics-engine-activity-6648764149864153088-dZWX)
 - [Putting an end to Unreliable Analytics by David Yaffe](https://www.linkedin.com/posts/towards-data-science_putting-an-end-to-unreliable-analytics-activity-6717020155261587456-0hyA)
+- The Fundamentals of end-to-end Data Strategy: [video](https://www.youtube.com/watch?v=hAE12zICkLI&feature=youtu.be) | [slides](https://drive.google.com/drive/folders/1LV_gP1muLbbXesJISrTqebpyrpRfTjbq?usp=sharing) | [Resources](http://nicolejaneway.com/data-strategy/resources/) | [Feedback](https://docs.google.com/forms/d/e/1FAIpQLSfZsLIIdFJSS_fRwzj_trDF_iM6-EnfPT329GfCj-tPNr_DJA/viewform)
 
 ## Datasets and sources of raw data
 
@@ -100,9 +102,10 @@ See [Data Exploratory Analysis](./data-exploratory-analysis.md)
 
 See [Data Generation](./data-generation.md#data-generation)
 
-## Feature Selection
+## Feature Extraction
 
-See [Feature Selection](./feature-selection.md)
+- [Hierarchical Feature Extraction for Compact Representation and Classification of Datasets](doc.ml.tu-berlin.de/publications/publications/SchKoh08.pdf)
+- [Guide to Feature Extraction Approaches for Text Data](https://rumankhan1.medium.com/guide-to-feature-extraction-approaches-for-text-data-1ebdcc4b9834)
 
 ## Feature Importance
 
@@ -116,16 +119,25 @@ See [Feature Selection](./feature-selection.md)
 - [The 4 types of additive Feature Importances](https://twitter.com/TDataScience/status/1264958410405171202)
 - [The Math of Random Forests and Feature Importance in Scikit-learn and Spark](https://www.linkedin.com/posts/data-science-central_the-math-of-decision-trees-random-forest-activity-6656775689431240705-kwf_)
 - Path Explain - toolkit for feature attributions: [GitHub](https://github.com/suinleelab/path_explain) | [PyPI](https://pypi.org/project/path-explain/) | [Path Explain on MWML](https://madewithml.com/projects/1931/path-explain/)
+- [Open Machine Learning Course: Feature Importance](https://mlcourse.ai/articles/topic5-part3-feature-importance/)
 
 ## Feature engineering
 
 See [Feature engineering](./feature-engineering.md)
+
+## Feature Selection
+
+See [Feature Selection](./feature-selection.md)
 
 ## Hyperparameter tuning
 
 - [Ray Tune Sweeps](https://docs.wandb.com/sweeps/ray-tune)
 - [W&B Sweeps](https://docs.wandb.com/sweeps)
 - [Automated Machine Learning Hyperparameter Tuning in Python](https://www.linkedin.com/posts/vincentg_automated-machine-learning-hyperparameter-activity-6693176296077348864-7Ihf)
+- Bayesian hyperparameter optimisation by Akinkunle: [Original Notebook](https://colab.research.google.com/drive/1akyJnd7O-lqA5I8mbR2gDG_VsjOBSp05?usp=sharing) | [Saved Notebook](https://colab.research.google.com/drive/1Nic2155ulaYDRrGUPDKNhY49j2xrZ99B) | [Slides](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0)
+- [Hyperparameter optimization for Neural Networks](http://neupy.com/2016/12/17/hyperparameter_optimization_for_neural_networks.html#id24)
+- [Tune Hyperparameters Easily with W&B Sweeps](https://www.youtube.com/watch?v=9zrmUIlScdY)
+
 
 ## Post model-creation analysis, ML interpretation/explainability
 - [Pruning: DL models](https://www.subhadityamukherjee.me/2020/09/25/Pruning.html)

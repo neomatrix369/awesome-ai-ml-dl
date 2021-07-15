@@ -4,7 +4,7 @@
 - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
   - [Gym: a toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
   - [Dopamine is a research framework for fast prototyping of Reinforcement Learning algorithms](https://github.com/google/dopamine)
-  - AlphaZero & Alpha Go
+  - AlphaZero, LeelaZero & Alpha Go
     - Introduction to Reinforcement learning (using AlphaZero) by [Piotr Januszewski](https://piojanu.github.io/) - [Slides](https://github.com/piojanu/Planning-in-Deep-Reinforcement-Learning) | [AlphaZero implementation](https://github.com/piojanu/AlphaZero) | [Framework for RL research (used in AZ implementation)](https://github.com/piojanu/humblerl) | [Experiment with AlphaGo online](https://alphagoteach.deepmind.com)
     - [A replica of the AlphaZero methodology for deep reinforcement learning in Python](https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning)
     - [Mastering the Game of Go without Human Knowledge](http://discovery.ucl.ac.uk/10045895/1/agz_unformatted_nature.pdf)
@@ -15,6 +15,9 @@
     - [AlphaGo Zero: Starting from scratch](https://deepmind.com/blog/article/alphago-zero-starting-scratch)
     - [AlphaGo Zero Cheatsheet: AlphaGo Zero Explained In One Diagram](https://medium.com/applied-data-science/alphago-zero-explained-in-one-diagram-365f5abf67e0) | [AlphaGo Zero Cheatsheet](https://adspassets.blob.core.windows.net/website/content/alpha_go_zero_cheat_sheet.png)
     - [How to build your own AlphaZero AI using Python and Keras](https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188)
+    - [Leela Zero: A Go program with no human provided knowledge. Using MCTS (but without Monte Carlo playouts) and a deep residual convolutional neural network stack](https://github.com/leela-zero/leela-zero)
+    - [Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270)
+    - [Unlike Google DeepMind, Facebook a Go is opensourced](https://github.com/facebookresearch/darkforestGo)
   - [Reinforcement Learning with DNNs](https://biostat.wisc.edu/~craven/cs760/lectures/AlphaZero.pdf)
   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
   - [Tutorial: Reinforcement Learning with TensorFlow Agents](https://towardsdatascience.com/reinforcement-learning-with-tensorflow-agents-tutorial-4ac7fa858728?source=social.tw)

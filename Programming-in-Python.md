@@ -7,7 +7,7 @@
     - [Focussed packages](#focussed-packages)
     - [Python Wrappers](#python-wrappers)
 - [Cookie cutter: Python project templates](#cookie-cutter-python-project-templates)
-- [Frameworks](#frameworks)
+- [Libraries and Frameworks](#libraries-and-frameworks)
 - [Best practices](#best-practices)
 - [Testing](#testing)
 - [Refactoring](#refactoring)
@@ -59,6 +59,7 @@
 - [5 free books for learning Python for DS](https://towardsdatascience.com/5-free-books-for-learning-python-for-data-science-87be443c084)
 - [7 advanced tricks in pandas for data science](https://www.linkedin.com/posts/towards-data-science_7-advanced-tricks-in-pandas-for-data-science-activity-6655303741224423424-SJtU)
 - [Sqlite saving numpy serialised into the database](https://github.com/ebmdatalab/openprescribing/tree/master/openprescribing/matrixstore)
+- [Beyond the Basic Stuff with Python 2020 PDF Course! Free!](https://sites.google.com/view/beyond-the-basic-stuff-with-py/home) | [Python Books](https://theappsblaster.com/?cat=306)
 
 ## Courses
 
@@ -72,6 +73,7 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 - [Python for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
 - [30 seconds of python](https://github.com/30-seconds/30-seconds-of-python)
 - [Comprehensive Python cheatsheet](https://www.linkedin.com/posts/ashishpatel2604_comprehensive-python-cheatsheet-activity-6685556002110152704-mInG)
+- [Regex symbols](https://regex101.com/)
 
 ## Database
 
@@ -121,7 +123,7 @@ See **Python: Best practices** and **Python: Testing** under [Courses](./courses
 - [For Reproducible Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#reproducible-science)
 - [For Data Driven Journalism projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-driven-journalism)
 
-## Frameworks
+## Libraries and Frameworks
 
 - [Rich is a Python library for writing rich text with color and style to the terminal and for displaying advanced content such as tables, markdown, and syntax highlighted code!](https://www.linkedin.com/feed/update/urn:li:activity:6695712483468017664/)
 - [Python for MicroControllers](https://micropython.org/)
@@ -156,6 +158,10 @@ with nothing but Python
 - [🗽 𝙂𝙧𝙖𝙙𝙞𝙤 𝙥𝙮𝙩𝙝𝙤𝙣 𝙡𝙞𝙗𝙧𝙖𝙧𝙮 : 𝙃𝙖𝙨𝙨𝙡𝙚-𝙁𝙧𝙚𝙚 𝙎𝙝𝙖𝙧𝙞𝙣𝙜 𝙖𝙣𝙙 𝙏𝙚𝙨𝙩𝙞𝙣𝙜 𝙤𝙛 𝙈𝙇 𝙈𝙤𝙙𝙚𝙡𝙨 𝙞𝙣 𝙩𝙝𝙚 𝙒𝙞𝙡𝙙](https://www.linkedin.com/posts/ashishpatel2604_machinelearning-gui-python-activity-6691757766748504064-sPCX)
 - [The Python scientific stack, compiled to WebAssembly.](https://alpha.iodide.io/) [GitHub](https://github.com/iodide-project/pyodide)
 - [A simple video that explains in a very simple way how you can use joblib to speed up almost any function](https://www.youtube.com/watch?v=Ny3O4VpACkc)
+- [pyforest: feel the bliss of automated imports](https://pypi.org/project/pyforest/)
+- [How to be Pythonic? Design a Query Language in Python](https://dev.to/terminusdb/extending-prolog-terminusdb-discussion-10-3p90)
+- [prython](http://www.prython.com) - a novel IDE for Python and R also both together in  one workflow! It allows you to put your code inside panels that you can connect and run. Its like Jupyter Notebook but with the possibility of multiple streams
+- [Syntax Trees and Python - Automated Code Transformations - PyCon 2019](https://www.youtube.com/watch?v=viNzD1zD-Fg)
 
 ## Best practices
 
@@ -177,6 +183,9 @@ with nothing but Python
   - [Code Craft : Part III – Unit Tests are an Early Warning System for Programmers](https://codemanship.wordpress.com/2019/10/04/code-craft-part-iii-unit-tests-are-an-early-warning-system-for-programmers/)
 - ["Stop writing classes"](https://www.youtube.com/watch?v=o9pEzgHorH0 )
 - [How to package Python apps with BeeWare Briefcase](https://www.infoworld.com/article/3570295/how-to-package-python-apps-with-beeware-briefcase.html?utm_medium=email&utm_source=topic+optin&utm_campaign=awareness&utm_content=20200815+prog+nl&mkt_tok=eyJpIjoiWkRjd09XTmhZV0ppTnpBeSIsInQiOiJNTkNUTmpJZlB0REdcL2E0b3VBVlZKTlhHTCtuckZEQ25rREpIc3VtakFmdFB6UlZhUFIrMnNlaERrOXpmWFAzNUpYWVBXNEZXZWVaRmtjTDRURFY5ZlJWNHF0N2YwR01hUmlYaFQwd052a2pycjRZaWdReG16OEVYRmRZbTVOOGkifQ%3D%3D)
+- [Teaching Clean Code](https://ceur-ws.org/Vol-2066/isee2018paper06.pdf)
+- [Code Process Metrics in University Programming Education](https://ceur-ws.org/Vol-2308/isee2019paper05.pdf (paper with Adam Thornhill)
+- [Remote Mob Programming www.remotemobprogramming.org (also on Amazon and Leanpub)](https://java.by-comparison.com/favor-constructor-over-field-injection.html)
 
 ## Versioning
 
@@ -208,6 +217,9 @@ See [Machine Learning Testing](./details/julia-python-and-r.md#testing)
 - [Learning Python with PyCharm: Refactoring](https://www.lynda.com/Python-tutorials/Refactoring/590828/629432-4.html)
 - [What refactoring tools do you use for Python?](https://stackoverflow.com/questions/28796/what-refactoring-tools-do-you-use-for-python)
 - [Bowler: Safe code refactoring for modern Python projects](https://github.com/facebookincubator/Bowler) - Bowler is a refactoring tool for manipulating Python at the syntax tree level. It enables safe, large scale code modifications while guaranteeing that the resulting code compiles and runs.
+- [Beautiful Python Refactoring](https://www.youtube.com/watch?v=KTIl1MugsSY)
+- [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go)
+- [Professional Code Refactor! (Cleaning Python Code & Rewriting it to use Classes)](https://www.youtube.com/watch?v=731LoaZCUjo)
 
 ## Performance
 

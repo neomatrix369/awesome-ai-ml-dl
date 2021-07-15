@@ -56,6 +56,8 @@ reproducible research
       - [Workshop: Large Scale Deep Learning Recommender](https://bit.ly/RE_streaming)
       - [Reality Engines Demo](https://github.com/jsutch/RealityEngines-Demo) 
   - [Accelerating AI Training with MLPerf Containers and Models from NVIDIA NGC](https://developer.nvidia.com/blog/accelerating-ai-training-with-mlperf-containers-and-models-from-ngc/?ncid=so-elev-58408#cid=ngc01_so-elev_en-us&_lrsc=3642f913-311f-45b0-bbc5-158e51446637&ncid=so-lin-lt-798)
+  - Running AI Models in the Cloud: [site](https://www.scailable.net/) | [video](https://youtu.be/PDXaDTnAN2M?t=2570) | [Docs](https://docs.sclbl.net/sclblpy)
+  | [Getting started](https://github.com/scailable/sclbl-tutorials/tree/master/sclbl-101-getting-started)
 
 ## Tools
 

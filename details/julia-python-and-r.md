@@ -126,6 +126,7 @@
   ## RNN
 
   - [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+  - [PsychRNN: An Accessible and Flexible Python Package for Training Recurrent Neural Network Models on Cognitive Tasks](https://www.linkedin.com/posts/philipvollet_bioinformatics-biodata-deeplearning-activity-6748882192618926080-iMUs)
   
   ## Natural Language Processing (NLP)
 
@@ -234,6 +235,10 @@
   #### Reinforcement Learning
 
   See [Reinforcement Learning](./julia-python-and-r/reinforcement-learning.md) 
+
+  ## Recommendation Systems
+
+  - Building Recommendation Engines in Python: [Github](https://github.com/maxhumber/BRE) | [Slides](https://on24static.akamaized.net/event/24/06/92/4/rt/1/documents/resourceList1603467800300/presentation.pdf) | [KataCoda: LightFM](https://learning.oreilly.com/scenarios/scikit-learn-build-a/9781492087755/) | [Katacoda - Build an Implicit Feedback Recommendation Engine](https://learning.oreilly.com/scenarios/spotlight-build-an/9781492087748/) | [Katacoda - Scikit Learn](https://learning.oreilly.com/scenarios/lightfm-build-an/9781492087731/)
 
 ## Programming in Python
 

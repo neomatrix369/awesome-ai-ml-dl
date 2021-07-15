@@ -29,6 +29,13 @@
 - [The Math of Random Forests and Feature Importance in Scikit-learn and Spark](https://www.linkedin.com/posts/data-science-central_the-math-of-decision-trees-random-forest-activity-6656775689431240705-kwf_)
 - [Let's Learn Basic Mathematics - Sigma Notations](https://www.linkedin.com/posts/nabihbawazir_statistics-data-datascience-activity-6664146836003127296-wgLS)
 - [Why Study Linear Algebra?😉](https://www.linkedin.com/posts/iamsivab_linear-algebra-in-4-pages-activity-6673551357896736768-FI05)
+- [How to convert data points into an equation?](https://math.stackexchange.com/questions/811849/how-to-convert-data-points-into-an-equation)
+- [AI has cracked a key mathematical puzzle for understanding our world](https://www.technologyreview.com/2020/10/30/1011435/ai-fourier-neural-network-cracks-navier-stokes-and-partial-differential-equations/)
+- [How the Mathematics of Fractals Can Help Predict Stock Markets�Shifts�+](https://www.linkedin.com/posts/vincentg_how-the-mathematics-of-fractals-can-help-activity-6730167289112510464-H3eX)
+- [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra)
+- [#AI #fourier on partial differential equations and navier stokes](https://www.technologyreview.com/2020/10/30/1011435/ai-fourier-neural-network-cracks-navier-stokes-and-partial-differential-equations/?)
+- [Manim is an engine for precise programatic animations, designed for creating explanatory math videos](https://github.com/3b1b/manim)
+- Hessian matrix approximation: [Khan Academy](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/quadratic-approximations/a/the-hessian) | [Uni. of Buffalo | Chapter 5 Hessian](https://cedar.buffalo.edu/~srihari/CSE574/Chap5/Chap5.4-Hessian.pdf) | [Math Lectures: Hessian Example](https://www.iith.ac.in/~ashok/Maths_Lectures/TutorialB/Hessian_Examples.pdf)
 
 ## Statistics
 
@@ -114,6 +121,15 @@
 - [Capsule Networks -- A Probabilistic Perspective](https://www.linkedin.com/posts/montrealai_artificialintelligence-capsulenetworks-machinelearning-activity-6657124988568563712-WArH)
 - Pomegranate: [PyPi](https://pypi.org/project/pomegranate/) | [docs](https://pomegranate.readthedocs.io/en/latest/) | [GitHub](https://github.com/jmschrei/pomegranate)
 - [A Gentle Introduction to Probability Density Estimation](https://machinelearningmastery.com/probability-density-estimation/)
+- [Introduction to Probabilistic programming](https://www.datasciencecentral.com/profiles/blogs/introduction-to-probabilistic-programming)
+- [A great book for beginners to understand probability intuitively from scratch](https://scholar.harvard.edu/david-morin/probability)
+- [Bayesian Methods in Machine learning](https://www.coursera.org/learn/bayesian-methods-in-machine-learning)
+- [What is a Markov Chain and What is Memoryless property ?](https://www.linkedin.com/feed/update/urn:li:activity:6755013137956786176/)
+- [Statistics Used in Data Science (A Dictionary in One Picture)](https://www.linkedin.com/posts/vincentg_statistics-used-in-data-science-a-dictionary-activity-6724889005109886976--Xe6)
+- [Statistics: Are you Bayesian or Frequentist?](https://towardsdatascience.com/statistics-are-you-bayesian-or-frequentist-4943f953f21b)
+- [A simple way to understand the statistical foundations of data](https://www.datasciencecentral.com/profiles/blogs/a-simple-way-to-understand-the-statistical-foundations-of-data)
+- [Joy of Stats (documentary)](https://www.bbc.co.uk/programmes/b00wgq0l)
+- Stat thinking 001: [Video](https://www.youtube.com/watch?v=OJt-k9h9pmk&feature=youtu.be) | [Post](https://www.linkedin.com/posts/steffenkonrath_stat-thinking-001-what-is-statistics-activity-6685106091707138048-UYcz)
 - [Data Science](../courses.md#data-science) in [Courses](../courses.md#courses)
 
 ### Bayesian
@@ -154,7 +170,8 @@
 - [Bayesian Stats 101 for Data Scientists](https://www.linkedin.com/posts/towards-data-science_bayesian-stats-101-for-data-scientists-activity-6655949045678387202-qlgP)
 - [New Marketing Insight from Unsupervised Bayesian Belief Networks](https://www.linkedin.com/posts/vincentg_new-marketing-insight-from-unsupervised-bayesian-activity-6657419179529949184-nyP4)
 - [Everything you need to know about Gaussian Distribution](https://deepai.org/machine-learning-glossary-and-terms/gaussian-distribution)
-- Naive Bayesian meetups (Password to access the videos is: Bayes2020)
+- Bayesian hyperparameter optimisation by Akinkunle: [Original Notebook](https://colab.research.google.com/drive/1akyJnd7O-lqA5I8mbR2gDG_VsjOBSp05?usp=sharing) | [Saved Notebook](https://colab.research.google.com/drive/1Nic2155ulaYDRrGUPDKNhY49j2xrZ99B) | [Slides](https://www.dropbox.com/sh/q0v0k3ida37thyn/AAB6wXMge7C6fvqKIZmGFXVQa?dl=0)
+- [Naive Bayesian meetups](https://www.meetup.com/The-Naive-Bayesians/) (Password to access the videos is: Bayes2020)
    - [Meetup 1](https://vimeo.com/442020274)
    - [Meetup 2](https://vimeo.com/442024578)
    - [Meetup 3](https://vimeo.com/445354913)
@@ -164,6 +181,7 @@
    - [Meetup 8](https://vimeo.com/450726667)
    - [Meetup 9](https://vimeo.com/453991489)
    - [Meetup 10](https://vimeo.com/453992440)
+   - See [here for more meetup links](https://www.meetup.com/The-Naive-Bayesians/boards/?pager.offset=20) and [here](https://www.meetup.com/The-Naive-Bayesians/messages/boards/) (need to be signed up on Meetup.com to access the links)
 - [Michael Betancourt blogs (Bayesian)](https://betanalpha.github.io/writing/)
 - [Bayesian Analysis](https://projecteuclid.org/euclid.ba/1516093227)
 - [Bayesian Data Analysis](https://www.stat.columbia.edu/~gelman/book/)
@@ -177,6 +195,13 @@
       + https://www.coursera.org/learn/bayesian-statistics
       + https://www.coursera.org/learn/bayesian
       + https://www.coursera.org/learn/bayesian-methods-in-machine-learning
+
+## Misc
+
+- [Stochastic Hill Climbing in Python from Scratch](https://machinelearningmastery.com/stochastic-hill-climbing-in-python-from-scratch/)
+- [How is the surrogate model/function created?](http://krasserm.github.io/2018/03/21/bayesian-optimization/)
+- Understanding Quartiles and Percentiles: [Quartiles](https://www.clubbenchmarking.com/quartiles) | [Percentiles and Quartiles](https://softschools.com/math/probability_and_statistics/percentiles_and_quartiles/)
+
 
 # Contributing
 

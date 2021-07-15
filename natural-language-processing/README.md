@@ -16,6 +16,7 @@ NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/p
 - [Presentations](#presentations)
 - [Notebooks](#notebooks)
 - [Unstructured to structured data](#unstructured-to-structured-data)
+- [Text Data Augmentation](#text-data-augmentation)
 - [Summarise text](#summarise-text)
 - [Contributing](#contributing)
 
@@ -88,6 +89,10 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [Step by step guide to extract insights from free text (unstructured data)](https://www.analyticsvidhya.com/blog/2014/08/step-step-guide-extract-inforation-free-text-unstructured-data/)
 - [Date/Time Helpers](https://www.kaggle.com/raenish/cheatsheet-date-helpers)
  
+## Text data Augmentation
+
+- Easy Data Augmentation for Text Classification: [Video](https://www.youtube.com/watch?v=3w92peJtYNQ) | [Kernel](https://www.kaggle.com/init927/nlp-data-augmentation)
+
 ## Summarise text
 
 See [Summarise text](./summarise-text.md)
