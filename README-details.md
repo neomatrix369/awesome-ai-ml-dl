@@ -65,6 +65,7 @@
 - [Automated Machine Learning (AutoML) Libraries for Python](https://machinelearningmastery.com/automl-libraries-for-python/)
 - [Auto sklearn](https://github.com/automl/auto-sklearn)
 - [OpenML](https://openml.org)
+- [Lightning Flash](https://www.linkedin.com/posts/philipvollet_machinelearning-pytorch-opensource-activity-6815862293948092416-AiNY) - a collection of production ready Tasks for fast prototyping, baselining, finetuning and solving problems with deep learning built on top of PyTorch Lightning
 
 ### Ethics / altruistic motives
 

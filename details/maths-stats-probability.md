@@ -201,7 +201,7 @@
 - [Stochastic Hill Climbing in Python from Scratch](https://machinelearningmastery.com/stochastic-hill-climbing-in-python-from-scratch/)
 - [How is the surrogate model/function created?](http://krasserm.github.io/2018/03/21/bayesian-optimization/)
 - Understanding Quartiles and Percentiles: [Quartiles](https://www.clubbenchmarking.com/quartiles) | [Percentiles and Quartiles](https://softschools.com/math/probability_and_statistics/percentiles_and_quartiles/)
-
+- [Poisson Process and Poisson Distribution in Real-Life: Modeling Peak Times at an Ice Cream Shop](https://towardsdatascience.com/poisson-process-and-poisson-distribution-in-real-life-modeling-peak-times-at-an-ice-cream-shop-b61b74fb812)
 
 # Contributing
 

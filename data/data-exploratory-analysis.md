@@ -29,9 +29,6 @@ aka *_Exploratory Data Analysis_*
 - [@clone95's repo with studies on Exploratory Data Analysis, Time Series forecasting, and Data Manipulation with popular Python Libraries](https://github.com/clone95/Prices-of-Avocados)
 
 
-
-
-
 ### Tools
 
 - [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/)
@@ -51,7 +48,6 @@ aka *_Exploratory Data Analysis_*
 - [A miscellaneous repo where @clone95 put my studies on time series data analysis and forecasting](https://github.com/clone95/time-series-misc)
 - [If you are starting with machine learning / deep learning and get a new dataset to work on, there are a few things you must always take care of](https://www.linkedin.com/posts/abhi1thakur_if-you-are-starting-with-machine-learning-activity-6766721312451772416-RC6y)
 - [Bayesian Data Analysis](https://avehtari.github.io/BDA_course_Aalto/)
-
 - See [Data > Programs and Tools](./programs-and-tools.md#programs-and-tools) and [Things to know: Primary tools to analyse data](../things-to-know.md#primary-tools-to-analyse-data)
 
 ### Missing values
@@ -93,6 +89,8 @@ aka *_Exploratory Data Analysis_*
     [GitHub](https://resources.oreilly.com/binderhub/machine-learning-with-python-clustering) | [Jupyter notebook](https://learning.oreilly.com/jupyter-notebooks/hands-on-machine-learning/9781492063179/)
 - [Disadvantages of KMeans Clustering](https://www.inovex.de/blog/disadvantages-of-k-means-clustering/)
 - Clustering workshop on Uni. of Waterloo Discord channel: [Slideshow](https://bit.ly/3bDy1SW() [Google Doc](https://docs.google.com/presentation/d/1bXvU-IImwZyNGeGhXysX0q-pMrKfG7Esj7ZhhEY2d88/edit#slide=id.gc6d1cf1e32_0_147) |[Notebook](https://bit.ly/3bIaWP3 (https://colab.research.google.com/drive/11Gb-6M8DZNNp04zfyKI3thoZQWm2_1Dk#scrollTo=RqFP72NgNAq7) | [Video](https://youtu.be/127zPeHsFpU)
+- [Key Data Science Algorithms Explained: From k-means to k-medoids clustering](https://www.kdnuggets.com/2020/12/algorithms-explained-k-means-k-medoids-clustering.html#.X-tG4bEBjNg.linkedin)
+
 
 ### Outliers
 

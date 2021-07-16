@@ -18,6 +18,7 @@
     - [Leela Zero: A Go program with no human provided knowledge. Using MCTS (but without Monte Carlo playouts) and a deep residual convolutional neural network stack](https://github.com/leela-zero/leela-zero)
     - [Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270)
     - [Unlike Google DeepMind, Facebook a Go is opensourced](https://github.com/facebookresearch/darkforestGo)
+  - [Google's DeepMind just open-sourced their Lab2D environment. What a better way could be to evaluate RL research than simulating it on screen!](https://www.linkedin.com/posts/vaibhav-tiwari-_deepmind-just-gave-away-this-ai-environment-activity-6738007125320089600-dD0K)
   - [Reinforcement Learning with DNNs](https://biostat.wisc.edu/~craven/cs760/lectures/AlphaZero.pdf)
   - [TensorLayer - DL and RL library for Data Scientists](https://github.com/tensorlayer/tensorlayer) | [Docs](https://tensorlayer.readthedocs.io/en/stable/)
   - [Tutorial: Reinforcement Learning with TensorFlow Agents](https://towardsdatascience.com/reinforcement-learning-with-tensorflow-agents-tutorial-4ac7fa858728?source=social.tw)

@@ -127,6 +127,7 @@
 - [Hummingbird - python library that compiles trained ML models into tensor computation for faster inference. Supported models include sklearn decision trees, random forest, lightgbm, xgboost](https://www.linkedin.com/posts/sudalairajkumar_machinelearning-activity-6676336916499181568-N0Z3)
 - [Scikit-Lego v.0.4.4](https://www.linkedin.com/posts/vincentwarmerdam_scikit-lego-v044-is-out-now-we-now-support-activity-6670949973439336448-Dhds)
 - [Huawei’s MindSpore: A new competitor for TensorFlow and PyTorch?](https://towardsdatascience.com/huaweis-mindspore-a-new-competitor-for-tensorflow-and-pytorch-d319deff2aec)
+- [PerceptiLabs is a dataflow driven, visual API for TensorFlow](https://www.linkedin.com/posts/philipvollet_machinelearning-tensorflow-nocode-activity-6727470051072516097-ev8I)
 - Hermione ML: [pypi](https://pypi.org/project/hermione-ml/) | [GitHub](https://github.com/A3Data/hermione)
 - Speed ML: [github](https://github.com/Speedml/speedml) | [Notebook](https://github.com/Speedml/notebooks/blob/master/titanic/titanic-solution-using-speedml.ipynb)
 - Embedded Learning Library: [HomePage](https://microsoft.github.io/ELL) | [GitHub](https://github.com/Microsoft/ELL)

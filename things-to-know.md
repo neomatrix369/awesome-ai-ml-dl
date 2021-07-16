@@ -87,7 +87,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - University Courses
 - Cloud-certification programs (direct from AWS, Azure, GCP, or similar)
 - [Kaggle Courses (Kaggle Learn)](https://www.kaggle.com/learn/overview)
-
+- [Learning Centre H2O](https://www.linkedin.com/posts/sudalairajkumar_home-en-activity-6679719946169270272-O__-)
 
 ## Courses
 

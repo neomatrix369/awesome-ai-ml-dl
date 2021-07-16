@@ -44,6 +44,9 @@
       - [A mini lecture on the kernel trick](https://www.youtube.com/watch?v=JiM_LXpAtLc)
       - [Kernel PCA Notebook](https://scikit-learn.org/stable/auto_examples/decomposition/plot_kernel_pca.html#sphx-glr-auto-examples-decomposition-plot-kernel-pca-py)
       - [Kernel Interpolation for Scalable Structured Gaussian Processes](https://arxiv.org/abs/1503.01057)
+  + Hands-on ML with Python: Clustering, Dim Reduction, Time Series Analysis:
+      [GitHub](https://resources.oreilly.com/binderhub/machine-learning-with-python-clustering) | [Jupyter notebook](https://learning.oreilly.com/jupyter-notebooks/hands-on-machine-learning/9781492063179/)
+  + UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction: [PyPi](https://pypi.org/project/umap-learn/) | [Docs](https://umap-learn.readthedocs.io/en/latest/)
 
 # Contributing
 

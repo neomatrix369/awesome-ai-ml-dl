@@ -88,6 +88,7 @@ See [Datasets](./datasets.md)
 - [The statistical analysis t-test explained for beginners and experts](https://towardsdatascience.com/the-statistical-analysis-t-test-explained-for-beginners-and-experts-fd0e358bbb62)
 - [The book of why" by Judea Pearl : A great overview and presents many relevant techniques](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)
 - [Craig's presentation: Visualizing the Why — Strategy and Roadmaps in Context](https://www.dropbox.com/s/knagl9f7u9hxvr7/Strategy%20Maps%20Agile%20Evangelists.pdf?dl=0](https://www.youtube.com/watch?v=LOjsuYzzOkA)
+- [Correlation & Causation: The Couple That Wasn’t](https://www.linkedin.com/posts/analytics-india-magazine_statistics-data-strategy-activity-6821324490719555584-9uyy)
 
 ## Data Exploratory Analysis
 
