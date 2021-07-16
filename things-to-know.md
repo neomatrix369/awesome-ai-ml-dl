@@ -63,7 +63,9 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - Journal Publications: traditional publications, preprint journals, etc
 - Course Forums: [forums.fast.ai](https://forums.fast.ai), etc
 - [YouTube](https://www.youtube.com): [Google Cloud AI Adventures](https://www.youtube.com/watch?v=HcqpanDadyQ&list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2), [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A), etc
-- Email newsletters (Data Elixir, O'Reilly Data & AI, etc) 
+- [MWML Newsletter](https://newsletter.madewithml.com/) | [MWML Site](https://madewithml.com/) | [lessons](https://madewithml.com/#basics)
+- [Data Pheonix Newsletter (previously known as Data Science Digest)](https://dataphoenix.info/) | [past issues](https://dataphoenix.info/tag/digest/)
+- Other email newsletters (Data Elixir, O'Reilly Data & AI, etc) 
 
 
 ## Useful blogs to read

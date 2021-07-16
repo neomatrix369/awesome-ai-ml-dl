@@ -21,29 +21,13 @@
 - [What-if-tool on GitHub](https://github.com/PAIR-code/what-if-tool)
 - [useR2020! Keynote: "Responsible Automation: Towards Interpretable & Fair AutoML"](https://github.com/ledell/useR2020-automl)
 - [Explainable AI by IBM](https://github.com/Trusted-AI/AIX360) | [GitHub](https://github.com/IBM/lale) | [(video, slides, codes) on youtube channel](https://www.youtube.com/channel/UCj09XsAWj-RF9kY4UvBJh_A) | [GitHub](https://github.com/decentdilettante)
-SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. 
-https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-technology-activity-6732555181315227648-NPD1
-
-Intro to Explainable AI
-https://www.linkedin.com/posts/activity-6679735518781153280-RewD
-
-Gradio! You can now generate interpretations with one line of code! 
-https://www.linkedin.com/posts/philipvollet_machinelearning-python-datascience-activity-6730046018248962048-Icgv
-
-LIME for auditing black-box models
-https://towardsdatascience.com/lime-for-auditing-black-box-models-b97d6d2580b4?gi=95ed4978e936
-
-Interpretable Machine Learning - Christoph Molnar 
-https://www.youtube.com/watch?v=0LIACHcxpHU&t=3533s
-
-AI Ethics, Fairness, Explainability: Q&A and discussion at this session:
-code lab: https://github.com/decentdilettante/XAI
-10:33:08     https://github.com/Trusted-AI/AIX360
-10:33:19     https://github.com/IBM/lale
-10:39:20    ["Conversational Processes and Causal Explanation" by Hilton:](https://pdfs.semanticscholar.org/5093/4979694fb48e55d0cf38888f67b84ad6601b.pdf
-
-Tech talk: Explainable anomaly detection
-https://www.youtube.com/watch?v=0p8o3uj96Uc&feature=push-u-sub&attr_tag=ccXKOv7Gba4BJCOf%3A6
+- [SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-technology-activity-6732555181315227648-NPD1)
+- [Intro to Explainable AI](https://www.linkedin.com/posts/activity-6679735518781153280-RewD)
+- [Gradio! You can now generate interpretations with one line of code!](https://www.linkedin.com/posts/philipvollet_machinelearning-python-datascience-activity-6730046018248962048-Icgv)
+- [LIME for auditing black-box models](https://towardsdatascience.com/lime-for-auditing-black-box-models-b97d6d2580b4?gi=95ed4978e936)
+- [Interpretable Machine Learning - Christoph Molnar](https://www.youtube.com/watch?v=0LIACHcxpHU&t=3533s)
+- AI Ethics, Fairness, Explainability: Q&A and discussion at this session: [code lab](https://github.com/decentdilettante/XAI) | [Trusted-AI](https://github.com/Trusted-AI/AIX360) | [lale](https://github.com/IBM/lale) | ["Conversational Processes and Causal Explanation" by Hilton](https://pdfs.semanticscholar.org/5093/4979694fb48e55d0cf38888f67b84ad6601b.pdf) | [Tech talk: Explainable anomaly detection](https://www.youtube.com/watch?v=0p8o3uj96Uc&feature=push-u-sub&attr_tag=ccXKOv7Gba4BJCOf%3A6)
+- [With the library "explainerdashboard" you can visually analyze the predictions of your #ml models](https://www.linkedin.com/posts/inna-vogel-nlp_ml-nlp-ai-activity-6770064375039463424-2LkQ)
 
 ## Articles, blog posts, papers, notebooks, books, presentations
 

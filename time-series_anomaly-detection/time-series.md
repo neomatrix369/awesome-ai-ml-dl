@@ -43,11 +43,16 @@
 - [(Video) Case Study in Travel Business - Time Series Analysis with Seasonal Data by Cheuk Ting Ho](https://www.youtube.com/watch?v=ZR9aAZZEhQo (25m))
 - [Playing with time series data in python](https://towardsdatascience.com/playing-with-time-series-data-in-python-959e2485bff8?source=---------45---------------------)
 - [Presentation: An Introduction to Time Series Forecasting with Python](https://www.researchgate.net/publication/324889271_An_Introduction_to_Time_Series_Forecasting_with_Python)
+- Time Series Forecasting with PyCaret Regression Module: [Medium](https://towardsdatascience.com/time-series-forecasting-with-pycaret-regression-module-237b703a0c63) | [Linkedin](https://www.linkedin.com/posts/profile-moez_time-series-forecasting-with-pycaret-regression-activity-6792794575539879936-Qv6E)
+- [Multiple Time Series Forecasting with PyCaret](https://towardsdatascience.com/multiple-time-series-forecasting-with-pycaret-bc0a779a22fe)
+- [One of the strength of Deep Auto-Regressive (DeepAR) models is handling of Multi Time Series in a simple and efficient way](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-ml-machinelearning-activity-6730464577127092224-T8-Q)
 - [Time series analysis discussion on Analytics Vidhya](https://discuss.analyticsvidhya.com/t/time-series-analysis/67474)
 - [In Time series model one has to master lot of concepts Stationary, Trend, Trend Stationary, Additive and Multiplicative seasonality, detrending among others](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6684306319253626880-R2Wm)
 - [Book (free): Introduction toTime Series and Forecasting, Second Edition by Peter J. Brockwell and Richard A. Davis](http://home.iitj.ac.in/~parmod/document/introduction%20time%20series.pdf)
 - [Book (paid): Introduction to Time Series Forecasting With Python](https://machinelearningmastery.com/introduction-to-time-series-forecasting-with-python/)
 - Time Series Data Analysis: [post](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6679602339004981249-HNG_] | [Videos](https://www.youtube.com/channel/UCwBs8TLOogwyGd0GxHCp-Dw/search?query=timeseries)
+- [Time Series Analysis (TSA) in Python - Linear Models to GARCH](http://www.blackarbs.com/blog/time-series-analysis-in-python-linear-models-to-garch/11/1/2016)
+
 
 ## Classification
 
@@ -126,6 +131,7 @@
 - [Based on Deep Learning for Time-Series Forecasting Course](https://github.com/kmfullerton/Deep_Learning_Time_Series)
 - [Deep-Learning-for-Time-Series-Forecasting](https://github.com/Geo-Joy/Deep-Learning-for-Time-Series-Forecasting)
 - [How to Get Started with Deep Learning for Time Series Forecasting (7-Day Mini-Course)](https://www.aiproblog.com/index.php/2018/09/03/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
+- [Time Series Modelling and Analysis](https://www.youtube.com/playlist?list=PL3N9eeOlCrP5cK0QRQxeJd6GrQvhAtpBK)
 
 ## Applied Time series
 
@@ -193,6 +199,9 @@
 - [Aggregated resources on the topic "uncertainty"](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/155085)
 - [11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
 - [Correlation, causation and forecasting](https://otexts.com/fpp2/causality.html)
+- [A miscellaneous repo where @clone95 put studies notes on time series data analysis and forecasting](https://github.com/clone95/time-series-misc)
+- [Tamara Louie: Applying Statistical Modeling & Machine Learning to Perform Time-Series Forecasting](https://www.youtube.com/watch?v=JntA9XaTebs)
+- [How to Grid Search SARIMA Hyperparameters for Time Series Forecasting](https://machinelearningmastery.com/how-to-grid-search-sarima-model-hyperparameters-for-time-series-forecasting-in-python/)
 
 ## Forecasting using Prophet
 
@@ -233,6 +242,7 @@
 - [(Video) Aileen Nielsen - Irregular time series and how to whip them](https://www.youtube.com/watch?v=E4NMZyfao2c (29m))
 - [(Video) Pydata Time-series talks](https://www.youtube.com/results?search_query=pydata+time+series)
 - [Videos by Ashrith Barthur on Security, Time-series and Anomaly detection](https://www.youtube.com/results?search_query=h2o+ashrith)
+- [Time Series Anomaly Detection with PyCaret](https://towardsdatascience.com/time-series-anomaly-detection-with-pycaret-706a6e2b2427)
 - [Outlier detection with time series data mining](https://www.linkedin.com/posts/data-science-central_outlier-detection-with-time-series-data-mining-activity-6652403632190877696-8wVh)
 - [Financial: time series](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
 - [Driverless AI's time-series support](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/time-series.html)
@@ -243,6 +253,8 @@
 - [A small library to backtest timeseries data](https://github.com/EricSchles/backtester)
 - [Tsaug - a python package for time series augmentation from Arundo Analytics (Tailai Wen and Roy K. )](https://www.linkedin.com/posts/madewithml_tsaug-made-with-ml-activity-6698561289607880705-DKoX)
 - VAE-SNE: a deep generative model for dimensionality reduction and clustering • Usefull for unsupervised action recognition to detect and classify repeated motifs of stereotyped behavior in high-dimensional timeseries data: [GitHub](https://lnkd.in/gN9qvDK) | [Paper](https://lnkd.in/gawkgNr](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-bioinformatics-activity-6690327432823742464-dI7M) 
+- [Webinar on Time Series by Srivatsan Srinivasan](https://docs.google.com/presentation/d/1yGcBUsh0RJb4ap3LXMa_1h_E_xeJ_HEO8SAtFlj_RrY/edit#slide=id.p)
+- [Timeseries Beginner training](https://github.com/jeffrey-yau/Pearson-TSA-Training-Beginner)
 - [Time-series on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series/)
 - [Time-series Forecasting on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series-forecasting/)
 - **[And many more Time-series posts on MachineLearningMastery.com](https://machinelearningmastery.com/?s=time+series&post_type=post&submit=Search)**

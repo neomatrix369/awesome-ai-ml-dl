@@ -37,6 +37,7 @@
 - [Universal Invariant and Equivariant Graph Neural Networks](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_universal-invariant-and-equivariant-graph-activity-6636212749133246464-_xqf)
 - [Auto-Generated KG](https://www.linkedin.com/posts/bo-li-8503b896_auto-generated-knowledge-graphs-activity-6637543428051828736-jVdT)
 - [Graph Convolutional Neural Networks for Molecule Generation | NTU Graph Deep Learning Lab](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_graph-convolutional-neural-networks-for-molecule-activity-6640244313009737728-IdCP)
+- [Modelling the Time-of-Arrival Using Distributions](https://www.inovex.de/blog/time-of-arrival-distributions/)
 
 ## Tools, packages and frameworks
 - [PyTorch Geometric Temporal is a temporal (dynamic) extension library for PyTorch Geometric](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
@@ -44,6 +45,7 @@
 - [A new SOTA open source semantic annotator ‘bbw’ for tabular data with the Wikidata knowledge graph](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-wikipedia-activity-6738004505474035712-mxpr)
 - [GraphScope is a unified distributed graph computing platform](https://www.linkedin.com/posts/philipvollet_datascience-analytics-bigdata-activity-6793219722117820417-vhSv)
 - [Tweeki - Linking Named Entities on Twitter to a Knowledge Graph](https://www.linkedin.com/posts/philipvollet_twitter-data-datascience-activity-6733786978178990080-ZiD3)
+
 
 ## Misc.
 - [Difference between JOIN and UNION in SQL](https://www.geeksforgeeks.org/difference-between-join-and-union-in-sql/)

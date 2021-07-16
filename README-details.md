@@ -42,14 +42,29 @@
 - [Automated machine learning tools (or partial AutoML tools)](./things-to-know.md#automated-machine-learning-tools-or-partial-automl-tools)
 - [Automated Machine Learning - Google search results](https://www.google.com/search?ei=b3ktXKfbEqWAjLsPqdOxiAs&q=automated+machine+learning&oq=automated+machine&gs_l=psy-ab.3.0.0j0i20i263j0l5j0i20i263j0l2.187330.192290..193008...3.0..0.70.1100.20......0....1..gws-wiz.....6..35i39j0i131j0i67.2o6PTTxjJjw)
 - [Recipes for Driverless AI](https://github.com/h2oai/driverlessai-recipes)
-- [PyCaret Tutorial Using Titanic Dataset](https://www.kaggle.com/ravileo/pycaret-tutorial-using-titanic-dataset](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46)
-- [PyCaret Demo](https://pycaret.org/demo/](https://github.com/pycaret/pycaret-demo-dataraction)
-- [Running Low on Time? Use PyCaret to Build your Machine Learning Model in Seconds](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?utm_source=feed&utm_medium=feed-articles&utm_campaign=feed)
-- Libra • Automates the end-to-end machine learning process in just one line of code: [GitHub](https://lnkd.in/g4kYRnq) | [Notebooks with tutorials](https://lnkd.in/g95uKnR) | [Docs](https://lnkd.in/g_vF72M) | [NLP Queries](https://lnkd.in/gZhufPf) 
+- PyCaret
+  + [PyCaret Tutorial Using Titanic Dataset](https://www.kaggle.com/ravileo/pycaret-tutorial-using-titanic-dataset](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46)
+  + [PyCaret Demo](https://pycaret.org/demo/](https://github.com/pycaret/pycaret-demo-dataraction)
+  + [Write and train your own custom machine learning models using PyCaret](https://towardsdatascience.com/write-and-train-your-own-custom-machine-learning-models-using-pycaret-8fa76237374e)
+  + [Running Low on Time? Use PyCaret to Build your Machine Learning Model in Seconds](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?utm_source=feed&utm_medium=feed-articles&utm_campaign=feed)
++ Libra • Automates the end-to-end machine learning process in just one line of code: [GitHub](https://lnkd.in/g4kYRnq) | [Notebooks with tutorials](https://lnkd.in/g95uKnR) | [Docs](https://lnkd.in/g_vF72M) | [NLP Queries](https://lnkd.in/gZhufPf) 
 - [GitHub is the best AutoML you will ever need 👇 👇 👇](https://www.linkedin.com/posts/profile-moez_github-is-the-best-automl-you-will-ever-need-activity-6696949164791652352-bleJ)
 - [AutoGOAL: an autoML framework (high & low level) by Alejandro Piad et al.](https://www.linkedin.com/posts/madewithml_machinelearning-artificialintelligence-madewithml-activity-6693165741547626496-mHhS)
 - [OttoML - Otto makes machine learning an intuitive, natural language experience.](https://github.com/KartikChugh/Otto)
 - [TPOT for Automated Machine Learning in Python](https://machinelearningmastery.com/tpot-for-automated-machine-learning-in-python/)
+- Abacus AI workshops
+  + [Classification](https://colab.research.google.com/drive/1Rajb3bHw45k4PWvDlxsQNCd3j5WuHbIm#forceEdit=true&sandboxMode=true&scrollTo=0D9QEgVs6Ni0)
+  + [Regression](https://bit.ly/RE_regression)
+  + [Forecasting and Recommendations](https://colab.research.google.com/drive/1AnYlxBWo2UUJv5zh7UUbi1YYGwiAmoxl?usp=sharing#scrollTo=__NDm8-bYCqx)
+  - [Workshop on Explainable ML: The code  used to create the Input versus Output visualisation](https://www.youtube.com/watch?v=fGOcvtVaY18)
+- [How to Use AutoKeras for Classification and Regression](https://machinelearningmastery.com/autokeras-for-classification-and-regression)
+| [AutoKeras Website](https://autokeras.com/)
+- Snorkel: Interact with the modern ML stack by programmatically building and managing training datasets: [Snorkel Superglue](https://github.com/HazyResearch/snorkel-superglue) | [Author page](https://ajratner.github.io/)
+- [Build machine learning powered applications without a data scientist](https://telepath.io/)
+- [A delightful machine learning tool that allows you to train/fit, test and use models without writing code](https://github.com/nidhaloff/igel)
+- [Automated Machine Learning (AutoML) Libraries for Python](https://machinelearningmastery.com/automl-libraries-for-python/)
+- [Auto sklearn](https://github.com/automl/auto-sklearn)
+- [OpenML](https://openml.org)
 
 ### Ethics / altruistic motives
 
@@ -149,6 +164,7 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./details
   + [Graph Programming by Uri Valevski https://bit.ly/3nhZr4w](https://www.linkedin.com/posts/towards-data-science_graph-programming-by-uri-valevski-https-activity-6718600830007742464-Ehy5)
   + [Open Graph Benchmark: Datasets for Machine Learning on Graphs -](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-analytics-activity-6715867835287109633-Y_MN)
   - [BCS APSG - 2019 02 14 How Graph Technology is Changing AI and ML at BCS London](https://www.youtube.com/watch?v=oMqP3ISPWBY)
+  - [Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph](https://www.linkedin.com/posts/philipvollet_datascience-nlp-pytorch-activity-6734350662294917120-LSsw)
   - [Graph databases](./data/README.md#databases)
     - See the [Grakn example](./examples/data/databases/graph/grakn/README.md) in the `examples/data/databases/graph/grakn` folder
 

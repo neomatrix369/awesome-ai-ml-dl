@@ -1,6 +1,6 @@
 # Natural Language Processing (NLP)
 
-Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) 
+Better NLP: [![Better NLP](https://i§g.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) 
 
 NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala) | <br/>
 NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/pulls/neomatrix369/dl4j-nlp-cuda.svg)](https://hub.docker.com/r/neomatrix369/dl4j-nlp-cuda)
@@ -13,6 +13,7 @@ NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/p
 - [Library, Framework, Models, Tools, Services](#library-framework-models-tools-services)
 - [Metaphor detection](#metaphor-detection)
 - [Sentiment analysis](#sentiment-analysis)
+- [Topic modelling](#topic-modelling)
 - [Presentations](#presentations)
 - [Notebooks](#notebooks)
 - [Unstructured to structured data](#unstructured-to-structured-data)
@@ -60,6 +61,11 @@ See [Metaphor detection](./metaphor-detection.md)
 
 See [Sentiment analysis](./sentiment-analysis.md)
 
+## Topic modelling
+
+- [Topic Modeling in Python using PyCaret ☟](https://www.linkedin.com/feed/update/urn:li:activity:6768428905800982528/)
+- [Topic modeling helps discover abstract topics](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_machinelearning-datascience-ml-activity-6744246884703059968-DyNX)
+
 ## Presentations
 
 - [Natural Language Processing presentation by Ovidiu S.](../presentations/nlp/)
@@ -92,6 +98,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 ## Text data Augmentation
 
 - Easy Data Augmentation for Text Classification: [Video](https://www.youtube.com/watch?v=3w92peJtYNQ) | [Kernel](https://www.kaggle.com/init927/nlp-data-augmentation)
+- [SentAugment is a data augmentation technique for semi-supervised learning in NLP](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-pytorch-activity-6727834166941118464-bVIR)
 
 ## Summarise text
 

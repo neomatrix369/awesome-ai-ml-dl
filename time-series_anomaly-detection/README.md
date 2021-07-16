@@ -27,6 +27,7 @@
 - [Prediction](time-series.md#prediction)
 - [Trend estimation / trend analysis](time-series.md#trend-estimation--trend-analysis)
 - [Notebooks](time-series.md#notebooks)
+- [Tools, libraries, frameworks](#tools,-libraries,-frameworks)
 - [Misc](time-series.md#misc)
 
 #### Notebooks
@@ -66,6 +67,27 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
   - [AnomalyDetection R package by @Twitter](https://github.com/twitter/AnomalyDetection)
   - [Pycularity - Python port of @Twitter's AnomalyDetection](https://github.com/zrnsm/pyculiarity)
   - [Accurate anomaly detection](https://www.linkedin.com/posts/data-science-central_accurate-anomaly-detection-with-machine-learning-activity-6621433059633958912-2Ccp)
+
+### [Tools, libraries, frameworks](#tools,-libraries,-frameworks)
+
+- [STUMPY is a powerful and scalable library that efficiently computes something called the matrix profile, which can be used for a variety of time series data mining tasks](https://stumpy.readthedocs.io/en/latest/)
+- [Introduction to Matrix Profiles](https://towardsdatascience.com/introduction-to-matrix-profiles-5568f3375d90)
+- Time Series data mining using the Matrix Profile: 
+[1](https://www.cs.ucr.edu/~eamonn/MatrixProfile.html) | 
+[2](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf) | 
+[3](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part2.pdf)
+- [A lot of detailed tutorials about using Stumpy for the matrix profile](https://medium.com/@seanmylaw/stumpy-fdb9f8f1f261)
+- [Greykite lib by LinkedIN: forecasting library](https://www.kaggle.com/misalraj/greykite-a-library-for-time-series-forecasting)
+- [GluonTS: Probabilistic time series forecasting](https://www.kaggle.com/c/m5-forecasting-uncertainty/discussion/133762)
+- [Auto_TS: Auto_TimeSeries](https://github.com/AutoViML/Auto_TS)
+- [Sktime: A unified framework for machine learning with time series](https://github.com/alan-turing-institute/sktime) | [site](https://www.sktime.org/en/latest/)
+  + [sktime-dl](https://github.com/sktime/sktime-dl)
+  + [SKTime - How to get started](https://www.sktime.org/en/latest/how_to_get_started.html)
+  + [Loading data in SKTime](https://www.sktime.org/en/latest/examples/loading_data.html)
+  + [SKTime - Examples](https://github.com/alan-turing-institute/sktime/tree/master/examples)
++ [TSLearn](https://github.com/tslearn-team/tslearn)
+
+
 
 # Contributing
 

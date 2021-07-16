@@ -63,6 +63,19 @@
 - [The #NLP Model Forge: Generate Model Code On Demand #AI - check out this overview by Matthew Mayo](https://www.kdnuggets.com/2020/08/nlp-model-forge.html#.X0PCodTTDeQ.linkedin)
 - [NLP as a service using Streamlit & FastAPI (Sebastián Ramírez Montaño) w/ Hugging Face transformers by Abhishek Kumar Mishra](https://www.linkedin.com/posts/madewithml_insight-made-with-ml-activity-6701484081949097984-NUsj)
 - [Project Insight is designed to create NLP as a service ](https://lnkd.in/g85xFCz)
+- [Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph](https://www.linkedin.com/posts/philipvollet_datascience-nlp-pytorch-activity-6734350662294917120-LSsw)
+- [Best Natural Language Processing competitions on @kaggle to learn from](https://youtube.com/watch?v=-nH4OSyjwSI)
+- [The biggest highlight of 𝗘𝗠𝗡𝗟𝗣 𝟮𝟬𝟮𝟬 𝗶𝘀 𝘁𝗵𝗲 "𝗛𝗶𝗴𝗵-𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲 𝗡𝗮𝘁𝘂𝗿𝗮𝗹 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴" tutorial by Google Research](https://www.linkedin.com/posts/ivan-bilan_nlp-machinelearning-deeplearning-activity-6736873867190513664-rsqz)
+- [Bort is an optimal subset of architectural parameters for the BERT architecture](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-datascience-activity-6727329794150813696-SFqV)
+- [sparknlp_display visualizations that power the 80+ #SparkNLP Streamlit demos](https://www.linkedin.com/posts/philipvollet_openpensource-sparknlp-nlp-activity-6734909712002904064-B_Ig
+)
+- [Deep learning pipeline for Natural Language Processing (NLP) by Bauyrjan Jyenis](https://buff.ly/32D7j82)
+- [Review of the Book “Natural Language Processing For Hackers”](https://tomassetti.me/review-of-the-book-natural-language-processing-for-hackers/)
+- [awesome-neural-adaptation-in-NLP](https://www.linkedin.com/posts/philipvollet_nlp-datascience-machinelearning-activity-6729376332976922624-si9O)
+- [Twitter Sentiment Analysis - Classical Approach vs Deep Learning as beginner friendly notebook](https://www.linkedin.com/posts/philipvollet_datascience-deeplearning-machinelearning-activity-6738353924371283968-59XV)
+- [A compilation of five excellent resources that could prove to be highly beneficial for people starting out in #NLP](https://www.linkedin.com/posts/parulpandeyindia_free-hands-on-tutorials-to-get-started-in-activity-6734443852297445376-lHby)
+- [An amazing article on "Cluster Documents Using Word2Vec"](https://lnkd.in/dEUUFnJ)
+- [Swiss NLP activities group](https://swissnlp.org/activities/)
 
 ### Transformers
 
@@ -84,7 +97,9 @@
 - [The broad potential of GPT-3 is not only related to pure language! It can program, design and maybe it will finally replace lawyers and makes the world a better place](https://www.linkedin.com/posts/philipvollet_nlp-gpt3-machinelearning-activity-6691640022606729216-Bsiv)
 - [The pain ends: English to Regex • Never search for regular expressions on StackOverflow again Powered by GPT-3](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6693043670670831616-tUhF)
 - [GPT-3 implementation of Q&A: chatbot conversations (Transformer implementation)](https://colab.research.google.com/drive/1wf6f96tDCWmo7lMEf-6PQxFk8yksKUkG?usp=sharing)
-
+- [How to use GPT-J, the open-source alternative to GPT-3 GPT-J demo](https://6b.eleuther.ai/)
+- [Builder a faster Search engine with Transformers and Haystack](https://datamuni.com/@shivanandroy/Building-a-faster-accurate-search-engine-with-transformers)
+- [Online tutorial on building production monitoring architectures for machine learning at scale](https://towardsdatascience.com/production-machine-learning-monitoring-outliers-drift-explainers-statistical-performance-d9b1d02ac158?gi=3f9f06e3bda1)
 
 ## Text generation
 

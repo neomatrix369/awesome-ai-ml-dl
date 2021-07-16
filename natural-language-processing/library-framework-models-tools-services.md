@@ -68,6 +68,25 @@
 - [HMNI • Fuzzy Name Matching with Machine Learning. Perform common fuzzy name matching tasks including similarity scoring, record linkage, deduplication and normalization](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-datascience-activity-6694666551989297152-EGtw)
 - [Jina is an AI-powered search framework, empowering developers to create cross-/multi-modal search systems (e.g. text, images, video, audio) on the cloud](https://github.com/jina-ai/jina)
 - [Twint is an advanced Twitter scraping tool written in Python that allows for scraping Tweets from Twitter profiles without using Twitter's API](https://www.linkedin.com/posts/philipvollet_python-data-twitter-activity-6713352923373551616-GNlu)
+- [ProphetNet: MS's transformer variant](https://github.com/microsoft/ProphetNet)
+- [Rouge](https://pypi.org/project/rouge/)
+- [Pointer Generator](https://github.com/AIKevin/Pointer_Generator_Summarizer)
+- [Textract](https://textract.readthedocs.io/en/stable/python_package.html)
+- [Text Rank](https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/)
+- [TextHero](https://texthero.org/)
+- [Facebook Research • TaBERT a pre-trained language model for learning joint representations of natural language utterances and structured tables for semantic parsing](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-technology-activity-66861)
+- [SpikeX - SpaCy Pipes for Knowledge Extraction](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-datascience-activity-6790492432502026240-wVxj)
+- [Obsei: Observe SEgment and Inform - A workflow automation tool for text segmentation](https://www.linkedin.com/posts/philipvollet_datascience-nlp-machinelearning-activity-6748875008870875136-hQoh)
+- (X) Cross-Lingual Transfer Evaluation of Multilingual Encoders: 
+[site](https://sites.research.google/xtreme) | [github](https://github.com/google-research/xtreme)
+- [VecMap (cross-lingual word embedding mappings)](https://github.com/artetxem/vecmap)
+- [PyCaret: Natural Language Processing Module](https://pycaret.org/nlp/)
+- [NLPretext - a python with all the text preprocessing functions you need to ease your NLP project](https://www.linkedin.com/posts/kalyankatikapallisubramanyam_nlproc-nlp-machinelearning-activity-6821345994182070272-2La4)
+- [New release: Gramformer a framework for detecting, highlighting and correcting grammatical errors on natural language text](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-nlp-activity-6819547377955930112-mTye)
+- [Machine Learning and Deep Learning: EN-JP Lexicon](https://github.com/Machine-Learning-Tokyo/EN-JP-ML-Lexicon)
+- [MALLET is a Java-based package for statistical natural language processing, d](https://github.com/mimno/Mallet)
+- [Crowlingo Multilingual NLP](https://www.dataiku.com/product/plugins/crowlingo-nlp/)
+- [An adaptable platform for text analytics and discovery](http://www.rosette.com/)
 
 # Contributing
 
