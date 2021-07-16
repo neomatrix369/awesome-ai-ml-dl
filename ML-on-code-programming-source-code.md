@@ -38,6 +38,13 @@
   - [TabNine](https://www.tabnine.com/)
   - https://github.com/Quantum-Game/quantum-tensors | https://transformer.huggingface.co/doc/gpt2-large (just not Markov Model, but some LSTM or maybe even Transformer)
 - TransCoder: An AI from Facebook that uses seq2seq attention model composed of encoder and decoder with transformer architecture to translate code from one programming language to another: [Paper](https://lnkd.in/ep9DmBr) | [Press release](https://venturebeat.com/2020/06/08/facebooks-transcoder-ai-converts-code-from-one-programming-language-into-another/)
+- [Codist AI: Let the AI write your code comments](https://www.linkedin.com/posts/philipvollet_artificialntelligence-ai-machinelearnig-activity-6728048199682154496-yEIL)
+- [A repo where we have slides, notebooks, etc. related to ml-on-code by Shubhadeep Roychoudary (@rcshubhadeep)](https://github.com/autosoft-dev/ml-on-code)
+- [GitHub Co-pilot](https://copilot.github.com/)
+- [An open-source, mini imitation of Github Copilot](https://twitter.com/samarthrawal/status/1412113186824724496)
+- Python-based machine learning project: Code Generator for ML:
+   - [demo](https://traingenerator.jrieke.com)
+   - [repo](https://github.com/jrieke/traingenerator)
 
 # Contributing
 

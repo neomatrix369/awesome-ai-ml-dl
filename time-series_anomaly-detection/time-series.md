@@ -255,6 +255,7 @@
 - VAE-SNE: a deep generative model for dimensionality reduction and clustering • Usefull for unsupervised action recognition to detect and classify repeated motifs of stereotyped behavior in high-dimensional timeseries data: [GitHub](https://lnkd.in/gN9qvDK) | [Paper](https://lnkd.in/gawkgNr](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-bioinformatics-activity-6690327432823742464-dI7M) 
 - [Webinar on Time Series by Srivatsan Srinivasan](https://docs.google.com/presentation/d/1yGcBUsh0RJb4ap3LXMa_1h_E_xeJ_HEO8SAtFlj_RrY/edit#slide=id.p)
 - [Timeseries Beginner training](https://github.com/jeffrey-yau/Pearson-TSA-Training-Beginner)
+- [@clone95's repo with studies on Exploratory Data Analysis, Time Series forecasting, and Data Manipulation with popular Python Libraries](https://github.com/clone95/Prices-of-Avocados)
 - [Time-series on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series/)
 - [Time-series Forecasting on Analytics Vidhya](https://www.analyticsvidhya.com/blog/category/time-series-forecasting/)
 - **[And many more Time-series posts on MachineLearningMastery.com](https://machinelearningmastery.com/?s=time+series&post_type=post&submit=Search)**

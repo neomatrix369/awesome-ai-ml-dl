@@ -108,7 +108,12 @@ reproducible research
       - [Tech Decoded](https://techdecoded.intel.io/)
       - [Intel® Advisor](https://software.intel.com/content/www/us/en/develop/tools/advisor.html)
       - [Intel® Advisor Cookbook](https://www.intel.com/content/www/us/en/develop/documentation/advisor-cookbook/top.html)
+    - [Intel® DevCloud for oneAPI](https://devcloud.intel.com/oneapi/)
     - Also see [Intel](../courses.md#intel) in [Courses](../courses.md#courses)
+    - [TVM is an open deep learning compiler stack for CPUs, GPUs, and specialized accelerators. It aims to close the gap between the productivity-focused deep learning frameworks, and the performance- or efficiency-oriented hardware backends](https://tvm.apache.org/docs/index.html)
+    - 
+
+
  
  _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
 
@@ -129,6 +134,11 @@ reproducible research
   - [This tool is nice to monitor not only RAPIDS but also deep learning workloads](https://www.linkedin.com/posts/miguelusque_gpu-dashboards-in-jupyter-lab-activity-6611570222585401344-n1Qe)
   - [InstaDeep™ powers AI as a Service with shared NVMe: Excelero NVMesh™ feeds unlimited streams of data to GPU-based systems with local performance for AI and ML end-users](https://www.excelero.com/press/instadeep-powers-ai-as-a-service-with-shared-nvme/)
   - See [NVIDIA's RAPIDS](./gpus/rapids.md)
+  - [A NumPy-compatible array library accelerated by CUDA](https://www.linkedin.com/posts/philipvollet_python-nvidia-gpu-activity-6790885179750776833-1rPY)
+  - [For ML Practitioners, from @NVIDIAGTC, a catalog of resources for @ApacheSpark on GPUs, using @RAPIDSai, and other #NVIDIA's Libraries (Deployment on @GCPcloud | Architectural e-Book | Use cases for Adobe & Verizon | Pipelines & Hyperparameter Tuning)](https://resources.nvidia.com/en-us-nrt-spark/apache-spark-gpu-acc?ncid=em-nurt-27128&mkt_tok=eyJpIjoiWWpkbU5tUm1ORFEwWXpZMSIsInQiOiJpZjFydzRPZTQyaGwxaCsrVERxWWFRcTVnbEVqY1U2T1pEamQzMGN3cGpmbzdPRjlqNFArWVNlMkd3OFkrYnpVTVl5SEVtMllQUVlRa0QxSXBuSFwvTzlTT0lsem9CY1NnMzRGNW40SkVaUndhd2NnRE1hcGVNTzJycTliSVVqXC9yIn0%3D)
+  - [Explore GPU Acceleration in the Intel® DevCloud (slides)](https://event.on24.com/event/26/07/51/5/rt/1/documents/resourceList1593116194010/s_exploregpuaccelerationintheinteldevcloud1604520259872.pdf)
+  - [Offload Your Code from CPU to GPU … and Optimize It](https://techdecoded.intel.io/essentials/offload-your-code-from-cpu-to-gpu-and-optimize-it/)
+  - [Profile DPC++ and GPU Workload Performance](https://techdecoded.intel.io/essentials/profile-dpc-and-gpu-workload-performance/)
 
 ## TPU
 
@@ -151,6 +161,7 @@ reproducible research
     - [Financial Time series notebook](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
     - [Web traffic prediction](https://adaptpartners.com/technical-seo/website-traffic-prediction-with-google-colaboratory-and-facebook-prophet/)
     - [GAN example, TPU version](https://colab.research.google.com/drive/1EkZPH6UE_I1a2TQfDDpjjqA7Na0_qd6v)
+    - XLA compiler: [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding ~ 1 Trillion parameters](https://www.youtube.com/watch?v=QzcbnI42-VI&t=11960s)
 
 ## IPU
 

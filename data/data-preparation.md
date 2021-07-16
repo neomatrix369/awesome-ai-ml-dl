@@ -46,6 +46,7 @@
 - [Data Prepossessing](https://www.linkedin.com/posts/nabihbawazir_datascience-machinelearning-aertificialintellegence-activity-6657362083665018880-2rzc)
 - [How to Grid Search Data Preparation Techniques](https://machinelearningmastery.com/grid-search-data-preparation-techniques/)
 - [How to Choose Data Preparation Methods for Machine Learning](https://machinelearningmastery.com/choose-data-preparation-methods-for-machine-learning/)
+- [More awesome pandas Graphical User Experience? Check pandas_ui a user interface tool for pandas providing easy and fast data manipulation](https://www.linkedin.com/posts/philipvollet_datascience-python-notebook-activity-6729843870093447168-vhfj)
 
 ### Transformations
 

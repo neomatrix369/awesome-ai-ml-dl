@@ -26,6 +26,10 @@ aka *_Exploratory Data Analysis_*
 - [Having a bunch of data and no idea what's in? What is the best tool for a fast Exploratory Data Analysis? Check this EDA Comparison: Pandas Profiling, Sweetviz, and PandasGUI](https://www.linkedin.com/posts/philipvollet_data-analytics-bigdata-activity-6726856744833835008-NnEY)
 - [Pandas is great for most day-to-day data analysis](https://github.com/chiphuyen/just-pandas-things)
 - [The Exploratory Data Analysis (EDA) lesson is out for Made With ML's Applied ML in Production course!](https://www.linkedin.com/posts/goku_exploratory-data-analysis-applied-ml-in-activity-6734809864322871296-FDyJ)
+- [@clone95's repo with studies on Exploratory Data Analysis, Time Series forecasting, and Data Manipulation with popular Python Libraries](https://github.com/clone95/Prices-of-Avocados)
+
+
+
 
 
 ### Tools
