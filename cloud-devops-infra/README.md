@@ -109,11 +109,9 @@ reproducible research
       - [Intel® Advisor](https://software.intel.com/content/www/us/en/develop/tools/advisor.html)
       - [Intel® Advisor Cookbook](https://www.intel.com/content/www/us/en/develop/documentation/advisor-cookbook/top.html)
     - [Intel® DevCloud for oneAPI](https://devcloud.intel.com/oneapi/)
+    - [Tuning applications for multiple architectures](https://techdecoded.intel.io/big-picture/tuning-applications-for-multiple-architectures/)
     - Also see [Intel](../courses.md#intel) in [Courses](../courses.md#courses)
     - [TVM is an open deep learning compiler stack for CPUs, GPUs, and specialized accelerators. It aims to close the gap between the productivity-focused deep learning frameworks, and the performance- or efficiency-oriented hardware backends](https://tvm.apache.org/docs/index.html)
-    - 
-
-
  
  _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
 
@@ -196,6 +194,7 @@ reproducible research
 ## Misc
 
 - [👉 Docker CLI & Dockerfile Cheat Sheet 👈](https://www.linkedin.com/posts/asif-bhat_docker-quick-reference-activity-6622407319550562304-xxdj)
+- [Edge projects with code from Naveen Kumar](https://www.hackster.io/naveenbskumar/projects)
 
 # Contributing
 

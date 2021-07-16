@@ -18,6 +18,7 @@
   - [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
   - [How do you speed up your numerical calculations in Numpy and Pandas? Using a small library called NumExpr with symbolic expression and other cool tricks.](https://www.linkedin.com/posts/ajitjaokar_speed-up-your-numpy-and-pandas-with-numexpr-activity-6680574379069440000-kyQ3)
   - [Speeding up python code using numpy](https://www.kdnuggets.com/2019/06/speeding-up-python-code-numpy.html)
+  - [Speed Up Your #Python and #Pandas with NumExpr via T. Scott Clendaniel](https://bit.ly/3f3QdUR)
   - [Using Cython Nuitka Numba ShedSkin Pythran Transonic](https://twitter.com/ianozsvald/status/1226436048428900353)
   - [using Dask / Vaex / Modin to speed up Pandas-like operations](https://twitter.com/ianozsvald/status/1225748724363780096)
 - Pandas GroupBy speedup
@@ -88,6 +89,7 @@
   - [Making Pandas Fly (PyDataUK 2020)](https://speakerdeck.com/ianozsvald/pydatauk-making-pandas-fly) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
   - [Making Pandas Fly (PyDataBudapest 2020)](https://speakerdeck.com/ianozsvald/making-pandas-fly) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
   - [Flying Pandas - Dask, Modin and Vaex (Remote Pizza Python 2020)](https://speakerdeck.com/ianozsvald/flying-pandas-modin-dask-and-vaex) | [Blog](https://ianozsvald.com/2020/04/27/flying-pandas-and-making-pandas-fly-virtual-talks-this-weekend-on-faster-data-processing-with-pandas-modin-dask-and-vaex/)
+  - Process 120 million taxi trips and explore in real-time with Dash, Plotly and Vaex: [Interactive Dashboard](https://dash.vaex.io/) | [Blogpost](https://lnkd.in/gYWTtRX) | [Code](https://lnkd.in/gFJg2GE) | [Tutorial for data processing](https://lnkd.in/gF_EEeN)
   - [Tools for Higher Performance python (ODSC 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python-odsc-2019) | [Blog](https://ianozsvald.com/2019/11/22/higher-performance-python-odsc-2019/)
   - [Tools for Higher Performance python (PyDataCambridge 2019)](https://speakerdeck.com/ianozsvald/higher-performance-python) | [Blog](https://ianozsvald.com/2019/11/16/higher-performance-python-at-pydatacambridge-2019/)
   - [Sprinting Pandas](https://speakerdeck.com/ianozsvald/sprinting-pandas-at-odsc-2020)

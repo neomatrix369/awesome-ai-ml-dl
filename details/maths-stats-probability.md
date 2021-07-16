@@ -34,6 +34,7 @@
 - [How the Mathematics of Fractals Can Help Predict Stock Markets�Shifts�+](https://www.linkedin.com/posts/vincentg_how-the-mathematics-of-fractals-can-help-activity-6730167289112510464-H3eX)
 - [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra)
 - [#AI #fourier on partial differential equations and navier stokes](https://www.technologyreview.com/2020/10/30/1011435/ai-fourier-neural-network-cracks-navier-stokes-and-partial-differential-equations/?)
+- [Fourier Transforms With scipy.fft: Python Signal Processing](https://realpython.com/python-scipy-fft/)
 - [Manim is an engine for precise programatic animations, designed for creating explanatory math videos](https://github.com/3b1b/manim)
 - Hessian matrix approximation: [Khan Academy](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/quadratic-approximations/a/the-hessian) | [Uni. of Buffalo | Chapter 5 Hessian](https://cedar.buffalo.edu/~srihari/CSE574/Chap5/Chap5.4-Hessian.pdf) | [Math Lectures: Hessian Example](https://www.iith.ac.in/~ashok/Maths_Lectures/TutorialB/Hessian_Examples.pdf)
 

@@ -33,6 +33,7 @@
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
 - [12 thought leaders on LinkedIn who are creating original content to learn Artificial Intelligence and Machine Learning](https://www.linkedin.com/posts/ajitjaokar_12-thought-leaders-on-linkedin-who-are-creating-activity-6627455043429814272-MK_n)
 - [AI Repository by Goku Mohandas](https://www.linkedin.com/posts/asif-bhat_datascience-data-dataanalysis-activity-6643083915873615872-je6g)
+- [Digital Twins: Bringing artificial intelligence to Engineering](https://www.datasciencecentral.com/profiles/blogs/digital-twins-brining-artificial-intelligence-to-engineering)
 - See [Artificial Intelligence](./details/artificial-intelligence.md)
 
 ### Automation
@@ -156,6 +157,7 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./details
   + [Towards Deeper Graph Neural Networks • Deep Adaptive Graph Neural Network (DAGNN) can be used to learn graph node representations from larger receptive fields.](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-pytorch-activity-6691433713458397186-5QLz)
   + [Graph-Powered Machine Learning • Free eBook Excerpt (Chapter: 3, 4, 7)](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-neo4j-activity-6689239970785431553-pMv3)
   + [Cytoscape interactive network visualization in Python and Dash. A graph visualization component for creating easily customizable, high-performance, interactive, and web-based networks. ](https://www.linkedin.com/posts/philipvollet_datascience-jupyter-notebook-activity-6696126245572362240-cO4v)
+  + [This dash app allows you to annotate automatically segmented brain regions](https://www.linkedin.com/posts/philipvollet_datascience-biomedical-plotly-activity-6732033689368231936-c1NJ)
   + [Notes on graph theory — Centrality measures by Anas AIT AOMAR](https://www.linkedin.com/posts/towards-data-science_notes-on-graph-theorycentrality-measures-activity-6696705294426263552-JViA)
   + [COOKIE: A Dataset for Conversational Recommendation over Knowledge Graphs in E-commerce - A new dataset for conversational recommendation over knowledge graphs in e-commerce platforms.](https://www.linkedin.com/posts/philipvollet_nlp-innovation-datascience-activity-6703571968739946496-Z0zy)
   + [@plotlygraphs We’ve explored  @OpenAI’s new #GPT3 API, and we are super impressed with its capabilities!](https://twitter.com/plotlygraphs/status/1286079929982095360)

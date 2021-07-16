@@ -75,6 +75,7 @@ On https://pytorch.org/, just under **"Quick Start Locally"** find **"C++/Java"*
 - [The Incredible Pytorch • This is a curated list of tutorials, projects, libraries, videos, papers, books and anything related to the incredible PyTorch](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6676333739670335489-R31y)
 - [Active Learning with PyTorch](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
 - Example of Retina Face: [online app](https://retinaface.herokuapp.com) | [GitHub](https://github.com/ternaus/retinaface_demo) | [Author](https://ternaus.github.io)
+- [Effective Pytorch](https://www.linkedin.com/posts/philipvollet_machinelearning-nlp-pytorch-activity-6731643907819614208-xMXu)
 
 # Contributing
 

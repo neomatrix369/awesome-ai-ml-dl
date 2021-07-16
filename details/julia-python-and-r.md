@@ -37,6 +37,7 @@
      - Part B: https://www.youtube.com/watch?v=j4IgXflsZtg&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=9
      - Part C: https://www.youtube.com/watch?v=kHZmFVDm0QQ&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=10
   - [Webinar: AI Analytics PART 1: Optimize End-to-End Data Science and Machine Learning Acceleration](https://event.on24.com/event/25/25/92/3/rt/1/documents/resourceList1596477265666/s_webinarslides1596477264742.pdf](https://software.intel.com/content/www/us/en/develop/documentation/get-started-with-ai-linux/top.html](https://github.com/intel/AiKit-code-samples)
+  - [Supply Chain Optimization (question)](https://www.datasciencecentral.com/forum/topics/optimization-question)
   
   ### Jupyter and notebook related
 
@@ -54,7 +55,8 @@
 
   - [A Semi-Supervised Classification Algorithm using Markov Chain and Random Walk in R](https://www.linkedin.com/posts/data-science-central_a-semi-supervised-classification-algorithm-activity-6614306095047462912-7rjG)
   - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
-  
+  - [Mayank's presentation: __MLT__ Pre-NeurIPS Paper Reading Session: Semi-Supervised Learning](https://docs.google.com/presentation/d/1hj4-MQCxORoyED9oBw7uWdErnKgddKzQLQ1YrY5-8Hs/edit)
+
   ## Unsupervised
 
   - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
@@ -92,6 +94,7 @@
   - [Spektral is a Python library for graph deep learning, based on the Keras API and TensorFlow 2](https://github.com/danielegrattarola/spektral/)
   - [PyGLN Gated Linear Network (GLN implementations for NumPy, PyTorch, TensorFlow and JAX: A new family of neural networks introduced by DeepMind](https://www.linkedin.com/posts/philipvollet_machinelearning-neuralnetwork-network-activity-6693036479427563520-AYtm)
   - [Understand the Impact of Learning Rate on Neural Network Performance](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
+  - [Neural Networks are Function Approximation Algorithms](https://machinelearningmastery.com/neural-networks-are-function-approximators/)
 
   ## Generative Adversarial Network (GAN)
 

@@ -29,6 +29,7 @@
   - [Introduction to Reinforcement Learning](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-reinforcementlearning-activity-6620788745669005312--A2A)
   - [Introduction to Reinforcement Learning by David Silver](https://www.linkedin.com/posts/nabihbawazir_artificialintelligence-deeplearning-machinelearning-activity-6612596599749259264-DlSO)
   - [Unsupervised Curricula for Visual Meta-Reinforcement Learning](https://www.linkedin.com/posts/montrealai_artificialintelligence-machinelearning-reinforcementlearning-activity-6628750214540861440-jKB0)
+  - [Meta learning: How To Learn Deep Learning And Thrive In The Digital World](https://gumroad.com/l/learn_deep_learning)
   - [Reinforcement Learning](../courses.md#reinforcement-learning) in [Courses](../courses.md#courses)reinforcement-learning.md
 
 
