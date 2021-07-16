@@ -43,6 +43,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Difference between Machine Learning, Data Science, AI, Deep Learning, and Statistics](https://www.datasciencecentral.com/profiles/blogs/difference-between-machine-learning-data-science-ai-deep-learning) ([Tweet](https://twitter.com/java/status/947129400083890176))
   - [You Could Become an AI Master Before You Know It. Here’s How.](https://www.technologyreview.com/s/608921/you-could-become-an-ai-master-before-you-know-it-heres-how/) ([Tweet](https://twitter.com/java/status/920620763262148609))
   - [Why Java Will Dominate the Future of Machine Learning, AI, and Big Data](https://www.deepnetts.com/blog/why-java-will-dominate-the-future-of-machine-learning-ai-and-big-data.html) ([Tweet](https://twitter.com/java/status/1065642563468709889)) | [About DeepNetts](https://www.deepnetts.com/product.html) | [Download DeepNetts](https://deepnetts.com:10172/download/faces/user/signUpAndDownload.xhtml)
+  - [A Java-based Evolutionary Computation Research System: ECJ 27](https://cs.gmu.edu/~eclab/projects/ecj/)
   - [Using Java for Artificial Intelligence](https://skymind.ai/wiki/java-ai) [deadlink] ([Tweet](https://twitter.com/java/status/1037728632142213120))
   - [Want A Bigger Bang From AI? Embed It Into Your Apps](https://www.forbes.com/sites/oracle/2018/11/27/want-a-bigger-bang-from-ai-embed-it-into-your-apps/#1c07cc7a4e2d) ([Tweet](https://twitter.com/java/status/1068779734337708032))
   - [A Beginner's Guide to Automated Machine Learning & AI](https://t.co/s7lvKY9Y7z) ([Tweet](https://twitter.com/java/status/1051844141808664576))
@@ -125,6 +126,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 - [ML for Java Developers](https://www.itworld.com/article/3224505/application-development/machine-learning-for-java-developers.html)
 - [Java ML Dev Videos on YouTube: Naive Bayes w/ JAVA - Tutorial 01](https://www.youtube.com/watch?v=mrP4CyW4tKA&frags=pl%2Cwn)
 - Java ML Framework: [1](https://github.com/datumbox/datumbox-framework) [2](http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/)
+- [Jena](https://jena.apache.org/) - A free and open source Java framework for building Semantic Web and Linked Data applications
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
@@ -210,6 +212,8 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Real-Time Application of Machine Learning to Geolocation using Spark and Kafka](https://www.youtube.com/watch?v=17OUbWR8UKo) | [Slides](https://www.slideshare.net/caroljmcdonald/analysis-of-popular-uber-locations-using-apache-apis-spark-machine-learning-structured-streaming-kafka-with-mapres-and-maprdb) | [Carol's post "Tips and Best Practices to Take Advantage of Spark 2.x"](https://mapr.com/blog/tips-and-best-practices-to-take-advantage-of-spark-2-x/)
   - [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
   - [Linux Command-Line resource by Chris Albon](https://chrisalbon.com/#linux)
+  - [TweetyProject](http://tweetyproject.org/) - is a collection of various Java libraries that implement approaches to different areas of artificial intelligence
+
 
 **See [this link](https://github.com/josephmisiti/awesome-machine-learning#java) for more Java related ML links**
 

@@ -48,6 +48,10 @@
   + [PyCaret Demo](https://pycaret.org/demo/](https://github.com/pycaret/pycaret-demo-dataraction)
   + [Write and train your own custom machine learning models using PyCaret](https://towardsdatascience.com/write-and-train-your-own-custom-machine-learning-models-using-pycaret-8fa76237374e)
   + [Running Low on Time? Use PyCaret to Build your Machine Learning Model in Seconds](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?utm_source=feed&utm_medium=feed-articles&utm_campaign=feed)
+  + Build with PyCaret, Deploy with FastAPI: [LinkedIn](https://www.linkedin.com/posts/profile-moez_datascience-machinelearning-opensource-ugcPost-6792091520582377473-gNhY) | [TDS post](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786?utm_campaign=postfity&utm_content=postfity28ca7&utm_medium=social&utm_source=linkedin&gi=681655d44828)
+  - [Supercharge your Machine Learning Experiments with PyCaret and Gradio](https://moez-62905.medium.com/supercharge-your-machine-learning-experiments-with-pycaret-and-gradio-5932c61f80d9?utm_medium=social&utm_source=linkedin&utm_campaign=postfity&utm_content=postfityb4ae6)
+  - [PyCaret and Streamlit: How to Create and Deploy Data Science Web App](https://towardsdatascience.com/pycaret-and-streamlit-how-to-create-and-deploy-data-science-web-app-273d205271a3?gi=2116c67d324d)
+  - [H2O Wave is a software stack for building beautiful, low-latency, realtime, browser-based applications and dashboards entirely in Python without using HTML, Javascript, or CSS](https://www.linkedin.com/posts/philipvollet_python-datascience-gui-activity-6746425913367515136-RTBv)
 + Libra • Automates the end-to-end machine learning process in just one line of code: [GitHub](https://lnkd.in/g4kYRnq) | [Notebooks with tutorials](https://lnkd.in/g95uKnR) | [Docs](https://lnkd.in/g_vF72M) | [NLP Queries](https://lnkd.in/gZhufPf) 
 - [GitHub is the best AutoML you will ever need 👇 👇 👇](https://www.linkedin.com/posts/profile-moez_github-is-the-best-automl-you-will-ever-need-activity-6696949164791652352-bleJ)
 - [AutoGOAL: an autoML framework (high & low level) by Alejandro Piad et al.](https://www.linkedin.com/posts/madewithml_machinelearning-artificialintelligence-madewithml-activity-6693165741547626496-mHhS)
@@ -67,6 +71,7 @@
 - [Auto sklearn](https://github.com/automl/auto-sklearn)
 - [OpenML](https://openml.org)
 - [Lightning Flash](https://www.linkedin.com/posts/philipvollet_machinelearning-pytorch-opensource-activity-6815862293948092416-AiNY) - a collection of production ready Tasks for fast prototyping, baselining, finetuning and solving problems with deep learning built on top of PyTorch Lightning
+- [Aim](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-pytorch-activity-6732191279083511808-zqSM) - a super-easy way to record, search and compare AI experiments. With Aim you can compare 100s of experiments in no time!
 
 ### Ethics / altruistic motives
 

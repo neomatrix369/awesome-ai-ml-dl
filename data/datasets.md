@@ -42,7 +42,7 @@
 - [GeoPlatform Data.gov Search ](https://data.geoplatform.gov/)
 - [Data.gov - Data Catalog](https://catalog.data.gov/dataset)
 - [TidyTuesday projects on GitHub](https://github.com/rfordatascience/tidytuesday)
-- [Enron Email Digest Dataset](https://www.cs.cmu.edu/~enron/)
+- [Enron Email Digest / Fraud detection Dataset](https://www.cs.cmu.edu/~enron/)
 - [Mathematics Datasets](https://github.com/deepmind/mathematics_dataset)
 - [Data.world datasets](https://data.world)
 - [Microsoft Research Open Data](https://msropendata.com/)

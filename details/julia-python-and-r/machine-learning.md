@@ -113,6 +113,13 @@
   - [How to Selectively Scale Numerical Input Variables for Machine Learning](https://machinelearningmastery.com/selectively-scale-numerical-input-variables-for-machine-learning/)
   - [2020 ML Roadmap by Daniel Bourke](https://www.linkedin.com/posts/madewithml_machinelearning-artificialintelligence-madewithml-activity-6695333895698808832-ojY5)
   - [📌50 Days of Machine Learning📌](https://www.linkedin.com/posts/asif-bhat_machine-learning-activity-6693141519026728960-dWIa)
+  - [Curve Fitting With Python](https://machinelearningmastery.com/curve-fitting-with-python/)
+  - [Do we need to learn Optimization to build Machine Learning Models ?](https://machinelearninginterview.com/topics/blog/do-we-need-to-learn-optimization-to-build-machine-learning-models/)
+  - [Machine Learning Engineering book](https://www.dropbox.com/s/toxhxkz7ynpzdwa/Book_toc.pdf?dl=0)
+  - [Machine Learning from Scratch](https://github.com/thomasnield/oreilly_machine_learning_from_scratch/)
+  - [10 Fun Machine Learning Project Ideas for Newbies](https://sdsclub.com/10-fun-machine-learning-project-ideas-for-newbies/)
+  - [Your roadmap to a full fledge Machine Learning Engineer or Data Engineer](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-python-activity-6730939356133126144-uXDK)
+  - Title: From Machine Learning to Machine Reasoning (Drew Hudson is a Ph.D. student at Stanford University) : [Papers: Learning by Abstraction: The Neural State Machine](https://arxiv.org/abs/1907.03950) | [Compositional Attention Networks for Machine Reasoning](https://arxiv.org/abs/1803.03067) | [GQA: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering](https://arxiv.org/abs/1902.09506) | [Visual Reasoning](https://visualreasoning.net)
   - Algorithms
     - See [Machine Learning algorithms](./machine-learning-algorithms.md)
   - See [Machine Learning](../courses.md#machine-learning) in [Courses](../courses.md#courses)
@@ -131,6 +138,13 @@
 - Hermione ML: [pypi](https://pypi.org/project/hermione-ml/) | [GitHub](https://github.com/A3Data/hermione)
 - Speed ML: [github](https://github.com/Speedml/speedml) | [Notebook](https://github.com/Speedml/notebooks/blob/master/titanic/titanic-solution-using-speedml.ipynb)
 - Embedded Learning Library: [HomePage](https://microsoft.github.io/ELL) | [GitHub](https://github.com/Microsoft/ELL)
+- [Data science GUI programs with the awesome PySimpleGUI package!](https://www.linkedin.com/posts/philipvollet_machinelearning-python-programming-ugcPost-6748873104589750272-fCRm)
+- [Flyte accelerate your Machine Learning and Data workflows to production](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-mlops-activity-6793404314992947200-sQVI)
+
+## Validations
+
+- [Understanding stratified cross-validation](https://stats.stackexchange.com/questions/49540/understanding-stratified-cross-validation)
+- [Adversarial Validation, Explained](https://www.kdnuggets.com/2016/10/adversarial-validation-explained.html)
 
 ## Metrics
 

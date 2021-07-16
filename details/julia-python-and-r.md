@@ -80,6 +80,7 @@
   - [How To Train Interpretable Neural Networks That Accurately Extrapolate From Small Data By Christopher Rackauckas](https://lnkd.in/e7hsfBc)
 | [LinkedIn](https://www.linkedin.com/posts/montrealai_artificialintelligence-machinelearning-neuralnetworks-activity-6623714880987951105-VYU9)
   - [How to generate neural network confidence intervals with Keras](https://www.linkedin.com/posts/kranthi-kumar9_how-to-generate-neural-network-confidence-activity-6606228692798672896-ClI9)
+  - [Confidence Intervals for XGBoost](https://www.kdnuggets.com/2021/05/confidence-intervals-xgboost.html)
   - [A pair of interrelated neural networks in DQN by Rafael Stekolshchik](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4) [LinkedIn Post](https://www.linkedin.com/posts/towards-data-science_a-pair-of-interrelated-neural-networks-in-activity-6647411736238526466-LtLc)
   - [How to Visualize Filters and Feature Maps in Convolutional Neural Networks](https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/)
   - [Understand the Impact of Learning Rate on Neural Network Performance](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)

@@ -12,6 +12,9 @@
   - [Top 10 #Github Repos which are my go-to destinations for exploring #AI, ML(#machinelearning), DL(Deep Learning) in the easiest way possible](https://www.linkedin.com/posts/ayonroy2000_github-ai-machinelearning-activity-6615210406099148800-W680)
   - [Weekly Digest, May 14](https://www.linkedin.com/posts/data-science-central_weekly-digest-may-14-activity-6616375762180206592-mgke)
   - [Selection of best articles from our past weekly digests](https://www.linkedin.com/posts/data-science-central_selection-of-best-articles-from-our-past-activity-6623638646434127872-QSy8)
+  - [Panel for awesome analytics apps in Python!](https://www.linkedin.com/posts/philipvollet_datascience-analytics-datascientist-activity-6795210285910245377-8CIU)
+  - [Simplest Machine Learning so Far](https://www.linkedin.com/posts/nabihbawazir_statistics-data-datascience-activity-6679790103310819328-O2ow)
+  - [On Linear Identifiability of Learned Representations, Roeder et al.: ](https://lnkd.in/dZTT2ea)
 
 # Contributing
 

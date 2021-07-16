@@ -82,6 +82,7 @@
   - [Interpretable Machine Learning - Christoph Molnar](https://www.youtube.com/watch?v=0LIACHcxpHU&t=3533s)
   - AI Ethics, Fairness, Explainability: Q&A and discussion at this session: code lab: [XAI](https://github.com/decentdilettante/XAI) | [Trusted AI](https://github.com/Trusted-AI/AIX360) | [lale](https://github.com/IBM/lale) | ["Conversational Processes and Causal Explanation" by Hilton:](https://pdfs.semanticscholar.org/5093/4979694fb48e55d0cf38888f67b84ad6601b.pdf)
   - [Tech talk: Explainable anomaly detection](https://www.youtube.com/watch?v=0p8o3uj96Uc&feature=push-u-sub&attr_tag=ccXKOv7Gba4BJCOf%3A6)
+  - [How to use Learning Curves to Diagnose Machine Learning Model Performance](https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/)
 
 ## Calibration
 
