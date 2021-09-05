@@ -39,6 +39,7 @@
   - [Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386) by [Chris Albon](https://www.amazon.com/Chris-Albon/e/B07CHGKH7J/ref=dp_byline_cont_book_1)
   - [A number of useful ML related repositories](https://github.com/chrisalbon?tab=repositories) by [Chris Albon](https://github.com/chrisalbon)
   - [ML Blogs by faculty.ai](https://faculty.ai/blog/)
+  - [ML Blog by Neptune.ai](https://neptune.ai/blog/)
   - [ML topics expanded by Chris Albon](https://chrisalbon.com/#machine_learning) - topics covered: Vectors, Matrices, And Arrays • ML Basics • Preprocessing Structured Data • Preprocessing Images • Preprocessing Text • Preprocessing Dates And Times • Feature Engineering • Feature Selection • Model Evaluation • Model Selection • Linear Regression • Logistic Regression • Trees And Forests • Nearest Neighbors • Support Vector Machines • Naive Bayes • Clustering
   - [Claoudml](https://www.claoudml.com/) - Free Data Science & Machine Learning Resources
   - [Complete Hands-Off Automated Machine Learning](https://www.linkedin.com/posts/data-science-central_complete-hands-off-automated-machine-learning-activity-6618518854731644928-b1kO)
