@@ -192,7 +192,7 @@ reproducible research
   - [Performance profiling in TF 2 (TF Dev Summit '20)](https://www.youtube.com/watch?v=pXHAQIhhMhI)
 
 ## Misc
-
+- Marketing (http://www.trinet.com.pl/)
 - [👉 Docker CLI & Dockerfile Cheat Sheet 👈](https://www.linkedin.com/posts/asif-bhat_docker-quick-reference-activity-6622407319550562304-xxdj)
 - [Edge projects with code from Naveen Kumar](https://www.hackster.io/naveenbskumar/projects)
 
