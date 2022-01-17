@@ -96,6 +96,7 @@
   - [PyGLN Gated Linear Network (GLN implementations for NumPy, PyTorch, TensorFlow and JAX: A new family of neural networks introduced by DeepMind](https://www.linkedin.com/posts/philipvollet_machinelearning-neuralnetwork-network-activity-6693036479427563520-AYtm)
   - [Understand the Impact of Learning Rate on Neural Network Performance](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
   - [Neural Networks are Function Approximation Algorithms](https://machinelearningmastery.com/neural-networks-are-function-approximators/)
+  - [PyCaret + SKORCH: Build PyTorch Neural Networks using Minimal Code](https://towardsdatascience.com/pycaret-skorch-build-pytorch-neural-networks-using-minimal-code-57079e197f33?source=search_post)
 
   ## Generative Adversarial Network (GAN)
 

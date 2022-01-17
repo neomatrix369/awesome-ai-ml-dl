@@ -67,6 +67,10 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
   - [AnomalyDetection R package by @Twitter](https://github.com/twitter/AnomalyDetection)
   - [Pycularity - Python port of @Twitter's AnomalyDetection](https://github.com/zrnsm/pyculiarity)
   - [Accurate anomaly detection](https://www.linkedin.com/posts/data-science-central_accurate-anomaly-detection-with-machine-learning-activity-6621433059633958912-2Ccp)
+  - [Introduction to Anomaly Detection in Python with PyCaret](https://towardsdatascience.com/introduction-to-anomaly-detection-in-python-with-pycaret-2fecd7144f87?source=search_post)
+  - [Automated Anomaly Detection Using PyCaret](https://towardsdatascience.com/automated-anomaly-detection-using-pycaret-5e40df75fe36?source=search_post)
+  - [A Simplified approach using PyCaret for Anomaly Detection](https://towardsdatascience.com/a-simplified-approach-using-pycaret-for-anomaly-detection-7d33aca3f066?source=search_post)
+  - [Anomaly Detection Using PyCaret!!!](https://medium.com/@insaid/anomaly-detection-using-pycaret-38b267ed638b?source=search_post)
 
 ### [Tools, libraries, frameworks](#tools,-libraries,-frameworks)
 

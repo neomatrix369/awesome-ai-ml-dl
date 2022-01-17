@@ -63,7 +63,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 
 ## Topic modelling
 
-- [Topic Modeling in Python using PyCaret ☟](https://www.linkedin.com/feed/update/urn:li:activity:6768428905800982528/)
+- [Topic Modeling in Python using PyCaret ☟](https://www.linkedin.com/feed/update/urn:li:activity:6768428905800982528/) | [Topic Modeling on PyCaret](https://towardsdatascience.com/topic-modeling-on-pycaret-2ce0c65ba3ff?source=search_post) (Medium post)
 - [Topic modeling helps discover abstract topics](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_machinelearning-datascience-ml-activity-6744246884703059968-DyNX)
 
 ## Presentations

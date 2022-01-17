@@ -187,6 +187,8 @@
 - [Bayesian Analysis](https://projecteuclid.org/euclid.ba/1516093227)
 - [Bayesian Data Analysis](https://www.stat.columbia.edu/~gelman/book/)
 - [Bayesian Basics, Explained](https://www.kdnuggets.com/2016/12/bayesian-basics-explained.html)
+- [Bayesian Hyperparameter Optimization with tune-sklearn in PyCaret](https://medium.com/distributed-computing-with-ray/bayesian-hyperparameter-optimization-with-tune-sklearn-in-pycaret-a33b1592662f?source=search_post)
+
 - Naive Bayesian
     + [Book: Bayes Theorem: A visual intro for Beginners](https://www.amazon.com/Bayes-Theorem-Examples-Introduction-Beginners-ebook/dp/B01LZ1T9IX)
     + [Article: How to become a Bayesian in 8 steps: an annotated reading List](https://link.springer.com/article/10.3758/s13423-017-1317-5)

@@ -27,8 +27,9 @@ aka *_Exploratory Data Analysis_*
 - [Pandas is great for most day-to-day data analysis](https://github.com/chiphuyen/just-pandas-things)
 - [The Exploratory Data Analysis (EDA) lesson is out for Made With ML's Applied ML in Production course!](https://www.linkedin.com/posts/goku_exploratory-data-analysis-applied-ml-in-activity-6734809864322871296-FDyJ)
 - [@clone95's repo with studies on Exploratory Data Analysis, Time Series forecasting, and Data Manipulation with popular Python Libraries](https://github.com/clone95/Prices-of-Avocados)
+- [A Complete Data Analysis Workflow in Python PyCaret](https://towardsdatascience.com/a-complete-data-analysis-workflow-in-python-pycaret-9a13c0fa51d4?source=search_post)
 
-
+    
 ### Tools
 
 - [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/)
@@ -90,7 +91,8 @@ aka *_Exploratory Data Analysis_*
 - [Disadvantages of KMeans Clustering](https://www.inovex.de/blog/disadvantages-of-k-means-clustering/)
 - Clustering workshop on Uni. of Waterloo Discord channel: [Slideshow](https://bit.ly/3bDy1SW() [Google Doc](https://docs.google.com/presentation/d/1bXvU-IImwZyNGeGhXysX0q-pMrKfG7Esj7ZhhEY2d88/edit#slide=id.gc6d1cf1e32_0_147) |[Notebook](https://bit.ly/3bIaWP3 (https://colab.research.google.com/drive/11Gb-6M8DZNNp04zfyKI3thoZQWm2_1Dk#scrollTo=RqFP72NgNAq7) | [Video](https://youtu.be/127zPeHsFpU)
 - [Key Data Science Algorithms Explained: From k-means to k-medoids clustering](https://www.kdnuggets.com/2020/12/algorithms-explained-k-means-k-medoids-clustering.html#.X-tG4bEBjNg.linkedin)
-
+- [Introduction to Clustering in Python with PyCaret](https://towardsdatascience.com/introduction-to-clustering-in-python-with-pycaret-5d869b9714a3?source=search_post)
+- [Clustering Made Easy with PyCaret](https://towardsdatascience.com/clustering-made-easy-with-pycaret-656316c0b080?source=search_post)
 
 ### Outliers
 
