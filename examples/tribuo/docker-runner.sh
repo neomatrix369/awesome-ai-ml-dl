@@ -152,7 +152,7 @@ pushImage() {
 	echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
 
 	docker tag ${IMAGE_FOUND} ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
-	docker push ${FULL_DOCKER_TAG_NAME}
+	docker push ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}
 }
 
 pullImage() {
