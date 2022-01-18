@@ -128,13 +128,13 @@ Please follow the below to be able to build a native-image from the already buil
 ./builder.sh --native-image
 
 ## or compress the resulting native-image file further (-9 for highest compression)
-./builder.sh --compress 9 --native-image
+./builder.sh --compress-image 9 --native-image
 
 ## or to build profile-guided optimisation using GraalVM EE
 ./builder.sh --pgo --native-image
 
 ## or compress the resulting native-image file further (-9 for highest compression)
-./builder.sh --compress 9 --pgo --native-image
+./builder.sh --compress-image 9 --pgo --native-image
 
 ## build native-image from the gradle built artifact (jar file in build/libs folder)
 ./builder.sh --build-tool gradle --extract
@@ -144,7 +144,7 @@ Please follow the below to be able to build a native-image from the already buil
 ./builder.sh --pgo --build-tool gradle --native-image
 
 ## or compress the resulting native-image file further (-9 for highest compression)
-./builder.sh --compress 9 --pgo --build-tool gradle --native-image
+./builder.sh --compress-image 9 --pgo --build-tool gradle --native-image
 ```
 
 You may some warnings and then get a binary to use (instead of the `jar`), see [native-image build output](outputs/native-image-build-output.log) and the [native-image overall run output](outputs/native-image-overall-run.log).

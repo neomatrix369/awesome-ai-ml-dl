@@ -24,7 +24,7 @@
     <dependency>
         <groupId>org.tribuo</groupId>
         <artifactId>tribuo-all</artifactId>
-        <version>4.0.1</version>
+        <version>4.2.0</version>
         <type>pom</type>
     </dependency>
   </dependencies>

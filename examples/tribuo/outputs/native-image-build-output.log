@@ -1,0 +1,53 @@
+Build on Server(pid: 16209, port: 37569)*
+[./tribuo-machine-1.0-with-dependencies:16209]    classlist:   6,931.28 ms,  0.95 GB
+[./tribuo-machine-1.0-with-dependencies:16209]        (cap):     725.05 ms,  0.95 GB
+[./tribuo-machine-1.0-with-dependencies:16209]        setup:   2,312.02 ms,  0.95 GB
+[./tribuo-machine-1.0-with-dependencies:16209]     (clinit):     408.29 ms,  2.70 GB
+[./tribuo-machine-1.0-with-dependencies:16209]   (typeflow):  10,040.03 ms,  2.70 GB
+[./tribuo-machine-1.0-with-dependencies:16209]    (objects):  12,731.10 ms,  2.70 GB
+[./tribuo-machine-1.0-with-dependencies:16209]   (features):   3,111.38 ms,  2.70 GB
+[./tribuo-machine-1.0-with-dependencies:16209]     analysis:  27,207.73 ms,  2.70 GB
+[./tribuo-machine-1.0-with-dependencies:16209]     universe:   1,041.29 ms,  2.70 GB
+Fatal error:java.lang.NoClassDefFoundError
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:603)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:1006)
+	at com.oracle.svm.hosted.NativeImageGenerator.run(NativeImageGenerator.java:463)
+	at com.oracle.svm.hosted.NativeImageGeneratorRunner.buildImage(NativeImageGeneratorRunner.java:359)
+	at com.oracle.svm.hosted.NativeImageGeneratorRunner.build(NativeImageGeneratorRunner.java:518)
+	at com.oracle.svm.hosted.server.NativeImageBuildServer.executeCompilation(NativeImageBuildServer.java:406)
+	at com.oracle.svm.hosted.server.NativeImageBuildServer.lambda$processCommand$8(NativeImageBuildServer.java:343)
+	at com.oracle.svm.hosted.server.NativeImageBuildServer.withJVMContext(NativeImageBuildServer.java:424)
+	at com.oracle.svm.hosted.server.NativeImageBuildServer.processCommand(NativeImageBuildServer.java:340)
+	at com.oracle.svm.hosted.server.NativeImageBuildServer.processRequest(NativeImageBuildServer.java:284)
+	at com.oracle.svm.hosted.server.NativeImageBuildServer.lambda$serve$7(NativeImageBuildServer.java:244)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoClassDefFoundError: org/apache/hadoop/fs/FSDataOutputStream
+	at jdk.internal.vm.ci/jdk.vm.ci.hotspot.CompilerToVM.getDeclaredMethods(Native Method)
+	at jdk.internal.vm.ci/jdk.vm.ci.hotspot.HotSpotResolvedObjectTypeImpl.getDeclaredMethods(HotSpotResolvedObjectTypeImpl.java:958)
+	at com.oracle.svm.jni.access.JNIAccessibleMethod.anyMatchIgnoreReturnType(JNIAccessibleMethod.java:139)
+	at com.oracle.svm.jni.access.JNIAccessibleMember.findHidingSubclasses(JNIAccessibleMember.java:103)
+	at com.oracle.svm.jni.access.JNIAccessibleMember.setHidingSubclasses(JNIAccessibleMember.java:83)
+	at com.oracle.svm.jni.access.JNIAccessibleMethod.finishBeforeCompilation(JNIAccessibleMethod.java:135)
+	at com.oracle.svm.jni.access.JNIAccessFeature.beforeCompilation(JNIAccessFeature.java:348)
+	at com.oracle.svm.hosted.NativeImageGenerator.lambda$doRun$2(NativeImageGenerator.java:595)
+	at com.oracle.svm.hosted.FeatureHandler.forEachFeature(FeatureHandler.java:70)
+	at com.oracle.svm.hosted.NativeImageGenerator.doRun(NativeImageGenerator.java:595)
+	at com.oracle.svm.hosted.NativeImageGenerator.lambda$run$0(NativeImageGenerator.java:451)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1407)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+Caused by: java.lang.ClassNotFoundException: org.apache.hadoop.fs.FSDataOutputStream
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 17 more
+Error: Image build request failed with exit status 1

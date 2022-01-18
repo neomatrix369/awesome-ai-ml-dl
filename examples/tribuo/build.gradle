@@ -35,7 +35,7 @@ repositories {
 // Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
 
 dependencies {
-    implementation('org.tribuo:tribuo-all:4.0.1@pom') {
+    implementation('org.tribuo:tribuo-all:4.2.0@pom') {
         transitive = true // for Groovy
         // isTransitive = true // for Kotlin
     }
