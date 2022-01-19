@@ -22,7 +22,7 @@ set -o pipefail
 
 source common.sh
 
-gitClone https://github.com/oracle/tribuo "v4.0.X-release-branch"
+gitClone https://github.com/oracle/tribuo "v4.1.X-release-branch"
 cd tribuo
 
 echo "Downloading Maven wrapper artifacts"
@@ -60,8 +60,8 @@ echo "Skipping test failures - not ideal, but to gain some speed"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 set +x
 
-TRIBUO_VERSION="4.0.2"
-TRIBUO_VERSION_IN_NOTEBOOK=4.0.2
+TRIBUO_VERSION="4.2.0"
+TRIBUO_VERSION_IN_NOTEBOOK="4.2.0"
 M2_REPO_FOLDER="/root/.m2/repository/"
 TRIBUO_M2_FOLDER="${M2_REPO_FOLDER}/org/tribuo/"
 JSON_FOLDER="${TRIBUO_M2_FOLDER}/tribuo-json/${TRIBUO_VERSION}"
