@@ -6,7 +6,7 @@ See [slides (PDF)](Studying-the-limitations-of-statistical-measurements.pdf) - p
 
 ### Video
 
-See [YouTube]().
+See [YouTube](https://www.youtube.com/watch?v=8c-EiihA4wo).
 
 ### Speaker
 
