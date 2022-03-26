@@ -14,9 +14,9 @@ See [YouTube]().
 
 ### Abstract
 
-In this talk, Mani will share his thoughts on why he wrote about this topic (as a [notebook](https://www.kaggle.com/code/neomatrix369/studying-the-limitations-of-stats-measurements)) & will expound on the "why" and "what" initially.
+In this talk, Mani will share his thoughts on why he wrote about this topic (as a [notebook](https://www.kaggle.com/code/neomatrix369/studying-the-limitations-of-stats-measurements?scriptVersionId=90689543) & will expound on the "why" and "what" initially.
 
-Do have a read of this [notebook](https://www.kaggle.com/code/neomatrix369/studying-the-limitations-of-stats-measurements) before the session just to get a bit more idea, but we may also cover topics not yet mentioned in the notebook.
+Do have a read of this [notebook](https://www.kaggle.com/code/neomatrix369/studying-the-limitations-of-stats-measurements?scriptVersionId=90689543) before the session just to get a bit more idea, but we may also cover topics not yet mentioned in the notebook.
 
 In the notebook, Mani has shared posts which touch on some of the limitations about these topics. We would look into the "why" and "why not" like questions and also additional questions we should ask to make our grounds more solid while we are using tools or relying on concept or principles in this space.
 
