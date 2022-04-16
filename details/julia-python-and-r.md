@@ -151,7 +151,7 @@
   - [Digital Image Processing Basics](https://www.geeksforgeeks.org/digital-image-processing-basics/)
   - [Theory for Image Processing](http://web.ipac.caltech.edu/staff/fmasci/home/astro_refs/Digital_Image_Processing_2ndEd.pdf)
   - [Object Instance Segmentation](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/computer-vision/object-instance-segmentation/object-instance-segmentation.ipynb)
-  - [Object Tracking](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/computer-vision/object-tracking/object-tracking.ipynb)
+  - [Object Tracking](https://github.com/virgili0/Virgilio/blob/dev/Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
   - See [Image Processing](../courses.md#image-processing) in [Courses](../courses.md)
 
   ### OpenCV and tutorials
