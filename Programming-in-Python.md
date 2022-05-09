@@ -32,6 +32,7 @@
   - [9 Online Interactive Shells to Write Python Anywhere](https://www.bettertechtips.com/internet/python-shell-online/)
   - [Online Python Turtle Editor](https://repl.it/languages/python_turtle)
   - [Online Python Compiler](https://www.onlinegdb.com/online_python_compiler)
+  - [Online Python Compiler (Interpreter)](https://www.interviewbit.com/online-python-compiler/)
 - [Local machine: Interacting with Python](https://realpython.com/interacting-with-python/)
 - [Python by Chris Albon](https://chrisalbon.com/#python) - topics covered: Basics • Data Wrangling • Data Visualization • Web Scraping • Testing • Logging • Other
 - [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
