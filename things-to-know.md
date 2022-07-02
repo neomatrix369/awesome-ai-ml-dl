@@ -321,6 +321,9 @@ See [Courses](./courses.md#courses)
 - [Xcessiv](https://github.com/reiinakano/xcessiv/) 
 - [MLbox](https://github.com/AxeldeRomblay/MLBox/)
 - [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/)
+- [AutoGluon](https://github.com/awslabs/autogluon) -  AutoML for Image, Text, and Tabular Data.
+- [FLAML](https://github.com/microsoft/FLAML) - A fast library for AutoML and tuning.
+- [Neural Network Intelligence](https://github.com/microsoft/nni) - An open source AutoML toolkit for automate machine learning lifecycle.
 - [The 3 Best Free Online Resources to Learn MLOps](https://telesto.ai/the-3-best-free-online-resources-to-learn-mlops/)
 - [An awesome list of references for MLOps - Machine Learning Operations 👉 ml-ops.org](https://github.com/visenger/awesome-mlops)
 - [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning)
