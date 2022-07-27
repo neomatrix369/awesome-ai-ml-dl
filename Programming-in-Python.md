@@ -40,6 +40,7 @@
 - [Introduction to Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-1-Intro-to-Python)
 - [Introduction of Python Programming](https://www.linkedin.com/posts/nabihbawazir_python-self-study-activity-6605392829378367488-Q6Uz)
 - [Writing your first program in Python (2019) - Brown University](https://www.linkedin.com/posts/nabihbawazir_introductions-to-python-activity-6606104345299771392-t7f1)
+- [How to run Python Program? - Scaler Topics](https://www.scaler.com/topics/how-to-run-python-program/)
 
 ## Intermediate / Advanced Python
 
