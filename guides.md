@@ -72,6 +72,8 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
       [Data Visualization](https://github.com/virgili0/Virgilio/blob/708bd547c0bd04b05ac76b25c42b0158ea632b21/content/purgatorio/collect-and-prepare-data/data-visualization.md)
     - [Data Preprocessing](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Specializations/HardSkills/DataPreprocessing.md)
 
+  - [Product Data Science Topics](https://github.com/sithankanna/ultimate-product-ds/)
+
 #### Deep Learning
   - [Deep Learning Theory](https://github.com/virgili0/Virgilio/blob/7b2c33031b687e75bb34f7350fa264d2bfbc277e/content/purgatorio/select-and-train-machine-learning-models/deep-learning-theory.md)
   - [Deep Learning in Cloud](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Deep%20learning%20in%20cloud/README.md)
