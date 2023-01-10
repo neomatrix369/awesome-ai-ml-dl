@@ -38,6 +38,7 @@
      - Part C: https://www.youtube.com/watch?v=kHZmFVDm0QQ&list=PLcQCwsZDEzFkQj3tOV2NDrjJ43iuNY5yC&index=10
   - [Webinar: AI Analytics PART 1: Optimize End-to-End Data Science and Machine Learning Acceleration](https://event.on24.com/event/25/25/92/3/rt/1/documents/resourceList1596477265666/s_webinarslides1596477264742.pdf](https://software.intel.com/content/www/us/en/develop/documentation/get-started-with-ai-linux/top.html](https://github.com/intel/AiKit-code-samples)
   - [Supply Chain Optimization (question)](https://www.datasciencecentral.com/forum/topics/optimization-question)
+  - [Learn Python Programming from beginner to advanced level](https://www.scaler.com/topics/python/)
   
   ### Jupyter and notebook related
 
@@ -221,6 +222,7 @@
   - [Bayesian Stats 101 for Data Scientists](https://www.linkedin.com/posts/towards-data-science_bayesian-stats-101-for-data-scientists-activity-6655949045678387202-qlgP)
   - [Statistics formula for Data Science](https://www.linkedin.com/posts/ashishpatel2604_datascience-deeplearning-machinelearning-activity-6673393253339025408-ngqH)
   - See [Algorithms](../courses.md#algorithms) under [Courses](../courses.md#courses)
+  - [What is Data Science: The Definitive Guide](https://www.scaler.com/topics/what-is-data-science/)
 
   ## Machine Learning
 
