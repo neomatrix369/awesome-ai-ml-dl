@@ -58,6 +58,7 @@
 - [Sklearn provides direct access to openml datasets which hosts around 20,000 datasets and you can access it directly in your python code](https://lnkd.in/g-YYFay) [LinkedIn Post](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_datascience-machinelearning-ml-activity-6653512803644768256-w1mM)
 - [CNN news Dataset](https://www.tensorflow.org/datasets/catalog/cnn_dailymail)
 - [Off-the-Shelf Datasets (licensable datasets to jumpstart your AI projects) (Commercial)](https://appen.com/off-the-shelf-datasets/?utm_source=Web&utm_medium=eblast&mkt_tok=eyJpIjoiWldaak9EUTBObU5oTm1aaiIsInQiOiJKdWlEQVhqclNlcUpNWVhGVW5GT2p2aFpRRjVlZkUyOGZjVHhYSHpsUnNuZkhGVG5rNCtTdm92REdTOXhqTlc0RW1jUlFObnpmM3RaQ3pOZ3RBQ3ArWGZ3RFc4Mk1lRk5FS3d1YklYSnFXeWJROHE2ek9pNW5nU3pCa0gxeExPRCJ9)
+- [HuggingFace Datasets](https://huggingface.co/datasets)
 
 
 ## Courses
