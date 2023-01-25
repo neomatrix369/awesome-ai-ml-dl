@@ -2,7 +2,6 @@
 
   - All-in-one cheatsheets:
     + [💡  Quick Reference Sheet 💡](https://www.linkedin.com/posts/asif-bhat_quick-reference-sheet-ml-dl-ai-activity-6640966422036078592-BB4l)
-    + [All  📝Cheat Sheets📝 in one place](https://github.com/abhat222/Data-Science--Cheat-Sheet)
     + [MACHINE LEARNING QUICK REFERENCE: BEST PRACTICES](https://www.linkedin.com/posts/asif-bhat_machine-learning-activity-6641686773321818112-rxYW)
   - [Cheat Sheets for AI, Neural Networks, MachineLearning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463) ([Tweet](https://twitter.com/java/status/1040928213466198016)) | [𝗕𝗶𝗴 𝗗𝗮𝘁𝗮 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗖𝗵𝗲𝗮𝘁 𝘀𝗵𝗲𝗲𝘁 𝗯𝘆 DZone](https://www.linkedin.com/posts/ashishpatel2604_machine-cheet-sheet-by-dzone-activity-6627488757757120512-UxrB)
   - [NumPy](https://www.favouriteblog.com/wp-content/uploads/2017/08/NumPy-CheatSheet1.png) 
