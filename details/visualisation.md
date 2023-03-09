@@ -5,6 +5,7 @@
   - [Matplotlib](https://www.dataquest.io/blog/matplotlib-tutorial/) | [Matplotlib gallery](https://matplotlib.org/3.2.2/gallery/index.html) [1](https://matplotlib.org/gallery.html)[2](https://pythonspot.com/matplotlib-gallery/)[3](https://python-graph-gallery.com/matplotlib/)[4](https://github.com/rasbt/matplotlib-gallery)
   - [Seaborn](https://lnkd.in/gih7hqz)
   - [Plotly](https://lnkd.in/gBYBMXc) | [Think Data Visualization? Think Plotly!](https://www.linkedin.com/posts/philipvollet_datascience-datascientist-analytics-activity-6715195138328674304-WAXn)
+  - [Vizzu](https://vizzuhq.com/) - for building animated charts and data stories in JavaScript ([Vizzu](https://github.com/vizzuhq/vizzu-lib)) and Python ([IPyVizzu](https://github.com/vizzuhq/ipyvizzu))
   - [AutoPlotter • GUI based Exploratory Data Analysis (EDA) Search easily for missing values, data distribution & trends, outliers etc](https://www.linkedin.com/posts/philipvollet_analytics-data-dataexploration-activity-6691932081448218624-5xNy)
   - [Python Graph Gallery](https://lnkd.in/gdGe-ef)
   - [Algovis is a python library made for visualizing algorithms](https://www.linkedin.com/posts/stevenouri_innovation-machinelearning-python-activity-6694175551722278912-EfSP)
