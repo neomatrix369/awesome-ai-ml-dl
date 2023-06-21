@@ -68,7 +68,7 @@
         - Modeling 
         - Model Evaluation
 - [ChaiEDA Sessions: 2x Weekly (Silent) EDA Practise Group](https://www.kaggle.com/getting-started/170570)
-- [Data Science Course by Scaler](https://www.scaler.com/data-science-course/)
+- [Data Science Course by Scaler](https://www.scaler.com/topics/course/python-for-data-science/)
 
 ## Computer Vision
 
@@ -154,7 +154,7 @@
   - [10 Reinforcement Learning & Natural Language Processing](https://www.youtube.com/watch?v=Pf_0IT5OjiI)
   - [11 Autonomous Artificial Artist](https://www.youtube.com/watch?v=Dqudnjj5wSo)
 - [Study plan to become a ML Engineer](https://lnkd.in/fdMg-AK)
-- [Machine Learning Paid Course by Scaler](https://www.scaler.com/courses/machine-learning-course-training/)
+- [Machine Learning Course by Scaler](https://www.scaler.com/topics/course/free-supervised-learning-course/)
 
 ### Java/JVM
 - [ML for Java Developers Course](http://numahub.com/courses/machine-learning-java-developers)
