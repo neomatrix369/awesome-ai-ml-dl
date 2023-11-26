@@ -27,7 +27,7 @@
 - [Prediction](time-series.md#prediction)
 - [Trend estimation / trend analysis](time-series.md#trend-estimation--trend-analysis)
 - [Notebooks](time-series.md#notebooks)
-- [Tools, libraries, frameworks](#tools,-libraries,-frameworks)
+- [Tools, libraries, frameworks](#tools-libraries-frameworks)
 - [Misc](time-series.md#misc)
 
 #### Notebooks
@@ -90,8 +90,9 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
   + [Loading data in SKTime](https://www.sktime.org/en/latest/examples/loading_data.html)
   + [SKTime - Examples](https://github.com/alan-turing-institute/sktime/tree/master/examples)
 + [TSLearn](https://github.com/tslearn-team/tslearn)
-
-
++ [PyCaret Timeseries](https://pycaret.readthedocs.io/en/latest/api/time_series.html)
++ [Neural Prophet](https://neuralprophet.com/)
++ [Neural Forecast](https://github.com/Nixtla/neuralforecast)
 
 # Contributing
 
