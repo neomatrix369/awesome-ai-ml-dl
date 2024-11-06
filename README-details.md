@@ -167,7 +167,9 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./details
 - [8 essential tools for data scientists](https://www.linkedin.com/posts/data-science-central_8-essential-tools-for-data-scientists-activity-6623350694613184512-esn2)
 - [Data Scientist is not One-Man-Army, but should know some tech concept, not mandatory to master (depend on the company), this is what I choose](https://www.linkedin.com/posts/nabihbawazir_data-scientist-is-not-one-man-army-but-should-activity-6602851212972912640-t828)
 - [The Ultimate Learning Path to Become a Data Scientist and Master Machine Learning](https://www.analyticsvidhya.com/blog/2019/01/learning-path-data-scientist-machine-learning-2019/)
+- [What steps should I take to become a data scientist?](https://www.appliedaicourse.com/blog/how-to-become-a-data-scientist-in-india/)
 - [♦️MUST READ ARTICLES FOR DATA SCIENCE ENTHUSIAST♦️](https://www.linkedin.com/posts/asif-bhat_datascience-neverstoplearning-datanalytics-activity-6608609171401166848-U8Do)
+
 
 ### Graphs
   - [PyTorch Geometric Temporal - temporal extensions PyTorch Geometric Benedek Rozemberczki](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
