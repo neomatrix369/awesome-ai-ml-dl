@@ -35,6 +35,7 @@
 - [AI Repository by Goku Mohandas](https://www.linkedin.com/posts/asif-bhat_datascience-data-dataanalysis-activity-6643083915873615872-je6g)
 - [Digital Twins: Bringing artificial intelligence to Engineering](https://www.datasciencecentral.com/profiles/blogs/digital-twins-brining-artificial-intelligence-to-engineering)
 - See [Artificial Intelligence](./details/artificial-intelligence.md)
+- See [AI Agents](./ai-agents/)
 
 ### Automation
 
