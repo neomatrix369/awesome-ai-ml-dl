@@ -240,4 +240,4 @@ This server provides a valuable component for AI agents needing to interact with
 
 ## Additional Resources
 
-- For a curated list of MCP frameworks, tutorials, and tools relevant to AI agent development, please see our [MCPs, Tutorials, and Tools list](./resources/mcp-tutorials-tools.md).
+- For a curated list of MCP frameworks, tutorials, and tools relevant to AI agent development, please see our [MCPs, Tutorials, and Tools list](./resources/).
