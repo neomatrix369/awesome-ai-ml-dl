@@ -237,3 +237,7 @@ When the AI agent needs to use a Gmail tool, it will make a request structured f
 *   **Secure Communication:** Ensure that the communication channel between your AI agent and the `mcp-headless-gmail` server is secure if they are running on different machines or in potentially insecure environments.
 
 This server provides a valuable component for AI agents needing to interact with Gmail in a secure and flexible manner, especially in automated or headless setups. By conforming to the MCP, it can be integrated into various agent frameworks and client applications.
+
+## Additional Resources
+
+- For a curated list of MCP frameworks, tutorials, and tools relevant to AI agent development, please see our [MCPs, Tutorials, and Tools list](./resources/mcp-tutorials-tools.md).
