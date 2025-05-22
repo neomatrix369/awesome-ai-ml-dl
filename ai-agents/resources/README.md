@@ -10,6 +10,12 @@ This document provides a curated list of Model-Control-Presenter (MCP) framework
 *   **[Uagents](https://fetch.ai/docs/uea/framework/uagents/)**: A framework by Fetch.ai for building decentralized autonomous agents. It allows for the creation of agents that can perform tasks, communicate, and transact in a decentralized network.
 *   **[Fast-Agent](https://github.com/HumanAIGC/fastagent)**: An experimental framework for building autonomous agents with minimal code, often leveraging LLMs for decision-making and tool use. (Note: This appears to be one of several projects with similar names; link is to a prominent one.)
 
+## Awesome Lists
+
+*   [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers): A curated list of awesome Model Context Protocol (MCP) servers.
+*   [awesome-mcp-devtools](https://github.com/punkpeye/awesome-mcp-devtools): A curated list of awesome MCP developer tools, libraries, and utilities.
+*   [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients): A curated list of awesome MCP clients and client libraries.
+
 ## MCP Servers
 
 This section highlights specific open-source MCP server and client implementations, many from Bary Huang and PeakMojo, showcasing practical applications of the MCP concept for enabling AI agents to interact with various external services and systems. It also includes conceptual examples of how MCP servers can be built using different technologies.
@@ -39,6 +45,18 @@ This section highlights specific open-source MCP server and client implementatio
 *   **[Introduction to Agents with Haystack](https://haystack.deepset.ai/tutorials/23_introducing_agents)**: A tutorial by deepset Haystack on how to build and use agents for question answering and task execution.
 *   **[Creating a Simple AI Agent with LiteLLM](https://docs.litellm.ai/docs/simple_proxy#example-usage-1)**: Demonstrates basic LiteLLM proxy usage, a step towards agent tool calling by abstracting LLM provider interactions.
 
+## Communities
+
+### Hackathons and Events
+
+*   Luma
+*   KXSB
+*   Agentic Foundation
+*   Google Labs Discord
+*   Programmers Hangout
+*   AI Native Developer
+*   Various LinkedIn groups focused on AI and agent development.
+
 ## Tools (General Purpose for Agent Development)
 
 *   **[LiteLLM](https://litellm.ai/)**: Provides a unified interface to interact with various LLM APIs (OpenAI, Cohere, Anthropic, etc.). Essential for the "Model" component in an MCP architecture, allowing flexibility.
@@ -61,7 +79,6 @@ This section highlights specific open-source MCP server and client implementatio
 *   **[OpenAI API](https://platform.openai.com/docs/api-reference)**: Direct access to OpenAI models like GPT-4, GPT-3.5-turbo, which are often the "Model" component in many AI agents.
 *   **[Google AI Studio & Vertex AI](https://cloud.google.com/vertex-ai/docs/generative-ai/ai-studio/overview)**: Google Cloud's platform for building, deploying, and managing ML models, including generative AI models like Gemini. Provides infrastructure and tools for the "Model" and agent deployment.
 *   **[Google BigQuery](https://cloud.google.com/bigquery)**: A highly scalable, serverless data warehouse. Often used as a backend for storing and analyzing data used by AI agents or generated from their operations.
-*   **[GitHub](https://github.com/)**: While a general platform, GitHub hosts numerous open-source AI agent projects, MCP implementations, and related tools. Searching for topics like "AI agent", "MCP server", or specific frameworks will yield many resources. Bary Huang's profile ([@baryhuang](https://github.com/baryhuang)) is a good example of focused MCP development.
 
 This list is not exhaustive but provides a good starting point for developers looking to build AI agents using MCP principles.
 The field is rapidly evolving, so it's recommended to also follow communities and publications in the AI space for the latest developments.
