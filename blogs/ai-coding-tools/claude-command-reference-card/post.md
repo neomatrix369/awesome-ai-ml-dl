@@ -560,31 +560,31 @@ This reference is designed to be printed or bookmarked for quick access:
 ### Related Projects
 
 **Memory and Storage**
-- Basic Memory: https://docs.basicmemory.com/integrations/cursor/
-- Graphiti MCP: https://blog.getzep.com/cursor-adding-memory-with-graphiti-mcp/
-- AI Memory: https://github.com/ipenywis/aimemory
-- Memory Keeper: https://lobehub.com/mcp/mkreyman-mcp-memory-keeper
+- [Basic Memory](https://docs.basicmemory.com/integrations/cursor/)
+- [Graphiti MCP](https://blog.getzep.com/cursor-adding-memory-with-graphiti-mcp/)
+- [AI Memory](https://github.com/ipenywis/aimemory)
+- [Memory Keeper](https://lobehub.com/mcp/mkreyman-mcp-memory-keeper)
 
 **Debugging and Testing**
-- MCP Inspector: https://github.com/modelcontextprotocol/inspector
-- Claude Debugs For You: https://github.com/jasonjmcghee/claude-debugs-for-you
-- VS Code Extension: https://marketplace.visualstudio.com/items?itemName=JasonMcGhee.claude-debugs-for-you
+- [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
+- [Claude Debugs For You](https://github.com/jasonjmcghee/claude-debugs-for-you)
+- [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=JasonMcGhee.claude-debugs-for-you)
 
 ### Comparison Resources
 
 **Claude Code vs Other Tools**
-1. "Claude Code vs Cursor" - Qodo: https://www.qodo.ai/blog/claude-code-vs-cursor/
-2. "Claude Code vs Cursor Comparison" - Pragmatic Coders: https://www.pragmaticcoders.com/blog/claude-code-vs-cursor
-3. "Cursor vs Claude Code" - Builder.io: https://www.builder.io/blog/cursor-vs-claude-code
-4. "Claude Code vs Cursor Comparison" - Northflank: https://northflank.com/blog/claude-code-vs-cursor-comparison
-5. "Cursor vs Claude Code" - Haihai AI: https://www.haihai.ai/cursor-vs-claude-code/
+1. [Claude Code vs Cursor](https://www.qodo.ai/blog/claude-code-vs-cursor/) - Qodo
+2. [Claude Code vs Cursor Comparison](https://www.pragmaticcoders.com/blog/claude-code-vs-cursor) - Pragmatic Coders
+3. [Cursor vs Claude Code](https://www.builder.io/blog/cursor-vs-claude-code) - Builder.io
+4. [Claude Code vs Cursor Comparison](https://northflank.com/blog/claude-code-vs-cursor-comparison) - Northflank
+5. [Cursor vs Claude Code](https://www.haihai.ai/cursor-vs-claude-code/) - Haihai AI
 
 ### Support
 
 **Official Support**
-- Claude Support: https://support.claude.com
-- Anthropic Documentation: https://docs.anthropic.com
-- Cursor Documentation: https://cursor.com/docs
+- [Claude Support](https://support.claude.com)
+- [Anthropic Documentation](https://docs.anthropic.com)
+- [Cursor Documentation](https://cursor.com/docs)
 
 **Community Support**
 - Discord Servers (check official sites)
