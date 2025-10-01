@@ -555,8 +555,8 @@ START: Need MCP setup?
 ### Multi-Agent Systems
 
 **Advanced Implementations**
-1. "Enhancing Claude Code with Subagents" - Dev.to: https://dev.to/oikon/enhancing-claude-code-with-mcp-servers-and-subagents-29dd
-2. Multi-Agent Search: https://glama.ai/mcp/servers/search/multi-agent-systems-with-shared-memory-storage
+1. [Enhancing Claude Code with Subagents](https://dev.to/oikon/enhancing-claude-code-with-mcp-servers-and-subagents-29dd) - Dev.to
+2. [Multi-Agent Search](https://glama.ai/mcp/servers/search/multi-agent-systems-with-shared-memory-storage)
 3. Parallel Processing: Community discussions on Reddit
 
 ### Project Management Integration
@@ -564,16 +564,16 @@ START: Need MCP setup?
 **Enterprise Tools**
 1. Linear MCP: Official integrations documentation
 2. Sentry MCP: Official integrations documentation
-3. GitHub MCP: https://cursorideguide.com/guides/github-mcp-setup-guide
+3. [GitHub MCP](https://cursorideguide.com/guides/github-mcp-setup-guide)
 4. Asana/Jira: Community implementations
 
 ### Additional Tools
 
 **Development Utilities**
-- JSON Validator: https://jsonlint.com
+- [JSON Validator](https://jsonlint.com)
 - Online JSON Formatter: Various tools
-- Git for version control: https://git-scm.com
-- Docker (if using containerized MCP): https://www.docker.com
+- [Git for version control](https://git-scm.com)
+- [Docker (if using containerized MCP)](https://www.docker.com)
 
 ---
 
