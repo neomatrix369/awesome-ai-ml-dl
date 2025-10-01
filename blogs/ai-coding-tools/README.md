@@ -14,7 +14,7 @@ This series covers everything you need to know about setting up and using MCP se
 
 ---
 
-#### [The Complete MCP Server Setup Guide: Claude Desktop, Claude Code, and Cursor](complete-mcp-server-setup-guide/)
+#### [The Complete MCP Server Setup Guide: Claude Desktop, Claude Code, and Cursor](complete-mcp-server-setup-guide/post.md)
 *Published: October 2025 | Difficulty: Intermediate*
 
 A comprehensive guide to setting up Model Context Protocol (MCP) servers across different Claude environments. Learn step-by-step configuration for Claude Desktop, Claude Code, and Cursor, with troubleshooting tips and best practices.
@@ -24,7 +24,7 @@ A comprehensive guide to setting up Model Context Protocol (MCP) servers across 
 
 ---
 
-#### [The Claude Command Reference Card](claude-command-reference-card/)
+#### [The Claude Command Reference Card](claude-command-reference-card/post.md)
 *Published: October 2025 | Difficulty: Beginner*
 
 Quick reference guide for Claude commands, shortcuts, and best practices. Essential for anyone using Claude Desktop, Claude Code, or Cursor to maximize productivity.
@@ -34,7 +34,7 @@ Quick reference guide for Claude commands, shortcuts, and best practices. Essent
 
 ---
 
-#### [MCP Setup Comparison Tables](mcp-setup-comparison-tables/)
+#### [MCP Setup Comparison Tables](mcp-setup-comparison-tables/post.md)
 *Published: October 2025 | Difficulty: Intermediate*
 
 Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, and Cursor. Features detailed comparison tables, decision matrices, and migration guides.
