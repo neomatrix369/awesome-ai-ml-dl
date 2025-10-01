@@ -593,4 +593,26 @@ This reference is designed to be printed or bookmarked for quick access:
 
 ---
 
+## Feedback & Contributions
+
+**Found an Issue? Have a Suggestion?**
+
+This reference card aims to be comprehensive and accurate. Help us keep it that way!
+
+- **Incorrect Commands**: If a command doesn't work as documented, please report it
+- **Missing Commands**: Know a useful command not listed here? Share it!
+- **Better Examples**: Have clearer examples or use cases? We'd love to include them
+- **Platform Differences**: Found platform-specific variations? Let us know
+- **Typos or Errors**: Even small corrections help everyone
+
+**How to Contribute:**
+- **Create a Pull Request (PR)**: Add new commands, fix errors, or enhance examples
+- **Open an Issue**: Suggest additions or report problems
+- **Share Tips & Tricks**: Contribute your command expertise
+- **Update for New Features**: Help keep the reference current
+
+Your contributions make this reference better for the entire community. See [CONTRIBUTING](../../../CONTRIBUTING.md) for guidelines on submitting PRs and other contributions.
+
+---
+
 *Updated: January 2025 • Command reference compiled from official documentation, community testing, and verified research on Claude Code, MCP servers, and reasoning capabilities. The ultrathink investigation represents comprehensive analysis of multiple sources confirming CLI-only functionality.*

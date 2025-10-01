@@ -577,6 +577,28 @@ START: Need MCP setup?
 
 ---
 
+## Feedback & Contributions
+
+**Found an Issue? Have a Suggestion?**
+
+These comparison tables are maintained with community input. Help us keep them accurate and up-to-date!
+
+- **Incorrect Information**: If a comparison is inaccurate or outdated, please report it
+- **Missing Platforms**: Know another platform that supports MCP? Let us know
+- **Updated Features**: Platforms evolve—share new capabilities or changes
+- **Better Comparisons**: Have ideas for additional comparison dimensions?
+- **Real-World Experience**: Share your experience with different platforms
+
+**How to Contribute:**
+- **Create a Pull Request (PR)**: Update comparisons, add platforms, or enhance tables
+- **Open an Issue**: Report inaccuracies or suggest improvements
+- **Share Testing Results**: Contribute your platform experience
+- **Suggest New Comparisons**: Help expand the comparison dimensions
+
+The MCP ecosystem changes rapidly. Your feedback and contributions help keep this resource current and valuable for everyone. See [CONTRIBUTING](../../../CONTRIBUTING.md) for guidelines on submitting PRs and other contributions.
+
+---
+
 *These comparison tables synthesize information from over 100 sources including official documentation, community implementations, research articles, and practical testing across macOS, Windows, and Linux platforms. All configurations and package names verified as of January 2025.*
 
 *For the most current information, always refer to official documentation as the MCP ecosystem evolves rapidly.*

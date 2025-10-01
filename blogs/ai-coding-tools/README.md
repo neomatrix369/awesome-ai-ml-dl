@@ -42,6 +42,8 @@ Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, 
 **Topics:** Platform Comparison, Feature Matrix, Migration, Use Cases  
 **Reading Time:** ~15 minutes
 
+[Resource References](./complete-mcp-server-setup-guide/resources-and-references.md)
+
 ---
 
 ## Topics Covered in This Category

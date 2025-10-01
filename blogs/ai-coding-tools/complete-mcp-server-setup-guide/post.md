@@ -657,6 +657,27 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ---
 
+## Feedback & Contributions
+
+**Found an Issue? Have a Suggestion?**
+
+We want to keep this guide accurate and helpful! If you encounter any problems, find mistakes, or have suggestions for improvements, please let us know:
+
+- **Issues or Errors**: If something doesn't work as described, please report it
+- **Outdated Information**: MCP and AI tools evolve rapidly—let us know if you find outdated content
+- **Missing Steps**: If you needed additional steps not covered here, share them
+- **Improvements**: Have ideas to make this guide clearer or more comprehensive?
+
+**How to Contribute:**
+- **Create a Pull Request (PR)**: Submit improvements, corrections, or enhancements directly
+- **Open an Issue**: Report problems or suggest changes
+- **Leave Comments**: Share feedback and questions
+- **Share Your Solutions**: Help others with your experience
+
+Your feedback and contributions help everyone in the community. See [CONTRIBUTING](../../../CONTRIBUTING.md) for guidelines on submitting PRs and other contributions.
+
+---
+
 ## Resources and References
 
 See [Resources and References](./resources-and-references.md)
