@@ -68,5 +68,27 @@ Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, 
 
 ---
 
+# Disclaimer
+
+**Important Notice:**
+
+- **Content Accuracy:** The information, resources, and links provided in this repository are curated from various sources and are subject to change. While we strive to maintain accuracy and keep content up-to-date, we cannot guarantee that all information is current, correct, or complete at all times.
+
+- **Third-Party Content:** This repository contains references, links, and citations to external sources, articles, tools, libraries, and resources created by third parties. We do not own or claim ownership of this external content. All credit belongs to the original authors and creators.
+
+- **No Warranty:** The content is provided "as is" without warranty of any kind, express or implied. We make no representations or warranties regarding the accuracy, reliability, or completeness of any information provided.
+
+- **Verification Recommended:** Users are strongly encouraged to verify information, test tools and code, and refer to official documentation before using any resources in production environments or critical applications.
+
+- **Rapidly Evolving Field:** AI, ML, and DL are rapidly evolving fields. Tools, best practices, and technologies mentioned here may become outdated. Always check for the latest versions and updates from official sources.
+
+- **No Professional Advice:** Nothing in this repository constitutes professional, legal, or technical advice. Users should consult with qualified professionals for specific guidance related to their use cases.
+
+- **Community Contributions:** This is a community-driven project. Content may be contributed by various individuals. If you find errors, outdated information, or have suggestions for improvements, please see our [Contributing Guidelines](../CONTRIBUTING.md).
+
+**Use at Your Own Risk:** By using this repository, you acknowledge and accept these disclaimers and agree to use the information and resources at your own discretion and risk.
+
+---
+
 [Back to all blogs](../README.md) | [Main repository](../../README.md)
 

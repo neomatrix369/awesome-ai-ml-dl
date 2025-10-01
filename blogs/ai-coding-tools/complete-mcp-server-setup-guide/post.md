@@ -26,6 +26,9 @@ Before we dive into setup, understand what you're installing:
 
 ### Prerequisites
 
+<details>
+<summary><strong>Platform-Specific Installation Instructions</strong></summary>
+
 **All Operating Systems:**
 ```bash
 # Verify Node.js (v16+ required)
@@ -61,6 +64,8 @@ sudo dnf install nodejs npm
 # Arch
 sudo pacman -S nodejs npm
 ```
+
+</details>
 
 ### Critical Package Name Correction
 
@@ -342,6 +347,9 @@ npm install -g @modelcontextprotocol/server-sequential-thinking
 
 ## Part 5: Troubleshooting
 
+<details>
+<summary><strong>Click to expand: Complete Troubleshooting Guide</strong></summary>
+
 ### Issue: MCP Server Not Found
 
 **Symptoms**: Claude can't see your MCP tools
@@ -466,6 +474,8 @@ source ~/.bashrc
 **When**: Running multiple instances of same MCP server
 
 **Fix**: Only run **one instance per server type**. If you have mcp-cursor, you don't need separate memory/filesystem servers.
+
+</details>
 
 ---
 
