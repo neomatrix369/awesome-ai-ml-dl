@@ -18,6 +18,24 @@ Before we dive into setup, understand what you're installing:
 | **Claude Code** | Terminal workflows, CI/CD, scripting | CLI | `~/.claude.json` |
 | **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `.cursor/config.json` (project) or global settings |
 
+**Architecture**
+
+To illustrate how shared-memory works between the different tools that can access MCP servers:
+
+```
+┌─────────────────┐
+│ Claude Desktop  │──┐
+└─────────────────┘  │
+                     │    ┌──────────────────┐
+┌─────────────────┐  ├───▶│ Memory MCP Server│
+│  Claude Code    │──┤    │  (shared file)   │
+└─────────────────┘  │    └──────────────────┘
+                     │
+┌─────────────────┐  │
+│   Cursor IDE    │──┘
+└─────────────────┘
+```
+
 **Key Insight**: You can run all three and share the same MCP servers!
 
 ---
@@ -148,7 +166,8 @@ touch ~/.config/Claude/claude_desktop_config.json
 nano ~/.config/Claude/claude_desktop_config.json
 ```
 
-#### Option 1: Simple Setup (mcp-cursor - Recommended)
+<details>
+<summary><strong>Option 1: Simple Setup (mcp-cursor - Recommended)</strong></summary>
 
 **Best for**: Getting started quickly with filesystem, memory, and reasoning
 
@@ -168,26 +187,14 @@ nano ~/.config/Claude/claude_desktop_config.json
 npm install -g mcp-cursor
 ```
 
-#### Option 2: Shared Memory Setup
+</details>
+
+<details>
+<summary><strong>Option 2: Shared Memory Setup</strong></summary>
 
 **Best for**: Sharing context across Claude Desktop, Claude Code, and Cursor
 
 **Step 1: Create shared memory file**
-
-**Architecture**
-```
-┌─────────────────┐
-│ Claude Desktop  │──┐
-└─────────────────┘  │
-                     │    ┌──────────────────┐
-┌─────────────────┐  ├───▶│ Memory MCP Server│
-│  Claude Code    │──┤    │  (shared file)   │
-└─────────────────┘  │    └──────────────────┘
-                     │
-┌─────────────────┐  │
-│   Cursor IDE    │──┘
-└─────────────────┘
-```
 
 **macOS:**
 ```bash
@@ -250,7 +257,10 @@ npm install -g @modelcontextprotocol/server-memory
 
 **⚠️ Important**: Replace `YOUR_USERNAME` with your actual username. Use absolute paths only.
 
-#### Option 3: Advanced Setup (Multiple Servers)
+</details>
+
+<details>
+<summary><strong>Option 3: Advanced Setup (Multiple Servers)</strong></summary>
 
 **Best for**: Power users who need specific capabilities
 
@@ -284,6 +294,8 @@ npm install -g @modelcontextprotocol/server-filesystem
 npm install -g @modelcontextprotocol/server-sequential-thinking
 ```
 
+</details>
+
 #### Applying Changes
 
 **Always restart Claude Desktop after editing the config:**
@@ -306,7 +318,8 @@ killall claude
 # Then reopen
 ```
 
-#### Verification & Troubleshooting
+<details>
+<summary><strong>Verification & Troubleshooting</strong></summary>
 
 **Check logs:**
 
@@ -336,6 +349,8 @@ cat ~/Library/Application\ Support/Claude/claude_desktop_config.json | python3 -
 ```powershell
 Get-Content $env:APPDATA\Claude\claude_desktop_config.json | ConvertFrom-Json
 ```
+
+</details>
 
 ---
 
@@ -387,7 +402,8 @@ notepad $env:USERPROFILE\.claude.json
 
 This is the #1 reason configs fail. Claude Desktop and Cursor don't need this field.
 
-#### Option 1: Simple Setup (mcp-cursor - Recommended)
+<details>
+<summary><strong>Option 1: Simple Setup (mcp-cursor - Recommended)</strong></summary>
 
 ```json
 {
@@ -406,7 +422,10 @@ This is the #1 reason configs fail. Claude Desktop and Cursor don't need this fi
 npm install -g mcp-cursor
 ```
 
-#### Option 2: Shared Memory Setup
+</details>
+
+<details>
+<summary><strong>Option 2: Shared Memory Setup</strong></summary>
 
 **Step 1: Create shared memory file** (if not already created)
 
@@ -465,7 +484,10 @@ npm install -g @modelcontextprotocol/server-memory
 }
 ```
 
-#### Option 3: Advanced Setup (Multiple Servers)
+</details>
+
+<details>
+<summary><strong>Option 3: Advanced Setup (Multiple Servers)</strong></summary>
 
 ```json
 {
@@ -500,7 +522,10 @@ npm install -g @modelcontextprotocol/server-filesystem
 npm install -g @modelcontextprotocol/server-sequential-thinking
 ```
 
-#### Verification
+</details>
+
+<details>
+<summary><strong>Verification</strong></summary>
 
 **Check MCP servers:**
 ```bash
@@ -530,6 +555,8 @@ Claude Code automatically picks up config changes. Just start a new session:
 ```bash
 claude
 ```
+
+</details>
 
 ---
 
@@ -590,7 +617,8 @@ New-Item -Path .cursor\mcp.json -ItemType File -Force
 code .cursor\mcp.json
 ```
 
-#### Option 1: Simple Setup (mcp-cursor - Recommended)
+<details>
+<summary><strong>Option 1: Simple Setup (mcp-cursor - Recommended)</strong></summary>
 
 ```json
 {
@@ -608,7 +636,10 @@ code .cursor\mcp.json
 npm install -g mcp-cursor
 ```
 
-#### Option 2: Shared Memory Setup
+</details>
+
+<details>
+<summary><strong>Option 2: Shared Memory Setup</strong></summary>
 
 **Step 1: Create shared memory file** (if not already created)
 
@@ -665,7 +696,10 @@ npm install -g @modelcontextprotocol/server-memory
 }
 ```
 
-#### Option 3: Advanced Setup (Multiple Servers)
+</details>
+
+<details>
+<summary><strong>Option 3: Advanced Setup (Multiple Servers)</strong></summary>
 
 ```json
 {
@@ -697,6 +731,8 @@ npm install -g @modelcontextprotocol/server-filesystem
 npm install -g @modelcontextprotocol/server-sequential-thinking
 ```
 
+</details>
+
 #### Applying Changes
 
 After editing config:
@@ -707,13 +743,17 @@ After editing config:
 
 Or restart Cursor completely.
 
-#### Verification
+<details>
+<summary><strong>Verification</strong></summary>
 
 1. Open Cursor Settings → MCP
 2. Check that your servers appear in the list
 3. Test by asking in chat: "What MCP tools do you have access to?"
 
-#### Project Config Version Control
+</details>
+
+<details>
+<summary><strong>Project Config Version Control</strong></summary>
 
 If using `.cursor/mcp.json`:
 
@@ -742,6 +782,8 @@ If using `.cursor/mcp.json`:
 
 **Note**: Cursor doesn't expand environment variables, so team members need to update paths manually.
 
+</details>
+
 ---
 
 ## Part 3: Testing Shared Memory Across All Tools
@@ -758,7 +800,8 @@ If all three return "AcmeApp", your shared memory works! 🎉
 
 ## Part 4: Advanced MCP Servers
 
-### Filesystem Access
+<details>
+<summary><strong>Filesystem Access</strong></summary>
 
 **When**: You need file operations beyond basic memory.
 
@@ -783,7 +826,10 @@ npm install -g @modelcontextprotocol/server-filesystem
 
 **Security**: Only grant access to directories you trust.
 
-### Sequential Thinking (Advanced Reasoning)
+</details>
+
+<details>
+<summary><strong>Sequential Thinking (Advanced Reasoning)</strong></summary>
 
 **When**: Complex problem-solving, multi-step tasks.
 
@@ -800,6 +846,8 @@ npm install -g @modelcontextprotocol/server-sequential-thinking
 ```
 
 **Usage**: In any tool, ask "Use sequential thinking to break down this problem..."
+
+</details>
 
 ---
 
@@ -939,14 +987,18 @@ source ~/.bashrc
 
 ## Part 6: What NOT to Install
 
-### Avoid Redundancy
+<details>
+<summary><strong>Avoid Redundancy</strong></summary>
 
 If you installed `mcp-cursor`, **DO NOT** also install:
 - `@modelcontextprotocol/server-memory` (already included)
 - `@modelcontextprotocol/server-filesystem` (already included)  
 - `@modelcontextprotocol/server-sequential-thinking` (already included)
 
-### Multiple Sequential Thinking Servers
+</details>
+
+<details>
+<summary><strong>Multiple Sequential Thinking Servers</strong></summary>
 
 **NEVER run these together**:
 - Official sequential-thinking
@@ -955,11 +1007,14 @@ If you installed `mcp-cursor`, **DO NOT** also install:
 
 **Pick ONE**. Multiple sequential servers cause conflicts and duplicate responses.
 
+</details>
+
 ---
 
 ## Part 7: Pro Setup
 
-### Desktop Extensions (.dxt files)
+<details>
+<summary><strong>Desktop Extensions (.dxt files)</strong></summary>
 
 **New in 2025**: Install MCP servers with one click.
 
@@ -969,7 +1024,10 @@ If you installed `mcp-cursor`, **DO NOT** also install:
 
 **No terminal required!**
 
-### Verification Script
+</details>
+
+<details>
+<summary><strong>Verification Script</strong></summary>
 
 **macOS/Linux:**
 
@@ -1080,9 +1138,12 @@ Run:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
+</details>
+
 ---
 
-## Quick Start Checklist
+<details>
+<summary><strong>Quick Start Checklist</strong></summary>
 
 - [ ] Node.js v16+ installed
 - [ ] Choose: mcp-cursor (simple) or individual servers (advanced)
@@ -1092,6 +1153,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 - [ ] Restart all applications
 - [ ] Test with "Remember X" in one tool, query in another
 - [ ] Verify with `claude mcp list` (CLI)
+
+</details>
 
 ---
 
