@@ -213,6 +213,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Regex resources by Chris Albon](https://chrisalbon.com/#regex)
   - [Linux Command-Line resource by Chris Albon](https://chrisalbon.com/#linux)
   - [TweetyProject](http://tweetyproject.org/) - is a collection of various Java libraries that implement approaches to different areas of artificial intelligence
+ - [DSA Roadmap 2024: Complete Learning Guide](https://www.scaler.com/blog/dsa-roadmap/) - Anyone eager to learn DSA from scratch will find here a comprehensive roadmap for learning data structures and algorithms.
 
 
 **See [this link](https://github.com/josephmisiti/awesome-machine-learning#java) for more Java related ML links**
