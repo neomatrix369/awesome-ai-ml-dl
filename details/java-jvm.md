@@ -128,6 +128,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 - Java ML Framework: [1](https://github.com/datumbox/datumbox-framework) [2](http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/)
 - [Jena](https://jena.apache.org/) - A free and open source Java framework for building Semantic Web and Linked Data applications
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
+- [Skills for Machine Learning](https://www.scaler.com/blog/skills-for-machine-learning/)
 - [Smile - Statistical Machine Intelligence and Learning Engine](https://haifengl.github.io/)
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
