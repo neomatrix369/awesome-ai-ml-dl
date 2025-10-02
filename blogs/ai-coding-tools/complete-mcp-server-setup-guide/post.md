@@ -81,102 +81,76 @@ This error alone causes 80% of failed installations.
 
 ---
 
-## Part 2: The Simplified Approach - mcp-cursor
+## Part 2: Complete Setup by Product
 
-### Why Start Here?
+Choose your tool and follow the complete setup in one place:
 
-The `mcp-cursor` server bundles three essential capabilities:
-- **Filesystem** - Read/write files, search projects
-- **Memory** - Persistent session context
-- **Sequential Thinking** - Multi-step reasoning
+---
 
-**You don't need separate servers for each.** Start here, add specialized servers later.
+### 2.1: 🖥️ Claude Desktop - Complete Setup
 
-### Installation
+#### Installation
 
+**macOS:**
+- Download from [claude.ai](https://claude.ai)
+- Or install via Homebrew: `brew install --cask claude`
+
+**Windows:**
+- Download from [claude.ai](https://claude.ai)
+- Run the installer
+
+**Linux:**
+- AppImage available from [claude.ai](https://claude.ai)
+
+#### Configuration File Location
+
+| OS | Config Path |
+|----|-------------|
+| **macOS** | `~/Library/Application Support/Claude/claude_desktop_config.json` |
+| **Windows** | `%APPDATA%\Claude\claude_desktop_config.json` |
+| **Linux** | `~/.config/Claude/claude_desktop_config.json` |
+
+#### Initial Setup
+
+**macOS:**
 ```bash
-npm install -g mcp-cursor
-```
+# Create directory if it doesn't exist
+mkdir -p ~/Library/Application\ Support/Claude
 
-### Configuration for All Three Tools
+# Create config file
+touch ~/Library/Application\ Support/Claude/claude_desktop_config.json
 
-#### Claude Desktop
-
-**Location**: `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS)  
-`%APPDATA%\Claude\claude_desktop_config.json` (Windows)
-
-```json
-{
-  "mcpServers": {
-    "mcp-cursor": {
-      "command": "npx",
-      "args": ["-y", "mcp-cursor"]
-    }
-  }
-}
-```
-
-**Restart Claude Desktop** after editing.
-
-#### Claude Code CLI
-
-**Config File Locations:**
-
-| OS | Path |
-|-----|------|
-| **macOS** | `~/.claude.json` |
-| **Windows** | `%USERPROFILE%\.claude.json` |
-| **Linux** | `~/.claude.json` |
-
-**Accessing the config file:**
-
-**macOS/Linux:**
-```bash
-# Create if doesn't exist
-touch ~/.claude.json
-
-# Edit
-nano ~/.claude.json
-# or
-code ~/.claude.json  # if using VS Code
+# Edit with your preferred editor
+nano ~/Library/Application\ Support/Claude/claude_desktop_config.json
 ```
 
 **Windows (PowerShell):**
 ```powershell
-# Create if doesn't exist
-New-Item -Path $env:USERPROFILE\.claude.json -ItemType File -Force
+# Create directory if it doesn't exist
+New-Item -Path $env:APPDATA\Claude -ItemType Directory -Force
+
+# Create config file
+New-Item -Path $env:APPDATA\Claude\claude_desktop_config.json -ItemType File -Force
 
 # Edit
-notepad $env:USERPROFILE\.claude.json
-# or
-code $env:USERPROFILE\.claude.json  # if using VS Code
+notepad $env:APPDATA\Claude\claude_desktop_config.json
 ```
 
-**Config content (same for all platforms):**
-```json
-{
-  "mcpServers": {
-    "mcp-cursor": {
-      "command": "npx",
-      "args": ["-y", "mcp-cursor"],
-      "type": "stdio"
-    }
-  }
-}
-```
-
-**Note**: Claude Code requires `"type": "stdio"` field (Claude Desktop doesn't).
-
-**Verify installation:**
+**Linux:**
 ```bash
-# Works on all platforms
-claude mcp list
+# Create directory if it doesn't exist
+mkdir -p ~/.config/Claude
+
+# Create config file
+touch ~/.config/Claude/claude_desktop_config.json
+
+# Edit
+nano ~/.config/Claude/claude_desktop_config.json
 ```
 
-#### Cursor IDE
+#### Option 1: Simple Setup (mcp-cursor - Recommended)
 
-**Option 1: Global Config** (affects all projects)  
-`Cursor Settings → MCP → Add Server`
+**Best for**: Getting started quickly with filesystem, memory, and reasoning
 
 ```json
 {
@@ -189,28 +163,18 @@ claude mcp list
 }
 ```
 
-**Option 2: Project Config** (per-project, version controlled)  
-Create `.cursor/mcp.json` in your project:
-
-```json
-{
-  "mcpServers": {
-    "mcp-cursor": {
-      "command": "npx",
-      "args": ["-y", "mcp-cursor"]
-    }
-  }
-}
+**Install the server:**
+```bash
+npm install -g mcp-cursor
 ```
 
----
+#### Option 2: Shared Memory Setup
 
-## Part 3: Shared Memory Setup
+**Best for**: Sharing context across Claude Desktop, Claude Code, and Cursor
 
-**The Holy Grail**: All three tools accessing the same memory.
+**Step 1: Create shared memory file**
 
-### Architecture
-
+**Architecture**
 ```
 ┌─────────────────┐
 │ Claude Desktop  │──┐
@@ -225,31 +189,30 @@ Create `.cursor/mcp.json` in your project:
 └─────────────────┘
 ```
 
-### Installation
-
+**macOS:**
 ```bash
-npm install -g @modelcontextprotocol/server-memory
-```
-
-### Shared Config
-
-**Create shared memory file:**
-
-**macOS/Linux:**
-```bash
-# Create directory and file
 mkdir -p ~/claude-mcp-configs
 touch ~/claude-mcp-configs/shared-memory.json
 ```
 
 **Windows (PowerShell):**
 ```powershell
-# Create directory and file
 New-Item -Path $env:USERPROFILE\claude-mcp-configs -ItemType Directory -Force
 New-Item -Path $env:USERPROFILE\claude-mcp-configs\shared-memory.json -ItemType File -Force
 ```
 
-**For all three tools**, add this to their respective config files:
+**Linux:**
+```bash
+mkdir -p ~/claude-mcp-configs
+touch ~/claude-mcp-configs/shared-memory.json
+```
+
+**Step 2: Install memory server**
+```bash
+npm install -g @modelcontextprotocol/server-memory
+```
+
+**Step 3: Add to config**
 
 **macOS/Linux config:**
 ```json
@@ -285,13 +248,505 @@ New-Item -Path $env:USERPROFILE\claude-mcp-configs\shared-memory.json -ItemType 
 }
 ```
 
-**Important path notes:**
-- **macOS**: Use `/Users/username/` (forward slashes)
-- **Windows**: Use `C:\\Users\\username\\` (double backslashes in JSON)
-- **Linux**: Use `/home/username/` (forward slashes)
-- Always use absolute paths, not `~` or `%USERPROFILE%`
+**⚠️ Important**: Replace `YOUR_USERNAME` with your actual username. Use absolute paths only.
 
-### Testing Shared Access
+#### Option 3: Advanced Setup (Multiple Servers)
+
+**Best for**: Power users who need specific capabilities
+
+```json
+{
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/allowed/directory"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    }
+  }
+}
+```
+
+**Install servers:**
+```bash
+npm install -g @modelcontextprotocol/server-memory
+npm install -g @modelcontextprotocol/server-filesystem
+npm install -g @modelcontextprotocol/server-sequential-thinking
+```
+
+#### Applying Changes
+
+**Always restart Claude Desktop after editing the config:**
+
+**macOS:**
+```bash
+# Quit completely
+osascript -e 'quit app "Claude"'
+# Then reopen from Applications
+```
+
+**Windows:**
+- Right-click Claude in system tray → Exit
+- Or use PowerShell: `Stop-Process -Name "Claude" -Force`
+- Reopen from Start menu
+
+**Linux:**
+```bash
+killall claude
+# Then reopen
+```
+
+#### Verification & Troubleshooting
+
+**Check logs:**
+
+**macOS:**
+```bash
+tail -f ~/Library/Logs/Claude/mcp*.log
+```
+
+**Windows (PowerShell):**
+```powershell
+Get-Content $env:APPDATA\Claude\logs\mcp*.log -Tail 50
+```
+
+**Linux:**
+```bash
+tail -f ~/.config/Claude/logs/mcp*.log
+```
+
+**Validate JSON syntax:**
+
+**macOS/Linux:**
+```bash
+cat ~/Library/Application\ Support/Claude/claude_desktop_config.json | python3 -m json.tool
+```
+
+**Windows (PowerShell):**
+```powershell
+Get-Content $env:APPDATA\Claude\claude_desktop_config.json | ConvertFrom-Json
+```
+
+---
+
+### 2.2: 💻 Claude Code (CLI) - Complete Setup
+
+#### Installation
+
+**All platforms:**
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+**Verify installation:**
+```bash
+claude --version
+```
+
+#### Configuration File Location
+
+| OS | Config Path |
+|----|-------------|
+| **macOS** | `~/.claude.json` |
+| **Windows** | `%USERPROFILE%\.claude.json` |
+| **Linux** | `~/.claude.json` |
+
+#### Initial Setup
+
+**macOS/Linux:**
+```bash
+# Create config file
+touch ~/.claude.json
+
+# Edit
+nano ~/.claude.json
+```
+
+**Windows (PowerShell):**
+```powershell
+# Create config file
+New-Item -Path $env:USERPROFILE\.claude.json -ItemType File -Force
+
+# Edit
+notepad $env:USERPROFILE\.claude.json
+```
+
+#### ⚠️ CRITICAL DIFFERENCE
+
+**Claude Code requires `"type": "stdio"` in every MCP server configuration!**
+
+This is the #1 reason configs fail. Claude Desktop and Cursor don't need this field.
+
+#### Option 1: Simple Setup (mcp-cursor - Recommended)
+
+```json
+{
+  "mcpServers": {
+    "mcp-cursor": {
+      "command": "npx",
+      "args": ["-y", "mcp-cursor"],
+      "type": "stdio"
+    }
+  }
+}
+```
+
+**Install the server:**
+```bash
+npm install -g mcp-cursor
+```
+
+#### Option 2: Shared Memory Setup
+
+**Step 1: Create shared memory file** (if not already created)
+
+**macOS/Linux:**
+```bash
+mkdir -p ~/claude-mcp-configs
+touch ~/claude-mcp-configs/shared-memory.json
+```
+
+**Windows (PowerShell):**
+```powershell
+New-Item -Path $env:USERPROFILE\claude-mcp-configs -ItemType Directory -Force
+New-Item -Path $env:USERPROFILE\claude-mcp-configs\shared-memory.json -ItemType File -Force
+```
+
+**Step 2: Install memory server**
+```bash
+npm install -g @modelcontextprotocol/server-memory
+```
+
+**Step 3: Add to config**
+
+**macOS/Linux config:**
+```json
+{
+  "mcpServers": {
+    "shared-memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory",
+        "--memory-file",
+        "/Users/YOUR_USERNAME/claude-mcp-configs/shared-memory.json"
+      ],
+      "type": "stdio"
+    }
+  }
+}
+```
+
+**Windows config:**
+```json
+{
+  "mcpServers": {
+    "shared-memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory",
+        "--memory-file",
+        "C:\\Users\\YOUR_USERNAME\\claude-mcp-configs\\shared-memory.json"
+      ],
+      "type": "stdio"
+    }
+  }
+}
+```
+
+#### Option 3: Advanced Setup (Multiple Servers)
+
+```json
+{
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "type": "stdio"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/allowed/directory"
+      ],
+      "type": "stdio"
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "type": "stdio"
+    }
+  }
+}
+```
+
+**Install servers:**
+```bash
+npm install -g @modelcontextprotocol/server-memory
+npm install -g @modelcontextprotocol/server-filesystem
+npm install -g @modelcontextprotocol/server-sequential-thinking
+```
+
+#### Verification
+
+**Check MCP servers:**
+```bash
+claude mcp list
+```
+
+**Validate JSON syntax:**
+
+**macOS/Linux:**
+```bash
+cat ~/.claude.json | python3 -m json.tool
+```
+
+**Windows (CMD):**
+```cmd
+type %USERPROFILE%\.claude.json | python -m json.tool
+```
+
+**Windows (PowerShell):**
+```powershell
+Get-Content $env:USERPROFILE\.claude.json | ConvertFrom-Json
+```
+
+#### No Restart Needed!
+
+Claude Code automatically picks up config changes. Just start a new session:
+```bash
+claude
+```
+
+---
+
+### 2.3: 🎯 Cursor IDE - Complete Setup
+
+#### Installation
+
+**macOS:**
+- Download from [cursor.com](https://cursor.com)
+- Or install via Homebrew: `brew install --cask cursor`
+
+**Windows:**
+- Download from [cursor.com](https://cursor.com)
+- Run the installer
+
+**Linux:**
+- AppImage available from [cursor.com](https://cursor.com)
+
+#### Configuration Options
+
+Cursor supports two configuration approaches:
+
+**Global Config** (affects all projects):
+- Accessed via Cursor Settings → MCP
+- Stored in Cursor's global settings
+
+**Project Config** (per-project, version controlled):
+- File: `.cursor/mcp.json` in project root
+- ✅ Recommended for teams
+- Can be committed to git
+
+#### Global Configuration Setup
+
+1. Open Cursor
+2. Press `Cmd/Ctrl + ,` (Settings)
+3. Search for "MCP"
+4. Click "Edit in settings.json"
+
+#### Project Configuration Setup
+
+**macOS/Linux:**
+```bash
+# In your project directory
+mkdir -p .cursor
+touch .cursor/mcp.json
+
+# Edit
+code .cursor/mcp.json
+```
+
+**Windows (PowerShell):**
+```powershell
+# In your project directory
+New-Item -Path .cursor -ItemType Directory -Force
+New-Item -Path .cursor\mcp.json -ItemType File -Force
+
+# Edit
+code .cursor\mcp.json
+```
+
+#### Option 1: Simple Setup (mcp-cursor - Recommended)
+
+```json
+{
+  "mcpServers": {
+    "mcp-cursor": {
+      "command": "npx",
+      "args": ["-y", "mcp-cursor"]
+    }
+  }
+}
+```
+
+**Install the server:**
+```bash
+npm install -g mcp-cursor
+```
+
+#### Option 2: Shared Memory Setup
+
+**Step 1: Create shared memory file** (if not already created)
+
+**macOS/Linux:**
+```bash
+mkdir -p ~/claude-mcp-configs
+touch ~/claude-mcp-configs/shared-memory.json
+```
+
+**Windows (PowerShell):**
+```powershell
+New-Item -Path $env:USERPROFILE\claude-mcp-configs -ItemType Directory -Force
+New-Item -Path $env:USERPROFILE\claude-mcp-configs\shared-memory.json -ItemType File -Force
+```
+
+**Step 2: Install memory server**
+```bash
+npm install -g @modelcontextprotocol/server-memory
+```
+
+**Step 3: Add to config**
+
+**macOS/Linux config:**
+```json
+{
+  "mcpServers": {
+    "shared-memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory",
+        "--memory-file",
+        "/Users/YOUR_USERNAME/claude-mcp-configs/shared-memory.json"
+      ]
+    }
+  }
+}
+```
+
+**Windows config:**
+```json
+{
+  "mcpServers": {
+    "shared-memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory",
+        "--memory-file",
+        "C:\\Users\\YOUR_USERNAME\\claude-mcp-configs\\shared-memory.json"
+      ]
+    }
+  }
+}
+```
+
+#### Option 3: Advanced Setup (Multiple Servers)
+
+```json
+{
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/allowed/directory"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    }
+  }
+}
+```
+
+**Install servers:**
+```bash
+npm install -g @modelcontextprotocol/server-memory
+npm install -g @modelcontextprotocol/server-filesystem
+npm install -g @modelcontextprotocol/server-sequential-thinking
+```
+
+#### Applying Changes
+
+After editing config:
+
+1. Press `Cmd/Ctrl + Shift + P`
+2. Type "Reload Window"
+3. Press Enter
+
+Or restart Cursor completely.
+
+#### Verification
+
+1. Open Cursor Settings → MCP
+2. Check that your servers appear in the list
+3. Test by asking in chat: "What MCP tools do you have access to?"
+
+#### Project Config Version Control
+
+If using `.cursor/mcp.json`:
+
+**Add to .gitignore** (if using sensitive paths):
+```gitignore
+# Don't commit absolute paths
+.cursor/mcp.json
+```
+
+**Or create a template**:
+```json
+{
+  "mcpServers": {
+    "shared-memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory",
+        "--memory-file",
+        "${HOME}/claude-mcp-configs/shared-memory.json"
+      ]
+    }
+  }
+}
+```
+
+**Note**: Cursor doesn't expand environment variables, so team members need to update paths manually.
+
+---
+
+## Part 3: Testing Shared Memory Across All Tools
+
+**After setting up Option 2 (Shared Memory) in any or all of the products above:**
 
 1. **In Claude Desktop**: "Remember that my project name is AcmeApp"
 2. **In Claude Code**: `claude` (start session), then ask "What's my project name?"
@@ -318,7 +773,10 @@ npm install -g @modelcontextprotocol/server-filesystem
   "args": [
     "-y",
     "@modelcontextprotocol/server-filesystem",
-    "/path/to/allowed/directory"
+    "/path/to/allowed/directory1",
+    "/path/to/allowed/directory2",
+    "/path/to/allowed/directory3",
+    ...
   ]
 }
 ```
@@ -348,7 +806,7 @@ npm install -g @modelcontextprotocol/server-sequential-thinking
 ## Part 5: Troubleshooting
 
 <details>
-<summary><strong>Click to expand: Complete Troubleshooting Guide</strong></summary>
+<summary><strong>Complete Troubleshooting Guide</strong></summary>
 
 ### Issue: MCP Server Not Found
 
@@ -693,6 +1151,8 @@ Your feedback and contributions help everyone in the community. See [CONTRIBUTIN
 See [Resources and References](./resources-and-references.md)
 
 ---
+Return to [Blog posts home](../README.md)
+--- 
 
 *This guide synthesizes information from official documentation, community resources, and practical testing. All package names, commands, and configurations have been verified as of January 2025. For the latest updates, always refer to official documentation.*
 
