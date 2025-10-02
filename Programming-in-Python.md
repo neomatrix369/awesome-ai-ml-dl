@@ -206,6 +206,7 @@ with nothing but Python
 - [Python Zero to Hero - Ep.7 - Unit testing with Pytest](https://dev.to/cheukting_ho/python-zero-to-hero-ep-7-unit-testing-with-pytest-1al6)
 - [Python Zero to Hero - Ep.11 - Python property-based testing](https://dev.to/cheukting_ho/python-zero-to-hero-ep-11-python-property-based-testing-1692)
 - [Backtest Trading Strategies with Pandas — Vectorized Backtesting](https://towardsdatascience.com/backtest-trading-strategies-with-pandas-vectorized-backtesting-26001b0ba3a5?source=social.tw)
+- [Python Regex Tester](https://pythonium.net/regex)
 
 ### Machine Learning
 
