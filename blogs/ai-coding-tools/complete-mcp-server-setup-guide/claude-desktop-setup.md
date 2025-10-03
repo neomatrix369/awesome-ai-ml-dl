@@ -1,6 +1,8 @@
 # Claude Desktop - Complete MCP Server Setup
 
-**[← Back to Main Guide](./post.md)**
+![Claude Desktop banner](https://imgs.search.brave.com/HnOLHlZIE1DrZyaFFXeaVgON7AY7sCx5Md1tF10t62E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90ZWNo/Y3J1bmNoLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNC8x/MC91bm5hbWVkLTcu/cG5nP3c9Njgw)
+
+**[← Back to Main Guide](./post.md)** | **[Next: Claude Code Setup →](./claude-code-setup.md)**
 
 ## Overview
 
