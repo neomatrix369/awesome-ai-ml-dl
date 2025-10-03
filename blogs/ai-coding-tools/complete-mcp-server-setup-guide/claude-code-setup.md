@@ -37,7 +37,7 @@ claude --version
 |----|-------------|
 | **macOS** | `~/.claude.json` |
 | **Linux** | `~/.claude.json` |
-| **Windows** | `%APPDATA%\.claude.json` |
+| **Windows** | `%USERPROFILE%\.claude.json` |
 
 -OR-
 

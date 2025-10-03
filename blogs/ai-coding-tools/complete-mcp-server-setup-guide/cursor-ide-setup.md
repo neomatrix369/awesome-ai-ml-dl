@@ -32,7 +32,7 @@ Cursor is a modern AI-first IDE built on VS Code, offering a full development en
 **Global Config** (affects all projects):
 - Accessed via Cursor Settings → MCP
 - Stored in Cursor's global settings
-- File: `~/.cursor/mcp.json` (macOs/Linux) | `%USERPROFILE%\.cursor\mcp.json` (Windows)
+- File: `~/.cursor/mcp.json` (macOS/Linux) | `%USERPROFILE%\.cursor\mcp.json` (Windows)
 
 ---
 
