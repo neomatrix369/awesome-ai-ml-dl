@@ -188,6 +188,34 @@ Each guide is comprehensive and includes installation, configuration, verificati
 
 **[→ Read the complete Claude Code setup guide](./claude-code-setup.md)**
 
+#### Claude Code Monitoring and Usage Analytics
+
+**Claude Code includes powerful monitoring and usage tracking capabilities:**
+
+**claude-monitor**: Real-time monitoring of Claude Code sessions
+- **Session tracking**: Monitor active Claude Code sessions and their status
+- **Performance metrics**: Track response times, token usage, and session duration
+- **Resource monitoring**: Monitor CPU, memory, and network usage during sessions
+- **Usage patterns**: Analyze how you use Claude Code across different projects
+
+```bash
+claude-monitor
+```
+![claude-monitor](claude-monitor.png)
+
+**ccuage**: Usage analytics and insights for Claude Code
+- **Usage statistics**: Track total tokens used, sessions created, and time spent
+- **Cost analysis**: Monitor API usage and associated costs
+- **Productivity metrics**: Analyze coding efficiency and AI assistance patterns
+- **Historical data**: View usage trends over time
+
+```bash
+ccusage blocks --live
+```
+
+![ccusage](ccusage.png)
+
+**Note:** you can find out using these tools, how far are you into the session, before it's going to end (CC will let you know your session reset time).
 ---
 
 ### 2.3: 🎯 Cursor IDE Setup
