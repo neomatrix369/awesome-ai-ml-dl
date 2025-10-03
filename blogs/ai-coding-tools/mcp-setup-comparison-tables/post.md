@@ -334,6 +334,27 @@ START: Need MCP setup?
 }
 ```
 
+Note for `advanced-reasoning` above, you need to do this first:
+
+First a place on your projects folder or suitable to clone:
+
+```bash
+git clone git@github.com:angrysky56/advanced-reasoning-mcp.git
+```
+
+OR
+
+```bash
+git clone https://github.com/angrysky56/advanced-reasoning-mcp.git
+```
+
+```bash
+cd advanced-reasoning-mcp
+pwd
+```
+
+Note the folder mentioned in the output above. And the replace the `/path/to/advanced-reasoning-mcp/` portion of the config mentioned in the JSON config above with this path.
+
 ---
 
 ## Resources and References

@@ -10,28 +10,17 @@ This guide fixes that. One comprehensive walkthrough for all three tools.
 
 ## ⚠️ CRITICAL: Replace Usernames and Paths
 
-**Before you start**: This guide contains placeholder usernames and paths that you MUST replace with your actual system information:
+**Before you start**: Replace all placeholders with your actual system information:
+- **`YOUR_USERNAME`** → Your actual username (run `whoami`)
+- **`/path/to/allowed/directory`** → Actual directory paths
 
-- **`YOUR_USERNAME`** → Replace with your actual username (e.g., `john`, `mary`, `mymacbook`)
-- **`/path/to/allowed/directory`** → Replace with actual directory paths you want to grant access to
-- **`/Users/YOUR_USERNAME/`** → Replace with your actual home directory path
-
-**How to find your username:**
-- **macOS/Linux**: Run `whoami` in terminal or `echo $USER`
-- **Windows**: Run `echo %USERNAME%` in Command Prompt or `$env:USERNAME` in PowerShell
-
-**How to find your home directory:**
-- **macOS**: `/Users/YOUR_USERNAME`
-- **Linux**: `/home/YOUR_USERNAME` 
-- **Windows**: `C:\Users\YOUR_USERNAME`
-
-**Example transformation:**
+**Example:**
 ```json
-// ❌ WRONG - Contains placeholder
+// ❌ WRONG
 "/Users/YOUR_USERNAME/claude-mcp-configs/shared-memory.json"
 
-// ✅ CORRECT - Uses actual username
-"/Users/mymacbook/claude-mcp-configs/shared-memory.json"
+// ✅ CORRECT
+"/Users/john/claude-mcp-configs/shared-memory.json"
 ```
 
 ## Quick Reference: Which Tool When?
@@ -42,7 +31,7 @@ Before we dive into setup, understand what you're installing:
 |------|----------|-----------|-----------------|
 | **Claude Desktop** | GUI workflows, exploring projects | Desktop app | `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac) |
 | **Claude Code** | Terminal workflows, CI/CD, scripting | CLI | `~/.claude.json` |
-| **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `.cursor/config.json` (project) or global settings |
+| **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `.cursor/mcp.json` (project) or global settings |
 
 **Architecture**
 
@@ -177,84 +166,27 @@ Each guide is comprehensive and includes installation, configuration, verificati
 
 ## Part 3: Testing Shared Memory Across All Tools
 
-**After setting up Option 2 (Shared Memory) in any or all of the products above:**
-### Comprehensive Cross-Tool Testing Workflow
+**After setting up Option 2 (Shared Memory):**
 
-#### Step 1: Verify Shared Memory File Exists
-```bash
-# Check if shared memory file was created
-ls -la ~/claude-mcp-configs/shared-memory.json
+### Test Memory Across Tools
 
-# Windows (PowerShell)
-Test-Path $env:USERPROFILE\claude-mcp-configs\shared-memory.json
-```
+1. **Store info in one tool**: In Claude Desktop, ask "Remember my project is AcmeApp with React"
+2. **Retrieve in other tools**: Ask "What's my project name?" in Claude Code and Cursor
+3. **Verify all tools return**: "Your project is AcmeApp with React"
 
-#### Step 2: Test Memory Storage in Each Tool
+### Verification
 
-**Test in Claude Desktop:**
-1. Open Claude Desktop
-2. Start a new conversation
-3. Ask: **"Remember that my project name is AcmeApp and my favorite framework is React"**
-4. Verify response confirms memory storage
+**Check servers are active:**
+- **Claude Desktop**: Look for MCP indicator in UI
+- **Claude Code**: Run `claude mcp list`
+- **Cursor**: Settings → MCP (should show green status)
 
-**Test in Claude Code:**
-1. Open terminal and run: `claude`
-2. Ask: **"What's my project name and favorite framework?"**
-3. Should respond: **"Your project name is AcmeApp and your favorite framework is React"**
+**Troubleshooting:**
+- Verify identical memory file paths across all tools
+- Check for `YOUR_USERNAME` placeholders
+- Restart applications after config changes
 
-**Test in Cursor:**
-1. Open Cursor IDE
-2. Open chat (`Cmd/Ctrl + L`)
-3. Ask: **"What's my project name and favorite framework?"**
-4. Should respond: **"Your project name is AcmeApp and your favorite framework is React"**
-
-#### Step 3: Verify Cross-Tool Memory Persistence
-
-**Advanced test sequence:**
-1. **In Claude Desktop**: "Remember that I'm working on a Node.js API with PostgreSQL"
-2. **In Claude Code**: Ask "What database am I using for my API?"
-3. **In Cursor**: Ask "What technology stack am I using?"
-4. **Back to Claude Desktop**: Ask "What's my current tech stack?"
-
-**Expected results:**
-- All tools should remember the Node.js API and PostgreSQL information
-- Memory should persist across tool switches
-- No information should be lost
-
-#### Step 4: Visual Verification of Active MCP Servers
-
-**Claude Desktop:**
-- Look for MCP tools indicator in the interface
-- Should show memory server as active/connected
-
-**Claude Code:**
-- Run `claude mcp list` - should show shared-memory as active
-- Check server status with `claude mcp status`
-
-**Cursor:**
-- Settings → MCP → should show shared-memory with green status
-- Command Palette → "MCP: Show Server Status"
-
-#### Step 5: Troubleshooting Shared Memory Issues
-
-**If memory doesn't persist across tools:**
-1. Verify all tools use the same memory file path
-2. Check file permissions on the shared memory file
-3. Ensure no `YOUR_USERNAME` placeholders remain in configs
-4. Restart all applications after config changes
-
-**If memory works in one tool but not others:**
-1. Check that all tools have the shared-memory server configured
-2. Verify the memory file path is identical across all configs
-3. Check for JSON syntax errors in each config file
-
-**Success indicators:**
-- ✅ All three tools return the same information
-- ✅ Memory persists across tool switches
-- ✅ No "memory not found" or "file not found" errors
-- ✅ MCP servers show as active/green in all tools
-
-If all tests pass, your shared memory works perfectly! 🎉
+✅ **Success**: All tools remember the same information
 
 ---
 
@@ -343,22 +275,6 @@ If all tests pass, your shared memory works perfectly! 🎉
 - [MCP Server Registry](https://github.com/modelcontextprotocol/servers)
 - [Claude Code Best Practices](https://anthropic.com/engineering/claude-code-best-practices)
 - [Cursor MCP Guide](https://cursor.com/docs/context/mcp)
-
-### Visual References and Screenshots
-
-**Note**: Screenshots showing active MCP servers with green status indicators are available in the official documentation:
-
-- **Claude Desktop MCP Interface**: Shows MCP tools indicator and active server status
-- **Claude Code MCP Commands**: Screenshots of `claude mcp list` output showing active servers
-- **Cursor MCP Settings**: Visual guide showing green status indicators in Settings → MCP
-- **MCP Server Status Indicators**: Examples of what active vs inactive servers look like
-
-**For the most up-to-date screenshots and visual guides:**
-- Check the official MCP documentation for current UI screenshots
-- Visit the GitHub repositories for each tool for latest interface examples
-- Community forums often have helpful screenshots of working configurations
-
-**Questions?** Drop them in the comments. I respond to every setup issue.
 
 ---
 
