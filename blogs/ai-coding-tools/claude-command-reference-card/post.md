@@ -196,7 +196,7 @@ claude --verbose
 }
 ```
 
-### Cursor IDE (`.cursor/mcp.json`)
+### Cursor IDE (`~/.cursor/mcp.json`)
 
 ```json
 {
@@ -218,7 +218,6 @@ claude --verbose
 - Run **one instance per server type**
 - Use `mcp-cursor` for bundled functionality
 - Enable runtime server selection for flexibility
-- Store configs in version control (project scope)
 - Test with `claude mcp list`
 
 ### ❌ DON'T
@@ -288,8 +287,7 @@ claude
 |------|-------|---------|-------|
 | **Claude Code** | `~/.claude.json` | `%USERPROFILE%\.claude.json` | `~/.claude.json` |
 | **Claude Desktop** | `~/Library/Application Support/Claude/claude_desktop_config.json` | `%APPDATA%\Claude\claude_desktop_config.json` | `~/.config/Claude/claude_desktop_config.json` |
-| **Cursor Global** | Settings → MCP or app database | Settings → MCP or app database | Settings → MCP or app database |
-| **Cursor Project** | `.cursor/mcp.json` | `.cursor/mcp.json` | `.cursor/mcp.json` |
+| **Cursor** | `~/.cursor/mcp.json` | `%USERPROFILE%\.cursor\mcp.json` | `~/.cursor/mcp.json` |
 
 ---
 

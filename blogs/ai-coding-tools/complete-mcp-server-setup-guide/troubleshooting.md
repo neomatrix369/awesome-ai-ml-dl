@@ -68,9 +68,9 @@ $env:USERNAME
 /Users/YOUR_USERNAME/Desktop
 
 # Windows
-C:\Users\YOUR_USERNAME
-C:\Users\YOUR_USERNAME\Documents
-C:\Users\YOUR_USERNAME\Projects
+%USERPROFILE%
+%USERPROFILE%\Documents
+%USERPROFILE%\Projects
 ```
 
 **Example filesystem configuration:**

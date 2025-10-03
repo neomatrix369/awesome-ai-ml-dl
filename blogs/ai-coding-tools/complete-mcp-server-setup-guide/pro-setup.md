@@ -152,20 +152,18 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 - [ ] Choose: mcp-cursor (simple) or individual servers (advanced)
 - [ ] Edit Claude Desktop config at correct path
 - [ ] Edit Claude Code config at ~/.claude.json (add "type": "stdio")
-- [ ] Edit Cursor config (global or project)
+- [ ] Edit Cursor config (global)
 - [ ] Restart all applications
 - [ ] Test with "Remember X" in one tool, query in another
 - [ ] Verify with `claude mcp list` (CLI)
 
 ---
 
-## Team Setup Best Practices
+## Global Setup Best Practices
 
-### Version Control for Cursor Projects
+**Recommended approach for global system setup:**
 
-**Recommended approach for teams:**
-
-1. **Create a template config** in `.cursor/mcp.json.template`:
+1. **Create a template config** in `~/.cursor/mcp.json.template`:
 ```json
 {
   "mcpServers": {
@@ -181,29 +179,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
   }
 }
 ```
-
-2. **Add to `.gitignore`**:
-```gitignore
-.cursor/mcp.json
-```
-
-3. **Document setup in README**:
+2. **Document setup in project README**:
 ```markdown
 ## MCP Setup
 
-1. Copy `.cursor/mcp.json.template` to `.cursor/mcp.json`
+1. Copy `~/.cursor/mcp.json.template` to `~/.cursor/mcp.json`
 2. Replace `${HOME}` with your actual home directory path
 3. Install MCP servers: `npm install -g @modelcontextprotocol/server-memory`
 ```
-
-### Centralized Team Config Repository
-
-For larger teams, consider:
-
-1. Create a dedicated config repo with templates for all tools
-2. Include setup scripts for each platform
-3. Document MCP server choices and their purpose
-4. Share verification scripts
 
 ---
 
