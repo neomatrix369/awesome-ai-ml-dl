@@ -261,6 +261,10 @@ Each guide is comprehensive and includes installation, configuration, verificati
 - Advanced reasoning servers (chain-of-thought, meta-cognition)
 - Custom slash commands for team workflows
 - Production debugging and observability
+- [Field Guide for AI-Assisted Coding](https://github.com/gregdetre/gjdutils/tree/main/docs) - Master AI coding workflows
+- [Prompt Library for AI-First Development](https://www.makingdatamistakes.com/ai-first-development/) - Advanced prompting techniques
+
+Thanks @gregdetre for sharing these resources with us and also the tip on "ultrathink" you will find this in the post.
 
 **Common additions**:
 - Brave Search MCP (web search)
@@ -271,10 +275,23 @@ Each guide is comprehensive and includes installation, configuration, verificati
 
 ## Resources
 
+### MCP-Specific Resources
 - [Official MCP Documentation](https://modelcontextprotocol.io)
 - [MCP Server Registry](https://github.com/modelcontextprotocol/servers)
 - [Claude Code Best Practices](https://anthropic.com/engineering/claude-code-best-practices)
 - [Cursor MCP Guide](https://cursor.com/docs/context/mcp)
+
+### AI-Assisted Development Resources
+- [Field Guide for AI-Assisted Coding](https://github.com/gregdetre/gjdutils/tree/main/docs) - Comprehensive guide for effective AI coding workflows
+- [Prompt Library for AI-First Development](https://www.makingdatamistakes.com/ai-first-development/) - Curated prompts and techniques for AI-powered development
+
+Thanks @gregdetre for sharing these resources with us and also the tip on "ultrathink" you will find this in the post.
+
+### Community Resources
+- [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Reddit community for AI coding discussions and examples
+- [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) - Reddit community focused on Claude Code and AI development
+
+Thanks [Ben Ritchie](https://uk.linkedin.com/in/benjaminritchie) for sharing the above resources.
 
 ---
 
