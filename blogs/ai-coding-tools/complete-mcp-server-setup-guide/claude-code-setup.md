@@ -192,26 +192,7 @@ This is the #1 reason configs fail. Claude Desktop and Cursor don't need this fi
 
 ## Configuration Options
 
-### Option 1: Simple Setup (mcp-cursor - Recommended)
-
-```json
-{
-  "mcpServers": {
-    "mcp-cursor": {
-      "command": "npx",
-      "args": ["-y", "mcp-cursor"],
-      "type": "stdio"
-    }
-  }
-}
-```
-
-**Install the server:**
-```bash
-npm install -g mcp-cursor
-```
-
-### Option 2: Shared Memory Setup
+### Option 1: Shared Memory Setup
 
 **Step 1: Create shared memory file** (if not already created)
 
@@ -274,7 +255,7 @@ npm install -g @modelcontextprotocol/server-memory
 
 **⚠️ CRITICAL**: Replace `YOUR_USERNAME` with your actual username!
 
-### Option 3: Advanced Setup (Multiple Servers)
+### Option 2: Advanced Setup (Combined steps)
 
 ```json
 {
@@ -307,6 +288,25 @@ npm install -g @modelcontextprotocol/server-memory
 npm install -g @modelcontextprotocol/server-memory
 npm install -g @modelcontextprotocol/server-filesystem
 npm install -g @modelcontextprotocol/server-sequential-thinking
+```
+
+### Option 3: Simple Setup (mcp-cursor - Quicker, less flexible)
+
+```json
+{
+  "mcpServers": {
+    "mcp-cursor": {
+      "command": "npx",
+      "args": ["-y", "mcp-cursor"],
+      "type": "stdio"
+    }
+  }
+}
+```
+
+**Install the server:**
+```bash
+npm install -g mcp-cursor
 ```
 
 ---
