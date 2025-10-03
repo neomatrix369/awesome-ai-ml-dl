@@ -31,7 +31,7 @@ Before we dive into setup, understand what you're installing:
 |------|----------|-----------|-----------------|
 | **Claude Desktop** | GUI workflows, exploring projects | Desktop app | `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac) |
 | **Claude Code** | Terminal workflows, CI/CD, scripting | CLI | `~/.claude.json` |
-| **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `.cursor/mcp.json` (project) or global settings |
+| **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `~/.cursor/mcp.json` global settings |
 
 **Architecture**
 
@@ -192,7 +192,7 @@ Each guide is comprehensive and includes installation, configuration, verificati
 
 ### 2.3: 🎯 Cursor IDE Setup
 
-**What you'll learn**: IDE-integrated MCP server setup with both global and project-level configurations.
+**What you'll learn**: IDE-integrated MCP server setup global-level configuration(s).
 
 **🚀 RECOMMENDED: Individual MCP Servers**
 - **Granular control**: Choose specific servers and configure custom file paths
@@ -202,10 +202,10 @@ Each guide is comprehensive and includes installation, configuration, verificati
 **🔧 ALTERNATIVE: Simple Setup (mcp-cursor)**
 - **One-command setup**: Install `mcp-cursor` for instant access to memory, filesystem, and reasoning
 - **IDE-optimized**: Designed specifically for Cursor's workflow
-- **No complex paths**: Works seamlessly with Cursor's global and project configs
+- **No complex paths**: Works seamlessly with Cursor's global configs
 
 **Key highlights**:
-- Choose between global config (all projects) or project config (version controlled)
+- Global config (all projects) (not version controlled)
 - Find config files via Cursor UI and Command Palette
 - Real-time JSON validation in Cursor editor
 - Test MCP functionality directly in Cursor Chat

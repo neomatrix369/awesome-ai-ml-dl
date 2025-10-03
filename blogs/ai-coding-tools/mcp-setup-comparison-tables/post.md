@@ -11,7 +11,7 @@
 | **Interface** | Terminal/CLI | Full IDE (VS Code fork) | GUI Desktop App |
 | **Best For** | Automation, CI/CD, scripting | Full development workflow | Exploratory work, conversations |
 | **Ultrathink Support** | ✅ Yes (actually works) | ❌ No (treated as text) | ❌ No (treated as text) |
-| **Config File** | `~/.claude.json` | `.cursor/mcp.json` or global | `~/Library/Application Support/Claude/` |
+| **Config File** | `~/.claude.json` | `~/.cursor/mcp.json` (global) | `~/Library/Application Support/Claude/` |
 | **Config Type** | `"type": "stdio"` required | Standard MCP format | Standard MCP format |
 | **MCP Verification** | `claude mcp list` | Settings panel | No built-in verification |
 | **Custom Commands** | `.claude/commands/*.md` | `.cursor/rules/*.mdc` | Not supported |
@@ -44,10 +44,10 @@
 
 | Aspect | Claude Code | Cursor IDE | Claude Desktop |
 |--------|-------------|------------|----------------|
-| **Config Path** | `~/.claude.json` | `.cursor/mcp.json` (project)<br>or global settings | `~/Library/Application Support/Claude/claude_desktop_config.json` |
+| **Config Path** | `~/.claude.json` | `~/.cursor/mcp.json` (global settings) | `~/Library/Application Support/Claude/claude_desktop_config.json` |
 | **Required Fields** | `"type": "stdio"` | Standard format | Standard format |
-| **Scope Options** | user, project, local | global, project | global only |
-| **Version Control** | Can commit `.claude.json` | Can commit `.cursor/mcp.json` | Don't commit (user-specific) |
+| **Scope Options** | user, project, local | global | global only |
+| **Version Control** | Cannot commit `~/.claude.json` | Cannot commit `~/.cursor/mcp.json` | Don't commit (user-specific) |
 | **Verification** | `claude mcp list` | Cursor settings panel | Check logs |
 | **Hot Reload** | Automatic | Requires window reload | Requires full restart |
 | **Multiple Configs** | 3 scopes supported | 2 scopes supported | 1 scope only |
@@ -67,7 +67,7 @@
 }
 ```
 
-**Cursor** (`.cursor/mcp.json`):
+**Cursor** (`~/.cursor/mcp.json`):
 ```json
 {
   "mcpServers": {
@@ -198,7 +198,7 @@
 |------|-------|---------|-------|
 | **Claude Desktop** | `~/Library/Application Support/Claude/claude_desktop_config.json` | `%APPDATA%\Claude\claude_desktop_config.json` | `~/.config/Claude/claude_desktop_config.json` |
 | **Claude Code** | `~/.claude.json` | `%USERPROFILE%\.claude.json` | `~/.claude.json` |
-| **Cursor Project** | `.cursor/mcp.json` | `.cursor/mcp.json` | `.cursor/mcp.json` |
+| **Cursor** | `~/.cursor/mcp.json` | `%USERPROFILE%\.cursor\mcp.json` | `~/.cursor/mcp.json` |
 
 ### Log File Locations
 
@@ -273,7 +273,7 @@ START: Need MCP setup?
 │
 ├─ Complex reasoning required? → Sequential OR Chain-of-Thought (not both)
 │
-├─ Team collaboration? → Cursor project configs + version control
+├─ Global settings? → Cursor configs but no version control
 │
 └─ Production deployment? → Individual servers + observability stack
 ```
@@ -304,7 +304,7 @@ START: Need MCP setup?
     },
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/project"]
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/project", "/path/to/documents", ...]
     }
   }
 }

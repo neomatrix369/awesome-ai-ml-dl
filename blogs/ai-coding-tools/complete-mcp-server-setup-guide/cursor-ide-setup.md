@@ -8,7 +8,7 @@
 
 Cursor is a modern AI-first IDE built on VS Code, offering a full development environment with integrated AI assistance and MCP server support.
 
-**Best for**: Full IDE experience, VS Code users, team development workflows
+**Best for**: Full IDE experience, VS Code users
 
 ---
 
@@ -29,16 +29,10 @@ Cursor is a modern AI-first IDE built on VS Code, offering a full development en
 
 ## Configuration Options
 
-Cursor supports two configuration approaches:
-
 **Global Config** (affects all projects):
 - Accessed via Cursor Settings → MCP
 - Stored in Cursor's global settings
-
-**Project Config** (per-project, version controlled):
-- File: `.cursor/mcp.json` in project root
-- ✅ Recommended for teams
-- Can be committed to git
+- File: `~/.cursor/mcp.json` (macOs/Linux) | `%USERPROFILE%\.cursor\mcp.json` (Windows)
 
 ---
 
@@ -60,29 +54,19 @@ Cursor supports two configuration approaches:
 3. Press Enter
 4. Look for MCP-related settings in the JSON file
 
-### Project Configuration
+### Global Configuration via Finder/Windows/File Explorer
 
 **All platforms:**
-1. Open your project in Cursor
-2. In the **Explorer** panel (left sidebar), look for `.cursor` folder
+1. Open your Home Directory in a Finder/Windows/File Explorer
+2. In the **Explorer** window look for the `.cursor` folder
 3. If it doesn't exist, you'll need to create it (see setup instructions below)
 4. Click on `.cursor` folder to expand it
 5. Look for `mcp.json` file
-6. Right-click on `mcp.json` → **"Reveal in File Explorer"** (Windows) or **"Reveal in Finder"** (macOS) to see the full path
-
-**Finding the .cursor folder if it's hidden:**
-1. In Cursor's Explorer panel, right-click in empty space
-2. Select **"Refresh Explorer"** to ensure all files are shown
-3. If still not visible, the folder doesn't exist yet and needs to be created
-
-**Command Palette method:**
-1. Press `Cmd/Ctrl + Shift + P`
-2. Type **"File: Reveal Active File in Explorer"** (Windows) or **"File: Reveal Active File in Finder"** (macOS)
-3. This will open the file location in your system's file manager
+6. Right-click on `mcp.json` and select your text editor of choice
 
 ---
 
-## Global Configuration Setup
+## Global Configuration Setup via Cursor
 
 1. Open Cursor
 2. Press `Cmd/Ctrl + ,` (Settings)
@@ -91,26 +75,26 @@ Cursor supports two configuration approaches:
 
 ---
 
-## Project Configuration Setup
+## Configuration Setup
 
 **macOS/Linux:**
 ```bash
-# In your project directory
-mkdir -p .cursor
-touch .cursor/mcp.json
+# In your Home directory
+mkdir -p ~/.cursor
+touch ~/.cursor/mcp.json
 
 # Edit
-code .cursor/mcp.json
+code ~/.cursor/mcp.json
 ```
 
 **Windows (PowerShell):**
 ```powershell
-# In your project directory
-New-Item -Path .cursor -ItemType Directory -Force
-New-Item -Path .cursor\mcp.json -ItemType File -Force
+# In your home directory
+New-Item -Path $env:USERPROFILE\.cursor -ItemType Directory -Force
+New-Item -Path $env:USERPROFILE\.cursor\mcp.json -ItemType File -Force
 
 # Edit
-code .cursor\mcp.json
+code $env:USERPROFILE\.cursor\mcp.json
 ```
 
 ---
@@ -154,17 +138,17 @@ Your config might already have MCP servers:
 
 ## How to Locate and Edit the mcpServers Section
 
-**For Global Configuration:**
+**For Global Configuration via Cursor:**
 1. Open Cursor Settings (`Cmd/Ctrl + ,`)
 2. Search for "MCP"
 3. Click "Edit in settings.json"
 4. Look for `"mcpServers":` in the JSON file
 5. Add or modify servers as needed
 
-**For Project Configuration:**
-1. Open your project in Cursor
-2. Navigate to `.cursor/mcp.json` in the Explorer panel
-3. Open the file in Cursor's editor
+**For Global Configuration via Finder/Windows/File Explorer:**
+1. Open your Home directory in Finder/Windows/File Explorer
+2. Navigate to `~/.cursor/mcp.json` in the Finder/Windows/File Explorer panel
+3. Open the file in an editor of your choice
 4. Look for `"mcpServers":` in the file
 5. Add or modify servers as needed
 
@@ -324,28 +308,32 @@ Or restart Cursor completely.
 
 ### Step 1: Verify Config File Exists and is Valid
 
-**For Global Configuration:**
+**For Global Configuration via Cursor:**
 ```bash
 # Check if global settings contain MCP config
 # Open Cursor Settings (Cmd/Ctrl + ,) and search for "MCP"
 ```
 
-**For Project Configuration:**
+**For Global Configuration via CLI:**
 ```bash
-# Check if project config exists
-ls -la .cursor/mcp.json
+# Check if config exists
+
+# macOS/Linux
+ls -la ~/.cursor/mcp.json
 
 # Windows (PowerShell)
-Test-Path .cursor\mcp.json
+Test-Path $env:USERPROFILE\.cursor\mcp.json
 ```
 
 **Validate JSON syntax:**
 ```bash
-# Project config
-cat .cursor/mcp.json | python3 -m json.tool
+# Global config
+
+# macOS/Linux
+cat ~/.cursor/mcp.json | python3 -m json.tool
 
 # Windows (PowerShell)
-Get-Content .cursor\mcp.json | ConvertFrom-Json
+Get-Content $env:USERPROFILE\.cursor\mcp.json | ConvertFrom-Json
 ```
 
 ### Step 2: Verify MCP Servers in Cursor UI
@@ -417,7 +405,7 @@ What's my current project name?
 1. Check JSON syntax with validation commands above
 2. Verify all file paths are correct (no `YOUR_USERNAME` placeholders)
 3. Restart Cursor completely
-4. Check if using global vs project config correctly
+4. Check if using global config correctly
 
 **If servers show as inactive/red:**
 1. Check if MCP packages are installed: `npm list -g | grep mcp`
@@ -432,34 +420,7 @@ What's my current project name?
 
 ---
 
-## Project Config Version Control
-
-If using `.cursor/mcp.json`:
-
-**Add to .gitignore** (if using sensitive paths):
-```gitignore
-# Don't commit absolute paths
-.cursor/mcp.json
-```
-
-**Or create a template**:
-```json
-{
-  "mcpServers": {
-    "shared-memory": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-memory",
-        "--memory-file",
-        "${HOME}/claude-mcp-configs/shared-memory.json"
-      ]
-    }
-  }
-}
-```
-
-**Note**: Cursor doesn't expand environment variables, so team members need to update paths manually.
+**Note**: Cursor doesn't expand environment variables, so users need to update paths manually.
 
 ---
 
