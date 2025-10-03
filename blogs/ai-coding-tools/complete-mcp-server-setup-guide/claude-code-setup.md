@@ -24,23 +24,17 @@ claude --version
 
 ---
 
-## Configuration File Location
+## Finding the Config File via Claude Code CLI
+
+**Navigate to config file manually**
+
+### User settings location varies by platform:
 
 | OS | Config Path |
 |----|-------------|
 | **macOS** | `~/.claude.json` |
-| **Windows** | `%USERPROFILE%\.claude.json` |
 | **Linux** | `~/.claude.json` |
-
----
-
-## Finding the Config File via Claude Code CLI
-
-**Navigate to config file manually**
-# User settings location varies by platform:
-# macOS: ~/.claude/settings.json
-# Linux: ~/.config/claude/settings.json
-# Windows: %APPDATA%\claude\settings.json
+| **Windows** | `%APPDATA%\.claude.json` |
 
 -OR-
 
@@ -53,6 +47,12 @@ claude --version
 4. Press `Cmd + Shift + .` to show hidden files
 5. Look for `.claude.json`
 
+**Linux:**
+1. Open **File Manager** (Nautilus, Dolphin, etc.)
+2. Press `Ctrl + H` to show hidden files
+3. Navigate to your home directory
+4. Look for `.claude.json`
+
 **Windows:**
 1. Open **File Explorer**
 2. In the address bar, type: `%USERPROFILE%`
@@ -60,12 +60,6 @@ claude --version
 4. Press `Alt + T` → **Folder Options** → **View** tab
 5. Check **"Show hidden files, folders, and drives"**
 6. Look for `.claude.json`
-
-**Linux:**
-1. Open **File Manager** (Nautilus, Dolphin, etc.)
-2. Press `Ctrl + H` to show hidden files
-3. Navigate to your home directory
-4. Look for `.claude.json`
 
 ---
 
@@ -427,6 +421,35 @@ Claude Code automatically picks up config changes. Just start a new session:
 ```bash
 claude
 ```
+
+### Step 6: Monitoring: Claude Code Monitoring and Usage Analytics
+
+**Claude Code includes powerful monitoring and usage tracking capabilities:**
+
+**claude-monitor**: Real-time monitoring of Claude Code sessions
+- **Session tracking**: Monitor active Claude Code sessions and their status
+- **Performance metrics**: Track response times, token usage, and session duration
+- **Resource monitoring**: Monitor CPU, memory, and network usage during sessions
+- **Usage patterns**: Analyze how you use Claude Code across different projects
+
+```bash
+claude-monitor
+```
+![claude-monitor](claude-monitor.png)
+
+**ccuage**: Usage analytics and insights for Claude Code
+- **Usage statistics**: Track total tokens used, sessions created, and time spent
+- **Cost analysis**: Monitor API usage and associated costs
+- **Productivity metrics**: Analyze coding efficiency and AI assistance patterns
+- **Historical data**: View usage trends over time
+
+```bash
+ccusage blocks --live
+```
+
+![ccusage](ccusage.png)
+
+**Note:** you can find out using these tools, how far are you into the session, before it's going to end (CC will let you know your session reset time).
 
 ---
 
