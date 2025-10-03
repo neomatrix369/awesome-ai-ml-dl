@@ -53,6 +53,26 @@ To illustrate how shared-memory works between the different tools that can acces
 
 **Key Insight**: You can run all three and share the same MCP servers!
 
+## 🎯 Choose Your Setup Path
+
+**Before diving into the detailed guides, decide which approach fits your needs:**
+
+### 🚀 RECOMMENDED: Individual MCP Servers
+**Best for**: Understanding what you're setting up, full control, custom configurations
+- **Granular control**: Choose exactly which servers you need (memory, filesystem, sequential-thinking)
+- **Custom configurations**: Shared memory paths, specific file permissions, cross-tool sharing
+- **Learning experience**: Understand how each MCP server works individually
+- **Setup time**: 15-30 minutes
+
+### 🔧 ALTERNATIVE: Simple Setup (mcp-cursor)
+**Best for**: Quick setup, beginners who want to get started fast, minimal configuration
+- **One package**: `mcp-cursor` includes memory, filesystem, and reasoning capabilities
+- **Minimal configuration**: Works out of the box with basic setup
+- **Cross-tool compatibility**: Works seamlessly across Claude Desktop, Claude Code, and Cursor
+- **Setup time**: 5-10 minutes
+
+**💡 Pro tip**: Start with individual servers to understand the system, then consider mcp-cursor for convenience.
+
 ---
 
 ## Part 1: Foundation Setup
@@ -126,9 +146,19 @@ Each guide is comprehensive and includes installation, configuration, verificati
 
 **What you'll learn**: GUI-based MCP server setup, config file location across platforms, shared memory configuration, and visual verification methods.
 
+**🚀 RECOMMENDED: Individual MCP Servers**
+- **Granular control**: Choose specific servers (memory, filesystem, sequential-thinking)
+- **Custom configurations**: Shared memory across tools, custom file paths
+- **Learning experience**: Understand how each MCP server works individually
+
+**🔧 ALTERNATIVE: Simple Setup (mcp-cursor)**
+- **One-command setup**: Install `mcp-cursor` for instant access to memory, filesystem, and reasoning
+- **No complex configuration**: Works out of the box with minimal setup
+- **Perfect for beginners**: Get started in under 5 minutes
+
 **Key highlights**:
 - Find config files via Claude Desktop UI across macOS, Windows, and Linux
-- Three configuration options: Simple (mcp-cursor), Shared Memory, and Advanced (multiple servers)
+- Clear distinction between individual servers (recommended) vs mcp-cursor (alternative)
 - Step-by-step config file editing with validation
 - Visual verification of active MCP servers in the UI
 
@@ -140,8 +170,18 @@ Each guide is comprehensive and includes installation, configuration, verificati
 
 **What you'll learn**: Terminal-based MCP server setup, critical differences from Claude Desktop, and CLI verification commands.
 
+**🚀 RECOMMENDED: Individual MCP Servers**
+- **Manual configuration**: Install and configure each server individually
+- **Critical requirement**: Must add `"type": "stdio"` to every server config (unlike Claude Desktop)
+- **Learning experience**: Understand how each MCP server works and what it does
+
+**🔧 ALTERNATIVE: Simple Setup (mcp-cursor)**
+- **One-command setup**: Install `mcp-cursor` for instant access to memory, filesystem, and reasoning
+- **Automatic stdio configuration**: mcp-cursor handles the required `"type": "stdio"` automatically
+- **Perfect for CLI users**: Get started with a single npm install command
+
 **Key highlights**:
-- **Critical**: Claude Code requires `"type": "stdio"` in every server config
+- **Critical difference**: Claude Code requires `"type": "stdio"` in every server config
 - Find and edit `~/.claude.json` config file
 - Verify setup with `claude mcp list` and other CLI commands
 - No restart needed - changes apply immediately
@@ -153,6 +193,16 @@ Each guide is comprehensive and includes installation, configuration, verificati
 ### 2.3: 🎯 Cursor IDE Setup
 
 **What you'll learn**: IDE-integrated MCP server setup with both global and project-level configurations.
+
+**🚀 RECOMMENDED: Individual MCP Servers**
+- **Granular control**: Choose specific servers and configure custom file paths
+- **Shared memory setup**: Configure cross-tool memory sharing with other applications
+- **Learning experience**: Understand how each MCP server works in the IDE context
+
+**🔧 ALTERNATIVE: Simple Setup (mcp-cursor)**
+- **One-command setup**: Install `mcp-cursor` for instant access to memory, filesystem, and reasoning
+- **IDE-optimized**: Designed specifically for Cursor's workflow
+- **No complex paths**: Works seamlessly with Cursor's global and project configs
 
 **Key highlights**:
 - Choose between global config (all projects) or project config (version controlled)
@@ -237,11 +287,24 @@ Each guide is comprehensive and includes installation, configuration, verificati
 <details>
 <summary><strong>Quick Start Checklist (Click to expand)</strong></summary>
 
+**🚀 RECOMMENDED PATH (Individual Servers - Full Control Setup):**
 - [ ] Node.js v16+ installed
-- [ ] Choose: mcp-cursor (simple) or individual servers (advanced)
-- [ ] Edit Claude Desktop config at correct path
-- [ ] Edit Claude Code config at ~/.claude.json (add "type": "stdio")
-- [ ] Edit Cursor config (global or project)
+- [ ] Choose specific servers: memory, filesystem, sequential-thinking
+- [ ] Install individual packages: `npm install -g @modelcontextprotocol/server-*`
+- [ ] Edit Claude Desktop config (add individual servers)
+- [ ] Edit Claude Code config at ~/.claude.json (add individual servers with "type": "stdio")
+- [ ] Edit Cursor config (add individual servers)
+- [ ] Configure shared memory paths (if using shared memory)
+- [ ] Restart all applications
+- [ ] Test with "Remember X" in one tool, query in another
+- [ ] Verify with `claude mcp list` (CLI)
+
+**🔧 ALTERNATIVE PATH (mcp-cursor - Simple Setup):**
+- [ ] Node.js v16+ installed
+- [ ] Install mcp-cursor: `npm install -g mcp-cursor`
+- [ ] Edit Claude Desktop config (add mcp-cursor server)
+- [ ] Edit Claude Code config at ~/.claude.json (add mcp-cursor with "type": "stdio")
+- [ ] Edit Cursor config (add mcp-cursor server)
 - [ ] Restart all applications
 - [ ] Test with "Remember X" in one tool, query in another
 - [ ] Verify with `claude mcp list` (CLI)
@@ -261,6 +324,10 @@ Each guide is comprehensive and includes installation, configuration, verificati
 - Advanced reasoning servers (chain-of-thought, meta-cognition)
 - Custom slash commands for team workflows
 - Production debugging and observability
+- [Field Guide for AI-Assisted Coding](https://github.com/gregdetre/gjdutils/tree/main/docs) - Master AI coding workflows
+- [Prompt Library for AI-First Development](https://www.makingdatamistakes.com/ai-first-development/) - Advanced prompting techniques
+
+Thanks @gregdetre for sharing these resources with us and also the tip on "ultrathink" you will find this in the post.
 
 **Common additions**:
 - Brave Search MCP (web search)
@@ -271,10 +338,23 @@ Each guide is comprehensive and includes installation, configuration, verificati
 
 ## Resources
 
+### MCP-Specific Resources
 - [Official MCP Documentation](https://modelcontextprotocol.io)
 - [MCP Server Registry](https://github.com/modelcontextprotocol/servers)
 - [Claude Code Best Practices](https://anthropic.com/engineering/claude-code-best-practices)
 - [Cursor MCP Guide](https://cursor.com/docs/context/mcp)
+
+### AI-Assisted Development Resources
+- [Field Guide for AI-Assisted Coding](https://github.com/gregdetre/gjdutils/tree/main/docs) - Comprehensive guide for effective AI coding workflows
+- [Prompt Library for AI-First Development](https://www.makingdatamistakes.com/ai-first-development/) - Curated prompts and techniques for AI-powered development
+
+Thanks @gregdetre for sharing these resources with us and also the tip on "ultrathink" you will find this in the post.
+
+### Community Resources
+- [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Reddit community for AI coding discussions and examples
+- [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) - Reddit community focused on Claude Code and AI development
+
+Thanks [Ben Ritchie](https://uk.linkedin.com/in/benjaminritchie) for sharing the above resources.
 
 ---
 
