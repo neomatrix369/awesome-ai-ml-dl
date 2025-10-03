@@ -31,7 +31,7 @@ Before we dive into setup, understand what you're installing:
 |------|----------|-----------|-----------------|
 | **Claude Desktop** | GUI workflows, exploring projects | Desktop app | `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac) |
 | **Claude Code** | Terminal workflows, CI/CD, scripting | CLI | `~/.claude.json` |
-| **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `~/.cursor/mcp.json` global settings |
+| **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `~/.cursor/mcp.json` (global settings) |
 
 **Architecture**
 
