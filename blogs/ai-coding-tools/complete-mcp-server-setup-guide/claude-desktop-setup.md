@@ -195,27 +195,7 @@ Get-Content $env:APPDATA\Claude\claude_desktop_config.json | ConvertFrom-Json
 
 ## Configuration Options
 
-### Option 1: Simple Setup (mcp-cursor - Recommended)
-
-**Best for**: Getting started quickly with filesystem, memory, and reasoning
-
-```json
-{
-  "mcpServers": {
-    "mcp-cursor": {
-      "command": "npx",
-      "args": ["-y", "mcp-cursor"]
-    }
-  }
-}
-```
-
-**Install the server:**
-```bash
-npm install -g mcp-cursor
-```
-
-### Option 2: Shared Memory Setup
+### Option 1: Shared Memory Setup
 
 **Best for**: Sharing context across Claude Desktop, Claude Code, and Cursor
 
@@ -300,7 +280,7 @@ $env:USERNAME
 - `/Users/YOUR_USERNAME/` → `/Users/john/`
 - `C:\\Users\\YOUR_USERNAME\\` → `C:\\Users\\john\\`
 
-### Option 3: Advanced Setup (Multiple Servers)
+### Option 2: Advanced Setup (Combined steps)
 
 **Best for**: Power users who need specific capabilities
 
@@ -332,6 +312,26 @@ $env:USERNAME
 npm install -g @modelcontextprotocol/server-memory
 npm install -g @modelcontextprotocol/server-filesystem
 npm install -g @modelcontextprotocol/server-sequential-thinking
+```
+
+### Option 3: Simple Setup (mcp-cursor - Quicker, less flexible)
+
+**Best for**: Getting started quickly with filesystem, memory, and reasoning
+
+```json
+{
+  "mcpServers": {
+    "mcp-cursor": {
+      "command": "npx",
+      "args": ["-y", "mcp-cursor"]
+    }
+  }
+}
+```
+
+**Install the server:**
+```bash
+npm install -g mcp-cursor
 ```
 
 ---
