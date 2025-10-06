@@ -54,12 +54,6 @@ Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, 
 - **Command Reference** - Quick lookup for commands and shortcuts
 - **Platform Comparison** - Choosing the right tool for your workflow
 
-## Related Categories
-
-- [Large Language Models](../large-language-models/) - LLM fundamentals
-- [Generative AI](../generative-ai/) - Code generation with AI
-- [Best Practices](../best-practices/) - Development workflows and methodologies
-
 ## External Resources
 
 - [Programming Resources](../../Programming-in-Python.md)
