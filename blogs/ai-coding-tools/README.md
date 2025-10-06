@@ -1,5 +1,7 @@
 # AI Coding Tools Blog Posts
 
+![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/44jde1ck0iykhfsvyhro.png)
+
 > AI-assisted development, code assistants, and intelligent developer tools
 
 ## About This Category
@@ -14,6 +16,7 @@ This series covers everything you need to know about setting up and using MCP se
 
 ---
 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tafazupezvoyf2gy50aa.png)
 #### [The Complete MCP Server Setup Guide: Claude Desktop, Claude Code, and Cursor](complete-mcp-server-setup-guide/post.md)
 *Published: October 2025 | Difficulty: Intermediate*
 
@@ -24,6 +27,7 @@ A comprehensive guide to setting up Model Context Protocol (MCP) servers across 
 
 ---
 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r5eo6gm7dsc75x0follx.png)
 #### [The Claude Command Reference Card](claude-command-reference-card/post.md)
 *Published: October 2025 | Difficulty: Beginner*
 
@@ -34,6 +38,7 @@ Quick reference guide for Claude commands, shortcuts, and best practices. Essent
 
 ---
 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hwfeg7omqc640i2dapv9.png)
 #### [MCP Setup Comparison Tables](mcp-setup-comparison-tables/post.md)
 *Published: October 2025 | Difficulty: Intermediate*
 
