@@ -79,9 +79,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 ### Specialized Areas
 - [AI Agents](./ai-agents/README.md)
-- [Generative AI](./blogs/generative-ai/README.md)
-- [Large Language Models](./blogs/large-language-models/README.md)
-- [Computer Vision](./blogs/computer-vision/README.md)
+- [Generative AI](./blogs/generative-ai/)
+- [Large Language Models](./blogs/large-language-models/)
+- [Computer Vision](./blogs/computer-vision/)
 - [Time Series & Anomaly Detection](./time-series_anomaly-detection/README.md)
 
 ### Ethics & Governance
@@ -108,7 +108,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 ### Guides & Tutorials
 - [Guides](guides.md#guides)
-- [Tutorials](./blogs/tutorials/README.md)
+- [Tutorials](./blogs/tutorials/)
 
 ### Reference Materials
 - [Cheatsheets](./details/cheatsheets.md#cheatsheets)
@@ -127,17 +127,17 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 ### Cloud & DevOps
 - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
-- [Cloud Infrastructure](./blogs/cloud-infrastructure/README.md)
-- [MLOps & Deployment](./blogs/mlops-deployment/README.md)
+- [Cloud Infrastructure](./blogs/cloud-infrastructure/)
+- [MLOps & Deployment](./blogs/mlops-deployment/)
 
 ### Frameworks & Libraries
-- [Frameworks & Libraries](./blogs/frameworks-libraries/README.md)
-- [Machine Learning](./blogs/machine-learning/README.md)
-- [Deep Learning](./blogs/deep-learning/README.md)
+- [Frameworks & Libraries](./blogs/frameworks-libraries/)
+- [Machine Learning](./blogs/machine-learning/)
+- [Deep Learning](./blogs/deep-learning/)
 
 ### Testing & Quality
 - [Tests & Testing](./details/julia-python-and-r.md#testing)
-- [Best Practices](./blogs/best-practices/README.md)
+- [Best Practices](./blogs/best-practices/)
 
 ## Reference Materials
 
