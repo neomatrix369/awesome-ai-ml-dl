@@ -16,12 +16,15 @@
 - [Desktop Extensions](https://www.anthropic.com/engineering/desktop-extensions)
 - [Remote MCP Announcement](https://www.anthropic.com/news/claude-code-remote-mcp)
 - [Claude Support](https://support.claude.com)
+- [Claude Docs Portal](https://docs.claude.com)
 
 **Cursor IDE**
 - [Official MCP Docs](https://cursor.com/docs/context/mcp)
 - [Quickstart Guide](https://cursor.com/docs/get-started/quickstart)
 - [Rules for AI](https://cursor.com/docs/context/rules)
 - [MCP Directory](https://cursor.directory/mcp)
+- [Features Overview](https://cursor.com/features)
+- [Context Symbols](https://cursor.com/docs/context/symbols)
 
 ### Comparison and Setup Guides
 
@@ -38,6 +41,11 @@
 3. [Mastering Cursor Rules](https://dev.to/dpaluy/mastering-cursor-rules-a-developers-guide-to-smart-ai-integration-1k65) - Dev.to
 4. [Cursor IDE Setup Guide](https://www.usesaaskit.com/blog/cursor-ai-code-editor-setup-guide) - UseSaasKit
 5. [Cursor IDE Rules for AI](https://kirill-markin.com/articles/cursor-ide-rules-for-ai/) - Kirill Markin
+6. [Reference Files with @ in Claude Code](https://mcpcat.io/guides/reference-other-files/) - MCPCat
+7. [Referencing Files in Claude Code (Course Note)](https://stevekinney.com/courses/ai-development/referencing-files-in-claude-code) - Steve Kinney
+8. [Cursor Docs Hub](https://cursor.com/docs) - Cursor
+9. [Cursor Tips and Patterns](https://dev.to/heymarkkop/cursor-tips-10f8) - Dev.to
+10. [OpenMetadata: MCP with Claude](https://docs.open-metadata.org/latest/how-to-guides/mcp/claude) - OpenMetadata
 
 **Cross-Platform Setup**
 1. [How MCP Servers Work Across Platforms](https://dev.to/darkmavis1980/understanding-mcp-servers-across-different-platforms-claude-desktop-vs-vs-code-vs-cursor-4opk) - Dev.to
@@ -151,6 +159,8 @@
 1. [Debugging MCP Servers](https://modelcontextprotocol.io/docs/tools/debugging) - Model Context Protocol
 2. [MCP Troubleshooting](https://pcarion.com/blog/claude_mcp/) - PCArion
 3. [Unlocking Productivity with MCP](https://dev.to/tttn13/unlocking-productivity-with-mcp-servers-and-claude-a-comprehensive-guide-2692) - Dev.to
+4. [How to Trigger Resources and Prompts in Claude Desktop](https://stackoverflow.com/questions/79652613/how-to-trigger-resource-and-prompts-in-claude-desktop) - StackOverflow
+5. [MCP TypeScript SDK Discussion](https://github.com/modelcontextprotocol/typescript-sdk/issues/686) - GitHub Issues
 
 ### Platform-Specific Resources
 
@@ -180,6 +190,7 @@
 4. [Claude Code in Action](https://www.youtube.com/watch?v=IqNZUhV3RyY)
 5. [MCP Inspector Demo](https://www.youtube.com/watch?v=u-GGktUnSgg)
 6. [Cursor Setup Guide](https://www.youtube.com/watch?v=0iGEpx8IeM0)
+7. [Cursor Context and Referencing Tutorial](https://www.youtube.com/watch?v=5IwlQnTlPVA)
 
 ### Installation Scripts and Tools
 
@@ -194,6 +205,11 @@
 - [Magic by 21st.dev](https://21st.dev/magic) — AI-powered UI component generator available as an MCP server or web app; integrates with IDE agents like Cursor and VS Code via Cline.
 - [motlin/claude-code-prompts](https://github.com/motlin/claude-code-prompts) — Curated prompts and patterns for Claude Code to improve coding workflows.
 - [Claude Code Templates](https://davila7.github.io/claude-code-templates/) — Ready-to-use configurations, commands, MCPs, and plugins for Claude Code; includes a Stack Builder and CLI (`npx claude-code-templates@latest`).
+- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) — Curated repository of commands, workflows, subagents, and practical techniques for Claude Code and agentic setups.
+
+### Cheatsheets & Quick References
+
+- [Neon: Claude Code Cheatsheet](https://neon.com/blog/our-claude-code-cheatsheet) — Up-to-date commands, agent patterns, and practical tips for CLI and multi-agent contexts.
 
 ### Package Name Corrections
 
@@ -220,6 +236,9 @@
 1. ["What Tools/MCPs Are You Using?" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lx4277/what_tools_and_mcps_are_you_using_with_claude/)
 2. ["MCP Tools Discussion" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lubtez/what_mcp_tools_you_are_using_with_claude_code/)
 3. ["How to Run Claude Code as MCP Server" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1magmg7/how_to_run_claude_code_as_an_mcp_server_to/)
+4. [MCP, Claude Desktop and Resources Mega-thread](https://www.reddit.com/r/ClaudeAI/comments/1hdxq5o/mcp_claude_desktop_and_resources/) - Reddit
+5. [How to Properly Reference Files in Cursor AI](https://forum.cursor.com/t/how-to-properly-reference-files-when-using-cursor-ides-ai-features/60678) - Cursor Forum
+6. [Pro Tip: Referencing Files in Claude](https://www.reddit.com/r/ClaudeAI/comments/1lpmpgu/pro_tip_if_you_need_claude_to_access_a_reference/) - Reddit
 
 </details>
 
