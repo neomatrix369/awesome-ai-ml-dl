@@ -1,6 +1,6 @@
 ## vast.ai
 
-- [http://vast.ai]()
+- [vast.ai](https://vast.ai/)
 - One simple interface to find the best cloud GPU rentals. Reduce cloud compute costs by 3X to 5X. Both spot (interruptible) and on-demand instances are available.
 - Quick and easy to start, very competitively priced, found machines with high-spec as low as $0.001 per hour of usage
 

@@ -36,7 +36,7 @@ The RAPIDS suite of software libraries, built on [CUDA-X AI](https://www.develop
 
 - [Spark and RAPIDS](https://github.com/rapidsai/spark-examples)
 - [RAPIDS Cloud provider (agnostic)](https://github.com/rapidsai/cloud-ml-examples)
-- [A great example of a Plotly Dash App on RAPIDS](https://dash-rapids-covid19.org/ )
+- [A great example of a Plotly Dash App on RAPIDS](https://dash-rapids-covid19.org/)
 
 ## Kaggle
 
@@ -104,4 +104,4 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-Back to [Cloud/DevOps/Infras page](../../README.md)
+Back to [Cloud/DevOps/Infra page](../README.md)
