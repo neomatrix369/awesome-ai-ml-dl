@@ -1,30 +1,17 @@
 ## Resources and References
 
-<summary><strong>Official Documentation & Resources</strong>
+<summary><strong>Official Documentation & Resources</strong> — See common catalogs in [COMMON-REFERENCES.md](../COMMON-REFERENCES.md)
+
 ### Official Documentation
 
 **Model Context Protocol (MCP)**
-- [Official Site](https://modelcontextprotocol.io)
-- [Developer Docs](https://modelcontextprotocol.io/docs/develop/connect-local-servers)
-- [Quickstart Guide](https://modelcontextprotocol.io/quickstart/server)
-- [MCP Examples](https://modelcontextprotocol.io/examples)
-- [GitHub Repository](https://github.com/modelcontextprotocol/servers)
+- See: [COMMON-REFERENCES.md › Official Documentation › MCP](../COMMON-REFERENCES.md#official-documentation)
 
 **Anthropic / Claude**
-- [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code)
-- [Claude Code Best Practices](https://anthropic.com/engineering/claude-code-best-practices)
-- [Desktop Extensions](https://www.anthropic.com/engineering/desktop-extensions)
-- [Remote MCP Announcement](https://www.anthropic.com/news/claude-code-remote-mcp)
-- [Claude Support](https://support.claude.com)
-- [Claude Docs Portal](https://docs.claude.com)
+- See: [COMMON-REFERENCES.md › Official Documentation › Anthropic / Claude](../COMMON-REFERENCES.md#official-documentation)
 
 **Cursor IDE**
-- [Official MCP Docs](https://cursor.com/docs/context/mcp)
-- [Quickstart Guide](https://cursor.com/docs/get-started/quickstart)
-- [Rules for AI](https://cursor.com/docs/context/rules)
-- [MCP Directory](https://cursor.directory/mcp)
-- [Features Overview](https://cursor.com/features)
-- [Context Symbols](https://cursor.com/docs/context/symbols)
+- See: [COMMON-REFERENCES.md › Official Documentation › Cursor IDE](../COMMON-REFERENCES.md#official-documentation)
 
 ### Comparison and Setup Guides
 
@@ -54,29 +41,16 @@
 
 ### MCP Server Collections
 
-**Comprehensive Directories**
-1. [Awesome MCP Servers](https://github.com/wong2/awesome-mcp-servers)
-2. [PipedreamHQ Collection](https://github.com/PipedreamHQ/awesome-mcp-servers)
-3. [TensorBlock Collection](https://github.com/TensorBlock/awesome-mcp-servers)
-4. [Punkpeye Collection](https://github.com/punkpeye/awesome-mcp-servers)
-5. [Habitoai Collection](https://github.com/habitoai/awesome-mcp-servers)
-6. [Topics on GitHub](https://github.com/topics/awesome-mcp-servers)
+**Comprehensive Directories** (canonical list)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › Community Collections](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 **Searchable Directories**
-- [MCPServers.org](https://mcpservers.org)
-- [MCP.so](https://mcp.so)
-- [Glama AI Directory](https://glama.ai/mcp/servers)
-- [LobHub MCP](https://lobehub.com/mcp)
-- [PulseMCP](https://www.pulsemcp.com)
-- [Playbooks MCP](https://playbooks.com/mcp)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › MCP Server Directories](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 ### Official MCP Servers
 
 **Core Servers**
-- [Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)
-- [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)
-- [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)
-- [Brave Search](https://github.com/modelcontextprotocol/server-brave-search)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › Official Servers](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 ### Community MCP Servers
 
@@ -150,17 +124,10 @@
 ### Debugging and Testing
 
 **Tools and Extensions**
-1. [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
-2. [Claude Debugs For You](https://github.com/jasonjmcghee/claude-debugs-for-you)
-3. [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=JasonMcGhee.claude-debugs-for-you)
-4. [VS Code MCP Support](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
+- See: [COMMON-REFERENCES.md › Debugging and Testing › Tools and Extensions](../COMMON-REFERENCES.md#debugging-and-testing)
 
 **Debugging Guides**
-1. [Debugging MCP Servers](https://modelcontextprotocol.io/docs/tools/debugging) - Model Context Protocol
-2. [MCP Troubleshooting](https://pcarion.com/blog/claude_mcp/) - PCArion
-3. [Unlocking Productivity with MCP](https://dev.to/tttn13/unlocking-productivity-with-mcp-servers-and-claude-a-comprehensive-guide-2692) - Dev.to
-4. [How to Trigger Resources and Prompts in Claude Desktop](https://stackoverflow.com/questions/79652613/how-to-trigger-resource-and-prompts-in-claude-desktop) - StackOverflow
-5. [MCP TypeScript SDK Discussion](https://github.com/modelcontextprotocol/typescript-sdk/issues/686) - GitHub Issues
+- See: [COMMON-REFERENCES.md › Debugging and Testing › Debugging Guides](../COMMON-REFERENCES.md#debugging-and-testing)
 
 ### Platform-Specific Resources
 
@@ -184,13 +151,7 @@
 ### Video Tutorials
 
 **Setup and Configuration**
-1. [MCP Setup Walkthrough](https://www.youtube.com/watch?v=e4VS6nWEhzI)
-2. [Cursor MCP Configuration](https://www.youtube.com/watch?v=cyY97HzFOmE)
-3. [Advanced MCP Usage](https://www.youtube.com/watch?v=_xiw1q2CqZw)
-4. [Claude Code in Action](https://www.youtube.com/watch?v=IqNZUhV3RyY)
-5. [MCP Inspector Demo](https://www.youtube.com/watch?v=u-GGktUnSgg)
-6. [Cursor Setup Guide](https://www.youtube.com/watch?v=0iGEpx8IeM0)
-7. [Cursor Context and Referencing Tutorial](https://www.youtube.com/watch?v=5IwlQnTlPVA)
+- See: [COMMON-REFERENCES.md › Video Tutorials](../COMMON-REFERENCES.md#video-tutorials)
 
 ### Installation Scripts and Tools
 
@@ -226,19 +187,11 @@
 ### Forums and Community Support
 
 **Active Communities**
-- [Reddit r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
-- [Reddit r/mcp](https://www.reddit.com/r/mcp/)
-- [Reddit r/cursor](https://www.reddit.com/r/cursor/)
-- [Cursor Forum](https://forum.cursor.com)
+- See: [COMMON-REFERENCES.md › Forums and Community Support › Active Communities](../COMMON-REFERENCES.md#forums-and-community-support)
 - Hacker News: Search "MCP" or "Claude Code"
 
 **Notable Threads**
-1. ["What Tools/MCPs Are You Using?" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lx4277/what_tools_and_mcps_are_you_using_with_claude/)
-2. ["MCP Tools Discussion" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lubtez/what_mcp_tools_you_are_using_with_claude_code/)
-3. ["How to Run Claude Code as MCP Server" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1magmg7/how_to_run_claude_code_as_an_mcp_server_to/)
-4. [MCP, Claude Desktop and Resources Mega-thread](https://www.reddit.com/r/ClaudeAI/comments/1hdxq5o/mcp_claude_desktop_and_resources/) - Reddit
-5. [How to Properly Reference Files in Cursor AI](https://forum.cursor.com/t/how-to-properly-reference-files-when-using-cursor-ides-ai-features/60678) - Cursor Forum
-6. [Pro Tip: Referencing Files in Claude](https://www.reddit.com/r/ClaudeAI/comments/1lpmpgu/pro_tip_if_you_need_claude_to_access_a_reference/) - Reddit
+- See: [COMMON-REFERENCES.md › Forums and Community Support › Notable Threads](../COMMON-REFERENCES.md#forums-and-community-support)
 
 </details>
 
