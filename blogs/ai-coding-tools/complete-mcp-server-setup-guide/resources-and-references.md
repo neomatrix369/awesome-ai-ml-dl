@@ -189,6 +189,12 @@
 3. [Claude MCP Tools](https://github.com/GrimFandango42/Claude-MCP-tools)
 4. [RLabs MCP](https://github.com/RLabs-Inc/claude-mcp)
 
+### Community Tools, Prompts & Templates
+
+- [Magic by 21st.dev](https://21st.dev/magic) — AI-powered UI component generator available as an MCP server or web app; integrates with IDE agents like Cursor and VS Code via Cline.
+- [motlin/claude-code-prompts](https://github.com/motlin/claude-code-prompts) — Curated prompts and patterns for Claude Code to improve coding workflows.
+- [Claude Code Templates](https://davila7.github.io/claude-code-templates/) — Ready-to-use configurations, commands, MCPs, and plugins for Claude Code; includes a Stack Builder and CLI (`npx claude-code-templates@latest`).
+
 ### Package Name Corrections
 
 **Critical Resources**
