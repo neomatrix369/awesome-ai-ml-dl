@@ -2,13 +2,13 @@
 
 ### Keras Sequential model API
 
-[https://keras.io/models/sequential/]()
+[https://keras.io/api/models/sequential/](https://keras.io/api/models/sequential/)
 
 ### Dense layer 
 
 Each neuron in one layer will be fully connected to all neurons in the next layer
 
-[https://keras.io/layers/core/]()
+[https://keras.io/api/layers/core_layers/](https://keras.io/api/layers/core_layers/)
 
 **Parameters**
 
@@ -33,7 +33,7 @@ Tells our model how to calculate the output of a layer, see [ReLU](http://cs231n
 
 The model will normalize the evidence for each possible label into a probability (from 0 to 1). In the context of the posts, the probabilities assigned to the 20 tags for a given comment will sum up to 1. Each tag will have a probability between 0 and 1.
 
-[https://en.wikipedia.org/wiki/Softmax_function]()
+[https://en.wikipedia.org/wiki/Softmax_function](https://en.wikipedia.org/wiki/Softmax_function)
 
 ```python
 [continuation from previous snippet]
@@ -54,4 +54,4 @@ model.add(Dense(num_labels))
 model.add(Activation('softmax'))
 ```
 
-Input shape v/s unit v/s dim: [https://gitlab.com/gdgcloud/tensorflow/issues/15#note_100912332]()
+Input shape v/s unit v/s dim: [https://gitlab.com/gdgcloud/tensorflow/issues/15#note_100912332](https://gitlab.com/gdgcloud/tensorflow/issues/15#note_100912332)
