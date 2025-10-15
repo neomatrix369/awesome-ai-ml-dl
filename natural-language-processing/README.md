@@ -1,6 +1,6 @@
 # Natural Language Processing (NLP)
 
-Better NLP: [![Better NLP](https://i§g.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) 
+Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) 
 
 NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala) | <br/>
 NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/pulls/neomatrix369/dl4j-nlp-cuda.svg)](https://hub.docker.com/r/neomatrix369/dl4j-nlp-cuda)
@@ -8,7 +8,7 @@ NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/p
 - [General](#general)
 - [Datasets](#datasets)
 - [Java/JVM](#javajvm)
-- [Courses, Tutorial, Learning resource](#courses-tutorial-learning-resource)
+- [Courses, Tutorial, Learning resources](#courses-tutorial-learning-resources)
 - [Cloud](#cloud)
 - [Library, Framework, Models, Tools, Services](#library-framework-models-tools-services)
 - [Metaphor detection](#metaphor-detection)
@@ -38,7 +38,7 @@ See [General](./general.md)
 
 See [Java/JVM](./java-jvm.md)
 
-## Courses, Tutorial, Learning resource
+## Courses, Tutorial, Learning resources
 
 See [Course, Tutorial, Learning resource](./course-tutorial-learning-resources.md)
 
