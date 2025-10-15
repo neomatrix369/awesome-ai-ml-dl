@@ -67,11 +67,13 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Guides](guides.md#guides)
   - [Study notes](./study-notes/README.md#study-notes)
   - **[Things to know...](./things-to-know.md)**
+  - [AI Coding Tools](./blogs/ai-coding-tools/README.md) - Claude, MCP, Cursor resources
   - [Mathematica](./details/mathematica-wolfram-Language.md#mathematica--wolfram-language)
   - [Mathematics, Statistics, Probability & Probabilistic programming](./details/maths-stats-probability.md#mathematics-statistics-probability--probabilistic-programming)
   - [Data](README-details.md#data)
   - [Visualisation](./details/visualisation.md#visualisation)
   - [Graphs](README-details.md#graphs)
+  - [AI Coding Tools References](./blogs/ai-coding-tools/COMMON-REFERENCES.md) - MCP, Claude, Cursor resources
   - [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
   - [Time-series / anomaly detection](time-series_anomaly-detection/README.md)
   - [Examples](README-details.md#examples)

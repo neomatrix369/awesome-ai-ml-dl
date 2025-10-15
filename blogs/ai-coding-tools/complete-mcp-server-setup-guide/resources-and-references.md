@@ -1,27 +1,17 @@
 ## Resources and References
 
-<summary><strong>Official Documentation & Resources</strong>
+<summary><strong>Official Documentation & Resources</strong> — See common catalogs in [COMMON-REFERENCES.md](../COMMON-REFERENCES.md)
+
 ### Official Documentation
 
 **Model Context Protocol (MCP)**
-- [Official Site](https://modelcontextprotocol.io)
-- [Developer Docs](https://modelcontextprotocol.io/docs/develop/connect-local-servers)
-- [Quickstart Guide](https://modelcontextprotocol.io/quickstart/server)
-- [MCP Examples](https://modelcontextprotocol.io/examples)
-- [GitHub Repository](https://github.com/modelcontextprotocol/servers)
+- See: [COMMON-REFERENCES.md › Official Documentation › MCP](../COMMON-REFERENCES.md#official-documentation)
 
 **Anthropic / Claude**
-- [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code)
-- [Claude Code Best Practices](https://anthropic.com/engineering/claude-code-best-practices)
-- [Desktop Extensions](https://www.anthropic.com/engineering/desktop-extensions)
-- [Remote MCP Announcement](https://www.anthropic.com/news/claude-code-remote-mcp)
-- [Claude Support](https://support.claude.com)
+- See: [COMMON-REFERENCES.md › Official Documentation › Anthropic / Claude](../COMMON-REFERENCES.md#official-documentation)
 
 **Cursor IDE**
-- [Official MCP Docs](https://cursor.com/docs/context/mcp)
-- [Quickstart Guide](https://cursor.com/docs/get-started/quickstart)
-- [Rules for AI](https://cursor.com/docs/context/rules)
-- [MCP Directory](https://cursor.directory/mcp)
+- See: [COMMON-REFERENCES.md › Official Documentation › Cursor IDE](../COMMON-REFERENCES.md#official-documentation)
 
 ### Comparison and Setup Guides
 
@@ -38,6 +28,11 @@
 3. [Mastering Cursor Rules](https://dev.to/dpaluy/mastering-cursor-rules-a-developers-guide-to-smart-ai-integration-1k65) - Dev.to
 4. [Cursor IDE Setup Guide](https://www.usesaaskit.com/blog/cursor-ai-code-editor-setup-guide) - UseSaasKit
 5. [Cursor IDE Rules for AI](https://kirill-markin.com/articles/cursor-ide-rules-for-ai/) - Kirill Markin
+6. [Reference Files with @ in Claude Code](https://mcpcat.io/guides/reference-other-files/) - MCPCat
+7. [Referencing Files in Claude Code (Course Note)](https://stevekinney.com/courses/ai-development/referencing-files-in-claude-code) - Steve Kinney
+8. [Cursor Docs Hub](https://cursor.com/docs) - Cursor
+9. [Cursor Tips and Patterns](https://dev.to/heymarkkop/cursor-tips-10f8) - Dev.to
+10. [OpenMetadata: MCP with Claude](https://docs.open-metadata.org/latest/how-to-guides/mcp/claude) - OpenMetadata
 
 **Cross-Platform Setup**
 1. [How MCP Servers Work Across Platforms](https://dev.to/darkmavis1980/understanding-mcp-servers-across-different-platforms-claude-desktop-vs-vs-code-vs-cursor-4opk) - Dev.to
@@ -46,29 +41,16 @@
 
 ### MCP Server Collections
 
-**Comprehensive Directories**
-1. [Awesome MCP Servers](https://github.com/wong2/awesome-mcp-servers)
-2. [PipedreamHQ Collection](https://github.com/PipedreamHQ/awesome-mcp-servers)
-3. [TensorBlock Collection](https://github.com/TensorBlock/awesome-mcp-servers)
-4. [Punkpeye Collection](https://github.com/punkpeye/awesome-mcp-servers)
-5. [Habitoai Collection](https://github.com/habitoai/awesome-mcp-servers)
-6. [Topics on GitHub](https://github.com/topics/awesome-mcp-servers)
+**Comprehensive Directories** (canonical list)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › Community Collections](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 **Searchable Directories**
-- [MCPServers.org](https://mcpservers.org)
-- [MCP.so](https://mcp.so)
-- [Glama AI Directory](https://glama.ai/mcp/servers)
-- [LobHub MCP](https://lobehub.com/mcp)
-- [PulseMCP](https://www.pulsemcp.com)
-- [Playbooks MCP](https://playbooks.com/mcp)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › MCP Server Directories](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 ### Official MCP Servers
 
 **Core Servers**
-- [Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)
-- [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)
-- [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)
-- [Brave Search](https://github.com/modelcontextprotocol/server-brave-search)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › Official Servers](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 ### Community MCP Servers
 
@@ -142,15 +124,10 @@
 ### Debugging and Testing
 
 **Tools and Extensions**
-1. [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
-2. [Claude Debugs For You](https://github.com/jasonjmcghee/claude-debugs-for-you)
-3. [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=JasonMcGhee.claude-debugs-for-you)
-4. [VS Code MCP Support](https://code.visualstudio.com/docs/copilot/chat/mcp-servers)
+- See: [COMMON-REFERENCES.md › Debugging and Testing › Tools and Extensions](../COMMON-REFERENCES.md#debugging-and-testing)
 
 **Debugging Guides**
-1. [Debugging MCP Servers](https://modelcontextprotocol.io/docs/tools/debugging) - Model Context Protocol
-2. [MCP Troubleshooting](https://pcarion.com/blog/claude_mcp/) - PCArion
-3. [Unlocking Productivity with MCP](https://dev.to/tttn13/unlocking-productivity-with-mcp-servers-and-claude-a-comprehensive-guide-2692) - Dev.to
+- See: [COMMON-REFERENCES.md › Debugging and Testing › Debugging Guides](../COMMON-REFERENCES.md#debugging-and-testing)
 
 ### Platform-Specific Resources
 
@@ -174,12 +151,7 @@
 ### Video Tutorials
 
 **Setup and Configuration**
-1. [MCP Setup Walkthrough](https://www.youtube.com/watch?v=e4VS6nWEhzI)
-2. [Cursor MCP Configuration](https://www.youtube.com/watch?v=cyY97HzFOmE)
-3. [Advanced MCP Usage](https://www.youtube.com/watch?v=_xiw1q2CqZw)
-4. [Claude Code in Action](https://www.youtube.com/watch?v=IqNZUhV3RyY)
-5. [MCP Inspector Demo](https://www.youtube.com/watch?v=u-GGktUnSgg)
-6. [Cursor Setup Guide](https://www.youtube.com/watch?v=0iGEpx8IeM0)
+- See: [COMMON-REFERENCES.md › Video Tutorials](../COMMON-REFERENCES.md#video-tutorials)
 
 ### Installation Scripts and Tools
 
@@ -194,6 +166,11 @@
 - [Magic by 21st.dev](https://21st.dev/magic) — AI-powered UI component generator available as an MCP server or web app; integrates with IDE agents like Cursor and VS Code via Cline.
 - [motlin/claude-code-prompts](https://github.com/motlin/claude-code-prompts) — Curated prompts and patterns for Claude Code to improve coding workflows.
 - [Claude Code Templates](https://davila7.github.io/claude-code-templates/) — Ready-to-use configurations, commands, MCPs, and plugins for Claude Code; includes a Stack Builder and CLI (`npx claude-code-templates@latest`).
+- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) — Curated repository of commands, workflows, subagents, and practical techniques for Claude Code and agentic setups.
+
+### Cheatsheets & Quick References
+
+- [Neon: Claude Code Cheatsheet](https://neon.com/blog/our-claude-code-cheatsheet) — Up-to-date commands, agent patterns, and practical tips for CLI and multi-agent contexts.
 
 ### Package Name Corrections
 
@@ -210,16 +187,11 @@
 ### Forums and Community Support
 
 **Active Communities**
-- [Reddit r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/)
-- [Reddit r/mcp](https://www.reddit.com/r/mcp/)
-- [Reddit r/cursor](https://www.reddit.com/r/cursor/)
-- [Cursor Forum](https://forum.cursor.com)
+- See: [COMMON-REFERENCES.md › Forums and Community Support › Active Communities](../COMMON-REFERENCES.md#forums-and-community-support)
 - Hacker News: Search "MCP" or "Claude Code"
 
 **Notable Threads**
-1. ["What Tools/MCPs Are You Using?" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lx4277/what_tools_and_mcps_are_you_using_with_claude/)
-2. ["MCP Tools Discussion" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1lubtez/what_mcp_tools_you_are_using_with_claude_code/)
-3. ["How to Run Claude Code as MCP Server" - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1magmg7/how_to_run_claude_code_as_an_mcp_server_to/)
+- See: [COMMON-REFERENCES.md › Forums and Community Support › Notable Threads](../COMMON-REFERENCES.md#forums-and-community-support)
 
 </details>
 

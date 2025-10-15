@@ -1,24 +1,15 @@
-## Resources and References
+## Resources and References — Common catalogs in [COMMON-REFERENCES.md](../COMMON-REFERENCES.md)
 
-### Official Documentation
+### Official Documentation — See [COMMON-REFERENCES.md › Official Documentation](../COMMON-REFERENCES.md#official-documentation)
 
 **Anthropic / Claude**
-- [Claude Code Overview](https://docs.claude.com/en/docs/claude-code/overview)
-- [Claude Code Best Practices](https://anthropic.com/engineering/claude-code-best-practices)
-- [Claude Code MCP Integration](https://docs.claude.com/en/docs/claude-code/mcp)
-- [IDE Integrations](https://docs.claude.com/en/docs/claude-code/ide-integrations)
-- [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
+- See: [COMMON-REFERENCES.md › Official Documentation › Anthropic / Claude](../COMMON-REFERENCES.md#official-documentation)
 
 **Model Context Protocol (MCP)**
-- [Official Site](https://modelcontextprotocol.io)
-- [Documentation](https://modelcontextprotocol.io/docs/develop/connect-local-servers)
-- [Examples](https://modelcontextprotocol.io/examples)
-- [MCP Servers Repository](https://github.com/modelcontextprotocol/servers)
+- See: [COMMON-REFERENCES.md › Official Documentation › MCP](../COMMON-REFERENCES.md#official-documentation)
 
 **Cursor IDE**
-- [MCP Documentation](https://cursor.com/docs/context/mcp)
-- [Rules for AI](https://cursor.com/docs/context/rules)
-- [MCP Directory](https://cursor.directory/mcp)
+- See: [COMMON-REFERENCES.md › Official Documentation › Cursor IDE](../COMMON-REFERENCES.md#official-documentation)
 
 ### Command References
 
@@ -43,26 +34,16 @@
 
 **Key Finding**: Ultrathink only works in Claude Code CLI, not in Claude.ai web interface or Claude Desktop app.
 
-### MCP Server Catalogs
+### MCP Server Catalogs — See [COMMON-REFERENCES.md › MCP Server Catalogs](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 **Official Servers**
-- [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)
-- [Memory Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)
-- [Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › Official Servers](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 **Community Collections**
-1. [Awesome MCP Servers](https://github.com/wong2/awesome-mcp-servers)
-2. [PipedreamHQ Collection](https://github.com/PipedreamHQ/awesome-mcp-servers)
-3. [TensorBlock Collection](https://github.com/TensorBlock/awesome-mcp-servers)
-4. [Punkpeye Collection](https://github.com/punkpeye/awesome-mcp-servers)
-5. [Habitoai Collection](https://github.com/habitoai/awesome-mcp-servers)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › Community Collections](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 **MCP Server Directories**
-- [MCPServers.org](https://mcpservers.org)
-- [MCP.so](https://mcp.so)
-- [Glama AI](https://glama.ai/mcp/servers)
-- [LobHub](https://lobehub.com/mcp)
-- [PulseMCP](https://www.pulsemcp.com)
+- See: [COMMON-REFERENCES.md › MCP Server Catalogs › MCP Server Directories](../COMMON-REFERENCES.md#mcp-server-catalogs)
 
 ### Reasoning and Advanced MCP Servers
 
@@ -171,4 +152,3 @@
 - Discord Servers (check official sites)
 - GitHub Issues on respective repositories
 - Stack Overflow tags: #claude-ai, #mcp, #cursor-ide
-
