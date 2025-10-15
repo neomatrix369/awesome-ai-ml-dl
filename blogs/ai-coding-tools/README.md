@@ -61,6 +61,7 @@ Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, 
 
 ## External Resources
 
+- [Common References](./COMMON-REFERENCES.md) - Centralized reference for MCP, Claude, and Cursor resources
 - [Programming Resources](../../Programming-in-Python.md)
 - [Examples](../../examples/)
 - [Tools & Libraries](../../details/julia-python-and-r.md)
