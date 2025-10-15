@@ -2,7 +2,7 @@
 
 #### Wikipedia
 
-[https://en.wikipedia.org/wiki/Bag-of-words_model]()
+[https://en.wikipedia.org/wiki/Bag-of-words_model](https://en.wikipedia.org/wiki/Bag-of-words_model)
 
 **Example of implementation**
 

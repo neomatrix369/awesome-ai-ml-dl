@@ -28,13 +28,13 @@ The question to ask ourselves: _Do we know our data...?_
 - [Common mistakes when training models (data related)](./README.md#common-mistakes-when-training-models-data-related)
 - [Presentations](./README.md#presentations)
 - [Cheatsheets](./README.md#cheatsheets)
-- [Course / books](./README.md#course--books)
+- [Courses / books](./README.md#courses--books)
 - [Best practices / rules / an unordered list of high level or low level guidelines](./README.md#best-practices--rules--an-unordered-list-of-high-level-or-low-level-guidelines)
 - [Framework(s) / checklist(s)](./README.md#frameworks--checklists)
 - [Notebooks](../notebooks/README.md#notebooks)
 - [Programs and Tools](./README.md#programs-and-tools)
 - [Databases](./README.md#databases)
-- [References](./README.md#eferences)
+- [References](./README.md#references)
 - [Credits](./README.md#credits)
 - [Contributing](./README.md#contributing)
 
@@ -87,7 +87,8 @@ See [Datasets](./datasets.md)
 - [A set of descriptive statistics and hypothesis tests across different types of data](https://github.com/EricSchles/describer_ml)
 - [The statistical analysis t-test explained for beginners and experts](https://towardsdatascience.com/the-statistical-analysis-t-test-explained-for-beginners-and-experts-fd0e358bbb62)
 - [The book of why" by Judea Pearl : A great overview and presents many relevant techniques](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)
-- [Craig's presentation: Visualizing the Why — Strategy and Roadmaps in Context](https://www.dropbox.com/s/knagl9f7u9hxvr7/Strategy%20Maps%20Agile%20Evangelists.pdf?dl=0](https://www.youtube.com/watch?v=LOjsuYzzOkA)
+- [Craig's presentation: Visualizing the Why — Strategy and Roadmaps in Context (Slides)](https://www.dropbox.com/s/knagl9f7u9hxvr7/Strategy%20Maps%20Agile%20Evangelists.pdf?dl=0)
+- [Video](https://www.youtube.com/watch?v=LOjsuYzzOkA)
 - [Correlation & Causation: The Couple That Wasn’t](https://www.linkedin.com/posts/analytics-india-magazine_statistics-data-strategy-activity-6821324490719555584-9uyy)
 
 ## Data Exploratory Analysis
@@ -105,7 +106,7 @@ See [Data Generation](./data-generation.md#data-generation)
 
 ## Feature Extraction
 
-- [Hierarchical Feature Extraction for Compact Representation and Classification of Datasets](doc.ml.tu-berlin.de/publications/publications/SchKoh08.pdf)
+- [Hierarchical Feature Extraction for Compact Representation and Classification of Datasets](https://doc.ml.tu-berlin.de/publications/publications/SchKoh08.pdf)
 - [Guide to Feature Extraction Approaches for Text Data](https://rumankhan1.medium.com/guide-to-feature-extraction-approaches-for-text-data-1ebdcc4b9834)
 
 ## Feature Importance
@@ -142,7 +143,7 @@ See [Feature Selection](./feature-selection.md)
 
 ## Post model-creation analysis, ML interpretation/explainability
 - [Pruning: DL models](https://www.subhadityamukherjee.me/2020/09/25/Pruning.html)
-- [Pruning models](https://app.wandb.ai/authors/pruning/reports/Plunging-into-Model-Pruning-in-Deep-Learning--VmlldzoxMzcyMDg](https://app.wandb.ai/authors/pruning/reports/Scooping-into-Model-Pruning-in-Deep-Learning--VmlldzoxMzcyMDg?utm_source=social_slack&utm_medium=slack&utm_campaign=report_author)
+- [Pruning models (W&B Report)](https://app.wandb.ai/authors/pruning/reports/Scooping-into-Model-Pruning-in-Deep-Learning--VmlldzoxMzcyMDg?utm_source=social_slack&utm_medium=slack&utm_campaign=report_author)
 - [Poor Man’s BERT • Exploring Pruning as an Alternative to Knowledge Distillation.](https://www.linkedin.com/posts/philipvollet_nlp-nlproc-innovation-activity-6693396556227473408--3Ro)
 See [Post model-creation analysis, ML interpretation/explainability](./model-analysis-interpretation-explainability.md)
 

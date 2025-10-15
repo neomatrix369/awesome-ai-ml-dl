@@ -19,7 +19,7 @@
 - [Non-stationary Time-series](time-series.md#non-stationary-time-series)
 - [Generalized Additive Models](time-series.md#generalized-additive-models)
 - [Courses / Tutorials / Workshops](time-series.md#courses--tutorials--workshops)
-- [Applied Time series](time-series.mdapplied-time-series)
+- [Applied Time series](time-series.md#applied-time-series)
 - [Gaussian process](time-series.md#gaussian-process)
 - [Neural Networks & Deep Learning](time-series.md#neural-networks--deep-learning)
 - [Forecasting](time-series.md#forecasting)

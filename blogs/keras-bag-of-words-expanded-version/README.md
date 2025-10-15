@@ -4,13 +4,13 @@ Inspiration and original work by the good folks from Google: [Intro to text clas
 
 ## Complete code on GitHub
 
-[https://github.com/tensorflow/workshops/tree/master/extras/keras-bag-of-words]()
+[https://github.com/tensorflow/workshops/tree/master/extras/keras-bag-of-words](https://github.com/tensorflow/workshops/tree/master/extras/keras-bag-of-words)
 
 ## Installations
 
 ### Install TensorFlow
 
-An open source machine learning framework - [https://keras.io/]()
+An open source machine learning framework - [https://keras.io/](https://keras.io/)
 
 ```bash
 pip2.7 install --user tensorflow
@@ -20,7 +20,7 @@ pip3 install --user tensorflow
 
 ### Install Keras
 
-A high-level API built in to TensorFlow - [https://keras.io/]()
+A high-level API built in to TensorFlow - [https://keras.io/](https://keras.io/)
 
 ```bash
 pip2.7 install --user keras
@@ -56,7 +56,7 @@ See [Building the model steps](building-the-model.md)
 
 ### Cross entropy loss function
 
-[https://en.wikipedia.org/wiki/Cross_entropy]()
+[https://en.wikipedia.org/wiki/Cross_entropy](https://en.wikipedia.org/wiki/Cross_entropy)
 
 Each of the comments (on the post) can only belong to one post
 
@@ -66,11 +66,11 @@ An Optimizer is a function the model uses to minimize loss
 
 **Adam optimizer**
 
-[https://arxiv.org/abs/1412.6980]()
+[https://arxiv.org/abs/1412.6980](https://arxiv.org/abs/1412.6980)
 
 **More on optimizers**
 
-[https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)]()
+[https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning))
 
 ### Metrics
 
@@ -98,7 +98,7 @@ Increasing the size of the training dataset
 
 #### Dropout
 
-Adding dropout to one of the layers to prevent the model from overfitting - [https://keras.io/layers/core/]()
+Adding dropout to one of the layers to prevent the model from overfitting - [https://keras.io/layers/core/](https://keras.io/layers/core/)
 
 ## Resources
 
