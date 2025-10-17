@@ -1,5 +1,9 @@
 # Notebooks
 
+[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Data](../data/README.md)
+
+Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Details](../README-details.md#general) · [Presentations](../presentations/README.md) · [Tools](../tools/README.md)
+
 ## Notebook Applications and Extensions
 
 - [Jupyter Notebook](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/jupyter-notebook/jupyter-notebook.md)

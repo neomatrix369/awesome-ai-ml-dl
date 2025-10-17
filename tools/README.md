@@ -1,5 +1,7 @@
 # Tools & Technologies for AI/ML/DL
 
+[Back to main](../README.md) | [Details](../README-details.md) | [Notebooks](../notebooks/README.md) | [Data](../data/README.md)
+
 A comprehensive guide to tools, technologies, and platforms used in artificial intelligence, machine learning, and deep learning.
 
 ## Table of Contents

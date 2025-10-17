@@ -1,5 +1,7 @@
 # Presentations
 
+[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+
 - On AI/ML/DL related topics, see [awesome-ai-ml-dl](awesome-ai-ml-dl)
 - On Data related topics, see [data](data)
 - On NLP related topics, see [nlp](nlp)

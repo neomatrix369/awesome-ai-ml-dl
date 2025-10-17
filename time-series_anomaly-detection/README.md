@@ -1,5 +1,7 @@
 ## Time-series / anomaly detection
 
+[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+
 - [Time-series](#timeseries)
   - [Notebooks](#notebooks)
 - [Anomaly detection](#anomaly-detection)
