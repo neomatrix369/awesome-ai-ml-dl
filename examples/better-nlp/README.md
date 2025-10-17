@@ -92,7 +92,7 @@ You can open these notebooks directly into Google Colab:
 
 Setup an environment needed to be able to run these programs without having to worry about the dependencies they use.
 
-Please be aware that even though we are install only a few components, the installation process takes some time (irrespective if you are running in via your local environment or inside a docker container). Give it about 20-30 minutes depending on network bandwidth and overall machine performance. Or you can use a pre-built docker image, see [Docker environment](README.md#docker_environment.md) for more details.
+Please be aware that even though we are install only a few components, the installation process takes some time (irrespective if you are running in via your local environment or inside a docker container). Give it about 20-30 minutes depending on network bandwidth and overall machine performance. Or you can use a pre-built docker image, see [Docker environment](./docs/Docker_environment.md) for more details.
 
 ### Local environment
 

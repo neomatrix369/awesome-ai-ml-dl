@@ -242,5 +242,5 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [details page (table of contents)](../README-details.md#java-jvm)<br>
+Back to [details page (table of contents)](../README-details.md#java)<br>
 Back to [main page (table of contents)](../README.md)

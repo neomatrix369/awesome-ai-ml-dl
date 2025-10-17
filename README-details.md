@@ -117,7 +117,7 @@
 
 ### Java
 
-See [Java](./details/java-jvm.md#java_jvm)
+See [Java](./details/java-jvm.md#javajvm)
 
 ### Julia, Python & R
 

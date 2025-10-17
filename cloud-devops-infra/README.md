@@ -29,7 +29,7 @@ Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Details](
 ## Compute & Storage
   
   - [Cray Computers](https://www.cray.com/ai) | [Artificial Intelligence](https://www.cray.com/solutions/artificial-intelligence) | [Accel AI](https://www.cray.com/solutions/artificial-intelligence/cray-accel-ai) | [Cryp-em](https://www.cray.com/solutions/cryo-em) | [Autonomous Vehicles](https://www.cray.com/solutions/autonomous-vehicles) | [Geospatial AI](https://www.cray.com/solutions/geospatial-ai)
-  - [GraphCore's IPU](README.md#ipu)
+  - [GraphCore's IPU](#ipu)
   - [Lambda Labs](https://lambdalabs.com/)
   - NGD Systems: [Technology](https://www.ngdsystems.com/technology) [deadlink] | [Solutions](https://www.ngdsystems.com/solutions) - High Compute Storage, Scalable Computational Storage [deadlink] | [NGD Systems: Ensuring AI Advancement with Intelligent Storage](https://www.insightssuccess.com/ngd-systems-ensuring-ai-advancement-with-intelligent-storage/)
 

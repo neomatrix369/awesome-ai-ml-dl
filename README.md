@@ -27,7 +27,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Python Performance](Python-Performance.md) - Redirect to performance section
 
 ### Java & JVM
-- [Java](./details/java-jvm.md#java)
+- [Java](./details/java-jvm.md#javajvm)
   - [Business / General / Semi-technical](./details/java-jvm.md#business--general--semi-technical)
   - [Classifier / decision trees](./details/java-jvm.md#classifier--decision-trees)
   - [Correlated Cross Occurrence](./details/java-jvm.md#correlated-cross-occurrence)
