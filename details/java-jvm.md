@@ -79,7 +79,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ## Natural Language Processing (NLP)
 
-  - See [Java/JVM](../natural-language-processing/java-jvm.md#javajvm) in [Natural Language Processing (NLP)](../natural-language-processing#natural-language-processing-nlp)
+  - See [Java/JVM](../natural-language-processing/java-jvm.md#javajvm) in [Natural Language Processing (NLP)](../natural-language-processing/README.md#natural-language-processing-nlp)
 
 ## Neural Networks
 
