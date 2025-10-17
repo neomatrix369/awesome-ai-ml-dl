@@ -1,6 +1,10 @@
 # Data
 
+> 📊 From collection to insights: datasets, EDA, features, and workflows.
+
 [Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+
+📚 [Data](./README.md) | 🧪 [Notebooks](../notebooks/README.md) | 🛠️ [Tools](../tools/README.md) | 🤖 [Agents](../ai-agents/README.md) | ☁️ [Cloud](../cloud-devops-infra/README.md) | 🧠 [NLP](../natural-language-processing/README.md)
 
 Navigation: [Home](../README.md) · [Details](../README-details.md#general) · [Notebooks](../notebooks/README.md) · [Presentations](../presentations/README.md) · [Tools](../tools/README.md)
 
