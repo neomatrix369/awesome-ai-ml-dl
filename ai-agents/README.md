@@ -4,6 +4,12 @@
 
 Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Details](../README-details.md#general) · [Notebooks](../notebooks/README.md) · [Tools](../tools/README.md)
 
+## Related
+- [Tools](../tools/README.md)
+- [Data](../data/README.md)
+- [Notebooks](../notebooks/README.md)
+- [NLP](../natural-language-processing/README.md)
+
 This document outlines key concepts and components related to building AI agents.
 
 ## APIs

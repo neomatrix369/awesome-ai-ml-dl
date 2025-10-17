@@ -6,6 +6,13 @@ This section curates infrastructure, cloud, and DevOps resources for AI/ML/DL wo
 
 Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Details](../README-details.md#general) · [Notebooks](../notebooks/README.md) · [Tools](../tools/README.md)
 
+## Related
+- [Data](../data/README.md)
+- [Tools](../tools/README.md)
+- [Notebooks](../notebooks/README.md)
+- [AI Agents](../ai-agents/README.md)
+- [NLP](../natural-language-processing/README.md)
+
 - [System / Infra](#system--infra)
 - [Compute & Storage](#compute--storage)
 - [Grid computing / Super computing](#grid-computing--super-computing)
@@ -197,6 +204,12 @@ reproducible research
   - [Deep Learning Benchmarking Suite](https://github.com/HewlettPackard/dlcookbook-dlbs) | [HPE Deep Learning Cookbook](https://www.hpe.com/software/dl-cookbook)
   - [Hyperdimensional Computing: An Introduction to Computing in Distributed Representation with High-Dimensional Random Vectors](http://www.rctn.org/vs265/kanerva09-hyperdimensional.pdf)
   - [Performance profiling in TF 2 (TF Dev Summit '20)](https://www.youtube.com/watch?v=pXHAQIhhMhI)
+
+## Related
+
+- [Data](../data/README.md)
+- [Tools](../tools/README.md)
+- [Notebooks](../notebooks/README.md)
 
 ## Misc
 
