@@ -1,5 +1,7 @@
 # Visualisation
 
+Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Notebooks](../notebooks/README.md) · [Presentations](../presentations/README.md) · [Tools](../tools/README.md)
+
 ## Tools, Libraries, Packages, Frameworks
   - [Vega: a grammar of interactive graphics](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) | [Vega: Homepage](https://vega.github.io) | [Vega: GitHub](https://github.com/vega) | [Vega-lite](https://vega.github.io/vega-lite/)
   - [Matplotlib](https://www.dataquest.io/blog/matplotlib-tutorial/) | [Matplotlib gallery](https://matplotlib.org/3.2.2/gallery/index.html) [1](https://matplotlib.org/gallery.html)[2](https://pythonspot.com/matplotlib-gallery/)[3](https://python-graph-gallery.com/matplotlib/)[4](https://github.com/rasbt/matplotlib-gallery)
