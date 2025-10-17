@@ -1,5 +1,9 @@
 # AI Agents
 
+[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+
+Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Details](../README-details.md#general) · [Notebooks](../notebooks/README.md) · [Tools](../tools/README.md)
+
 This document outlines key concepts and components related to building AI agents.
 
 ## APIs
@@ -80,6 +84,12 @@ Several tools and frameworks have emerged to simplify the development of AI agen
 ## Examples
 
 - [Bary's MCP Headless Gmail Server](./examples/mcp-headless-gmail.md)
+
+## Related
+
+- [Tools & Technologies](../tools/README.md)
+- [Data](../data/README.md)
+- [Notebooks](../notebooks/README.md)
 
 ## Additional Resources
 
