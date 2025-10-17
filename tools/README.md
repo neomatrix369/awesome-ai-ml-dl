@@ -2,6 +2,12 @@
 
 [Back to main](../README.md) | [Details](../README-details.md) | [Notebooks](../notebooks/README.md) | [Data](../data/README.md)
 
+## Related
+- [Data](../data/README.md)
+- [Notebooks](../notebooks/README.md)
+- [AI Agents](../ai-agents/README.md)
+- [NLP](../natural-language-processing/README.md)
+
 A comprehensive guide to tools, technologies, and platforms used in artificial intelligence, machine learning, and deep learning.
 
 ## Table of Contents
