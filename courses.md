@@ -1,5 +1,7 @@
 # Courses 
 
+[Back to main](./README.md) | [Details](./README-details.md) | [Data](./data/README.md) | [NLP](./natural-language-processing/README.md) | [Tools](./tools/README.md) | [Notebooks](./notebooks/README.md)
+
 - [Algorithms](#algorithms)
 - [Cambridge Spark](#cambridge-spark)
 - [Datacamp](#datacamp)

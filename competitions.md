@@ -1,5 +1,7 @@
 # Competitions: AI, ML, DL, DS
 
+[Back to main](./README.md) | [Details](./README-details.md) | [Data](./data/README.md) | [NLP](./natural-language-processing/README.md) | [Tools](./tools/README.md) | [Notebooks](./notebooks/README.md)
+
 ## General
 
 - [Kaggle competitions](https://www.kaggle.com/competitions)
