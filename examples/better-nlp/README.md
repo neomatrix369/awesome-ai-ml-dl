@@ -1,5 +1,7 @@
 # Better NLP [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+[Back to main](../../README.md) | [Details](../../README-details.md) | [Data](../../data/README.md) | [NLP](../../natural-language-processing/README.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
+
 This is a wrapper program/library that encapsulates a couple of NLP libraries that are popular among the AI and ML communities.
 
 Examples have been used to illustrate the usage as much as possible. Not all the APIs of the underlying libraries have been covered.

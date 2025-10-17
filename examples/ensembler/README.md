@@ -1,5 +1,7 @@
 # Ensembler [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+[Back to main](../../README.md) | [Details](../../README-details.md) | [Data](../../data/README.md) | [NLP](../../natural-language-processing/README.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
+
 
 ---
 

@@ -1,5 +1,7 @@
 # Apache Zeppelin [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+[Back to main](../../README.md) | [Details](../../README-details.md) | [Data](../../data/README.md) | [NLP](../../natural-language-processing/README.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
+
 Just like [JuPyteR notebooks](https://jupyter.org/), [Apache Zeppelin](http://zeppelin.apache.org/) gives us the facility to write notebooks using Java, Scala and other languages or better known as [interpreters](http://zeppelin.apache.org/docs/0.8.0/usage/interpreter/overview.html).
 
 Enjoy writing prototypes, experiments or do some real work with it, in Java, Scala or any other intepreter of your choice.
