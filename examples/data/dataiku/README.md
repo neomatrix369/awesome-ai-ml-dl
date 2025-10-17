@@ -1,5 +1,7 @@
 # Dataiku Data Science Studio (DSS) [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+[Back to main](../../../README.md) | [Details](../../../README-details.md) | [Data](../../../data/README.md) | [NLP](../../../natural-language-processing/README.md) | [Tools](../../../tools/README.md) | [Notebooks](../../../notebooks/README.md)
+
 Run [Dataiku Data Science Studio (DSS)](http://dataiku.com) in a docker container running under the traditional Java 8 (from OpenJDK or another source) or GraalVM.
 
 Find out more about [Dataiku DSS](http://dataiku.com) from the [Data](../../../data/about-Dataiku.md) section.
