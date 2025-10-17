@@ -2,6 +2,8 @@
 
 [Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
 
+A directory of slide decks and talk links across AI/ML/DL, Data, and NLP topics. Use these to explore project overviews, workshops, and community talks with slides and recordings where available.
+
 - On AI/ML/DL related topics, see [awesome-ai-ml-dl](awesome-ai-ml-dl)
 - On Data related topics, see [data](data)
 - On NLP related topics, see [nlp](nlp)

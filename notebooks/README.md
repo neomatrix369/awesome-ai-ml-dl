@@ -2,6 +2,8 @@
 
 [Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Data](../data/README.md)
 
+A hub for notebooks and kernels across topics: examples, Kaggle links, RAPIDS, DL/ML tutorials, and references grouped by domain. Use the quick links below to jump to areas of interest.
+
 Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Details](../README-details.md#general) · [Presentations](../presentations/README.md) · [Tools](../tools/README.md)
 
 ## Notebook Applications and Extensions
