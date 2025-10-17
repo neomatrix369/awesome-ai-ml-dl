@@ -7,4 +7,4 @@ This area in the repo is a result of the blog post [How to do Deep Learning for 
 
 ---
 
-Back to [main page (table of contents)](../../../../README.md#awesome-ai-ml-dl-)
+Back to [main page (table of contents)](../../../../README.md)
