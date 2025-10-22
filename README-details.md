@@ -1,5 +1,7 @@
 # Table of Contents
 
+[Back to main](./README.md) | [AI Agents](./ai-agents/) | [Data](./data/README.md) | [NLP](./natural-language-processing/README.md) | [Tools](./tools/README.md) | [Notebooks](./notebooks/README.md)
+
 - [General](#general)
 - [Artificial Intelligence](#artificial-intelligence)
 - [Automation](#automation)
@@ -115,7 +117,7 @@
 
 ### Java
 
-See [Java](./details/java-jvm.md#java_jvm)
+See [Java](./details/java-jvm.md#javajvm)
 
 ### Julia, Python & R
 

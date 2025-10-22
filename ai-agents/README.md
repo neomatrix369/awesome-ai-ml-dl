@@ -1,4 +1,18 @@
-# AI Agents
+# AI Agents 🤖
+
+> 🤖 Build, orchestrate, and evaluate agentic AI systems.
+
+[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+
+🤖 [Agents](./README.md) | 📚 [Data](../data/README.md) | 🧪 [Notebooks](../notebooks/README.md) | 🛠️ [Tools](../tools/README.md) | ☁️ [Cloud](../cloud-devops-infra/README.md) | 🧠 [NLP](../natural-language-processing/README.md)
+
+Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Details](../README-details.md#general) · [Notebooks](../notebooks/README.md) · [Tools](../tools/README.md)
+
+## Related
+- [Tools](../tools/README.md)
+- [Data](../data/README.md)
+- [Notebooks](../notebooks/README.md)
+- [NLP](../natural-language-processing/README.md)
 
 This document outlines key concepts and components related to building AI agents.
 
@@ -81,6 +95,22 @@ Several tools and frameworks have emerged to simplify the development of AI agen
 
 - [Bary's MCP Headless Gmail Server](./examples/mcp-headless-gmail.md)
 
+## Related
+
+- [Tools & Technologies](../tools/README.md)
+- [Data](../data/README.md)
+- [Notebooks](../notebooks/README.md)
+
 ## Additional Resources
 
 - For a curated list of MCP frameworks, tutorials, and tools relevant to AI agent development, please see our [MCPs, Tutorials, and Tools list](./resources/).
+
+# Contributing
+
+Contributions are very welcome, please share back with the wider community (and get credited for it)!
+
+Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../LICENSE.md) policy.
+
+---
+
+Back to [main page (table of contents)](../README.md)

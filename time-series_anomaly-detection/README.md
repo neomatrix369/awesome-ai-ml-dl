@@ -1,5 +1,9 @@
 ## Time-series / anomaly detection
 
+[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+
+Curated links and notes for time-series analysis and anomaly detection: methods, libraries, notebooks, and applied resources for forecasting and pattern discovery.
+
 - [Time-series](#timeseries)
   - [Notebooks](#notebooks)
 - [Anomaly detection](#anomaly-detection)

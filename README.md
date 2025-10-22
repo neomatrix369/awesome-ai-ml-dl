@@ -27,7 +27,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Python Performance](Python-Performance.md) - Redirect to performance section
 
 ### Java & JVM
-- [Java](./details/java-jvm.md#java)
+- [Java](./details/java-jvm.md#javajvm)
   - [Business / General / Semi-technical](./details/java-jvm.md#business--general--semi-technical)
   - [Classifier / decision trees](./details/java-jvm.md#classifier--decision-trees)
   - [Correlated Cross Occurrence](./details/java-jvm.md#correlated-cross-occurrence)
@@ -43,7 +43,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Machine Learning](./details/java-jvm.md#machine-learning)
     - [Deep learning](./details/java-jvm.md#deep-learning)
        - [Reinforcement learning](./details/java-jvm.md#reinforcement-learning)
-    - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
+    - [ML on Code/Programm/Source Code](./details/ML-on-code-programming-source-code.md)
   - [Tools & Libraries, Resources](./details/java-jvm.md#tools--libraries-other-resources)
   - [How-to / Deploy / DevOps / Serverless](./details/java-jvm.md#how-to--deploy--devops--serverless)
   - [Misc](./details/java-jvm.md#misc)
@@ -62,7 +62,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [Machine learning](./details/julia-python-and-r.md#machine-learning)
     - [Deep learning](./details/julia-python-and-r.md#deep-learning)
       - [Reinforcement learning](./details/julia-python-and-r.md#reinforcement-learning)
-    - [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
+    - [ML on Code/Programm/Source Code](./details/ML-on-code-programming-source-code.md)
   - [AI in Golang](./details/julia-python-and-r.md#programming-in-golang)
   - [More...](./details/julia-python-and-r.md#more)
 - [JavaScript](README-details.md#javascript)

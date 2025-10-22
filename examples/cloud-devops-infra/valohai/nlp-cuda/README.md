@@ -8,4 +8,4 @@ This area in the repo is a result of the blog post [Applying NLP in Java, all fr
 
 ---
 
-Back to [main page (table of contents)](../../../../README.md#awesome-ai-ml-dl-)
+Back to [main page (table of contents)](../../../../README.md)

@@ -1,5 +1,13 @@
 # Tools & Technologies for AI/ML/DL
 
+[Back to main](../README.md) | [Details](../README-details.md) | [Notebooks](../notebooks/README.md) | [Data](../data/README.md)
+
+## Related
+- [Data](../data/README.md)
+- [Notebooks](../notebooks/README.md)
+- [AI Agents](../ai-agents/README.md)
+- [NLP](../natural-language-processing/README.md)
+
 A comprehensive guide to tools, technologies, and platforms used in artificial intelligence, machine learning, and deep learning.
 
 ## Table of Contents
@@ -47,16 +55,22 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 ## Machine Learning Frameworks
 
 ### Deep Learning
-- [TensorFlow](https://www.tensorflow.org/) - Google's ML platform
-- [PyTorch](https://pytorch.org/) - Facebook's ML framework
-- [Keras](https://keras.io/) - High-level neural networks API
-- [Fast.ai](https://www.fast.ai/) - Practical deep learning
+
+| Framework | Type | Notes |
+|---|---|---|
+| [TensorFlow](https://www.tensorflow.org/) | Deep Learning | Google's end-to-end ML platform |
+| [PyTorch](https://pytorch.org/) | Deep Learning | Dynamic graph DL framework |
+| [Keras](https://keras.io/) | High-level API | Runs atop TF; rapid prototyping |
+| [Fast.ai](https://www.fast.ai/) | Library | Practical DL on PyTorch |
 
 ### Traditional ML
-- [Scikit-learn](https://scikit-learn.org/) - Python ML library
-- [XGBoost](https://xgboost.readthedocs.io/) - Gradient boosting
-- [LightGBM](https://lightgbm.readthedocs.io/) - Gradient boosting framework
-- [CatBoost](https://catboost.ai/) - Gradient boosting on decision trees
+
+| Framework | Type | Notes |
+|---|---|---|
+| [Scikit-learn](https://scikit-learn.org/) | ML | Classic algorithms & utilities |
+| [XGBoost](https://xgboost.readthedocs.io/) | Gradient Boosting | Optimized GBDT |
+| [LightGBM](https://lightgbm.readthedocs.io/) | Gradient Boosting | Fast, histogram-based |
+| [CatBoost](https://catboost.ai/) | Gradient Boosting | Handles categorical features well |
 
 ### AutoML Tools
 - [Google AutoML](https://cloud.google.com/automl/) - Automated ML

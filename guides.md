@@ -1,5 +1,7 @@
 # Guides
 
+[Back to main](./README.md) | [Details](./README-details.md) | [Data](./data/README.md) | [NLP](./natural-language-processing/README.md) | [Tools](./tools/README.md) | [Notebooks](./notebooks/README.md)
+
 This section will be dedicated to guides to learning Data Science, Machine Learning, Deep Learning, and the likes. The material comes from links to various sources, one of the primary ones being [Virgilio](https://github.com/virgili0/Virgilio), for those who are not familiar with it.
 
 - [Virgili0](#virgili0)

@@ -79,7 +79,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ## Natural Language Processing (NLP)
 
-  - See [Java/JVM](../natural-language-processing/java-jvm.md#javajvm) in [Natural Language Processing (NLP)](../natural-language-processing#natural-language-processing-nlp)
+  - See [Java/JVM](../natural-language-processing/java-jvm.md#javajvm) in [Natural Language Processing (NLP)](../natural-language-processing/README.md#natural-language-processing-nlp)
 
 ## Neural Networks
 
@@ -115,6 +115,8 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ## Machine Learning
 
+Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learning-frameworks) for a consolidated overview.
+
 - [Tribuo](https://tribuo.org/) | [Github](https://github.com/oracle/tribuo) | [The Oracle Labs Configuration and Utilities Toolkit](http://github.com/oracle/olcut) - Java ML library from Oracle Labs | [Tribuo example](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/tribuo)
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
 - [What do you need for ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
@@ -138,7 +140,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 - [Building Models of Java Code from Source and JAR Files](https://bit.ly/2Mfxt5P)
 - [Introduction to Machine Learning and Neural Networks for Java Developers](https://blogs.oracle.com/developers/introduction-to-machine-learning-and-neural-networks-for-java-developers)
 - See [Java/JVM](../courses.md#javajvm) in [Courses](../courses.md)
-- See [ML on Code/Programm/Source Code](../ML-on-code-programming-source-code.md)
+- See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
 - See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
@@ -242,5 +244,5 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [details page (table of contents)](../README-details.md#java-jvm)<br>
+Back to [details page (table of contents)](../README-details.md#java)<br>
 Back to [main page (table of contents)](../README.md)

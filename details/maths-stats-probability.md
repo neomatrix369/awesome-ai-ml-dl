@@ -214,5 +214,5 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [details page (table of contents)](../README-details.md#mathematics_statistics_probability__probabilistic_programming)<br>
+Back to [details page (table of contents)](../README-details.md#mathematics-statistics-probability--probabilistic-programming)<br>
 Back to [main page (table of contents)](../README.md)
