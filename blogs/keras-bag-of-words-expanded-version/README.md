@@ -1,5 +1,7 @@
 # Intro to text classification with Keras: automatically tagging Stack Overflow posts - an expanded version
 
+[Back to main](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
+
 Inspiration and original work by the good folks from Google: [Intro to text classification with Keras: automatically tagging Stack Overflow posts](https://cloud.google.com/blog/products/gcp/intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts)
 
 ## Complete code on GitHub
@@ -113,3 +115,5 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 ---
 
 Back to [main page (table of contents)](../../README.md)
+
+[↑ Back to top](#intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts---an-expanded-version) · [← Back home](../../README.md)

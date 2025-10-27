@@ -1,5 +1,7 @@
 ## Looking into Java ML/DL libraries: Tribuo and DeepNetts
 
+[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+
 ### Slides
 
 See [slides (PDF)](Looking_into_Java_ML_DL_Libraries_Tribuo_and_DeepNetts.pdf) - please download to be able to click on the links (see top corner for Download button when on the page with the PDF displayed). `Linux` or `Windows` users in case links don't work, try to open the PDF in a web browser and it should work.
@@ -21,3 +23,7 @@ During the time I have been looking in this space, I have come across a number o
 We will see how we can make use of the features provided and also interact/interop with other extended technologies or frameworks. We will try to do all of this with the help of code and demos.
 
 See [talk](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/275855178/) link.
+
+---
+
+[↑ Back to top](#looking-into-java-mldl-libraries-tribuo-and-deepnetts) · [← Back home](../../../README.md)

@@ -1,5 +1,7 @@
 ## From backend development to machine learning
 
+[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+
 
 ### Slides
 
@@ -20,3 +22,7 @@ In my journey to better myself, learn newer and more interesting subjects and te
 We will explore the journey but also navigate through the subjects, the categories, sub-categories and the examples. Talk about the benefits and how you could get involved with https://bit.ly/better-nlp-launch (also see https://github.com/neomatrix369/awesome-ai-ml-dl).
 
 Towards the end, I would like to share some inspirations on Masters, Grandmasters and Masters of Grandmasters (principles overlap with that of many fields be it ours or that of others). To keep the sessions lively and interesting, I'll try to show a demo or two, and as takeaway share puzzles and thought exercises you could on your own.
+
+---
+
+[↑ Back to top](#from-backend-development-to-machine-learning) · [← Back home](../../../README.md)

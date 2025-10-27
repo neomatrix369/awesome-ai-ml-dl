@@ -1,5 +1,7 @@
 ## "nn" things every Java Developer should know about AI/ML/DL
 
+[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+
 
 ### Slides
 
@@ -20,3 +22,7 @@ As a Java developer, to better myself, learn new and more interesting subjects a
 To keep the session lively and interesting, I'll try to show a demo or two, and as takeaway share puzzles and thought exercises you could do on your own after the session is over. "nn" things every Java developer should know about.
 
 See [talk](https://oracle-groundbreakers-apac-virtual-tour-2020.heysummit.com/talks/nn-things-every-java-developer-should-know-about-aimldl/) link.
+
+---
+
+[↑ Back to top](#nn-things-every-java-developer-should-know-about-aiml-dl) · [← Back home](../../../README.md)

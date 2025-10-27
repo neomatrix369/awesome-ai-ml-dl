@@ -1,5 +1,7 @@
 ## Do we know our data, as good as we know our tools?
 
+[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+
 ### Slides
 
 See [slides (PDF)](Do_we_know_our_data,_as_good_as_we_know_our_tools_.pdf)
@@ -46,4 +48,8 @@ And using different kinds of plots relevant at different stages.
 
 - [Notebooks used during the talk](../../../notebooks/jupyter/data/)
 - Also see towards the bottom of [Notebooks](../../../notebooks/README.md)
+
+---
+
+[↑ Back to top](#do-we-know-our-data-as-good-as-we-know-our-tools) · [← Back home](../../../README.md)
 
