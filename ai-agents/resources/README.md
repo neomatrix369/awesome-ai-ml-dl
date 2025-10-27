@@ -1,5 +1,7 @@
 # MCP Frameworks, Tutorials, and Tools for AI Agent Development
 
+[Back to main](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
+
 This document provides a curated list of Model Context Protocol (MCP) frameworks, tutorials, tools, and platforms relevant to the development of AI agents.
 
 ## MCP Frameworks
@@ -82,3 +84,5 @@ This section highlights specific open-source MCP server and client implementatio
 
 This list is not exhaustive but provides a good starting point for developers looking to build AI agents using MCP principles.
 The field is rapidly evolving, so it's recommended to also follow communities and publications in the AI space for the latest developments.
+
+[↑ Back to top](#mcp-frameworks-tutorials-and-tools-for-ai-agent-development) · [← Back home](../../README.md)

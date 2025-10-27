@@ -1,5 +1,7 @@
 ## Papers by members of Google and Google X (aka X-Team)
 
+[Back to main](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
+
 - [TensorNetwork for Machine Learning](https://arxiv.org/pdf/1906.06329.pdf) 
 - [Using Simulation and Domain Adaptation to Improve Efficiency of Deep Robotic Grasping](https://arxiv.org/abs/1709.07857)
 - [QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation](https://arxiv.org/abs/1806.10293)
@@ -24,3 +26,5 @@
     - [Page 14 - Contributions to Science & Engineering of Intelligence.jpg](./papers/google-x/Page\ 14\ -\ Contributions\ to\ Science\ \&\ Engineering\ of\ Intelligence.jpg)
 
 Back to [main page (table of contents)](../../README.md)
+
+[↑ Back to top](#papers-by-members-of-google-and-google-x-aka-x-team) · [← Back home](../../README.md)

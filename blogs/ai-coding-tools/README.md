@@ -1,5 +1,7 @@
 # AI Coding Tools Blog Posts
 
+[Back to main](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
+
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/44jde1ck0iykhfsvyhro.png)
 
 > AI-assisted development, code assistants, and intelligent developer tools
@@ -91,4 +93,6 @@ Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, 
 ---
 
 [Back to all blogs](../README.md) | [Main repository](../../README.md)
+
+[↑ Back to top](#ai-coding-tools-blog-posts) · [← Back home](../../README.md)
 

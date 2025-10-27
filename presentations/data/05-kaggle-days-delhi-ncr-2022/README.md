@@ -1,5 +1,7 @@
 ## Studying the limitations of statistical measurements
 
+[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+
 ### Slides
 
 See [slides (PDF)](Studying-the-limitations-of-statistical-measurements.pdf) - please download to be able to click on the links (see top corner for Download button when on the page with the PDF displayed). `Linux` or `Windows` users in case links don't work, try to open the PDF in a web browser and it should work.

@@ -1,5 +1,7 @@
 ## Tribuo: an introduction to a Java ML Library
 
+[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+
 
 ### Slides
 
@@ -20,3 +22,7 @@ As a developer or a Java developer, if we look around and are following current 
 Especially, with so much progress in the AI/ML space, we can sometimes feel a bit like we have been left behind. But with [Tribuo](https://tribuo.org) - a Java-based ML library, things are going to change for Java/JVM developers. In this talk, we will see how we can make use of the features provided and also interact/interop with other extended technologies and frameworks in this space. We will try to do all of this with the help of code and demos. Keep your eyes open for puzzles and thought exercises through the course of the presentation.
 
 See [talk](https://makeit.si/index.php/en/agenda/java/item/160-tribuo-an-introduction-to-java-ml-library) link.
+
+---
+
+[↑ Back to top](#tribuo-an-introduction-to-a-java-ml-library) · [← Back home](../../../README.md)

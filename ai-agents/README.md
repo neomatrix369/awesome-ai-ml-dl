@@ -2,11 +2,7 @@
 
 > 🤖 Build, orchestrate, and evaluate agentic AI systems.
 
-[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
-
-🤖 [Agents](./README.md) | 📚 [Data](../data/README.md) | 🧪 [Notebooks](../notebooks/README.md) | 🛠️ [Tools](../tools/README.md) | ☁️ [Cloud](../cloud-devops-infra/README.md) | 🧠 [NLP](../natural-language-processing/README.md)
-
-Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Details](../README-details.md#general) · [Notebooks](../notebooks/README.md) · [Tools](../tools/README.md)
+Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 🤖 [Agents](./README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · ☁️ [Cloud](../cloud-devops-infra/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
 
 ## Related
 - [Tools](../tools/README.md)

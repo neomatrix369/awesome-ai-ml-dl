@@ -1,5 +1,7 @@
 ## The Out of The Box Developer
 
+[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+
 ### Slides & Videos
 
 **Youtube playlist**
@@ -37,3 +39,7 @@ Please download slides to be able to click on the links (see top corner for Down
 ### Speakers
 
 - [Mani Sarkar](http://github.com/neomatrix369) | [Bruno Souza](https://twitter.com/brjavaman) | [Yugo Sakamoto](https://twitter.com/ymoto)
+
+---
+
+[↑ Back to top](#the-out-of-the-box-developer) · [← Back home](../../../README.md)
