@@ -39,7 +39,7 @@ def exists_as_file_or_dir_with_readme(abs_path: str) -> bool:
     return os.path.isfile(readme2)
 
 
-def check_file(md_file: string) -> List[Tuple[int, str]]:
+def check_file(md_file: str) -> List[Tuple[int, str]]:
     broken: List[Tuple[int, str]] = []
     try:
         with open(md_file, 'r', encoding='utf-8') as f:
