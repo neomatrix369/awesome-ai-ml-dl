@@ -1,6 +1,8 @@
 # 🧠 Natural Language Processing (NLP)
 > Understand and build systems that process and generate human language.
 
+![Section](https://img.shields.io/badge/Section-Domain-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 Navigation: [Home](../../README.md) · [🧠 NLP (main)](../../natural-language-processing/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🤖 Agents](../../ai-agents/README.md) · [Domains](../README.md)
 
 ## At a glance

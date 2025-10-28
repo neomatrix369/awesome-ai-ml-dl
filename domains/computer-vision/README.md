@@ -1,6 +1,8 @@
 # 🖼️ Computer Vision (CV)
 > Perception, detection, and understanding of visual data.
 
+![Section](https://img.shields.io/badge/Section-Domain-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🧠 NLP](../../natural-language-processing/README.md) · [Domains](../README.md)
 
 ## At a glance

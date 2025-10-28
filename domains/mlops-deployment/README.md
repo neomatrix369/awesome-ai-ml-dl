@@ -1,6 +1,8 @@
 # 🚀 MLOps & Deployment
 > From experimentation to reliable, scalable production ML.
 
+![Section](https://img.shields.io/badge/Section-Domain-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [☁️ Infrastructure](../../infrastructure/README.md) · [Domains](../README.md)
 
 ## At a glance

@@ -2,6 +2,8 @@
 
 > 🗂️ Explore topic-focused hubs (agents, NLP, CV, LLMs, time-series, and more).
 
+![Section](https://img.shields.io/badge/Section-Domains-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 Navigation: [Home](../README.md) · 🧠 [NLP](../natural-language-processing/README.md) · 🤖 [Agents](../ai-agents/README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md)
 
 ## At a glance

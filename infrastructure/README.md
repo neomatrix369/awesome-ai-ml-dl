@@ -1,6 +1,8 @@
 # ☁️ Infrastructure
 > Cloud, DevOps, and hardware resources for AI/ML/DL.
 
+![Section](https://img.shields.io/badge/Section-Infrastructure-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
 
 ## At a glance

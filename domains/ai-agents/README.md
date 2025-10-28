@@ -1,6 +1,8 @@
 # 🤖 AI Agents
 > Build, orchestrate, and evaluate agentic AI systems.
 
+![Section](https://img.shields.io/badge/Section-Domain-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 Navigation: [Home](../../README.md) · [🤖 Agents (main)](../../ai-agents/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🧠 NLP](../../natural-language-processing/README.md) · [Domains](../README.md)
 
 ## At a glance
