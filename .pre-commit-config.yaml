@@ -12,3 +12,9 @@ repos:
         language: system
         files: \.md$
         stages: [manual]
+      - id: anchors-images-check
+        name: anchors-images-check
+        entry: python3 tools/check_anchors_images.py
+        language: system
+        files: \.md$
+        stages: [manual]
