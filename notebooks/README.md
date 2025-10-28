@@ -2,6 +2,8 @@
 
 > 📓 Explore, iterate, and share: curated notebooks and kernels.
 
+![Section](https://img.shields.io/badge/Section-Notebooks-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 A hub for notebooks and kernels across topics: examples, Kaggle links, RAPIDS, DL/ML tutorials, and references grouped by domain. Use the quick links below to jump to areas of interest.
 
 Navigation: [Home](../README.md) · [Details](../README-details.md#general) · [Data](../data/README.md) · [Presentations](../presentations/README.md) · [Tools](../tools/README.md)
