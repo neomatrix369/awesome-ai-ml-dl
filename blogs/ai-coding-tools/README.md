@@ -86,7 +86,7 @@ Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, 
 
 - **No Professional Advice:** Nothing in this repository constitutes professional, legal, or technical advice. Users should consult with qualified professionals for specific guidance related to their use cases.
 
-- **Community Contributions:** This is a community-driven project. Content may be contributed by various individuals. If you find errors, outdated information, or have suggestions for improvements, please see our [Contributing Guidelines](../CONTRIBUTING.md).
+- **Community Contributions:** This is a community-driven project. Content may be contributed by various individuals. If you find errors, outdated information, or have suggestions for improvements, please see our [Contributing Guidelines](../../CONTRIBUTING.md).
 
 **Use at Your Own Risk:** By using this repository, you acknowledge and accept these disclaimers and agree to use the information and resources at your own discretion and risk.
 

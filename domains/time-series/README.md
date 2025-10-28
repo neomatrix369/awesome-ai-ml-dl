@@ -1,6 +1,6 @@
 ## Time-series / anomaly detection
 
-[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+[Back to main](../../README.md) | [Details](../../README-details.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
 
 Curated links and notes for time-series analysis and anomaly detection: methods, libraries, notebooks, and applied resources for forecasting and pattern discovery.
 
@@ -102,7 +102,7 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
 
-Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../LICENSE.md) policy.
+Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../../LICENSE.md) policy.
 
 ---
 

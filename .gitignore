@@ -29,3 +29,4 @@ wandb/
 catboost_info/
 *.logs
 .DS_Store
+REORG_PLAN.md
