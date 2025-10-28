@@ -115,7 +115,7 @@ See [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/r
   - [Notebooks files](https://github.com/neomatrix369/nlp_profiler/tree/master/notebooks) 
   - [Notebooks/kernels from supporters](https://github.com/neomatrix369/nlp_profiler/blob/master/CREDITS_AND_SUPPORTERS.md)
   - [Kaggle Kernel](https://github.com/neomatrix369/nlp_profiler/blob/master/notebooks/README.md#kaggle-kernels)
-- [Bag of words notebook](../blogs/keras-bag-of-words-expanded-version/data-scripts-notebooks/)
+- [Bag of words notebook](../domains/keras-bag-of-words-expanded-version/data-scripts-notebooks/)
 - [TFIDF notebook](https://github.com/NavyaTatikonda/awesome-ai-ml-dl/blob/master/blogs/TFIDF%20Scikit-learn.ipynb)
 
 ## Neural Networks

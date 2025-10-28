@@ -173,7 +173,7 @@ See [Statistics.md](statistics.md#statistics)
 ## Visualisation
 
 - [Data Visualization](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
-- See [Visualisation](../details/visualisation.md#visualisation)
+- See [Visualisation](../reference/visualisation.md#visualisation)
 
 ## Common mistakes when training models (data related)
 
@@ -189,7 +189,7 @@ See [Statistics.md](statistics.md#statistics)
 
 ## Cheatsheets
 
-See under [Cheatsheets](../details/cheatsheets.md#cheatsheets)
+See under [Cheatsheets](../reference/cheatsheets.md#cheatsheets)
 
 ## Courses / books
 

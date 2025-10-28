@@ -36,7 +36,7 @@
 - [12 thought leaders on LinkedIn who are creating original content to learn Artificial Intelligence and Machine Learning](https://www.linkedin.com/posts/ajitjaokar_12-thought-leaders-on-linkedin-who-are-creating-activity-6627455043429814272-MK_n)
 - [AI Repository by Goku Mohandas](https://www.linkedin.com/posts/asif-bhat_datascience-data-dataanalysis-activity-6643083915873615872-je6g)
 - [Digital Twins: Bringing artificial intelligence to Engineering](https://www.datasciencecentral.com/profiles/blogs/digital-twins-brining-artificial-intelligence-to-engineering)
-- See [Artificial Intelligence](./details/artificial-intelligence.md)
+- See [Artificial Intelligence](./reference/artificial-intelligence.md)
 - See [AI Agents](./ai-agents/)
 
 ### Automation
@@ -117,27 +117,27 @@
 
 ### Java
 
-See [Java](./details/java-jvm.md#javajvm)
+See [Java](./reference/java-jvm.md#javajvm)
 
 ### Julia, Python & R
 
-See [Julia, Python & R](./details/julia-python-and-r.md#julia_python_and_r)
+See [Julia, Python & R](./reference/julia-python-and-r.md#julia_python_and_r)
 
 ### JavaScript
 
-See [JavaScript](./details/javascript.md)
+See [JavaScript](./reference/javascript.md)
 
 ### Visualisation
 
-See [Visualisation](./details/visualisation.md#visualisation)
+See [Visualisation](./reference/visualisation.md#visualisation)
 
 ### Mathematica & Wolfram Language
  
-See [Mathematica & Wolfram Language](./details/mathematica-wolfram-Language.md) 
+See [Mathematica & Wolfram Language](./reference/mathematica-wolfram-Language.md) 
 
 ### Mathematics, Statistics, Probability & Probabilistic programming
   
-See [Mathematics, Statistics, Probability & Probabilistic programming](./details/maths-stats-probability.md)
+See [Mathematics, Statistics, Probability & Probabilistic programming](./reference/maths-stats-probability.md)
 
 ### Data
 
@@ -222,7 +222,7 @@ See [Notebooks](./notebooks/README.md#notebooks)
 
 ### Articles, papers, code, data, courses
 
-See [Articles, papers, code, data, courses](./details/articles-papers-code-data-courses.md)
+See [Articles, papers, code, data, courses](./reference/articles-papers-code-data-courses.md)
 
 ### Other Tools
 
@@ -249,11 +249,11 @@ See [Other Tools](./things-to-know.md#other-tools)
 
 ### Cheatsheets
 
-See [Cheatsheets](./details/cheatsheets.md#cheatsheets)
+See [Cheatsheets](./reference/cheatsheets.md#cheatsheets)
 
 ### Misc
  
-See [Misc](./details/misc.md)
+See [Misc](./reference/misc.md)
 
 # Contributing
 

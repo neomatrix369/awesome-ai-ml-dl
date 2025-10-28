@@ -196,5 +196,5 @@ Note that this setup does not take into account establishing a secure `http` i.e
 ---
 
 Go to [Tribuo Example page](../../README.md) </br>
-Go to [Java/JVM Machine Learning page](../../../../details/java-jvm.md#javajvm) </br>
+Go to [Java/JVM Machine Learning page](../../../../reference/java-jvm.md#javajvm) </br>
 Go to [Main page](../../../../README.md)
