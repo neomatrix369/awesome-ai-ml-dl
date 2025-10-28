@@ -4,6 +4,8 @@ Navigation: [Home](./README.md) · 🗂️ [Reference](./reference/README.md) ·
 
 > Learn, build, and explore AI/ML/DL with curated guides, domains, tools, and examples.
 
+![banner](./assets/banners/portal-hero.png)
+
 ## Start here
 
 - Python and Data basics: [Python](./python/README.md) · [Data](./data/README.md)
