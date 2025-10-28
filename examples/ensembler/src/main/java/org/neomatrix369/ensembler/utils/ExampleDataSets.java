@@ -42,13 +42,13 @@ public class ExampleDataSets {
 
     public static ImageSet mnist() {
         String labelsFile = "D:\\datasets\\mnist\\train\\labels.txt";
-        String trainingFile = "D:\\datasets\\mnist\\train\\train.txt"; // 1000 cifara - probaj sa 10 00        
-        
+        String trainingFile = "D:\\datasets\\mnist\\train\\train.txt"; // 1000 cifara - probaj sa 10 00
+
         ImageSet imageSet = new ImageSet(28, 28);
         imageSet.setInvertImages(true);
         imageSet.loadLabels(new File(labelsFile));
         imageSet.loadImages(new File(trainingFile), 1000);
-        
+
         return imageSet;
     }
 }

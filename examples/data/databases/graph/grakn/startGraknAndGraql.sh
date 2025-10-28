@@ -32,7 +32,7 @@ java -version
 echo -n "Grakn version: (see bottom of the startup text banner)"
 echo ""
 
-(env | grep _JAVAOPTS) || true 
+(env | grep _JAVAOPTS) || true
 
 echo ""
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"

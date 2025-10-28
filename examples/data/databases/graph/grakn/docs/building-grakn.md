@@ -3,7 +3,7 @@
 Run the Grakn docker container:
 
 ```
-$ ./grakn-runner.sh --debug --runContainer 
+$ ./grakn-runner.sh --debug --runContainer
 ```
 
 When the docker prompt appears, continue doing one of the actions below.
@@ -25,13 +25,13 @@ It's done in two steps and can be run from inside the container, or the host mac
 
 **Extract META-INF from the jar before proceeding with the build process**
 ```
-grakn@c74ed490582e:~$ ./builder.sh --grakn-home [/path/to/grakn/home] --extract 
+grakn@c74ed490582e:~$ ./builder.sh --grakn-home [/path/to/grakn/home] --extract
 ```
 
 **Building `native-image` using the extracted META-INF of the jar and the jar file**
 ```
 grakn@c74ed490582e:~$ ./builder.sh --jarfile [/path/with/filename.jar] --buildNativeImage
-or 
+or
 grakn@c74ed490582e:~$ ./builder.sh --grakn-home [/path/to/grakn/home] --buildNativeImage
 ```
 

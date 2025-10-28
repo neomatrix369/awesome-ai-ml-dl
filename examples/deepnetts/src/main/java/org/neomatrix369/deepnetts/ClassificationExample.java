@@ -23,7 +23,7 @@ import deepnetts.util.DeepNettsException;
 import java.io.IOException;
 import javax.visrec.ml.data.DataSet;
 
-public class ClassificationExample 
+public class ClassificationExample
 {
     public void run() throws Exception
     {
@@ -43,7 +43,7 @@ public class ClassificationExample
         System.out.println(String.format("Testing data size = %d", trainTestSet[1].size()));
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		System.out.println("");
-		
+
 		System.out.println("~~~ Training the model ~~~");
 		// create instance of multi addLayer percetpron using builder
         FeedForwardNetwork neuralNet = FeedForwardNetwork.builder()
@@ -53,7 +53,7 @@ public class ClassificationExample
                 .lossFunction(LossType.CROSS_ENTROPY)
                 .randomSeed(456)
                 .build();
-		System.out.println(neuralNet.toString());		
+		System.out.println(neuralNet.toString());
 
 		BackpropagationTrainer trainer = neuralNet.getTrainer();
         trainer.setMaxError(0.04f);

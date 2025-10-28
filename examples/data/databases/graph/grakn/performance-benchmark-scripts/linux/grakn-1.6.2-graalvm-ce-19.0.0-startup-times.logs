@@ -79,7 +79,7 @@ Copyright (C) 2019 Grakn Labs Limited
 real	0m8.721s
 user	0m1.540s
 sys	0m0.159s
-[35mgrakn[0m> 
+[35mgrakn[0m>
 GRAALVM: Shutting down Grakn in the container (id = bdbac2b)
 GRAALVM: Grakn in the container (id = bdbac2b) has been shutdown.
 

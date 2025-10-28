@@ -36,7 +36,7 @@ Navigation: [Home](../README.md) · [Details](../README-details.md#general) · [
   - [KnockKnock by @huggingface](https://github.com/huggingface/knockknock) | [tweet](https://twitter.com/kartik_godawat/status/1187224635051409408)
 
 ## Compute & Storage
-  
+
   - [Cray Computers](https://www.cray.com/ai) | [Artificial Intelligence](https://www.cray.com/solutions/artificial-intelligence) | [Accel AI](https://www.cray.com/solutions/artificial-intelligence/cray-accel-ai) | [Cryp-em](https://www.cray.com/solutions/cryo-em) | [Autonomous Vehicles](https://www.cray.com/solutions/autonomous-vehicles) | [Geospatial AI](https://www.cray.com/solutions/geospatial-ai)
   - [GraphCore's IPU](#ipu)
   - [Lambda Labs](https://lambdalabs.com/)
@@ -62,14 +62,14 @@ reproducible research
   - Marvin AI: [About Marvin AI](https://cwiki.apache.org/confluence/display/incubator/Marvin-AI) | [Apache Marvin AI: MLOps platform](https://marvin.apache.org/) | [GitHub](https://github.com/marvin-ai) | [Video](https://www.youtube.com/watch?v=M5_yQCRIftw)
   - [RealityEngine.ai](https://RealityEngine.ai) | [Research](https://www.realityengines.ai/research) | [Blogs](https://medium.com/reality-engines)
     - Videos
-      - [Workshop: Unsupervised Learning and Deep Learning Based Forecasting](https://www.youtube.com/watch?v=amTzgvJg-ZE) 
+      - [Workshop: Unsupervised Learning and Deep Learning Based Forecasting](https://www.youtube.com/watch?v=amTzgvJg-ZE)
       - [AutoML Core Concepts and Hands-On Workshop](https://www.youtube.com/watch?v=QbqsOcX7KZo&feature=em-lbcastemail)
       - [Workshop: Large Scale Deep Learning Recommender](https://www.youtube.com/watch?v=MpC-RuFw-SY)
     - Notebooks
-      - Workshop: Unsupervised Learning and Deep Learning Based Forecasting: [Anomaly Workbook](https://bit.ly/RE_anomaly) | [Forecasting Workbook](https://bit.ly/REforecasting) 
+      - Workshop: Unsupervised Learning and Deep Learning Based Forecasting: [Anomaly Workbook](https://bit.ly/RE_anomaly) | [Forecasting Workbook](https://bit.ly/REforecasting)
       - AutoML Core Concepts and Hands-On Workshop: [Regression Notebook](https://colab.research.google.com/drive/1Rajb3bHw45k4PWvDlxsQNCd3j5WuHbIm#forceEdit=true&sandboxMode=true) | [Classification Notebook](https://bit.ly/RE_classification)
       - [Workshop: Large Scale Deep Learning Recommender](https://bit.ly/RE_streaming)
-      - [Reality Engines Demo](https://github.com/jsutch/RealityEngines-Demo) 
+      - [Reality Engines Demo](https://github.com/jsutch/RealityEngines-Demo)
   - [Accelerating AI Training with MLPerf Containers and Models from NVIDIA NGC](https://developer.nvidia.com/blog/accelerating-ai-training-with-mlperf-containers-and-models-from-ngc/?ncid=so-elev-58408#cid=ngc01_so-elev_en-us&_lrsc=3642f913-311f-45b0-bbc5-158e51446637&ncid=so-lin-lt-798)
   - Running AI Models in the Cloud: [site](https://www.scailable.net/) | [video](https://youtu.be/PDXaDTnAN2M?t=2570) | [Docs](https://docs.sclbl.net/sclblpy)
   | [Getting started](https://github.com/scailable/sclbl-tutorials/tree/master/sclbl-101-getting-started)
@@ -80,7 +80,7 @@ reproducible research
   - [plz](http://github.com/prodo-ai/plz) - Plz (pronounced "please") runs your jobs storing code, input, outputs and results so that they can be queried programmatically.
   - [valohai](https://www.valohai.com/) | [docs](https://docs.valohai.com/) | [blogs](https://blog.valohai.com) | [GitHub](https://github.com/valohai) | [Videos](https://www.youtube.com/channel/UCiR8Fpv6jRNphaZ99PnIuFg) | [Showcase](https://valohai.com/showcase/) | [Slack](http://community-slack.valohai.com/) - Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
   - [Seldon](https://www.seldon.io/open-source/) - Model deployment platform, on kubernetes clusters. | [docs](https://docs.seldon.io/projects/seldon-core/en/latest/) | [github](https://github.com/SeldonIO/seldon-core/blob/master/readme.md) | [use-cases](https://www.seldon.io/use-cases/) | [blogs](https://www.seldon.io/blog/) | [videos](https://www.youtube.com/channel/UCZq33lhQWAsd-8NDqOdjN_g/videos?view_as=subscriber) | [Seldon's opensource library for MachineLearning model inspection and interpretation](https://github.com/SeldonIO/alibi)
-  - [Arize AI](https://www.arize.com) | [docs](https://docs.arize.com/) | [certification](https://arize.com/ml-observability-fundamentals/) | [resources](https://arize.com/model-monitoring/) | [Slack](https://arize.com/community/) - Model monitoring and observability platform. Community edition offers model performance tracing, data quality checks, explainability, and drift detection -- including embedding drift detection for CV and NLP models. 
+  - [Arize AI](https://www.arize.com) | [docs](https://docs.arize.com/) | [certification](https://arize.com/ml-observability-fundamentals/) | [resources](https://arize.com/model-monitoring/) | [Slack](https://arize.com/community/) - Model monitoring and observability platform. Community edition offers model performance tracing, data quality checks, explainability, and drift detection -- including embedding drift detection for CV and NLP models.
   - [kedro](https://github.com/quantumblacklabs/kedro) | [other kedro projects](https://github.com/quantumblacklabs) | [docs](https://kedro.readthedocs.io/en/latest/) | [Kedro-Viz](https://github.com/quantumblacklabs/kedro-viz) | [kedro-examples](https://github.com/quantumblacklabs/kedro-examples) | [Blogs](https://duckduckgo.com/?q=medium.com+kedro&ia=web) | [Video](https://www.youtube.com/watch?v=KEdmJ2ADy_M) | [gitter.im/py-sprints/kedro](https://gitter.im/py-sprints/kedro) | [pypi](https://pypi.org/project/kedro/) - Kedro is a workflow development tool that helps you build data pipelines that are robust, scalable, deployable, reproducible and versioned.
   - [Lambda Stack](https://lambdalabs.com/lambda-stack-deep-learning-software) - One-line installation of TensorFlow, Keras, Caffe, Caffe, CUDA, cuDNN, and NVIDIA Drivers for Ubuntu 16.04 and 18.04.
   - [Apache Airflow](https://airflow.apache.org/) - Airflow is a platform to programmatically author, schedule and monitor workflows. Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies.
@@ -128,7 +128,7 @@ reproducible research
     - [Tuning applications for multiple architectures](https://techdecoded.intel.io/big-picture/tuning-applications-for-multiple-architectures/)
     - Also see [Intel](../courses.md#intel) in [Courses](../courses.md#courses)
     - [TVM is an open deep learning compiler stack for CPUs, GPUs, and specialized accelerators. It aims to close the gap between the productivity-focused deep learning frameworks, and the performance- or efficiency-oriented hardware backends](https://tvm.apache.org/docs/index.html)
- 
+
  _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
 
 ## FPGA
@@ -200,7 +200,7 @@ reproducible research
   - [MLPerf introduces machine learning inference benchmark suite...](https://venturebeat.com/2019/06/24/mlperf-introduces-machine-learning-inference-benchmark-suite/)
   - [ONE DEEP LEARNING BENCHMARK TO RULE THEM ALL](https://www.nextplatform.com/2018/08/30/one-deep-learning-benchmark-to-rule-them-all/)
   - [mlbench: Distributed Machine Learning Benchmark](https://mlbench.github.io/) - A public and reproducible collection of reference implementations and benchmark suite for distributed machine learning algorithms, frameworks and systems.
-  - [EEMBC MLMark Benchmark](https://www.eembc.org/mlmark/) - The EEMBC MLMark benchmark is a machine-learning (ML) benchmark designed to measure the performance and accuracy of embedded inference. 
+  - [EEMBC MLMark Benchmark](https://www.eembc.org/mlmark/) - The EEMBC MLMark benchmark is a machine-learning (ML) benchmark designed to measure the performance and accuracy of embedded inference.
   - [DeepOBS: A Deep Learning Optimizer Benchmark Suite](https://arxiv.org/abs/1903.05499)
   - [PMLB](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4) - a large benchmark suite for machine learning evaluation and comparison
   - [Deep Learning Benchmarking Suite](https://github.com/HewlettPackard/dlcookbook-dlbs) | [HPE Deep Learning Cookbook](https://www.hpe.com/software/dl-cookbook)

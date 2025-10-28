@@ -1,14 +1,14 @@
 # Deployment: Infrastructure as code
 
 The scripts in this folder give the ability to provision and manage compute capacity using [Oracle Cloud Infrastructure](https://docs.cloud.oracle.com/iaas/Content/services.htm), in
-order to deploy the docker container and run the notebook in it. 
+order to deploy the docker container and run the notebook in it.
 
 In short the scripts does the below:
-- create computes instances and associated 
+- create computes instances and associated
 network resources necessary to run an instance on OCI
 - creates a virtual network with a subnet and puts one host on this subnet
 - adds the necessary permissions to allow services to communicate in the subnet within specific ports (egress and ingress rules)
-- runs the `init.sh` script to install basic tool(s) on the hosts 
+- runs the `init.sh` script to install basic tool(s) on the hosts
 - finally, the `provision.sh` script to prepare the instance ready to be used -- by triggering the docker container to stand up the Jupyter labs server
 - also provides the necessary help in the form of ready-to-use shell-scripts toto perform various tasks with the help of `terraform` and `ssh`
 
@@ -52,7 +52,7 @@ export TF_VAR_ssh_public_key="$(cat [PATH_TO_SSH_PUBLIC_KEY])"
 ## We won't be assigning the private_key contents into an environment variable but pass it as an argument via the CLI
 echo 'Pass -var "ssh_private_key=$(cat [PATH_TO_YOUR_SSH_PRIVATE_KEY])" when running the "terraform apply" or "terraform destory" commands'
 ```
-Note the `TF_VAR` prefix, as it is a terraform convention for input variables. 
+Note the `TF_VAR` prefix, as it is a terraform convention for input variables.
 
 Here is a list of resources on where to look for each of the above resources:
 
@@ -181,11 +181,11 @@ Note that this setup does not take into account establishing a secure `http` i.e
 - For more information on Terraform infrastructure management see: [Terraform for OCI](https://www.terraform.io/docs/providers/oci/index.html)
 - [Terraform commands](https://www.terraform.io/docs/commands/index.html)
 - [See working example using Micronaut running on GraalVM](https://github.com/graalvm/graalvm-demos/tree/master/micronaut-webapp/deployments/oci)
-- [Ensure OCI account is created and you can log in](https://docs.oracle.com/en-us/iaas/Content/General/Reference/PaaSprereqs.htm) 
+- [Ensure OCI account is created and you can log in](https://docs.oracle.com/en-us/iaas/Content/General/Reference/PaaSprereqs.htm)
 - Install OCI cli command tool (or use a language specific SDK) -- one-off task]
   - https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdks.htm#Software_Development_Kits_and_Command_Line_Interface
     - [Download CLI](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm#Quickstart)
-    + Setting up the Config File 
+    + Setting up the Config File
         + [Where to Get the Tenancy's OCID and User's OCID](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#five)
         + [Regions and Availability Domains](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm#top)
         + [SDK and CLI configuratuon File](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm)

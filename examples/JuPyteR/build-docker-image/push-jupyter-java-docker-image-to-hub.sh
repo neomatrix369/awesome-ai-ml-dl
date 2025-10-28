@@ -39,7 +39,7 @@ pushImage() {
     IMAGE_FOUND="$(findImage ${DOCKER_FULL_TAG_NAME})"
     IS_FOUND="found"
     if [[ -z "${IMAGE_FOUND}" ]]; then
-        IS_FOUND="not found"        
+        IS_FOUND="not found"
     fi
     echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
 

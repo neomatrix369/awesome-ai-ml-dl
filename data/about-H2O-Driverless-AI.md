@@ -17,13 +17,13 @@
 
 - [ ] [AI/ML/DL Library / Package / Framework: applicable]
 - [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-- [ ] [Data querying: manual / tools available] 
-- [ ] [Data analytics: manual / tools available] 
+- [ ] [Data querying: manual / tools available]
+- [ ] [Data analytics: manual / tools available]
 - [x] **[Data visualisation: automatic]**
-- [x] **[Data cleaning: can handle unclean data but does not clean data]** 
-- [x] **[Data validation: automatic]** 
-- [x] **[Feature extraction: automatic]** 
-- [x] **[Model creation: automatic]** 
+- [x] **[Data cleaning: can handle unclean data but does not clean data]**
+- [x] **[Data validation: automatic]**
+- [x] **[Feature extraction: automatic]**
+- [x] **[Model creation: automatic]**
 - [x] **[Experiments execution: available]**
 - [x] **[Hyper parameter tuning: automatic]**
 - [x] **[Model saving: automatic]**

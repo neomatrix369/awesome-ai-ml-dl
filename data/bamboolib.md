@@ -17,7 +17,7 @@ A GUI for pandas.
 - On Kaggle
   - [How to: Use bamboolib within Kaggle](https://docs.bamboolib.8080labs.com/how-tos/use-bamboolib-within-kaggle)
   - [Trying Bamboolib - Pandas GUI on Kaggle ](https://www.kaggle.com/nulldata/trying-bamboolib-pandas-gui-on-kaggle)
-- [LinkedIn post](https://www.linkedin.com/posts/parulpandeyindia_bamboolib-pandas-activity-6610109280953700352-Cuie) 
+- [LinkedIn post](https://www.linkedin.com/posts/parulpandeyindia_bamboolib-pandas-activity-6610109280953700352-Cuie)
 - Linkedin: https://www.linkedin.com/company/bamboolib/
 - Twitter: https://twitter.com/bamboolib_
 ---
@@ -25,14 +25,14 @@ A GUI for pandas.
 - [x] **[AI/ML/DL Library / Package / Framework: applicable]**
 - [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
 - [x] **[Data querying]**
-- [ ] [Data analytics: manual / tools available] 
+- [ ] [Data analytics: manual / tools available]
 - [x] **[Data visualisation]**
 - [x] **[Data cleaning]**
 - [x] **[Data validation]**
-- [ ] [Feature extraction: manual / no tools available] 
-- [ ] [Model creation: available] 
+- [ ] [Feature extraction: manual / no tools available]
+- [ ] [Model creation: available]
 - [ ] [Execute experiments: available]
-- [ ] [Hyper parameter tuning: available] 
+- [ ] [Hyper parameter tuning: available]
 - [ ] [Model saving: available]
 
 Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>

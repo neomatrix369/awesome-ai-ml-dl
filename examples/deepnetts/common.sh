@@ -79,7 +79,7 @@ isVersionGreaterThanOrEqualTo() {
   	result="true"      ### if they are equal
   else
   	lesser_version="$(echo "$@" | tr " " "\n" | sort -V | head -n 1)"
-  	if [[ "${lesser_version}" = "$1" ]]; then 
+  	if [[ "${lesser_version}" = "$1" ]]; then
   		result="false" ### the first version is smaller than the second
     fi
   fi

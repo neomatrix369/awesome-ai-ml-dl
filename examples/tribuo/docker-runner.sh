@@ -57,7 +57,7 @@ openNotebookInBrowser() {
 
 	OPEN_CMD="$(getOpenCommand)"
 	"${OPEN_CMD}" "${URL}"
-	
+
 	docker exec ${CONTAINER_ID} \
 	       /bin/bash -c         \
 	       "echo JAVA_HOME=${JAVA_HOME}; echo PATH=${PATH}; echo JDK_TO_USE=${JDK_TO_USE}; java -version"
@@ -117,7 +117,7 @@ runContainer() {
 buildImage() {
 	askDockerUserNameIfAbsent
 	setVariables
-	
+
 	echo "Building image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"; echo ""
 
 	echo "* Fetching Tribuo docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} from Docker Hub"
@@ -133,7 +133,7 @@ buildImage() {
 	             -t ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} \
 	             "${IMAGES_DIR}/."
 	echo "* Finished building Tribuo docker image ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION}"
-	
+
 	cleanup
 	pushImageToHub
 	cleanup
@@ -147,7 +147,7 @@ pushImage() {
 	IMAGE_FOUND="$(findImage ${FULL_DOCKER_TAG_NAME})"
 	IS_FOUND="found"
 	if [[ -z "${IMAGE_FOUND}" ]]; then
-		IS_FOUND="not found"        
+		IS_FOUND="not found"
 	fi
 	echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}' is ${IS_FOUND} in the local repository"
 
@@ -159,7 +159,7 @@ pullImage() {
 	IMAGE_NAME="tribuo"
 	IMAGE_VERSION=$(cat docker-image/version.txt)
 	FULL_DOCKER_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
-	
+
 	docker pull ${FULL_DOCKER_TAG_NAME}:${IMAGE_VERSION} || true
 }
 
@@ -210,7 +210,7 @@ showUsageText() {
                                  --buildImage
                                  --runContainer
                                  --pushImageToHub
-                                 --pullImageFromHub								 
+                                 --pullImageFromHub
                                  --help
 
        --dockerUserName      your Docker user name as on Docker Hub
@@ -227,14 +227,14 @@ showUsageText() {
                              (default: 8888)
        --notebookMode        runs the Jupyter/Jupyhai notebook server
                              (default: opens the page in a browser)
-       --doNotOpenNotebook   when used with --notebookMode, suppresses 
+       --doNotOpenNotebook   when used with --notebookMode, suppresses
                              the opening of the notebook action
        --cleanup             (command action) remove exited containers and
                              dangling images from the local repository
        --buildImage          (command action) build the docker image
        --runContainer        (command action) run the docker image as a docker container
        --pushImageToHub      (command action) push the docker image built to Docker Hub
-       --pullImageFromHub    (command action) pull the latest docker image from Docker Hub	   
+       --pullImageFromHub    (command action) pull the latest docker image from Docker Hub
        --help                shows the script usage help text
 
 HEREDOC
@@ -245,7 +245,7 @@ HEREDOC
 askDockerUserNameIfAbsent() {
 	if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
 	  read -p "Enter Docker username (must exist on Docker Hub): " DOCKER_USER_NAME
-	fi	
+	fi
 }
 
 setVariables() {

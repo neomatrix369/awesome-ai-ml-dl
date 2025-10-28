@@ -27,7 +27,7 @@ echo "Please check if you fulfill the requirements mentioned in the README file.
 apt-get update && apt-get install -y --fix-missing \
                   wget curl liblapack-dev libswscale-dev pkg-config
 
-apt-get install -y --fix-missing zip vim 
+apt-get install -y --fix-missing zip vim
 
 echo "fs.inotify.max_user_watches=100000" > /etc/sysctl.conf
 

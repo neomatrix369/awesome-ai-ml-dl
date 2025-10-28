@@ -10,7 +10,7 @@ NLP using DL4J (cuda) [![NLP using DL4J (cuda)](https://img.shields.io/docker/pu
   - [Apache OpenNLP](https://opennlp.apache.org/)
   - [MontyLingua](http://alumni.media.mit.edu/~hugo/montylingua/)
   - [Applying NLP in Java, all from the command-line](https://medium.com/@neomatrix369/applying-nlp-in-java-all-from-the-command-line-1225dd591e80?source=---------2------------------&gi=dcfbe1d06961) | [Original post](https://blog.valohai.com/nlp_with_dl4j_in_java_all_from_the_command-line?from=3oxenia9mtr6)
-  - Top 5 Courses to learn Natural Language Processing (NLP) in 2020: 
+  - Top 5 Courses to learn Natural Language Processing (NLP) in 2020:
     [1](https://www.java67.com/2020/07/top-5-courses-to-learn-natural-language-processing-NLP.html?utm_source=dlvr.it&utm_medium=facebook)
     [2](https://www.researchgate.net/publication/344401294_Transparent_Acceleration_of_Java-based_Deep_Learning_Engines)
   - [Java-based libraries](https://github.com/keon/awesome-nlp#user-content-java)

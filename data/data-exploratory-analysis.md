@@ -29,7 +29,7 @@ aka *_Exploratory Data Analysis_*
 - [@clone95's repo with studies on Exploratory Data Analysis, Time Series forecasting, and Data Manipulation with popular Python Libraries](https://github.com/clone95/Prices-of-Avocados)
 - [A Complete Data Analysis Workflow in Python PyCaret](https://towardsdatascience.com/a-complete-data-analysis-workflow-in-python-pycaret-9a13c0fa51d4?source=search_post)
 
-    
+
 ### Tools
 
 - [Pandas Profiling](https://pandas-profiling.github.io/pandas-profiling/)
@@ -78,7 +78,7 @@ aka *_Exploratory Data Analysis_*
 - [K-means Clustering on Ordinal Data](https://www.linkedin.com/posts/towards-data-science_k-means-clustering-on-ordinal-data-activity-6668777271676960768-bZ05)
 - [Journey to Machine Learning – K-Means Clustering](https://www.linkedin.com/pulse/all-cheatsheets-one-place-vipul-patel/) [LinkedIn Post](https://www.linkedin.com/posts/vipulppatel_data-analytics-businessintelligence-activity-6640085732100710400-oGp7)
    - [Comparison of Segmentation Approaches using Clustering (9 pages)](https://www.linkedin.com/feed/update/urn:li:activity:6540091805428518912?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BmoauZl5XRFyXpGV91RiG2w%3D%3D)
-   - [Guide to HIERARCHICAL Clustering (23 pages) and how to Perform it in Python](https://www.linkedin.com/feed/update/urn:li:activity:6539263090955997184/) 
+   - [Guide to HIERARCHICAL Clustering (23 pages) and how to Perform it in Python](https://www.linkedin.com/feed/update/urn:li:activity:6539263090955997184/)
 - [K-Means Clustering — One rule to group them all](https://www.linkedin.com/posts/towards-data-science_k-means-clusteringone-rule-to-group-them-activity-6654401590067245056-9k9d)
 - [10 Clustering Algorithms With Python](https://machinelearningmastery.com/clustering-algorithms-with-python/)
 - [Finding organic clusters in complex data-networks](https://www.datasciencecentral.com/profiles/blogs/finding-organic-clusters-in-complex-data-networks) [LinkedIn Post](https://www.linkedin.com/posts/data-science-central_finding-organic-clusters-in-complex-data-networks-activity-6650907272413274112-p-H7)

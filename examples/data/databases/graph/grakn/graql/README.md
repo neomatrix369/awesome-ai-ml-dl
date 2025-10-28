@@ -1,4 +1,4 @@
-# Graql 
+# Graql
 
 Speaking Graql!
 
@@ -29,28 +29,28 @@ Also, see the [Examples overview](https://dev.grakn.ai/docs/examples/phone-calls
 - Since September 10th, which customers called the person X?
 - Who are the people who have received a call from a London customer aged over 50 who has previously called someone aged under 20?
 - Who are the common contacts of customers X and Y?
-- Who are the customers who 
-  - 1) have all called each other and 
+- Who are the customers who
+  - 1) have all called each other and
   - 2) have all called person X at least once?
 - How does the average call duration among customers aged under 20 compare with those aged over 40?
 
 #### Domain concepts
 
-- A **company** has a **name**, 
+- A **company** has a **name**,
   - and can be the **provider** of a **contract** to a **person**,
   - who then becomes a **customer**
-- A **person** has a 
-  - **first** and **last name**, 
-  - an **age**, 
-  - a **city** they live in, 
+- A **person** has a
+  - **first** and **last name**,
+  - an **age**,
+  - a **city** they live in,
   - and a **phone number**
-- A **person** who doesn’t have 
-  - a registered **contract** (not a **customer**) 
+- A **person** who doesn’t have
+  - a registered **contract** (not a **customer**)
   - has only a **phone number**
-- A **call**, 
-  - made from a **person** (**caller**) to another **person** (**callee**), 
+- A **call**,
+  - made from a **person** (**caller**) to another **person** (**callee**),
   - has a **duration** as well as
-  - the **date** 
+  - the **date**
   - and **time** when the **call** has been made
 
 #### Reorganising, classifying and naming the concepts

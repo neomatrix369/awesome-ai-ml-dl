@@ -4,7 +4,7 @@
 
 [https://keras.io/api/models/sequential/](https://keras.io/api/models/sequential/)
 
-### Dense layer 
+### Dense layer
 
 Each neuron in one layer will be fully connected to all neurons in the next layer
 
@@ -25,7 +25,7 @@ Number of rows in the input data = number of posts to be passed to the model at 
 
 Number of columns = vocabulary size (top 1000 most commonly used words)
 
-### Activation function 
+### Activation function
 
 Tells our model how to calculate the output of a layer, see [ReLU](http://cs231n.github.io/neural-networks-1/)
 
@@ -44,8 +44,8 @@ model = Sequential()
 model.add(Dense(512, input_shape=(vocabulary_size,)))
 model.add(Activation('relu'))
 
-# The model will take the vocabulary_size input, 
-# transform it to a 512-dimensional layer, 
+# The model will take the vocabulary_size input,
+# transform it to a 512-dimensional layer,
 # and transform that into an output layer with 20 probability neurons
 # with the help of Keras, provided with shape of the input data,
 # the shape of the output data, and the type of each layer

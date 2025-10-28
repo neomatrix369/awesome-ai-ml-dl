@@ -2,7 +2,7 @@
 
 - [General](#general)
 - [Generative Adversarial Network (GAN)](#generative-adversarial-network-gan)
-- [Genetic Algorithms](#genetic-algorithms) 
+- [Genetic Algorithms](#genetic-algorithms)
 - [RNN](#rnn)
 - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
 - [Computer Vision](#computer-vision)
@@ -10,7 +10,7 @@
 - [Machine Learning](#machine-learning)
   - [Deep Learning](#deep-learning)
     - [Reinforcement Learning](#reinforcement-learning)
-- [Programming in R](#programming-in-r)    
+- [Programming in R](#programming-in-r)
 - [Visualisation](#visualisation)
 - [More...](#more)
 - [Contributing](#contributing)
@@ -39,7 +39,7 @@
   - [Webinar: AI Analytics PART 1: Optimize End-to-End Data Science and Machine Learning Acceleration](https://event.on24.com/event/25/25/92/3/rt/1/documents/resourceList1596477265666/s_webinarslides1596477264742.pdf](https://software.intel.com/content/www/us/en/develop/documentation/get-started-with-ai-linux/top.html](https://github.com/intel/AiKit-code-samples)
   - [Supply Chain Optimization (question)](https://www.datasciencecentral.com/forum/topics/optimization-question)
   - [Learn Python Programming from beginner to advanced level](https://www.scaler.com/topics/python/)
-  
+
   ### Jupyter and notebook related
 
   - [handcalcs: a library to render Python calculation code automatically in Latex for your Jupyter Notebook!](https://www.linkedin.com/posts/philipvollet_datascience-python-datascientist-activity-6703912203441070080-5BHm)
@@ -133,7 +133,7 @@
 
   - [The Unreasonable Effectiveness of Recurrent Neural Networks - Andrej Karpathy](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
   - [PsychRNN: An Accessible and Flexible Python Package for Training Recurrent Neural Network Models on Cognitive Tasks](https://www.linkedin.com/posts/philipvollet_bioinformatics-biodata-deeplearning-activity-6748882192618926080-iMUs)
-  
+
   ## Natural Language Processing (NLP)
 
   - See [Natural Language Processing (NLP)](../natural-language-processing/README.md#natural-language-processing-nlp)
@@ -157,21 +157,21 @@
 
   ### OpenCV and tutorials
   - [Documentation and examples for each topic](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html)
-  
+
   ### Courses
-  
+
   See [Computer Vision](../courses.md#computer-vision)
-  
-  
+
+
   ### Conferences to follow
 
   - [CVPR](http://cvpr2019.thecvf.com/)
-  - [ICCV](http://iccv2019.thecvf.com/) 
+  - [ICCV](http://iccv2019.thecvf.com/)
   - [ECCV](https://eccv2020.eu/)
   - [BMVC](https://bmvc2019.org/)
   - [NeurIPS](https://nips.cc/)
   - [CVIV](http://www.cviv.net/)
-  
+
   ### Blogs
 
   - [PyImagesearch by Adrian Rosebrock](https://www.pyimagesearch.com/)
@@ -183,7 +183,7 @@
   - [List of Computer Vision Resources](https://lnkd.in/fuGPnQ6)
 
   ## Data Science
-  
+
   - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
      - Also see [Data Science](../data/README.md#data-science)
   - [Data science intro for math/phys background by Poitr Migdal](https://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html)
@@ -232,16 +232,16 @@
 
   - [A machine learning testing framework for sklearn and pandas. The goal is to help folks assess whether things have changed over time](https://github.com/EricSchles/drifter_ml)
   - [Testing Machine Learning Models with Eric Schles](https://www.youtube.com/watch?v=bZtdnFVAfbs)
-  
-  Also see [Machine Learning > Testing](./julia-python-and-r/machine-learning.md#testing) 
-   
+
+  Also see [Machine Learning > Testing](./julia-python-and-r/machine-learning.md#testing)
+
   ### Deep Learning
 
-  See [Deep Learning](./julia-python-and-r/deep-learning.md) 
-  
+  See [Deep Learning](./julia-python-and-r/deep-learning.md)
+
   #### Reinforcement Learning
 
-  See [Reinforcement Learning](./julia-python-and-r/reinforcement-learning.md) 
+  See [Reinforcement Learning](./julia-python-and-r/reinforcement-learning.md)
 
   ## Recommendation Systems
 
@@ -254,7 +254,7 @@ See [Programming in Python](../Programming-in-Python.md)
 ## Programming in R
 
 - [Debugging in R](https://www.geeksforgeeks.org/debugging-in-r-programming/)
-- [ANOVA Test in R Programming](https://www.geeksforgeeks.org/anova-test-in-r-programming/)   
+- [ANOVA Test in R Programming](https://www.geeksforgeeks.org/anova-test-in-r-programming/)
 - [Survival Analysis in R](https://www.geeksforgeeks.org/survival-analysis-in-r/)
 - [Using ggplot2 in R](https://www.geeksforgeeks.org/using-ggplot2-package-in-r-programming/)
 - [Principal component analysis in R](https://www.geeksforgeeks.org/principal-component-analysis-with-r-programming/)

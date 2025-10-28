@@ -26,7 +26,7 @@ DOCKER_USER_NAME=${DOCKER_USER_NAME:-"neomatrix369"}
 DOCKER_FULL_TAG_NAME="${DOCKER_USER_NAME}/${IMAGE_NAME}"
 
 mkdir -p logs notebook
-chown ${USER}:${GROUP} logs 
+chown ${USER}:${GROUP} logs
 chown ${USER}:${GROUP} notebook
 
 echo "Please wait till the log messages stop moving, it will be a sign that the service is ready! (about a minute or so)"
@@ -39,4 +39,3 @@ time docker run --rm                               \
            -e ZEPPELIN_NOTEBOOK_DIR='/notebook'    \
            -e ZEPPELIN_LOG_DIR='/logs'             \
            ${DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
-

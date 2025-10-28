@@ -2,7 +2,7 @@
 
 [Back to main](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
 
-- [TensorNetwork for Machine Learning](https://arxiv.org/pdf/1906.06329.pdf) 
+- [TensorNetwork for Machine Learning](https://arxiv.org/pdf/1906.06329.pdf)
 - [Using Simulation and Domain Adaptation to Improve Efficiency of Deep Robotic Grasping](https://arxiv.org/abs/1709.07857)
 - [QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation](https://arxiv.org/abs/1806.10293)
 - [Theory III: Dynamics and Generalization in Deep Networks -- a simple solution](https://arxiv.org/abs/1903.04991)

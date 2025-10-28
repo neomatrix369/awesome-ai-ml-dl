@@ -34,9 +34,9 @@ $ ./grakn-runner.sh --jdk GRAALVM --javaopts "-XX:-UseJVMCINativeLibrary" JDK_TO
 $ ./grakn-runner.sh --debug --runContainer
 $ startGraknAndGraql.sh
 
-Exiting the Graql Console takes you into the Docker container prompt. Also another way to run Grakn server but not use the Graql console prompt.    
+Exiting the Graql Console takes you into the Docker container prompt. Also another way to run Grakn server but not use the Graql console prompt.
 
-or 
+or
 
 $  RUN_GRAKN_ONLY=true startGraknAndGraql.sh
 ```

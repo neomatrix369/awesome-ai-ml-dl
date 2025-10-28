@@ -214,7 +214,7 @@
 ## Forecasting using Prophet
 
 - [Generate Quick and Accurate Time Series Forecasts using Facebook’s Prophet (with Python & R codes)](https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/)
-- [A Guide to Time Series Forecasting with Prophet in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-prophet-in-python-3) 
+- [A Guide to Time Series Forecasting with Prophet in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-prophet-in-python-3)
 - [A Quick Start of Time Series Forecasting with a Practical Example using FB Prophet](https://towardsdatascience.com/a-quick-start-of-time-series-forecasting-with-a-practical-example-using-fb-prophet-31c4447a2274)
 - [(Video) Mahan Hosseinzadeh - Prophet at scale to tune & forecast time series at Spotify - PyData London 2019](https://www.youtube.com/watch?v=fegS34ItKcI (38m))
 
@@ -260,7 +260,7 @@
   - [Kaggle Kernel](https://www.kaggle.com/dkaraflos/1-geomean-nn-and-6featlgbm-2-259-private-lb)
 - [A small library to backtest timeseries data](https://github.com/EricSchles/backtester)
 - [Tsaug - a python package for time series augmentation from Arundo Analytics (Tailai Wen and Roy K. )](https://www.linkedin.com/posts/madewithml_tsaug-made-with-ml-activity-6698561289607880705-DKoX)
-- VAE-SNE: a deep generative model for dimensionality reduction and clustering • Usefull for unsupervised action recognition to detect and classify repeated motifs of stereotyped behavior in high-dimensional timeseries data: [GitHub](https://lnkd.in/gN9qvDK) | [Paper](https://lnkd.in/gawkgNr](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-bioinformatics-activity-6690327432823742464-dI7M) 
+- VAE-SNE: a deep generative model for dimensionality reduction and clustering • Usefull for unsupervised action recognition to detect and classify repeated motifs of stereotyped behavior in high-dimensional timeseries data: [GitHub](https://lnkd.in/gN9qvDK) | [Paper](https://lnkd.in/gawkgNr](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-bioinformatics-activity-6690327432823742464-dI7M)
 - [Webinar on Time Series by Srivatsan Srinivasan](https://docs.google.com/presentation/d/1yGcBUsh0RJb4ap3LXMa_1h_E_xeJ_HEO8SAtFlj_RrY/edit#slide=id.p)
 - [Timeseries Beginner training](https://github.com/jeffrey-yau/Pearson-TSA-Training-Beginner)
 - [@clone95's repo with studies on Exploratory Data Analysis, Time Series forecasting, and Data Manipulation with popular Python Libraries](https://github.com/clone95/Prices-of-Avocados)

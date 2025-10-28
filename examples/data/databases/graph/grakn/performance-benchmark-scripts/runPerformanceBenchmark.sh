@@ -45,7 +45,7 @@ echo "Mode=${JDK_MODE}"
 echo "JAVA_HOME=${JAVA_HOME}"
 java -version
 
-(env | grep _JAVAOPTS) || true 
+(env | grep _JAVAOPTS) || true
 
 
 echo -n "Grakn version: (see bottom of the startup text banner)"
@@ -69,7 +69,7 @@ if [[ -d benchmark ]]; then
   git config --local user.name "Mani Sarkar"
   git config --local user.email "sadhak001@gmail.com"
   git pull
-else  
+else
   echo ""; echo "~~~~ Cloning the grakn/benchmark project"
   git clone --depth=1 https://github.com/graknlabs/benchmark/
   cd benchmark
@@ -94,7 +94,7 @@ fi
 cat logs/maven_update.logs
 
 echo ""; echo "~~~ grakn/benchmark: Building report-producer-distribution via Bazel ~~~"
-cd ${BENCHMARK_FOLDER}; 
+cd ${BENCHMARK_FOLDER};
 echo ""; echo "~~~~ Current working directory: $(pwd)"
 echo ""; echo "You can follow the update process by doing this:"
 echo "       $ tail -f ${BENCHMARK_FOLDER}/logs/bazel_build.logs"; echo ""

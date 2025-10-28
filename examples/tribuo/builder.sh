@@ -141,9 +141,9 @@ extractMetaInfo() {
 	mkdir -p "./META-INF/native-image"
 	nativeImageMetaInfFolder="./META-INF/native-image"
 	checkForJarFileParam
-	
+
 	echo ""; echo "~~~~ Running ${JARFILE} using the tracing agent to gather the necessary configuration info for building native-image"
-	
+
 	set -x
 	java -agentlib:native-image-agent=config-merge-dir=./META-INF/native-image -jar ${JARFILE} -cp ${JARFILE_LOCATION} --classification
 	java -agentlib:native-image-agent=config-merge-dir=./META-INF/native-image -jar ${JARFILE} -cp ${JARFILE_LOCATION} --regression

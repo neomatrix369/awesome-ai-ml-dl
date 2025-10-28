@@ -80,7 +80,7 @@ Who are the people aged under 20 who have received at least one phone call from 
 
 Who are the people who have received a call from a London customer aged over 50 who has previously called someone aged under 20?
 
-or 
+or
 
 Get me the phone number of people who have received a call from a customer aged over 50 after this customer (potential person) made a call to another customer aged under 20.
 
@@ -106,7 +106,7 @@ Who are the common contacts of customers with phone numbers +7 171 898 0853 and 
 
 ### Graql
 
-        match 
+        match
           $common-contact isa person, has phone-number $phone-number;
           $customer-a isa person, has phone-number "+7 171 898 0853";
           $customer-b isa person, has phone-number "+370 351 224 5176";
@@ -126,7 +126,7 @@ Get me the phone number of people who have received calls from both customer wit
 
 ### Graql
 
-        match 
+        match
           $target isa person, has phone-number "+48 894 777 5173";
           $company isa company, has name "Telecom";
           $customer-a isa person, has phone-number $phone-number-a;

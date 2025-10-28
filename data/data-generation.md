@@ -19,7 +19,7 @@
         - [sythpop - an R package that generates data](https://www.r-bloggers.com/generating-synthetic-data-sets-with-synthpop-in-r/)
         - [Another R package](https://stackoverflow.com/questions/11820532/generating-synthetic-data-for-unsupervised-learning)
         - [Set of R examples](https://stackoverflow.com/questions/49702979/generate-data-by-using-existing-dataset-as-the-base-dataset)
-        - [Very good examples of how R’s packages can be used to generate datasets time series, adjusting correlations and visualise them](https://stackoverflow.com/questions/8972244/artificial-dataset-generator-for-classification-data) 
+        - [Very good examples of how R’s packages can be used to generate datasets time series, adjusting correlations and visualise them](https://stackoverflow.com/questions/8972244/artificial-dataset-generator-for-classification-data)
         - [Examples of how Scikit and R’s packages can be used to generate synthetic data](https://stackoverflow.com/questions/34023177/how-to-create-a-synthetic-dataset)
 
 ### Generate random data matching a rule or type (people’s names / phone numbers / etc, financial data, etc)
@@ -34,7 +34,7 @@
 
 - [SMOTE with Imbalance Data](https://www.kaggle.com/qianchao/smote-with-imbalance-data)
 - SMOTE library:
-  - [PyPi](https://pypi.org/search/?q=smote&o=-zscore) 
+  - [PyPi](https://pypi.org/search/?q=smote&o=-zscore)
   - [Docs](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.over_sampling.SMOTE.html)
   - [SMOTE explained](http://rikunert.com/SMOTE_explained)
   - [ML | Handling Imbalanced Data with SMOTE and Near Miss Algorithm in Python](https://www.geeksforgeeks.org/ml-handling-imbalanced-data-with-smote-and-near-miss-algorithm-in-python/)
@@ -50,7 +50,7 @@
 
 - [(Computer Vision example](http://www.csun.io/2017/08/31/synthetic-cv-dataset.html), see [code](https://github.com/csun/syntrain)
 
-### Generate data using GAN 
+### Generate data using GAN
 
 - [Building a simple Generative Adversarial Network (GAN) using TensorFlow](https://blog.paperspace.com/implementing-gans-in-tensorflow/)
 - [GENERATIVE ADVERSARIAL NETWORKS (GANS) FOR TEXT USING WORD2VEC: PART 1](https://akshaybudhkar.com/2018/03/26/generative-adversarial-networks-gans-for-text-using-word2vec/)

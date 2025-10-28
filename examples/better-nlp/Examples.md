@@ -4,7 +4,7 @@
 
 Command:
 
-```bash 
+```bash
     cd library/examples/
     python3 extract-entities-from-text.py
 ```
@@ -37,7 +37,7 @@ Token types legend:  ['GPE = Geographic Point Entity', 'FAC = ', 'DATE = calenda
 
 Command:
 
-```bash 
+```bash
     cd library/examples/
     python3 extract-noun-chunks-from-text.py
 ```
@@ -65,7 +65,7 @@ french novelist
 
 Command:
 
-```bash 
+```bash
     cd library/examples/
     python3 gather-facts-from-text.py
 ```
@@ -86,7 +86,7 @@ Trying to gather details about Denis Guedj
 
 Command:
 
-```bash 
+```bash
     cd library/examples/
     python3 obfuscate-privacy-details-in-the-text.py
 ```

@@ -24,15 +24,15 @@
 - [ ] [AI/ML/DL Library / Package / Framework: applicable]
 - [x] **[Hardware accelerator free: GPU-class performance on CPU]**
 - [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-- [ ] [Data querying: manual / tools available] 
-- [ ] [Data analytics: manual / tools available] 
-- [ ] [Data visualisation: manual / tools available] 
-- [ ] [Data cleaning: manual / no tools available] 
-- [ ] [Data validation: manual / no tools available] 
-- [ ] [Feature extraction: manual / no tools available] 
-- [ ] [Model creation: available] 
+- [ ] [Data querying: manual / tools available]
+- [ ] [Data analytics: manual / tools available]
+- [ ] [Data visualisation: manual / tools available]
+- [ ] [Data cleaning: manual / no tools available]
+- [ ] [Data validation: manual / no tools available]
+- [ ] [Feature extraction: manual / no tools available]
+- [ ] [Model creation: available]
 - [ ] [Execute experiments: available]
-- [ ] [Hyper parameter tuning: available] 
+- [ ] [Hyper parameter tuning: available]
 - [ ] [Model saving: available]
 
 Back to [Data preparation, cleaning, validation, model creation, training resources](../data/README.md)

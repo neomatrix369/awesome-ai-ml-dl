@@ -124,10 +124,10 @@ sudo pacman -S nodejs npm
 
 **STOP**: Many guides (including QED42's popular post) use wrong package names.
 
-❌ **WRONG**: `@mcp-plugins/memory`  
+❌ **WRONG**: `@mcp-plugins/memory`
 ✅ **CORRECT**: `@modelcontextprotocol/server-memory`
 
-❌ **WRONG**: `@mcp-plugins/file-system`  
+❌ **WRONG**: `@mcp-plugins/file-system`
 ✅ **CORRECT**: `@modelcontextprotocol/server-filesystem`
 
 This error alone causes 80% of failed installations.
@@ -316,8 +316,8 @@ Each guide is comprehensive and includes installation, configuration, verificati
 ## Next Steps
 
 **You now have**:
-✅ Working MCP servers across all three tools  
-✅ Shared memory for cross-tool context  
+✅ Working MCP servers across all three tools
+✅ Shared memory for cross-tool context
 ✅ Foundation for advanced capabilities
 
 **Learn next**:
@@ -385,7 +385,7 @@ See [Resources and References](./resources-and-references.md)
 
 ---
 Return to [Blog posts home](../README.md)
---- 
+---
 
 *This guide synthesizes information from official documentation, community resources, and practical testing. All package names, commands, and configurations have been verified as of January 2025. For the latest updates, always refer to official documentation.*
 

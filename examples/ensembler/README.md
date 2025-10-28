@@ -30,7 +30,7 @@ Run a docker container with DeepNetts (a DL Library, written in Java), running u
 - Ability to create custom docker images (scripts & docs provided)
 - Ability to debug the docker container
 - Run using the traditional JDK 11 (OpenJDK or vendor specific versions)
-- Run using the polyglot JVM i.e. GraalVM JDK (Community version from Oracle Labs), when running performing operations from the CLI 
+- Run using the polyglot JVM i.e. GraalVM JDK (Community version from Oracle Labs), when running performing operations from the CLI
 - Play with and learn from with some examples for each of the libraries provided
 
 
@@ -53,7 +53,7 @@ $ cd awesome-ai-ml-dl/examples/deepnetts
 ## build the DeepNetts Machine uberjar (aka shadowjar)
 $ mvn clean package
 
-or 
+or
 
 $ ./gradlew clean build --info
 
@@ -77,11 +77,11 @@ Once the artifact is built, you will see the artifact `target/deepnetts-machine-
 # classification example
 $ time java -jar target/deepnetts-machine-1.0-with-dependencies.jar
 
-or 
+or
 
 $ time java -jar build/libs/deepnetts-machine-1.0-with-dependencies.jar
 
-or 
+or
 
 # regression example
 $ time java -jar target/deepnetts-machine-1.0-with-dependencies.jar --regression
@@ -106,7 +106,7 @@ Testing data size = 18
 ~~~ Training the model ~~~
 ------------------------------------------------------------------------------------------------------------------
 TRAINING NEURAL NETWORK
------------------------------------------------------------------------------------------------------------------  
+-----------------------------------------------------------------------------------------------------------------
 .
 .
 .
@@ -188,7 +188,7 @@ _Note: You will also notice it runs faster than the `jar` version, of course thi
 
 - [docker-runner.sh](./docker-runner.sh): can perform a number of the below actions depending on the flags passed to it:
     - runs the container and brings you to the command prompt inside the container:
-    - build the DeepNetts docker image takes under 5 minutes to finish on a decent connection 
+    - build the DeepNetts docker image takes under 5 minutes to finish on a decent connection
     - push pre-built docker images to docker hub (please pass in your own Docker username and later on enter Docker login details, see usage below)
     - a housekeeping script to remove dangling images and terminated containers (helps save some diskspace)
 - [docker-image folder](docker-image) - provided with scripts to build and the scripts included into the container for the DeepNetts docker image

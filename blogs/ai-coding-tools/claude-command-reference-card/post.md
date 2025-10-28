@@ -6,8 +6,8 @@
 
 **Ultrathink ONLY works in Claude Code CLI**
 
-✅ **Works**: Claude Code terminal  
-❌ **Doesn't work**: Claude.ai web interface  
+✅ **Works**: Claude Code terminal
+❌ **Doesn't work**: Claude.ai web interface
 ❌ **Doesn't work**: Claude Desktop app
 
 If you've been typing "ultrathink" in the web interface, you've been using a placebo. It's just treated as regular text.

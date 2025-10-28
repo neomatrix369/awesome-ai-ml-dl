@@ -80,9 +80,9 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
 
 - [STUMPY is a powerful and scalable library that efficiently computes something called the matrix profile, which can be used for a variety of time series data mining tasks](https://stumpy.readthedocs.io/en/latest/)
 - [Introduction to Matrix Profiles](https://towardsdatascience.com/introduction-to-matrix-profiles-5568f3375d90)
-- Time Series data mining using the Matrix Profile: 
-[1](https://www.cs.ucr.edu/~eamonn/MatrixProfile.html) | 
-[2](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf) | 
+- Time Series data mining using the Matrix Profile:
+[1](https://www.cs.ucr.edu/~eamonn/MatrixProfile.html) |
+[2](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf) |
 [3](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part2.pdf)
 - [A lot of detailed tutorials about using Stumpy for the matrix profile](https://medium.com/@seanmylaw/stumpy-fdb9f8f1f261)
 - [Greykite lib by LinkedIN: forecasting library](https://www.kaggle.com/misalraj/greykite-a-library-for-time-series-forecasting)

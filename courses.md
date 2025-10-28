@@ -1,4 +1,4 @@
-# Courses 
+# Courses
 
 [Back to main](./README.md) | [Details](./README-details.md) | [Data](./data/README.md) | [NLP](./natural-language-processing/README.md) | [Tools](./tools/README.md) | [Notebooks](./notebooks/README.md)
 
@@ -32,7 +32,7 @@
   - [Applied Data Science London](https://cambridgespark.com/applied-data-science-london/)
   - [MSc Data Science](https://cambridgespark.com/msc-data-science/)
 - [Onsite courses](https://cambridgespark.com/onsite-courses/)
-- [MSc Data Science (distance learning)](https://cambridgespark.com/msc-data-science-corporate/) 
+- [MSc Data Science (distance learning)](https://cambridgespark.com/msc-data-science-corporate/)
 - [Data Science for Executives](https://cambridgespark.com/data-science-seminar/)
 - [Graduate Scheme](https://cambridgespark.com/graduates/)
 - [K.A.T.E: Powering success in Data Science careers](https://cambridgespark.com/kate/)
@@ -67,7 +67,7 @@
     - From Understanding to Preparation and From Modeling to Evaluation
         - Data Understanding
         - Data Preparation
-        - Modeling 
+        - Modeling
         - Model Evaluation
 - [ChaiEDA Sessions: 2x Weekly (Silent) EDA Practise Group](https://www.kaggle.com/getting-started/170570)
 - [Data Science Course by Scaler](https://www.scaler.com/topics/course/python-for-data-science/)
@@ -116,7 +116,7 @@
 [previous github link](https://github.com/Students-for-AI/The-Academy-of-AI), [alternative forked repo](https://github.com/DurhamAI/The-Academy-of-AI)
 - [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
 - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
-    - https://www.youtube.com/watch?v=aircAruvnKk 
+    - https://www.youtube.com/watch?v=aircAruvnKk
     - https://www.youtube.com/watch?v=IHZwWFHWa-w
     - https://www.youtube.com/watch?v=Ilg3gGewQ5U
 - [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)
@@ -240,7 +240,7 @@ CS224W: Machine Learning with Graphs([Yong Dam Kim](https://www.facebook.com/yon
 
 [http://web.stanford.edu/class/cs224w/](http://web.stanford.edu/class/cs224w/)
 
- 
+
 CS 273B: Deep Learning in Genomics and Biomedicine (BIODS 237, BIOMEDIN 273B, GENE 236)
 
 [https://canvas.stanford.edu/courses/51037](https://canvas.stanford.edu/courses/51037)

@@ -18,7 +18,7 @@ Pre-requisite: only supports JDK versions 9 and higher
 
 GraalVM compiler can be enabled for JDK 9 and higher, for platforms where it is supported, see table below:
 
-|JDK/JRE Version  | Platforms             | 
+|JDK/JRE Version  | Platforms             |
 |----------------:|:----------------------|
 |Java 9           | Linux only            |
 |Java 10          | Linux and MacOS       |
@@ -154,7 +154,7 @@ $ unzip ijava-1.2.0.zip
 
 #### Method 1: via the `jupyter` command on the command-line
 
-```    
+```
 $ jupyter kernelspec install java
 ```
 
@@ -194,7 +194,7 @@ Available kernels:
 
 Output might vary slightly depending on how your `python` environment has been setup.
 
-### Kernel installation: variety of combinations of environments and JDKs 
+### Kernel installation: variety of combinations of environments and JDKs
 
 See [Other kernel installation methods](Other-kernel-installation-methods.md)
 
@@ -202,7 +202,7 @@ Please take a glance at the above link, especially if `jupiter-notebook` or `jup
 
 ### Removing the installed kernel
 
-```    
+```
 $ jupyter kernelspec remove java
 ```
 

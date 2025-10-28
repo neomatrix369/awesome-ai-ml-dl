@@ -1,4 +1,4 @@
-## Kernel installation: variety of combinations of environments and JDKs 
+## Kernel installation: variety of combinations of environments and JDKs
 
 JuPyteR kernels can be installed multiple ways and on variety of JDKs.
 

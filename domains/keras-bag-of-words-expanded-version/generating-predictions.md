@@ -1,14 +1,14 @@
 ## Generating predictions
-		
+
 Generating predictions from our test set (10 posts):
 
 **Prediction is a 1 x 20 array**
 
-- 1 row for the individual question and 
+- 1 row for the individual question and
 - 20 columns for the softmax probability that the question belongs to each tag
 
 ```python
-                      Soft-max probability 
+                      Soft-max probability
                       1          2          3 ............................................................................................................17         18         19         20
 
 Post / question 1: [[ 0.035122   0.0525143  0.04665482 0.03087421 0.04945755 0.04454953  0.05538891 0.04946503 0.05209111 0.04382939 0.06006313 0.03791315 0.04654749 0.0567143  0.0612176  0.04509009 0.04057882 0.05607563 0.04742542 0.08842764 ]]

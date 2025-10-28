@@ -88,7 +88,7 @@ if st.button("Submit", key="unique"):
 import datetime
 today = st.date_input("Today is", datetime.datetime.now())
 
-# Time 
+# Time
 the_time = st.time_input("Time is", datetime.time())
 
 # Display JSON
@@ -117,7 +117,7 @@ with st.spinner("Waiting..."):
 	time.sleep(1)
 st.success("Finished")
 
-# Balloons 
+# Balloons
 st.balloons()
 
 # Sidebars

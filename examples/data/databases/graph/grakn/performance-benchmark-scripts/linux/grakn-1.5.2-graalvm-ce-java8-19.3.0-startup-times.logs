@@ -45,7 +45,7 @@ Copyright (C) 2019 Grakn Labs Limited
 real	0m7.847s
 user	0m1.467s
 sys	0m0.163s
-[35mgrakn[0m> 
+[35mgrakn[0m>
 Traditional-JDK: Shutting down Grakn in the container (id = 9d6e403)
 Traditional-JDK: Grakn in the container (id = 9d6e403) has been shutdown.
 
@@ -103,7 +103,7 @@ Copyright (C) 2019 Grakn Labs Limited
 real	0m7.970s
 user	0m1.677s
 sys	0m0.204s
-[35mgrakn[0m> 
+[35mgrakn[0m>
 GRAALVM: Shutting down Grakn in the container (id = 9d27cc9)
 GRAALVM: Grakn in the container (id = 9d27cc9) has been shutdown.
 
@@ -161,7 +161,7 @@ Copyright (C) 2019 Grakn Labs Limited
 real	0m7.210s
 user	0m1.696s
 sys	0m0.188s
-[35mgrakn[0m> 
+[35mgrakn[0m>
 GRAALVM: Shutting down Grakn in the container (id = 1379acd)
 GRAALVM: Grakn in the container (id = 1379acd) has been shutdown.
 

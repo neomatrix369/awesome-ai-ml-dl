@@ -41,7 +41,7 @@ $ cd build-docker-image
 $ [sudo] ./runDockerContainer.sh
 ```
 
-or 
+or
 
 ```
 $ [sudo] DOCKER_USER_NAME="you_docker_hub_username" ./runDockerContainer.sh
@@ -76,7 +76,7 @@ $ [stay or switch into the project root folder]
 $ [sudo] DEBUG=true ./runDockerContainer.sh
 ```
 
-or 
+or
 
 ```
 $ [sudo] DOCKER_USER_NAME="you_docker_hub_username" DEBUG=true ./runDockerContainer.sh

@@ -36,7 +36,7 @@
 - GitHub
    - Organisation: https://github.com/wandb
    - W&B Client: https://github.com/wandb/client
-   - W&B User issues: https://github.com/wandb/user-issues 
+   - W&B User issues: https://github.com/wandb/user-issues
    - W&B Examples: https://github.com/wandb/examples
    - W&B Artifacts examples: https://github.com/wandb/artifacts-examples
    - W&B CodeSearchNet: https://github.com/wandb/codesearchnet (an F/OSS benchmarking project in collaboration with GitHub)
@@ -72,12 +72,12 @@
 
 - [ ] [AI/ML/DL Library / Package / Framework: applicable]
 - [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-- [ ] [Data cleaning: manual / no tools available] 
-- [ ] [Data querying: manual / tools available] 
+- [ ] [Data cleaning: manual / no tools available]
+- [ ] [Data querying: manual / tools available]
 - [ ] [Data analytics: manual / tools available]
-- [ ] [Data visualisation: manual / tools available] 
-- [ ] [Data validation: manual / no tools available] 
-- [ ] [Feature extraction: manual / no tools available] 
+- [ ] [Data visualisation: manual / tools available]
+- [ ] [Data validation: manual / no tools available]
+- [ ] [Feature extraction: manual / no tools available]
 - [x] **[Model creation: available]**
 - [x] **[Execute experiments: available]**
 - [x] **[Track experiments: available]**

@@ -14,7 +14,7 @@ public class EnsemblerMachine
     {
     	System.out.println("~ Running Ensembler Machine");
     	System.out.println("CLI Params: " + Arrays.toString(args));
-    	
+
     	        // plot predictions for some random data
         double[][] data = new double[UNSEEN_DATA_COUNT][2];
 
@@ -27,6 +27,6 @@ public class EnsemblerMachine
 
     	boolean showOutput = true;
         new RegressionDeepNettsExample(showOutput).run();
-        new RegressionTribuoExample(showOutput).run();        
+        new RegressionTribuoExample(showOutput).run();
     }
 }

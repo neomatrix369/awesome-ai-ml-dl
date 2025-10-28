@@ -10,7 +10,7 @@ This section curates NLP resources for practitioners: datasets, libraries/framew
 - [AI Agents](../ai-agents/README.md)
 - [Tools](../tools/README.md)
 
-Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) 
+Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp)
 
 NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala) | <br/>
 NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/pulls/neomatrix369/dl4j-nlp-cuda.svg)](https://hub.docker.com/r/neomatrix369/dl4j-nlp-cuda)
@@ -80,7 +80,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 
 - [Natural Language Processing presentation by Ovidiu S.](../presentations/nlp/)
 - [Better NLP - presentations](../examples/better-nlp/presentations)
-- Training Multi-Billion Parameter Language Models with Megatron Webinar: [Slides](https://ssl.lvl3.on24.com/event/20/93/08/9/rt/1/documents/resourceList1571091756296/megatronwebinar17oct20191571091755100.pdf) | 
+- Training Multi-Billion Parameter Language Models with Megatron Webinar: [Slides](https://ssl.lvl3.on24.com/event/20/93/08/9/rt/1/documents/resourceList1571091756296/megatronwebinar17oct20191571091755100.pdf) |
 [NVIDIA/Megatron-LM github](https://github.com/nvidia/megatron-lm) | [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/abs/1909.08053) | [Subscribe to the Higher Education and Research Newsletter (NVIDIA)](https://www.nvidia.com/en-us/industries/higher-education-research/#subscribe-me-solutions&ncid=em-webi-23619#cid=ix01_em-webi_en-us)
 - NLP Profiler: [Demo](https://github.com/neomatrix369/nlp_profiler/#demo) | [First presentation: Abhishek Talks](https://youtu.be/sdPOyqMfK7M?t=2274) | [Follow-up presentation: NLP Zurich](https://github.com/neomatrix369/nlp_profiler/tree/master/presentations/01-nlp-zurich-2020)
 - Also see [Presentations](../presentations/README.md)
@@ -104,7 +104,7 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [The Use of NLP to Extract Unstructured Medical Data From Text](https://insidebigdata.com/2018/09/03/use-nlp-extract-unstructured-medical-data-text/)
 - [Step by step guide to extract insights from free text (unstructured data)](https://www.analyticsvidhya.com/blog/2014/08/step-step-guide-extract-inforation-free-text-unstructured-data/)
 - [Date/Time Helpers](https://www.kaggle.com/raenish/cheatsheet-date-helpers)
- 
+
 ## Text data Augmentation
 
 - Easy Data Augmentation for Text Classification: [Video](https://www.youtube.com/watch?v=3w92peJtYNQ) | [Kernel](https://www.kaggle.com/init927/nlp-data-augmentation)

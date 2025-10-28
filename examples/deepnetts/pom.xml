@@ -47,7 +47,7 @@
         <groupId>com.deepnetts</groupId>
         <artifactId>deepnetts-core</artifactId>
         <version>1.12</version>
-    </dependency>      
+    </dependency>
   </dependencies>
 
   <build>

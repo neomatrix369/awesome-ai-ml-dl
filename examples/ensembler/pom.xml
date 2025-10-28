@@ -26,7 +26,7 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.18.0</version>
-    </dependency>  
+    </dependency>
     <dependency>
         <groupId>org.tribuo</groupId>
         <artifactId>tribuo-all</artifactId>
@@ -61,7 +61,7 @@
       <groupId>com.deepnetts</groupId>
       <artifactId>deepnetts-core</artifactId>
       <version>1.12</version>
-    </dependency>      
+    </dependency>
   </dependencies>
 
   <build>

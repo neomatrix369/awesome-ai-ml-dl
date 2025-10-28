@@ -55,7 +55,7 @@ RUN ./install-java-kernel.sh --installJar
 COPY common.sh common.sh
 
 ### Install DeepNetts
-RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${JAVA_HOME}/lib/server/:${JAVA_HOME}/lib/amd64/server/ 
+RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${JAVA_HOME}/lib/server/:${JAVA_HOME}/lib/amd64/server/
 COPY install-deepnetts.sh install-deepnetts.sh
 RUN ./install-deepnetts.sh
 

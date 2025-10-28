@@ -33,7 +33,7 @@ curl -sL https://github.com/shyiko/mvnw/releases/download/0.1.0/mvnw.tar.gz | ta
   sed -iEe "s/[0-9]\+[.][0-9]\+[.][0-9]\+/${MAVEN_VERSION}/g" .mvn/wrapper/maven-wrapper.properties)
 
 ## Ideally we could have just downloaded the jars from maven central
-## But we need the below, and it's not clear if the Maven central Jars 
+## But we need the below, and it's not clear if the Maven central Jars
 ## have dependencies with them:
 #
 #      "tribuo-core-4.1.0-SNAPSHOT.jar"
@@ -56,7 +56,7 @@ set -x
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "Skipping test failures - not ideal, but to gain some speed"
 ./mvnw install package -DskipTests
-       
+
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 set +x
 
