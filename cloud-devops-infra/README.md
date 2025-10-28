@@ -226,4 +226,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [main page (table of contents)](../README.md)
+[↑ Back to top](#cloud-devops-infra) · [← Back home](../README.md)

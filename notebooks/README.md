@@ -156,5 +156,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [details page (table of contents)](../README-details.md#notebooks)<br>
-Back to [main page (table of contents)](../README.md)
+[↑ Back to top](#notebooks) · [← Back home](../README.md)

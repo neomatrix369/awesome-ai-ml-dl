@@ -1,6 +1,6 @@
 # Natural Language Processing (NLP)
 
-[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 🧠 [NLP](./README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · ☁️ [Cloud](../cloud-devops-infra/README.md)
 
 This section curates NLP resources for practitioners: datasets, libraries/frameworks, learning paths, cloud examples, notebooks, and presentations. Use the quick links below to jump to specific areas.
 

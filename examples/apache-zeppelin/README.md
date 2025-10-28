@@ -149,4 +149,4 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-Back to [main page (table of contents)](../../README.md)
+[↑ Back to top](#apache-zeppelin) · [← Back home](../../README.md)

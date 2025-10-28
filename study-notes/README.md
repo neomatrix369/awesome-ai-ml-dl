@@ -282,7 +282,7 @@ Generate function is trainable
                     - GPU version: https://colab.research.google.com/drive/1VRamJm49YI784qG6jbCeAvpS6fIAxzMI#scrollTo=fZ0O5_5Jhwio
                     - TPU version: https://colab.research.google.com/drive/1EkZPH6UE_I1a2TQfDDpjjqA7Na0_qd6v
         - GPU example
-            - [Original TensorFlow GPU notebook](https://www.tensorflow.org/guide/using_gpu) | [Improvised TensorFlow GPU notebook](https://colab.research.google.com/drive/1q0OCnhN60s4hM-PXQikdj0-0c4DZ2VWf#scrollTo=t9ALbbpmY9rm)
+            - [Original TensorFlow GPU notebook](https://www.tensorflow.org/guide/using_gpu) | [Improvised TensorFlow GPU notebook](https://colab.research.google.com/drive/1q0OCnhN60s4hM-PXQikdj0-0c4DZ2VWf#scrollTo=QXRh0DPiZRyG)
             - [Measure Performance on GPU over CPU, in a notebook](https://colab.research.google.com/drive/1XmPDQu_GpwkiBioRZlreLaGVZ_BBEK5j#scrollTo=QXRh0DPiZRyG)
         - TPU example
             - see [TPU example on Cloud/DevOps/Infra page](../cloud-devops-infra/README.md#tpu)
@@ -345,3 +345,7 @@ python scripts/label_image.py --image Bandung_Rose.jpg
 - Week 8: https://www.youtube.com/watch?v=LDRbO9a6XPU
 - Week 9: https://www.youtube.com/watch?v=d12ra3b_M-0
 - Week 10: https://www.youtube.com/watch?v=TF1yh5PKaqI
+
+---
+
+[↑ Back to top](#study-notes) · [← Back home](../README.md)

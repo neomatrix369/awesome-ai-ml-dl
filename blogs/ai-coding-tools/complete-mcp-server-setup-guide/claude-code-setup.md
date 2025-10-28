@@ -4,6 +4,8 @@
 
 **[← Back to Main Guide](./post.md)** | **[← Previous: Claude Desktop Setup](./claude-desktop-setup.md)** | **[Next: Cursor IDE Setup →](./cursor-ide-setup.md)**
 
+[↑ Back to top](#claude-code-cli---complete-mcp-server-setup) · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+
 
 ## Overview
 
