@@ -74,7 +74,7 @@
 - [My journey to 4x GM on Kaggle](https://www.youtube.com/watch?v=z15TKkAPNUM)
 - [Grandmaster Series – How to Build a World-Class ML Model for Melanoma Detection](https://www.youtube.com/watch?v=L1QKTPb6V_I)
 - [Grandmasters Series - How to Perform Large-Scale Image Classification](https://www.youtube.com/watch?v=VxNDH6qLZ_Q)
-- Also see [NVIDIA's RAPIDS](./cloud-devops-infra/gpus/rapids.md#rapids)
+- Also see [NVIDIA's RAPIDS](./infrastructure/cloud-devops-infra/gpus/rapids.md#rapids)
 
 # Contributing
 

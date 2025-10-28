@@ -2,7 +2,7 @@
 
 > 📊 From collection to insights: datasets, EDA, features, and workflows.
 
-Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 📚 [Data](./README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · ☁️ [Cloud](../cloud-devops-infra/README.md) · 🧠 [NLP](../natural-language-processing/README.md) · [Presentations](../presentations/README.md)
+Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 📚 [Data](./README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · ☁️ [Cloud](../infrastructure/cloud-devops-infra/README.md) · 🧠 [NLP](../natural-language-processing/README.md) · [Presentations](../presentations/README.md)
 
 ## Related
 - [Notebooks](../notebooks/README.md)
@@ -173,7 +173,7 @@ See [Statistics.md](statistics.md#statistics)
 ## Visualisation
 
 - [Data Visualization](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
-- See [Visualisation](../details/visualisation.md#visualisation)
+- See [Visualisation](../reference/visualisation.md#visualisation)
 
 ## Common mistakes when training models (data related)
 
@@ -189,7 +189,7 @@ See [Statistics.md](statistics.md#statistics)
 
 ## Cheatsheets
 
-See under [Cheatsheets](../details/cheatsheets.md#cheatsheets)
+See under [Cheatsheets](../reference/cheatsheets.md#cheatsheets)
 
 ## Courses / books
 

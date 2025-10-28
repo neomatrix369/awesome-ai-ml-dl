@@ -285,7 +285,7 @@ Generate function is trainable
             - [Original TensorFlow GPU notebook](https://www.tensorflow.org/guide/using_gpu) | [Improvised TensorFlow GPU notebook](https://colab.research.google.com/drive/1q0OCnhN60s4hM-PXQikdj0-0c4DZ2VWf#scrollTo=QXRh0DPiZRyG)
             - [Measure Performance on GPU over CPU, in a notebook](https://colab.research.google.com/drive/1XmPDQu_GpwkiBioRZlreLaGVZ_BBEK5j#scrollTo=QXRh0DPiZRyG)
         - TPU example
-            - see [TPU example on Cloud/DevOps/Infra page](../cloud-devops-infra/README.md#tpu)
+            - see [TPU example on Cloud/DevOps/Infra page](../infrastructure/cloud-devops-infra/README.md#tpu)
       - [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
             
 ### ML Recipe course by Josh Gordon

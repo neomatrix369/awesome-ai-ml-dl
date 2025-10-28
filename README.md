@@ -27,62 +27,62 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Python Performance](Python-Performance.md) - Redirect to performance section
 
 ### Java & JVM
-- [Java](./details/java-jvm.md#javajvm)
-  - [Business / General / Semi-technical](./details/java-jvm.md#business--general--semi-technical)
-  - [Classifier / decision trees](./details/java-jvm.md#classifier--decision-trees)
-  - [Correlated Cross Occurrence](./details/java-jvm.md#correlated-cross-occurrence)
-  - [Genetic Algorithms](./details/java-jvm.md#genetic-algorithms)
-  - [Java projects / related technologies](./details/java-jvm.md#java-projects--related-technologies)
+- [Java](./reference/java-jvm.md#javajvm)
+  - [Business / General / Semi-technical](./reference/java-jvm.md#business--general--semi-technical)
+  - [Classifier / decision trees](./reference/java-jvm.md#classifier--decision-trees)
+  - [Correlated Cross Occurrence](./reference/java-jvm.md#correlated-cross-occurrence)
+  - [Genetic Algorithms](./reference/java-jvm.md#genetic-algorithms)
+  - [Java projects / related technologies](./reference/java-jvm.md#java-projects--related-technologies)
   - [Natural Language Processing (NLP)](./natural-language-processing/java-jvm.md#javajvm)
-  - [Neural Networks](./details/java-jvm.md#neural-networks)
+  - [Neural Networks](./reference/java-jvm.md#neural-networks)
  	    - Convolutional Neural Networks (CNN)
  	    - Long Short Term Memory (LSTM)
  	    - Recurrent Neural Network (RNN)
-  - [Recommendation systems / Collaborative Filtering (CF)](./details/java-jvm.md#recommendation-systems--collaborative-filtering-cf)
-  - [Data Science](./details/java-jvm.md#data-science)
-  - [Machine Learning](./details/java-jvm.md#machine-learning)
-    - [Deep learning](./details/java-jvm.md#deep-learning)
-       - [Reinforcement learning](./details/java-jvm.md#reinforcement-learning)
-    - [ML on Code/Programm/Source Code](./details/ML-on-code-programming-source-code.md)
-  - [Tools & Libraries, Resources](./details/java-jvm.md#tools--libraries-other-resources)
-  - [How-to / Deploy / DevOps / Serverless](./details/java-jvm.md#how-to--deploy--devops--serverless)
-  - [Misc](./details/java-jvm.md#misc)
-- [Clojure](./details/java-jvm.md#clojure)
-- [Scala](./details/java-jvm.md#scala)
+  - [Recommendation systems / Collaborative Filtering (CF)](./reference/java-jvm.md#recommendation-systems--collaborative-filtering-cf)
+  - [Data Science](./reference/java-jvm.md#data-science)
+  - [Machine Learning](./reference/java-jvm.md#machine-learning)
+    - [Deep learning](./reference/java-jvm.md#deep-learning)
+       - [Reinforcement learning](./reference/java-jvm.md#reinforcement-learning)
+    - [ML on Code/Programm/Source Code](./reference/ML-on-code-programming-source-code.md)
+  - [Tools & Libraries, Resources](./reference/java-jvm.md#tools--libraries-other-resources)
+  - [How-to / Deploy / DevOps / Serverless](./reference/java-jvm.md#how-to--deploy--devops--serverless)
+  - [Misc](./reference/java-jvm.md#misc)
+- [Clojure](./reference/java-jvm.md#clojure)
+- [Scala](./reference/java-jvm.md#scala)
 
 ### Other Languages
-- [Julia, Python, GoLang & R](./details/julia-python-and-r.md#julia-python-and-r)
-  - [General](./details/julia-python-and-r.md#general)
-  - [Generative Adversarial Network (GAN)](./details/julia-python-and-r.md#generative-adversarial-network-gan)
-  - [Genetic Algorithms](./details/julia-python-and-r.md#genetic-algorithms)
-  - [RNN](./details/julia-python-and-r.md#rnn)
-  - [Natural Language Processing (NLP)](./details/julia-python-and-r.md#natural-language-processing-nlp)
-  - [Computer Vision (CV)](./details/julia-python-and-r.md#computer-vision)
-  - [Data Science](./details/julia-python-and-r.md#data-science)
-  - [Machine learning](./details/julia-python-and-r.md#machine-learning)
-    - [Deep learning](./details/julia-python-and-r.md#deep-learning)
-      - [Reinforcement learning](./details/julia-python-and-r.md#reinforcement-learning)
-    - [ML on Code/Programm/Source Code](./details/ML-on-code-programming-source-code.md)
-  - [AI in Golang](./details/julia-python-and-r.md#programming-in-golang)
-  - [More...](./details/julia-python-and-r.md#more)
+- [Julia, Python, GoLang & R](./reference/julia-python-and-r.md#julia-python-and-r)
+  - [General](./reference/julia-python-and-r.md#general)
+  - [Generative Adversarial Network (GAN)](./reference/julia-python-and-r.md#generative-adversarial-network-gan)
+  - [Genetic Algorithms](./reference/julia-python-and-r.md#genetic-algorithms)
+  - [RNN](./reference/julia-python-and-r.md#rnn)
+  - [Natural Language Processing (NLP)](./reference/julia-python-and-r.md#natural-language-processing-nlp)
+  - [Computer Vision (CV)](./reference/julia-python-and-r.md#computer-vision)
+  - [Data Science](./reference/julia-python-and-r.md#data-science)
+  - [Machine learning](./reference/julia-python-and-r.md#machine-learning)
+    - [Deep learning](./reference/julia-python-and-r.md#deep-learning)
+      - [Reinforcement learning](./reference/julia-python-and-r.md#reinforcement-learning)
+    - [ML on Code/Programm/Source Code](./reference/ML-on-code-programming-source-code.md)
+- [AI in Golang](./reference/julia-python-and-r.md#programming-in-golang)
+- [More...](./reference/julia-python-and-r.md#more)
 - [JavaScript](README-details.md#javascript)
 
 ## AI & Machine Learning
 
 ### Core Topics
 - [Artificial Intelligence](README-details.md#artificial-intelligence)
-- [Machine Learning](./details/julia-python-and-r.md#machine-learning)
-- [Deep Learning](./details/julia-python-and-r.md#deep-learning)
+- [Machine Learning](./reference/julia-python-and-r.md#machine-learning)
+- [Deep Learning](./reference/julia-python-and-r.md#deep-learning)
 - [Natural Language Processing (NLP)](./natural-language-processing/README.md)
-- [Computer Vision (CV)](./details/julia-python-and-r.md#computer-vision)
-- [Reinforcement Learning](./details/julia-python-and-r.md#reinforcement-learning)
+- [Computer Vision (CV)](./reference/julia-python-and-r.md#computer-vision)
+- [Reinforcement Learning](./reference/julia-python-and-r.md#reinforcement-learning)
 
 ### Specialized Areas
 - [AI Agents](./ai-agents/README.md)
 - [Generative AI](./blogs/generative-ai/)
 - [Large Language Models](./blogs/large-language-models/)
 - [Computer Vision](./blogs/computer-vision/)
-- [Time Series & Anomaly Detection](./time-series_anomaly-detection/README.md)
+- [Time Series & Anomaly Detection](./domains/time-series/README.md)
 
 ### Ethics & Governance
 - [Ethics / altruistic motives](README-details.md#ethics--altruistic-motives)
@@ -91,12 +91,12 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 ## Data & Analytics
 
 ### Data Science
-- [Data Science](./details/julia-python-and-r.md#data-science)
+- [Data Science](./reference/julia-python-and-r.md#data-science)
 - [Data](./data/README.md)
 - [Data Analysis Tools](./tools/README.md#data-analysis-tools)
 
 ### Visualization
-- [Visualisation](./details/visualisation.md#visualisation)
+- [Visualisation](./reference/visualisation.md#visualisation)
 - [Graphs](README-details.md#graphs)
 
 ## Learning Resources
@@ -111,8 +111,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Tutorials](./blogs/tutorials/)
 
 ### Reference Materials
-- [Cheatsheets](./details/cheatsheets.md#cheatsheets)
-- [Articles, papers, code, data, courses](./details/articles-papers-code-data-courses.md#articles-papers-code-data-courses)
+- [Cheatsheets](./reference/cheatsheets.md#cheatsheets)
+- [Articles, papers, code, data, courses](./reference/articles-papers-code-data-courses.md#articles-papers-code-data-courses)
 - [Presentations](README-details.md#presentations)
 - [Models](README-details.md#models)
 - [Notebooks](./notebooks/README.md#notebooks)
@@ -126,7 +126,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [AI Coding Tools References](./blogs/ai-coding-tools/COMMON-REFERENCES.md) - MCP, Claude, Cursor resources
 
 ### Cloud & DevOps
-- [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
+- [Cloud, DevOps, Infra](infrastructure/cloud-devops-infra/README.md#cloud-devops-infra)
 - [Cloud Infrastructure](./blogs/cloud-infrastructure/)
 - [MLOps & Deployment](./blogs/mlops-deployment/)
 
@@ -136,21 +136,21 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Deep Learning](./blogs/deep-learning/)
 
 ### Testing & Quality
-- [Tests & Testing](./details/julia-python-and-r.md#testing)
+- [Tests & Testing](./reference/julia-python-and-r.md#testing)
 - [Best Practices](./blogs/best-practices/)
 
 ## Reference Materials
 
 ### Mathematical Foundations
-- [Mathematics, Statistics, Probability & Probabilistic programming](./details/maths-stats-probability.md#mathematics-statistics-probability--probabilistic-programming)
-- [Mathematica](./details/mathematica-wolfram-Language.md#mathematica--wolfram-language)
+- [Mathematics, Statistics, Probability & Probabilistic programming](./reference/maths-stats-probability.md#mathematics-statistics-probability--probabilistic-programming)
+- [Mathematica](./reference/mathematica-wolfram-Language.md#mathematica--wolfram-language)
 
 ### Automation & MLOps
 - [Automation](README-details.md#automation)
 - [Deployment & MLOps](./tools/README.md#deployment--mlops)
 
 ### Miscellaneous
-- [Misc](./details/misc.md#misc)
+- [Misc](./reference/misc.md#misc)
 - [Contributing](#contributing)
 - [Sponsoring](#sponsoring)
 

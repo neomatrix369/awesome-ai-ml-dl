@@ -122,7 +122,7 @@ See [Courses](./courses.md#courses)
 - [Visual Studio](https://visualstudio.microsoft.com/)
 - [MATLAB](https://www.mathworks.com/products/matlab.html)
 - [Notepad++](https://notepad-plus-plus.org/)
-- Also see [Cheatsheets](./details/cheatsheets.md)
+- Also see [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Hosted Notebook products
@@ -142,7 +142,7 @@ See [Courses](./courses.md#courses)
 - [Kaggle Notebooks (Kernels)](https://www.kaggle.com/kernels/)
 - [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio/)
 - [Count](https://count.co)
-- Also see resources under [Notebooks](./notebooks/README.md#notebooks) and [Cheatsheets](./details/cheatsheets.md)
+- Also see resources under [Notebooks](./notebooks/README.md#notebooks) and [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Programming languages
@@ -159,7 +159,7 @@ See [Courses](./courses.md#courses)
 - [C++](https://en.wikipedia.org/wiki/C%2B%2B)
 - [Python](https://www.python.org/), **also see [Programming in Python](./Programming-in-Python.md)**
 - [Typescript](https://syntaxcorrect.com/The_TypeScript_Programming_Language)
-- Also see [Cheatsheets](./details/cheatsheets.md)
+- Also see [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Data visualization libraries or tools
@@ -176,18 +176,18 @@ See [Courses](./courses.md#courses)
 - [Altair](https://altair-viz.github.io/)
 - [Pandas profiling](./data/pandas-profiling.md)
 - [Bamboolib](./data/bamboolib.md)
-- See more resources under [Visualisation](./details/visualisation.md) and [Cheatsheets](./details/cheatsheets.md)
+- See more resources under [Visualisation](./reference/visualisation.md) and [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Specialized hardware
 
-- [CPUs](./cloud-devops-infra/README.md#cpu)
-- [GPUs](./cloud-devops-infra/README.md#gpu)
-  - See also [NVIDIA's RAPIDS](./cloud-devops-infra/gpus/rapids.md#rapids)
-- [TPUs](./cloud-devops-infra/README.md#tpu)
-- [FPGA](./cloud-devops-infra/README.md#fpga)
-- [IPU](./cloud-devops-infra/README.md#ipu)
-- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md)
+- [CPUs](./infrastructure/cloud-devops-infra/README.md#cpu)
+- [GPUs](./infrastructure/cloud-devops-infra/README.md#gpu)
+  - See also [NVIDIA's RAPIDS](./infrastructure/cloud-devops-infra/gpus/rapids.md#rapids)
+- [TPUs](./infrastructure/cloud-devops-infra/README.md#tpu)
+- [FPGA](./infrastructure/cloud-devops-infra/README.md#fpga)
+- [IPU](./infrastructure/cloud-devops-infra/README.md#ipu)
+- See more resources under [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md)
 
 
 ## Machine learning Algorithms
@@ -202,7 +202,7 @@ See [Courses](./courses.md#courses)
 - Evolutionary Approaches: [Approach 1](https://towardsdatascience.com/introduction-to-evolutionary-algorithms-a8594b484ac) | [Approach 2](https://towardsdatascience.com/evolutionary-approaches-towards-ai-past-present-and-future-b23ccb424e98)
 - [Recurrent Neural Networks](https://en.wikipedia.org/wiki/Recurrent_neural_network)
 - [Transformer Networks (BERT, gpt-2, etc)](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
-- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning)
+- See more resources under **Machine Learning** resources: [[1]](./reference/java-jvm.md#machine-learning) | [[2]](./reference/julia-python-and-r.md#machine-learning)
 
 
 ## Machine learning frameworks
@@ -213,7 +213,7 @@ See [Courses](./courses.md#courses)
 - [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
 - [Keras](https://keras.io/)
 - [Caret](https://cran.r-project.org/web/packages/caret/index.html)
-- [PyTorch](https://pytorch.org/) | Also see [PyTorch](./details/pytorch.md)
+- [PyTorch](https://pytorch.org/) | Also see [PyTorch](./reference/pytorch.md)
   - PyTorch Lightening: [Homepage](pytorchlightning.ai) | [Github](github.com/PyTorchLightning/pytorch-lightning) | [Docs](pytorch-lightning.readthedocs.io/en/stable/)
 - [Fast.ai](https://docs.fast.ai/)
 - [Spark Mlib](https://spark.apache.org/mllib/)
@@ -225,7 +225,7 @@ See [Courses](./courses.md#courses)
 - [Tidymodels](https://github.com/tidymodels/tidymodels)
 - [MXNet](https://github.com/apache/incubator-mxnet/)
 - [JAX](https://github.com/google/jax/)
-- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning) and [Cheatsheets](./details/cheatsheets.md)
+- See more resources under **Machine Learning** resources: [[1]](./reference/java-jvm.md#machine-learning) | [[2]](./reference/julia-python-and-r.md#machine-learning) and [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Machine learning products
@@ -240,7 +240,7 @@ See [Courses](./courses.md#courses)
 - [RapidMiner](https://rapidminer.com/)
 - [Google Cloud Translation](https://cloud.google.com/translate/)
 - [Cloudera](https://www.cloudera.com/)
-- See more resources under **Machine Learning** resources: [[1]](./details/java-jvm.md#machine-learning) | [[2]](./details/julia-python-and-r.md#machine-learning), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./details/cheatsheets.md)
+- See more resources under **Machine Learning** resources: [[1]](./reference/java-jvm.md#machine-learning) | [[2]](./reference/julia-python-and-r.md#machine-learning), [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Big data / analytics products
@@ -259,7 +259,7 @@ See [Courses](./courses.md#courses)
 - [Apache Spark](https://spark.apache.org/)
 - [Apache Hive](https://hive.apache.org/)
 - [Apache Pig](https://pig.apache.org/)
-- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools), [Databases](./data/README.md#databases) and [Cheatsheets](./details/cheatsheets.md)
+- See more resources under [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools), [Databases](./data/README.md#databases) and [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Cloud computing platforms
@@ -275,7 +275,7 @@ See [Courses](./courses.md#courses)
 - [Microsoft Azure](https://azure.microsoft.com/en-us/)
 - [Salesforce Cloud](https://www.salesforce.com/products/sales-cloud/features/)
 - [Tencent Cloud](https://intl.cloud.tencent.com)
-- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
 ## Cloud computing products
@@ -291,7 +291,7 @@ See [Courses](./courses.md#courses)
 - [Google Cloud Functions](https://cloud.google.com/functions/)
 - [Azure Container Service](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft.acs)
 - [AWS Batch](https://aws.amazon.com/batch/)
-- See more resources under [Cloud/DevOps/Infra](./cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md) and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
 ## Automated pipelines
@@ -305,7 +305,7 @@ See [Courses](./courses.md#courses)
 - Automation of full ML pipelines (e.g. Google AutoML, H20 Driverless AI)
 - [Machine Learning incl. #AutoML overfits. On a mission to develop Causal AI](https://www.linkedin.com/posts/causalens_causal-ai-commodity-trading-use-case-activity-6637402428813692928-TuVM)
 - Automation of full ML pipelines: (e.g. [Google AutoML](https://cloud.google.com/automl/), [H2O Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/))
-- See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
+- See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md), and [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools)
 
 
 ## Automated machine learning tools (or partial AutoML tools)
@@ -327,7 +327,7 @@ See [Courses](./courses.md#courses)
 - [The 3 Best Free Online Resources to Learn MLOps](https://telesto.ai/the-3-best-free-online-resources-to-learn-mlops/)
 - [An awesome list of references for MLOps - Machine Learning Operations 👉 ml-ops.org](https://github.com/visenger/awesome-mlops)
 - [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning)
-- See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./details/cheatsheets.md)
+- See more resources under [Automation](./README-details.md#automation), [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md), [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) and [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Tools to help manage machine learning experiments
@@ -373,7 +373,7 @@ See [Courses](./courses.md#courses)
 - [MongoDB](https://www.mongodb.com)
 - [Snowflake](https://www.snowflake.com)
 - [IBM Db2](https://www.ibm.com/analytics/db2)
-- See other resources under [Databases](./data/README.md#databases) and [Cheatsheets](./details/cheatsheets.md)
+- See other resources under [Databases](./data/README.md#databases) and [Cheatsheets](./reference/cheatsheets.md)
 
 
 ## Business intelligence tools

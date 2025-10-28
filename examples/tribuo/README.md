@@ -300,5 +300,5 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Go to [Java/JVM Machine Learning page](../../details/java-jvm.md#javajvm) </br>
+Go to [Java/JVM Machine Learning page](../../reference/java-jvm.md#javajvm) </br>
 Go to [Main page](../../README.md)
