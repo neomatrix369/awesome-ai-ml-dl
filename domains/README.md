@@ -20,4 +20,4 @@ Navigation: [Home](../README.md) · 🧠 [NLP](../natural-language-processing/RE
 - ✨ [Generative AI](./generative-ai/README.md)
 - 🚀 [MLOps & Deployment](./mlops-deployment/README.md)
 
-[↑ Back to top](#domains) · [← Back home](../README.md)
+#domains · [← Back home](../README.md)

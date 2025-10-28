@@ -149,4 +149,4 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-[↑ Back to top](#apache-zeppelin-zeppelinhttpsimgshieldsiodockerpullsneomatrix369zeppelinsvghttpshubdockercomrneomatrix369zeppelin-licensehttpsimgshieldsiobadgelicense-apache2020-bluesvghttpsopensourceorglicensesapache-20) · [← Back home](../../README.md)
+#apache-zeppelin-zeppelinhttpsimgshieldsiodockerpullsneomatrix369zeppelinsvghttpshubdockercomrneomatrix369zeppelin-licensehttpsimgshieldsiobadgelicense-apache2020-bluesvghttpsopensourceorglicensesapache-20 · [← Back home](../../README.md)

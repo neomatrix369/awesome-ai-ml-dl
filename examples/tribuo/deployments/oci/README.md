@@ -13,16 +13,16 @@ network resources necessary to run an instance on OCI
 - also provides the necessary help in the form of ready-to-use shell-scripts toto perform various tasks with the help of `terraform` and `ssh`
 
 **Table of content**
-- [Pre-requisites](#pre-requisites)
-- [Provisioning Infrastructure using Terraform](#provisioning-infrastructure-using-terraform)
-  + [Setting up credentials](#setting-up-credentials)
-  + [Create infrastructure from the CLI using Terraform](#create-infrastructure-from-the-cli-using-terraform)
-  + [Deploy the docker image with the notebooks and libraries](#deploy-the-docker-image-with-the-notebooks-and-libraries)
-  + [Recover/retry from failed attempt](#recoverretry-from-failed-attempt)
-  + [Start clean after a failed attempt (errors encountered)](#start-clean-after-a-failed-attempt-errors-encountered)
-  + [Destroy infrastructure (cleanup)](#destroy-infrastructure-cleanup)
-- [Security](#security)
-- [OCI and Terraform resources](#oci-and-terraform-resources)
+- #pre-requisites
+- #provisioning-infrastructure-using-terraform
+  + #setting-up-credentials
+  + #create-infrastructure-from-the-cli-using-terraform
+  + #deploy-the-docker-image-with-the-notebooks-and-libraries
+  + #recoverretry-from-failed-attempt
+  + #start-clean-after-a-failed-attempt-errors-encountered
+  + #destroy-infrastructure-cleanup
+- #security
+- #oci-and-terraform-resources
 
 ## Pre-requisites
 

@@ -2,7 +2,7 @@
 
 **[← Back to Main Guide](./post.md)**
 
-[↑ Back to top](#pro-setup-advanced-tools) · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+#pro-setup-advanced-tools · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
 
 ## Overview
 

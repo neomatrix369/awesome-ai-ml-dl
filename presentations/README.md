@@ -23,4 +23,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-[↑ Back to top](#presentations) · [← Back home](../README.md)
+#presentations · [← Back home](../README.md)

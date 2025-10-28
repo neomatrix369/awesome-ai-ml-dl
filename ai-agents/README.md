@@ -109,4 +109,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-[↑ Back to top](#ai-agents-🤖) · [← Back home](../README.md)
+#ai-agents-🤖 · [← Back home](../README.md)

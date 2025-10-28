@@ -34,7 +34,7 @@ The question to ask ourselves: _Do we know our data...?_
 - [Feature Importance](./README.md#feature-importance)
 - [Feature Engineering](./README.md#feature-engineering)
 - [Feature Selection](./README.md#feature-selection)
-- [Hyperparameter tuning](#hyperparameter-tuning)
+- #hyperparameter-tuning
 - [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
 - [Model deployment](./README.md#model-deployment)
 - [Statistics](./README.md#statistics)
@@ -243,4 +243,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-[↑ Back to top](#data) · [← Back home](../README.md)
+#data · [← Back home](../README.md)

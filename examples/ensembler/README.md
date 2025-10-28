@@ -9,20 +9,20 @@ Run a docker container with DeepNetts (a DL Library, written in Java), running u
 
 # Table of contents
 
-- [Goals](#goals)
-- [DeepNetts examples: as a Java CLI app](#deepnetts-examples-as-a-java-cli-app)
-  - [native-image build (optional)](#native-image-build-optional)
-- [Scripts provided](#scripts-provided)
-- [Usage](#usage)
-  - [Help](#help)
-  - [Run the DeepNetts docker container](#run-the-deepnetts-docker-container)
-  - [Other methods to run the container](#other-methods-to-run-the-container)
+- #goals
+- #deepnetts-examples-as-a-java-cli-app
+  - #native-image-build-optional
+- #scripts-provided
+- #usage
+  - #help
+  - #run-the-deepnetts-docker-container
+  - #other-methods-to-run-the-container
   - **[Run the DeepNetts docker container in the cloud](./deployments/oci/README.md)**
-- [Build the docker container](#build-the-docker-container)
-- [Push built DeepNetts docker image to Docker hub](#push-built-deepnetts-docker-image-to-docker-hub)
-- [Docker image on Docker Hub](#docker-image-on-docker-hub)
+- #build-the-docker-container
+- #push-built-deepnetts-docker-image-to-docker-hub
+- #docker-image-on-docker-hub
 - [Presentation](../../presentations/awesome-ai-ml-dl/03-makeitweek-2020/README.md)
-- [Contributing](#contributing)
+- #contributing
 
 ## Goals
 

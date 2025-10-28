@@ -25,4 +25,4 @@ Towards the end, I would like to share some inspirations on Masters, Grandmaster
 
 ---
 
-[↑ Back to top](#-from-backend-development-to-machine-learning) · [← Back home](../../../README.md)
+#from-backend-development-to-machine-learning · [← Back home](../../../README.md)

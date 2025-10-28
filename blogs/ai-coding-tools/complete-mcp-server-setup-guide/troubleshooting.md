@@ -372,4 +372,4 @@ If you're still experiencing issues:
 
 **[← Back to Main Guide](./post.md)** | **[← Previous: Advanced MCP Servers](./advanced-mcp-servers.md)** | **[Next: Pro Setup →](./pro-setup.md)**
 
-[↑ Back to top](#complete-troubleshooting-guide) · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+#complete-troubleshooting-guide · [← Back home](../../../README.md) · [← Back to blogs](../README.md)

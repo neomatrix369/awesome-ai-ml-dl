@@ -15,19 +15,19 @@ Navigation: [Home](../README.md) · [Details](../../README-details.md#general) �
 - [AI Agents](../../ai-agents/README.md)
 - [NLP](../../natural-language-processing/README.md)
 
-- [System / Infra](#system--infra)
-- [Compute & Storage](#compute--storage)
-- [Grid computing / Super computing](#grid-computing--super-computing)
-- [Cloud services](#cloud-services)
-- [Tools](#tools)
-- [CPU](#cpu)
-- [FPGA](#fpga)
-- [GPU](#gpu)
-- [TPU](#tpu)
-- [IPU](#ipu)
-- [Performance](#performance)
-- [Misc](#misc)
-- [Contributing](#contributing)
+- #system-infra
+- #compute-storage
+- #grid-computing-super-computing
+- #cloud-services
+- #tools
+- #cpu
+- #fpga
+- #gpu
+- #tpu
+- #ipu
+- #performance
+- #misc
+- #contributing
 
 ## System / Infra
 
@@ -38,7 +38,7 @@ Navigation: [Home](../README.md) · [Details](../../README-details.md#general) �
 ## Compute & Storage
 
   - [Cray Computers](https://www.cray.com/ai) | [Artificial Intelligence](https://www.cray.com/solutions/artificial-intelligence) | [Accel AI](https://www.cray.com/solutions/artificial-intelligence/cray-accel-ai) | [Cryp-em](https://www.cray.com/solutions/cryo-em) | [Autonomous Vehicles](https://www.cray.com/solutions/autonomous-vehicles) | [Geospatial AI](https://www.cray.com/solutions/geospatial-ai)
-  - [GraphCore's IPU](#ipu)
+  - #ipu
   - [Lambda Labs](https://lambdalabs.com/)
   - NGD Systems: [Technology](https://www.ngdsystems.com/technology) [deadlink] | [Solutions](https://www.ngdsystems.com/solutions) - High Compute Storage, Scalable Computational Storage [deadlink] | [NGD Systems: Ensuring AI Advancement with Intelligent Storage](https://www.insightssuccess.com/ngd-systems-ensuring-ai-advancement-with-intelligent-storage/)
 
@@ -226,4 +226,4 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-[↑ Back to top](#cloud-devops-infra) · [← Back home](../README.md)
+#cloud-devops-infra · [← Back home](../README.md)

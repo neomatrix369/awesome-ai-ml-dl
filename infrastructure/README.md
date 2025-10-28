@@ -25,4 +25,4 @@ Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Note
 ## Related
 - 📚 Data · 🧪 Notebooks · 🧰 Tools · 🤖 Agents · 🧠 NLP
 
-[↑ Back to top](#☁️-infrastructure) · [← Back home](../README.md)
+#☁️-infrastructure · [← Back home](../README.md)

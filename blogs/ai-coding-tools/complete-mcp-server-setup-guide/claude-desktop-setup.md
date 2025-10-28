@@ -6,7 +6,7 @@
 
 **[← Back to Main Guide](./post.md)** | **[Next: Claude Code Setup →](./claude-code-setup.md)**
 
-[↑ Back to top](#claude-desktop---complete-mcp-server-setup) · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+#claude-desktop---complete-mcp-server-setup · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
 
 ## Overview
 

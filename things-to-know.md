@@ -4,30 +4,30 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 
 ---
 
-- [Important part of your role at work (if work with data)](#important-part-of-your-role-at-work-if-work-with-data)
-- [Media sources](#media-sources)
-- [Useful blogs to read](#useful-blogs-to-read)
-- [Course providers](#course-providers)
-- [Courses](#courses)
-- [Primary tools to analyse data](#primary-tools-to-analyse-data)
-- [IDEs](#ides)
-- [Hosted Notebook products](#hosted-notebook-products)
-- [Programming languages](#programming-languages)
-- [Data visualization libraries or tools](#data-visualization-libraries-or-tools)
-- [Specialized hardware](#specialized-hardware)
-- [Machine Learning Algorithms](#machine-learning-algorithms)
-- [Machine learning frameworks](#machine-learning-frameworks)
-- [Machine learning products](#machine-learning-products)
-- [Big data / analytics products](#big-data--analytics-products)
-- [Cloud computing platforms](#cloud-computing-platforms)
-- [Cloud computing products](#cloud-computing-products)
-- [Automated pipelines](#automated-pipelines)
-- [Automated machine learning tools (or partial AutoML tools)](#automated-machine-learning-tools-or-partial-automl-tools)
-- [Tools to help manage machine learning experiments](#tools-to-help-manage-machine-learning-experiments)
-- [Publicly share or deploy your data analysis or machine learning applications](#publicly-share-or-deploy-your-data-analysis-or-machine-learning-applications)
-- [Relational database products](#relational-database-products)
-- [Other Tools](#other-tools)
-- [Contributing](#contributing)
+- #important-part-of-your-role-at-work-if-work-with-data
+- #media-sources
+- #useful-blogs-to-read
+- #course-providers
+- #courses
+- #primary-tools-to-analyse-data
+- #ides
+- #hosted-notebook-products
+- #programming-languages
+- #data-visualization-libraries-or-tools
+- #specialized-hardware
+- #machine-learning-algorithms
+- #machine-learning-frameworks
+- #machine-learning-products
+- #big-data-analytics-products
+- #cloud-computing-platforms
+- #cloud-computing-products
+- #automated-pipelines
+- #automated-machine-learning-tools-or-partial-automl-tools
+- #tools-to-help-manage-machine-learning-experiments
+- #publicly-share-or-deploy-your-data-analysis-or-machine-learning-applications
+- #relational-database-products
+- #other-tools
+- #contributing
 
 ---
 

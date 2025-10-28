@@ -26,4 +26,4 @@ See [talk](https://www.meetup.com/AI-for-Enterprise-Virtual-User-Group/events/27
 
 ---
 
-[↑ Back to top](#-looking-into-java-mldl-libraries-tribuo-and-deepnetts) · [← Back home](../../../README.md)
+#looking-into-java-mldl-libraries-tribuo-and-deepnetts · [← Back home](../../../README.md)

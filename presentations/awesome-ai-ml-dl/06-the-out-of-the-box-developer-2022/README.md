@@ -42,4 +42,4 @@ Please download slides to be able to click on the links (see top corner for Down
 
 ---
 
-[↑ Back to top](#-the-out-of-the-box-developer) · [← Back home](../../../README.md)
+#the-out-of-the-box-developer · [← Back home](../../../README.md)

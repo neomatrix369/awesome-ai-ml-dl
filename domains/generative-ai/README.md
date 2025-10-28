@@ -25,4 +25,4 @@ Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.m
 ## Related
 - 🖼️ CV · 🏗️ LLMs · 🤖 Agents · ☁️ Infrastructure
 
-[↑ Back to top](#✨-generative-ai) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+#✨-generative-ai · [← Back to domains](../README.md) · [← Back home](../../README.md)

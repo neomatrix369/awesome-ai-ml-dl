@@ -9,20 +9,20 @@ Run a docker container with Tribuo (a ML Library, written in Java), running unde
 
 # Table of contents
 
-- [Goals](#goals)
-- [Tribuo examples: as a Java CLI app](#tribuo-examples-as-a-java-cli-app)
-  - [native-image build (optional)](#native-image-build-optional)
-- [Scripts provided](#scripts-provided)
-- [Usage](#usage)
-  - [Help](#help)
-  - [Run the Tribuo docker container](#run-the-tribuo-docker-container)
-  - [Other methods to run the container](#other-methods-to-run-the-container)
+- #goals
+- #tribuo-examples-as-a-java-cli-app
+  - #native-image-build-optional
+- #scripts-provided
+- #usage
+  - #help
+  - #run-the-tribuo-docker-container
+  - #other-methods-to-run-the-container
   - **[Run the Tribuo docker container in the cloud](./deployments/oci/README.md)**
-- [Build the docker container](#build-the-docker-container)
-- [Push built Tribuo docker image to Docker hub](#push-built-tribuo-docker-image-to-docker-hub)
-- [Docker image on Docker Hub](#docker-image-on-docker-hub)
+- #build-the-docker-container
+- #push-built-tribuo-docker-image-to-docker-hub
+- #docker-image-on-docker-hub
 - [Presentation](../../presentations/awesome-ai-ml-dl/03-makeitweek-2020/README.md)
-- [Contributing](#contributing)
+- #contributing
 
 ## Goals
 

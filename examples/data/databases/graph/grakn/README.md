@@ -2,27 +2,27 @@
 
 Run [Grakn and Graql](http://grakn.ai) in a docker container running under the traditional Java 8 (from OpenJDK or another source).
 
-Find out more about [Grakn and Graql](http://grakn.ai) from the [Resources](#Resources) section below.
+Find out more about [Grakn and Graql](http://grakn.ai) from the #resources section below.
 
 On start-up, useful details including time to start-up the Grakn server and duration for which Graql was run are printed.
 
 Also, available experimental usage of GraalVM, to take advantages of the performance benefits of this JVM.
 
-- [Goals](#goals)
-- [Scripts provided](#scripts-provided)
-  - [Performance Scripts provided](#performance-scripts-provided)
-- [Usage](#usage)
-  - [Setting your environment](#setting-your-environment)
-  - [Running Grakn docker container](#running-grakn-docker-container)
-  - [Run the performance script in the Grakn docker container](#run-the-performance-script-in-the-grakn-docker-container)
-  - [Build the Grakn docker container](#build-the-grakn-docker-container)
-  - [Docker image on Docker Hub](#docker-image-on-docker-hub)
-  - [Building Grakn](#building-grakn)
-    - [Known issues doing the above](#known-issues-doing-the-above)
-- [Graql](#graql)
-  - [English-to-Graql](#english-to-graql)
-  - [Graql-to-English](#graql-to-english)
-- [Resources](#resources)
+- #goals
+- #scripts-provided
+  - #performance-scripts-provided
+- #usage
+  - #setting-your-environment
+  - #running-grakn-docker-container
+  - #run-the-performance-script-in-the-grakn-docker-container
+  - #build-the-grakn-docker-container
+  - #docker-image-on-docker-hub
+  - #building-grakn
+    - #known-issues-doing-the-above
+- #graql
+  - #english-to-graql
+  - #graql-to-english
+- #resources
 
 ---
 

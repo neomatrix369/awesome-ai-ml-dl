@@ -18,9 +18,9 @@ Navigation: [Home](../../README.md) · [Domains](../README.md) · 📚 [Data](..
 
 ## Deep dive
 - Methods and guides: [./time-series.md#methods-armaarimasarima-and-others](./time-series.md#methods-armaarimasarima-and-others)
-- Tools index: [#tools-libraries-frameworks](#tools-libraries-frameworks)
+- Tools index: #tools-libraries-frameworks
 
-[↑ Back to top](#⏱️-time-series-anomaly-detection) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+#⏱️-time-series-anomaly-detection · [← Back to domains](../README.md) · [← Back home](../../README.md)
 
 ---
 
@@ -30,10 +30,10 @@ Navigation: [Home](../../README.md) · [Domains](../README.md) · 📚 [Data](..
 
 Curated links and notes for time-series analysis and anomaly detection: methods, libraries, notebooks, and applied resources for forecasting and pattern discovery.
 
-- [Time-series](#timeseries)
-  - [Notebooks](#notebooks)
-- [Anomaly detection](#anomaly-detection)
-- [Contributing](#contributing)
+- #time-series
+  - #notebooks
+- #anomaly-detection
+- #contributing
 
 ---
 
@@ -57,7 +57,7 @@ Curated links and notes for time-series analysis and anomaly detection: methods,
 - [Prediction](time-series.md#prediction)
 - [Trend estimation / trend analysis](time-series.md#trend-estimation--trend-analysis)
 - [Notebooks](time-series.md#notebooks)
-- [Tools, libraries, frameworks](#tools-libraries-frameworks)
+- #tools-libraries-frameworks
 - [Misc](time-series.md#misc)
 
 #### Notebooks
@@ -102,7 +102,7 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
   - [A Simplified approach using PyCaret for Anomaly Detection](https://towardsdatascience.com/a-simplified-approach-using-pycaret-for-anomaly-detection-7d33aca3f066?source=search_post)
   - [Anomaly Detection Using PyCaret!!!](https://medium.com/@insaid/anomaly-detection-using-pycaret-38b267ed638b?source=search_post)
 
-### [Tools, libraries, frameworks](#tools,-libraries,-frameworks)
+### #tools,-libraries,-frameworks
 
 - [STUMPY is a powerful and scalable library that efficiently computes something called the matrix profile, which can be used for a variety of time series data mining tasks](https://stumpy.readthedocs.io/en/latest/)
 - [Introduction to Matrix Profiles](https://towardsdatascience.com/introduction-to-matrix-profiles-5568f3375d90)
@@ -132,4 +132,4 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-[↑ Back to top](#⏱️-time-series-anomaly-detection) · [← Back home](../README.md)
+#⏱️-time-series-anomaly-detection · [← Back home](../README.md)

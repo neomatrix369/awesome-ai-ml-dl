@@ -4,28 +4,28 @@
 
 This section will be dedicated to guides to learning Data Science, Machine Learning, Deep Learning, and the likes. The material comes from links to various sources, one of the primary ones being [Virgilio](https://github.com/virgili0/Virgilio), for those who are not familiar with it.
 
-- [Virgili0](#virgili0)
-  - [Existing guides](#existing-guides)
-    - [Learning to learn](#learning-to-learn)
-    - [Just beginning](#just-beginning)
-    - [Fundamentals](#fundamentals)
-    - [Machine Learning](#machine-learning)
-    - [New To Data Science](#new-to-data-science)
-    - [Data Science skills](#data-science-skills)
-    - [Deep Learning](#deep-learning)
-    - [Natural Language Processing](#natural-language-processing)
-    - [Tools](#tools)
-    - [Research](#research)
-  - [New guides](#new-guides)
-    - [Paradiso](#paradiso)
-    - [Purgatorio](#purgatorio)
-    - [Inferno](#inferno)
-  - [Contribute to Virgili0](#contribute-to-virgili0)
+- #virgili0
+  - #existing-guides
+    - #learning-to-learn
+    - #just-beginning
+    - #fundamentals
+    - #machine-learning
+    - #new-to-data-science
+    - #data-science-skills
+    - #deep-learning
+    - #natural-language-processing
+    - #tools
+    - #research
+  - #new-guides
+    - #paradiso
+    - #purgatorio
+    - #inferno
+  - #contribute-to-virgili0
   - [👉 Feynman Learning Technique 👈](https://www.linkedin.com/posts/asif-bhat_neverstoplearning-asifbhat-activity-6639250916010717185-avMT)
   - [👉 How to Learn #AI 👈](https://www.linkedin.com/posts/asif-bhat_datasciencepost-on-instagram-artificialintelligence-activity-6634407139324588032-DD4K)
   - [👉 Python to Neural Networks : A Guide for Beginners 👈] (https://www.linkedin.com/feed/update/urn:li:activity:6690911303441219584/)
 
-- [Contributing](#contributing)
+- #contributing
 
 ---
 

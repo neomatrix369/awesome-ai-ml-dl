@@ -16,13 +16,13 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 
 ## Table of Contents
 
-- [Development Environments](#development-environments)
-- [Data Analysis Tools](#data-analysis-tools)
-- [Machine Learning Frameworks](#machine-learning-frameworks)
-- [Cloud Platforms](#cloud-platforms)
-- [Specialized Hardware](#specialized-hardware)
-- [Automation Tools](#automation-tools)
-- [Deployment & MLOps](#deployment--mlops)
+- #development-environments
+- #data-analysis-tools
+- #machine-learning-frameworks
+- #cloud-platforms
+- #specialized-hardware
+- #automation-tools
+- #deployment-mlops
 
 ## Development Environments
 
@@ -149,4 +149,4 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 
 ---
 
-[↑ Back to top](#tools-technologies-for-aimldl) · [← Back home](../README.md)
+#tools-technologies-for-aimldl · [← Back home](../README.md)

@@ -160,4 +160,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-[↑ Back to top](#notebooks) · [← Back home](../README.md)
+#notebooks · [← Back home](../README.md)

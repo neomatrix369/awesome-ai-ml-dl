@@ -20,4 +20,4 @@ See [jOnConf page: Day 2: 10-11 AM CEST](https://jonconf.com/programme/) (click 
 
 ---
 
-[↑ Back to top](#-nn-things-every-java-developer-should-know-about-aimldl) · [← Back home](../../../README.md)
+#nn-things-every-java-developer-should-know-about-aimldl · [← Back home](../../../README.md)

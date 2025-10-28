@@ -23,7 +23,7 @@ The RAPIDS suite of software libraries, built on [CUDA-X AI](https://www.develop
 ## Tutorials (with notebooks)
 
 - [Introduction to RAPIDS, cdDF, Dask, Dask_cuDF, XGBoost...](https://github.com/rapidsai/notebooks-contrib/tree/master/getting_started_notebooks/intro_tutorials)
-- Also see **[Notebooks](#notebooks)**
+- Also see **#notebooks**
 
 ##  Notebooks
 

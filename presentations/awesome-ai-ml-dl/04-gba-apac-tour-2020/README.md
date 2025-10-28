@@ -25,4 +25,4 @@ See [talk](https://oracle-groundbreakers-apac-virtual-tour-2020.heysummit.com/ta
 
 ---
 
-[↑ Back to top](#-nn-things-every-java-developer-should-know-about-aimldl) · [← Back home](../../../README.md)
+#nn-things-every-java-developer-should-know-about-aimldl · [← Back home](../../../README.md)

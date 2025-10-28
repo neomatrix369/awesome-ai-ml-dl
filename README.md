@@ -188,8 +188,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 ### Miscellaneous
 - [Misc](./reference/misc.md#misc)
-- [Contributing](#contributing)
-- [Sponsoring](#sponsoring)
+- #contributing
+- #sponsoring
 
 # Contributing
 
