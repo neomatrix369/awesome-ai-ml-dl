@@ -5,6 +5,8 @@
 
 Navigation: [Home](../../README.md) · [🤖 Agents (main)](../../ai-agents/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🧠 NLP](../../natural-language-processing/README.md) · [Domains](../README.md)
 
+![banner](../../assets/banners/ai-agents-hero.png)
+
 ## At a glance
 - **Quickstart:** Build your first agent in 10 minutes
 - **Frameworks:** LangChain, CrewAI, AutoGen

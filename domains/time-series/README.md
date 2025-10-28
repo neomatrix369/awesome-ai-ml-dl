@@ -5,6 +5,8 @@
 
 Navigation: [Home](../../README.md) · [Domains](../README.md) · 📚 [Data](../../data/README.md) · 🧪 [Notebooks](../../notebooks/README.md) · 🛠️ [Tools](../../tools/README.md) · 🤖 [Agents](../../ai-agents/README.md) · 🧠 [NLP](../../natural-language-processing/README.md)
 
+![banner](../../assets/banners/time-series-hero.png)
+
 ## At a glance
 - **Models**: ARIMA/SARIMA, Prophet, RNNs/Transformers
 - **Tasks**: Forecasting, anomaly detection, classification

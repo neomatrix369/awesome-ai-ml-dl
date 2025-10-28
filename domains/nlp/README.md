@@ -5,6 +5,8 @@
 
 Navigation: [Home](../../README.md) · [🧠 NLP (main)](../../natural-language-processing/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🤖 Agents](../../ai-agents/README.md) · [Domains](../README.md)
 
+![banner](../../assets/banners/nlp-hero.png)
+
 ## At a glance
 - **Quickstart:** Text classification and embeddings
 - **Models:** Transformers, RNNs, classic NLP

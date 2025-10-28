@@ -5,6 +5,8 @@
 
 Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🤖 Agents](../../ai-agents/README.md) · [Domains](../README.md)
 
+![banner](../../assets/banners/large-language-models-hero.png)
+
 ## At a glance
 - **Quickstart:** Prompting and RAG
 - **Models:** GPT, LLaMA, Mistral, mixtral
