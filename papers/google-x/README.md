@@ -25,4 +25,4 @@
     - [Page 13 - Ranking Minimas.jpg](./Page\ 13\ -\ Ranking\ Minimas.jpg)
     - [Page 14 - Contributions to Science & Engineering of Intelligence.jpg](./Page\ 14\ -\ Contributions\ to\ Science\ \&\ Engineering\ of\ Intelligence.jpg)
 
-[↑ Back to top](#papers-by-members-of-google-and-google-x-aka-x-team) · [← Back home](../../README.md)
+#papers-by-members-of-google-and-google-x-aka-x-team · [← Back home](../../README.md)

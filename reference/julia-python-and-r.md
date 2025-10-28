@@ -1,19 +1,19 @@
 # Julia, Python and R
 
-- [General](#general)
-- [Generative Adversarial Network (GAN)](#generative-adversarial-network-gan)
-- [Genetic Algorithms](#genetic-algorithms)
-- [RNN](#rnn)
-- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
-- [Computer Vision](#computer-vision)
-- [Data Science](#data-science)
-- [Machine Learning](#machine-learning)
-  - [Deep Learning](#deep-learning)
-    - [Reinforcement Learning](#reinforcement-learning)
-- [Programming in R](#programming-in-r)
-- [Visualisation](#visualisation)
-- [More...](#more)
-- [Contributing](#contributing)
+- #general
+- #generative-adversarial-network-gan
+- #genetic-algorithms
+- #rnn
+- #natural-language-processing-nlp
+- #computer-vision
+- #data-science
+- #machine-learning
+  - #deep-learning
+    - #reinforcement-learning
+- #programming-in-r
+- #visualisation
+- #more
+- #contributing
 
 ---
 

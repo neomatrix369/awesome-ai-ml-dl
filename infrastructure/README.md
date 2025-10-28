@@ -5,6 +5,8 @@
 
 Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
 
+![banner](../assets/banners/infrastructure-hero.png)
+
 ## At a glance
 - **Accelerators:** GPU/TPU/IPU resources and guides
 - **Platforms:** Cloud services, orchestration, deployment
@@ -23,4 +25,4 @@ Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Note
 ## Related
 - 📚 Data · 🧪 Notebooks · 🧰 Tools · 🤖 Agents · 🧠 NLP
 
-[↑ Back to top](#-infrastructure) · [← Back home](../README.md)
+#☁️-infrastructure · [← Back home](../README.md)

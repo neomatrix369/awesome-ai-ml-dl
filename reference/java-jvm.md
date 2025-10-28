@@ -7,26 +7,26 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ---
 
-- [Business / General / Semi-technical](#business--general--semi-technical)
-- [Classifier / decision trees](#classifier--decision-trees)
-- [Correlated Cross Occurrence](#correlated-cross-occurrence)
-- [Genetic Algorithms](#genetic-algorithms)
-- [Java projects / related technologies](#java-projects--related-technologies)
-- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
-- [Neural Networks](#neural-networks)
-- [Recommendation systems / Collaborative Filtering (CF)](#recommendation-systems--collaborative-filtering-cf)
-- [Data Science](#data-science)
-- [Machine Learning](#machine-learning)
-  - [Deep learning](#deep-learning)
-    - [Reinforcement Learning](#reinforcement-learning)
-- [Tools & Libraries, Other Resources](#tools--libraries-other-resources)
-- [Java Specification Requests](#java-specification-requests)
-- [How-to / Deploy / DevOps / Serverless](#how-to--deploy--devops--serverless)
-- [Misc](#misc)
-- [Clojure](#clojure)
-- [Scala](#scala)
-- [Visualisation](#visualisation)
-- [Contributing](#contributing)
+- #business-general-semi-technical
+- #classifier-decision-trees
+- #correlated-cross-occurrence
+- #genetic-algorithms
+- #java-projects-related-technologies
+- #natural-language-processing-nlp
+- #neural-networks
+- #recommendation-systems-collaborative-filtering-cf
+- #data-science
+- #machine-learning
+  - #deep-learning
+    - #reinforcement-learning
+- #tools-libraries-other-resources
+- #java-specification-requests
+- #how-to-deploy-devops-serverless
+- #misc
+- #clojure
+- #scala
+- #visualisation
+- #contributing
 
 ---
 

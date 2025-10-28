@@ -2,9 +2,9 @@
 
 [Back to main](../README.md) | [Details](../README-details.md) | [Data](../data/README.md) | [NLP](../natural-language-processing/README.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
 
-- [Talk by Jakub, author of GAN](#talk-by-jakub-langr-author-of-gans-in-action)
-- [ML Crash course by Google](#ml-crash-course-by-google)
-- [ML Recipe course by Josh Gordon](#ml-recipe-course-by-josh-gordon)
+- #talk-by-jakub-langr-author-of-gans-in-action
+- #ml-crash-course-by-google
+- #ml-recipe-course-by-josh-gordon
 
 ---
 
@@ -348,4 +348,4 @@ python scripts/label_image.py --image Bandung_Rose.jpg
 
 ---
 
-[↑ Back to top](#study-notes) · [← Back home](../README.md)
+#study-notes · [← Back home](../README.md)

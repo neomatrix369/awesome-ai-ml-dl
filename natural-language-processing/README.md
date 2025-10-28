@@ -15,21 +15,21 @@ Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/bett
 NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala) | <br/>
 NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/pulls/neomatrix369/dl4j-nlp-cuda.svg)](https://hub.docker.com/r/neomatrix369/dl4j-nlp-cuda)
 
-- [General](#general)
-- [Datasets](#datasets)
-- [Java/JVM](#javajvm)
-- [Courses, Tutorial, Learning resources](#courses-tutorial-learning-resources)
-- [Cloud](#cloud)
-- [Library, Framework, Models, Tools, Services](#library-framework-models-tools-services)
-- [Metaphor detection](#metaphor-detection)
-- [Sentiment analysis](#sentiment-analysis)
-- [Topic modelling](#topic-modelling)
-- [Presentations](#presentations)
-- [Notebooks](#notebooks)
-- [Unstructured to structured data](#unstructured-to-structured-data)
-- [Text Data Augmentation](#text-data-augmentation)
-- [Summarise text](#summarise-text)
-- [Contributing](#contributing)
+- #general
+- #datasets
+- #javajvm
+- #courses-tutorial-learning-resources
+- #cloud
+- #library-framework-models-tools-services
+- #metaphor-detection
+- #sentiment-analysis
+- #topic-modelling
+- #presentations
+- #notebooks
+- #unstructured-to-structured-data
+- #text-data-augmentation
+- #summarise-text
+- #contributing
 
 ---
 

@@ -5,6 +5,8 @@
 
 Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🧠 NLP](../../natural-language-processing/README.md) · [Domains](../README.md)
 
+![banner](../../assets/banners/computer-vision-hero.png)
+
 ## At a glance
 - **Quickstart:** Classification and detection
 - **Models:** CNNs, Vision Transformers, diffusion
@@ -23,4 +25,4 @@ Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.m
 ## Related
 - ✨ GenAI · 🏗️ LLMs · 🧠 NLP · ☁️ Infrastructure
 
-[↑ Back to top](#-computer-vision-cv) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+#🖼️-computer-vision-cv · [← Back to domains](../README.md) · [← Back home](../../README.md)

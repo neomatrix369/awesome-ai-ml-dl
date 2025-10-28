@@ -116,4 +116,4 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 Back to [main page (table of contents)](../../README.md)
 
-[↑ Back to top](#intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts---an-expanded-version) · [← Back home](../../README.md)
+#intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts---an-expanded-version · [← Back home](../../README.md)

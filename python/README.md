@@ -6,12 +6,12 @@ A comprehensive guide to Python programming for artificial intelligence, machine
 
 ## Table of Contents
 
-- [Learning Python](#learning-python)
-- [Performance & Optimization](#performance--optimization)
-- [Libraries & Frameworks](#libraries--frameworks)
-- [Best Practices](#best-practices)
-- [Testing](#testing)
-- [Tools & Resources](#tools--resources)
+- #learning-python
+- #performance-optimization
+- #libraries-frameworks
+- #best-practices
+- #testing
+- #tools-resources
 
 ## Learning Python
 

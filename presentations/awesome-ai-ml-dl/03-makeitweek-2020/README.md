@@ -25,4 +25,4 @@ See [talk](https://makeit.si/index.php/en/agenda/java/item/160-tribuo-an-introdu
 
 ---
 
-[↑ Back to top](#tribuo-an-introduction-to-a-java-ml-library) · [← Back home](../../../README.md)
+#tribuo-an-introduction-to-a-java-ml-library · [← Back home](../../../README.md)

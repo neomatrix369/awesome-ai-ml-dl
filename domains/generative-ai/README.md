@@ -5,6 +5,8 @@
 
 Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🤖 Agents](../../ai-agents/README.md) · [Domains](../README.md)
 
+![banner](../../assets/banners/generative-ai-hero.png)
+
 ## At a glance
 - **Quickstart:** Prompting and sampling
 - **Modalities:** Text, image, audio, video
@@ -23,4 +25,4 @@ Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.m
 ## Related
 - 🖼️ CV · 🏗️ LLMs · 🤖 Agents · ☁️ Infrastructure
 
-[↑ Back to top](#-generative-ai) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+#✨-generative-ai · [← Back to domains](../README.md) · [← Back home](../../README.md)

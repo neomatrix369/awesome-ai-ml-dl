@@ -12,4 +12,4 @@ This area in the repo is a result of the blog post [Applying NLP in Java, all fr
 
 Back to [main page (table of contents)](../../../../README.md)
 
-[↑ Back to top](#dl4j-nlp-examples-) · [← Back home](../../../../README.md)
+#dl4j-nlp-examples-nlp-using-dl4j-cudahttpsimgshieldsiodockerpullsneomatrix369dl4j-nlp-cudasvghttpshubdockercomrneomatrix369dl4j-nlp-cuda-licensehttpsimgshieldsiobadgelicense-apache2020-bluesvghttpsopensourceorglicensesapache-20 · [← Back home](../../../../README.md)

@@ -5,6 +5,8 @@
 
 Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md)
 
+![banner](../assets/banners/reference-hero.png)
+
 ## At a glance
 - **Foundations:** Algorithms, math/stats, visualization
 - **Languages:** Java/JVM, Julia/Python/R, JavaScript, PyTorch
@@ -23,4 +25,4 @@ Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Note
 ## Related
 - 📚 Data · 🧪 Notebooks · 🧰 Tools · ☁️ Infrastructure
 
-[↑ Back to top](#-reference) · [← Back home](../README.md)
+#🗂️-reference · [← Back home](../README.md)

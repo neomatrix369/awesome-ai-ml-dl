@@ -11,4 +11,4 @@ This area in the repo is a result of the blog post [How to do Deep Learning for 
 
 Back to [main page (table of contents)](../../../../README.md)
 
-[↑ Back to top](#mlpmnist-dl4j-example-project-) · [← Back home](../../../../README.md)
+#mlpmnist-dl4j-example-project-mlpmnist-using-dl4jhttpsimgshieldsiodockerpullsneomatrix369dl4j-mnist-single-layersvghttpshubdockercomrneomatrix369dl4j-mnist-single-layer-licensehttpsimgshieldsiobadgelicense-apache2020-bluesvghttpsopensourceorglicensesapache-20 · [← Back home](../../../../README.md)

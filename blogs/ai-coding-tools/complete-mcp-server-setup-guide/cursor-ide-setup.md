@@ -4,7 +4,7 @@
 
 **[← Back to Main Guide](./post.md)** | **[← Previous: Claude Code Setup](./claude-code-setup.md)** | **[Next: Advanced MCP Servers →](./advanced-mcp-servers.md)**
 
-[↑ Back to top](#cursor-ide---complete-mcp-server-setup) · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+#cursor-ide---complete-mcp-server-setup · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
 
 ## Overview
 

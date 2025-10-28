@@ -6,6 +6,8 @@
 
 Navigation: [Home](../README.md) · 🧠 [NLP](../natural-language-processing/README.md) · 🤖 [Agents](../ai-agents/README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md)
 
+![banner](../assets/banners/domains-hero.png)
+
 ## At a glance
 - Landing pages for major domains
 - Curated links, quickstarts, and deep dives
@@ -18,4 +20,4 @@ Navigation: [Home](../README.md) · 🧠 [NLP](../natural-language-processing/RE
 - ✨ [Generative AI](./generative-ai/README.md)
 - 🚀 [MLOps & Deployment](./mlops-deployment/README.md)
 
-[↑ Back to top](#domains) · [← Back home](../README.md)
+#domains · [← Back home](../README.md)

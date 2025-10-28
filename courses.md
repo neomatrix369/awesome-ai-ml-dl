@@ -2,24 +2,24 @@
 
 [Back to main](./README.md) | [Details](./README-details.md) | [Data](./data/README.md) | [NLP](./natural-language-processing/README.md) | [Tools](./tools/README.md) | [Notebooks](./notebooks/README.md)
 
-- [Algorithms](#algorithms)
-- [Cambridge Spark](#cambridge-spark)
-- [Datacamp](#datacamp)
+- #algorithms
+- #cambridge-spark
+- #datacamp
 - [DATAQUEST](https://www.dataquest.io/)
-- [Dataiku](#dataiku)
-- [Data Science](#data-science)
-- [Computer Vision](#computer-vision)
-- [fast.ai](#fastai)
-- [Intel](#intel)
-- [FPGA](#fpga)
-- [Machine Learning](#machine-learning)
-  - [Deep Learning](#deep-learning)
-    - [Reinforcement Learning](#reinforcement-learning)
-- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
-- [Python: Best practices](#python-best-practices)
-- [Python: Testing](#python-testing)
-- [Statistics](#statistics)
-- [Misc](#misc)
+- #dataiku
+- #data-science
+- #computer-vision
+- #fastai
+- #intel
+- #fpga
+- #machine-learning
+  - #deep-learning
+    - #reinforcement-learning
+- #natural-language-processing-nlp
+- #python-best-practices
+- #python-testing
+- #statistics
+- #misc
 
 ## Algorithms
 

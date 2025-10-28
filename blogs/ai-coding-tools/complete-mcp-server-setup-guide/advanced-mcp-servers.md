@@ -2,7 +2,7 @@
 
 **[← Back to Main Guide](./post.md)**
 
-[↑ Back to top](#advanced-mcp-servers) · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+#advanced-mcp-servers · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
 
 ## Overview
 

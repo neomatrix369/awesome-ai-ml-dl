@@ -1,26 +1,26 @@
 # Time-series
 
-- [Introductory](#introductory)
-- [Classification](#classification)
-- [Feature engineering](#feature-engineering)
-- [ES-RNN](#es-rnn)
-- [WaveNet](#wavenet)
-- [DeepAR](#deepar)
-- [Methods: ARMA/ARIMA/SARIMA and others](#methods-armaarimasarima-and-others)
-- [Non-stationary Time-series](#non-stationary-time-series)
-- [Look-ahead bias](#look-ahead-bias)
-- [Generalized Additive Models](#generalized-additive-models)
-- [Courses / Tutorials / Workshops](#courses--tutorials--workshops)
+- #introductory
+- #classification
+- #feature-engineering
+- #es-rnn
+- #wavenet
+- #deepar
+- #methods-armaarimasarima-and-others
+- #non-stationary-time-series
+- #look-ahead-bias
+- #generalized-additive-models
+- #courses-tutorials-workshops
 - [Applied Time series](applied-time-series)
-- [Gaussian process](#gaussian-process)
-- [Neural Networks & Deep Learning](#neural-networks--deep-learning)
-- [Forecasting](#forecasting)
-- [Forecasting using Prophet](#forecasting-using-prophet)
-- [Prediction](#prediction)
-- [Trend estimation / trend analysis](#trend-estimation--trend-analysis)
-- [Notebooks](#notebooks)
-- [Misc](#misc)
-- [Contributing](#contributing)
+- #gaussian-process
+- #neural-networks-deep-learning
+- #forecasting
+- #forecasting-using-prophet
+- #prediction
+- #trend-estimation-trend-analysis
+- #notebooks
+- #misc
+- #contributing
 
 ---
 

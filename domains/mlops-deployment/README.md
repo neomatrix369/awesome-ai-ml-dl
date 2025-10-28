@@ -5,6 +5,8 @@
 
 Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [☁️ Infrastructure](../../infrastructure/README.md) · [Domains](../README.md)
 
+![banner](../../assets/banners/mlops-deployment-hero.png)
+
 ## At a glance
 - **Quickstart:** Experiment tracking and CI
 - **Tooling:** Orchestration, model serving, monitoring
@@ -23,4 +25,4 @@ Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.m
 ## Related
 - ☁️ Infrastructure · 🤖 Agents · 🧠 NLP · 🖼️ CV
 
-[↑ Back to top](#-mlops--deployment) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+#🚀-mlops-deployment · [← Back to domains](../README.md) · [← Back home](../../README.md)
