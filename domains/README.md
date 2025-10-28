@@ -9,6 +9,7 @@ Navigation: [Home](../README.md) · 🧠 [NLP](../natural-language-processing/RE
 - Curated links, quickstarts, and deep dives
 
 ## Start here
-- Create `domains/ai-agents/` and `domains/nlp/` landing pages linking to existing content
+- 🤖 [AI Agents](./ai-agents/README.md) — links to `ai-agents/`
+- 🧠 [Natural Language Processing (NLP)](./nlp/README.md) — links to `natural-language-processing/`
 
 [↑ Back to top](#domains) · [← Back home](../README.md)
