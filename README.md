@@ -6,6 +6,22 @@ Navigation: [Home](./README.md) · 🗂️ [Reference](./reference/README.md) ·
 
 ![banner](./assets/banners/portal-hero.png)
 
+## What’s new
+
+<!-- whatsnew:start -->
+- Assets: resize banners to 1200x280 and regenerate (`42671a1`)
+- Design: aesthetic overhaul for banners (gradients, per-domain palettes, typography) (`195327d`)
+- Assets: reduce banner height to 1200x360 and regenerate images (`84d9cc8`)
+- Assets: generate placeholder banner PNGs and add generator script (`903435c`)
+- Docs: add banner references to all domain landing pages (`4eeb19b`)
+- Docs: add banner references to root, Reference, Infrastructure, and Domains index (`6cda8e5`)
+- Chore: scaffold assets/banners/ with README and .gitkeep (`1968100`)
+- Template: add section header, nav, and badges to domains/time-series/README.md (`081ee5e`)
+- Polish: add Shields.io badges to Data, Tools, and Notebooks READMEs (`c223509`)
+- Polish: add Shields.io badges to Reference, Infrastructure, Domains index and domain landing pages (`d5208e9`)
+<!-- whatsnew:end -->
+
+
 ## Start here
 
 - Python and Data basics: [Python](./python/README.md) · [Data](./data/README.md)
