@@ -11,5 +11,9 @@ Navigation: [Home](../README.md) · 🧠 [NLP](../natural-language-processing/RE
 ## Start here
 - 🤖 [AI Agents](./ai-agents/README.md) — links to `ai-agents/`
 - 🧠 [Natural Language Processing (NLP)](./nlp/README.md) — links to `natural-language-processing/`
+- 🖼️ [Computer Vision (CV)](./computer-vision/README.md)
+- 🏗️ [Large Language Models (LLMs)](./large-language-models/README.md)
+- ✨ [Generative AI](./generative-ai/README.md)
+- 🚀 [MLOps & Deployment](./mlops-deployment/README.md)
 
 [↑ Back to top](#domains) · [← Back home](../README.md)
