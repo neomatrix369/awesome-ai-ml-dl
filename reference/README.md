@@ -1,13 +1,24 @@
-# Reference
-
-> 🗂️ Core foundations, language/platform guides, and fundamental concepts.
+# 🗂️ Reference
+> Foundational concepts and core resources.
 
 Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md)
 
 ## At a glance
-- Algorithms, math/stats, visualization, language guides
+- **Foundations:** Algorithms, math/stats, visualization
+- **Languages:** Java/JVM, Julia/Python/R, JavaScript, PyTorch
+- **Guides:** Articles, cheatsheets, curated lists
 
 ## Start here
-- Migrate `details/*` here over time (with redirects)
+- 📑 Language/platform: [Java/JVM](./java-jvm.md) · [Julia/Python/R](./julia-python-and-r.md)
+- 📘 Foundations: [Math/Stats/Probability](./maths-stats-probability.md) · [Visualization](./visualisation.md)
+- 🧰 Cheatsheets: [Cheatsheets](./cheatsheets.md)
 
-[↑ Back to top](#reference) · [← Back home](../README.md)
+## Deep dive
+- 📚 Articles, papers, code, data, courses
+- 🧱 PyTorch and frameworks
+- 🗃️ ML on code/programming/source code
+
+## Related
+- 📚 Data · 🧪 Notebooks · 🧰 Tools · ☁️ Infrastructure
+
+[↑ Back to top](#-reference) · [← Back home](../README.md)
