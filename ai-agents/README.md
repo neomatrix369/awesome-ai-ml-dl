@@ -109,4 +109,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [main page (table of contents)](../README.md)
+[↑ Back to top](#-ai-agents) · [← Back home](../README.md)

@@ -1,6 +1,6 @@
 # Presentations
 
-[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 🖥️ [Presentations](./README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
 
 A directory of slide decks and talk links across AI/ML/DL, Data, and NLP topics. Use these to explore project overviews, workshops, and community talks with slides and recordings where available.
 
@@ -23,4 +23,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-Back to [main page (table of contents)](../README.md)
+[↑ Back to top](#presentations) · [← Back home](../README.md)

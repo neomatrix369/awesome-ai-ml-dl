@@ -1,6 +1,6 @@
 # Tools & Technologies for AI/ML/DL
 
-[Back to main](../README.md) | [Details](../README-details.md) | [Notebooks](../notebooks/README.md) | [Data](../data/README.md)
+Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 🛠️ [Tools](./README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🤖 [Agents](../ai-agents/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
 
 ## Related
 - [Data](../data/README.md)
@@ -145,4 +145,4 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 
 ---
 
-[Back to main repository](../README.md) | [AI Coding Tools](../blogs/ai-coding-tools/README.md)
+[↑ Back to top](#tools--technologies-for-aimldl) · [← Back home](../README.md)

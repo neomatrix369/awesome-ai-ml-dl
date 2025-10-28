@@ -4,6 +4,8 @@
 
 **[← Back to Main Guide](./post.md)** | **[← Previous: Claude Code Setup](./claude-code-setup.md)** | **[Next: Advanced MCP Servers →](./advanced-mcp-servers.md)**
 
+[↑ Back to top](#cursor-ide---complete-mcp-server-setup) · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+
 ## Overview
 
 Cursor is a modern AI-first IDE built on VS Code, offering a full development environment with integrated AI assistance and MCP server support.

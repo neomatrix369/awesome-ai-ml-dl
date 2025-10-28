@@ -2,6 +2,8 @@
 
 **[← Back to Main Guide](./post.md)**
 
+[↑ Back to top](#pro-setup--advanced-tools) · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+
 ## Overview
 
 Advanced setup tools and workflows for power users, teams, and production environments.
