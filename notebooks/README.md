@@ -68,7 +68,7 @@ Navigation: [Home](../README.md) · [Details](../README-details.md#general) · [
 
 ## RAPIDS
 
-See [Notebooks from NVIDIA's RAPIDS](../cloud-devops-infra/gpus/rapids.md#notebooks)
+See [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/rapids.md#notebooks)
 
 ## Deep Learning
 
@@ -128,7 +128,7 @@ See [Notebooks from NVIDIA's RAPIDS](../cloud-devops-infra/gpus/rapids.md#notebo
 
 ## Time-series  
 
-- [Time-series / anomaly detection notebooks](../time-series_anomaly-detection/README.md#notebooks) 
+- [Time-series / anomaly detection notebooks](../domains/time-series/README.md#notebooks) 
 
 ## GANs
 

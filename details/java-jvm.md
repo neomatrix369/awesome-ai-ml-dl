@@ -141,7 +141,7 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
 - [Introduction to Machine Learning and Neural Networks for Java Developers](https://blogs.oracle.com/developers/introduction-to-machine-learning-and-neural-networks-for-java-developers)
 - See [Java/JVM](../courses.md#javajvm) in [Courses](../courses.md)
 - See [ML on Code/Programm/Source Code](./ML-on-code-programming-source-code.md)
-- See [Cloud/DevOps/Infra > Performance](../cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
+- See [Cloud/DevOps/Infra > Performance](../infrastructure/cloud-devops-infra/README.md#performance) - to find various ML performance benchmarking suites
 - Also see [Post model-creation analysis, ML interpretation/explainability](../data/README.md#post-model-creation-analysis-ml-interpretationexplainability)
 
 ### Supervised

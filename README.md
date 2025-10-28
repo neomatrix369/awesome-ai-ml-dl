@@ -82,7 +82,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Generative AI](./blogs/generative-ai/)
 - [Large Language Models](./blogs/large-language-models/)
 - [Computer Vision](./blogs/computer-vision/)
-- [Time Series & Anomaly Detection](./time-series_anomaly-detection/README.md)
+- [Time Series & Anomaly Detection](./domains/time-series/README.md)
 
 ### Ethics & Governance
 - [Ethics / altruistic motives](README-details.md#ethics--altruistic-motives)
@@ -126,7 +126,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [AI Coding Tools References](./blogs/ai-coding-tools/COMMON-REFERENCES.md) - MCP, Claude, Cursor resources
 
 ### Cloud & DevOps
-- [Cloud, DevOps, Infra](cloud-devops-infra/README.md#cloud-devops-infra)
+- [Cloud, DevOps, Infra](infrastructure/cloud-devops-infra/README.md#cloud-devops-infra)
 - [Cloud Infrastructure](./blogs/cloud-infrastructure/)
 - [MLOps & Deployment](./blogs/mlops-deployment/)
 
