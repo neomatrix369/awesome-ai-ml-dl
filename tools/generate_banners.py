@@ -5,7 +5,7 @@ from pathlib import Path
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "assets" / "banners"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-SIZE = (1200, 630)
+SIZE = (1200, 360)
 BACKGROUND = (20, 24, 28)  # dark slate
 ACCENT = (0, 163, 255)      # cyan accent
 TEXT = (255, 255, 255)
@@ -47,7 +47,7 @@ def draw_banner(filename: str, title: str) -> None:
     draw.rectangle([(0, 0), (SIZE[0], strip_h)], fill=ACCENT)
 
     # Title text
-    base_font_size = 64 if len(title) <= 20 else 56 if len(title) <= 28 else 48
+    base_font_size = 56 if len(title) <= 20 else 48 if len(title) <= 28 else 42
     font = load_font(base_font_size)
     # Measure text using modern API
     bbox = draw.textbbox((0, 0), title, font=font)
