@@ -5,7 +5,7 @@ from pathlib import Path
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "assets" / "banners"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-SIZE = (1200, 320)  # slimmer for better page aesthetics
+SIZE = (1200, 280)  # slimmer for better page aesthetics
 TEXT = (255, 255, 255)
 
 # Per-banner style config: gradient colors and optional subtitle
@@ -157,7 +157,7 @@ def draw_banner(filename: str, title: str) -> None:
     draw.rounded_rectangle(rect, radius=radius, outline=(255, 255, 255, 40), width=2)
 
     # Title text with stroke for readability
-    base_font_size = 54 if len(title) <= 20 else 46 if len(title) <= 28 else 40
+    base_font_size = 50 if len(title) <= 20 else 42 if len(title) <= 28 else 36
     font = load_font(base_font_size)
     bbox = draw.textbbox((0, 0), title, font=font)
     text_w = bbox[2] - bbox[0]
