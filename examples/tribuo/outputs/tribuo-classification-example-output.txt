@@ -615,4 +615,3 @@ linear-sgd-model - Model(class-name=org.tribuo.classification.sgd.linear.LinearS
   }
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-

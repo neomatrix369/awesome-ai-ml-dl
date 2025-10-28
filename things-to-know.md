@@ -47,7 +47,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [Twitter: data science influencers](https://twitter.com)
 - [Reddit: r/machinelearning, r/datascience, etc](https://reddit.com)
 - [Kaggle: forums, blog, social media, etc](https://kaggle.com)
-- Course Forums (forums.fast.ai, Coursera forums, etc) 
+- Course Forums (forums.fast.ai, Coursera forums, etc)
 - Podcasts
   - [Chai Time Data Science](https://chaitimedatascience.com/)
   - [Linear Digressions](https://lineardigressions.com/)
@@ -65,7 +65,7 @@ As a (to-be) or (current) data scientist, data engineer, data analyst, machine l
 - [YouTube](https://www.youtube.com): [Google Cloud AI Adventures](https://www.youtube.com/watch?v=HcqpanDadyQ&list=PLIivdWyY5sqJxnwJhe3etaK7utrBiPBQ2), [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A), etc
 - [MWML Newsletter](https://newsletter.madewithml.com/) | [MWML Site](https://madewithml.com/) | [lessons](https://madewithml.com/#basics)
 - [Data Pheonix Newsletter (previously known as Data Science Digest)](https://dataphoenix.info/) | [past issues](https://dataphoenix.info/tag/digest/)
-- Other email newsletters (Data Elixir, O'Reilly Data & AI, etc) 
+- Other email newsletters (Data Elixir, O'Reilly Data & AI, etc)
 
 
 ## Useful blogs to read
@@ -314,11 +314,11 @@ See [Courses](./courses.md#courses)
 - [DataRobot AutoML](https://www.datarobot.com/lp/automated-machine-learning-works-business/)
 - [Tpot](https://github.com/EpistasisLab/tpot/)
 - [Google AutoML](https://cloud.google.com/automl/)
-- [Auto_ml](https://github.com/ClimbsRocks/auto_ml/) 
+- [Auto_ml](https://github.com/ClimbsRocks/auto_ml/)
 - [Auto-Keras](https://github.com/keras-team/autokeras/)
 - [Auto-Sklearn](https://github.com/automl/auto-sklearn/)
 - [PyCaret](https://pycaret.org) | [On awesome-ai-ml-dl](https://github.com/neomatrix369/awesome-ai-ml-dl/search?q=pycaret)
-- [Xcessiv](https://github.com/reiinakano/xcessiv/) 
+- [Xcessiv](https://github.com/reiinakano/xcessiv/)
 - [MLbox](https://github.com/AxeldeRomblay/MLBox/)
 - [H20 Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/)
 - [AutoGluon](https://github.com/awslabs/autogluon) -  AutoML for Image, Text, and Tabular Data.
@@ -357,7 +357,7 @@ See [Courses](./courses.md#courses)
 * [Colab](https://colab.research.google.com)
 
 
-## Relational database products 
+## Relational database products
 
 - [Oracle Database](https://www.oracle.com/database/index.html)
 - [Microsoft SQL Server](https://www.microsoft.com/en-gb/sql-server/)

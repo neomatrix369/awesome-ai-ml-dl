@@ -16,7 +16,7 @@ model.add(Dense(num_classes, activation="softmax"))
 model.compile(loss="categorical_crossentropy", optimizer="adam",
                metrics=['accuracy'])
 
-### --- 
+### ---
 
 # normalize data
 X_test = X_test.astype("float32") / 255.
@@ -40,7 +40,7 @@ model.add(Dense(num_classes, activation="softmax"))
 model.compile(loss=config.loss, optimizer=config.optimizer,
                 metrics=['accuracy'])
 
-### --- 
+### ---
 # A very simple perceptron for classifying american sign language letters
 import signdata
 import numpy as np
@@ -306,9 +306,9 @@ model.compile(loss=config.loss, optimizer=config.optimizer,
 model.fit(X_train, y_train, epochs=config.epochs, validation_data=(X_test, y_test), callbacks=[WandbCallback(data_type="image", labels=signdata.letters)])
 #print(model.predict(X_train[:2]))
 
-### @vanpelt we add the empty 3rd dimension because Conv2D always 
-### expects 3 dimensions. This is because your doing convolutions 
-### on multiple channels. For instance color images have Red Green 
+### @vanpelt we add the empty 3rd dimension because Conv2D always
+### expects 3 dimensions. This is because your doing convolutions
+### on multiple channels. For instance color images have Red Green
 ### and Blue channels as the 3rd dimension.
 ### ---
 cd ~/ml-class/lstm/imdb-classifier
@@ -361,7 +361,7 @@ cnn.add(Conv1D(config.filters,
 cnn.add(Dropout(0.5))
 cnn.add(MaxPooling1D((2)))
 cnn.add(Flatten())
-        
+
 model = Sequential()
 model.add(TimeDistributed(cnn))
 model.add(LSTM(config.hidden_dims, activation="sigmoid"))
@@ -374,7 +374,7 @@ model.fit(X_train, y_train,
           epochs=config.epochs,
           validation_data=(X_test, y_test), callbacks=[WandbCallback()])
 
-### --- 
+### ---
 
 # A very simple perceptron for classifying american sign language letters
 import signdata
@@ -424,7 +424,7 @@ model.compile(loss=config.loss, optimizer=config.optimizer,
                 metrics=['accuracy'])
 
 # Fit the model
-model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test), 
+model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test),
           callbacks=[WandbCallback(data_type="image", labels=signdata.letters)])
 #print("Target", y_train[:2])
 #print("Predictions", model.predict(X_train[:2]))
@@ -445,7 +445,7 @@ model.add(Dense(1))
 
 ### ---
 
-wget http://www.gutenberg.org/cache/epub/50742/pg50742.txt 
+wget http://www.gutenberg.org/cache/epub/50742/pg50742.txt
 
 ### ---
 
@@ -754,13 +754,13 @@ model = Sequential()
 model.add(SimpleRNN(10, input_shape=(config.look_back, 1)))
 model.add(Dense(1))
 model.compile(loss='mae', optimizer='rmsprop', metrics=['accuracy'])
-model.fit(trainX, 
-          trainY, 
-          epochs=100, 
-          batch_size=20, 
-          validation_data=(testX, testY),  
+model.fit(trainX,
+          trainY,
+          epochs=100,
+          batch_size=20,
+          validation_data=(testX, testY),
           callbacks=[
-              
+
               PlotCallback(trainX, trainY, testX, testY, config.look_back),
               WandbCallback()]
          )
@@ -778,14 +778,14 @@ model.add(Dense(1, activation='sigmoid'))
 
 ### ---
 
-self.model.add(LSTM(self.nb_units, 
+self.model.add(LSTM(self.nb_units,
                         input_shape=(X_scl_re.shape[1], X_scl_re.shape[2])))
 self.model.add(Dense(1))
 self.model.compile(loss='mae', optimizer='adam')
-self.model.fit(X_scl_re, y_scl, 
-                   epochs    =self.epochs, 
-                   batch_size=self.batch_size, 
-                   verbose   =self.verbose, 
+self.model.fit(X_scl_re, y_scl,
+                   epochs    =self.epochs,
+                   batch_size=self.batch_size,
+                   verbose   =self.verbose,
                    shuffle   =False)
 
 ### ---

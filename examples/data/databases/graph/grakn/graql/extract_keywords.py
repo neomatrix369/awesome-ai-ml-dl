@@ -1,6 +1,6 @@
 print('Loading nltk libraries, please wait...')
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize 
+from nltk.tokenize import word_tokenize
 print('Finished loading nltk libraries.')
 
 import importlib
@@ -11,7 +11,7 @@ main_queries_in_english = queries.main_queries_in_english
 stop_words = set(stopwords.words('english'))
 
 punctuations = '''!()[]{};:'"\,<>./?@#$%^&*_~+“”'''; ### excluding - (hypen / dash)
-new_schema_queries=[] 
+new_schema_queries=[]
 for each_query in main_queries_in_english:
     new_query = each_query
     for each_char in each_query:

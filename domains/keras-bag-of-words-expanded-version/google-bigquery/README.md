@@ -98,13 +98,13 @@ Switch to your project in the BigQuery Console
 #### Actual SQL Query
 
 ```sql
-# This query will get 2000 SO posts for the top 20 tags to be fed into our Keras model 
+# This query will get 2000 SO posts for the top 20 tags to be fed into our Keras model
 # Here we're only selecting posts with a single tag to keep things simple
 # The regex preprocesses the text (strips newlines, commas, and <p> tags), this makes it easier for our model to interpret the text
 # We're using partitioning to control the number of posts we get for each tag
 
 SELECT post, tags FROM (
-  SELECT 
+  SELECT
     TRIM(LOWER(REGEXP_REPLACE(CONCAT(title, ' ', body), r'["\n\'?,]|<p>|</p>'," "))) as post,
     tags,
     row_number() over(partition by tags) row_num
@@ -135,7 +135,7 @@ Click on Save as Table, and enter the name of the created dataset
 
 ![image](15-copy-table.png)
 
-Navigate to the dataset on the left side, expand it, select the table, and click on Preview 
+Navigate to the dataset on the left side, expand it, select the table, and click on Preview
 
 ![image](16-BigQuery-table-details.png)
 
@@ -175,7 +175,7 @@ WARNING: GCP in this instance might misinform that there has been an error while
 
 **Retrieve exported CSV file**
 
-Go to the https://console.cloud.google.com/storage/browser/keras_so_posts_classification?project=keras-so-tags-classification&folder&organizationId page 
+Go to the https://console.cloud.google.com/storage/browser/keras_so_posts_classification?project=keras-so-tags-classification&folder&organizationId page
 
 ![image](19-export-to-cold-storage-03.png)
 

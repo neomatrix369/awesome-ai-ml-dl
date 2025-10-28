@@ -220,4 +220,3 @@
 - Online JSON Formatter: Various tools
 - [Git for version control](https://git-scm.com)
 - [Docker (if using containerized MCP)](https://www.docker.com)
-

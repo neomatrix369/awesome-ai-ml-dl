@@ -8,8 +8,8 @@ Accuracy, tells us the percentage of comments it assigned the correct label to (
 .
 .
 # compile model: using loss function crossentropy, optimizer adam, evaluating the accuracy metrics
-model.compile(loss='categorical_crossentropy', 
-              optimizer='adam', 
+model.compile(loss='categorical_crossentropy',
+              optimizer='adam',
               metrics=['accuracy'])
 ```
 
@@ -33,18 +33,18 @@ How many times the model should train on an entire dataset
 .
 .
 .
-# x_train = training data (features) 
+# x_train = training data (features)
 # y_train = labels (target)
 # Train the model using the training set and various training parameters: batch_size, epoch, validation_split
 batch_size=40000
-history = model.fit(x_train, y_train, 
-                    batch_size=batch_size, 
-                    epochs=2, 
-                    verbose=1, 
+history = model.fit(x_train, y_train,
+                    batch_size=batch_size,
+                    epochs=2,
+                    verbose=1,
                     validation_split=0.1)
 
 # Accuracy: applying the test training set on the model
-score = model.evaluate(x_test, y_test, 
+score = model.evaluate(x_test, y_test,
                        batch_size=batch_size, verbose=1)
 print('Test score:', score[0])
 print('Test accuracy:', score[1])
@@ -69,7 +69,7 @@ python -W ignore keras-so-posts.py  32.23s user 1.95s system 113% cpu 30.121 tot
 
 ### Confusion matrix
 
-A confusion matrix is a great way to see how many questions the model tagged correctly, and where mistakes were most commonly made. 
+A confusion matrix is a great way to see how many questions the model tagged correctly, and where mistakes were most commonly made.
 
 **Source code**
 

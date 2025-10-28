@@ -1,0 +1,14 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+  - repo: local
+    hooks:
+      - id: markdown-link-check
+        name: markdown-link-check
+        entry: python3 tools/check_links.py
+        language: system
+        files: \.md$
+        stages: [manual]

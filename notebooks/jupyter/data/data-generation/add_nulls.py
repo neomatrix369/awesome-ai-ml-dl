@@ -12,7 +12,7 @@ def generate_random_sample(source_list=range(0, 10), max_number_of_choices=5):
 
 def create_rows_with_random_nulls(source_dataframe, num_of_rows=50, random_seed=42):
     random.seed(random_seed)
-    
+
     random_rows = source_dataframe.sample(n=num_of_rows).copy()
 
     maximum_rows = random_rows.shape[0]

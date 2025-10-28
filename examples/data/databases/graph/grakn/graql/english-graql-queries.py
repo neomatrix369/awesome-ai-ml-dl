@@ -146,7 +146,7 @@ get $phone-number;
     """, 'Here are the phone numbers of the people (Cambridge calls)'
                                       ],
     'COMMON_CUSTOMERS_MULTIPLE_NUMBERS': ["""
-match 
+match
     $common-contact isa person, has phone-number $phone-number;
     $customer-a isa person, has phone-number "+7 171 898 0853";
     $customer-b isa person, has phone-number "+370 351 224 5176";
@@ -155,7 +155,7 @@ match
 get $phone-number;
       """, 'Here are the numbers of the common customers'],
     'COMMON_CUSTOMERS_SINGLE_NUMBER': ["""
-match 
+match
     $target isa person, has phone-number "+48 894 777 5173";
     $company isa company, has name "Telecom";
     $customer-a isa person, has phone-number $phone-number-a;
@@ -173,7 +173,7 @@ match
     $company isa company, has name "Telecom";
     (customer: $customer, provider: $company) isa contract;
     (caller: $customer, callee: $anyone) isa call, has duration $duration;
-get $duration; 
+get $duration;
 mean $duration;
         """,'The average call duration between customers have been (in seconds)'
 ],
@@ -183,7 +183,7 @@ match
   $company isa company, has name "Telecom";
   (customer: $customer, provider: $company) isa contract;
   (caller: $customer, callee: $anyone) isa call, has duration $duration;
-get $duration; 
+get $duration;
 mean $duration;
         """,'The average call duration between customers have been (in seconds)'
 ]],
@@ -193,7 +193,7 @@ match
     $company isa company, has name "Telecom";
     (customer: $customer, provider: $company) isa contract;
     (caller: $customer, callee: $anyone) isa call, has duration $duration;
-get $duration; 
+get $duration;
 mean $duration;
         """,
                                'The average call duration between customers have been (in seconds)'
@@ -204,7 +204,7 @@ match
   $company isa company, has name "Telecom";
   (customer: $customer, provider: $company) isa contract;
   (caller: $customer, callee: $anyone) isa call, has duration $duration;
-get $duration; 
+get $duration;
 mean $duration;
         """,
                               'The average call duration between customers have been (in seconds)'

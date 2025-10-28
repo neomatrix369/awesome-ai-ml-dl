@@ -1,5 +1,7 @@
 # Tools & Technologies for AI/ML/DL
 
+![Section](https://img.shields.io/badge/Section-Tools-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 🛠️ [Tools](./README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🤖 [Agents](../ai-agents/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
 
 ## Related

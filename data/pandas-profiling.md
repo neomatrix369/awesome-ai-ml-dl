@@ -7,8 +7,8 @@ Generates profile reports from a pandas DataFrame.
 - Online documentation: https://pandas-profiling.github.io/pandas-profiling/docs/
 - Featured in: https://cloud.google.com/solutions/building-a-propensity-model-for-financial-services-on-gcp
 - Blogs
-  - [An Introduction to Pandas Profiling](https://medium.com/analytics-vidhya/pandas-profiling-5ecd0b977ecd) 
-  - [Speed Up Your Exploratory Data Analysis With Pandas-Profiling](https://towardsdatascience.com/speed-up-your-exploratory-data-analysis-with-pandas-profiling-88b33dc53625?_branch_match_id=link-742488093403333754&gi=ad2d5df94cd7) 
+  - [An Introduction to Pandas Profiling](https://medium.com/analytics-vidhya/pandas-profiling-5ecd0b977ecd)
+  - [Speed Up Your Exploratory Data Analysis With Pandas-Profiling](https://towardsdatascience.com/speed-up-your-exploratory-data-analysis-with-pandas-profiling-88b33dc53625?_branch_match_id=link-742488093403333754&gi=ad2d5df94cd7)
   - [How many Data Science projects have you been part of that made it into production?](https://www.linkedin.com/pulse/how-many-data-science-projects-have-you-been-part-made-michal-mucha/?trackingId=oIhUO3WgSrS4x5FE%2B1FL4g%3D%3D)
   - [A better EDA with Pandas-profiling](https://towardsdatascience.com/a-better-eda-with-pandas-profiling-e842a00e1136)
   - [Pandas DataFrame Profiling](https://www.linkedin.com/pulse/pandas-dataframe-profiling-ibrahim-abualhaol/?trackingId=F39YFVt9SgSDJRvjywm84A%3D%3D)
@@ -27,14 +27,14 @@ Generates profile reports from a pandas DataFrame.
 - [x] **[AI/ML/DL Library / Package / Framework: applicable]**
 - [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
 - [x] **[Data querying]**
-- [ ] [Data analytics: manual / tools available] 
+- [ ] [Data analytics: manual / tools available]
 - [x] **[Data visualisation]**
 - [x] **[Data cleaning]**
 - [x] **[Data validation]**
-- [ ] [Feature extraction: manual / no tools available] 
-- [ ] [Model creation: available] 
+- [ ] [Feature extraction: manual / no tools available]
+- [ ] [Model creation: available]
 - [ ] [Execute experiments: available]
-- [ ] [Hyper parameter tuning: available] 
+- [ ] [Hyper parameter tuning: available]
 - [ ] [Model saving: available]
 
 Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>

@@ -7,7 +7,7 @@ Run the performance benchmarking script with default JDK
 
 $ RUN_PERFORMANCE_SCRIPT=true ./runGraknInDocker.sh
 
-or 
+or
 
 Run the performance benchmarking script with GraalVM
 
@@ -22,7 +22,7 @@ Run the performance benchmarking script with default JDK
 $ DEBUG=true ./runGraknInDocker.sh
 grakn@040eb5bd829c:~$ ./runPerformanceBenchmark.sh    # inside the container
 
-or 
+or
 
 Run the performance benchmarking script with GraalVM
 

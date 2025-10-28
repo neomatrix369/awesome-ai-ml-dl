@@ -55,7 +55,7 @@ RUN ./install-java-kernel.sh --installJar
 COPY common.sh common.sh
 
 ### Install Tribuo
-RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${JAVA_HOME}/lib/server/:${JAVA_HOME}/lib/amd64/server/ 
+RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${JAVA_HOME}/lib/server/:${JAVA_HOME}/lib/amd64/server/
 COPY install-tribuo.sh install-tribuo.sh
 RUN ./install-tribuo.sh
 RUN mv tribuo/*.gz tribuo/tutorials

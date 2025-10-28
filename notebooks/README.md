@@ -2,6 +2,8 @@
 
 > 📓 Explore, iterate, and share: curated notebooks and kernels.
 
+![Section](https://img.shields.io/badge/Section-Notebooks-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 A hub for notebooks and kernels across topics: examples, Kaggle links, RAPIDS, DL/ML tutorials, and references grouped by domain. Use the quick links below to jump to areas of interest.
 
 Navigation: [Home](../README.md) · [Details](../README-details.md#general) · [Data](../data/README.md) · [Presentations](../presentations/README.md) · [Tools](../tools/README.md)
@@ -26,7 +28,7 @@ Navigation: [Home](../README.md) · [Details](../README-details.md#general) · [
 ## Kaggle notebooks/kernels
 
 - [All kaggle notebooks](https://www.kaggle.com/notebooks)
-- [Selected Kaggle notebooks](https://www.kaggle.com/neomatrix369/notebooks)  
+- [Selected Kaggle notebooks](https://www.kaggle.com/neomatrix369/notebooks)
   - [Hidden Gems by Martin Henze (@headsortails) - discussion topics with links to Notebooks](https://www.kaggle.com/search?q=Hidden+Gems+in%3Atopics)
   - [FastChai: Tweet Sentiment Extraction (analysis)](https://www.kaggle.com/neomatrix369/fastchai-tweet-sentiment-extraction-analysis)
   - [FastChai: Tweet Sentiment Extraction (data-prep)](https://www.kaggle.com/neomatrix369/fastchai-tweet-sentiment-extraction-data-prep)
@@ -63,7 +65,7 @@ Navigation: [Home](../README.md) · [Details](../README-details.md#general) · [
   - [Summariser_TFIDF_Class (utility script)](https://www.kaggle.com/neomatrix369/summariser-tfidf-class)
   - [Summariser_Cosine_Class (utility script)](https://www.kaggle.com/neomatrix369/summariser-cosine-class)
   - [Better_NLP_Class (utility script)](https://www.kaggle.com/neomatrix369/better-nlp-class)
-  - [Better NLP Class Notebook](https://www.kaggle.com/neomatrix369/better-nlp-class-notebook) 
+  - [Better NLP Class Notebook](https://www.kaggle.com/neomatrix369/better-nlp-class-notebook)
   - [Six steps to more professional data science code](https://www.kaggle.com/neomatrix369/six-steps-to-more-professional-data-science-code)
 
 ## RAPIDS
@@ -100,19 +102,19 @@ See [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/r
     - [Catboost model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/catboost_feature_importance_tutorial.ipynb)
     - [LightGBM model and W&B](../examples/cloud-devops-infra/wandb/feature-importance/lightgbm_feature_importance_tutorial.ipynb)
 
-## Natural Language Processing (NLP) 
+## Natural Language Processing (NLP)
 
 - [NLP related notebooks](../natural-language-processing/README.md#notebooks)
-- Better NLP Notebooks: 
+- Better NLP Notebooks:
   - Jupyter
-    - [Spacy/Texacy Examples](../examples/better-nlp/notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb) 
+    - [Spacy/Texacy Examples](../examples/better-nlp/notebooks/jupyter/better_nlp_spacy_texacy_examples.ipynb)
     - [Summarisers Examples](../examples/better-nlp/notebooks/jupyter/better_nlp_summarisers.ipynb)
   - Google Colab
     - [Spacy/Texacy Examples](../examples/better-nlp/notebooks/google-colab/better_nlp_spacy_texacy_examples.ipynb)
     - [Summarisers Examples](../examples/better-nlp/notebooks/google-colab/better_nlp_summarisers.ipynb)
 - NLP Profiler Notebooks:
   - [Notebooks README](https://github.com/neomatrix369/nlp_profiler/blob/master/notebooks/README.md)
-  - [Notebooks files](https://github.com/neomatrix369/nlp_profiler/tree/master/notebooks) 
+  - [Notebooks files](https://github.com/neomatrix369/nlp_profiler/tree/master/notebooks)
   - [Notebooks/kernels from supporters](https://github.com/neomatrix369/nlp_profiler/blob/master/CREDITS_AND_SUPPORTERS.md)
   - [Kaggle Kernel](https://github.com/neomatrix369/nlp_profiler/blob/master/notebooks/README.md#kaggle-kernels)
 - [Bag of words notebook](../domains/keras-bag-of-words-expanded-version/data-scripts-notebooks/)
@@ -126,9 +128,9 @@ See [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/r
 
 - Reinforcement learning notebooks: [1](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/CrashCourseRL.ipynb) | [2](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/crash_course_reinforcement_learning.ipynb) | [3](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
 
-## Time-series  
+## Time-series
 
-- [Time-series / anomaly detection notebooks](../domains/time-series/README.md#notebooks) 
+- [Time-series / anomaly detection notebooks](../domains/time-series/README.md#notebooks)
 
 ## GANs
 

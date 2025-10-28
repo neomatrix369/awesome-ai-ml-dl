@@ -50,7 +50,7 @@ See [Bamboo UI](./bamboolib.md)
 
 ### Dabl
 
-[Dabl: Data Analysis Baseline Library](https://dabl.github.io/dev/) (just like [Pandas profiling](./data/pandas-profiling.md)) | [GitHub](https://github.com/dabl/dabl)
+[Dabl: Data Analysis Baseline Library](https://dabl.github.io/dev/) (just like [Pandas profiling](./pandas-profiling.md)) | [GitHub](https://github.com/dabl/dabl)
 
 ### Redis modules
 

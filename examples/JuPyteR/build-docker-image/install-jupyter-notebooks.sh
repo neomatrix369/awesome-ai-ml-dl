@@ -49,7 +49,7 @@ ${SUDO_CMD} apt-get update && \
 python --version
 pip --version
 
-pip install --user --upgrade pip 
+pip install --user --upgrade pip
 python -m pip install --user jupyter
 
 export PATH="${HOME}/.local/bin:${PATH}"

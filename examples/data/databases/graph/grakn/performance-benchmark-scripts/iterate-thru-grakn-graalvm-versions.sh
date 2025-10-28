@@ -25,7 +25,7 @@ set -o pipefail
 # Grakn version, GraalVM Version
 #         1.4.3, graalvm-ce-1.0.0-rc14
 #         1.4.3, graalvm-ce-1.0.0-rc14
-#         1.5.2, 1.0.0-rc15, 
+#         1.5.2, 1.0.0-rc15,
 #         1.5.2, 19.1.0
 #         1.5.7, 19.1.0
 #         1.5.7, 19.1.1
@@ -58,13 +58,13 @@ waitWhilePortIsNotAvailable() {
   		FOUND_GRAKN_CONTAINER=$(docker ps | grep "48555\|4567" || true)
   		if [[ -z "${FOUND_GRAKN_CONTAINER}" ]]; then
   			break
-  		else 
+  		else
   			CONTAINER_ID=$(echo ${FOUND_GRAKN_CONTAINER} | awk '{print $1}' || true)
-  			docker logs -f ${CONTAINER_ID} || true 
+  			docker logs -f ${CONTAINER_ID} || true
   			FAILED=$(docker logs ${CONTAINER_ID} | grep FAILED || true)
 
   			if [[ ! -z "${FAILED}" ]]; then
-  				docker rm -f ${CONTAINER_ID} 
+  				docker rm -f ${CONTAINER_ID}
   				KEEP_LOOPING=false
   			else
   			    KEEP_LOOPING=true
@@ -102,7 +102,7 @@ do
 				cat "${LOGFILE}"
 				echo "Output saved in ${LOGFILE}"
 			done
-		else			
+		else
 			LOGFILE="${OSNAME_LOWER_CASE}/grakn-${GRAKN_VERSION}-graalvm-ce-${GRAALVM_VERSION}-startup-times.logs"
 			set -x
 			GRAALVM_VERSION=${GRAALVM_VERSION} \

@@ -15,7 +15,7 @@ public class CsvFile {
         PrintWriter pw = new PrintWriter(fileName);
         pw.println(header);
         write(pw, data);
-        pw.close();   
+        pw.close();
     }
 
     public static void write(double[][] data, String fileName) throws FileNotFoundException {

@@ -46,7 +46,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 some_array = ['listview', 'strftime', 'studio', 'isnan', 'script']
- 
+
 some_sentence = "How to make a ListView in Android Studio"
 
 # dense vector representation of contents of the tokens in 'some_sentence' and in 'some_array'
@@ -68,11 +68,11 @@ data = pd.read_csv("stack-overflow-data.csv")
 .
 .
 # Split dataset into 80% training data and 20% test data
-EIGHTY_PERCENT = 80 / 100       
+EIGHTY_PERCENT = 80 / 100
 train_size = int(len(data) * EIGHTY_PERCENT)
 train_posts = data['post'][:train_size]
 train_tags = data['tags'][:train_size]
-# which means 20% will be test data 
+# which means 20% will be test data
 test_posts = data['post'][train_size:]
 test_tags = data['tags'][train_size:]
 
@@ -84,12 +84,12 @@ tokenize = text.Tokenizer(num_words=vocabulary_size)
 tokenize.fit_on_texts(train_posts)
 
 # Create the training data from the collection of posts to pass to the model
-# Creates a vocabulary_size “bag” array, with 1s indicating the indices 
+# Creates a vocabulary_size “bag” array, with 1s indicating the indices
 # where words in a question are present in the vocabulary
 x_train = tokenize.texts_to_matrix(train_posts)
 
 # training dataset: 1s and 0s representation of the tokens in the StackOverflow posts data
-# 
+#
 # [[0. 1. 1. ... 0. 0. 0.]
 #  [0. 1. 1. ... 0. 0. 0.]
 #  [0. 1. 1. ... 0. 0. 0.]
@@ -97,7 +97,7 @@ x_train = tokenize.texts_to_matrix(train_posts)
 #  [0. 1. 1. ... 0. 0. 0.]
 #  [0. 1. 1. ... 0. 0. 1.]
 #  [0. 0. 1. ... 0. 0. 0.]]
-# 
+#
 
 # Similarly, tokenize the test data set
 x_test = tokenize.texts_to_matrix(test_posts)

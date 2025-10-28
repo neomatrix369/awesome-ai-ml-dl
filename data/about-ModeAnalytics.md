@@ -12,15 +12,15 @@
 
 - [ ] [AI/ML/DL Library / Package / Framework: applicable]
 - [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-- [x] **[Data querying: manual / tools available]** 
-- [ ] [Data analytics: manual / tools available] 
+- [x] **[Data querying: manual / tools available]**
+- [ ] [Data analytics: manual / tools available]
 - [x] **[Data visualisation: manual / tools available]**
-- [x] **[Data cleaning: manual]** 
-- [x] **[Data validation: semi-automatic/manual]** 
-- [x] **[Feature extraction: manual/tools available]** 
-- [ ] [Model creation: available] 
+- [x] **[Data cleaning: manual]**
+- [x] **[Data validation: semi-automatic/manual]**
+- [x] **[Feature extraction: manual/tools available]**
+- [ ] [Model creation: available]
 - [ ] [Execute experiments: available]
-- [ ] [Hyper parameter tuning: available] 
+- [ ] [Hyper parameter tuning: available]
 - [ ] [Model saving: available]
 
 Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>

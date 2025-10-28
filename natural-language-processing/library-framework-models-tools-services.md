@@ -16,7 +16,7 @@ Also see the consolidated [Tools > Machine Learning Frameworks](../tools/README.
 - [Google’s Bert](https://github.com/google-research/bert) | [TensorFlow code and pre-trained models for BERT](https://github.com/google-research/bert)
 - [Pretraining #BERT with Layer-wise #Adaptive #LearningRates](https://www.linkedin.com/posts/ashishpatel2604_bert-adaptive-learningrates-activity-6610011565313880064-doG7)
 - [A very approachable introduction to BERT](https://lnkd.in/dKhNQzJ)
-- [H2O Driverless AI](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/nlp.html) 
+- [H2O Driverless AI](http://docs.h2o.ai/driverless-ai/latest-stable/docs/userguide/nlp.html)
    - [Sudalai Rajkumar (SRK), H2O.ai - NLP with H2O Driverless AI - H2O World SF](https://www.youtube.com/watch?v=PJs_2Kyw_RQ&amp;feature=youtu.be)
    - [Carmelo Iaria, AI Academy - How The AI Academy is accelerating NLP projects with Driverless AI](https://www.youtube.com/watch?v=aXPE6IiKRmI&amp;feature=youtu.be)
 - [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/)
@@ -79,7 +79,7 @@ Also see the consolidated [Tools > Machine Learning Frameworks](../tools/README.
 - [Facebook Research • TaBERT a pre-trained language model for learning joint representations of natural language utterances and structured tables for semantic parsing](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-technology-activity-66861)
 - [SpikeX - SpaCy Pipes for Knowledge Extraction](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-datascience-activity-6790492432502026240-wVxj)
 - [Obsei: Observe SEgment and Inform - A workflow automation tool for text segmentation](https://www.linkedin.com/posts/philipvollet_datascience-nlp-machinelearning-activity-6748875008870875136-hQoh)
-- (X) Cross-Lingual Transfer Evaluation of Multilingual Encoders: 
+- (X) Cross-Lingual Transfer Evaluation of Multilingual Encoders:
 [site](https://sites.research.google/xtreme) | [github](https://github.com/google-research/xtreme)
 - [VecMap (cross-lingual word embedding mappings)](https://github.com/artetxem/vecmap)
 - [PyCaret: Natural Language Processing Module](https://pycaret.org/nlp/)

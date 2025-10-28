@@ -12,7 +12,7 @@ PyTorch is an open source machine learning library based on the [Torch library](
 
 ## Java
 
-On https://pytorch.org/, just under **"Quick Start Locally"** find **"C++/Java"** on the _White/Orange)_ grid. Available for _Linux_ and _Windows_ only, no _MacOS X_ support available at this time. 
+On https://pytorch.org/, just under **"Quick Start Locally"** find **"C++/Java"** on the _White/Orange)_ grid. Available for _Linux_ and _Windows_ only, no _MacOS X_ support available at this time.
 
 ## Tutorials
 
@@ -37,7 +37,7 @@ On https://pytorch.org/, just under **"Quick Start Locally"** find **"C++/Java"*
     - [RoBERTa](https://github.com/pytorch/fairseq/tree/master/examples/roberta)
 - [ParlAI](https://github.com/facebookresearch/ParlAI)
 - [PyText](https://github.com/facebookresearch/pytext)
-- [Text: sentiment analysis using NGrams](https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html) 
+- [Text: sentiment analysis using NGrams](https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html)
   - [Text classification example](https://github.com/pytorch/text/tree/master/examples/text_classification)
 
 ## Cheatsheets

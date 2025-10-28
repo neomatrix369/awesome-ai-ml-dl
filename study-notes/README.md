@@ -16,72 +16,72 @@ Most approaches use some form of maximum likelihood estimate (stats, not just ML
 We start with a random seed, just to make sure we don't always get the same example
 Generate function is trainable
 > Generative = generate
-> 
+>
 > Adversarial = they compete against each other
-> 
+>
 > Network = there's two of them
-> 
+>
 > the random seed forms the latent space
-> 
+>
 >  from this vector, what gives me a 4, what gives me a 9
->  
+>
 >  how do we control the generation?
->  
+>
 >  latent representation of the output distribution
->  
+>
 >  random seed allows us to manipulate generation
->  
+>
 >  i.e. if we JUST want to generate 4's
->  
+>
 > Discriminator
 >   supervised
->   
+>
 >   binary classifcatiion
->   
+>
 >   real or fake
->   
+>
 >   Discriminator tries to fool generator, vice versa
->   
+>
 >   likelihood that input example is real
->   
+>
 > Generator (forger)
 >   takens in a vector of random numbers
->   
+>
 >   generates fake examples
->   
+>
 > Analogy
 >   generator = forger, trying to generate fake examples
->   
+>
 >   discriminator = detective (what is real / fake)
->   
+>
 >   back propogagtes error
->   
+>
 >   Real data is fed in, and generator generates fake examples
->   
+>
 > GANs learn iteratively
 >   classification error - fed back into discriminator
->   
+>
 >   Generation gets better each time
->   
+>
 >   inspired by game theory
->   
+>
 >   non cooperative game
->   
+>
 >   minimise likelihood that real data is discriminated (classified) as fake
->   
+>
 > Generative modelling largely unsolved
 >   doesn't generalise well
->   
+>
 >   can't generalise across domains
->   
+>
 >   "What I cannot create, I do not understand"
->   
+>
 > Generator may fail if you initialise in the wrong place
-> 
+>
 >   so it's best to reduce dimensionality to begin with
 
 ## ML Crash course by Google
-   
+
 [ML Crash course](https://developers.google.com/machine-learning/crash-course/prereqs-and-prework)
 
 - General
@@ -90,7 +90,7 @@ Generate function is trainable
   - TanH: activation function
   - Histogram: https://en.wikipedia.org/wiki/Histogramv - A histogram is an accurate representation of the distribution of numerical data. It is an estimate of the probability distribution of a continuous variable (quantitative variable) and was first introduced by Karl Pearson.[1]
   - Derivative: https://en.wikipedia.org/wiki/Derivative: The derivative of a function of a real variable measures the sensitivity to change of the function value (output value) with respect to a change in its argument (input value)
-  - Partial derivative: https://en.wikipedia.org/wiki/Partial_derivative - a **partial derivative** of a [function of several variables](https://en.wikipedia.org/wiki/Function_(mathematics)#MULTIVARIATE_FUNCTION) is its [derivative](https://en.wikipedia.org/wiki/Derivative) with respect to one of those variables, with the others held constant (as opposed to the [total derivative](https://en.wikipedia.org/wiki/Total_derivative), in which all variables are allowed to vary). 
+  - Partial derivative: https://en.wikipedia.org/wiki/Partial_derivative - a **partial derivative** of a [function of several variables](https://en.wikipedia.org/wiki/Function_(mathematics)#MULTIVARIATE_FUNCTION) is its [derivative](https://en.wikipedia.org/wiki/Derivative) with respect to one of those variables, with the others held constant (as opposed to the [total derivative](https://en.wikipedia.org/wiki/Total_derivative), in which all variables are allowed to vary).
   - Gradient: https://en.wikipedia.org/wiki/Gradient - the gradient represents the [slope](https://en.wikipedia.org/wiki/Slope) of the [tangent](https://en.wikipedia.org/wiki/Tangent) of the [graph of the function](https://en.wikipedia.org/wiki/Graph_of_a_function). More precisely, the gradient points in the direction of the greatest rate of increase of the function, and its [magnitude](https://en.wikipedia.org/wiki/Magnitude_(mathematics)) is the slope of the graph in that direction.
   - Chain rule: https://en.wikipedia.org/wiki/Chain_rule - the **chain rule** is a [formula](https://en.wikipedia.org/wiki/Formula) for computing the [derivative](https://en.wikipedia.org/wiki/Derivative) of the [composition](https://en.wikipedia.org/wiki/Function_composition) of two or more [functions](https://en.wikipedia.org/wiki/Function_(mathematics)).
   - Back propagation :  [backpropagation algorithm](https://developers.google.com/machine-learning/crash-course/backprop-scroll/) - https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/
@@ -117,10 +117,10 @@ Generate function is trainable
       sudo pip3 install launchpadlib
       sudo pip3 install matplotlib
       python3                           <=== to access the above installed packages
-    
+
     >>> import numpy as np
     >>> import matplotlib.pyplot as plt
-    >>> 
+    >>>
     >>> x = np.arange(0, 5, 0.1);
     >>> y = np.sin(x)
     >>> plt.plot(x,y)
@@ -151,9 +151,9 @@ Generate function is trainable
             0.36127922]), <matplotlib.collections.LineCollection object at 0x7fd91f5062e8>, <matplotlib.lines.Line2D object at 0x7fd91f5134e0>)
 
             <=== Better understanding of this is required, maybe look at more examples
-    cm module                           
+    cm module
             <===  more to learn, haven't seen much examples
-    
+
     gridspec module
       gridspec is a module which specifies the location of the subplot in the figure
       Good example to start with: https://matplotlib.org/users/gridspec.html
@@ -163,7 +163,7 @@ Generate function is trainable
 
 ```
     heatmap function
-     http://seaborn.pydata.org/generated/seaborn.heatmap.html - lots of good examples, 
+     http://seaborn.pydata.org/generated/seaborn.heatmap.html - lots of good examples,
              <=== silly question, how do we display the graphs generated by the heatmap function()?
               Sort of answer - https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up
 ```
@@ -186,7 +186,7 @@ Generate function is trainable
         - [scikit-learn](http://scikit-learn.org/) (for evaluation metrics)
     metrics module
     http://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics
-    
+
     Install: http://scikit-learn.org/stable/install.html
 ```
 
@@ -209,7 +209,7 @@ Generate function is trainable
             - indefinite or infinite iterations (repeats)
         - Min or Max of Target
         - Positions (half-way)
-            - Median 
+            - Median
             - Medium
             - Mode
             - Midpoint
@@ -229,7 +229,7 @@ Generate function is trainable
                 - GradientDescentOptimizer interface, (implements Mini-Batch Stochastic Gradient Descent (SGD))
                 - [gradient clipping](https://developers.google.com/machine-learning/glossary/#gradient_clipping) - gradient clipping ensures the magnitude of the gradients do not become too large during training, which can cause gradient descent to fail
         - Training
-            - training data 
+            - training data
             - training loss
             - training error
                 - measures how well your model fits the training data, but it ***does not*** measure how well your model ***generalises to new data***
@@ -287,7 +287,7 @@ Generate function is trainable
         - TPU example
             - see [TPU example on Cloud/DevOps/Infra page](../infrastructure/cloud-devops-infra/README.md#tpu)
       - [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
-            
+
 ### ML Recipe course by Josh Gordon
 
 - Week 1: https://www.youtube.com/watch?v=cKxRvEZd3Mw
@@ -299,7 +299,7 @@ Generate function is trainable
 - Week 3: https://www.youtube.com/watch?v=N9fDIAflCMY
   - Multiple features are more useful than single ones
   - Avoid useless or duplicate features
-  - find out how many are needed to solve the problem 
+  - find out how many are needed to solve the problem
   - independent features are best
   - features should be easy to understand
 - Week 4: https://www.youtube.com/watch?v=84gqSbLcBFE
@@ -333,9 +333,9 @@ tensorboard --logdir tf_files/training_summaries &
 
 wget https://upload.wikimedia.org/wikipedia/commons/c/ce/Bandung_Rose.jpg
 
-python scripts/label_image.py --image Bandung_Rose.jpg 
+python scripts/label_image.py --image Bandung_Rose.jpg
 ```
-  - Tensorflow tutorial: 
+  - Tensorflow tutorial:
     - https://www.tensorflow.org/tutorials/
         - Progress: https://www.tensorflow.org/tutorials/keras/basic_classification (finished, redo once more)
   - Other queries

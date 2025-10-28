@@ -18,7 +18,7 @@ Enjoy writing prototypes, experiments or do some real work with it, in Java, Sca
 
 # Blogs
 
-- [Apache Zeppelin: stairway to notes* haven!](https://www.javaadvent.com/2018/12/apache-zeppelin-stairway-to-notes-haven.html) 
+- [Apache Zeppelin: stairway to notes* haven!](https://www.javaadvent.com/2018/12/apache-zeppelin-stairway-to-notes-haven.html)
 - [Running Apache Zeppelin on Oracle Cloud Infrastructure](https://medium.com/@neomatrix369/running-apache-zeppelin-on-oracle-cloud-infrastructure-b0aecc79597a)
 
 ## Installation

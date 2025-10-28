@@ -34,7 +34,7 @@ public class RegressionExample
         int outputsNum = 1;
         double test_train_ratio = 0.7;
         float some_input_value = 0.2f;
-        
+
         System.out.println("~~ Running DeepNetts Machine Regression");
     	System.out.println("~~~ Loading the data");
         DataSet dataSet = DataSets.readCsv(csvFilename , inputsNum, outputsNum);
@@ -86,7 +86,7 @@ public class RegressionExample
 
         // plot predictions for some random data
         plotPredictions(neuralNet);
-        
+
         EvaluationMetrics pm = Evaluators.evaluateRegressor(neuralNet, dataSet);
         System.out.println(pm);
     }

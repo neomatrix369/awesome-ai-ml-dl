@@ -9,7 +9,7 @@
 
 **Output**
 
-``` 
+```
 -~~~ Running Grakn in a Docker container using the Traditional JDK (version 1.8)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 JAVA_HOME=/usr/local/graalvm-ce-java8-19.3.1
@@ -71,7 +71,7 @@ This version of GraalVM is based on JDK8. With JVMCI disabled (via -XX:-UseJVMCI
 **Command**
 
 ```
- ./grakn-runner.sh --javaopts="-XX:-UseJVMCINativeLibrary" --jdk GRAALVM --runContainer 
+ ./grakn-runner.sh --javaopts="-XX:-UseJVMCINativeLibrary" --jdk GRAALVM --runContainer
 ```
 
 **Output**
@@ -137,7 +137,7 @@ This version of GraalVM is based on JDK8, run with JVMCI enabled (default settin
 **Command**
 
 ```
- ./grakn-runner.sh --javaopts="-XX:+UseJVMCINativeLibrary" --jdk GRAALVM --runContainer 
+ ./grakn-runner.sh --javaopts="-XX:+UseJVMCINativeLibrary" --jdk GRAALVM --runContainer
 ```
 
 ```

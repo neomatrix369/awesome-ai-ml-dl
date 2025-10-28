@@ -10,7 +10,7 @@
 - [A Simple Introduction to Complex Stochastic Processes](https://www.linkedin.com/posts/data-science-central_a-simple-introduction-to-complex-stochastic-activity-6615015773003935744-wfUL)
 - [Quick math references](https://www.linkedin.com/posts/asif-bhat_mathematics-quick-reference-activity-6621165265302458368-XRFB)
 - [Mathematics for Machine Learning](https://lnkd.in/edgvceK)
-- [Patrick Landreman: A Crash Course in Applied Linear Algebra | PyData New York 2019](https://www.youtube.com/watch?v=wkxgZirbCr4) 
+- [Patrick Landreman: A Crash Course in Applied Linear Algebra | PyData New York 2019](https://www.youtube.com/watch?v=wkxgZirbCr4)
 - [👏Linear Algebra👏 by Jim Hefferon](https://www.linkedin.com/posts/asif-bhat_linear-algebra-activity-6621491653905608704-8gkg)
 - [#Tensor #Calculus for Deep learning which is used in Google #Tensorflow. Designed by Prof. Dr. Cornelis P. Dullemond](https://www.linkedin.com/posts/ashishpatel2604_tensor-calculus-for-deep-learning-activity-6602889964453756928-Y7Nk)
 - [Mathematical Understanding of CNN: course notes of Andrew Ng](https://www.linkedin.com/posts/ashishpatel2604_amazing-cnn-notes-ugcPost-6602853333562687488-PG8e)

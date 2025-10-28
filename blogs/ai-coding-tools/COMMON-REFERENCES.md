@@ -103,5 +103,3 @@
 5. [MCP Inspector Demo](https://www.youtube.com/watch?v=u-GGktUnSgg)
 6. [Cursor Setup Guide](https://www.youtube.com/watch?v=0iGEpx8IeM0)
 7. [Cursor Context and Referencing Tutorial](https://www.youtube.com/watch?v=5IwlQnTlPVA)
-
-

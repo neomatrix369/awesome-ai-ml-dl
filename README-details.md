@@ -64,13 +64,13 @@
   - [Deploy Machine Learning App built using Streamlit and PyCaret on Google Kubernetes Engine](https://towardsdatascience.com/deploy-machine-learning-app-built-using-streamlit-and-pycaret-on-google-kubernetes-engine-fd7e393d99cb?source=search_post)
   - [Easy MLOps with PyCaret + MLflow](https://towardsdatascience.com/easy-mlops-with-pycaret-mlflow-7fbcbf1e38c6?source=search_post)
   - [Deploy PyCaret and Streamlit app using AWS Fargate — serverless infrastructure](https://towardsdatascience.com/deploy-pycaret-and-streamlit-app-using-aws-fargate-serverless-infrastructure-8b7d7c0584c2?source=search_post)
-  - [Predict Lead Score (the Right Way) Using PyCaret](https://towardsdatascience.com/predict-lead-score-the-right-way-using-pycaret-332faa780cfc?source=search_post)  
+  - [Predict Lead Score (the Right Way) Using PyCaret](https://towardsdatascience.com/predict-lead-score-the-right-way-using-pycaret-332faa780cfc?source=search_post)
   - [Deploy PyCaret Models on Edge Devices with ONNX Runtime](https://towardsdatascience.com/deploy-pycaret-models-on-edge-devices-with-onnx-runtime-c6d060a2e1a6?source=search_post)
   - [Deploy Machine Learning Pipeline on cloud using Docker Container](https://towardsdatascience.com/deploy-machine-learning-pipeline-on-cloud-using-docker-container-bec64458dc01?source=search_post)
   - [Predicting Spotify Song Popularity](https://towardsdatascience.com/predicting-spotify-song-popularity-49d000f254c7?source=search_post)
   - [Predict Crash Severity with Machine Learning?](https://medium.com/spatial-data-science/predict-crash-severity-with-machine-learning-dc9848cabcef?source=search_post)
   - [Pycaret articles on Medium](https://medium.com/search?q=pycaret)
-+ Libra • Automates the end-to-end machine learning process in just one line of code: [GitHub](https://lnkd.in/g4kYRnq) | [Notebooks with tutorials](https://lnkd.in/g95uKnR) | [Docs](https://lnkd.in/g_vF72M) | [NLP Queries](https://lnkd.in/gZhufPf) 
++ Libra • Automates the end-to-end machine learning process in just one line of code: [GitHub](https://lnkd.in/g4kYRnq) | [Notebooks with tutorials](https://lnkd.in/g95uKnR) | [Docs](https://lnkd.in/g_vF72M) | [NLP Queries](https://lnkd.in/gZhufPf)
 - [GitHub is the best AutoML you will ever need 👇 👇 👇](https://www.linkedin.com/posts/profile-moez_github-is-the-best-automl-you-will-ever-need-activity-6696949164791652352-bleJ)
 - [AutoGOAL: an autoML framework (high & low level) by Alejandro Piad et al.](https://www.linkedin.com/posts/madewithml_machinelearning-artificialintelligence-madewithml-activity-6693165741547626496-mHhS)
 - [OttoML - Otto makes machine learning an intuitive, natural language experience.](https://github.com/KartikChugh/Otto)
@@ -132,11 +132,11 @@ See [JavaScript](./reference/javascript.md)
 See [Visualisation](./reference/visualisation.md#visualisation)
 
 ### Mathematica & Wolfram Language
- 
-See [Mathematica & Wolfram Language](./reference/mathematica-wolfram-Language.md) 
+
+See [Mathematica & Wolfram Language](./reference/mathematica-wolfram-Language.md)
 
 ### Mathematics, Statistics, Probability & Probabilistic programming
-  
+
 See [Mathematics, Statistics, Probability & Probabilistic programming](./reference/maths-stats-probability.md)
 
 ### Data
@@ -209,7 +209,7 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./referen
     - [Grakn](./examples/data/databases/graph/grakn/README.md)
   - [JuPyteR](./examples/JuPyteR/README.md)
   - [NLP Java/JVM](https://github.com/neomatrix369/nlp-java-jvm-example#nlp-javajvm-)
-    - [Apache OpenNLP](https://github.com/neomatrix369/nlp-java-jvm-example/blob/master/images/java/opennlp/README.md#apache-opennlp--) 
+    - [Apache OpenNLP](https://github.com/neomatrix369/nlp-java-jvm-example/blob/master/images/java/opennlp/README.md#apache-opennlp--)
 
 ### Notebooks
 
@@ -240,7 +240,7 @@ See [Other Tools](./things-to-know.md#other-tools)
   - [Profiling Text Data](https://github.com/neomatrix369/nlp_profiler/tree/master/presentations/01-nlp-zurich-2020#profiling-text-data)
 - [Data presentations](./presentations/data/)
   - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
-  - [Graph database: Grakn (GraknCosmos 2020)](../examples/data/databases/graph/grakn/presentations/README.md) 
+  - [Graph database: Grakn (GraknCosmos 2020)](../examples/data/databases/graph/grakn/presentations/README.md)
 
 ### Best Practices
 
@@ -252,7 +252,7 @@ See [Other Tools](./things-to-know.md#other-tools)
 See [Cheatsheets](./reference/cheatsheets.md#cheatsheets)
 
 ### Misc
- 
+
 See [Misc](./reference/misc.md)
 
 # Contributing

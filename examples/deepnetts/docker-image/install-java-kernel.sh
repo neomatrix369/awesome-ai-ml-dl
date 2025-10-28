@@ -40,7 +40,7 @@ unzipKernelZip() {
 	echo ""
 	if [[ -e java ]] && [[ -e install.py ]]; then
 		echo "~~~ Java kernel version ${JAVA_KERNEL_VERSION} already unzipped in the current folder ~~~"
-	else 
+	else
 		echo "~~~ Unzipping the Java kernel version ${JAVA_KERNEL_VERSION} ~~~"
 		unzip ijava-${JAVA_KERNEL_VERSION}.zip
 		echo "~~~ Finished unzipping the Java kernel version ${JAVA_KERNEL_VERSION} ~~~"
@@ -76,7 +76,7 @@ installJar() {
 	# Used when using valohai/jupyhai or /opt/conda/share/jupyter/kernels as base image
 	KERNEL_CONFIG_FOLDER="/opt/conda/share/jupyter/kernels"
 	ALT_KERNEL_CONFIG_FOLDER="$HOME/.local/share/jupyter/kernels/"
-	
+
     # Using jupyter/repo2docker as base image
 	# KERNEL_CONFIG_FOLDER="/usr/local/share/jupyter/kernels"
 	if [[ ! -e "${KERNEL_CONFIG_FOLDER}" ]]; then
@@ -129,9 +129,9 @@ showUsageText() {
 
        --downloadJar             (command action) download the jar from
                                  SpencerPark/IJava GitHub release page
-       --buildJar                (command action) build the SpencerPark/IJava 
-                                 interpreter from source 
-       --installJar              (command action) install the jar after downloading or 
+       --buildJar                (command action) build the SpencerPark/IJava
+                                 interpreter from source
+       --installJar              (command action) install the jar after downloading or
                                  building from source
        --help                    shows the script usage help text
 
@@ -150,7 +150,7 @@ fi
 while [[ "$#" -gt 0 ]]; do case $1 in
   --help)                  showUsageText;
                            exit 0;;
-  --downloadJar)           downloadJar;; 
+  --downloadJar)           downloadJar;;
   --buildJar)              buildJar;;
   --installJar)            unzipKernelZip;
                            installJar;

@@ -1,13 +1,26 @@
-# Infrastructure
+# ☁️ Infrastructure
+> Cloud, DevOps, and hardware resources for AI/ML/DL.
 
-> ☁️⚙️ Cloud, DevOps, performance, and hardware for AI/ML/DL workloads.
+![Section](https://img.shields.io/badge/Section-Infrastructure-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
 
-Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md)
+Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
 
 ## At a glance
-- GPU/TPU/accelerators, platforms, deployment, performance references
+- **Accelerators:** GPU/TPU/IPU resources and guides
+- **Platforms:** Cloud services, orchestration, deployment
+- **Performance:** Benchmarks and optimization references
 
 ## Start here
-- Move content from `cloud-devops-infra/*` here (with redirects)
+- 📂 Explore: [Cloud/DevOps/Infra](./cloud-devops-infra/README.md)
+- 🧪 Notebooks: [Notebooks](../notebooks/README.md)
+- 🧰 Tooling: [Tools](../tools/README.md)
 
-[↑ Back to top](#infrastructure) · [← Back home](../README.md)
+## Deep dive
+- 🖥️ Compute and storage patterns
+- 🚀 Deployment workflows and IaC
+- 📈 Performance profiling and benchmarking
+
+## Related
+- 📚 Data · 🧪 Notebooks · 🧰 Tools · 🤖 Agents · 🧠 NLP
+
+[↑ Back to top](#-infrastructure) · [← Back home](../README.md)

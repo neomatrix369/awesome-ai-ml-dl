@@ -74,7 +74,7 @@ elif [[ "$1" = "server" ]] || [[ "$1" = "version" ]]; then
         echo "Grakn Core Server is included in this Grakn distribution."
         SERVICE_LIB_CP="server/services/lib/*"
         CLASSPATH="${GRAKN_HOME}/${SERVICE_LIB_CP}:${GRAKN_HOME}/server/conf/"
-        
+
         SERVER_SERVICE_LIB=${GRAKN_HOME}/server/services/lib
         SERVER_SERVICE_LIB_JAR=${SERVER_SERVICE_LIB}/server-binary_deploy.jar
         mkdir -p ${SERVER_SERVICE_LIB}/META-INF/native-image
@@ -82,7 +82,7 @@ elif [[ "$1" = "server" ]] || [[ "$1" = "version" ]]; then
         # java ${GRAKN_DAEMON_JAVAOPTS} -cp "${CLASSPATH}" -Dgrakn.dir="${GRAKN_HOME}" \
         #      -Dgrakn.conf="${GRAKN_HOME}/${GRAKN_CONFIG}" -Dstorage.javaopts="${STORAGE_JAVAOPTS}" \
         #      -Dserver.javaopts="${SERVER_JAVAOPTS}" grakn.core.daemon.GraknDaemon $@
-        
+
         if [[ "${JAVA_HOME}" = "${GRAALVM_HOME}" ]]; then
           set -x
           ### Run Jar with native image

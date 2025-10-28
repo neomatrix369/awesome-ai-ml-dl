@@ -1,7 +1,7 @@
 ## fast.ai
 
 - http://fast.ai
-- Free Library + course material to learn AI, ML, DL quickly 
+- Free Library + course material to learn AI, ML, DL quickly
 - Library is based on Pytorch (previously there was a Keras version)
 - Has a community forum and lots of resources on the internet, good feedback and posts on medium
 
@@ -21,15 +21,15 @@ Additional references
 
 - [x] **[AI/ML/DL Library / Package / Framework: applicable]**
 - [ ] [Inexpensive crowd-sourced infrastructure sharing: applicable]
-- [ ] [Data querying: manual / tools available] 
-- [ ] [Data analytics: manual / tools available] 
-- [ ] [Data visualisation: manual / tools available] 
-- [ ] [Data cleaning: manual / no tools available] 
-- [ ] [Data validation: manual / no tools available] 
-- [ ] [Feature extraction: manual / no tools available] 
-- [ ] [Model creation: available] 
+- [ ] [Data querying: manual / tools available]
+- [ ] [Data analytics: manual / tools available]
+- [ ] [Data visualisation: manual / tools available]
+- [ ] [Data cleaning: manual / no tools available]
+- [ ] [Data validation: manual / no tools available]
+- [ ] [Feature extraction: manual / no tools available]
+- [ ] [Model creation: available]
 - [ ] [Execute experiments: available]
-- [ ] [Hyper parameter tuning: available] 
+- [ ] [Hyper parameter tuning: available]
 - [ ] [Model saving: available]
 
 Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>

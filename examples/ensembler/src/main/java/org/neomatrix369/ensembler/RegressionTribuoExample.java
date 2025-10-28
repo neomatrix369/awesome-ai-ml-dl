@@ -106,14 +106,14 @@ public class RegressionTribuoExample
         savePredictions(validationDataset, predictionsXgbModel, "datasets/tribuo-linear-regression-xgb-validation.csv");
     }
 
-    public void savePredictions(ListDataSource validationDataset, 
-                                List<Prediction<Regressor>> predictions, 
+    public void savePredictions(ListDataSource validationDataset,
+                                List<Prediction<Regressor>> predictions,
                                 String targetCsvFilename) throws Exception {
         String responseNames = "x,y";
         var mutableValidationDataset = new MutableDataset<>(validationDataset);
 
         double[][] predictionValueAsDouble = new double[predictions.size()][2];
-        int index = 0; 
+        int index = 0;
         for (var example: mutableValidationDataset.getData()) {
             var result = example.toString();
             result = result.replace("[(", "").replace(")])", "");
@@ -122,7 +122,7 @@ public class RegressionTribuoExample
             index = index + 1;
         }
 
-        index = 0; 
+        index = 0;
         for (Prediction<Regressor> prediction: predictions) {
             predictionValueAsDouble[index][1] = prediction.getOutput().getValues()[0];
             index = index + 1;

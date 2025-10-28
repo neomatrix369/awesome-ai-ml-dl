@@ -56,10 +56,10 @@
 - [Tackling any Kaggle Competition : The Noob's Way](https://www.kaggle.com/tanulsingh077/tackling-any-kaggle-competition-the-noob-s-way) | [Mr_KnowNothing-s-Weekends](https://github.com/tanulsingh/Mr_KnowNothing-s-Weekends)
 - Kaggle related blogs (plus links to kernels) by https://tkravichandran.github.io/
     - [Top 10% solution Detailed version on my blog](https://tkravichandran.github.io/my-fast-ds-blog/first-tabular-kaggle-competition.html)
-    - [Top 10% solution short version for kaggle](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220874)  
-    - [What works in feature engineering  ](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220878)  
-    - [How to know if you are actually overfitting](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220877)  
-    - [What can Adverserial Validation do for you?](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220876) 
+    - [Top 10% solution short version for kaggle](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220874)
+    - [What works in feature engineering  ](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220878)
+    - [How to know if you are actually overfitting](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220877)
+    - [What can Adverserial Validation do for you?](https://www.kaggle.com/c/ieee-fraud-detection/discussion/220876)
     - Cross-posted all from [my DS blog](https://tkravichandran.github.io/my-fast-ds-blog/). Fraud Detection Competition page is [here](https://www.kaggle.com/c/ieee-fraud-detection/overview)
     - https://www.kaggle.com/c/ieee-fraud-detection/discussion/111510
     - https://www.kaggle.com/cdeotte/xgb-fraud-with-magic-0-9600

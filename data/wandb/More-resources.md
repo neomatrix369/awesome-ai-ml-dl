@@ -4,7 +4,7 @@
 
 - Lectures: https://www.wandb.com/classes/intro/overview
 - Code
-    - https://github.com/lukas/ml-class 
+    - https://github.com/lukas/ml-class
         - https://github.com/lukas/ml-class/scikit/test-algorithm-cross-validation-dummy.py
         - https://github.com/lukas/ml-class/blob/master/examples/notebooks/Lesson-4-Evaluating-Classifiers.ipynb
     - https://github.com/lukas/vision-project
@@ -18,7 +18,7 @@
         - https://gist.github.com/vanpelt/b52f6f5360be626d2c23189d513f94de#file-cheatsheet-md
         - https://gist.github.com/vanpelt/b52f6f5360be626d2c23189d513f94de#saving-your-progress-optional
 - W&B projects
-    - https://app.wandb.ai/bloomberg-class/imdb-classifier 
+    - https://app.wandb.ai/bloomberg-class/imdb-classifier
     - https://app.wandb.ai/dronedeploy/dronedeploy-aerial-segmentation/benchmark
     - https://app.wandb.ai/mlclass/timeseries-nov1/runs/7bu2q1uv
     - https://app.wandb.ai/qualcomm/timeseries-dec3/runs/kyphj85u

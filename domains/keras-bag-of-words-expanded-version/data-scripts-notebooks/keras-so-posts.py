@@ -14,7 +14,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 some_array = ['listview', 'strftime', 'studio', 'isnan', 'script']
- 
+
 some_sentence = "How to make a ListView in Android Studio"
 
 # dense vector representation of contents of the tokens in 'some_sentence' and in 'some_array'
@@ -26,11 +26,11 @@ dense_vector_array = [1, 0, 1, 0, 0]
 data = pd.read_csv("stack-overflow.csv")
 
 # Split dataset into 80% training data and 20% test data
-EIGHTY_PERCENT = 80 / 100       
+EIGHTY_PERCENT = 80 / 100
 train_size = int(len(data) * EIGHTY_PERCENT)
 train_posts = data['post'][:train_size]
 train_tags = data['tags'][:train_size]
-# which means 20% will be test data 
+# which means 20% will be test data
 test_posts = data['post'][train_size:]
 test_tags = data['tags'][train_size:]
 
@@ -42,12 +42,12 @@ tokenize = text.Tokenizer(num_words=vocabulary_size)
 tokenize.fit_on_texts(train_posts)
 
 # Create the training data from the collection of posts to pass to the model
-# Creates a vocabulary_size “bag” array, with 1s indicating the indices 
+# Creates a vocabulary_size “bag” array, with 1s indicating the indices
 # where words in a question are present in the vocabulary
 x_train = tokenize.texts_to_matrix(train_posts)
 
 # training dataset: 1s and 0s representation of the tokens in the StackOverflow posts data
-# 
+#
 # [[0. 1. 1. ... 0. 0. 0.]
 #  [0. 1. 1. ... 0. 0. 0.]
 #  [0. 1. 1. ... 0. 0. 0.]
@@ -55,7 +55,7 @@ x_train = tokenize.texts_to_matrix(train_posts)
 #  [0. 1. 1. ... 0. 0. 0.]
 #  [0. 1. 1. ... 0. 0. 1.]
 #  [0. 0. 1. ... 0. 0. 0.]]
-# 
+#
 
 # Similarly, tokenize the test data set
 x_test = tokenize.texts_to_matrix(test_posts)
@@ -97,8 +97,8 @@ model = Sequential()
 model.add(Dense(512, input_shape=(vocabulary_size,)))
 model.add(Activation('relu'))
 
-# The model will take the vocabulary_size input, 
-# transform it to a 512-dimensional layer, 
+# The model will take the vocabulary_size input,
+# transform it to a 512-dimensional layer,
 # and transform that into an output layer with 20 probability neurons
 # with the help of Keras, provided with shape of the input data,
 # the shape of the output data, and the type of each layer
@@ -107,22 +107,22 @@ model.add(Dense(num_labels))
 model.add(Activation('softmax'))
 
 # compile model: using loss function crossentropy, optimizer adam, evaluating the accuracy metrics
-model.compile(loss='categorical_crossentropy', 
-              optimizer='adam', 
+model.compile(loss='categorical_crossentropy',
+              optimizer='adam',
               metrics=['accuracy'])
 
-# x_train = training data (features) 
+# x_train = training data (features)
 # y_train = labels (target)
 # Train the model using the training set and various training parameters: batch_size, epoch, validation_split
 batch_size=40000
-history = model.fit(x_train, y_train, 
-                    batch_size=batch_size, 
-                    epochs=2, 
-                    verbose=1, 
+history = model.fit(x_train, y_train,
+                    batch_size=batch_size,
+                    epochs=2,
+                    verbose=1,
                     validation_split=0.1)
 
 # Accuracy: applying the test training set on the model
-score = model.evaluate(x_test, y_test, 
+score = model.evaluate(x_test, y_test,
                        batch_size=batch_size, verbose=1)
 print('Test score:', score[0])
 print('Test accuracy:', score[1])

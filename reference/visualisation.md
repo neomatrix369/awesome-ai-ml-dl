@@ -66,8 +66,8 @@ data visualisation. Magic from spreadsheets. Next-level storytelling. Embed on y
 ## Posts, articles, papers and other resources
   - [A very neat and in-depth course on #datavisualization by Ilya Kashnitsky:](https://www.linkedin.com/posts/sanyambhutani_datavisualization-dataviz-datavizualization-activity-6690445984163528704--iuh) [GitHub](https://lnkd.in/eMicn7J)
   - mini-course in Kaggle if you want to know more about GIS: [1](https://www.kaggle.com/learn/geospatial-analysis) | [2](https://www.kaggle.com/learn/data-visualization)
-  - [Courses by the University of Helsinki](https://automating-gis-processes.github.io/site/) 
-  - [Visualisation Kaggle kernel (follium 1)](https://www.kaggle.com/bhanvimenghani/folium-chai-eda) 
+  - [Courses by the University of Helsinki](https://automating-gis-processes.github.io/site/)
+  - [Visualisation Kaggle kernel (follium 1)](https://www.kaggle.com/bhanvimenghani/folium-chai-eda)
   - [Visualisation Kaggle kernel (follium 2)](https://www.kaggle.com/pompelmo/chaieda-police-violence)
   - [Interactive Machine Learning, Deep Learning and Statistics websites](https://p.migdal.pl/interactive-machine-learning-list/)
   - [Data Visualisation by Kaggle.com](https://www.kaggle.com/learn/data-visualization)

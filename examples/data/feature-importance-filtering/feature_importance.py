@@ -81,7 +81,7 @@ def get_feature_importance_with_regression_method(X_train, y_train, features_to_
 
 # https://www.wallstreetmojo.com/normalization-formula/
 def normalize(values: np.ndarray) -> np.ndarray:
-    return (values - values.min()) / (values.max() - values.min()) 
+    return (values - values.min()) / (values.max() - values.min())
 
 
 # Issue: Singularity Matrix error by Logit() method
@@ -92,9 +92,9 @@ def variance_threshold_selector(data: pd.DataFrame, threshold: float = 0.5) -> p
     return data[data.columns[selector.get_support(indices=True)]]
 
 
-def get_feature_importance_with_logit_method(X_train, y_train, 
+def get_feature_importance_with_logit_method(X_train, y_train,
                                              method: str = None,
-                                             show_summary_only: bool = False, 
+                                             show_summary_only: bool = False,
                                              remove_low_variance_cols = False, variance_threshold: float = 0.05,
                                              p_values_cutoff: float = P_VALUES_STD_CUTOFF):
     """
@@ -144,13 +144,13 @@ def get_feature_importance_with_logit_method(X_train, y_train,
         Credits to Susan Li (https://medium.com/@actsusanli)
     """
     X_train = convert_columns_into_categorical(X_train)
-    if remove_low_variance_cols: 
+    if remove_low_variance_cols:
         X_train = variance_threshold_selector(X_train, variance_threshold)
     y_train = normalize(y_train)
 
     logit_model = sm.Logit(y_train, X_train, random_state=RANDOM_SEED)
     try:
-        if method: 
+        if method:
             training_results = logit_model.fit(method=method)
         else:
             training_results = logit_model.fit()

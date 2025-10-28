@@ -60,7 +60,7 @@ if [[ "${DEBUG}" = "false" ]]; then
 fi
 
 set -x
-#--rm 
+#--rm
 docker run                                           \
         ${DOCKER_DEBUG_PARAMS}                            \
         --volume ${PWD}/notebooks:/home/jupyter/notebooks \
@@ -85,7 +85,7 @@ if [[ "${DEBUG}" = "false" ]]; then
   OPEN_CMD="$(getOpenCommand)"
   "${OPEN_CMD}" "${URL}"
 
-  echo ""; 
+  echo "";
   echo "****************************************************"
   echo "Attaching back to container, with ID ${CONTAINER_ID}"
   echo "****************************************************"

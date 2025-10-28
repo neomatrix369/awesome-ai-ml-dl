@@ -12,7 +12,7 @@ See [YouTube](https://www.youtube.com/watch?v=8c-EiihA4wo).
 
 ### Speaker
 
-- [Mani Sarkar](http://kaggle.com/neomatrix369) 
+- [Mani Sarkar](http://kaggle.com/neomatrix369)
 
 ### Abstract
 

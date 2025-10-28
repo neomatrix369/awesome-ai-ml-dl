@@ -45,9 +45,9 @@
 - [Introduce 𝗔𝗺𝗯𝗶𝗴𝗤𝗔, 𝗮 𝗻𝗲𝘄 𝗼𝗽𝗲𝗻-𝗱𝗼𝗺𝗮𝗶𝗻 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻 𝗮𝗻𝘀𝘄𝗲𝗿𝗶𝗻𝗴 task which involves predicting a set of question-answer pairs, where every plausible answer is paired with a disambiguated rewrite of the original question](https://www.linkedin.com/posts/philipvollet_nlp-activity-6660779141794676736-Iz_O)
 - [𝗡𝗟𝗣 𝗳𝗼𝗿 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀: 𝗧𝗼𝗸𝗲𝗻𝗶𝘇𝗮𝘁𝗶𝗼𝗻 new video in the series NLP for Developers with the amazing Rachael from Rasa](https://www.linkedin.com/posts/philipvollet_nlp-activity-6660777477406765056-63UD)
 - [A tale about LDA2vec: when LDA meets word2vec](https://www.linkedin.com/posts/vincentg_a-tale-about-lda2vec-when-lda-meets-word2vec-activity-6665251541223555072-UhLZ)
-- Amazing Talk by Lorenzo Ampil about T5 and its applications: 
+- Amazing Talk by Lorenzo Ampil about T5 and its applications:
 [Video](https://www.youtube.com/watch?v=4LYw_UIdd4A) | [T5 Training notebook (Kaggle)](https://www.kaggle.com/enzoamp/t5-for-q-a-training-tutorial-pytorch) | [T5 Inference notebook (Kaggle)](https://www.kaggle.com/enzoamp/t5-q-a-inference-5-epochs-pytorch) | [T5 Tutorial Repo (Github)](https://github.com/enzoampil/t5-intro)
-- New release of Spark NLP 2.5 with a DL-based Context Spell Checker: 
+- New release of Spark NLP 2.5 with a DL-based Context Spell Checker:
 [Spell Checker as Notebook in action](https://lnkd.in/eE83ezj) | [Spark NLP workshop notebooks (git repo)](https://lnkd.in/e9CXikR)
 - [Designing Practical NLP Solutions](https://youtu.be/JpkzK58lkmA)
 - [Cheatsheet - Text Helper Functions 😍](https://www.kaggle.com/raenish/cheatsheet-text-helper-functions/)
@@ -81,7 +81,7 @@
 
 - [Openly share the contents of our internal weekly science Tuesdays at *Hugging Face* where we discuss recent papers at the frontier of NLP!](https://www.linkedin.com/posts/thomas-wolf-a056857_openscience-nlp-ai-activity-6656282308489949185-C0EO)
 - [Stanford University Question Answering #Dataset is famous because of most of the famous #deeplearning #algorithm of #NLP tested on this dataset such as #Bert, #transformar , #xlnet, #gpt, etc. Author Paton W. has written incredible article series on this dataset with #PyTorch #framework.](https://www.linkedin.com/posts/ashishpatel2604_question-answering-with-pytorch-transformers-activity-6618697249356640256-Vfi_)
-- [What's the secret behind ERNIE, Baidu, Inc.'s very own Transformer model? ](https://www.linkedin.com/posts/pascalbiese_ai-artificialintelligence-machinelearning-activity-6640969622105411586-ieJL) 
+- [What's the secret behind ERNIE, Baidu, Inc.'s very own Transformer model? ](https://www.linkedin.com/posts/pascalbiese_ai-artificialintelligence-machinelearning-activity-6640969622105411586-ieJL)
 - [Ever wondered what happens when predicting more than one token at once with Seq2Seq #transformers?](https://www.linkedin.com/posts/andrea-gatto_transformers-nlp-nlproc-activity-6643099191293943808-s6N9)
 - [Using Transformer-Based Language Models for Sentiment Analysis](https://www.linkedin.com/posts/towards-data-science_using-transformer-based-language-models-for-activity-6653776678344511488-zxZw)
 - [Combining the best of Zalando SE Flair and Hugging Face Transformers in a simple-to-use API?](https://www.linkedin.com/posts/pascalbiese_ai-artificialintelligence-machinelearning-activity-6643464596977917952-x5Fi)
@@ -90,7 +90,7 @@
 - [Excited to share the code and blog post for ELECTRA, a more efficient pre-training method for NLP Transformers. Pre-train a model to good accuracy using only 1 GPU!](https://www.linkedin.com/posts/philipvollet_nlp-deeplearning-python-activity-6643215711231586304-6qKM)
 - [xfspell — the Transformer Spell Checker • Transformer-based English spell checker trained on 7M+ generated parallel sentences](https://www.linkedin.com/posts/philipvollet_nlp-python-machinelearning-activity-6679322417673908224-D7xq)
 - [We partnered with Paperspace to make it easier for software engineers to run state-of-the-art NLP in production on GPUs!](https://www.linkedin.com/posts/huggingface_up-and-running-with-transformers-from-hugging-activity-6653340636491591680-RZOW)
-- In 5 minutes, fine-tune a pre-trained transformer on anyone's tweets, just by clicking a couple of buttons: [Tweet](https://twitter.com/weights_biases/status/1265740544434597888) | [Blog](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI) 
+- In 5 minutes, fine-tune a pre-trained transformer on anyone's tweets, just by clicking a couple of buttons: [Tweet](https://twitter.com/weights_biases/status/1265740544434597888) | [Blog](https://app.wandb.ai/wandb/huggingtweets/reports/HuggingTweets-Train-a-model-to-generate-tweets--VmlldzoxMTY5MjI)
 - [A Transformer-based Approach for Source Code Summarization](https://www.linkedin.com/posts/philipvollet_nlp-machinelearning-deeplearning-activity-6663306539186565120-KVi7)
 - [Using transformers. a more general guide to training models using transformers](https://app.wandb.ai/jxmorris12/huggingface-demo/reports/A-Step-by-Step-Guide-to-Tracking-Hugging-Face-Model-Performance--VmlldzoxMDE2MTU)
 - [Find great posts on Transformers and NLP](https://www.pragmatic.ml/)
@@ -103,7 +103,7 @@
 
 ## Text generation
 
-- Text generation models in action - code autocompletion: 
+- Text generation models in action - code autocompletion:
   - [TabNine](https://www.tabnine.com/)
   - https://github.com/Quantum-Game/quantum-tensors | https://transformer.huggingface.co/doc/gpt2-large (just not Markov Model, but some LSTM or maybe even Transformer)
 - TransCoder: An AI from Facebook that uses seq2seq attention model composed of encoder and decoder with transformer architecture to translate code from one programming language to another: [Paper](https://lnkd.in/ep9DmBr) | [Press release](https://venturebeat.com/2020/06/08/facebooks-transcoder-ai-converts-code-from-one-programming-language-into-another/)

@@ -11,7 +11,7 @@ At the moment there isn't a lot written or spoken about this subject but neverth
 (d) implementations that would be a good example for everyone to follow and be inspired by
 
 
-## Pull Requests 
+## Pull Requests
 
 There are two required criteria for a pull request:
 

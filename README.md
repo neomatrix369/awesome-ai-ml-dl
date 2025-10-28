@@ -1,6 +1,25 @@
 # Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) 
+Navigation: [Home](./README.md) · 🗂️ [Reference](./reference/README.md) · ☁️ [Infrastructure](./infrastructure/README.md) · 📓 [Notebooks](./notebooks/README.md) · 🧰 [Tools](./tools/README.md) · 📊 [Data](./data/README.md) · 🤖 [Agents](./ai-agents/README.md) · 🧠 [NLP](./natural-language-processing/README.md)
+
+> Learn, build, and explore AI/ML/DL with curated guides, domains, tools, and examples.
+
+## Start here
+
+- Python and Data basics: [Python](./python/README.md) · [Data](./data/README.md)
+- Core topics: [ML](./reference/julia-python-and-r.md#machine-learning) · [DL](./reference/julia-python-and-r.md#deep-learning) · [NLP](./natural-language-processing/README.md)
+- Do stuff: [Notebooks](./notebooks/README.md) · [Examples](README-details.md#examples) · [Tools](./tools/README.md)
+
+## Explore by domain
+
+- 🤖 [AI Agents](./domains/ai-agents/README.md) · 🧠 [NLP](./domains/nlp/README.md)
+- 🖼️ [Computer Vision](./domains/computer-vision/README.md) · 🏗️ [LLMs](./domains/large-language-models/README.md)
+- ✨ [Generative AI](./domains/generative-ai/README.md) · 🚀 [MLOps & Deployment](./domains/mlops-deployment/README.md)
+- ⏱️ [Time Series & Anomaly Detection](./domains/time-series/README.md)
+
+---
+
+Better NLP: [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp)
 
 NLP Java: [![NLP Java](https://img.shields.io/docker/pulls/neomatrix369/nlp-java.svg)](https://hub.docker.com/r/neomatrix369/nlp-java) | NLP Clojure: [![NLP Clojure](https://img.shields.io/docker/pulls/neomatrix369/nlp-clojure.svg)](https://hub.docker.com/r/neomatrix369/nlp-clojure) | NLP Kotlin: [![NLP Kotlin](https://img.shields.io/docker/pulls/neomatrix369/nlp-kotlin.svg)](https://hub.docker.com/r/neomatrix369/nlp-kotlin) | NLP Scala: [![NLP Scala](https://img.shields.io/docker/pulls/neomatrix369/nlp-scala.svg)](https://hub.docker.com/r/neomatrix369/nlp-scala) | <br/>
 NLP using DL4J (cuda) [![NLP using DL4J (cuda)](https://img.shields.io/docker/pulls/neomatrix369/dl4j-nlp-cuda.svg)](https://hub.docker.com/r/neomatrix369/dl4j-nlp-cuda)
@@ -19,7 +38,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 **Also, please [SPONSOR us, find out how-to](https://github.com/sponsors/neomatrix369)!**
 
-## Programming Languages
+## Legacy content (full index)
 
 ### Python
 - [Python for AI/ML/DL](./python/README.md) - Comprehensive Python guide for AI/ML/DL

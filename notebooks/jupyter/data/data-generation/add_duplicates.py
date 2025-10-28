@@ -10,7 +10,7 @@ target_file = sys.argv[3]
 def duplicate_rows(source_dataframe, num_of_rows=50, random_seed=42):
     maximum_rows = source_dataframe.shape[0]
     random.seed(random_seed)
-    
+
     random_indices = [random.randrange(0, maximum_rows) for a_random_value in range(num_of_rows)]
     random_rows = source_dataframe.iloc[random_indices].copy()
 

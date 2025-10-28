@@ -41,7 +41,7 @@ runBuildsParallel() {
             --use-cpus-instead-of-cores \
             --tmpdir tmp \
             -- {} {} ./grakn-runner.sh --buildDockerImage
-    set +x 
+    set +x
 }
 
 runBuildsSerial() {

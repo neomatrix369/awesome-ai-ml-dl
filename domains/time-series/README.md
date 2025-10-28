@@ -1,6 +1,30 @@
+# ⏱️ Time Series & Anomaly Detection
+> Forecasting, anomaly detection, and temporal modeling.
+
+![Domain](https://img.shields.io/badge/Domain-Time%20Series-blue) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+Navigation: [Home](../../README.md) · [Domains](../README.md) · 📚 [Data](../../data/README.md) · 🧪 [Notebooks](../../notebooks/README.md) · 🛠️ [Tools](../../tools/README.md) · 🤖 [Agents](../../ai-agents/README.md) · 🧠 [NLP](../../natural-language-processing/README.md)
+
+## At a glance
+- **Models**: ARIMA/SARIMA, Prophet, RNNs/Transformers
+- **Tasks**: Forecasting, anomaly detection, classification
+- **Libraries**: sktime, GluonTS, PyCaret TS, NeuralForecast
+
+## Start here
+- Overview: [./time-series.md](./time-series.md#introductory)
+- Notebooks: [./time-series.md#notebooks](./time-series.md#notebooks)
+
+## Deep dive
+- Methods and guides: [./time-series.md#methods-armaarimasarima-and-others](./time-series.md#methods-armaarimasarima-and-others)
+- Tools index: [#tools-libraries-frameworks](#tools-libraries-frameworks)
+
+[↑ Back to top](#-time-series--anomaly-detection) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+
+---
+
 ## Time-series / anomaly detection
 
-[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+[Back to main](../../README.md) | [Details](../../README-details.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
 
 Curated links and notes for time-series analysis and anomaly detection: methods, libraries, notebooks, and applied resources for forecasting and pattern discovery.
 
@@ -80,9 +104,9 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
 
 - [STUMPY is a powerful and scalable library that efficiently computes something called the matrix profile, which can be used for a variety of time series data mining tasks](https://stumpy.readthedocs.io/en/latest/)
 - [Introduction to Matrix Profiles](https://towardsdatascience.com/introduction-to-matrix-profiles-5568f3375d90)
-- Time Series data mining using the Matrix Profile: 
-[1](https://www.cs.ucr.edu/~eamonn/MatrixProfile.html) | 
-[2](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf) | 
+- Time Series data mining using the Matrix Profile:
+[1](https://www.cs.ucr.edu/~eamonn/MatrixProfile.html) |
+[2](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part1.pdf) |
 [3](https://www.cs.ucr.edu/~eamonn/Matrix_Profile_Tutorial_Part2.pdf)
 - [A lot of detailed tutorials about using Stumpy for the matrix profile](https://medium.com/@seanmylaw/stumpy-fdb9f8f1f261)
 - [Greykite lib by LinkedIN: forecasting library](https://www.kaggle.com/misalraj/greykite-a-library-for-time-series-forecasting)
@@ -102,7 +126,7 @@ See [Notebooks under more time-series resources](./time-series.md#notebooks)
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
 
-Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../LICENSE.md) policy.
+Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also have a read about our [licensing](../../LICENSE.md) policy.
 
 ---
 

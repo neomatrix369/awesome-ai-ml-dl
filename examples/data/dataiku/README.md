@@ -8,7 +8,7 @@ Find out more about [Dataiku DSS](http://dataiku.com) from the [Data](../../../d
 
 On start up, useful details including time to startup Dataiku DSS and duration for which it runs are printed.
 
-Also, experimental usage of GraalVM, to take advantages of the performance benefits of this JVM. 
+Also, experimental usage of GraalVM, to take advantages of the performance benefits of this JVM.
 
 ## Goals
 
@@ -57,7 +57,7 @@ or run by switching off JVMCI flag (default: on)
 $ JAVA_OPTS="-XX:-UseJVMCINativeLibrary" ./runDssInDocker.sh
 ```
 
-See [successful run console](successful-run-console.md) - includes both outputs from the traditional JDK8 and GraalVM executions. 
+See [successful run console](successful-run-console.md) - includes both outputs from the traditional JDK8 and GraalVM executions.
 In debug mode, the docker container prompt is returned, the Dataiku DSS instances are not executed.
 
 **Build the Dss docker container:**

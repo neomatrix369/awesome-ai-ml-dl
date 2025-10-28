@@ -37,11 +37,11 @@ runContainer() {
 	JDK_TO_USE=${1:-}
 	JDK_TO_USE_STRING=${2:-}
 	JAVA_OPTS=${3:-""}
-	
+
 	echo ""; echo "~~~ Running Grakn in a Docker container using the ${JDK_TO_USE_STRING}"; echo ""
 
-	GRAKN_CONTAINER_ID=$(cd .. &&  
-		GRAKN_VERSION=${GRAKN_VERSION} GRAALVM_VERSION=${GRAALVM_VERSION} 
+	GRAKN_CONTAINER_ID=$(cd .. &&
+		GRAKN_VERSION=${GRAKN_VERSION} GRAALVM_VERSION=${GRAALVM_VERSION}
 		     ./grakn-runner.sh --jdk "${JDK_TO_USE}" --javaopts "${JAVA_OPTS}" --detach --runContainer)
 	GRAKN_CONTAINER_ID=$(echo ${GRAKN_CONTAINER_ID} | tr -d '\n')
 	GRAKN_CONTAINER_ID=${GRAKN_CONTAINER_ID:0:7}

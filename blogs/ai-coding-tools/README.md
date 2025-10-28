@@ -24,7 +24,7 @@ This series covers everything you need to know about setting up and using MCP se
 
 A comprehensive guide to setting up Model Context Protocol (MCP) servers across different Claude environments. Learn step-by-step configuration for Claude Desktop, Claude Code, and Cursor, with troubleshooting tips and best practices.
 
-**Topics:** MCP Setup, Claude Desktop, Claude Code, Cursor, Configuration  
+**Topics:** MCP Setup, Claude Desktop, Claude Code, Cursor, Configuration
 **Reading Time:** ~20 minutes
 
 ---
@@ -35,7 +35,7 @@ A comprehensive guide to setting up Model Context Protocol (MCP) servers across 
 
 Quick reference guide for Claude commands, shortcuts, and best practices. Essential for anyone using Claude Desktop, Claude Code, or Cursor to maximize productivity.
 
-**Topics:** Commands, Shortcuts, Prompt Patterns, Workflows  
+**Topics:** Commands, Shortcuts, Prompt Patterns, Workflows
 **Reading Time:** ~10 minutes
 
 ---
@@ -46,7 +46,7 @@ Quick reference guide for Claude commands, shortcuts, and best practices. Essent
 
 Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, and Cursor. Features detailed comparison tables, decision matrices, and migration guides.
 
-**Topics:** Platform Comparison, Feature Matrix, Migration, Use Cases  
+**Topics:** Platform Comparison, Feature Matrix, Migration, Use Cases
 **Reading Time:** ~15 minutes
 
 [Resource References](./complete-mcp-server-setup-guide/resources-and-references.md)
@@ -86,11 +86,10 @@ Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, 
 
 - **No Professional Advice:** Nothing in this repository constitutes professional, legal, or technical advice. Users should consult with qualified professionals for specific guidance related to their use cases.
 
-- **Community Contributions:** This is a community-driven project. Content may be contributed by various individuals. If you find errors, outdated information, or have suggestions for improvements, please see our [Contributing Guidelines](../CONTRIBUTING.md).
+- **Community Contributions:** This is a community-driven project. Content may be contributed by various individuals. If you find errors, outdated information, or have suggestions for improvements, please see our [Contributing Guidelines](../../CONTRIBUTING.md).
 
 **Use at Your Own Risk:** By using this repository, you acknowledge and accept these disclaimers and agree to use the information and resources at your own discretion and risk.
 
 ---
 
-[↑ Back to top](#ai-coding-tools-blog-posts) · [← Back home](../../README.md) · [← Back to blogs](../README.md)
-
+[↑ Back to top](#ai-coding-tools-blog-posts) · [← Back home](../../README.md)

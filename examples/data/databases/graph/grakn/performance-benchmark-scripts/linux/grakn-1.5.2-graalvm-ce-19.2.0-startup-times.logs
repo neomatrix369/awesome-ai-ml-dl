@@ -103,7 +103,7 @@ Copyright (C) 2019 Grakn Labs Limited
 real	0m7.932s
 user	0m1.517s
 sys	0m0.239s
-[35mgrakn[0m> 
+[35mgrakn[0m>
 GRAALVM: Shutting down Grakn in the container (id = c0e0fb7)
 GRAALVM: Grakn in the container (id = c0e0fb7) has been shutdown.
 
@@ -161,7 +161,7 @@ Copyright (C) 2019 Grakn Labs Limited
 real	0m8.249s
 user	0m1.582s
 sys	0m0.186s
-[35mgrakn[0m> 
+[35mgrakn[0m>
 GRAALVM: Shutting down Grakn in the container (id = 552be75)
 GRAALVM: Grakn in the container (id = 552be75) has been shutdown.
 

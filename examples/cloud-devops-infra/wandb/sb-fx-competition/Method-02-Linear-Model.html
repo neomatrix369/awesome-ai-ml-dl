@@ -9129,15 +9129,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12519,7 +12519,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13018,7 +13018,7 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
+
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -13072,14 +13072,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -13306,7 +13306,7 @@ wandb: Appending key for api.wandb.ai to your netrc file: /Users/swami/.netrc
                 Logging results to <a href="https://wandb.com" target="_blank">Weights & Biases</a> <a href="https://docs.wandb.com/integrations/jupyter.html" target="_blank">(Documentation)</a>.<br/>
                 Project page: <a href="https://app.wandb.ai/sadhak001/sb-fx-comp" target="_blank">https://app.wandb.ai/sadhak001/sb-fx-comp</a><br/>
                 Run page: <a href="https://app.wandb.ai/sadhak001/sb-fx-comp/runs/yyuwp9wa" target="_blank">https://app.wandb.ai/sadhak001/sb-fx-comp/runs/yyuwp9wa</a><br/>
-            
+
 </div>
 
 </div>
@@ -13647,8 +13647,8 @@ There are 1000 rows and 228 columns in ../data/test.csv
     <span class="n">n_selected_features</span><span class="p">,</span> <span class="n">reduction_in_features</span><span class="p">,</span> <span class="n">wandb</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">FEATURE_IMPORTANCE_CUTOFF</span><span class="p">)</span>
 <span class="p">)</span>
 
-<span class="n">wandb</span><span class="o">.</span><span class="n">log</span><span class="p">({</span><span class="s2">&quot;features with importance&quot;</span><span class="p">:</span> <span class="n">n_selected_features</span><span class="p">,</span> 
-           <span class="s2">&quot;reduction in features&quot;</span><span class="p">:</span> <span class="n">reduction_in_features</span><span class="p">,</span> 
+<span class="n">wandb</span><span class="o">.</span><span class="n">log</span><span class="p">({</span><span class="s2">&quot;features with importance&quot;</span><span class="p">:</span> <span class="n">n_selected_features</span><span class="p">,</span>
+           <span class="s2">&quot;reduction in features&quot;</span><span class="p">:</span> <span class="n">reduction_in_features</span><span class="p">,</span>
            <span class="s2">&quot;total features&quot;</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">feature_column_names</span><span class="p">)})</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s1">&#39;font.size&#39;</span><span class="p">:</span> <span class="mi">22</span><span class="p">})</span>
@@ -14039,7 +14039,7 @@ There are 1000 rows and 228 columns in ../data/test.csv
 
 <span class="k">def</span> <span class="nf">save_model_and_submission</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">dataframe</span><span class="p">,</span> <span class="n">folder</span><span class="p">,</span> <span class="n">method</span><span class="p">):</span>
     <span class="n">saved_filename</span> <span class="o">=</span> <span class="n">utility_library</span><span class="o">.</span><span class="n">save_submission</span><span class="p">(</span><span class="n">dataframe</span><span class="p">,</span> <span class="n">folder</span><span class="p">,</span> <span class="n">method</span><span class="p">)</span>
-    
+
     <span class="n">model_filename</span><span class="p">,</span> <span class="n">ext</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">saved_filename</span><span class="p">)</span>
     <span class="n">model_filename</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">model_filename</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;.pkl&quot;</span>
 
@@ -14082,10 +14082,10 @@ There are 1000 rows and 228 columns in ../data/test.csv
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Saved submission file to ../data/submission-method-02-96e757e-6ff2ae4.csv
-~~~ Saving artifacts to disk 
+~~~ Saving artifacts to disk
 Saved model to file ../data/submission-method-02-96e757e-6ff2ae4.pkl
 Saved submission file to /Users/swami/git-repos/hands-on-workshops/Softbank-FX-competition/stage4/wandb/run-20200107_164322-yyuwp9wa/submission-method-02-96e757e-6ff2ae4.csv
-~~~ Saving artifacts to disk 
+~~~ Saving artifacts to disk
 Saved model to file /Users/swami/git-repos/hands-on-workshops/Softbank-FX-competition/stage4/wandb/run-20200107_164322-yyuwp9wa/submission-method-02-96e757e-6ff2ae4.pkl
 ~~~ Saving artifacts into W&amp;B folder for further upload
 </pre>
@@ -14149,7 +14149,7 @@ Saved model to file /Users/swami/git-repos/hands-on-workshops/Softbank-FX-compet
   </div>
 </body>
 
- 
+
 
 
 </html>

@@ -46,7 +46,7 @@ runContainer() {
 	echo "";
   if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
     if [[ "$(uname)" = "Linux" ]]; then
-       echo "Linux: Unfortunately mounting and writing to local volumes is currently not available - should be fixed soon. This should work on the MacOS." 
+       echo "Linux: Unfortunately mounting and writing to local volumes is currently not available - should be fixed soon. This should work on the MacOS."
     fi
 
 	   echo "Running container ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}"; echo ""
@@ -80,9 +80,9 @@ runContainer() {
 
 buildDockerImage() {
 	askDockerUserNameIfAbsent
-	
+
 	echo "Building image ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}"
- 
+
   ### Grakn installation
   GRAKN_ARTIFACT_NAME_WITH_EXT=${GRAKN_ARTIFACT_FILENAME}.zip
   GRAKN_UNPACK_COMMAND="unzip ${GRAKN_ARTIFACT_NAME_WITH_EXT}"
@@ -99,7 +99,7 @@ buildDockerImage() {
     TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
     GRAALVM_ARTIFACT_FILENAME=graalvm-ce-${GRAALVM_JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}
     GRAALVM_ARTIFACT_GITHUB_REPO=graalvm/graalvm-ce-builds
-  else 
+  else
     echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
     TARGET_GRAALVM_HOME=graalvm-ce-${GRAALVM_VERSION}
     GRAALVM_ARTIFACT_FILENAME=graalvm-ce-linux-amd64-${GRAALVM_VERSION}
@@ -114,8 +114,8 @@ buildDockerImage() {
   if [[ -z "$(findImage ${FULL_DOCKER_REPO_NAME} ${IMAGE_VERSION})" ]]; then
      echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' not found in the local repository, attempting to pull from Docker Hub"
      time docker pull ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} || true
-  else 
-    echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' found in the local repository"  
+  else
+    echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' found in the local repository"
   fi
 	time docker build                                                                             \
                -t ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION}                                     \
@@ -135,7 +135,7 @@ buildDockerImage() {
 	echo "* Finished building docker image ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} from Docker Hub"
 	if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} (GRAALVM_JDK_VERSION=${GRAALVM_JDK_VERSION}) GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
-  else 
+  else
      echo "GRAALVM_VERSION=${GRAALVM_VERSION} GRAKN_VERSION=${GRAKN_VERSION}"; echo ""
   fi
 
@@ -148,9 +148,9 @@ pushImageToHub() {
   IMAGE_FOUND="$(findImage ${FULL_DOCKER_REPO_NAME} ${IMAGE_VERSION})"
   IS_FOUND="found"
   if [[ -z "${IMAGE_FOUND}" ]]; then
-      IS_FOUND="not found"        
+      IS_FOUND="not found"
       echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' is ${IS_FOUND} in the local repository"
-      exit 
+      exit
   fi
 
   echo "Docker image '${DOCKER_USER_NAME}/${IMAGE_NAME}:${IMAGE_VERSION}' is ${IS_FOUND} in the local repository"
@@ -190,7 +190,7 @@ showUsageText() {
                              (mandatory with build, run and push commands)
        --detach              run container and detach from it,
                              return control to console
-       --debug               run docker container in interactive mode 
+       --debug               run docker container in interactive mode
                              (gives command-prompt to run commands inside the container)
        --run-perf-scripts    run performance script in interactive mode (can take a long time)
        --run-grakn-only      run the Grakn docker container in interacive mode
@@ -204,7 +204,7 @@ showUsageText() {
                              dangling images from the local repository
        --buildDockerImage    (command action) build the docker image
        --runContainer        (command action) run the docker image as a docker container,
-                             container will run without this command with selected and 
+                             container will run without this command with selected and
                              default params, in most cases
        --pushImageToHub      (command action) push the docker image built to Docker Hub
        --help                shows the script usage help text
@@ -217,7 +217,7 @@ HEREDOC
 askDockerUserNameIfAbsent() {
 	if [[ -z ${DOCKER_USER_NAME:-""} ]]; then
 	  read -p "Enter Docker username (must exist on Docker Hub): " DOCKER_USER_NAME
-	fi	
+	fi
 }
 
 #### Start of script
@@ -258,7 +258,7 @@ GRAKN_HOME="${WORKDIR}/${GRAKN_CORE_LINUX}-${GRAKN_VERSION}"
 
 ############################################ we are defaulting to GraalVM
 
-JDK_TO_USE="GRAALVM"  
+JDK_TO_USE="GRAALVM"
 GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_VERSION}"
 if [[ "$(isVersionGreaterThanOrEqualTo "${GRAALVM_VERSION}" "19.3.0")" = "true" ]]; then
   GRAALVM_HOME="/usr/local/graalvm-ce-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}"
@@ -299,7 +299,7 @@ RUN_GRAKN_ONLY=false
 if [[ "$#" -eq 0 ]]; then
   if [[ "${INTERACTIVE_MODE}" != "--detach" ]]; then
      echo "No parameter has been passed. Running Grakn docker container with selected and default params."
-  fi  
+  fi
 	runContainer
   exit 0
 fi
@@ -308,7 +308,7 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --help)                showUsageText;
                          exit 0;;
   --cleanup)             cleanup;
-                         exit 0;; 
+                         exit 0;;
   --dockerUserName)      DOCKER_USER_NAME="${2:-}";
                          shift;;
   --port)                HOST_PORT="${2:-${HOST_PORT}}";
@@ -319,7 +319,7 @@ while [[ "$#" -gt 0 ]]; do case $1 in
   --run-perf-scripts)    TOGGLE_ENTRYPOINT="--entrypoint ${WORKDIR}/runPerformanceBenchmark.sh";
                          echo "Running performance scripts inside the container when it starts off"
                          ;;
-  --run-grakn-only)      RUN_GRAKN_ONLY=true; 
+  --run-grakn-only)      RUN_GRAKN_ONLY=true;
                          echo "Running Grakn server only (not running Graql) when container starts."
                          ;;
   --detach)              INTERACTIVE_MODE="--detach";
@@ -331,7 +331,7 @@ while [[ "$#" -gt 0 ]]; do case $1 in
                             GRAKN_DAEMON_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${GRAKN_DAEMON_JAVAOPTS:-}" | xargs)
                             STORAGE_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${STORAGE_JAVAOPTS:-}" | xargs)
                             SERVER_JAVAOPTS=$(echo "${COMMON_JAVAOPTS} ${SERVER_JAVAOPTS:-}"  | xargs)
-            						 fi 
+            						 fi
                          shift;;
   --javaopts)            JAVA_OPTS="${2:-}";
                          shift;;

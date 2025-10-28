@@ -39,12 +39,12 @@ do
 			do
 				set -x
 				IMAGE_VERSION=${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_JDK_VERSION}-${GRAALVM_VERSION}
-				docker pull ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} || true				     
+				docker pull ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} || true
 				set +x
 			done
 		else
 			set -x
-			IMAGE_VERSION=${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}   ### Using this field as Tag name of the image (using Docker terms)			
+			IMAGE_VERSION=${GRAKN_VERSION}-GRAALVM-CE-${GRAALVM_VERSION}   ### Using this field as Tag name of the image (using Docker terms)
 			docker pull ${FULL_DOCKER_REPO_NAME}:${IMAGE_VERSION} || true
 			set +x
         fi

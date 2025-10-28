@@ -2,6 +2,8 @@
 
 > 🗂️ Explore topic-focused hubs (agents, NLP, CV, LLMs, time-series, and more).
 
+![Section](https://img.shields.io/badge/Section-Domains-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
+
 Navigation: [Home](../README.md) · 🧠 [NLP](../natural-language-processing/README.md) · 🤖 [Agents](../ai-agents/README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md)
 
 ## At a glance
@@ -9,6 +11,11 @@ Navigation: [Home](../README.md) · 🧠 [NLP](../natural-language-processing/RE
 - Curated links, quickstarts, and deep dives
 
 ## Start here
-- Create `domains/ai-agents/` and `domains/nlp/` landing pages linking to existing content
+- 🤖 [AI Agents](./ai-agents/README.md) — links to `ai-agents/`
+- 🧠 [Natural Language Processing (NLP)](./nlp/README.md) — links to `natural-language-processing/`
+- 🖼️ [Computer Vision (CV)](./computer-vision/README.md)
+- 🏗️ [Large Language Models (LLMs)](./large-language-models/README.md)
+- ✨ [Generative AI](./generative-ai/README.md)
+- 🚀 [MLOps & Deployment](./mlops-deployment/README.md)
 
 [↑ Back to top](#domains) · [← Back home](../README.md)

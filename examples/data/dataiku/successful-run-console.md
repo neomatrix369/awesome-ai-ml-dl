@@ -61,7 +61,7 @@ real  0m19.550s
 user  0m13.247s
 sys 0m2.576s
 
-``` 
+```
 
 ## Polyglot JDK (GraalVM) - JVMCI enabled
 
@@ -90,6 +90,6 @@ real  0m20.247s
 user  0m13.752s
 sys 0m2.624s
 
-``` 
+```
 
 [Back to Dakaiku DSS Main Page](./README.md#dataiku-data-science-studio-dss)

@@ -12,7 +12,7 @@ print('Iterating through schema queries')
 comparison_results = []
 for each_query in main_queries_in_english:
     print(f'Question/command: {each_query}')
-    
+
 for each_similarity in main_queries_in_english[each_query]:
     ratio = fuzz.ratio(each_query, each_similarity)
 

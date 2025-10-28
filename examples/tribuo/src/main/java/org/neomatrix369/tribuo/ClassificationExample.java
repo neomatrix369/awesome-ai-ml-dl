@@ -11,7 +11,7 @@ import com.fasterxml.jackson.databind.*;
 import com.oracle.labs.mlrg.olcut.provenance.ProvenanceUtil;
 import com.oracle.labs.mlrg.olcut.config.json.*;
 
-public class ClassificationExample 
+public class ClassificationExample
 {
     public void run() throws Exception
     {
@@ -36,7 +36,7 @@ public class ClassificationExample
 
 		System.out.println("~~~ Training the model ~~~");
 		Trainer<Label> trainer = new LogisticRegressionTrainer();
-		System.out.println(trainer.toString());		
+		System.out.println(trainer.toString());
 
 		Model<Label> irisModel = trainer.train(trainingDataset);
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");

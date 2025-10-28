@@ -26,7 +26,7 @@
 ## Clean / ready-to-use datasets
 
 - [Boston Housing Dataset (archive contains clean dataset)](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/tag/v0.1) | [Download](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/boston_housing_dataset.zip)
-- Google Dataset Search: 
+- Google Dataset Search:
   - https://toolbox.google.com/datasetsearch
   - https://blog.google/products/search/discovering-millions-datasets-web
   - https://datasetsearch.research.google.com
@@ -37,7 +37,7 @@
   - [Air Quality Data in India Extended](https://www.kaggle.com/neomatrix369/air-quality-data-in-india-extended)
   - [Google Play Store Apps Extended](https://www.kaggle.com/neomatrix369/google-play-store-apps-extended)
   - [Liverpool Ion Switching competition: 54 features datasets](https://www.kaggle.com/neomatrix369/54-features-datasets-clean-drift-noise-free)
-  - [Liverpool Ion Switching competition: Clean datasets (drift & noise removed)](https://www.kaggle.com/neomatrix369/clean-datasets-drift-noise-removed) 
+  - [Liverpool Ion Switching competition: Clean datasets (drift & noise removed)](https://www.kaggle.com/neomatrix369/clean-datasets-drift-noise-removed)
 - [Carnegie Mellon University Datasets](http://lib.stat.cmu.edu/datasets/)
 - [GeoPlatform Data.gov Search ](https://data.geoplatform.gov/)
 - [Data.gov - Data Catalog](https://catalog.data.gov/dataset)

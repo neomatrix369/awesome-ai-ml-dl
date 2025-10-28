@@ -24,7 +24,7 @@ Also, available experimental usage of GraalVM, to take advantages of the perform
   - [Graql-to-English](#graql-to-english)
 - [Resources](#resources)
 
---- 
+---
 
 ## Goals
 
@@ -56,7 +56,7 @@ Ensure your environment has the below variable set, or set it in your `.bashrc` 
 ```bash
 export DOCKER_USER_NAME="your_docker_username"
 ```
-You must have an account on Docker hub under the above user name. 
+You must have an account on Docker hub under the above user name.
 
 ### Running Grakn docker container
 
@@ -105,7 +105,7 @@ See [Graql-to-English](./graql/Graql-to-English.md)
 - [Blogs](https://blog.grakn.ai/) - also published on [Medium.com](https://medium.com)
 - Graql example schemas/data
   - Friendship: [schema](https://dev.grakn.ai/docs/general/quickstart#the-schema) | [data](https://dev.grakn.ai/docs/general/quickstart#download-and-load-the-complete-schema)
-  - [Explore Schemas](https://github.com/graknlabs/examples#explore-schemas) 
+  - [Explore Schemas](https://github.com/graknlabs/examples#explore-schemas)
 - Community
   - [DiscordApp](https://discordapp.com/invite/graknlabs) | ~[Slack](https://grakn.ai/slack)~
   - [Discuss](https://discuss.grakn.ai/)

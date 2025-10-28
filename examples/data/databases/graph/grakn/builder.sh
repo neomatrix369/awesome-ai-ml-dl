@@ -27,18 +27,18 @@ showUsageText() {
 
        Usage: $0 --grakn-home   [/path/to/grak/home]
                  --jarfile      [/path/to/JAR file]
-                 --buildUberJar                 
-                 --extract   
-                 --build     
+                 --buildUberJar
+                 --extract
+                 --build
                  --test         [/path/to/native-image file]
                  --help
 
-       --grakn-home        [/path/to/grak/home]          where the grakn scripts, jar file and 
+       --grakn-home        [/path/to/grak/home]          where the grakn scripts, jar file and
                                                          other executables can be found
        --jarfile           [/path/to/JAR file]           path to jar file inside Grakn Home or elsewhere
-       --buildUberJar                                    (command) build the Uber jar before building 
+       --buildUberJar                                    (command) build the Uber jar before building
                                                          the native image
-       --extract                                         (command) extract the Jar file configuration 
+       --extract                                         (command) extract the Jar file configuration
                                                          information and save into the META-INF folder
        --buildNativeImage                                (command) build the native image from the Jar
                                                          file provided
@@ -56,7 +56,7 @@ GRAKN_VERSION=${GRAKN_VERSION:-$(cat grakn_version.txt)}
 
 checkForJarFileParam() {
 	if [[ -z "${PATH_TO_GRAKN_HOME:-}" ]]; then
-		echo "Path to Grakn home not provided as argument to script, please see usage text below."		
+		echo "Path to Grakn home not provided as argument to script, please see usage text below."
 		showUsageText
 		exit -1
 	fi
@@ -107,7 +107,7 @@ buildUberJar() {
 	git fetch --all --tags
 
 	echo "Switching to tag ${GRAKN_VERSION} to be able to apply the batch (to build uberjar via bazel)"
-	git checkout ${GRAKN_VERSION} 
+	git checkout ${GRAKN_VERSION}
 	git checkout -b v${GRAKN_VERSION}-branch
 
 	git config --local user.name "Mani Sarkar"
@@ -120,7 +120,7 @@ buildUberJar() {
 extractMetaInfo() {
 	mkdir -p "${PATH_TO_GRAKN_HOME}/META-INF/native-image"
 	nativeImageMetaInfFolder="${PATH_TO_GRAKN_HOME}/META-INF/native-image"
-	
+
 	JARFILE_FULL_PATH=""
 	if [[ -z "${JARFILE:-}" ]]; then
 		echo ""; echo "~~~~ Running server jar (from Grakn Home: ${PATH_TO_GRAKN_HOME}) using the tracing agent to gather the necessary configuration info for building native-image"
@@ -128,12 +128,12 @@ extractMetaInfo() {
 		JARFILE_FULL_PATH=${PATH_TO_GRAKN_HOME}/server/services/lib/${JARFILE}
 		echo ""; echo "~~~~ Running ${JARFILE} using the tracing agent to gather the necessary configuration info for building native-image"
 	fi
-	
+
 	cp grakn-jar-runner.sh ${PATH_TO_GRAKN_HOME}
-	(cd ${PATH_TO_GRAKN_HOME} && 
+	(cd ${PATH_TO_GRAKN_HOME} &&
 		nohup ./grakn-jar-runner.sh server start&)
 	sleep 70
-	(cd ${PATH_TO_GRAKN_HOME} && 
+	(cd ${PATH_TO_GRAKN_HOME} &&
 		./grakn-jar-runner.sh server stop || true)
 
 	if [[ -z "${JARFILE:-}" ]]; then
@@ -153,7 +153,7 @@ buildNativeImage() {
 	NATIVE_IMAGE_BUILD_LOGS="${PATH_TO_GRAKN_HOME:-$(pwd)}/native-image-build-for-${IMAGE_NAME}.logs"
 	echo ""; echo "You can follow the build process by doing this:"
 	echo "       $ tail -f ${NATIVE_IMAGE_BUILD_LOGS}"
-	echo "native-image version $(native-image --version)" 
+	echo "native-image version $(native-image --version)"
 	set -x
 	time native-image ${OPTIONS} -jar ${JARFILE} ${PATH_TO_GRAKN_HOME}/${IMAGE_NAME} &> "${NATIVE_IMAGE_BUILD_LOGS}"
 	set +x
@@ -163,7 +163,7 @@ buildNativeImage() {
 testNativeImage() {
 	echo ""
 	echo "~~~~ Testing built binary ${IMAGE_NAME} in ${PATH_TO_GRAKN_HOME}"
-	${PATH_TO_GRAKN_HOME}/${IMAGE_NAME} 
+	${PATH_TO_GRAKN_HOME}/${IMAGE_NAME}
 	echo "~~~~ Finished testing built binary ${IMAGE_NAME} in ${PATH_TO_GRAKN_HOME}"
 }
 

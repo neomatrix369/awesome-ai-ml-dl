@@ -35,7 +35,7 @@ if [[ "${DEBUG:-}" = "true" ]]; then
 	        	-p 8888:8888                \
 	        	--workdir /${WORKDIR}       \
 	        	--entrypoint /bin/bash      \
-	        	${BETTER_NLP_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}	
+	        	${BETTER_NLP_DOCKER_FULL_TAG_NAME}:${IMAGE_VERSION}
 else
 	time docker run --rm                        \
 		            --interactive --tty         \

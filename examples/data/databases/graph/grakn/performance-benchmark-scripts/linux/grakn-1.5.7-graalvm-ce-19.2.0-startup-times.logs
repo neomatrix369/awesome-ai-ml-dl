@@ -161,7 +161,7 @@ Copyright (C) 2019 Grakn Labs Limited
 real	0m7.943s
 user	0m1.500s
 sys	0m0.188s
-[35mgrakn[0m> 
+[35mgrakn[0m>
 GRAALVM: Shutting down Grakn in the container (id = 445955c)
 GRAALVM: Grakn in the container (id = 445955c) has been shutdown.
 

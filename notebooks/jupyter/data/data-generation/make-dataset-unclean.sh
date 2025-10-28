@@ -35,7 +35,7 @@ tax
 ptratio
 b
 lstat
-medv 
+medv
 EOF
 echo "Column header was missing, created now."
 fi
@@ -56,7 +56,7 @@ if [[ -s "housing.csv" ]]; then
 	time python3 add_duplicates.py column.header housing-unclean.csv housing-duplicates.csv
 	rm housing-unclean.csv
 	mv housing-duplicates.csv housing-unclean.csv
-	echo "housing-unclean.csv - now contains duplicates"	
+	echo "housing-unclean.csv - now contains duplicates"
 else
 	echo "Unable to load housing.csv, possibly a download failure."
 fi
