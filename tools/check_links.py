@@ -4,7 +4,7 @@ import re
 import sys
 from typing import List, Tuple
 
-LINK_PATTERN = re.compile(r'(!)?\[[^\]]+\]\(([^)]+)\)')
+LINK_PATTERN = re.compile(r'(!)?\[[^\]]+\]\(')  # we'll parse the target manually to support nested parentheses
 
 IGNORE_SCHEMES = (
     'http://', 'https://', 'mailto:', 'tel:', 'ftp://', 'data:', 'news:', 'irc:', 'ssh:'
@@ -14,7 +14,13 @@ IGNORE_SCHEMES = (
 def is_local_target(target: str) -> bool:
     if target.startswith(IGNORE_SCHEMES):
         return False
+    if '://' in target:
+        return False
     if target.startswith('#'):
+        return False
+    # Heuristic: treat bare domains (e.g., pytorchlightning.ai/path) as external
+    first_segment = target.split('/', 1)[0]
+    if '.' in first_segment and all(part for part in first_segment.split('.')):
         return False
     return True
 
@@ -39,14 +45,53 @@ def exists_as_file_or_dir_with_readme(abs_path: str) -> bool:
     return os.path.isfile(readme2)
 
 
+def _extract_links(line: str) -> List[Tuple[bool, str]]:
+    links: List[Tuple[bool, str]] = []
+    idx = 0
+    while True:
+        m = LINK_PATTERN.search(line, idx)
+        if not m:
+            break
+        is_image = (m.group(1) == '!')
+        # find start of target after the opening parenthesis
+        start = m.end()
+        if start >= len(line) or line[start] != '(':  # safety, though pattern ensures '('
+            idx = m.end()
+            continue
+        depth = 0
+        j = start
+        # parse until matching closing ')', accounting for nested parentheses
+        while j < len(line):
+            ch = line[j]
+            if ch == '(':
+                depth += 1
+            elif ch == ')':
+                if depth == 0:
+                    break
+                depth -= 1
+            j += 1
+        if j < len(line) and line[j] == ')':
+            target = line[start + 1:j].strip()
+            links.append((is_image, target))
+            idx = j + 1
+        else:
+            # unmatched, stop
+            break
+    return links
+
+
 def check_file(md_file: str) -> List[Tuple[int, str]]:
     broken: List[Tuple[int, str]] = []
     try:
         with open(md_file, 'r', encoding='utf-8') as f:
+            in_code_block = False
             for lineno, line in enumerate(f, start=1):
-                for m in LINK_PATTERN.finditer(line):
-                    is_image = m.group(1) == '!'
-                    target = m.group(2).strip()
+                # toggle code fence blocks
+                if line.lstrip().startswith('```'):
+                    in_code_block = not in_code_block
+                if in_code_block:
+                    continue
+                for is_image, target in _extract_links(line):
                     if is_image:
                         continue
                     if not is_local_target(target):
