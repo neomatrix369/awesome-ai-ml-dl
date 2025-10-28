@@ -1,3 +1,27 @@
+# ⏱️ Time Series & Anomaly Detection
+> Forecasting, anomaly detection, and temporal modeling.
+
+![Domain](https://img.shields.io/badge/Domain-Time%20Series-blue) ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+Navigation: [Home](../../README.md) · [Domains](../README.md) · 📚 [Data](../../data/README.md) · 🧪 [Notebooks](../../notebooks/README.md) · 🛠️ [Tools](../../tools/README.md) · 🤖 [Agents](../../ai-agents/README.md) · 🧠 [NLP](../../natural-language-processing/README.md)
+
+## At a glance
+- **Models**: ARIMA/SARIMA, Prophet, RNNs/Transformers
+- **Tasks**: Forecasting, anomaly detection, classification
+- **Libraries**: sktime, GluonTS, PyCaret TS, NeuralForecast
+
+## Start here
+- Overview: [./time-series.md](./time-series.md#introductory)
+- Notebooks: [./time-series.md#notebooks](./time-series.md#notebooks)
+
+## Deep dive
+- Methods and guides: [./time-series.md#methods-armaarimasarima-and-others](./time-series.md#methods-armaarimasarima-and-others)
+- Tools index: [#tools-libraries-frameworks](#tools-libraries-frameworks)
+
+[↑ Back to top](#-time-series--anomaly-detection) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+
+---
+
 ## Time-series / anomaly detection
 
 [Back to main](../../README.md) | [Details](../../README-details.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
