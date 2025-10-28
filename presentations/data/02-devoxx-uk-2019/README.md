@@ -51,4 +51,4 @@ And using different kinds of plots relevant at different stages.
 
 ---
 
-[↑ Back to top](#do-we-know-our-data-as-good-as-we-know-our-tools) · [← Back home](../../../README.md)
+[↑ Back to top](#-do-we-know-our-data-as-good-as-we-know-our-tools) · [← Back home](../../../README.md)

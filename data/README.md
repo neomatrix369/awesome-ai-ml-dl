@@ -6,6 +6,8 @@
 
 Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 📚 [Data](./README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · ☁️ [Cloud](../infrastructure/cloud-devops-infra/README.md) · 🧠 [NLP](../natural-language-processing/README.md) · [Presentations](../presentations/README.md)
 
+![banner](../assets/banners/data-hero.png)
+
 ## Related
 - [Notebooks](../notebooks/README.md)
 - [Tools](../tools/README.md)

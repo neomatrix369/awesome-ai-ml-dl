@@ -8,6 +8,8 @@ A hub for notebooks and kernels across topics: examples, Kaggle links, RAPIDS, D
 
 Navigation: [Home](../README.md) · [Details](../README-details.md#general) · [Data](../data/README.md) · [Presentations](../presentations/README.md) · [Tools](../tools/README.md)
 
+![banner](../assets/banners/notebooks-hero.png)
+
 ## Related
 - [Data](../data/README.md)
 - [Presentations](../presentations/README.md)

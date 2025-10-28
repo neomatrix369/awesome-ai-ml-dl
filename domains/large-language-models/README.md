@@ -25,4 +25,4 @@ Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.m
 ## Related
 - ✨ GenAI · 🤖 Agents · 🧠 NLP · ☁️ Infrastructure
 
-[↑ Back to top](#-large-language-models-llms) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+[↑ Back to top](#🏗️-large-language-models-llms) · [← Back to domains](../README.md) · [← Back home](../../README.md)

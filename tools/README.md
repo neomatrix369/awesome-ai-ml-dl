@@ -4,6 +4,8 @@
 
 Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 🛠️ [Tools](./README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🤖 [Agents](../ai-agents/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
 
+![banner](../assets/banners/tools-hero.png)
+
 ## Related
 - [Data](../data/README.md)
 - [Notebooks](../notebooks/README.md)
@@ -147,4 +149,4 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 
 ---
 
-[↑ Back to top](#tools--technologies-for-aimldl) · [← Back home](../README.md)
+[↑ Back to top](#tools-technologies-for-aimldl) · [← Back home](../README.md)

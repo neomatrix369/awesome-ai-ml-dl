@@ -25,4 +25,4 @@ Navigation: [Home](../../README.md) · [🧠 NLP (main)](../../natural-language-
 ## Related
 - ✨ GenAI · 🏗️ LLMs · 🖼️ CV · ☁️ Infrastructure
 
-[↑ Back to top](#-natural-language-processing-nlp) · [← Back to domains](../README.md) · [← Back home](../../README.md)
+[↑ Back to top](#🧠-natural-language-processing-nlp) · [← Back to domains](../README.md) · [← Back home](../../README.md)

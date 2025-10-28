@@ -132,4 +132,4 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-[↑ Back to top](#better-nlp) · [← Back home](../../README.md)
+[↑ Back to top](#better-nlp-better-nlphttpsimgshieldsiodockerpullsneomatrix369better-nlpsvghttpshubdockercomrneomatrix369better-nlp-licensehttpsimgshieldsiobadgelicense-apache2020-bluesvghttpsopensourceorglicensesapache-20) · [← Back home](../../README.md)
