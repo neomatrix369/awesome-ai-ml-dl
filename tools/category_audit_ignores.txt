@@ -28,3 +28,33 @@
 # KBoW expanded domain page cross-links
 ^domains\/keras-bag-of-words-expanded-version\/README\.md$ | ^📊 Data$ | \.\.\/\.\.\/data\/README\.md$
 ^domains\/keras-bag-of-words-expanded-version\/README\.md$ | ^data-scripts-notebooks$ | \.\/data-scripts-notebooks$
+# Reference cross-links (expected nav)
+^reference\/README\.md$ | .+ | \.\.\/data\/README\.md$
+^reference\/README\.md$ | .+ | \.\.\/notebooks\/README\.md$
+^reference\/README\.md$ | .+ | \.\.\/tools\/README\.md$
+^reference\/visualisation\.md$ | .+ | \.\.\/data\/README\.md.*$
+^reference\/visualisation\.md$ | .+ | \.\.\/notebooks\/README\.md.*$
+^reference\/visualisation\.md$ | .+ | \.\.\/tools\/README\.md.*$
+# Reference java & JPR cross-links
+^reference\/java-jvm\.md$ | .+ | \.\.\/tools\/README\.md#machine-learning-frameworks$
+^reference\/java-jvm\.md$ | .+ | \.\.\/infrastructure\/cloud-devops-infra\/README\.md#performance$
+^reference\/java-jvm\.md$ | .+ | \.\.\/data\/README\.md#post-model-creation-analysis-ml-interpretationexplainability$
+^reference\/julia-python-and-r\.md$ | .+ | \.\.\/natural-language-processing\/README\.md.*$
+^reference\/julia-python-and-r\.md$ | .+ | \.\.\/courses\.md#(image-processing|computer-vision)$
+^reference\/julia-python-and-r\.md$ | .+ | \.\.\/data\/README\.md#data-science$
+# Details page anchors
+^reference\/articles-papers-code-data-courses\.md$ | ^details page \(table of contents\)$ | \.\.\/README-details\.md#articles-papers-code-data-courses$
+^reference\/mathematica-wolfram-Language\.md$ | ^details page \(table of contents\)$ | \.\.\/README-details\.md#mathematica--wolfram-language$
+# AI image / data assets referenced from reference
+^reference\/artificial-intelligence\.md$ | ^What is a tensor\?$ | \.\.\/data\/what-is-a-tensor\.jpg$
+^reference\/visualisation\.md$ | ^How to choose your data visualisations$ | \.\.\/data\/how-to-choose-your-data-visualisations\.jpg$
+# Remaining acceptable reference cross-links
+^reference\/julia-python-and-r\/deep-learning\.md$ | ^Checkout 'Deep Learning with Tensorflow 2\.0 \(MNIST\)' Notebooks$ | \.\.\/notebooks\/README\.md#notebooks$
+^reference\/julia-python-and-r\/machine-learning\.md$ | .+ | \.\.\/infrastructure\/cloud-devops-infra\/README\.md#performance$
+^reference\/julia-python-and-r\/machine-learning\.md$ | .+ | \.\.\/data\/README\.md#post-model-creation-analysis-ml-interpretationexplainability$
+^reference\/julia-python-and-r\.md$ | ^An example on how-to install a Java kernel for JuPyteR notebooks \(Graal enabled, where platform supports\)$ | \.\.\/examples\/JuPyteR\/README\.md$
+^reference\/julia-python-and-r\.md$ | ^Image Processing$ | \.\.\/courses\.md#image-processing$
+^reference\/julia-python-and-r\.md$ | ^Computer Vision$ | \.\.\/courses\.md#computer-vision$
+^reference\/maths-stats-probability\.md$ | ^See Data > Statistics section more related links$ | \.\.\/data\/README\.md#statistics$
+^reference\/maths-stats-probability\.md$ | ^Data Science$ | \.\.\/courses\.md#data-science$
+^reference\/visualisation\.md$ | ^Guide to Visualization$ | \.\.\/presentations\/data\/.*\.pdf$
