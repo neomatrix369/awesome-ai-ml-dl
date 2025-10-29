@@ -116,9 +116,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 ### Specialized Areas
 - [AI Agents](./ai-agents/README.md)
-- [Generative AI](./blogs/generative-ai/)
-- [Large Language Models](./blogs/large-language-models/)
-- [Computer Vision](./blogs/computer-vision/)
+- [Generative AI](./domains/generative-ai/README.md)
+- [Large Language Models](./domains/large-language-models/README.md)
+- [Computer Vision](./domains/computer-vision/README.md)
 - [Time Series & Anomaly Detection](./domains/time-series/README.md)
 
 ### Ethics & Governance
@@ -165,7 +165,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 ### Cloud & DevOps
 - [Cloud, DevOps, Infra](infrastructure/cloud-devops-infra/README.md#cloud-devops-infra)
 - [Cloud Infrastructure](./blogs/cloud-infrastructure/)
-- [MLOps & Deployment](./blogs/mlops-deployment/)
+- [MLOps & Deployment](./domains/mlops-deployment/README.md)
 
 ### Frameworks & Libraries
 - [Frameworks & Libraries](./blogs/frameworks-libraries/)
