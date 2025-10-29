@@ -164,17 +164,17 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 ### Cloud & DevOps
 - [Cloud, DevOps, Infra](infrastructure/cloud-devops-infra/README.md#cloud-devops-infra)
-- [Cloud Infrastructure](./blogs/cloud-infrastructure/)
+- [Cloud Infrastructure](./infrastructure/README.md)
 - [MLOps & Deployment](./domains/mlops-deployment/README.md)
 
 ### Frameworks & Libraries
-- [Frameworks & Libraries](./blogs/frameworks-libraries/)
-- [Machine Learning](./blogs/machine-learning/)
-- [Deep Learning](./blogs/deep-learning/)
+- [Frameworks & Libraries](./tools/README.md#machine-learning-frameworks)
+- [Machine Learning](./reference/julia-python-and-r.md#machine-learning)
+- [Deep Learning](./reference/julia-python-and-r.md#deep-learning)
 
 ### Testing & Quality
 - [Tests & Testing](./reference/julia-python-and-r.md#testing)
-- [Best Practices](./blogs/best-practices/)
+- [Best Practices](README-details.md#best-practices)
 
 ## Reference Materials
 

@@ -94,8 +94,20 @@ def audit_file(md_path: Path, include_sections: Optional[List[str]] = None) -> L
     path_ctx = current_context_from_path(md_path)
 
     GENERIC_SECTIONS = {
+        # common templates
         "examples", "presentations", "table of contents", "related", "start here",
-        "quick links", "core topics", "specialized areas", "reference materials"
+        "quick links", "core topics", "specialized areas", "reference materials",
+        "at a glance", "deep dive", "what’s new", "legacy content (full index)",
+        # portal headings
+        "python", "java & jvm", "other languages",
+        "ethics & governance", "data & analytics", "learning resources",
+        "tools & infrastructure", "mathematical foundations",
+        "automation & mlops", "miscellaneous", "guides & tutorials", "courses & competitions",
+        # topical groups
+        "development environments", "data analysis tools", "machine learning frameworks",
+        "cloud platforms", "specialized hardware", "automation tools", "deployment & mlops",
+        # footers/meta
+        "contributing", "sponsoring", "disclaimer"
     }
     try:
         with md_path.open("r", encoding="utf-8", errors="ignore") as f:

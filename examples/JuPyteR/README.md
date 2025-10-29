@@ -59,7 +59,7 @@ Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel](ht
 
 ### Source location
 
-Go to example [project root](../JuPyteR) to perform the commands mentioned in the sections below.
+Go to example [project root](../JuPyteR/README.md) to perform the commands mentioned in the sections below.
 
 ### Local environment
 
@@ -244,5 +244,5 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-Back to example [project root](../JuPyteR) </br>
+Back to example [project root](../JuPyteR/README.md) </br>
 Back to [main page (table of contents)](../../README.md)

@@ -42,7 +42,7 @@ And using different kinds of plots relevant at different stages.
 
 ### Code
 
-- [Simple Data generation code](../../../notebooks/jupyter/data/data-generation)
+- [Simple Data generation code](../../../notebooks/jupyter/data/data-generation/README.md)
 
 ### Notebooks
 

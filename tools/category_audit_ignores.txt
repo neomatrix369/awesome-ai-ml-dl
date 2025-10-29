@@ -102,6 +102,16 @@
 ^tools\/category_audit.*\.md$ | .+ | .+
 # Data page expected cross-link to Programs and Tools
 ^data\/.*\.md$ | ^Programs and Tools$ | ^\.\/programs-and-tools\.md#programs-and-tools$
+       # README expected cross-links to blog indices
+       ^README\.md$ | .+ | \.\/blogs\/ethics-governance\/README\.md$
+       ^README\.md$ | .+ | \.\/blogs\/tutorials\/
+       ^README\.md$ | .+ | \.\/blogs\/ai-coding-tools\/README\.md$
+       ^README\.md$ | .+ | \.\/blogs\/ai-coding-tools\/COMMON-REFERENCES\.md$
+       ^README\.md$ | .+ | \.\/blogs\/cloud-infrastructure\/
+       ^README\.md$ | .+ | \.\/blogs\/frameworks-libraries\/
+       ^README\.md$ | .+ | \.\/blogs\/machine-learning\/
+       ^README\.md$ | .+ | \.\/blogs\/deep-learning\/
+       ^README\.md$ | .+ | \.\/blogs\/best-practices\/
 # Specific W&B example link acceptable
 ^data\/about-Weights-and-Biases\.md$ | ^Quick and Dirty CNN$ | ^\.\/wandb\/Quick-and-Dirty-CNN\.py$
 # Dataiku page cross-links acceptable
