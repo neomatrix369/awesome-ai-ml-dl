@@ -70,10 +70,12 @@ def is_suppressed(rel_path: str, text: str, target: str) -> bool:
 
 
 def detect_keywords(text: str) -> List[str]:
+    """Detect category keywords using whole-word token matching to reduce false positives."""
     text_l = text.lower()
+    tokens = set(re.findall(r"[a-z0-9]+", text_l))
     hits: List[str] = []
     for cat, kws in CATEGORY_KEYWORDS.items():
-        if any(kw in text_l for kw in kws):
+        if any(kw in tokens for kw in kws):
             hits.append(cat)
     return hits
 

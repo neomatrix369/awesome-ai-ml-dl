@@ -129,6 +129,9 @@
        ^examples\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/notebooks\/README\.md$
        # Suppress JuPyteR project root helper link
        ^examples\/JuPyteR\/README\.md$ | ^project root$ | ^\.\.\/JuPyteR\/README\.md$
+       # README top-header nav items
+       ^README\.md$ | .+ | ^\.\/(infrastructure|notebooks|tools|data|ai-agents|natural-language-processing)\/README\.md(.*)?$
+       ^README\.md$ | .+ | ^\.\/domains\/(ai-agents|nlp|computer-vision|large-language-models|generative-ai|mlops-deployment)\/README\.md$
 # Specific W&B example link acceptable
 ^data\/about-Weights-and-Biases\.md$ | ^Quick and Dirty CNN$ | ^\.\/wandb\/Quick-and-Dirty-CNN\.py$
 # Dataiku page cross-links acceptable
