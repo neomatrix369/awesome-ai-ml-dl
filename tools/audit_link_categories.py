@@ -106,6 +106,9 @@ def audit_file(md_path: Path, include_sections: Optional[List[str]] = None) -> L
         # topical groups
         "development environments", "data analysis tools", "machine learning frameworks",
         "cloud platforms", "specialized hardware", "automation tools", "deployment & mlops",
+        # common section labels in example/docs pages
+        "resources", "additional resources", "scripts provided:", "source location",
+        "linux / macos (docker environment)", "linux / macos (local environment)",
         # footers/meta
         "contributing", "sponsoring", "disclaimer"
     }

@@ -112,6 +112,23 @@
        ^README\.md$ | .+ | \.\/blogs\/machine-learning\/
        ^README\.md$ | .+ | \.\/blogs\/deep-learning\/
        ^README\.md$ | .+ | \.\/blogs\/best-practices\/
+       # Competitions top nav
+       ^competitions\.md$ | .+ | ^\.\/data\/README\.md$
+       ^competitions\.md$ | .+ | ^\.\/natural-language-processing\/README\.md$
+       ^competitions\.md$ | .+ | ^\.\/tools\/README\.md$
+       ^competitions\.md$ | .+ | ^\.\/notebooks\/README\.md$
+       # Courses top nav
+       ^courses\.md$ | .+ | ^\.\/data\/README\.md$
+       ^courses\.md$ | .+ | ^\.\/natural-language-processing\/README\.md$
+       ^courses\.md$ | .+ | ^\.\/tools\/README\.md$
+       ^courses\.md$ | .+ | ^\.\/notebooks\/README\.md$
+       # Examples README expected cross-links (nav)
+       ^examples\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/data\/README\.md$
+       ^examples\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/natural-language-processing\/README\.md$
+       ^examples\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/tools\/README\.md$
+       ^examples\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/notebooks\/README\.md$
+       # Suppress JuPyteR project root helper link
+       ^examples\/JuPyteR\/README\.md$ | ^project root$ | ^\.\.\/JuPyteR\/README\.md$
 # Specific W&B example link acceptable
 ^data\/about-Weights-and-Biases\.md$ | ^Quick and Dirty CNN$ | ^\.\/wandb\/Quick-and-Dirty-CNN\.py$
 # Dataiku page cross-links acceptable

@@ -25,10 +25,6 @@ This report flags links whose keywords suggest different categories than the cur
 - L35: [MLOps & Deployment](./domains/mlops-deployment/README.md) — section: 'Explore by domain' — suggested: mlops
 - L168: [MLOps & Deployment](./domains/mlops-deployment/README.md) — section: 'Cloud & DevOps' — suggested: mlops
 
-## ai-agents/README.md
-
-- L102: [MCPs, Tutorials, and Tools list](./resources/) — section: 'Additional Resources' — suggested: agents, tools
-
 ## blogs/ai-coding-tools/README.md
 
 - L69: [Tools & Libraries](../../tools/README.md) — section: 'External Resources' — suggested: tools
@@ -62,21 +58,6 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L7: [Infrastructure](../infrastructure/README.md) — section: 'Moved' — suggested: infrastructure
 
-## competitions.md
-
-- L3: [Data](./data/README.md) — section: 'Competitions: AI, ML, DL, DS' — suggested: data
-- L3: [NLP](./natural-language-processing/README.md) — section: 'Competitions: AI, ML, DL, DS' — suggested: nlp
-- L3: [Tools](./tools/README.md) — section: 'Competitions: AI, ML, DL, DS' — suggested: tools
-- L3: [Notebooks](./notebooks/README.md) — section: 'Competitions: AI, ML, DL, DS' — suggested: notebooks
-- L77: [NVIDIA's RAPIDS](./infrastructure/cloud-devops-infra/gpus/rapids.md#rapids) — section: 'Resources' — suggested: infrastructure
-
-## courses.md
-
-- L3: [Data](./data/README.md) — section: 'Courses' — suggested: data
-- L3: [NLP](./natural-language-processing/README.md) — section: 'Courses' — suggested: nlp
-- L3: [Tools](./tools/README.md) — section: 'Courses' — suggested: tools
-- L3: [Notebooks](./notebooks/README.md) — section: 'Courses' — suggested: notebooks
-
 ## data/data-generation.md
 
 - L77: [Library, Framework, Models, Tools, Services](../natural-language-processing/library-framework-models-tools-services.md) — section: 'Data Augmentation' — suggested: nlp, tools
@@ -86,35 +67,6 @@ This report flags links whose keywords suggest different categories than the cur
 - L50: [runLocal.sh](./build-docker-image/runLocal.sh) — section: 'Run the docker container' — suggested: computer-vision
 - L50: [runLocal.sh](./build-docker-image/runLocal.sh) — section: 'Run the docker container' — suggested: computer-vision
 - L50: [buildDockerImage.sh](./build-docker-image/buildDockerImage.sh) — section: 'Run the docker container' — suggested: computer-vision
-- L56: [buildDockerImage.sh](./build-docker-image/buildDockerImage.sh) — section: 'Scripts provided:' — suggested: computer-vision
-- L57: [Dockerfile](./build-docker-image/Dockerfile) — section: 'Scripts provided:' — suggested: computer-vision
-- L58: [install-jupyter-notebooks.sh](./build-docker-image/install-jupyter-notebooks.sh) — section: 'Scripts provided:' — suggested: computer-vision, notebooks
-- L59: [install-java-kernel.sh](./build-docker-image/install-java-kernel.sh) — section: 'Scripts provided:' — suggested: computer-vision
-- L60: [removeUnusedContainersAndImages.sh](./build-docker-image/removeUnusedContainersAndImages.sh) — section: 'Scripts provided:' — suggested: computer-vision
-- L62: [runLocal.sh](./build-docker-image/runLocal.sh) — section: 'Scripts provided:' — suggested: computer-vision
-- L63: [push-jupyter-java-docker-image-to-hub.sh](./build-docker-image/push-jupyter-java-docker-image-to-hub.sh) — section: 'Scripts provided:' — suggested: computer-vision, notebooks
-
-## examples/JuPyteR/README.md
-
-- L3: [Data](../../data/README.md) — section: 'JuPyteR [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-- L3: [NLP](../../natural-language-processing/README.md) — section: 'JuPyteR [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: nlp
-- L3: [Tools](../../tools/README.md) — section: 'JuPyteR [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: tools
-- L62: [project root](../JuPyteR) — section: 'Source location' — suggested: notebooks
-
-## examples/apache-zeppelin/README.md
-
-- L3: [Data](../../data/README.md) — section: 'Apache Zeppelin [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-- L3: [NLP](../../natural-language-processing/README.md) — section: 'Apache Zeppelin [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: nlp
-- L3: [Tools](../../tools/README.md) — section: 'Apache Zeppelin [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: tools
-- L3: [Notebooks](../../notebooks/README.md) — section: 'Apache Zeppelin [![Zeppelin](https://img.shields.io/docker/pulls/neomatrix369/zeppelin.svg)](https://hub.docker.com/r/neomatrix369/zeppelin) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
-
-## examples/better-nlp/README.md
-
-- L3: [Data](../../data/README.md) — section: 'Better NLP [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-- L3: [Tools](../../tools/README.md) — section: 'Better NLP [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: tools
-- L3: [Notebooks](../../notebooks/README.md) — section: 'Better NLP [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
-- L38: [Jupyter Notebook](./docs/Jupyter_notebook.md) — section: 'Linux / MacOS (Docker environment)' — suggested: notebooks
-- L49: [Jupyter Notebook](./docs/Jupyter_notebook.md) — section: 'Linux / MacOS (local environment)' — suggested: notebooks
 
 ## examples/better-nlp/docs/Jupyter_notebook.md
 
@@ -158,32 +110,14 @@ This report flags links whose keywords suggest different categories than the cur
 
 ## examples/deepnetts/README.md
 
-- L3: [Data](../../data/README.md) — section: 'DeepNetts [![DeepNetts](https://img.shields.io/docker/pulls/neomatrix369/deepnetts.svg)](https://hub.docker.com/r/neomatrix369/deepnetts) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-- L3: [NLP](../../natural-language-processing/README.md) — section: 'DeepNetts [![DeepNetts](https://img.shields.io/docker/pulls/neomatrix369/deepnetts.svg)](https://hub.docker.com/r/neomatrix369/deepnetts) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: nlp
-- L3: [Tools](../../tools/README.md) — section: 'DeepNetts [![DeepNetts](https://img.shields.io/docker/pulls/neomatrix369/deepnetts.svg)](https://hub.docker.com/r/neomatrix369/deepnetts) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: tools
-- L3: [Notebooks](../../notebooks/README.md) — section: 'DeepNetts [![DeepNetts](https://img.shields.io/docker/pulls/neomatrix369/deepnetts.svg)](https://hub.docker.com/r/neomatrix369/deepnetts) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
 - L192: [docker-image folder](docker-image) — section: 'Scripts provided' — suggested: computer-vision
 
 ## examples/ensembler/README.md
 
-- L3: [Data](../../data/README.md) — section: 'Ensembler [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-- L3: [NLP](../../natural-language-processing/README.md) — section: 'Ensembler [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: nlp
-- L3: [Tools](../../tools/README.md) — section: 'Ensembler [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: tools
-- L3: [Notebooks](../../notebooks/README.md) — section: 'Ensembler [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
 - L194: [docker-image folder](docker-image) — section: 'Scripts provided' — suggested: computer-vision
-
-## examples/nlp-java-jvm/README.md
-
-- L3: [Data](../../data/README.md) — section: 'NLP Java/JVM [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-- L3: [Tools](../../tools/README.md) — section: 'NLP Java/JVM [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: tools
-- L3: [Notebooks](../../notebooks/README.md) — section: 'NLP Java/JVM [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
 
 ## examples/tribuo/README.md
 
-- L3: [Data](../../data/README.md) — section: 'Tribuo [![Tribuo](https://img.shields.io/docker/pulls/neomatrix369/tribuo.svg)](https://hub.docker.com/r/neomatrix369/tribuo) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-- L3: [NLP](../../natural-language-processing/README.md) — section: 'Tribuo [![Tribuo](https://img.shields.io/docker/pulls/neomatrix369/tribuo.svg)](https://hub.docker.com/r/neomatrix369/tribuo) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: nlp
-- L3: [Tools](../../tools/README.md) — section: 'Tribuo [![Tribuo](https://img.shields.io/docker/pulls/neomatrix369/tribuo.svg)](https://hub.docker.com/r/neomatrix369/tribuo) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: tools
-- L3: [Notebooks](../../notebooks/README.md) — section: 'Tribuo [![Tribuo](https://img.shields.io/docker/pulls/neomatrix369/tribuo.svg)](https://hub.docker.com/r/neomatrix369/tribuo) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
 - L182: [docker-image folder](docker-image) — section: 'Scripts provided' — suggested: computer-vision
 
 ## guides.md
@@ -280,4 +214,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L330: [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md) — section: 'Automated machine learning tools (or partial AutoML tools)' — suggested: infrastructure
 
 
-Total flagged links: 147
+Total flagged links: 102
