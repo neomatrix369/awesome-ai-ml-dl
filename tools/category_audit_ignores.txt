@@ -72,3 +72,45 @@
 # Allow additional references in vendor pages to Data index
 ^infrastructure\/cloud-devops-infra\/about-neural-magic\.md$ | .+ | \.\.\/data\/README\.md$
 ^infrastructure\/cloud-devops-infra\/about-vast\.ai\.md$ | .+ | \.\.\/data\/README\.md$
+# Data expected cross-links (nav/related)
+^data\/README\.md$ | .+ | \.\.\/README\.md$
+^data\/README\.md$ | .+ | \.\.\/README-details\.md.*$
+^data\/README\.md$ | .+ | \.\.\/notebooks\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/tools\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/ai-agents\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/infrastructure\/cloud-devops-infra\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/presentations\/README\.md.*$
+# Tools expected cross-links (nav/related)
+^tools\/README\.md$ | .+ | \.\.\/README\.md$
+^tools\/README\.md$ | .+ | \.\.\/README-details\.md.*$
+^tools\/README\.md$ | .+ | \.\.\/data\/README\.md.*$
+^tools\/README\.md$ | .+ | \.\.\/notebooks\/README\.md.*$
+^tools\/README\.md$ | .+ | \.\.\/ai-agents\/README\.md.*$
+^tools\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md.*$
+# Notebooks expected cross-links (nav/related)
+^notebooks\/README\.md$ | .+ | \.\.\/README\.md$
+^notebooks\/README\.md$ | .+ | \.\.\/README-details\.md.*$
+^notebooks\/README\.md$ | .+ | \.\.\/data\/README\.md.*$
+^notebooks\/README\.md$ | .+ | \.\.\/presentations\/README\.md.*$
+^notebooks\/README\.md$ | .+ | \.\.\/tools\/README\.md.*$
+# Tools blog index expected cross-links
+^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
+^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/data\/README\.md$
+^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/reference\/julia-python-and-r\.md$
+# Suppress links inside audit report files themselves
+^tools\/category_audit.*\.md$ | .+ | .+
+# Data page expected cross-link to Programs and Tools
+^data\/.*\.md$ | ^Programs and Tools$ | ^\.\/programs-and-tools\.md#programs-and-tools$
+# Specific W&B example link acceptable
+^data\/about-Weights-and-Biases\.md$ | ^Quick and Dirty CNN$ | ^\.\/wandb\/Quick-and-Dirty-CNN\.py$
+# Dataiku page cross-links acceptable
+^examples\/data\/dataiku\/README\.md$ | ^NLP$ | \.\.\/\.\.\/natural-language-processing\/README\.md$
+^examples\/data\/dataiku\/README\.md$ | ^Tools$ | \.\.\/\.\.\/tools\/README\.md$
+^examples\/data\/dataiku\/README\.md$ | ^Notebooks$ | \.\.\/\.\.\/notebooks\/README\.md$
+# Notebooks data-generation script link acceptable
+^notebooks\/jupyter\/data\/data-generation\/README\.md$ | ^make-dataset-unclean\.sh$ | ^\.\/make-dataset-unclean\.sh$
+# Presentations data pages acceptable cross-links
+^presentations\/data\/.*\.md$ | ^📓 Notebooks$ | \.\.\/\.\.\/notebooks\/README\.md$
+^presentations\/data\/.*\.md$ | ^🧰 Tools$ | \.\.\/\.\.\/tools\/README\.md$
+^presentations\/data\/.*\.md$ | ^📊 Data$ | \.\.\/\.\.\/data\/README\.md$
