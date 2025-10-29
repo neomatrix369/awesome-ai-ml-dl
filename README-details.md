@@ -47,8 +47,8 @@
 - [Automated Machine Learning - Google search results](https://www.google.com/search?ei=b3ktXKfbEqWAjLsPqdOxiAs&q=automated+machine+learning&oq=automated+machine&gs_l=psy-ab.3.0.0j0i20i263j0l5j0i20i263j0l2.187330.192290..193008...3.0..0.70.1100.20......0....1..gws-wiz.....6..35i39j0i131j0i67.2o6PTTxjJjw)
 - [Recipes for Driverless AI](https://github.com/h2oai/driverlessai-recipes)
 - PyCaret
-  + [PyCaret Tutorial Using Titanic Dataset](https://www.kaggle.com/ravileo/pycaret-tutorial-using-titanic-dataset](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46)
-  + [PyCaret Demo](https://pycaret.org/demo/](https://github.com/pycaret/pycaret-demo-dataraction)
+  + [PyCaret Tutorial Using Titanic Dataset](https://www.kaggle.com/ravileo/pycaret-tutorial-using-titanic-dataset) | [Announcement](https://towardsdatascience.com/announcing-pycaret-an-open-source-low-code-machine-learning-library-in-python-4a1f1aad8d46)
+  + [PyCaret Demo](https://pycaret.org/demo/) | [Demo repository](https://github.com/pycaret/pycaret-demo-dataraction)
   + [Write and train your own custom machine learning models using PyCaret](https://towardsdatascience.com/write-and-train-your-own-custom-machine-learning-models-using-pycaret-8fa76237374e)
   + [Running Low on Time? Use PyCaret to Build your Machine Learning Model in Seconds](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?utm_source=feed&utm_medium=feed-articles&utm_campaign=feed)
   + Build with PyCaret, Deploy with FastAPI: [LinkedIn](https://www.linkedin.com/posts/profile-moez_datascience-machinelearning-opensource-ugcPost-6792091520582377473-gNhY) | [TDS post](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786?utm_campaign=postfity&utm_content=postfity28ca7&utm_medium=social&utm_source=linkedin&gi=681655d44828)
@@ -98,7 +98,7 @@
   - [python package: deon](https://pypi.org/project/deon/)
 - [👉A Practical guide to Responsible Artificial Intelligence (AI) by PwC 👈](https://www.linkedin.com/posts/asif-bhat_ai-activity-6642499836232986624-FCNj)
 - [Data ethics literacy cards](https://public.zenkit.com/i/2RH604FcHf/iK2Z5J9kr/do-you-know-your-data?v=1wyJ56INd&hide=workspaceLists) by [Anisha Fernando](https://twitter.com/techgirl_9) | [Join the Slack community](https://dataethicsinpractice.slack.com/join/shared_invite/enQtODAwMDIxMzU3MTUyLTg5YTM3ZTIyYTg3ZTU0N2M4MDhmYjE3YmRlYTUyNTA5ZWE1MTRkYmJjYTNlM2YzYTk1YWNhZmY1N2RlYzg5Y2U) | [The Private Lives of Data: YouTube video](https://www.youtube.com/watch?v=pXtQj2UNMYE)
-- [Ethics in Artificial Intelligence](https://www.linkedin.com/posts/vincentg_ethics-in-artificial-intelligence-activity-6690365775091445761-U5qh
+- [Ethics in Artificial Intelligence](https://www.linkedin.com/posts/vincentg_ethics-in-artificial-intelligence-activity-6690365775091445761-U5qh)
 - [robotethics | aiethics.ai](aiethics.ai) | [AIethics.AI – Artificial Intelligence and Robot Ethics](https://robotethics.co.uk/decisions/)
 - [UK gov’s guidance](https://www.gov.uk/guidance/understanding-artificial-intelligence-ethics-and-safety)
 - [Google principles](https://ai.google/principles/)
@@ -230,8 +230,8 @@ See [Other Tools](./things-to-know.md#other-tools)
 
 ### Presentations
 
-- ["nn" things every Java Developer should know about AI/ML/DL](./presentations/awesome-ai-ml-dl/01-jonconf-2020#nn-things-every-java-developer-should-know-about-aimldl)
-- [From backend development to machine learning](./presentations/awesome-ai-ml-dl/02-abhishektalks-2020#from-backend-development-to-machine-learning)
+- ["nn" things every Java Developer should know about AI/ML/DL](./presentations/awesome-ai-ml-dl/01-jonconf-2020/README.md#nn-things-every-java-developer-should-know-about-aimldl)
+- [From backend development to machine learning](./presentations/awesome-ai-ml-dl/02-abhishektalks-2020/README.md#from-backend-development-to-machine-learning)
 - [Tribuo: an introduction to a Java ML Library](./presentations/awesome-ai-ml-dl/03-makeitweek-2020/README.md)
 - ["nn" things every Java Developer should know about AI/ML/DL](./presentations/awesome-ai-ml-dl/04-gba-apac-tour-2020/README.md)
 - [Looking into Java ML/DL libraries: Tribuo and DeepNetts](./presentations/awesome-ai-ml-dl/05-ai-enterprise-virtual-user-group-2021/README.md)
@@ -240,7 +240,7 @@ See [Other Tools](./things-to-know.md#other-tools)
   - [Profiling Text Data](https://github.com/neomatrix369/nlp_profiler/tree/master/presentations/01-nlp-zurich-2020#profiling-text-data)
 - [Data presentations](./presentations/data/)
   - [Physics functions usage example](./presentations/data/Trackener-physics-functions-usage-example.pptx)
-  - [Graph database: Grakn (GraknCosmos 2020)](../examples/data/databases/graph/grakn/presentations/README.md)
+  - [Graph database: Grakn (GraknCosmos 2020)](./examples/data/databases/graph/grakn/presentations/README.md)
 
 ### Best Practices
 
