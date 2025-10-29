@@ -1,0 +1,3 @@
+# path_regex | text_regex | target_regex
+^README-details\.md$ | ^Graph databases$ | \.\/data\/README\.md#databases$
+^README-details\.md$ | ^Grakn example$ | \.\/examples\/data\/databases\/graph\/grakn\/README\.md$
