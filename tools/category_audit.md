@@ -3,10 +3,9 @@
 Status: In progress
 
 ### Progress since last update
-- Findings reduced to 63 after keyword tokenization and broader ignores for expected nav.
+- Findings reduced to 64 after keyword tokenization and broader ignores for expected nav.
 
 This report flags links whose keywords suggest different categories than the current section/folder context.
-
 
 ## README-details.md
 
@@ -99,6 +98,11 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L182: [docker-image folder](docker-image) — section: 'Scripts provided' — suggested: computer-vision
 
+## guides.md
+
+- L3: [Data](./data/README.md) — section: 'Guides' — suggested: data
+- L3: [NLP](./natural-language-processing/README.md) — section: 'Guides' — suggested: nlp
+
 ## infrastructure/cloud-devops-infra/README.md
 
 - L102: [See also: Data > Programs and Tools](../../data/programs-and-tools.md#programs-and-tools) — section: 'Tools' — suggested: data
@@ -115,7 +119,7 @@ This report flags links whose keywords suggest different categories than the cur
 ## papers/google-x/README.md
 
 - L3: [📊 Data](../../data/README.md) — section: 'Papers by members of Google and Google X (aka X-Team)' — suggested: data
-- L17: [Page 05 - Tensor Network - a library for ...jpg](./Page\ 05\ -\ Tensor\ Network\ -\ a\ library\ for\ ...jpg) — section: 'Papers by members of Google and Google X (aka X-Team)' — suggested: tools
+- L17: [Page 05 - Tensor Network - a library for ...jpg](./Page 05 - Tensor Network - a library for ...jpg) — section: 'Papers by members of Google and Google X (aka X-Team)' — suggested: tools
 
 ## presentations/awesome-ai-ml-dl/01-jonconf-2020/README.md
 
@@ -148,10 +152,6 @@ This report flags links whose keywords suggest different categories than the cur
 - L45: [Simple Data generation code](../../../notebooks/jupyter/data/data-generation/README.md) — section: 'Code' — suggested: data, notebooks
 - L49: [Notebooks used during the talk](../../../notebooks/jupyter/data/) — section: 'Notebooks' — suggested: data, notebooks
 
-## presentations/data/04-grakn-cosmos-2020/README.md
-
-- L5: [slides (PDF)](../../../examples/data/databases/graph/grakn/presentations/GraknCosmos2020/Naturally,-getting-productive,-my-journey-with-Grakn-and-Graql.pdf) — section: 'Slides' — suggested: data
-
 ## study-notes/README.md
 
 - L3: [Data](../data/README.md) — section: 'Study Notes' — suggested: data
@@ -174,4 +174,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
 
 
-Total flagged links: 63
+Total flagged links: 64
