@@ -58,3 +58,17 @@
 ^reference\/maths-stats-probability\.md$ | ^See Data > Statistics section more related links$ | \.\.\/data\/README\.md#statistics$
 ^reference\/maths-stats-probability\.md$ | ^Data Science$ | \.\.\/courses\.md#data-science$
 ^reference\/visualisation\.md$ | ^Guide to Visualization$ | \.\.\/presentations\/data\/.*\.pdf$
+# Infrastructure expected cross-links (nav/related)
+^infrastructure\/README\.md$ | .+ | \.\.\/data\/README\.md$
+^infrastructure\/README\.md$ | .+ | \.\.\/notebooks\/README\.md$
+^infrastructure\/README\.md$ | .+ | \.\.\/tools\/README\.md$
+^infrastructure\/README\.md$ | .+ | \.\.\/ai-agents\/README\.md$
+^infrastructure\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md$
+^infrastructure\/cloud-devops-infra\/README\.md$ | .+ | \.\.\/\.\.\/data\/README\.md$
+^infrastructure\/cloud-devops-infra\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
+^infrastructure\/cloud-devops-infra\/README\.md$ | .+ | \.\.\/\.\.\/tools\/README\.md$
+# Allow references to Data about W&B from infra
+^infrastructure\/cloud-devops-infra\/README\.md$ | ^Learn more about WandB$ | \.\.\/\.\.\/data\/about-Weights-and-Biases\.md$
+# Allow additional references in vendor pages to Data index
+^infrastructure\/cloud-devops-infra\/about-neural-magic\.md$ | .+ | \.\.\/data\/README\.md$
+^infrastructure\/cloud-devops-infra\/about-vast\.ai\.md$ | .+ | \.\.\/data\/README\.md$
