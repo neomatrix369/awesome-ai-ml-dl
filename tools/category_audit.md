@@ -3,8 +3,7 @@
 Status: In progress
 
 ### Progress since last update
-- Findings reduced to 65 after keyword tokenization and broader ignores for expected nav.
-- Fixed and clarified several links (README, blogs, presentations, examples).
+- Findings reduced to 63 after keyword tokenization and broader ignores for expected nav.
 
 This report flags links whose keywords suggest different categories than the current section/folder context.
 
@@ -100,11 +99,6 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L182: [docker-image folder](docker-image) — section: 'Scripts provided' — suggested: computer-vision
 
-## guides.md
-
-- L3: [Data](./data/README.md) — section: 'Guides' — suggested: data
-- L3: [NLP](./natural-language-processing/README.md) — section: 'Guides' — suggested: nlp
-
 ## infrastructure/cloud-devops-infra/README.md
 
 - L102: [See also: Data > Programs and Tools](../../data/programs-and-tools.md#programs-and-tools) — section: 'Tools' — suggested: data
@@ -180,4 +174,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
 
 
-Total flagged links: 65
+Total flagged links: 63

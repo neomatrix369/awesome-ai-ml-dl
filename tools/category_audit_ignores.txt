@@ -132,6 +132,13 @@
        # README top-header nav items
        ^README\.md$ | .+ | ^\.\/(infrastructure|notebooks|tools|data|ai-agents|natural-language-processing)\/README\.md(.*)?$
        ^README\.md$ | .+ | ^\.\/domains\/(ai-agents|nlp|computer-vision|large-language-models|generative-ai|mlops-deployment)\/README\.md$
+       # Guides top nav
+       ^guides\.md$ | .+ | ^\.\/data\/README\.md$
+       ^guides\.md$ | .+ | ^\.\/natural-language-processing\/README\.md$
+       ^guides\.md$ | .+ | ^\.\/tools\/README\.md$
+       ^guides\.md$ | .+ | ^\.\/notebooks\/README\.md$
+       # Presentations expected cross-links (nav to Data is OK)
+       ^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | .+ | ^\.\.\/\.\.\/data\/README\.md$
 # Specific W&B example link acceptable
 ^data\/about-Weights-and-Biases\.md$ | ^Quick and Dirty CNN$ | ^\.\/wandb\/Quick-and-Dirty-CNN\.py$
 # Dataiku page cross-links acceptable
