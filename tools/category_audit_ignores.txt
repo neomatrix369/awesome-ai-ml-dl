@@ -1,3 +1,30 @@
 # path_regex | text_regex | target_regex
 ^README-details\.md$ | ^Graph databases$ | \.\/data\/README\.md#databases$
 ^README-details\.md$ | ^Grakn example$ | \.\/examples\/data\/databases\/graph\/grakn\/README\.md$
+# Domain nav cross-links
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/tools\/README\.md$
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/ai-agents\/README\.md$
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/natural-language-processing\/README\.md$
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/infrastructure\/README\.md$
+# Domains index nav
+^domains\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md$
+^domains\/README\.md$ | .+ | \.\.\/ai-agents\/README\.md$
+^domains\/README\.md$ | .+ | \.\.\/data\/README\.md$
+^domains\/README\.md$ | .+ | \.\.\/notebooks\/README\.md$
+^domains\/README\.md$ | .+ | \.\.\/tools\/README\.md$
+# Time-series internal link to notebooks section
+^domains\/time-series\/README\.md$ | ^Notebooks$ | ^time-series\.md#notebooks$
+# AI Agents cross-links
+^ai-agents\/README\.md$ | .+ | \.\.\/data\/README\.md$
+^ai-agents\/README\.md$ | .+ | \.\.\/notebooks\/README\.md$
+^ai-agents\/README\.md$ | .+ | \.\.\/tools\/README\.md$
+^ai-agents\/README\.md$ | .+ | \.\.\/infrastructure\/cloud-devops-infra\/README\.md$
+^ai-agents\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md$
+^ai-agents\/resources\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
+^ai-agents\/resources\/README\.md$ | .+ | \.\.\/\.\.\/data\/README\.md$
+# Ignore tutorial image links in KBoW expanded
+^domains\/keras-bag-of-words-expanded-version\/.*$ | ^image$ | \.png$
+# KBoW expanded domain page cross-links
+^domains\/keras-bag-of-words-expanded-version\/README\.md$ | ^📊 Data$ | \.\.\/\.\.\/data\/README\.md$
+^domains\/keras-bag-of-words-expanded-version\/README\.md$ | ^data-scripts-notebooks$ | \.\/data-scripts-notebooks$
