@@ -9,7 +9,7 @@ This report flags links whose keywords suggest different categories than the cur
 
 ### Progress
 
-- Current findings: 37
+- Current findings: 26
 
 
 ## README-details.md
@@ -53,7 +53,6 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L5: [Jupyter notebook with implementation](./Method-02-Linear-Model.ipynb) — section: 'Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
 - L6: [HTML output of the same notebook](./Method-02-Linear-Model.html) — section: 'Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
-- L18: [about W&B](../../../../data/about-Weights-and-Biases.md#weights--biases) — section: 'Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
 
 ## papers/google-x/README.md
 
@@ -102,18 +101,5 @@ This report flags links whose keywords suggest different categories than the cur
 - L3: [NLP](../natural-language-processing/README.md) — section: 'Study Notes' — suggested: nlp
 - L288: [TPU example on Cloud/DevOps/Infra page](../infrastructure/cloud-devops-infra/README.md#tpu) — section: 'ML Crash course by Google' — suggested: infrastructure
 
-## things-to-know.md
 
-- L243: [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md) — section: 'Machine learning products' — suggested: infrastructure
-- L243: [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) — section: 'Machine learning products' — suggested: data
-- L262: [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md) — section: 'Big data / analytics products' — suggested: infrastructure
-- L278: [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) — section: 'Cloud computing platforms' — suggested: data
-- L294: [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) — section: 'Cloud computing products' — suggested: data
-- L308: [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md) — section: 'Automated pipelines' — suggested: infrastructure
-- L308: [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) — section: 'Automated pipelines' — suggested: data
-- L330: [Cloud/DevOps/Infra](./infrastructure/cloud-devops-infra/README.md) — section: 'Automated machine learning tools (or partial AutoML tools)' — suggested: infrastructure
-- L330: [Data > Programs and Tools](./data/programs-and-tools.md#programs-and-tools) — section: 'Automated machine learning tools (or partial AutoML tools)' — suggested: data
-- L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
-
-
-Total flagged links: 37
+Total flagged links: 26

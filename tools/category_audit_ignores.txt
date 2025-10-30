@@ -142,9 +142,12 @@
 ^guides\.md$ | .+ | ^\.\/notebooks\/README\.md$
 # Presentations expected cross-links (nav to Data is OK)
 ^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | .+ | ^\.\.\/\.\.\/data\/README\.md$
+^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | ^📊 Data$ | ^\.\.\/\.\.\/data\/README\.md$
 # New ignores for Docker instruction links and valohai expected Data nav
 ^examples\/JuPyteR\/Docker-container-instructions\.md$ | .+ | ^\.\/build-docker-image\/.*
 ^examples\/cloud-devops-infra\/valohai\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/data\/README\.md$
+# W&B example expected cross-link back to Data page
+^examples\/cloud-devops-infra\/wandb\/sb-fx-competition\/README\.md$ | ^about W&B$ | ^(\.\.\/){4}data\/about-Weights-and-Biases\.md#weights--biases$
 # Devoxx talk: expected notebooks links
 ^presentations\/data\/02-devoxx-uk-2019\/README\.md$ | ^Notebooks used during the talk$ | ^(\.\.\/){2,3}notebooks\/jupyter\/data\/?$
 # Docker-image folder links in example READMEs
