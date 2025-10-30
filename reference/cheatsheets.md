@@ -1,4 +1,6 @@
-# Cheatsheets
+# 📋 Cheatsheets
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
   - All-in-one cheatsheets:
     + [💡  Quick Reference Sheet 💡](https://www.linkedin.com/posts/asif-bhat_quick-reference-sheet-ml-dl-ai-activity-6640966422036078592-BB4l)

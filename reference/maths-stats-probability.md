@@ -1,4 +1,6 @@
-# Mathematics, Statistics, Probability & Probabilistic programming
+# 🔢 Mathematics, Statistics, Probability & Probabilistic programming
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 ## Mathematics
 
