@@ -1,4 +1,6 @@
-# Machine Learning Algorithms
+# 🧮 Machine Learning Algorithms
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - [10 types of regressions. Which one to use?](https://www.linkedin.com/posts/isaacbaum_10-types-of-regressions-which-one-to-use-activity-6610217740546428929-EHnH)
 - [Barebone implementation of ML models, algorithms](https://lnkd.in/fpapv7x)

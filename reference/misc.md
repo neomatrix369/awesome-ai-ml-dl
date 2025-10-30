@@ -1,4 +1,6 @@
-# Misc
+# 📎 Misc
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
   - [Learn Machine Learning from Top 50 Articles for the Past Year (v.2019)](https://medium.mybridge.co/learn-machine-learning-from-top-50-articles-for-the-past-year-v-2019-15842d0b82f6)
   - [Computer Science (algorithms) resources by Chris Albon](https://chrisalbon.com/#computer_science)

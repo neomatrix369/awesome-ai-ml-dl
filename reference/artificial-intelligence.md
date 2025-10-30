@@ -1,4 +1,6 @@
-# Artificial intelligence
+# 🤖 Artificial intelligence
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - [Artificial intelligence (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_intelligence)
 - [Artificial intelligence (Quora)](https://www.quora.com/topic/Artificial-Intelligence)
