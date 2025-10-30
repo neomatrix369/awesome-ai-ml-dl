@@ -1,4 +1,6 @@
-# Data preparation
+# 🧹 Data preparation
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 ## Data cleaning
 

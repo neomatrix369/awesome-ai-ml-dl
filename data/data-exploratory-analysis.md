@@ -1,8 +1,10 @@
-# Data Exploratory Analysis
+# 🔍 Data Exploratory Analysis
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 aka *_Exploratory Data Analysis_*
 
-### General
+### General
 
 - [Introduction to Data Analysis and Cleaning presentation](../presentations/data/01-mam-ml-study-group-meetup/Introduction_to_Data_Analysis_and_Cleaning.pdf) by [Mark Bell](http://www.nationalarchives.gov.uk/about/our-research-and-academic-collaboration/our-research-and-people/staff-profiles/mark-bell/)
 - [How To Determine If A Sample Is Representative](https://www.linkedin.com/posts/vincentg_how-to-determine-if-a-sample-is-representative-activity-6657012501504421888-aaPa)

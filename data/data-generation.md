@@ -1,4 +1,6 @@
-# Data Generation
+# 🎲 Data Generation
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 ### Generate numeric data fitting a model/distribution (to fit linear model / ring / etc)
 

@@ -1,4 +1,6 @@
-# Model creation
+# 🏗️ Model creation
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 ### General
 
