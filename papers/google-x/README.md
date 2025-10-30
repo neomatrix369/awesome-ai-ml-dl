@@ -1,6 +1,7 @@
-## Papers by members of Google and Google X (aka X-Team)
+# 📄 Papers (Google & X-Team)
+> Selected research papers and related visuals from Google and Google X.
 
-[Back to main](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
+[Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
 
 - [TensorNetwork for Machine Learning](https://arxiv.org/pdf/1906.06329.pdf)
 - [Using Simulation and Domain Adaptation to Improve Efficiency of Deep Robotic Grasping](https://arxiv.org/abs/1709.07857)

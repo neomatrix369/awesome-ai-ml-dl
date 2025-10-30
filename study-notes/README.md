@@ -1,6 +1,7 @@
-# Study Notes
+# 📝 Study Notes
+> Personal notes and references gathered while learning ML/DL/NLP.
 
-[Back to main](../README.md) | [Details](../README-details.md) | [Data](../data/README.md) | [NLP](../natural-language-processing/README.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [📊 Data](../data/README.md) · [🧠 NLP](../natural-language-processing/README.md) · [🧰 Tools](../tools/README.md)
 
 - #talk-by-jakub-langr-author-of-gans-in-action
 - #ml-crash-course-by-google
