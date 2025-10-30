@@ -139,11 +139,11 @@ def audit_file(md_path: Path, include_sections: Optional[List[str]] = None) -> L
                         continue
                     # derive likely categories based on text and target
                     hits = set(detect_keywords(text) + detect_keywords(target))
-                    # ignore if empty or matches path context or generic sections
-                    if section and section.strip().lower() in GENERIC_SECTIONS:
+                    # ignore if empty or matches path context or generic sections (substring match)
+                    sec_norm = (section or "").strip().lower()
+                    if sec_norm and any(gs in sec_norm for gs in GENERIC_SECTIONS):
                         continue
                     if include_sections:
-                        sec_norm = (section or "").strip().lower()
                         if sec_norm not in [s.strip().lower() for s in include_sections]:
                             continue
                     sec_hits = set(detect_keywords(section))
