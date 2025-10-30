@@ -1,6 +1,11 @@
-# Ensembler [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# 🧩 Ensembler [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[Back to main](../../README.md) | [Details](../../README-details.md) | [Data](../../data/README.md) | [NLP](../../natural-language-processing/README.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
+[Home](../../README.md) · [📚 Data](../../data/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🧠 NLP](../../natural-language-processing/README.md)
+
+## At a glance
+- **Objective**: demonstrate ensembling workflows and scripts
+- **Run modes**: Docker and local
+- **Resources**: notebooks, scripts, and presentations
 
 
 ---

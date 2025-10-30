@@ -1,4 +1,11 @@
-# Grakn and Graql [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# 🧱 Grakn and Graql [![Grakn](https://img.shields.io/docker/pulls/neomatrix369/grakn.svg)](https://hub.docker.com/r/neomatrix369/grakn) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+[Home](../../../../../README.md) · [📚 Data](../../../../../data/README.md) · [📓 Notebooks](../../../../../notebooks/README.md) · [🧰 Tools](../../../../../tools/README.md)
+
+## At a glance
+- **Graph DB**: Grakn server and Graql usage via Docker
+- **Performance**: benchmarking scripts included
+- **Extras**: build from source and GraalVM exploration
 
 Run [Grakn and Graql](http://grakn.ai) in a docker container running under the traditional Java 8 (from OpenJDK or another source).
 
