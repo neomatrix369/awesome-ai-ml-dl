@@ -9,7 +9,7 @@ This report flags links whose keywords suggest different categories than the cur
 
 ### Progress
 
-- Current findings: 54
+- Current findings: 52
 
 
 ## README-details.md
@@ -47,10 +47,6 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L9: [COMMON-REFERENCES.md › Official Documentation › MCP](../COMMON-REFERENCES.md#official-documentation) — section: 'Official Documentation — See [COMMON-REFERENCES.md › Official Documentation](../COMMON-REFERENCES.md#official-documentation)' — suggested: agents
 
-## data/about-Weights-and-Biases.md
-
-- L32: [Quick and Dirty CNN](./wandb/Quick-and-Dirty-CNN.py) — section: 'Weights & Biases' — suggested: computer-vision
-
 ## data/data-generation.md
 
 - L77: [Library, Framework, Models, Tools, Services](../natural-language-processing/library-framework-models-tools-services.md) — section: 'Data Augmentation' — suggested: nlp, tools
@@ -58,10 +54,6 @@ This report flags links whose keywords suggest different categories than the cur
 ## domains/keras-bag-of-words-expanded-version/generating-predictions.md
 
 - L84: [keras-bow-model.ipynb](./data-scripts-notebooks/keras-bow-model.ipynb) — section: 'Source file of the notebook' — suggested: data
-
-## examples/better-nlp/docs/Jupyter_notebook.md
-
-- L9: [Docker-container-console-Jupyter-lab-loading.png](Docker-container-console-Jupyter-lab-loading.png) — section: 'Better NLP related' — suggested: notebooks
 
 ## examples/cloud-devops-infra/valohai/MLPMnist/README.md
 
@@ -160,4 +152,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
 
 
-Total flagged links: 54
+Total flagged links: 52

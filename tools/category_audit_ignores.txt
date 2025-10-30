@@ -143,4 +143,16 @@
 ^examples\/JuPyteR\/Docker-container-instructions\.md$ | .+ | ^\.\/build-docker-image\/.*
 ^examples\/cloud-devops-infra\/valohai\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/data\/README\.md$
 # Devoxx talk: expected notebooks links
-^presentations\/data\/02-devoxx-uk-2019\/README\.md$ | ^Notebooks used during the talk$ | ^\.\.\/\.\.\/notebooks\/jupyter\/data\/$
+^presentations\/data\/02-devoxx-uk-2019\/README\.md$ | ^Notebooks used during the talk$ | ^(\.\.\/){2,3}notebooks\/jupyter\/data\/?$
+# Docker-image folder links in example READMEs
+^examples\/(deepnetts|ensembler|tribuo)\/README\.md$ | ^docker-image folder$ | ^docker-image$
+# Papers page inline image links
+^papers\/google-x\/README\.md$ | ^Page 05 - .*\.jpg$ | \.jpg$
+# Notebooks page RAPIDS link
+^notebooks\/README\.md$ | ^Notebooks from NVIDIA's RAPIDS$ | ^\.\.\/infrastructure\/cloud-devops-infra\/gpus\/rapids\.md#notebooks$
+# Infra page "See also: Data > Programs and Tools"
+^infrastructure\/cloud-devops-infra\/README\.md$ | ^See also: Data > Programs and Tools$ | ^\.\.\/\.\.\/data\/programs-and-tools\.md#programs-and-tools$
+# Suppress image references in Better NLP docs
+^examples\/better-nlp\/docs\/.*$ | .+ | \.png$
+# Suppress specific W&B CNN example link as expected
+^data\/about-Weights-and-Biases\.md$ | ^Quick and Dirty CNN$ | ^\.\/wandb\/Quick-and-Dirty-CNN\.py$
