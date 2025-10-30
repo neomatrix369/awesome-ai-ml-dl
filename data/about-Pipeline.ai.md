@@ -1,4 +1,6 @@
-## Pipeline.ai
+# ⚙️ Pipeline.ai
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - Signup at https://pipeline.ai/
 - Comparisons: https://pipeline.ai/products/

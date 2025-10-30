@@ -1,4 +1,6 @@
-## Tableau Prep
+# 📋 Tableau Prep
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - Download desktop app from https://www.tableau.com/products/prep (Mac or Windows) or the public version at https://public.tableau.com/en-us/s/
 - Install app and run it

@@ -1,4 +1,6 @@
-## ModeAnalytics
+# 📉 ModeAnalytics
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - Mode Studio: https://modeanalytics.com/
   - https://modeanalytics.com/editor/neomatrix369/reports/new
