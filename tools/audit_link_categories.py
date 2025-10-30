@@ -170,7 +170,10 @@ def main() -> None:
     include_sections = [s.strip() for s in args.include_sections.split(",")] if args.include_sections else None
     report_lines: List[str] = []
     report_lines.append("# Link Categorization Audit\n")
-    report_lines.append("This report flags links whose keywords suggest different categories than the current section/folder context.\n")
+    # Status header persisted across regenerations
+    # (dynamic findings count is added below after computing total)
+    report_lines.append("\nStatus: In progress\n")
+    report_lines.append("\nThis report flags links whose keywords suggest different categories than the current section/folder context.\n")
     total = 0
     for md in sorted(MD_FILES):
         if include_path_re and not include_path_re.search(str(md)):
@@ -184,6 +187,14 @@ def main() -> None:
         for lineno, text, target, section, hits in findings:
             hits_str = ", ".join(hits)
             report_lines.append(f"- L{lineno}: [{text}]({target}) — section: '{section or '-'}' — suggested: {hits_str}")
+    # Insert a brief progress section with dynamic findings count
+    progress_section = [
+        "\n### Progress\n",
+        f"- Current findings: {total}\n",
+    ]
+    # Insert after the title and status (i.e., at index 3)
+    report_lines[3:3] = progress_section
+
     report_lines.append(f"\n\nTotal flagged links: {total}\n")
 
     out = Path(args.output)

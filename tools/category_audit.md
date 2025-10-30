@@ -1,11 +1,15 @@
 # Link Categorization Audit
 
+
 Status: In progress
 
-### Progress since last update
-- Findings reduced to 58 after keyword tokenization and broader ignores for expected nav.
 
 This report flags links whose keywords suggest different categories than the current section/folder context.
+
+
+### Progress
+
+- Current findings: 54
 
 
 ## README-details.md
@@ -85,18 +89,10 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L95: [Back to Dakaiku DSS Main Page](./README.md#dataiku-data-science-studio-dss) — section: 'Polyglot JDK (GraalVM) - JVMCI enabled' — suggested: data
 
-## infrastructure/cloud-devops-infra/README.md
-
-- L102: [See also: Data > Programs and Tools](../../data/programs-and-tools.md#programs-and-tools) — section: 'Tools' — suggested: data
-
 ## natural-language-processing/README.md
 
 - L3: [Data](../data/README.md) — section: 'Natural Language Processing (NLP)' — suggested: data
 - L3: [Cloud](../infrastructure/cloud-devops-infra/README.md) — section: 'Natural Language Processing (NLP)' — suggested: infrastructure
-
-## notebooks/README.md
-
-- L75: [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/rapids.md#notebooks) — section: 'RAPIDS' — suggested: infrastructure
 
 ## notebooks/jupyter/data/data-generation/README.md
 
@@ -105,7 +101,6 @@ This report flags links whose keywords suggest different categories than the cur
 ## papers/google-x/README.md
 
 - L3: [📊 Data](../../data/README.md) — section: 'Papers by members of Google and Google X (aka X-Team)' — suggested: data
-- L17: [Page 05 - Tensor Network - a library for ...jpg](./Page\ 05\ -\ Tensor\ Network\ -\ a\ library\ for\ ...jpg) — section: 'Papers by members of Google and Google X (aka X-Team)' — suggested: tools
 
 ## presentations/awesome-ai-ml-dl/01-jonconf-2020/README.md
 
@@ -136,7 +131,6 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L7: [slides (PDF)](Do_we_know_our_data,_as_good_as_we_know_our_tools_.pdf) — section: 'Slides' — suggested: data
 - L45: [Simple Data generation code](../../../notebooks/jupyter/data/data-generation/README.md) — section: 'Code' — suggested: data, notebooks
-- L49: [Notebooks used during the talk](../../../notebooks/jupyter/data/) — section: 'Notebooks' — suggested: data, notebooks
 
 ## presentations/data/04-grakn-cosmos-2020/README.md
 
@@ -166,4 +160,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
 
 
-Total flagged links: 58
+Total flagged links: 54
