@@ -9,7 +9,7 @@ This report flags links whose keywords suggest different categories than the cur
 
 ### Progress
 
-- Current findings: 41
+- Current findings: 37
 
 
 ## README-details.md
@@ -49,24 +49,11 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L84: [keras-bow-model.ipynb](./data-scripts-notebooks/keras-bow-model.ipynb) — section: 'Source file of the notebook' — suggested: data
 
-## examples/cloud-devops-infra/valohai/MLPMnist/README.md
-
-- L3: [📊 Data](../../../../data/README.md) — section: 'mlpmnist-dl4j-example project [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-
-## examples/cloud-devops-infra/valohai/nlp-cuda/README.md
-
-- L3: [📊 Data](../../../../data/README.md) — section: 'DL4J NLP examples [![NLP using DL4J (cuda)](https://img.shields.io/docker/pulls/neomatrix369/dl4j-nlp-cuda.svg)](https://hub.docker.com/r/neomatrix369/dl4j-nlp-cuda) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-
 ## examples/cloud-devops-infra/wandb/sb-fx-competition/README.md
 
 - L5: [Jupyter notebook with implementation](./Method-02-Linear-Model.ipynb) — section: 'Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
 - L6: [HTML output of the same notebook](./Method-02-Linear-Model.html) — section: 'Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
 - L18: [about W&B](../../../../data/about-Weights-and-Biases.md#weights--biases) — section: 'Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
-
-## natural-language-processing/README.md
-
-- L3: [Data](../data/README.md) — section: 'Natural Language Processing (NLP)' — suggested: data
-- L3: [Cloud](../infrastructure/cloud-devops-infra/README.md) — section: 'Natural Language Processing (NLP)' — suggested: infrastructure
 
 ## papers/google-x/README.md
 
@@ -129,4 +116,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
 
 
-Total flagged links: 41
+Total flagged links: 37

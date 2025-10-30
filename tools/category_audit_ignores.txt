@@ -72,6 +72,9 @@
 # Allow additional references in vendor pages to Data index
 ^infrastructure\/cloud-devops-infra\/about-neural-magic\.md$ | .+ | \.\.\/data\/README\.md$
 ^infrastructure\/cloud-devops-infra\/about-vast\.ai\.md$ | .+ | \.\.\/data\/README\.md$
+# NLP expected nav cross-links (top nav)
+^natural-language-processing\/README\.md$ | .+ | ^\.\.\/data\/README\.md$
+^natural-language-processing\/README\.md$ | .+ | ^\.\.\/infrastructure\/cloud-devops-infra\/README\.md$
 # Data expected cross-links (nav/related)
 ^data\/README\.md$ | .+ | \.\.\/README\.md$
 ^data\/README\.md$ | .+ | \.\.\/README-details\.md.*$
@@ -123,10 +126,10 @@
 ^courses\.md$ | .+ | ^\.\/tools\/README\.md$
 ^courses\.md$ | .+ | ^\.\/notebooks\/README\.md$
 # Examples README expected cross-links (nav)
-^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,3}data\/README\.md$
-^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,3}natural-language-processing\/README\.md$
-^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,3}tools\/README\.md$
-^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,3}notebooks\/README\.md$
+^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,4}data\/README\.md$
+^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,4}natural-language-processing\/README\.md$
+^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,4}tools\/README\.md$
+^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,4}notebooks\/README\.md$
 # Suppress JuPyteR project root helper link
 ^examples\/JuPyteR\/README\.md$ | ^project root$ | ^\.\.\/JuPyteR\/README\.md$
 # README top-header nav items
