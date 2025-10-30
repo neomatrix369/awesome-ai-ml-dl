@@ -9,17 +9,12 @@ This report flags links whose keywords suggest different categories than the cur
 
 ### Progress
 
-- Current findings: 26
+- Current findings: 24
 
 
 ## README-details.md
 
 - L248: [Best practices / rules / an unordered list of high level or low level guidelines](data/README.md#best-practices--rules--an-unordered-list-of-high-level-or-low-level-guidelines) — section: 'Best Practices' — suggested: data
-
-## README.md
-
-- L3: [Data](./data/README.md) — section: 'Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)' — suggested: data
-- L3: [NLP](./natural-language-processing/README.md) — section: 'Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)' — suggested: nlp
 
 ## blogs/ai-coding-tools/claude-command-reference-card/resources-and-references.md
 
@@ -102,4 +97,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L288: [TPU example on Cloud/DevOps/Infra page](../infrastructure/cloud-devops-infra/README.md#tpu) — section: 'ML Crash course by Google' — suggested: infrastructure
 
 
-Total flagged links: 26
+Total flagged links: 24

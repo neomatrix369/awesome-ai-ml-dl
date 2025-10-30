@@ -104,7 +104,7 @@ def audit_file(md_path: Path, include_sections: Optional[List[str]] = None) -> L
         "quick links", "core topics", "specialized areas", "reference materials",
         "at a glance", "deep dive", "what’s new", "legacy content (full index)",
         # portal headings
-        "python", "java & jvm", "other languages", "explore by domain",
+        "python", "java & jvm", "other languages", "explore by domain", "awesome ai-ml-dl",
         "ethics & governance", "data & analytics", "learning resources", "cloud & devops",
         "tools & infrastructure", "mathematical foundations",
         "automation & mlops", "miscellaneous", "guides & tutorials", "courses & competitions",
