@@ -1,12 +1,17 @@
-# Data
+# 📊 Data
 
 > 📊 From collection to insights: datasets, EDA, features, and workflows.
 
 ![Section](https://img.shields.io/badge/Section-Data-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
 
-Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 📚 [Data](./README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · ☁️ [Cloud](../infrastructure/cloud-devops-infra/README.md) · 🧠 [NLP](../natural-language-processing/README.md) · [Presentations](../presentations/README.md)
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md) · [🖥️ Presentations](../presentations/README.md)
 
 ![banner](../assets/banners/data-hero.png)
+
+## At a glance
+- **Workflows**: collection, EDA, prep, generation, features
+- **Guides**: statistics, visualization, best practices
+- **Resources**: datasets, tools, notebooks
 
 ## Related
 - [Notebooks](../notebooks/README.md)
