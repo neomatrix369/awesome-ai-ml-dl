@@ -1,4 +1,6 @@
-# Julia, Python and R
+# 🐍 Julia, Python and R
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📊 Data](../data/README.md)
 
 - #general
 - #generative-adversarial-network-gan
