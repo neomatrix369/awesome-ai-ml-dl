@@ -81,7 +81,6 @@ See [Building Grakn](./docs/building-grakn.md)
 #### Known issues doing the above
 
 - [java.lang.NoClassDefFoundError: Lorg/codehaus/janino/ScriptEvaluator](https://github.com/oracle/graal/issues/1943) - moving back to GraalVM CE 19.2.1 seem to have resolved the issue.
-- [6 Unsupported features exception (log4j might be one of the reasons)](https://github.com/oracle/graal/issues/2115) - being discussed with the GraalVM team.
 
 ## Graql
 
@@ -131,3 +130,7 @@ Please have a look at the [CONTRIBUTING](../../../../../CONTRIBUTING.md) guideli
 
 Back to [Data](../../../../../data/README.md)</br>
 Back to [main page (table of contents)](../../../../../README.md)
+
+## Data
+
+- [6 Unsupported features exception (log4j might be one of the reasons)](https://github.com/oracle/graal/issues/2115) - being discussed with the GraalVM team.

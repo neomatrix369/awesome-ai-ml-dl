@@ -15,7 +15,6 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 - [Slack](http://community-slack.valohai.com/)
 - [@valohaiai](https://twitter.com/@valohaiai)
 - [Search for any topic in the Documentation](https://docs.valohai.com/search.html?q=%3Cany+topic%3E)
-- [Custom Docker Images](https://docs.valohai.com/guides/build-docker-image.html)
 - At a glance: Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
 
 - Pros
@@ -49,3 +48,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>
 Back to [Data page](./README.md#data).
+
+## Computer Vision
+
+- [Custom Docker Images](https://docs.valohai.com/guides/build-docker-image.html)

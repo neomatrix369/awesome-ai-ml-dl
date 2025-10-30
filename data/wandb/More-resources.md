@@ -29,7 +29,6 @@
 - [Top 100 - Project Gutenberg, 33000+ free ebooks online](http://www.gutenberg.org/browse/scores/top)
 - Code: https://github.com/lukas/ml-class/tree/master/examples/lstm/text-gen
 - [Complete works of Shakespeare](http://shakespeare.mit.edu/)
-- [An interesting dataset](http://www.trumptwitterarchive.com/archive/none/tfff/1-1-2015_11-1-2018)
 - [Tab-delimited Bilingual Sentence Pairs](http://www.manythings.org/anki/)
 
 ### Bloomberg and LSTM classes (slides)
@@ -43,8 +42,6 @@
 - [Bloomberg Class 8](https://wb-ml.slack.com/files/UCAGCLW48/FPZ8MGYP6/bloomberg_class_8.pdf)
 - [Bloomberg Class 8 - audio processing](https://wb-ml.slack.com/files/UCAGCLW48/FQARW1A30/class_8_audio_processing.pdf)
 - [Bloomberg Class 9](https://wb-ml.slack.com/files/UCAGCLW48/FQHND8VJR/class_9_concept_review.pdf)
-- [ML Class LSTM: Apr 2019](https://storage.googleapis.com/wandb/ML%20Class%20LSTM%20-%20Apr%2030%20-%202019.pdf)
-- [ML Class LSTM: Nov](https://storage.googleapis.com/wandb-production.appspot.com/mlclass/ML%20Class%20LSTM%20-%20Nov1%20.pdf)
 - [ML Class LSTM - Dec 3](https://drive.google.com/open?id=1gJvL9Nl67qQMS0pv9IscwwPrrofsmtY7)
 
 ### Questions and answers
@@ -70,7 +67,6 @@ Or in the case of the IMDB dataset the number of words the network get's to see 
 ### Misc resources
 
 - [Error caused by missing input_shape in your first layer](https://stackoverflow.com/questions/52690293/tensorflow-attributeerror-nonetype-object-has-no-attribute-original-name-sc)
-- [Bloomberg summary colab notebook](https://colab.research.google.com/drive/1lfLR9WRzmjOMmnNmePys4-8WNfZ5xC90#scrollTo=wbjXyjFRaT1d)
 - https://talktotransformer.com/ - Adam Daniel King's implementation of GPT-2 on the back of the PyTorch version
 - [Automated Bug Triaging](http://bugtriage.mybluemix.net/#code)
 - https://tensorspace.org/html/playground/lenet.html
@@ -78,3 +74,16 @@ Or in the case of the IMDB dataset the number of words the network get's to see 
 - https://jyothi-gupta.blogspot.com
 - https://hackernoon.com/imagine-a-drunk-island-advice-for-finding-ai-use-cases-8d47495d4c3f
 - https://github.com/jupyterlab/jupyterlab/issues/1146
+
+## Data
+
+- [An interesting dataset](http://www.trumptwitterarchive.com/archive/none/tfff/1-1-2015_11-1-2018)
+
+## Large Language Models (LLMs)
+
+- [ML Class LSTM: Apr 2019](https://storage.googleapis.com/wandb/ML%20Class%20LSTM%20-%20Apr%2030%20-%202019.pdf)
+- [ML Class LSTM: Nov](https://storage.googleapis.com/wandb-production.appspot.com/mlclass/ML%20Class%20LSTM%20-%20Nov1%20.pdf)
+
+## Notebooks
+
+- [Bloomberg summary colab notebook](https://colab.research.google.com/drive/1lfLR9WRzmjOMmnNmePys4-8WNfZ5xC90#scrollTo=wbjXyjFRaT1d)

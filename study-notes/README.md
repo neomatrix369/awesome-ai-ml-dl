@@ -100,10 +100,8 @@ Generate function is trainable
           for loops, for loops with multiple iterator variables (e.g., for a, b in [(1,2), (3,4)])
           if/else conditional blocks and conditional expressions
     - [String formatting](https://docs.python.org/3/tutorial/inputoutput.html#old-string-formatting) (e.g., `'%.2f' % 3.14`)
-    - Variables, assignment, [basic data types](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator) (`int`, `float`, `bool`, `str`)
     - The `[pass](https://docs.python.org/3/tutorial/controlflow.html#pass-statements)` [statement](https://docs.python.org/3/tutorial/controlflow.html#pass-statements)
     - Intermediate step: [The Python Tutorial](https://docs.python.org/3/tutorial/):
-        - [List comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
         - [Lambda functions](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
     - Third-Party Python Libraries
         - [Matplotlib](http://matplotlib.org/contents.html) (for data visualization)
@@ -159,7 +157,6 @@ Generate function is trainable
       Good example to start with: https://matplotlib.org/users/gridspec.html
 ```
 
-  - [Seaborn](http://seaborn.pydata.org/index.html) (for heatmaps)
 
 ```
     heatmap function
@@ -168,7 +165,6 @@ Generate function is trainable
               Sort of answer - https://stackoverflow.com/questions/26597116/seaborn-plots-not-showing-up
 ```
 
-  - [pandas](http://pandas.pydata.org/) (for data manipulation)
 
 ```
     DataFrame class
@@ -194,8 +190,6 @@ Generate function is trainable
     - Good to know
         - Tensorflow with GPU: https://colab.research.google.com/notebooks/gpu.ipynb
     - Tensorflow specific
-        -  `lambda` so we can pass in `my_feature` and `target` as arguments: [TensorFlow input function tutorial](https://www.tensorflow.org/get_started/input_fn#passing_input_fn_data_to_your_model)
-        - input functions and the `Dataset` API: [TensorFlow Programmer's Guide](https://www.tensorflow.org/programmers_guide/datasets)
     - ML concepts
         - https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit
     - Glossary
@@ -224,7 +218,6 @@ Generate function is trainable
             - **feature column -** feature columns store only a description of the feature data; they do not contain the feature data itself
             - https://github.com/karangautam/feature-engineering-book
         - TensorFlow [Estimator](https://www.tensorflow.org/get_started/estimator) API
-            - [LinearRegressor](https://www.tensorflow.org/api_docs/python/tf/estimator/LinearRegressor) interface
             - Optimizer
                 - GradientDescentOptimizer interface, (implements Mini-Batch Stochastic Gradient Descent (SGD))
                 - [gradient clipping](https://developers.google.com/machine-learning/glossary/#gradient_clipping) - gradient clipping ensures the magnitude of the gradients do not become too large during training, which can cause gradient descent to fail
@@ -257,7 +250,6 @@ Generate function is trainable
             - Questions
                 - What is the difference between precision and accuracy?
                     - Summary: you can think of darts, precision is grouping of shots (how close the results/predictions are to a central point), accuracy is how close the central point of the results (predictions) is to the target (label.)
-                    - This article explains more fully through an example: [https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)
                     - The precision, recall, accuracy formula are shown below. Key: tp=true positive, tn = true negative, fp=false positive, fn=false negative. It also helps to see the confusion matrix, explaining how tp, tn, fp, and fn all fit together, see below.
 ![image]( precision-versus-recall.png)
 
@@ -283,10 +275,8 @@ Generate function is trainable
                     - TPU version: https://colab.research.google.com/drive/1EkZPH6UE_I1a2TQfDDpjjqA7Na0_qd6v
         - GPU example
             - [Original TensorFlow GPU notebook](https://www.tensorflow.org/guide/using_gpu) | [Improvised TensorFlow GPU notebook](https://colab.research.google.com/drive/1q0OCnhN60s4hM-PXQikdj0-0c4DZ2VWf#scrollTo=QXRh0DPiZRyG)
-            - [Measure Performance on GPU over CPU, in a notebook](https://colab.research.google.com/drive/1XmPDQu_GpwkiBioRZlreLaGVZ_BBEK5j#scrollTo=QXRh0DPiZRyG)
         - TPU example
             - see [TPU example on Cloud/DevOps/Infra page](../infrastructure/cloud-devops-infra/README.md#tpu)
-      - [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
 
 ### ML Recipe course by Josh Gordon
 
@@ -349,3 +339,22 @@ python scripts/label_image.py --image Bandung_Rose.jpg
 ---
 
 #study-notes · [← Back home](../README.md)
+
+## Data
+
+    - Variables, assignment, [basic data types](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator) (`int`, `float`, `bool`, `str`)
+        - [List comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+  - [Seaborn](http://seaborn.pydata.org/index.html) (for heatmaps)
+  - [pandas](http://pandas.pydata.org/) (for data manipulation)
+        -  `lambda` so we can pass in `my_feature` and `target` as arguments: [TensorFlow input function tutorial](https://www.tensorflow.org/get_started/input_fn#passing_input_fn_data_to_your_model)
+        - input functions and the `Dataset` API: [TensorFlow Programmer's Guide](https://www.tensorflow.org/programmers_guide/datasets)
+                    - This article explains more fully through an example: [https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)
+      - [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
+
+## Tools & Frameworks
+
+            - [LinearRegressor](https://www.tensorflow.org/api_docs/python/tf/estimator/LinearRegressor) interface
+
+## Infrastructure & Cloud
+
+            - [Measure Performance on GPU over CPU, in a notebook](https://colab.research.google.com/drive/1XmPDQu_GpwkiBioRZlreLaGVZ_BBEK5j#scrollTo=QXRh0DPiZRyG)

@@ -12,7 +12,6 @@ See [YouTube](https://www.youtube.com/watch?v=8c-EiihA4wo).
 
 ### Speaker
 
-- [Mani Sarkar](http://kaggle.com/neomatrix369)
 
 ### Abstract
 
@@ -25,3 +24,7 @@ In the notebook, Mani has shared posts which touch on some of the limitations ab
 We will not be taking any positions, but understand our position and make sure we do as much as possible to use solutions that cover multiple angles as opposed to relying on single ones.
 
 See [talk](https://www.eventbrite.com/e/meetup-33-tickets-302461700087?aff=ebdsoporgprofile) link.
+
+## Notebooks
+
+- [Mani Sarkar](http://kaggle.com/neomatrix369)

@@ -25,9 +25,7 @@
 - Session 8: [Addressing Skills Gaps to Grow in Career](https://www.youtube.com/watch?v=WZH_qnxa3NQ&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=7)
 - Session 9: [Thinking End to End Development](https://www.youtube.com/watch?v=ibXN3Douzfw&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=6)
 - Session 10: [How to practice soft skills?](https://www.youtube.com/watch?v=2dXssJRyVko&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=5)
-- Session 11: [Does programming language rankings matter for your career?](https://www.youtube.com/watch?v=0U3f6ouWkNs&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=4)
 - Session 12: [Campus Party and conferences in general](https://www.youtube.com/watch?v=KC6s33br5uE&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=3)
-- Session 13: [Can ChatGPT help with dev challenges?](https://www.youtube.com/watch?v=F-XVZxa_mnk&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=2)
 - Session 14: [How to keep developers motivation up?!](https://www.youtube.com/watch?v=Hjkasm5waXM&list=PL7dC9F61zPeuP7noldjww5mU7lFcAy5H-&index=4)
 - Session 15: [Good Developers?](https://www.youtube.com/watch?v=WUoLlF5QhZQ)
 - Session 16: [I want to become an AI developer!](https://www.youtube.com/watch?v=E2nbEUiG1SY)
@@ -43,3 +41,11 @@ Please download slides to be able to click on the links (see top corner for Down
 ---
 
 #the-out-of-the-box-developer · [← Back home](../../../README.md)
+
+## NLP
+
+- Session 11: [Does programming language rankings matter for your career?](https://www.youtube.com/watch?v=0U3f6ouWkNs&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=4)
+
+## Large Language Models (LLMs)
+
+- Session 13: [Can ChatGPT help with dev challenges?](https://www.youtube.com/watch?v=F-XVZxa_mnk&list=PLUz6BqeCy21SXbOTMV5uRs5buGoYaW-Qu&index=2)

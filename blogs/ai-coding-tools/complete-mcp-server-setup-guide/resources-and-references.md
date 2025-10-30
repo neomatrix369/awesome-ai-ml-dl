@@ -17,27 +17,19 @@
 
 **Tool Comparisons**
 1. [Claude Code vs Cursor](https://www.qodo.ai/blog/claude-code-vs-cursor/) - Qodo AI
-2. [Detailed Comparison](https://www.pragmaticcoders.com/blog/claude-code-vs-cursor) - Pragmatic Coders
 3. [Cursor vs Claude Code](https://www.builder.io/blog/cursor-vs-claude-code) - Builder.io
 4. [Technical Comparison](https://northflank.com/blog/claude-code-vs-cursor-comparison) - Northflank
-5. [Feature Analysis](https://www.haihai.ai/cursor-vs-claude-code/) - Haihai AI
 
 **Configuration Guides**
 1. [Build a Shared Memory for Claude](https://blog.dailydoseofds.com/p/build-a-shared-memory-for-claude) - Daily Dose of DS
-2. [The Claude You'll Never Need to Remind](https://www.qed42.com/insights/the-claude-youll-never-need-to-remind-mcp-in-action) - QED42
 3. [Mastering Cursor Rules](https://dev.to/dpaluy/mastering-cursor-rules-a-developers-guide-to-smart-ai-integration-1k65) - Dev.to
 4. [Cursor IDE Setup Guide](https://www.usesaaskit.com/blog/cursor-ai-code-editor-setup-guide) - UseSaasKit
 5. [Cursor IDE Rules for AI](https://kirill-markin.com/articles/cursor-ide-rules-for-ai/) - Kirill Markin
-6. [Reference Files with @ in Claude Code](https://mcpcat.io/guides/reference-other-files/) - MCPCat
 7. [Referencing Files in Claude Code (Course Note)](https://stevekinney.com/courses/ai-development/referencing-files-in-claude-code) - Steve Kinney
 8. [Cursor Docs Hub](https://cursor.com/docs) - Cursor
 9. [Cursor Tips and Patterns](https://dev.to/heymarkkop/cursor-tips-10f8) - Dev.to
-10. [OpenMetadata: MCP with Claude](https://docs.open-metadata.org/latest/how-to-guides/mcp/claude) - OpenMetadata
 
 **Cross-Platform Setup**
-1. [How MCP Servers Work Across Platforms](https://dev.to/darkmavis1980/understanding-mcp-servers-across-different-platforms-claude-desktop-vs-vs-code-vs-cursor-4opk) - Dev.to
-2. [Setting Up MCP Servers](https://www.reddit.com/r/ClaudeAI/comments/1jf4hnt/setting_up_mcp_servers_in_claude_code_a_tech/) - Reddit
-3. [Connect Cursor to 100+ MCP Servers](https://composio.dev/blog/how-to-connect-cursor-to-100-mcp-servers-within-minutes) - Composio
 
 ### MCP Server Collections
 
@@ -96,30 +88,14 @@
 ### Reasoning Research
 
 **Sequential Thinking**
-1. [Sequential Thinking Deep Dive](https://skywork.ai/skypage/en/A-Deep-Dive-into-the-Sequential-Thinking-MCP-Server) - Skywork AI
-2. [How Sequential Thinking Works](https://www.reddit.com/r/mcp/comments/1jwjagw/how_does_the_sequential_thinking_mcp_work/) - Reddit
-3. [Python Implementation](https://github.com/XD3an/python-sequential-thinking-mcp)
-4. [LangGPT Version](https://github.com/LangGPT/sequential-thinking-mcp)
-5. [Zalab Implementation](https://github.com/zalab-inc/mcp-sequentialthinking)
 
 **Chain of Thought**
-1. [MCP CoT AI Agents](https://dzone.com/articles/mcp-cot-ai-agents-tools) - DZone
-2. [Chain of Thought Analysis](https://dev.to/aws-builders/chain-of-thought-is-probably-a-lie-and-thats-a-problem-4nkj) - Dev.to
-3. [DeepSeek Thinker](https://www.flowhunt.io/mcp-servers/deepseek-thinker-mcp/)
 
 ### Productivity Resources
 
 **Workflow Optimization**
-1. [Top 10 MCP Servers for 2025](https://dev.to/fallon_jimmy/top-10-mcp-servers-for-2025-yes-githubs-included-15jg) - Dev.to
-2. [10 MCP Servers to Make Life Easier](https://composio.dev/blog/10-awesome-mcp-servers-to-make-your-life-easier) - Composio
-3. [Best Cursor MCP Servers](https://www.getclockwise.com/blog/best-cursor-mcp-servers) - GetClockwise
-4. [Top 10 MCP Servers](https://apidog.com/blog/top-10-mcp-servers-for-claude-code/) - Apidog
 
 **Community Discussions**
-1. [My Claude Workflow Guide](https://www.reddit.com/r/ClaudeAI/comments/1ji8ruv/my_claude_workflow_guide_advanced_setup_with_mcp/) - Reddit
-2. [9 MCP Memory Frameworks That Work](https://www.reddit.com/r/cursor/comments/1na4sv9/9_mcp_memory_serversframeworks_that_actually_make/) - Reddit
-3. [Genuine Question: Memory MCP](https://www.reddit.com/r/ClaudeAI/comments/1kvot1c/genuine_question_do_you_use_any_kind_memory_mcp/) - Reddit
-4. [How to Make MCP Clients Share Memories](https://www.reddit.com/r/mcp/comments/1klq4ko/how_to_make_your_mcp_clients_share_memories_with/) - Reddit
 
 ### Debugging and Testing
 
@@ -156,10 +132,7 @@
 ### Installation Scripts and Tools
 
 **Community Scripts**
-1. [Claude MCP Installers](https://github.com/unbracketed/claude-mcp-installers)
-2. [Perplexity MCP](https://github.com/Alcova-AI/perplexity-mcp)
 3. [Claude MCP Tools](https://github.com/GrimFandango42/Claude-MCP-tools)
-4. [RLabs MCP](https://github.com/RLabs-Inc/claude-mcp)
 
 ### Community Tools, Prompts & Templates
 
@@ -181,7 +154,6 @@
   - Early community guides (pre-official naming)
 
 **Correct Package Registry**
-- [npm Registry](https://www.npmjs.com/search?q=%40modelcontextprotocol)
 - All official packages use `@modelcontextprotocol/server-*` naming
 
 ### Forums and Community Support
@@ -210,7 +182,6 @@
 **Enterprise Tools**
 1. Linear MCP: Official integrations documentation
 2. Sentry MCP: Official integrations documentation
-3. [GitHub MCP](https://cursorideguide.com/guides/github-mcp-setup-guide)
 4. Asana/Jira: Community implementations
 
 ### Additional Tools
@@ -219,4 +190,48 @@
 - [JSON Validator](https://jsonlint.com)
 - Online JSON Formatter: Various tools
 - [Git for version control](https://git-scm.com)
+
+## Large Language Models (LLMs)
+
+2. [Detailed Comparison](https://www.pragmaticcoders.com/blog/claude-code-vs-cursor) - Pragmatic Coders
+
+## Data
+
+5. [Feature Analysis](https://www.haihai.ai/cursor-vs-claude-code/) - Haihai AI
+
+## AI Agents
+
+2. [The Claude You'll Never Need to Remind](https://www.qed42.com/insights/the-claude-youll-never-need-to-remind-mcp-in-action) - QED42
+6. [Reference Files with @ in Claude Code](https://mcpcat.io/guides/reference-other-files/) - MCPCat
+10. [OpenMetadata: MCP with Claude](https://docs.open-metadata.org/latest/how-to-guides/mcp/claude) - OpenMetadata
+1. [How MCP Servers Work Across Platforms](https://dev.to/darkmavis1980/understanding-mcp-servers-across-different-platforms-claude-desktop-vs-vs-code-vs-cursor-4opk) - Dev.to
+2. [Setting Up MCP Servers](https://www.reddit.com/r/ClaudeAI/comments/1jf4hnt/setting_up_mcp_servers_in_claude_code_a_tech/) - Reddit
+3. [Connect Cursor to 100+ MCP Servers](https://composio.dev/blog/how-to-connect-cursor-to-100-mcp-servers-within-minutes) - Composio
+1. [Sequential Thinking Deep Dive](https://skywork.ai/skypage/en/A-Deep-Dive-into-the-Sequential-Thinking-MCP-Server) - Skywork AI
+2. [How Sequential Thinking Works](https://www.reddit.com/r/mcp/comments/1jwjagw/how_does_the_sequential_thinking_mcp_work/) - Reddit
+3. [Python Implementation](https://github.com/XD3an/python-sequential-thinking-mcp)
+4. [LangGPT Version](https://github.com/LangGPT/sequential-thinking-mcp)
+5. [Zalab Implementation](https://github.com/zalab-inc/mcp-sequentialthinking)
+1. [MCP CoT AI Agents](https://dzone.com/articles/mcp-cot-ai-agents-tools) - DZone
+3. [DeepSeek Thinker](https://www.flowhunt.io/mcp-servers/deepseek-thinker-mcp/)
+1. [Top 10 MCP Servers for 2025](https://dev.to/fallon_jimmy/top-10-mcp-servers-for-2025-yes-githubs-included-15jg) - Dev.to
+2. [10 MCP Servers to Make Life Easier](https://composio.dev/blog/10-awesome-mcp-servers-to-make-your-life-easier) - Composio
+3. [Best Cursor MCP Servers](https://www.getclockwise.com/blog/best-cursor-mcp-servers) - GetClockwise
+4. [Top 10 MCP Servers](https://apidog.com/blog/top-10-mcp-servers-for-claude-code/) - Apidog
+1. [My Claude Workflow Guide](https://www.reddit.com/r/ClaudeAI/comments/1ji8ruv/my_claude_workflow_guide_advanced_setup_with_mcp/) - Reddit
+2. [9 MCP Memory Frameworks That Work](https://www.reddit.com/r/cursor/comments/1na4sv9/9_mcp_memory_serversframeworks_that_actually_make/) - Reddit
+3. [Genuine Question: Memory MCP](https://www.reddit.com/r/ClaudeAI/comments/1kvot1c/genuine_question_do_you_use_any_kind_memory_mcp/) - Reddit
+4. [How to Make MCP Clients Share Memories](https://www.reddit.com/r/mcp/comments/1klq4ko/how_to_make_your_mcp_clients_share_memories_with/) - Reddit
+1. [Claude MCP Installers](https://github.com/unbracketed/claude-mcp-installers)
+2. [Perplexity MCP](https://github.com/Alcova-AI/perplexity-mcp)
+4. [RLabs MCP](https://github.com/RLabs-Inc/claude-mcp)
+3. [GitHub MCP](https://cursorideguide.com/guides/github-mcp-setup-guide)
 - [Docker (if using containerized MCP)](https://www.docker.com)
+
+## Infrastructure & Cloud
+
+2. [Chain of Thought Analysis](https://dev.to/aws-builders/chain-of-thought-is-probably-a-lie-and-thats-a-problem-4nkj) - Dev.to
+
+## NLP
+
+- [npm Registry](https://www.npmjs.com/search?q=%40modelcontextprotocol)

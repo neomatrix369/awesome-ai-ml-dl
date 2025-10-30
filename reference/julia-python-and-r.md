@@ -282,7 +282,6 @@ See [Visualisation](./visualisation.md#visualisation)
   - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
   - Python: See [this link](https://github.com/josephmisiti/awesome-machine-learning#python) for more Python related ML links
   - R: See [this link](https://github.com/josephmisiti/awesome-machine-learning#r) for more R related ML links
-  - [Top 7 Libraries and Packages for Data Science and AI: Python & R](https://heartbeat.fritz.ai/top-7-libraries-and-packages-of-the-year-for-data-science-and-ai-python-r-6b7cca2bf000)
   - [PyTorch](./pytorch.md#pytorch)
 
 # Contributing
@@ -295,3 +294,7 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 Back to [details page (table of contents)](../README-details.md#julia-python--r)<br>
 Back to [main page (table of contents)](../README.md)
+
+## Data
+
+  - [Top 7 Libraries and Packages for Data Science and AI: Python & R](https://heartbeat.fritz.ai/top-7-libraries-and-packages-of-the-year-for-data-science-and-ai-python-r-6b7cca2bf000)

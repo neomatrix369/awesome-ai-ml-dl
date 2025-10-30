@@ -399,7 +399,6 @@ This prevents conflicts when multiple reasoning servers are installed.
 ## Resources
 
 - **Official Docs**: [docs.claude.com](https://docs.claude.com)
-- **MCP Registry**: [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 - **Best Practices**: [anthropic.com/engineering/claude-code-best-practices](https://anthropic.com/engineering/claude-code-best-practices)
 
 ---
@@ -444,3 +443,7 @@ Your contributions make this reference better for the entire community. See [CON
 ---
 
 [Back to AI Coding Tools](../README.md) | [Main Repository](../../../README.md)
+
+## NLP
+
+- **MCP Registry**: [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)

@@ -18,16 +18,12 @@
 
 ### Missing values
 
-- [Working with missing data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html)
-- [Missing values in a dataset](https://www.datasciencecentral.com/profiles/blogs/how-to-treat-missing-values-in-your-data-1)
 - [Iterative Imputation for Missing Values in Machine Learning](https://machinelearningmastery.com/iterative-imputation-for-missing-values-in-machine-learning/)
-- [MissForest: The Best Missing Data Imputation Algorithm?](https://towardsdatascience.com/missforest-the-best-missing-data-imputation-algorithm-4d01182aed3)
 
 ### Imbalanced data
 
 - [Develop a Model for the Imbalanced Classification of Good and Bad Credit](https://machinelearningmastery.com/imbalanced-classification-of-good-and-bad-credit/)
 - [One-Class Classification Algorithms for Imbalanced Datasets](https://machinelearningmastery.com/one-class-classification-algorithms/)
-- [Step-By-Step Framework for Imbalanced Classification Projects](https://machinelearningmastery.com/framework-for-imbalanced-classification-projects/)
 
 ## Data preprocessing / Data wrangling / Data manipulation
 
@@ -51,22 +47,14 @@
 ### Transformations
 
 - [How to Use Quantile Transforms for Machine Learning](https://machinelearningmastery.com/quantile-transforms-for-machine-learning/)
-- [pre-processing filters like denoising, smoothing, thresholding, rescaling with python. As a part 3 of this series, in this post I have explained other pre-processing methods like masking, blending, image sharpening, erosion, dilation, geometric transformation](https://www.let-the-data-confess.com/image-pre-processing-through-opencv-part-3/)
 
 ### Scaling and normalisation
 
-- [Scale, Standardize, or Normalize with Scikit-Learn](https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02)
-- [Scale, Standardize or Normalize with scikit-learn](https://www.kaggle.com/discdiver/guide-to-scaling-and-standardizing)
-- [Mean normalization and Feature scaling](https://www.linkedin.com/posts/data-science-central_mean-normalization-and-feature-scaling-activity-6617945072522575872-My8E)
 - [How to Easily Calculate the Mean Absolute Deviation in Excel - Statology](https://www.statology.org/how-to-easily-calculate-the-mean-absolute-deviation-in-excel/) | [Wikipedia](https://en.wikipedia.org/wiki/Average_absolute_deviation)
 - [Normalising a distribution notebook](../notebooks/data/data-processing/Normalising-a-distribution.ipynb)
 
 ## Misc
 
-- [Pandera - Pandas data validation](https://www.linkedin.com/posts/madewithml_path-explain-made-with-ml-activity-6691703758189150208-KUwr)
-- [Data Preparation for Data Mining](http://www.temida.si/~bojan/MPS/materials/Data_preparation_for_data_mining.pdf)
-- [Learning with Limited Labeled Data with Shioulin Sam](https://twimlai.com/twiml-talk-255-learning-with-limited-labeled-data-with-shioulin-sam/)
-- See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model
 
 # Contributing
 
@@ -78,3 +66,30 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 Back to [Data page (table of contents)](README.md)</br>
 Back to [main page (table of contents)](../README.md)
+
+## Data
+
+- [Working with missing data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html)
+- [Missing values in a dataset](https://www.datasciencecentral.com/profiles/blogs/how-to-treat-missing-values-in-your-data-1)
+- [MissForest: The Best Missing Data Imputation Algorithm?](https://towardsdatascience.com/missforest-the-best-missing-data-imputation-algorithm-4d01182aed3)
+- [Scale, Standardize, or Normalize with Scikit-Learn](https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02)
+- [Mean normalization and Feature scaling](https://www.linkedin.com/posts/data-science-central_mean-normalization-and-feature-scaling-activity-6617945072522575872-My8E)
+- [Pandera - Pandas data validation](https://www.linkedin.com/posts/madewithml_path-explain-made-with-ml-activity-6691703758189150208-KUwr)
+- [Data Preparation for Data Mining](http://www.temida.si/~bojan/MPS/materials/Data_preparation_for_data_mining.pdf)
+- [Learning with Limited Labeled Data with Shioulin Sam](https://twimlai.com/twiml-talk-255-learning-with-limited-labeled-data-with-shioulin-sam/)
+
+## Tools & Frameworks
+
+- [Step-By-Step Framework for Imbalanced Classification Projects](https://machinelearningmastery.com/framework-for-imbalanced-classification-projects/)
+
+## Computer Vision
+
+- [pre-processing filters like denoising, smoothing, thresholding, rescaling with python. As a part 3 of this series, in this post I have explained other pre-processing methods like masking, blending, image sharpening, erosion, dilation, geometric transformation](https://www.let-the-data-confess.com/image-pre-processing-through-opencv-part-3/)
+
+## Notebooks
+
+- [Scale, Standardize or Normalize with scikit-learn](https://www.kaggle.com/discdiver/guide-to-scaling-and-standardizing)
+
+## NLP
+
+- See discussion on [how data cleaning/preprocessing](https://www.meetup.com/Kaggle-Days-Meetup-London/events/258570474/comments/500079284/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJDczM2Q5MDExLWYyZTctNDliNy1hZTgzLTk5NjFlMGViOGQ4Mw&itemTypeToken=COMMENT) went wrong resulting in poorly performing model

@@ -87,7 +87,6 @@ Named Entity Recognition has been developing continuously for over 15 years. The
 📌 An implementation of the MUC evaluation metrics can be found:
 * https://github.com/jantrienes/nereval
 * [“Automatic Content Extraction 2008 Evaluation Plan (ACE08)”](http://www.eng.utah.edu/~cs6961/papers/ACE-2008-description.pdf)
-* [“The Automatic Content Extraction (ACE) Program Tasks, Data, and Evaluation”](https://pdfs.semanticscholar.org/0617/dd6924df7a3491c299772b70e90507b195dc.pdf)
 * http://www.aclweb.org/anthology/M93-1007
 
 
@@ -97,3 +96,7 @@ Named Entity Recognition has been developing continuously for over 15 years. The
 * StanfordNLP
 * Vowpal Wabbit
 * Pytext
+
+## Data
+
+* [“The Automatic Content Extraction (ACE) Program Tasks, Data, and Evaluation”](https://pdfs.semanticscholar.org/0617/dd6924df7a3491c299772b70e90507b195dc.pdf)

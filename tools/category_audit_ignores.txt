@@ -1,0 +1,193 @@
+# path_regex | text_regex | target_regex
+^README-details\.md$ | ^Graph databases$ | \.\/data\/README\.md#databases$
+^README-details\.md$ | ^Grakn example$ | \.\/examples\/data\/databases\/graph\/grakn\/README\.md$
+# Domain nav cross-links
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/tools\/README\.md$
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/ai-agents\/README\.md$
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/natural-language-processing\/README\.md$
+^domains\/.*\/README\.md$ | .+ | \.\.\/\.\.\/infrastructure\/README\.md$
+# Domains index nav
+^domains\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md$
+^domains\/README\.md$ | .+ | \.\.\/ai-agents\/README\.md$
+^domains\/README\.md$ | .+ | \.\.\/data\/README\.md$
+^domains\/README\.md$ | .+ | \.\.\/notebooks\/README\.md$
+^domains\/README\.md$ | .+ | \.\.\/tools\/README\.md$
+# Time-series internal link to notebooks section
+^domains\/time-series\/README\.md$ | ^Notebooks$ | ^time-series\.md#notebooks$
+# AI Agents cross-links
+^ai-agents\/README\.md$ | .+ | \.\.\/data\/README\.md$
+^ai-agents\/README\.md$ | .+ | \.\.\/notebooks\/README\.md$
+^ai-agents\/README\.md$ | .+ | \.\.\/tools\/README\.md$
+^ai-agents\/README\.md$ | .+ | \.\.\/infrastructure\/cloud-devops-infra\/README\.md$
+^ai-agents\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md$
+^ai-agents\/resources\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
+^ai-agents\/resources\/README\.md$ | .+ | \.\.\/\.\.\/data\/README\.md$
+# Ignore tutorial image links in KBoW expanded
+^domains\/keras-bag-of-words-expanded-version\/.*$ | ^image$ | \.png$
+# KBoW expanded domain page cross-links
+^domains\/keras-bag-of-words-expanded-version\/README\.md$ | ^📊 Data$ | \.\.\/\.\.\/data\/README\.md$
+^domains\/keras-bag-of-words-expanded-version\/README\.md$ | ^data-scripts-notebooks$ | \.\/data-scripts-notebooks$
+# Reference cross-links (expected nav)
+^reference\/README\.md$ | .+ | \.\.\/data\/README\.md$
+^reference\/README\.md$ | .+ | \.\.\/notebooks\/README\.md$
+^reference\/README\.md$ | .+ | \.\.\/tools\/README\.md$
+^reference\/visualisation\.md$ | .+ | \.\.\/data\/README\.md.*$
+^reference\/visualisation\.md$ | .+ | \.\.\/notebooks\/README\.md.*$
+^reference\/visualisation\.md$ | .+ | \.\.\/tools\/README\.md.*$
+# Reference java & JPR cross-links
+^reference\/java-jvm\.md$ | .+ | \.\.\/tools\/README\.md#machine-learning-frameworks$
+^reference\/java-jvm\.md$ | .+ | \.\.\/infrastructure\/cloud-devops-infra\/README\.md#performance$
+^reference\/java-jvm\.md$ | .+ | \.\.\/data\/README\.md#post-model-creation-analysis-ml-interpretationexplainability$
+^reference\/julia-python-and-r\.md$ | .+ | \.\.\/natural-language-processing\/README\.md.*$
+^reference\/julia-python-and-r\.md$ | .+ | \.\.\/courses\.md#(image-processing|computer-vision)$
+^reference\/julia-python-and-r\.md$ | .+ | \.\.\/data\/README\.md#data-science$
+# Details page anchors
+^reference\/articles-papers-code-data-courses\.md$ | ^details page \(table of contents\)$ | \.\.\/README-details\.md#articles-papers-code-data-courses$
+^reference\/mathematica-wolfram-Language\.md$ | ^details page \(table of contents\)$ | \.\.\/README-details\.md#mathematica--wolfram-language$
+# README-details expected cross-link to Data best practices
+^README-details\.md$ | ^Best practices \/ rules \/ an unordered.*$ | ^data\/README\.md#best-practices.*$
+# AI image / data assets referenced from reference
+^reference\/artificial-intelligence\.md$ | ^What is a tensor\?$ | \.\.\/data\/what-is-a-tensor\.jpg$
+^reference\/visualisation\.md$ | ^How to choose your data visualisations$ | \.\.\/data\/how-to-choose-your-data-visualisations\.jpg$
+# Remaining acceptable reference cross-links
+^reference\/julia-python-and-r\/deep-learning\.md$ | ^Checkout 'Deep Learning with Tensorflow 2\.0 \(MNIST\)' Notebooks$ | \.\.\/notebooks\/README\.md#notebooks$
+^reference\/julia-python-and-r\/machine-learning\.md$ | .+ | \.\.\/infrastructure\/cloud-devops-infra\/README\.md#performance$
+^reference\/julia-python-and-r\/machine-learning\.md$ | .+ | \.\.\/data\/README\.md#post-model-creation-analysis-ml-interpretationexplainability$
+^reference\/julia-python-and-r\.md$ | ^An example on how-to install a Java kernel for JuPyteR notebooks \(Graal enabled, where platform supports\)$ | \.\.\/examples\/JuPyteR\/README\.md$
+^reference\/julia-python-and-r\.md$ | ^Image Processing$ | \.\.\/courses\.md#image-processing$
+^reference\/julia-python-and-r\.md$ | ^Computer Vision$ | \.\.\/courses\.md#computer-vision$
+^reference\/maths-stats-probability\.md$ | ^See Data > Statistics section more related links$ | \.\.\/data\/README\.md#statistics$
+^reference\/maths-stats-probability\.md$ | ^Data Science$ | \.\.\/courses\.md#data-science$
+^reference\/visualisation\.md$ | ^Guide to Visualization$ | \.\.\/presentations\/data\/.*\.pdf$
+# Infrastructure expected cross-links (nav/related)
+^infrastructure\/README\.md$ | .+ | \.\.\/data\/README\.md$
+^infrastructure\/README\.md$ | .+ | \.\.\/notebooks\/README\.md$
+^infrastructure\/README\.md$ | .+ | \.\.\/tools\/README\.md$
+^infrastructure\/README\.md$ | .+ | \.\.\/ai-agents\/README\.md$
+^infrastructure\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md$
+^infrastructure\/cloud-devops-infra\/README\.md$ | .+ | \.\.\/\.\.\/data\/README\.md$
+^infrastructure\/cloud-devops-infra\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
+^infrastructure\/cloud-devops-infra\/README\.md$ | .+ | \.\.\/\.\.\/tools\/README\.md$
+# Allow references to Data about W&B from infra
+^infrastructure\/cloud-devops-infra\/README\.md$ | ^Learn more about WandB$ | \.\.\/\.\.\/data\/about-Weights-and-Biases\.md$
+# Allow additional references in vendor pages to Data index
+^infrastructure\/cloud-devops-infra\/about-neural-magic\.md$ | .+ | \.\.\/data\/README\.md$
+^infrastructure\/cloud-devops-infra\/about-vast\.ai\.md$ | .+ | \.\.\/data\/README\.md$
+# NLP expected nav cross-links (top nav)
+^natural-language-processing\/README\.md$ | .+ | ^\.\.\/data\/README\.md$
+^natural-language-processing\/README\.md$ | .+ | ^\.\.\/infrastructure\/cloud-devops-infra\/README\.md$
+# Data expected cross-links (nav/related)
+^data\/README\.md$ | .+ | \.\.\/README\.md$
+^data\/README\.md$ | .+ | \.\.\/README-details\.md.*$
+^data\/README\.md$ | .+ | \.\.\/notebooks\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/tools\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/ai-agents\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/infrastructure\/cloud-devops-infra\/README\.md.*$
+^data\/README\.md$ | .+ | \.\.\/presentations\/README\.md.*$
+# Tools expected cross-links (nav/related)
+^tools\/README\.md$ | .+ | \.\.\/README\.md$
+^tools\/README\.md$ | .+ | \.\.\/README-details\.md.*$
+^tools\/README\.md$ | .+ | \.\.\/data\/README\.md.*$
+^tools\/README\.md$ | .+ | \.\.\/notebooks\/README\.md.*$
+^tools\/README\.md$ | .+ | \.\.\/ai-agents\/README\.md.*$
+^tools\/README\.md$ | .+ | \.\.\/natural-language-processing\/README\.md.*$
+# Notebooks expected cross-links (nav/related)
+^notebooks\/README\.md$ | .+ | \.\.\/README\.md$
+^notebooks\/README\.md$ | .+ | \.\.\/README-details\.md.*$
+^notebooks\/README\.md$ | .+ | \.\.\/data\/README\.md.*$
+^notebooks\/README\.md$ | .+ | \.\.\/presentations\/README\.md.*$
+^notebooks\/README\.md$ | .+ | \.\.\/tools\/README\.md.*$
+# Tools blog index expected cross-links
+^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
+^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/data\/README\.md$
+^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/reference\/julia-python-and-r\.md$
+# Blogs COMMON-REFERENCES expected cross-links (agents docs)
+^blogs\/ai-coding-tools\/.+\/resources-and-references\.md$ | .+ | ^\.\.\/COMMON-REFERENCES\.md#official-documentation$
+^blogs\/ai-coding-tools\/.+\/cursor-ide-setup\.md$ | .+ | ^\.\/advanced-mcp-servers\.md$
+# Suppress links inside audit report files themselves
+^tools\/category_audit.*\.md$ | .+ | .+
+# Data page expected cross-link to Programs and Tools
+^data\/.*\.md$ | ^Programs and Tools$ | ^\.\/programs-and-tools\.md#programs-and-tools$
+# README expected cross-links to blog indices
+^README\.md$ | .+ | \.\/blogs\/ethics-governance\/README\.md$
+^README\.md$ | .+ | \.\/blogs\/tutorials\/
+^README\.md$ | .+ | \.\/blogs\/ai-coding-tools\/README\.md$
+^README\.md$ | .+ | \.\/blogs\/ai-coding-tools\/COMMON-REFERENCES\.md$
+^README\.md$ | .+ | \.\/blogs\/cloud-infrastructure\/
+^README\.md$ | .+ | \.\/blogs\/frameworks-libraries\/
+^README\.md$ | .+ | \.\/blogs\/machine-learning\/
+^README\.md$ | .+ | \.\/blogs\/deep-learning\/
+^README\.md$ | .+ | \.\/blogs\/best-practices\/
+# Competitions top nav
+^competitions\.md$ | .+ | ^\.\/data\/README\.md$
+^competitions\.md$ | .+ | ^\.\/natural-language-processing\/README\.md$
+^competitions\.md$ | .+ | ^\.\/tools\/README\.md$
+^competitions\.md$ | .+ | ^\.\/notebooks\/README\.md$
+# Courses top nav
+^courses\.md$ | .+ | ^\.\/data\/README\.md$
+^courses\.md$ | .+ | ^\.\/natural-language-processing\/README\.md$
+^courses\.md$ | .+ | ^\.\/tools\/README\.md$
+^courses\.md$ | .+ | ^\.\/notebooks\/README\.md$
+# Examples README expected cross-links (nav)
+^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,4}data\/README\.md$
+^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,4}natural-language-processing\/README\.md$
+^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,4}tools\/README\.md$
+^examples\/.*\/README\.md$ | .+ | ^(\.\.\/){2,4}notebooks\/README\.md$
+# Suppress JuPyteR project root helper link
+^examples\/JuPyteR\/README\.md$ | ^project root$ | ^\.\.\/JuPyteR\/README\.md$
+# README top-header nav items
+^README\.md$ | .+ | ^\.\/(infrastructure|notebooks|tools|data|ai-agents|natural-language-processing)\/README\.md(.*)?$
+^README\.md$ | .+ | ^\.\/domains\/(ai-agents|nlp|computer-vision|large-language-models|generative-ai|mlops-deployment)\/README\.md$
+# Guides top nav
+^guides\.md$ | .+ | ^\.\/data\/README\.md$
+^guides\.md$ | .+ | ^\.\/natural-language-processing\/README\.md$
+^guides\.md$ | .+ | ^\.\/tools\/README\.md$
+^guides\.md$ | .+ | ^\.\/notebooks\/README\.md$
+# Presentations expected cross-links (nav to Data is OK)
+^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | .+ | ^(\.\.\/){2,4}data\/README\.md$
+^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | ^📊 Data$ | ^(\.\.\/){2,4}data\/README\.md$
+^presentations\/data\/.+\/README\.md$ | .+ | ^(\.\.\/){2,4}data\/README\.md$
+# New ignores for Docker instruction links and valohai expected Data nav
+^examples\/JuPyteR\/Docker-container-instructions\.md$ | .+ | ^\.\/build-docker-image\/.*
+^examples\/cloud-devops-infra\/valohai\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/data\/README\.md$
+# W&B example expected cross-link back to Data page
+^examples\/cloud-devops-infra\/wandb\/sb-fx-competition\/README\.md$ | ^about W&B$ | ^(\.\.\/){4}data\/about-Weights-and-Biases\.md#weights--biases$
+# Devoxx talk: expected notebooks links
+^presentations\/data\/02-devoxx-uk-2019\/README\.md$ | ^Notebooks used during the talk$ | ^(\.\.\/){2,3}notebooks\/jupyter\/data\/?$
+# Slides PDF links in presentations
+^presentations\/.+\/.+\/README\.md$ | ^slides \(PDF\)$ | \.pdf$
+# Docker-image folder links in example READMEs
+^examples\/(deepnetts|ensembler|tribuo)\/README\.md$ | ^docker-image folder$ | ^docker-image$
+# Papers page inline image links
+^papers\/google-x\/README\.md$ | ^Page 05 - .*\.jpg$ | \.jpg$
+# Papers page expected Data nav
+^papers\/google-x\/README\.md$ | .+ | ^(\.\.\/){2,4}data\/README\.md$
+# graql README internal Data anchor
+^examples\/data\/databases\/graph\/grakn\/graql\/README\.md$ | ^Data$ | ^README\.md#data$
+# study-notes top nav expected links
+^study-notes\/README\.md$ | .+ | ^\.\.\/data\/README\.md$
+^study-notes\/README\.md$ | .+ | ^\.\.\/natural-language-processing\/README\.md$
+^study-notes\/README\.md$ | ^TPU example on Cloud\/DevOps\/Infra page$ | ^\.\.\/infrastructure\/cloud-devops-infra\/README\.md#tpu$
+
+# Blogs troubleshooting previous link within same guide
+^blogs\/ai-coding-tools\/complete-mcp-server-setup-guide\/troubleshooting\.md$ | ^← Previous: Advanced MCP Servers$ | ^\.\/advanced-mcp-servers\.md$
+
+# Ignore example W&B notebook and HTML outputs (relaxed match)
+^examples\/cloud-devops-infra\/wandb\/sb-fx-competition\/README\.md$ | ^Jupyter notebook with implementation$ | Method-02-Linear-Model\.ipynb$
+^examples\/cloud-devops-infra\/wandb\/sb-fx-competition\/README\.md$ | ^HTML output of the same notebook$ | Method-02-Linear-Model\.html$
+
+# Ignore KBoW generating-predictions notebook link
+^domains\/keras-bag-of-words-expanded-version\/generating-predictions\.md$ | ^keras-bow-model\.ipynb$ | ^\.\/data-scripts-notebooks\/keras-bow-model\.ipynb$
+
+# Data Generation page expected cross-link to NLP library/frameworks/tools/services
+^data\/data-generation\.md$ | ^Library, Framework, Models, Tools, Services$ | ^\.\.\/natural-language-processing\/library-framework-models-tools-services\.md$
+# Notebooks page RAPIDS link
+^notebooks\/README\.md$ | ^Notebooks from NVIDIA's RAPIDS$ | ^\.\.\/infrastructure\/cloud-devops-infra\/gpus\/rapids\.md#notebooks$
+# Infra page "See also: Data > Programs and Tools"
+^infrastructure\/cloud-devops-infra\/README\.md$ | ^See also: Data > Programs and Tools$ | ^\.\.\/\.\.\/data\/programs-and-tools\.md#programs-and-tools$
+# Suppress image references in Better NLP docs
+^examples\/better-nlp\/docs\/.*$ | .+ | \.png$
+# Suppress specific W&B CNN example link as expected
+^data\/about-Weights-and-Biases\.md$ | ^Quick and Dirty CNN$ | ^\.\/wandb\/Quick-and-Dirty-CNN\.py$

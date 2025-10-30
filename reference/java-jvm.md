@@ -48,12 +48,9 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Want A Bigger Bang From AI? Embed It Into Your Apps](https://www.forbes.com/sites/oracle/2018/11/27/want-a-bigger-bang-from-ai-embed-it-into-your-apps/#1c07cc7a4e2d) ([Tweet](https://twitter.com/java/status/1068779734337708032))
   - [A Beginner's Guide to Automated Machine Learning & AI](https://t.co/s7lvKY9Y7z) ([Tweet](https://twitter.com/java/status/1051844141808664576))
   - [Five TED Talks on AI to watch](https://enterprisersproject.com/article/2017/10/5-ted-talks-ai-watch) ([Tweet](https://twitter.com/java/status/924260487554043904))
-  - [An ethics checklist for data scientists](http://deon.drivendata.org/)
-  - [Data science competitions to save the world](https://www.drivendata.org/)
   - [ThinkGradient - Transcending human intelligence through research and development in AI](https://www.thinkgradient.com/)
   - [Two years in the life of AI, ML, DL and Java](https://medium.com/@neomatrix369/two-years-in-the-life-of-ai-ml-dl-and-java-6bfe6eb8182a)
   - [Oracle AI blog posts](https://blogs.oracle.com/ai/)
-  - [H2O.ai Driverless on Oracle Cloude Infrastructure](https://blogs.oracle.com/cloud-infrastructure/h2oai-driverless-ai-cruises-on-oracle-cloud-infrastructure-gpus)
   - [Java AI libraries with Gluon Mobile](https://gluonhq.com/java-ai-libraries-with-gluon-mobile/)
 
 ## Classifier / decision trees
@@ -118,15 +115,8 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learning-frameworks) for a consolidated overview.
 
 - [Tribuo](https://tribuo.org/) | [Github](https://github.com/oracle/tribuo) | [The Oracle Labs Configuration and Utilities Toolkit](http://github.com/oracle/olcut) - Java ML library from Oracle Labs | [Tribuo example](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/tribuo)
-- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
-- [What do you need for ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
-- [Do you really need ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
-- [ML use cases](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/use-cases/use-cases.md)
-- [Introduction to ML](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/introduction-to-ml/introduction-to-ml.md)
-- [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
 - [Machine Learning Study Path](https://github.com/virgili0/Virgilio/blob/master/LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)
 - [ML for Java Developers](https://www.itworld.com/article/3224505/application-development/machine-learning-for-java-developers.html)
-- [Java ML Dev Videos on YouTube: Naive Bayes w/ JAVA - Tutorial 01](https://www.youtube.com/watch?v=mrP4CyW4tKA&frags=pl%2Cwn)
 - Java ML Framework: [1](https://github.com/datumbox/datumbox-framework) [2](http://blog.datumbox.com/developing-a-naive-bayes-text-classifier-in-java/)
 - [Jena](https://jena.apache.org/) - A free and open source Java framework for building Semantic Web and Linked Data applications
 - [Weka 3: Machine Learning Software in Java](https://www.cs.waikato.ac.nz/ml/weka)
@@ -136,7 +126,6 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
 - [Angel-ML: high-performance distributed machine learning platform (Java-base, Linux Foundation)](https://lfai.foundation/projects/angel-ml/)
-- [Machine Learning in Oracle Database](https://blogs.oracle.com/machinelearning/machine-learning-in-oracle-database)
 - [Building Models of Java Code from Source and JAR Files](https://bit.ly/2Mfxt5P)
 - [Introduction to Machine Learning and Neural Networks for Java Developers](https://blogs.oracle.com/developers/introduction-to-machine-learning-and-neural-networks-for-java-developers)
 - See [Java/JVM](../courses.md#javajvm) in [Courses](../courses.md)
@@ -146,15 +135,12 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
 
 ### Supervised
 
-  - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
 
 ### Unsupervised
 
-  - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
 
 ### Deep learning
 
-  - [Deep Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
   - [JFocus: Deep learning with Java](https://www.jfokus.se/jfokus17/preso/Deep-Learning-on-Java-tutorial.pdf) | [Video](https://www.youtube.com/watch?v=-hgAp470F-M) |([Tweet](https://twitter.com/juanantoniobm/status/832000819918733312))
   - [Understanding Machine Learning Algorithms with DL4J](https://skymind.ai/wiki/machine-learning-algorithms) ([Tweet](https://twitter.com/java/status/1077947895691673600))
   - [DL4J: Deep Learning for Java](https://deeplearning4j.org/) | [Docs/Guide](https://deeplearning4j.org/docs/latest/) | [Quickstart](https://deeplearning4j.org/docs/latest/deeplearning4j-quickstart) | [Tutorial](https://deeplearning4j.org/tutorials/setup) | [Roadmap for Beginners](https://deeplearning4j.org/docs/latest/deeplearning4j-beginners) | [DL4J Eclipse GitHub](https://github.com/eclipse/deeplearning4j) | DL4J Examples: [GitHub](https://github.com/deeplearning4j/dl4j-examples) o [Semantic site](https://semantive.com/deep-learning-examples/) o [Examples Tour](https://deeplearning4j.org/docs/latest/deeplearning4j-examples-tour)| [Setup Environment](https://www.tutorialkart.com/machine-learning/setup-environment-for-deep-learning-with-deeplearning4j/) | [Using DL4J](https://www.quora.com/How-do-I-use-deep-learning-in-Java) | Support: [gitter.im](https://gitter.im/deeplearning4j/deeplearning4j/) o [gitter guidelines](https://github.com/eclipse/deeplearning4j/blob/master/deeplearning4j/GITTER_GUIDELINES.md) o [GitHub Issues](https://github.com/deeplearning4j/deeplearning4j/issues) o [Stackoverflow](https://stackoverflow.com/search?tab=newest&q=deeplearning4j)
@@ -164,7 +150,6 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
   - [How to do Deep Learning for Java?](https://medium.com/@neomatrix369/how-to-do-deep-learning-for-java-on-the-valohai-platform-eec8ba9f71d8) | [Original post](https://blog.valohai.com/how-to-do-deep-learning-for-java-on-the-valohai-platform?from=3oxenia9mtr6)
   - [Free AI Training - Java-based deep-learning tools to analyze and train data, then send the resulting changes back to the server](https://www.youtube.com/watch?v=MXH_nn1dmsE) ([Tweet](https://twitter.com/java/status/1071422649501409280))
   - [Deep Learning Resources](https://skymind.com/wiki/deeplearning-research-papers)
-  - [Data for Deep Learning](https://skymind.com/wiki/data-for-deep-learning)
   - [Questions when applying Deep Learning](https://skymind.com/wiki/questions-when-applying-deep-learning)
   - [Deep Learning Use cases](https://skymind.com/wiki/use-cases)
   - [Overview of AI Libraries in Java](https://www.baeldung.com/java-ai)
@@ -181,7 +166,6 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
   - [Free AI Learning Resources For Beginners](https://www.analyticsindiamag.com/here-are-free-ai-learning-resources-for-beginners/) ([Twitter](https://twitter.com/java/status/1013776554868891648))
   - [Learn about Marvin AI a set of tools, libraries, an embedded server that exposes microservices](https://www.youtube.com/watch?v=M5_yQCRIftw&feature=youtu.be&t=2m31s) ([Tweet](https://twitter.com/java/status/1040980810231250944))
   - [Apache Zeppelin: stairway to notes* haven!](https://medium.com/@neomatrix369/apache-zeppelin-stairway-to-notes-haven-28ec413a185a)
-  - [Teaching Java with Jupyter notebooks](https://blog.frankel.ch/teaching-java-jupyter-notebooks/)
   - [Efficient Java Matrix Library (EJML) is a linear algebra library for manipulating real/complex/dense/sparse matrices](http://ejml.org/wiki/index.php?title=Main_Page) | [Java Matrix Benchmark is a tool for evaluating Java linear algebra libraries for speed, stability, and memory usage](https://github.com/lessthanoptimal/Java-Matrix-Benchmark) by [Peter Abeles](https://github.com/lessthanoptimal)
   - [Visual Recognition (VisRec) JSR #381](https://github.com/JavaVisRec/visrec-api/wiki/Getting-Started-Guide )
   - [Onnx Runtime](https://github.com/microsoft/onnxruntime/pull/2215 )
@@ -225,7 +209,6 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
 
   - [Clojure related ML links](https://github.com/josephmisiti/awesome-machine-learning#clojure)
   - [Scicloj](https://scicloj.github.io/) - an open, free and dynamic hub aimed at advancing doing data science, machine learning and numerical computing in Clojure | [GitHub](https://github.com/scicloj) | [Zulip](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science) | [Twitter](https://twitter.com/scicloj) | [Youtube](http://yt.vu/+scicloj) | [scicloj@gmail.com](mailto:scicloj@gmail.com)
-  - [Practicalli Data Science](https://www.youtube.com/playlist?list=PLpr9V-R8ZxiDUXIR2z8Y8wvhpoPyl0t_D) - data capture, transformation and visualisation - YouTube playlist
 
 ### Scala
 
@@ -246,3 +229,35 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 Back to [details page (table of contents)](../README-details.md#java)<br>
 Back to [main page (table of contents)](../README.md)
+
+## Data
+
+  - [An ethics checklist for data scientists](http://deon.drivendata.org/)
+  - [Data science competitions to save the world](https://www.drivendata.org/)
+- [Machine Learning in Oracle Database](https://blogs.oracle.com/machinelearning/machine-learning-in-oracle-database)
+  - [Data for Deep Learning](https://skymind.com/wiki/data-for-deep-learning)
+  - [Practicalli Data Science](https://www.youtube.com/playlist?list=PLpr9V-R8ZxiDUXIR2z8Y8wvhpoPyl0t_D) - data capture, transformation and visualisation - YouTube playlist
+
+## Infrastructure & Cloud
+
+  - [H2O.ai Driverless on Oracle Cloude Infrastructure](https://blogs.oracle.com/cloud-infrastructure/h2oai-driverless-ai-cruises-on-oracle-cloud-infrastructure-gpus)
+  - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
+  - [⭐ CHEAT SHEET : Supervised and Unsupervised Learning ⭐](https://www.linkedin.com/posts/asif-bhat_cheat-sheet-supervised-and-unsupervised-ugcPost-6606216862718099457-3VrA)
+
+## MLOps & Deployment
+
+- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
+- [What do you need for ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/what-do-you-need-for-ml/what-do-you-need-for-ml.md)
+- [Do you really need ML?](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/do-you-really-need-ml/do-you-really-need-ml.md)
+- [ML use cases](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/use-cases/use-cases.md)
+- [Introduction to ML](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/introduction-to-ml/introduction-to-ml.md)
+- [Machine Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/machine-learning-theory/machine-learning-theory.md)
+  - [Deep Learning Theory](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/select-and-train-machine-learning-models/deep-learning-theory/deep-learning-theory.md)
+
+## Large Language Models (LLMs)
+
+- [Java ML Dev Videos on YouTube: Naive Bayes w/ JAVA - Tutorial 01](https://www.youtube.com/watch?v=mrP4CyW4tKA&frags=pl%2Cwn)
+
+## Notebooks
+
+  - [Teaching Java with Jupyter notebooks](https://blog.frankel.ch/teaching-java-jupyter-notebooks/)

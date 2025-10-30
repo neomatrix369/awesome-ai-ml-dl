@@ -11,23 +11,15 @@
 - [Integrated Gradients: Axiomatic Attribution for Deep Networks](https://github.com/ankurtaly/Integrated-Gradients) | [Paper](https://arxiv.org/abs/1703.01365)
 - [Resources on GitHub on interpretability](https://github.com/topics/interpretability)
 - [Awesome Machine Learning Interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability) - A Curated, but Probably Biased and Incomplete, List of Awesome Machine Learning Interpretability Resources
-- [Seldon's opensource library for MachineLearning model inspection and interpretation](https://github.com/SeldonIO/alibi)
 - [Elifive](https://eli5.readthedocs.io/en/latest/overview.html) | [GitHub](https://github.com/TeamHG-Memex/eli5)
 - [Shap](https://github.com/slundberg/shap) [1](https://blog.dominodatalab.com/shap-lime-python-libraries-part-1-great-explainers-pros-cons/) [2](https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/)
 - [Demystifying Black-Box Models with SHAP Value Analysis](https://www.linkedin.com/posts/vincentg_demystifying-black-box-models-with-shap-value-activity-6657041692224483328-ixRo)
-- [Language Interpretability Tool (LIT)](https://github.com/PAIR-code/lit)
 - [Model Cards](https://modelcards.withgoogle.com/about) | [Paper](https://research.google/pubs/pub48120/)
-- [Explainable AI tool from Google](https://pair-code.github.io/what-if-tool/)
-- [What-if-tool on GitHub](https://github.com/PAIR-code/what-if-tool)
 - [useR2020! Keynote: "Responsible Automation: Towards Interpretable & Fair AutoML"](https://github.com/ledell/useR2020-automl)
 - [Explainable AI by IBM](https://github.com/Trusted-AI/AIX360) | [GitHub](https://github.com/IBM/lale) | [(video, slides, codes) on youtube channel](https://www.youtube.com/channel/UCj09XsAWj-RF9kY4UvBJh_A) | [GitHub](https://github.com/decentdilettante)
-- [SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-technology-activity-6732555181315227648-NPD1)
 - [Intro to Explainable AI](https://www.linkedin.com/posts/activity-6679735518781153280-RewD)
-- [Gradio! You can now generate interpretations with one line of code!](https://www.linkedin.com/posts/philipvollet_machinelearning-python-datascience-activity-6730046018248962048-Icgv)
-- [LIME for auditing black-box models](https://towardsdatascience.com/lime-for-auditing-black-box-models-b97d6d2580b4?gi=95ed4978e936)
 - [Interpretable Machine Learning - Christoph Molnar](https://www.youtube.com/watch?v=0LIACHcxpHU&t=3533s)
 - AI Ethics, Fairness, Explainability: Q&A and discussion at this session: [code lab](https://github.com/decentdilettante/XAI) | [Trusted-AI](https://github.com/Trusted-AI/AIX360) | [lale](https://github.com/IBM/lale) | ["Conversational Processes and Causal Explanation" by Hilton](https://pdfs.semanticscholar.org/5093/4979694fb48e55d0cf38888f67b84ad6601b.pdf) | [Tech talk: Explainable anomaly detection](https://www.youtube.com/watch?v=0p8o3uj96Uc&feature=push-u-sub&attr_tag=ccXKOv7Gba4BJCOf%3A6)
-- [With the library "explainerdashboard" you can visually analyze the predictions of your #ml models](https://www.linkedin.com/posts/inna-vogel-nlp_ml-nlp-ai-activity-6770064375039463424-2LkQ)
 
 ## Articles, blog posts, papers, notebooks, books, presentations
 
@@ -98,7 +90,6 @@
 
 ## Overfitting
 
-- [A Quick Refresher on Overfitting and its removal Techniques](https://www.linkedin.com/posts/ashutoshtripathi1_what-is-overfitting-and-its-removal-techniques-ugcPost-6605478376671150080-fsVI)
 - [We can build ensemble Models with Xgboosted trees. Individual trees are stacked for better predictions but they are prone to overfitting. These trees are difficult to interprete and may be inexplicable - Kevin Lemagnen](https://github.com/klemag/odsc2018-ensemble-demystified)
 
 # Contributing
@@ -111,3 +102,27 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 Back to [Data page (table of contents)](README.md)</br>
 Back to [main page (table of contents)](../README.md)
+
+## MLOps & Deployment
+
+- [Seldon's opensource library for MachineLearning model inspection and interpretation](https://github.com/SeldonIO/alibi)
+
+## NLP
+
+- [Language Interpretability Tool (LIT)](https://github.com/PAIR-code/lit)
+- [With the library "explainerdashboard" you can visually analyze the predictions of your #ml models](https://www.linkedin.com/posts/inna-vogel-nlp_ml-nlp-ai-activity-6770064375039463424-2LkQ)
+
+## Tools & Frameworks
+
+- [Explainable AI tool from Google](https://pair-code.github.io/what-if-tool/)
+- [What-if-tool on GitHub](https://github.com/PAIR-code/what-if-tool)
+
+## Data
+
+- [SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-technology-activity-6732555181315227648-NPD1)
+- [Gradio! You can now generate interpretations with one line of code!](https://www.linkedin.com/posts/philipvollet_machinelearning-python-datascience-activity-6730046018248962048-Icgv)
+- [LIME for auditing black-box models](https://towardsdatascience.com/lime-for-auditing-black-box-models-b97d6d2580b4?gi=95ed4978e936)
+
+## Infrastructure & Cloud
+
+- [A Quick Refresher on Overfitting and its removal Techniques](https://www.linkedin.com/posts/ashutoshtripathi1_what-is-overfitting-and-its-removal-techniques-ugcPost-6605478376671150080-fsVI)

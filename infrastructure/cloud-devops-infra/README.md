@@ -63,7 +63,6 @@ reproducible research
   - [RealityEngine.ai](https://RealityEngine.ai) | [Research](https://www.realityengines.ai/research) | [Blogs](https://medium.com/reality-engines)
     - Videos
       - [Workshop: Unsupervised Learning and Deep Learning Based Forecasting](https://www.youtube.com/watch?v=amTzgvJg-ZE)
-      - [AutoML Core Concepts and Hands-On Workshop](https://www.youtube.com/watch?v=QbqsOcX7KZo&feature=em-lbcastemail)
       - [Workshop: Large Scale Deep Learning Recommender](https://www.youtube.com/watch?v=MpC-RuFw-SY)
     - Notebooks
       - Workshop: Unsupervised Learning and Deep Learning Based Forecasting: [Anomaly Workbook](https://bit.ly/RE_anomaly) | [Forecasting Workbook](https://bit.ly/REforecasting)
@@ -97,7 +96,6 @@ reproducible research
   - [ML Framework by Abhishek Thakur](https://www.linkedin.com/posts/abhi1thakur_machinelearning-python-datascience-activity-6644289209181978625-wZtJ)
     - [Episode 1 Intro and building a machine learning framework](https://lnkd.in/e5Syy5N)
     - [Episode 2 A Cross Validation Framework](https://lnkd.in/eDjFTGW)
-    - [Episode 3 Handling Categorical Features in Machine Learning Problems](https://lnkd.in/e9Qc5fe)
     - [Episode 4 Simple and Basic Binary Classification Metrics](https://lnkd.in/eGZtcPW)
   - [See also: Data > Programs and Tools](../../data/programs-and-tools.md#programs-and-tools)
 
@@ -115,19 +113,13 @@ reproducible research
     - [Intel® Developer Zone](https://software.intel.com/en-us/home)
     - [Intel® AI Developer Home Page](https://software.intel.com/en-us/ai)
     - [Intel® AI Developer Webinar Series](https://software.seek.intel.com/AIWebinarSeries?registration_source=IDZ) | [All webinars listing](https://intelvs.on24.com/vshow/IntelWebinarEvents/#content/2033414)
-    - The PlaidML Tensor Compiler - [webinar](https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?&eventid=2026509&sessionid=1&username=&partnerref=&format=fhaudio&mobile=false&flashsupportedmobiledevice=false&helpcenter=false&key=B27628973F7FA8B9758983E373E36ED1&text_language_id=en&playerwidth=1000&playerheight=700&overwritelobby=y&eventuserid=246511746&contenttype=A&mediametricsessionid=207230377&mediametricid=2857349&usercd=246511746&mode=launch)
     - nGraph - Unlocking next-generation performance with deep learning compilers: [webinar](https://intelvs.on24.com/vshow/IntelWebinarEvents/#content/2033414) | [slides](https://event.on24.com/event/20/33/41/2/rt/1/documents/resourceList1565185524584/s_ngraphwebinar1565185512750.pdf) | [homepage](https://www.ngraph.ai/) | [github](https://github.com/NervanaSystems/ngraph)
     - Intel Debug memory & threading bugs: [Webinar slides](https://event.on24.com/event/22/68/22/4/rt/1/documents/resourceList1588698180846/s_webinarslides1588698178133.pdf) | [Intel inspector](https://software.intel.com/inspector) | [](software.intel.com/en-us/inspector/choose-download?cid=em&source=elo&campid=iags_WW_iagstd2_EN_2020_5.6%20Debug%20Thread%20Webinar_C-MKA-16350_T-MKA-17876&content=iags_WW_iagstd2_EMRW_EN_2020_5.6%20Debug%20Thread%20WebinarRM1_C-MKA-16350_T-MKA-17876&elq_cid=2921631&em_id=57114&elqrid=fe81e70c81c3419bb69dec833cdd0fa4&elqcampid=37341&erpm_id=5550945#inspector) | [Inspector Docs](https://software.intel.com/inspector/documentation/featured-documentation) | [Intel® Parallel Studio XE](https://software.intel.com/en-us/parallel-studio-xe/choose-download?cid=em&source=elo&campid=iags_WW_iagstd2_EN_2020_5.6%20Debug%20Thread%20Webinar_C-MKA-16350_T-MKA-17876&content=iags_WW_iagstd2_EMRW_EN_2020_5.6%20Debug%20Thread%20WebinarRM1_C-MKA-16350_T-MKA-17876&elq_cid=2921631&em_id=57114&elqrid=fe81e70c81c3419bb69dec833cdd0fa4&elqcampid=37341&erpm_id=5550945) | [Intel® System Studio](https://software.intel.com/en-us/system-studio/choose-download?cid=em&source=elo&campid=iags_WW_iagstd2_EN_2020_5.6%20Debug%20Thread%20Webinar_C-MKA-16350_T-MKA-17876&content=iags_WW_iagstd2_EMRW_EN_2020_5.6%20Debug%20Thread%20WebinarRM1_C-MKA-16350_T-MKA-17876&elq_cid=2921631&em_id=57114&elqrid=fe81e70c81c3419bb69dec833cdd0fa4&elqcampid=37341&erpm_id=5550945)
     - Intel Analysers/Profilers:
-      - [Webinar slides: offload your code to GPU (part 1)](https://event.on24.com/event/23/51/32/1/rt/1/documents/resourceList1590781996922/s_webinarslides1590781995277.pdf)
-      - [oneAPI Toolkits](https://software.intel.com/content/www/us/en/develop/tools/oneapi.html#oneapi-toolkits)
       - [Tech Decoded](https://techdecoded.intel.io/)
-      - [Intel® Advisor](https://software.intel.com/content/www/us/en/develop/tools/advisor.html)
       - [Intel® Advisor Cookbook](https://www.intel.com/content/www/us/en/develop/documentation/advisor-cookbook/top.html)
-    - [Intel® DevCloud for oneAPI](https://devcloud.intel.com/oneapi/)
     - [Tuning applications for multiple architectures](https://techdecoded.intel.io/big-picture/tuning-applications-for-multiple-architectures/)
     - Also see [Intel](../../courses.md#intel) in [Courses](../../courses.md#courses)
-    - [TVM is an open deep learning compiler stack for CPUs, GPUs, and specialized accelerators. It aims to close the gap between the productivity-focused deep learning frameworks, and the performance- or efficiency-oriented hardware backends](https://tvm.apache.org/docs/index.html)
 
  _Thanks to the great minds on the [mechanical sympathy](https://groups.google.com/forum/#!forum/mechanical-sympathy) mailing list for their responses to my queries on CPU probing._
 
@@ -156,37 +148,20 @@ reproducible research
 
 ## TPU
 
-  - [How to harness the Powers of the Cloud TPU](https://medium.com/bitgrit-data-science-publication/how-to-harness-the-powers-of-the-cloud-tpu-3939dc363d9f)
-  - [How-tos](https://cloud.google.com/tpu/docs/how-to)
-  - [All tutorials](https://cloud.google.com/tpu/docs/tutorials)
   - Command-line interface
       - https://cloud.google.com/sdk/gcloud/reference/compute/tpus/
       - https://cloud.google.com/tpu/docs/setup-gcp-account
-  - [Cloud TPU tools](https://cloud.google.com/tpu/docs/cloud-tpu-tools)
-  - [Performance Guide](https://cloud.google.com/tpu/docs/performance-guide)
-  - [TPU Estimator API](https://cloud.google.com/tpu/docs/using-estimator-api)
-  - [Using BFloat](https://cloud.google.com/tpu/docs/bfloat16)
-  - [Advanced Guide to Inception V3 on Cloud TPU](https://cloud.google.com/tpu/docs/inception-v3-advanced)
   - Examples
     - [Using TPUs docs](https://www.tensorflow.org/guide/using_tpu)
-    - [Hello, TPU in Colab notebook](https://colab.research.google.com/drive/1MefSa2P6UP-gO2S0-dCjIjbvRxOnewZK#scrollTo=llcFb_P_BNPM)
-    - [Useful TPU and Model example](https://colab.research.google.com/drive/1F8txK1JLXKtAkcvSRQz2o7NSTNoksuU2#scrollTo=mQnZM5JYlRvs)
-    - [Measure Performance on TPU, in a notebook](https://colab.research.google.com/drive/11VnRHgG_067fwPGhMwBz0SmplLsf9X5h)
-    - [Financial Time series notebook](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
-    - [Web traffic prediction](https://adaptpartners.com/technical-seo/website-traffic-prediction-with-google-colaboratory-and-facebook-prophet/)
-    - [GAN example, TPU version](https://colab.research.google.com/drive/1EkZPH6UE_I1a2TQfDDpjjqA7Na0_qd6v)
     - XLA compiler: [GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding ~ 1 Trillion parameters](https://www.youtube.com/watch?v=QzcbnI42-VI&t=11960s)
 
 ## IPU
 
   - [GraphCore](http://graphcore.ai) | Videos: [Simon Knowles - More complex models and more powerful machines](https://www.youtube.com/watch?v=dLvkF_TmyAc&feature=youtu.be) | [Graphcore tech Concept](https://youtu.be/cSXbhEsUUGo?t=916) | [A new kind of hardware designed for machine intelligence - GraphCore Presentations](http://www.bristol.bcs.org.uk/2017/graphcore.pdf) | [V‍ID‌EO‌‍: SCA‌LING‌‍ THRO‌UG‍HP‌‍U‌T P‍R‌O‍C‍ESSO‌‍RS FO‌‍R‍ MAC‌HINE INTELLIG‌ENC‌‍E](https://www.graphcore.ai/posts/video-scaling-throughput-processors-for-machine-intelligence)
   - [What makes the IPU's architecture so efficient](https://www.linkedin.com/posts/graphcore_if-youd-like-to-know-what-makes-the-ipus-activity-6617716840384778240-PUS0)
-  - [How do we implement large-scale #NLP models on IPU](https://www.linkedin.com/posts/graphcore_arianna-saracino-product-support-engineer-activity-6615949485463920640-7Pwa)
-  - [Graphcore are making Poplar Software Documentation publicly available](https://www.graphcore.ai/posts/graphcore-makes-poplar-sdk-docs-publicly-available?utm_content=121700693&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092)
   - [Watch the Graphcore quick guide to the #IPU](https://www.graphcore.ai/products/ipu?utm_campaign=Machine%20Intelligence%20Positioning&utm_content=120000808&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092) [LinkedIn Post](https://www.linkedin.com/posts/graphcore_ipu-ai-semiconductors-activity-6640930639287730176-bRvL)
   - [Dissecting the Graphcore IPU Architecture via Microbenchmarking](https://www.graphcore.ai/hubfs/assets/pdf/Citadel%20Securities%20Technical%20Report%20-%20Dissecting%20the%20Graphcore%20IPU%20Architecture%20via%20Microbenchmarking%20Dec%202019.pdf?utm_content=109984229&utm_medium=social&utm_source=twitter&hss_channel=tw)
   - [Learn how to develop and train models for the Graphcore #IPU using TensorFlow](https://hubs.ly/H0qFL1Y0)
-  - [Graphcore C2 Card performance for image-based deep learning application](https://www.graphcore.ai/hubfs/Graphcore%20C2%20Card%20performance%20for%20image%20based%20deep%20learning%20application_v2.pdf)
   - [Graphcore Whitepaper: DELL DSS8440 GRAPHCORE IPU SERVER](https://www.graphcore.ai/hubfs/Lead%20gen%20assets/DSS8440%20IPU%20Server%20White%20Paper_2020.pdf)
   - [Product brief: IPU-MACHINE: M2000](https://www.graphcore.ai/hubfs/assets/pdf/IPU-M%20Product%20Brief.pdf?hsLang=en)
   - [MO‌O‌R‍ INSIG‌HTS - G‌‍R‌‍APHC‍O‌‍R‌E SO‌FTWAR‌E STACK: BUILT TO SC‌‍A‍LE](https://www.graphcore.ai/poplar-white-paper-registration)
@@ -202,7 +177,6 @@ reproducible research
   - [mlbench: Distributed Machine Learning Benchmark](https://mlbench.github.io/) - A public and reproducible collection of reference implementations and benchmark suite for distributed machine learning algorithms, frameworks and systems.
   - [EEMBC MLMark Benchmark](https://www.eembc.org/mlmark/) - The EEMBC MLMark benchmark is a machine-learning (ML) benchmark designed to measure the performance and accuracy of embedded inference.
   - [DeepOBS: A Deep Learning Optimizer Benchmark Suite](https://arxiv.org/abs/1903.05499)
-  - [PMLB](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4) - a large benchmark suite for machine learning evaluation and comparison
   - [Deep Learning Benchmarking Suite](https://github.com/HewlettPackard/dlcookbook-dlbs) | [HPE Deep Learning Cookbook](https://www.hpe.com/software/dl-cookbook)
   - [Hyperdimensional Computing: An Introduction to Computing in Distributed Representation with High-Dimensional Random Vectors](http://www.rctn.org/vs265/kanerva09-hyperdimensional.pdf)
   - [Performance profiling in TF 2 (TF Dev Summit '20)](https://www.youtube.com/watch?v=pXHAQIhhMhI)
@@ -215,7 +189,6 @@ reproducible research
 
 ## Misc
 
-- [👉 Docker CLI & Dockerfile Cheat Sheet 👈](https://www.linkedin.com/posts/asif-bhat_docker-quick-reference-activity-6622407319550562304-xxdj)
 - [Edge projects with code from Naveen Kumar](https://www.hackster.io/naveenbskumar/projects)
 
 # Contributing
@@ -227,3 +200,51 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 ---
 
 #cloud-devops-infra · [← Back home](../README.md)
+
+## Data
+
+      - [AutoML Core Concepts and Hands-On Workshop](https://www.youtube.com/watch?v=QbqsOcX7KZo&feature=em-lbcastemail)
+    - [Episode 3 Handling Categorical Features in Machine Learning Problems](https://lnkd.in/e9Qc5fe)
+  - [How to harness the Powers of the Cloud TPU](https://medium.com/bitgrit-data-science-publication/how-to-harness-the-powers-of-the-cloud-tpu-3939dc363d9f)
+    - [Financial Time series notebook](https://cloud.google.com/solutions/machine-learning-with-financial-time-series-data)
+  - [PMLB](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-017-0154-4) - a large benchmark suite for machine learning evaluation and comparison
+
+## NLP
+
+    - The PlaidML Tensor Compiler - [webinar](https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?&eventid=2026509&sessionid=1&username=&partnerref=&format=fhaudio&mobile=false&flashsupportedmobiledevice=false&helpcenter=false&key=B27628973F7FA8B9758983E373E36ED1&text_language_id=en&playerwidth=1000&playerheight=700&overwritelobby=y&eventuserid=246511746&contenttype=A&mediametricsessionid=207230377&mediametricid=2857349&usercd=246511746&mode=launch)
+  - [How do we implement large-scale #NLP models on IPU](https://www.linkedin.com/posts/graphcore_arianna-saracino-product-support-engineer-activity-6615949485463920640-7Pwa)
+
+## Infrastructure & Cloud
+
+      - [Webinar slides: offload your code to GPU (part 1)](https://event.on24.com/event/23/51/32/1/rt/1/documents/resourceList1590781996922/s_webinarslides1590781995277.pdf)
+    - [Intel® DevCloud for oneAPI](https://devcloud.intel.com/oneapi/)
+    - [TVM is an open deep learning compiler stack for CPUs, GPUs, and specialized accelerators. It aims to close the gap between the productivity-focused deep learning frameworks, and the performance- or efficiency-oriented hardware backends](https://tvm.apache.org/docs/index.html)
+  - [How-tos](https://cloud.google.com/tpu/docs/how-to)
+  - [All tutorials](https://cloud.google.com/tpu/docs/tutorials)
+  - [Cloud TPU tools](https://cloud.google.com/tpu/docs/cloud-tpu-tools)
+  - [Performance Guide](https://cloud.google.com/tpu/docs/performance-guide)
+  - [TPU Estimator API](https://cloud.google.com/tpu/docs/using-estimator-api)
+  - [Using BFloat](https://cloud.google.com/tpu/docs/bfloat16)
+  - [Advanced Guide to Inception V3 on Cloud TPU](https://cloud.google.com/tpu/docs/inception-v3-advanced)
+- [👉 Docker CLI & Dockerfile Cheat Sheet 👈](https://www.linkedin.com/posts/asif-bhat_docker-quick-reference-activity-6622407319550562304-xxdj)
+
+## Tools & Frameworks
+
+      - [oneAPI Toolkits](https://software.intel.com/content/www/us/en/develop/tools/oneapi.html#oneapi-toolkits)
+      - [Intel® Advisor](https://software.intel.com/content/www/us/en/develop/tools/advisor.html)
+  - [Graphcore are making Poplar Software Documentation publicly available](https://www.graphcore.ai/posts/graphcore-makes-poplar-sdk-docs-publicly-available?utm_content=121700693&utm_medium=social&utm_source=linkedin&hss_channel=lcp-10812092)
+
+## Notebooks
+
+    - [Hello, TPU in Colab notebook](https://colab.research.google.com/drive/1MefSa2P6UP-gO2S0-dCjIjbvRxOnewZK#scrollTo=llcFb_P_BNPM)
+    - [Useful TPU and Model example](https://colab.research.google.com/drive/1F8txK1JLXKtAkcvSRQz2o7NSTNoksuU2#scrollTo=mQnZM5JYlRvs)
+    - [Measure Performance on TPU, in a notebook](https://colab.research.google.com/drive/11VnRHgG_067fwPGhMwBz0SmplLsf9X5h)
+    - [Web traffic prediction](https://adaptpartners.com/technical-seo/website-traffic-prediction-with-google-colaboratory-and-facebook-prophet/)
+
+## Generative AI
+
+    - [GAN example, TPU version](https://colab.research.google.com/drive/1EkZPH6UE_I1a2TQfDDpjjqA7Na0_qd6v)
+
+## Computer Vision
+
+  - [Graphcore C2 Card performance for image-based deep learning application](https://www.graphcore.ai/hubfs/Graphcore%20C2%20Card%20performance%20for%20image%20based%20deep%20learning%20application_v2.pdf)

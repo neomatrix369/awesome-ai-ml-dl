@@ -14,9 +14,6 @@ This document provides a curated list of Model Context Protocol (MCP) frameworks
 
 ## Awesome Lists
 
-*   [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers): A curated list of awesome Model Context Protocol (MCP) servers.
-*   [awesome-mcp-devtools](https://github.com/punkpeye/awesome-mcp-devtools): A curated list of awesome MCP developer tools, libraries, and utilities.
-*   [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients): A curated list of awesome MCP clients and client libraries.
 
 ## MCP Servers
 
@@ -41,11 +38,6 @@ This section highlights specific open-source MCP server and client implementatio
 ## Tutorials
 
 *   **[Langchain Quickstart](https://python.langchain.com/docs/get_started/quickstart)**: The official quickstart guide for Langchain, providing a hands-on introduction to its core concepts and how to build your first LLM application.
-*   **[CrewAI Quickstart](https://docs.crewai.com/quickstart/)**: Official CrewAI documentation to quickly get started building multi-agent collaborative systems.
-*   **[Microsoft Autogen Examples](https://microsoft.github.io/autogen/docs/Examples/AutoGen-Agent)**: A collection of examples showcasing how to use Autogen for various multi-agent scenarios.
-*   **[Build Your First AI Agent with Uagents](https://fetch.ai/docs/uea/guides/general/intro-to-uagent-course/build-your-first-uagent/)**: A step-by-step guide to creating your first agent using the Fetch.ai Uagents framework.
-*   **[Introduction to Agents with Haystack](https://haystack.deepset.ai/tutorials/23_introducing_agents)**: A tutorial by deepset Haystack on how to build and use agents for question answering and task execution.
-*   **[Creating a Simple AI Agent with LiteLLM](https://docs.litellm.ai/docs/simple_proxy#example-usage-1)**: Demonstrates basic LiteLLM proxy usage, a step towards agent tool calling by abstracting LLM provider interactions.
 
 ## Communities
 
@@ -61,16 +53,12 @@ This section highlights specific open-source MCP server and client implementatio
 
 ## Tools (General Purpose for Agent Development)
 
-*   **[LiteLLM](https://litellm.ai/)**: Provides a unified interface to interact with various LLM APIs (OpenAI, Cohere, Anthropic, etc.). Essential for the "Model" component in an MCP architecture, allowing flexibility.
-*   **[Ollama](https://ollama.com/)**: Allows running large language models (LLMs) locally. Useful for developing and testing agents with local models, ensuring privacy and reducing costs.
 *   **[LangSmith](https://www.langchain.com/langsmith)**: A platform by Langchain for debugging, testing, evaluating, and monitoring LLM applications. Crucial for understanding and improving agent behavior.
 *   **[Pydantic](https://pydantic-docs.helpmanual.io/)**: A Python library for data validation and settings management using Python type hints. Extremely useful for defining schemas for tool inputs/outputs and agent configurations.
 *   **[FastAPI](https://fastapi.tiangolo.com/)**: A modern, fast web framework for building APIs with Python. Often used to expose agent capabilities as services.
 *   **[Chainlit](https://chainlit.io/)**: An open-source Python package that makes it incredibly fast to build and share AI user interfaces. Can serve as the "View" component.
 *   **[Gradio](https://www.gradio.app/)**: A Python library that allows you to quickly create customizable UI components for your machine learning models. Useful for creating interactive "Views".
 *   **[OpenWebUI](https://openwebui.com/)**: An extensible, self-hosted AI interface that supports various LLMs and operates offline. Can serve as a user-facing "View" for interacting with agents. (GitHub: [open-webui/open-webui](https://github.com/open-webui/open-webui))
-*   **[Vector Databases (e.g., Pinecone, Weaviate, Chroma)](https://www.pinecone.io/)**: Tools for storing and searching vector embeddings, critical for agents needing to retrieve information from large knowledge bases.
-*   **[Hugging Face Transformers](https://huggingface.co/docs/transformers/index)**: Provides thousands of pre-trained models and tools to access them. Excellent for sourcing open-source models for the "Model" part of an agent.
 *   **[Flowise AI](https://flowiseai.com/)**: A low-code/no-code tool for building LLM applications, including agents, using a visual interface.
 *   **[Embedchain](https://embedchain.ai/)**: A framework that simplifies creating and managing LLM-powered bots over any dataset. It handles loading, chunking, embedding, and storing data, facilitating the "Model" or knowledge retrieval aspect for agents.
 *   **[Claude Desktop](https://www.anthropic.com/claude#claude-app)**: A desktop application by Anthropic for interacting with their Claude AI models. While a product, it can be used as a "View" or testbed for agentic interactions if the underlying model supports tool use.
@@ -78,7 +66,6 @@ This section highlights specific open-source MCP server and client implementatio
 
 ## Platforms and Cloud Services
 
-*   **[OpenAI API](https://platform.openai.com/docs/api-reference)**: Direct access to OpenAI models like GPT-4, GPT-3.5-turbo, which are often the "Model" component in many AI agents.
 *   **[Google AI Studio & Vertex AI](https://cloud.google.com/vertex-ai/docs/generative-ai/ai-studio/overview)**: Google Cloud's platform for building, deploying, and managing ML models, including generative AI models like Gemini. Provides infrastructure and tools for the "Model" and agent deployment.
 *   **[Google BigQuery](https://cloud.google.com/bigquery)**: A highly scalable, serverless data warehouse. Often used as a backend for storing and analyzing data used by AI agents or generated from their operations.
 
@@ -86,3 +73,31 @@ This list is not exhaustive but provides a good starting point for developers lo
 The field is rapidly evolving, so it's recommended to also follow communities and publications in the AI space for the latest developments.
 
 #mcp-frameworks-tutorials-and-tools-for-ai-agent-development · [← Back home](../../README.md)
+
+## AI Agents
+
+*   [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers): A curated list of awesome Model Context Protocol (MCP) servers.
+*   [awesome-mcp-devtools](https://github.com/punkpeye/awesome-mcp-devtools): A curated list of awesome MCP developer tools, libraries, and utilities.
+*   [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients): A curated list of awesome MCP clients and client libraries.
+*   **[CrewAI Quickstart](https://docs.crewai.com/quickstart/)**: Official CrewAI documentation to quickly get started building multi-agent collaborative systems.
+*   **[Microsoft Autogen Examples](https://microsoft.github.io/autogen/docs/Examples/AutoGen-Agent)**: A collection of examples showcasing how to use Autogen for various multi-agent scenarios.
+*   **[Build Your First AI Agent with Uagents](https://fetch.ai/docs/uea/guides/general/intro-to-uagent-course/build-your-first-uagent/)**: A step-by-step guide to creating your first agent using the Fetch.ai Uagents framework.
+*   **[Introduction to Agents with Haystack](https://haystack.deepset.ai/tutorials/23_introducing_agents)**: A tutorial by deepset Haystack on how to build and use agents for question answering and task execution.
+*   **[Creating a Simple AI Agent with LiteLLM](https://docs.litellm.ai/docs/simple_proxy#example-usage-1)**: Demonstrates basic LiteLLM proxy usage, a step towards agent tool calling by abstracting LLM provider interactions.
+
+## Large Language Models (LLMs)
+
+*   **[LiteLLM](https://litellm.ai/)**: Provides a unified interface to interact with various LLM APIs (OpenAI, Cohere, Anthropic, etc.). Essential for the "Model" component in an MCP architecture, allowing flexibility.
+*   **[Ollama](https://ollama.com/)**: Allows running large language models (LLMs) locally. Useful for developing and testing agents with local models, ensuring privacy and reducing costs.
+
+## Data
+
+*   **[Vector Databases (e.g., Pinecone, Weaviate, Chroma)](https://www.pinecone.io/)**: Tools for storing and searching vector embeddings, critical for agents needing to retrieve information from large knowledge bases.
+
+## NLP
+
+*   **[Hugging Face Transformers](https://huggingface.co/docs/transformers/index)**: Provides thousands of pre-trained models and tools to access them. Excellent for sourcing open-source models for the "Model" part of an agent.
+
+## Tools & Frameworks
+
+*   **[OpenAI API](https://platform.openai.com/docs/api-reference)**: Direct access to OpenAI models like GPT-4, GPT-3.5-turbo, which are often the "Model" component in many AI agents.

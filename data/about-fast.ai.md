@@ -15,7 +15,6 @@ Additional references
 - https://www.kdnuggets.com/2019/01/6-most-useful-machine-learning-projects-2018.html
 - https://www.youtube.com/results?search_query=fast.ai
 - [Rachel Thomas | Fast.ai | Applied Ethics | Top Down Learning | CTDS.Show #75](https://www.youtube.com/watch?v=tq_XcFubgKo)
-- [Interview with Even Oldridge | Applied Research, Top Down Learning & Fast.ai | NVIDIA & Rapids.ai ](https://www.youtube.com/watch?v=-WzXIV8P_Jk)
 
 ---
 
@@ -34,3 +33,7 @@ Additional references
 
 Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>
 Back to [Data page](./README.md#data).
+
+## Tools & Frameworks
+
+- [Interview with Even Oldridge | Applied Research, Top Down Learning & Fast.ai | NVIDIA & Rapids.ai ](https://www.youtube.com/watch?v=-WzXIV8P_Jk)

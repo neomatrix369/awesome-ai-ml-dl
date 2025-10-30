@@ -360,7 +360,6 @@ Use this checklist to quickly identify common issues:
 If you're still experiencing issues:
 
 1. **Check the logs** for specific error messages
-2. **Search GitHub issues** in the [MCP Server Registry](https://github.com/modelcontextprotocol/servers/issues)
 3. **Ask in community forums** with:
    - Your operating system
    - The tool you're using (Claude Desktop/Code/Cursor)
@@ -373,3 +372,7 @@ If you're still experiencing issues:
 **[← Back to Main Guide](./post.md)** | **[← Previous: Advanced MCP Servers](./advanced-mcp-servers.md)** | **[Next: Pro Setup →](./pro-setup.md)**
 
 #complete-troubleshooting-guide · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+
+## AI Agents
+
+2. **Search GitHub issues** in the [MCP Server Registry](https://github.com/modelcontextprotocol/servers/issues)

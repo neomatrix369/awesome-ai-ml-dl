@@ -1,11 +1,9 @@
 ## Neural Magic
 
-- [Neural Magic: GPU-class performance on CPU](https://neuralmagic.com/)
 - Videos
   - [Neural Magic Demo](https://www.youtube.com/watch?v=TwO8UAfu0bo)
   - [No Hardware AI: Processing Deep Learning Models on Commodity Hardware](https://www.youtube.com/watch?v=cLira3LyW8o)
 - Blogs
-  - [Neural Magic Launches High-Performance Inference Engine and Tool Suite for CPUs](https://neuralmagic.com/blog/neural-magic-inference-engine/)
   - [How to Run ResNet at a Fraction of the Cost](https://neuralmagic.com/blog/sparse-resnet/?d_utk=449a1336-10ce-4020-ab2e-9b77f90523bc)
   - [Companies Lack Resources to Get Deep Learning Models into Production [Survey]](https://neuralmagic.com/blog/deep-learning-survey-results/?d_utk=449a1336-10ce-4020-ab2e-9b77f90523bc)
   - [The Challenges of EfficientNets And the Way Forward](https://neuralmagic.com/blog/the-challenges-of-efficientnets-and-the-way-forward/?d_utk=449a1336-10ce-4020-ab2e-9b77f90523bc)
@@ -36,3 +34,11 @@
 - [ ] [Model saving: available]
 
 Back to [Data preparation, cleaning, validation, model creation, training resources](../data/README.md)
+
+## Infrastructure & Cloud
+
+- [Neural Magic: GPU-class performance on CPU](https://neuralmagic.com/)
+
+## Tools & Frameworks
+
+  - [Neural Magic Launches High-Performance Inference Engine and Tool Suite for CPUs](https://neuralmagic.com/blog/neural-magic-inference-engine/)

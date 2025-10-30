@@ -1,7 +1,5 @@
 # Articles, papers, code, data, courses
 
-  - [State-of-Art Papers Explained](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/research/sota-papers/sota-papers.md)
-  - [Zotero: a tool to help in the manage collection of papers](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/research/zotero/zotero.md)
   - [Papers, code, data by Yaz](https://github.com/yazdotai/paper-code-data)
   - [Awesome AI Papers by Yaz (empty atm)](https://github.com/yazdotai/awesome-ai-papers)
   - [Papers and code](https://paperswithcode.com)
@@ -31,3 +29,8 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 Back to [details page (table of contents)](../README-details.md#articles-papers-code-data-courses)<br>
 Back to [main page (table of contents)](../README.md)
+
+## MLOps & Deployment
+
+  - [State-of-Art Papers Explained](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/research/sota-papers/sota-papers.md)
+  - [Zotero: a tool to help in the manage collection of papers](https://github.com/virgili0/Virgilio/blob/master/serving/inferno/research/zotero/zotero.md)

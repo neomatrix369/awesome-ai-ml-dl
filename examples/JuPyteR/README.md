@@ -8,7 +8,6 @@ In theory, the below instructions should work for all operating systems i.e. Lin
 
 ## Blogs
 
-- [Running Jupyter notebooks on Oracle Cloud Infrastructure](https://medium.com/@neomatrix369/running-your-jupyter-notebooks-on-the-cloud-ed970326649f)
 
 ## Kernels
 
@@ -46,10 +45,8 @@ or
 ![beakerx](beakerx-homepage-screenshot.png)
 - [https://github.com/scijava/scijava-jupyter-kernel](https://github.com/scijava/scijava-jupyter-kernel) - aims to be a polyglot Jupyter kernel. It uses the [Scijava scripting languages](https://imagej.net/Scripting#Supported_languages) to execute the code in Jupyter client and it's possible to use different languages in the same notebook (covers a number of JVM languages).
 
-- [https://github.com/ligee/kotlin-jupyter](https://github.com/ligee/kotlin-jupyter) - Basic kotlin (1.2.21) REPL kernel for jupyter
 ![Kotlin for Jupyter](https://github.com/ligee/kotlin-jupyter/raw/master/samples/ScreenShotInJupyter.png)
 
-- [Wikipedia of Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) - a list of available kernels, add yours to the list in case it isn't mentioned.
 
 ### Write kernels
 
@@ -59,7 +56,7 @@ Check out the project [https://github.com/SpencerPark/jupyter-jvm-basekernel](ht
 
 ### Source location
 
-Go to example [project root](../JuPyteR) to perform the commands mentioned in the sections below.
+Go to example [project root](../JuPyteR/README.md) to perform the commands mentioned in the sections below.
 
 ### Local environment
 
@@ -244,5 +241,14 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-Back to example [project root](../JuPyteR) </br>
+Back to example [project root](../JuPyteR/README.md) </br>
 Back to [main page (table of contents)](../../README.md)
+
+## Infrastructure & Cloud
+
+- [Running Jupyter notebooks on Oracle Cloud Infrastructure](https://medium.com/@neomatrix369/running-your-jupyter-notebooks-on-the-cloud-ed970326649f)
+
+## Notebooks
+
+- [https://github.com/ligee/kotlin-jupyter](https://github.com/ligee/kotlin-jupyter) - Basic kotlin (1.2.21) REPL kernel for jupyter
+- [Wikipedia of Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) - a list of available kernels, add yours to the list in case it isn't mentioned.

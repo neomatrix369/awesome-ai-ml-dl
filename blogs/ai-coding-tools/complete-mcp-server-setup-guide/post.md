@@ -325,7 +325,6 @@ Each guide is comprehensive and includes installation, configuration, verificati
 - Custom slash commands for team workflows
 - Production debugging and observability
 - [Field Guide for AI-Assisted Coding](https://github.com/gregdetre/gjdutils/tree/main/docs) - Master AI coding workflows
-- [Prompt Library for AI-First Development](https://www.makingdatamistakes.com/ai-first-development/) - Advanced prompting techniques
 
 Thanks @gregdetre for sharing these resources with us and also the tip on "ultrathink" you will find this in the post.
 
@@ -346,12 +345,10 @@ Thanks @gregdetre for sharing these resources with us and also the tip on "ultra
 
 ### AI-Assisted Development Resources
 - [Field Guide for AI-Assisted Coding](https://github.com/gregdetre/gjdutils/tree/main/docs) - Comprehensive guide for effective AI coding workflows
-- [Prompt Library for AI-First Development](https://www.makingdatamistakes.com/ai-first-development/) - Curated prompts and techniques for AI-powered development
 
 Thanks @gregdetre for sharing these resources with us and also the tip on "ultrathink" you will find this in the post.
 
 ### Community Resources
-- [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Reddit community for AI coding discussions and examples
 - [r/ClaudeCode](https://www.reddit.com/r/ClaudeCode/) - Reddit community focused on Claude Code and AI development
 
 Thanks [Ben Ritchie](https://uk.linkedin.com/in/benjaminritchie) for sharing the above resources.
@@ -390,3 +387,9 @@ Return to [Blog posts home](../README.md)
 *This guide synthesizes information from official documentation, community resources, and practical testing. All package names, commands, and configurations have been verified as of January 2025. For the latest updates, always refer to official documentation.*
 
 *Found this helpful? Share it with your team. Debugging MCP configs wastes hours—let's save everyone that time.*
+
+## Large Language Models (LLMs)
+
+- [Prompt Library for AI-First Development](https://www.makingdatamistakes.com/ai-first-development/) - Advanced prompting techniques
+- [Prompt Library for AI-First Development](https://www.makingdatamistakes.com/ai-first-development/) - Curated prompts and techniques for AI-powered development
+- [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Reddit community for AI coding discussions and examples

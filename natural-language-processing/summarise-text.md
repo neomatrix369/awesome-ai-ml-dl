@@ -17,7 +17,6 @@
 - **Better NLP Summarisers**: Notebooks: [Google Colab](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/examples/better-nlp/notebooks/google-colab/better_nlp_summarisers.ipynb) | [Jupyter](https://github.com/neomatrix369/awesome-ai-ml-dl/blob/master/examples/better-nlp/notebooks/jupyter/better_nlp_summarisers.ipynb) | [Kaggle Kernel](https://www.kaggle.com/neomatrix369/better-nlp-summarisers-notebook) | [Code](https://github.com/neomatrix369/awesome-ai-ml-dl/tree/master/examples/better-nlp/library/org/neomatrix369)
 - [Code-Mixing _ya_ Code-Switching ?](code-mixing.md)
 - [Quantitative Measures for Modeling a Code-Mixed corpus!](measures.md)
-- [Colab: Deep Learning-Driven Summarization & Explainability with Reuters News](https://colab.research.google.com/drive/1edmnmznR97l9g3dFtA3wFew218---LNk?usp=sharing#scrollTo=Pc9gqNQ_tjtZ)
 
 # Contributing
 
@@ -29,3 +28,7 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 Back to [NLP page (table of contents)](README.md)</br>
 Back to [main page (table of contents)](../README.md)
+
+## Notebooks
+
+- [Colab: Deep Learning-Driven Summarization & Explainability with Reuters News](https://colab.research.google.com/drive/1edmnmznR97l9g3dFtA3wFew218---LNk?usp=sharing#scrollTo=Pc9gqNQ_tjtZ)

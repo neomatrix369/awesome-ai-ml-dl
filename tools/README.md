@@ -29,7 +29,6 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 ### IDEs and Editors
 - [VS Code](https://code.visualstudio.com/) - Popular code editor with AI extensions
 - [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE with ML support
-- [Jupyter](https://jupyter.org/) - Interactive computing environment
 - [Spyder](https://www.spyder-ide.org/) - Scientific Python development environment
 - [RStudio](https://rstudio.com/) - R development environment
 - [Vim](https://www.vim.org/) - Terminal-based editor
@@ -39,8 +38,6 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 - [Google Colab](https://colab.research.google.com/) - Free Jupyter notebooks
 - [Kaggle Notebooks](https://www.kaggle.com/kernels/) - Data science notebooks
 - [Azure Notebooks](https://notebooks.azure.com/) - Microsoft's notebook platform
-- [Databricks](https://databricks.com/) - Unified analytics platform
-- [Amazon SageMaker Studio](https://aws.amazon.com/sagemaker/studio/) - AWS ML platform
 
 ## Data Analysis Tools
 
@@ -52,7 +49,6 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 - **Cloud-based**: AWS, GCP, Azure
 
 ### Specialized Libraries
-- [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - Automated EDA
 - [Bamboolib](https://bamboolib.com/) - Visual data exploration
 - [Dabl](https://dabl.github.io/) - Data Analysis Baseline Library
 
@@ -77,9 +73,7 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 | [CatBoost](https://catboost.ai/) | Gradient Boosting | Handles categorical features well |
 
 ### AutoML Tools
-- [Google AutoML](https://cloud.google.com/automl/) - Automated ML
 - [H2O Driverless AI](https://www.h2o.ai/products/h2o-driverless-ai/) - Automated ML platform
-- [DataRobot](https://www.datarobot.com/) - Automated ML platform
 - [PyCaret](https://pycaret.org/) - Low-code ML library
 
 ## Cloud Platforms
@@ -91,9 +85,6 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 - [IBM Cloud](https://www.ibm.com/cloud/) - IBM's cloud services
 
 ### ML-Specific Services
-- [AWS SageMaker](https://aws.amazon.com/sagemaker/) - ML platform
-- [Google AI Platform](https://cloud.google.com/ai-platform/) - ML services
-- [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) - ML platform
 
 ## Specialized Hardware
 
@@ -107,7 +98,6 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 - **IPUs**: Intelligence Processing Units
 
 ### Cloud GPU Services
-- [Google Colab Pro](https://colab.research.google.com/signup) - GPU access
 - [Paperspace](https://www.paperspace.com/) - GPU cloud computing
 - [Vast.ai](https://vast.ai/) - GPU rental platform
 - [Lambda Labs](https://lambdalabs.com/) - GPU cloud instances
@@ -117,8 +107,6 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 ### Pipeline Automation
 - [Apache Airflow](https://airflow.apache.org/) - Workflow orchestration
 - [Prefect](https://www.prefect.io/) - Modern workflow orchestration
-- [Kubeflow](https://www.kubeflow.org/) - ML workflows on Kubernetes
-- [MLflow](https://mlflow.org/) - ML lifecycle management
 
 ### Experiment Tracking
 - [Weights & Biases](https://wandb.ai/) - Experiment tracking
@@ -129,9 +117,6 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 ## Deployment & MLOps
 
 ### Model Deployment
-- [Docker](https://www.docker.com/) - Containerization
-- [Kubernetes](https://kubernetes.io/) - Container orchestration
-- [FastAPI](https://fastapi.tiangolo.com/) - Python web framework
 - [Streamlit](https://streamlit.io/) - Data app framework
 - [Gradio](https://gradio.app/) - ML demo framework
 
@@ -150,3 +135,33 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 ---
 
 #tools-technologies-for-aimldl · [← Back home](../README.md)
+
+## Notebooks
+
+- [Jupyter](https://jupyter.org/) - Interactive computing environment
+- [Google Colab Pro](https://colab.research.google.com/signup) - GPU access
+
+## Data
+
+- [Databricks](https://databricks.com/) - Unified analytics platform
+- [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - Automated EDA
+- [DataRobot](https://www.datarobot.com/) - Automated ML platform
+
+## Infrastructure & Cloud
+
+- [Amazon SageMaker Studio](https://aws.amazon.com/sagemaker/studio/) - AWS ML platform
+- [Google AutoML](https://cloud.google.com/automl/) - Automated ML
+- [AWS SageMaker](https://aws.amazon.com/sagemaker/) - ML platform
+- [Google AI Platform](https://cloud.google.com/ai-platform/) - ML services
+- [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) - ML platform
+- [Docker](https://www.docker.com/) - Containerization
+- [Kubernetes](https://kubernetes.io/) - Container orchestration
+
+## MLOps & Deployment
+
+- [Kubeflow](https://www.kubeflow.org/) - ML workflows on Kubernetes
+- [MLflow](https://mlflow.org/) - ML lifecycle management
+
+## Tools & Frameworks
+
+- [FastAPI](https://fastapi.tiangolo.com/) - Python web framework
