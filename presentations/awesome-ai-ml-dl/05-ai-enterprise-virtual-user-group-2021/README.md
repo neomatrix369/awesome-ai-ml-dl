@@ -1,6 +1,6 @@
-## Looking into Java ML/DL libraries: Tribuo and DeepNetts
+# 🖥️ Looking into Java ML/DL libraries: Tribuo and DeepNetts
 
-[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+[Home](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
 
 ### Slides
 

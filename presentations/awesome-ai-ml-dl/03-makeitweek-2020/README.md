@@ -1,6 +1,6 @@
-## Tribuo: an introduction to a Java ML Library
+# 🖥️ Tribuo: an introduction to a Java ML Library
 
-[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+[Home](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
 
 
 ### Slides
