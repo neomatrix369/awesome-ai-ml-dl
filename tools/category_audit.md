@@ -9,7 +9,7 @@ This report flags links whose keywords suggest different categories than the cur
 
 ### Progress
 
-- Current findings: 52
+- Current findings: 51
 
 
 ## README-details.md
@@ -72,10 +72,6 @@ This report flags links whose keywords suggest different categories than the cur
 ## examples/data/databases/graph/grakn/graql/README.md
 
 - L84: [Data](README.md#data) — section: 'Running CLI interface for PoC' — suggested: data
-
-## examples/data/dataiku/README.md
-
-- L3: [NLP](../../../natural-language-processing/README.md) — section: 'Dataiku Data Science Studio (DSS) [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: nlp
 
 ## examples/data/dataiku/successful-run-console.md
 
@@ -152,4 +148,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
 
 
-Total flagged links: 52
+Total flagged links: 51
