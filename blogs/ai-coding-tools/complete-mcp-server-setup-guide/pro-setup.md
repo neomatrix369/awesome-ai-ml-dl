@@ -27,7 +27,6 @@ Advanced setup tools and workflows for power users, teams, and production enviro
 - Perfect for non-technical users
 
 **Where to find .dxt files:**
-- Check the [MCP Server Registry](https://github.com/modelcontextprotocol/servers)
 - Look for releases with `.dxt` files
 - Follow installation instructions in each server's README
 
@@ -343,3 +342,7 @@ Then in scripts, activate different servers based on `MCP_ENV`.
 ---
 
 **[← Back to Main Guide](./post.md)** | **[← Previous: Troubleshooting](./troubleshooting.md)**
+
+## AI Agents
+
+- Check the [MCP Server Registry](https://github.com/modelcontextprotocol/servers)

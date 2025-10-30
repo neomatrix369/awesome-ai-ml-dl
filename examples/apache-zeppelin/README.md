@@ -19,7 +19,6 @@ Enjoy writing prototypes, experiments or do some real work with it, in Java, Sca
 # Blogs
 
 - [Apache Zeppelin: stairway to notes* haven!](https://www.javaadvent.com/2018/12/apache-zeppelin-stairway-to-notes-haven.html)
-- [Running Apache Zeppelin on Oracle Cloud Infrastructure](https://medium.com/@neomatrix369/running-apache-zeppelin-on-oracle-cloud-infrastructure-b0aecc79597a)
 
 ## Installation
 
@@ -134,8 +133,6 @@ You will need a valid account on Docker Hub.
 - [Exploring Zeppelin UI](https://zeppelin.apache.org/docs/0.8.0/quickstart/explore_ui.html)
 - [https://issues.apache.org/jira/browse/ZEPPELIN-3586](https://issues.apache.org/jira/browse/ZEPPELIN-3586)
 - https://gist.github.com/conker84/4ffc9a2f0125c808b4dfcf3b7d70b043#file-zeppelin-dockerfile
-- [Notebook API](https://zeppelin.apache.org/docs/0.5.6-incubating/rest-api/rest-notebook.html)
-- [Interpreter API](https://zeppelin.apache.org/docs/0.5.6-incubating/rest-api/rest-interpreter.html)
 - Examples to try
   - https://github.com/dylanmei/docker-zeppelin
   - https://github.com/mmatloka/machine-learning-by-example-workshop
@@ -150,3 +147,12 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 ---
 
 #apache-zeppelin-zeppelinhttpsimgshieldsiodockerpullsneomatrix369zeppelinsvghttpshubdockercomrneomatrix369zeppelin-licensehttpsimgshieldsiobadgelicense-apache2020-bluesvghttpsopensourceorglicensesapache-20 · [← Back home](../../README.md)
+
+## Infrastructure & Cloud
+
+- [Running Apache Zeppelin on Oracle Cloud Infrastructure](https://medium.com/@neomatrix369/running-apache-zeppelin-on-oracle-cloud-infrastructure-b0aecc79597a)
+
+## Tools & Frameworks
+
+- [Notebook API](https://zeppelin.apache.org/docs/0.5.6-incubating/rest-api/rest-notebook.html)
+- [Interpreter API](https://zeppelin.apache.org/docs/0.5.6-incubating/rest-api/rest-interpreter.html)

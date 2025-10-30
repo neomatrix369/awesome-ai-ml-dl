@@ -59,7 +59,6 @@ See [Course, Tutorial, Learning resource](./course-tutorial-learning-resources.m
 
 ## Library, Framework, Models, Tools, Services
 
-- [Better NLP](https://bit.ly/better-nlp-launch)
 - [NLP Profiler](https://github.com/neomatrix369/nlp_profiler) | [PyPi](pypi.org/project/nlp-profiler/)
 - See [Library, Framework, Models, Tools, Services](./library-framework-models-tools-services.md)
 
@@ -74,7 +73,6 @@ See [Sentiment analysis](./sentiment-analysis.md)
 ## Topic modelling
 
 - [Topic Modeling in Python using PyCaret ☟](https://www.linkedin.com/feed/update/urn:li:activity:6768428905800982528/) | [Topic Modeling on PyCaret](https://towardsdatascience.com/topic-modeling-on-pycaret-2ce0c65ba3ff?source=search_post) (Medium post)
-- [Topic modeling helps discover abstract topics](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_machinelearning-datascience-ml-activity-6744246884703059968-DyNX)
 
 ## Presentations
 
@@ -97,13 +95,13 @@ See [Sentiment analysis](./sentiment-analysis.md)
 - [BERT Embeddings with TensorFlow 2.0 (notebook)](https://colab.research.google.com/drive/1EJuMPW7TDVDGB1wDCIayx22jutcwLQlE)
 - Also see notebooks under [Natural Language Processing (NLP)](../notebooks/README.md#natural-language-processing-nlp) in the [Notebooks](../notebooks/README.md) section
 
+- [Date/Time Helpers](https://www.kaggle.com/raenish/cheatsheet-date-helpers)
 ## Unstructured to structured data
 
 - [Convert unstructured data to structured data with machine learning](https://searchenterpriseai.techtarget.com/feature/Convert-unstructured-data-to-structured-data-with-machine-learning)
 - [How do I turn unstructured data into structured data?](https://www.quora.com/How-do-I-turn-unstructured-data-into-structured-data)
 - [The Use of NLP to Extract Unstructured Medical Data From Text](https://insidebigdata.com/2018/09/03/use-nlp-extract-unstructured-medical-data-text/)
 - [Step by step guide to extract insights from free text (unstructured data)](https://www.analyticsvidhya.com/blog/2014/08/step-step-guide-extract-inforation-free-text-unstructured-data/)
-- [Date/Time Helpers](https://www.kaggle.com/raenish/cheatsheet-date-helpers)
 
 ## Text data Augmentation
 
@@ -123,3 +121,11 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 ---
 
 Back to [main page (table of contents)](../README.md)
+
+## NLP
+
+- [Better NLP](https://bit.ly/better-nlp-launch)
+
+## Data
+
+- [Topic modeling helps discover abstract topics](https://www.linkedin.com/posts/srivatsan-srinivasan-b8131b_machinelearning-datascience-ml-activity-6744246884703059968-DyNX)

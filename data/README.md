@@ -61,10 +61,7 @@ See [Ethics / altruistic motives](../README-details.md#ethics--altruistic-motive
 ## Data Science
 
 - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
-  - [Frame The Problem](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem/frame-the-problem.md)
-  - [Usage and Integration](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration/usage-and-integration.md)
   - [Starting a Data Project](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/starting-a-data-project/starting-a-data-project.md)
-  - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
 - [JustCause package/framework - framework to foster good scientific practice in the research of causality methods](https://www.linkedin.com/posts/florianwilhelm_introduction-activity-6624318058347405312-fdBa) | [PyPu](https://pypi.org/project/JustCause/) | [GitHub](https://github.com/inovex/justcause)
 - [“Metaflow is a human-friendly Python library”](https://github.com/Netflix/metaflow) [LinkedIn Post](https://www.linkedin.com/posts/eric-feuilleaubois-ph-d-43ab0925_netflixmetaflow-activity-6638658912201527296-1QqW)
 - [5 free books for learning Python for DS](https://towardsdatascience.com/5-free-books-for-learning-python-for-data-science-87be443c084)
@@ -93,17 +90,9 @@ See [Datasets](./datasets.md)
 
 ## Hypothesis
 
-- [Correlation, causation, multicollinearity, confounding features or variables](https://otexts.com/fpp2/causality.html)
 - [How to approach Hypothesis Testing](https://medium.com/@dhruvaggarwal6/how-to-approach-hypothesis-testing-6257d03bcfee)
-- [Does Your Hypothesis Development Canvas Tell a Story?](https://www.linkedin.com/posts/data-science-central_does-your-hypothesis-development-canvas-tell-activity-6618701060817108993-EKjQ)
-- [A Complete Guide to Hypothesis Testing](https://towardsdatascience.com/a-complete-guide-to-hypothesis-testing-2e0279fa9149)
-- [An introduction to Statistical Inference and Hypothesis testing](https://twitter.com/DataScienceCtrl/status/1261325769155973122)
-- [A set of descriptive statistics and hypothesis tests across different types of data](https://github.com/EricSchles/describer_ml)
-- [The statistical analysis t-test explained for beginners and experts](https://towardsdatascience.com/the-statistical-analysis-t-test-explained-for-beginners-and-experts-fd0e358bbb62)
 - [The book of why" by Judea Pearl : A great overview and presents many relevant techniques](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)
-- [Craig's presentation: Visualizing the Why — Strategy and Roadmaps in Context (Slides)](https://www.dropbox.com/s/knagl9f7u9hxvr7/Strategy%20Maps%20Agile%20Evangelists.pdf?dl=0)
 - [Video](https://www.youtube.com/watch?v=LOjsuYzzOkA)
-- [Correlation & Causation: The Couple That Wasn’t](https://www.linkedin.com/posts/analytics-india-magazine_statistics-data-strategy-activity-6821324490719555584-9uyy)
 
 ## Data Exploratory Analysis
 
@@ -158,7 +147,6 @@ See [Feature Selection](./feature-selection.md)
 ## Post model-creation analysis, ML interpretation/explainability
 - [Pruning: DL models](https://www.subhadityamukherjee.me/2020/09/25/Pruning.html)
 - [Pruning models (W&B Report)](https://app.wandb.ai/authors/pruning/reports/Scooping-into-Model-Pruning-in-Deep-Learning--VmlldzoxMzcyMDg?utm_source=social_slack&utm_medium=slack&utm_campaign=report_author)
-- [Poor Man’s BERT • Exploring Pruning as an Alternative to Knowledge Distillation.](https://www.linkedin.com/posts/philipvollet_nlp-nlproc-innovation-activity-6693396556227473408--3Ro)
 See [Post model-creation analysis, ML interpretation/explainability](./model-analysis-interpretation-explainability.md)
 
 ## Model deployment
@@ -171,12 +159,10 @@ See [Post model-creation analysis, ML interpretation/explainability](./model-ana
 
 ## Statistics
 
-- [Mode of a Log-Normal distribution by Sahil Gupta](https://www.linkedin.com/posts/towards-data-science_mode-of-a-log-normal-distribution-activity-6664846621953662976-znG1)
 See [Statistics.md](statistics.md#statistics)
 
 ## Visualisation
 
-- [Data Visualization](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
 - See [Visualisation](../reference/visualisation.md#visualisation)
 
 ## Common mistakes when training models (data related)
@@ -201,8 +187,6 @@ See [Courses / books](./courses-books.md)
 
 ## Best practices / rules / an unordered list of high level or low level guidelines
 
-- [12 Best Practices for Modern Data Ingestion](https://go.streamsets.com/dzone-wp-12-best-practices-modern-data-ingestion)
-    - [PDF](https://streamsets.com/wp-content/uploads/2018/01/WP-12-best-practices-for-modern-data-ingestion.pdf)
 - [A Rubric for ML Production Readiness - by Jiameng Gao from Applied Deep Learning Meetup in Feb 2019](https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p) (Paper: https://ai.google/research/pubs/pub46555)
 - [Rules of Machine Learning: Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml/)
 
@@ -224,17 +208,26 @@ See [Databases](./databases.md)
 
 ## References
 
-- [How to build a data science project from scratch](https://www.kdnuggets.com/2018/12/build-data-science-project-from-scratch.html)
-- [Common mistakes when carrying out machine learning and data science](https://www.kdnuggets.com/2018/12/common-mistakes-data-science.html)
 - [A Rubric for ML Production Readiness - Breck et al. 2017 by Jiameng Gao (28 rules to follow, suggested by Google)](https://docs.google.com/presentation/d/1-4gE9v1X7EP4rsBQlRtGA9IXDnBjlQPAqB3jlDBvUTU/edit#slide=id.p) | [Original Paper by Google](https://ai.google/research/pubs/pub46555)
-- [Understanding Data Science Problems - template of questions to ask](http://url4149.bitgrit.net/wf/click?upn=qJT0wq97YSVxi6S9Gi10QGqeT3JSC6xJnYDSgYEwjzRMycP3yLSx2r-2BNxQzJHe9QPJFpU2-2FggIOmAMx4-2FXJyS5Ct5nq0JGa-2BaeTR278cf4Y016UI8tNe1mgRL66MJsyWyvn6y4MQGXNy5SqWqhbPcw-3D-3D_sX8FRvZaj8ntSB52F-2FOI3mORNoWV2VSsIMLOasSO2VX6r5g4xczJm1Y1-2FwGOMI-2BlSq1KNsGohBLZURHm6k60Tf2HtckfAZ6grcZUQF65S5oJU988M9Tw34CKxkXDto40DimsP-2FidGRva8-2F1aqLSRqIqousS4hXEet-2FT5ghzTXSqhZy5rNdfAdgpvrkvvm-2BZIs0VBaYDiakrHtCwc5eIKRA-3D-3D)
-- [eBook: How to Succeed in Data Science](https://docs.google.com/document/d/1fvxDOdCjPx0wS4aqSOME3NyATJGN7sASLeEyygIvcJA/edit#) [deadlink]
-- [Data Fallacies by Nabih Bawazir](https://www.linkedin.com/posts/nabihbawazir_data-fallacies-to-avoid-ugcPost-6600634052464742400-fmlf)
 
 ## Credits
 
 Big thanks to [Jeremie Charlet](https://github.com/jcharlet) for his contributions to many of the resources on this page. Not forgetting the others who have also helped support in the building of the above resources.
 
+- [Does Your Hypothesis Development Canvas Tell a Story?](https://www.linkedin.com/posts/data-science-central_does-your-hypothesis-development-canvas-tell-activity-6618701060817108993-EKjQ)
+- [A Complete Guide to Hypothesis Testing](https://towardsdatascience.com/a-complete-guide-to-hypothesis-testing-2e0279fa9149)
+- [An introduction to Statistical Inference and Hypothesis testing](https://twitter.com/DataScienceCtrl/status/1261325769155973122)
+- [A set of descriptive statistics and hypothesis tests across different types of data](https://github.com/EricSchles/describer_ml)
+- [The statistical analysis t-test explained for beginners and experts](https://towardsdatascience.com/the-statistical-analysis-t-test-explained-for-beginners-and-experts-fd0e358bbb62)
+- [Correlation & Causation: The Couple That Wasn’t](https://www.linkedin.com/posts/analytics-india-magazine_statistics-data-strategy-activity-6821324490719555584-9uyy)
+- [Mode of a Log-Normal distribution by Sahil Gupta](https://www.linkedin.com/posts/towards-data-science_mode-of-a-log-normal-distribution-activity-6664846621953662976-znG1)
+- [12 Best Practices for Modern Data Ingestion](https://go.streamsets.com/dzone-wp-12-best-practices-modern-data-ingestion)
+    - [PDF](https://streamsets.com/wp-content/uploads/2018/01/WP-12-best-practices-for-modern-data-ingestion.pdf)
+- [How to build a data science project from scratch](https://www.kdnuggets.com/2018/12/build-data-science-project-from-scratch.html)
+- [Common mistakes when carrying out machine learning and data science](https://www.kdnuggets.com/2018/12/common-mistakes-data-science.html)
+- [Understanding Data Science Problems - template of questions to ask](http://url4149.bitgrit.net/wf/click?upn=qJT0wq97YSVxi6S9Gi10QGqeT3JSC6xJnYDSgYEwjzRMycP3yLSx2r-2BNxQzJHe9QPJFpU2-2FggIOmAMx4-2FXJyS5Ct5nq0JGa-2BaeTR278cf4Y016UI8tNe1mgRL66MJsyWyvn6y4MQGXNy5SqWqhbPcw-3D-3D_sX8FRvZaj8ntSB52F-2FOI3mORNoWV2VSsIMLOasSO2VX6r5g4xczJm1Y1-2FwGOMI-2BlSq1KNsGohBLZURHm6k60Tf2HtckfAZ6grcZUQF65S5oJU988M9Tw34CKxkXDto40DimsP-2FidGRva8-2F1aqLSRqIqousS4hXEet-2FT5ghzTXSqhZy5rNdfAdgpvrkvvm-2BZIs0VBaYDiakrHtCwc5eIKRA-3D-3D)
+- [eBook: How to Succeed in Data Science](https://docs.google.com/document/d/1fvxDOdCjPx0wS4aqSOME3NyATJGN7sASLeEyygIvcJA/edit#) [deadlink]
+- [Data Fallacies by Nabih Bawazir](https://www.linkedin.com/posts/nabihbawazir_data-fallacies-to-avoid-ugcPost-6600634052464742400-fmlf)
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
@@ -244,3 +237,16 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 ---
 
 #data · [← Back home](../README.md)
+
+## MLOps & Deployment
+
+  - [Frame The Problem](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/frame-the-problem/frame-the-problem.md)
+  - [Usage and Integration](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/usage-and-integration/usage-and-integration.md)
+  - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing/workspace-setup-and-cloud-computing.md)
+- [Data Visualization](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/collect-and-prepare-data/data-visualization/data-visualization.md)
+
+## NLP
+
+- [Correlation, causation, multicollinearity, confounding features or variables](https://otexts.com/fpp2/causality.html)
+- [Craig's presentation: Visualizing the Why — Strategy and Roadmaps in Context (Slides)](https://www.dropbox.com/s/knagl9f7u9hxvr7/Strategy%20Maps%20Agile%20Evangelists.pdf?dl=0)
+- [Poor Man’s BERT • Exploring Pruning as an Alternative to Knowledge Distillation.](https://www.linkedin.com/posts/philipvollet_nlp-nlproc-innovation-activity-6693396556227473408--3Ro)

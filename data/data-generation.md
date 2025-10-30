@@ -25,7 +25,6 @@
 ### Generate random data matching a rule or type (people’s names / phone numbers / etc, financial data, etc)
 
 - [Random database/dataframe generator](https://pydbgen.readthedocs.io/en/latest/#)
-- [MyRiad Toolkit](https://github.com/TU-Berlin-DIMA/myriad-toolkit) (Paper: http://vldb.org/pvldb/vol5/p1890_alexanderalexandrov_vldb2012.pdf) - focuses on how to generate massive amounts of data following a database schema (create data for your relational db with users, orders, etc)
 - [Generating Synthetic Data to Match Data Mining Patterns](https://www.researchgate.net/publication/3420044_Generating_Synthetic_Data_to_Match_Data_Mining_Patterns)
 - [Data Mining Process  ➡ Techniques, Tools & Examples ⬅](https://www.linkedin.com/posts/asif-bhat_data-mining-activity-6621054656615407616-9r8R)
 - [Databake: Generate realistic test data for product dev and demos.](https://www.databake.io/)
@@ -39,7 +38,6 @@
   - [SMOTE explained](http://rikunert.com/SMOTE_explained)
   - [ML | Handling Imbalanced Data with SMOTE and Near Miss Algorithm in Python](https://www.geeksforgeeks.org/ml-handling-imbalanced-data-with-smote-and-near-miss-algorithm-in-python/)
   - SMOTE for Imbalanced Classification with Python: [original post](https://www.linkedin.com/posts/jasonbrownlee_smote-for-imbalanced-classification-with-activity-6663153292283121664-EBgy) | [blog](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
-- [imbalanced-learn library](https://imbalanced-learn.readthedocs.io/en/stable/introduction.html)
 - [SO discussion on using Python libraries](https://stackoverflow.com/questions/51322554/smote-with-missing-values)
 - [Simple example of how stock prices can be generated](https://stackoverflow.com/questions/8597731/are-there-known-techniques-to-generate-realistic-looking-fake-stock-data)
 - [How to Combine Oversampling and Undersampling for Imbalanced Classification](https://machinelearningmastery.com/combine-oversampling-and-undersampling-for-imbalanced-classification/)
@@ -68,7 +66,6 @@
 ### Sampling
 
 - [Random Number Generation and Sampling Methods](https://www.codeproject.com/Articles/1190459/Random-Number-Generation-and-Sampling-Methods)
-- [Resampling Methods: Bootstrap vs jackknife](https://www.linkedin.com/posts/data-science-central_resampling-methods-bootstrap-vs-jackknife-activity-6610622844785221632-bSXb)
 - [Oversampling/Undersampling in Logistic Regression](https://www.linkedin.com/posts/vincentg_oversamplingundersampling-in-logistic-regression-activity-6664247426364252162-Md0U)
 
 ## Data Augmentation
@@ -86,3 +83,12 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 Back to [Data page](./README.md#data) <br/>
 Back to [main page (table of contents)](../README.md)
+
+## Tools & Frameworks
+
+- [MyRiad Toolkit](https://github.com/TU-Berlin-DIMA/myriad-toolkit) (Paper: http://vldb.org/pvldb/vol5/p1890_alexanderalexandrov_vldb2012.pdf) - focuses on how to generate massive amounts of data following a database schema (create data for your relational db with users, orders, etc)
+- [imbalanced-learn library](https://imbalanced-learn.readthedocs.io/en/stable/introduction.html)
+
+## Data
+
+- [Resampling Methods: Bootstrap vs jackknife](https://www.linkedin.com/posts/data-science-central_resampling-methods-bootstrap-vs-jackknife-activity-6610622844785221632-bSXb)

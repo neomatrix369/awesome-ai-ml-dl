@@ -16,9 +16,7 @@ A comprehensive guide to Python programming for artificial intelligence, machine
 ## Learning Python
 
 ### Basics & Fundamentals
-- [Python Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/python-fundamentals/python-fundamentals.md)
 - [Lists, Tuples, Dictionaries, Conditionals, Loops](https://lnkd.in/gWRbc3J)
-- [Data Structures & Algorithms](https://lnkd.in/gYKnJWN)
 - [NumPy Arrays](https://lnkd.in/geeFePh)
 - [Regex](https://lnkd.in/gzUahNV)
 - [Introduction to Python](https://simpliv-wordpress-com.cdn.ampproject.org/c/s/simpliv.wordpress.com/2019/06/27/best-way-to-learn-python-step-by-step-guide/amp/)
@@ -36,7 +34,6 @@ A comprehensive guide to Python programming for artificial intelligence, machine
 ### Intermediate & Advanced
 - [Python to NumPy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [100 NumPy Exercises](https://www.linkedin.com/posts/asif-bhat_100-numpy-exercises-activity-6633319536751939584-hvfu)
-- [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
 - [Neural Networks Matrices exploration](https://github.com/souravs17031999/NeuralNets-Pure-Python)
 - [Understanding *args and **kwargs](https://morioh.com/p/252b73e0be0a?f=5c21f93bc16e2556b555ab2f&fbclid=IwAR2P_D8kr9Gf2gCjd2pf57ugkuv0qBfG0JEuAijGgl3JE2o_N1_MVk7u8CM)
 
@@ -49,31 +46,21 @@ A comprehensive guide to Python programming for artificial intelligence, machine
 - [VizTracer](https://github.com/gaogaotiantian/viztracer)
 
 ### Speed Optimization
-- [How to optimize your Pandas code](https://kanoki.org/2019/01/09/how-to-optimize-your-pandas-code/)
-- [Python Itertools: For faster and memory efficient code](https://kanoki.org/2019/02/08/python-itertools/)
-- [High-Performance Pandas: eval() and query()](https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html)
-- [Fast, Flexible, Easy and Intuitive: How to Speed Up Your Pandas Projects](https://realpython.com/fast-flexible-pandas)
 
 ### Vectorization
-- [Python & Vectorization](https://towardsdatascience.com/python-vectorization-5b882eeef658?fbclid=IwAR0sS8uNZlf_iiXw3_qwvUXxh-0UlrJ_nNIFlPJ0hBSHFvGtW2y2fFETqsQ)
 - [Array Programming With NumPy: What is Vectorization?](https://realpython.com/numpy-array-programming/#what-is-vectorization)
 - [numpy.vectorize()](https://numpy.org/doc/stable/reference/generated/numpy.vectorize.html)
-- [numba.vectorize()](https://numba.pydata.org/numba-doc/dev/user/vectorize.html)
 
 ### Parallel Processing
-- [Numba](http://numba.pydata.org/) - JIT compiler for Python
 - [Dask](https://dask.org/) - Parallel computing with task scheduling
 - [Modin](https://github.com/modin-project/modin) - Pandas on Ray/Dask
-- [Vaex](https://vaex.io/) - Out-of-core DataFrames for Python
 - [Swifter](https://github.com/jmcarpenter2/swifter) - Apply function to pandas DataFrame faster
 
 ## Libraries & Frameworks
 
 ### Core Libraries
 - [NumPy](https://numpy.org/) - Fundamental package for scientific computing
-- [Pandas](https://pandas.pydata.org/) - Data manipulation and analysis
 - [Matplotlib](https://matplotlib.org/) - Plotting library
-- [Seaborn](https://seaborn.pydata.org/) - Statistical data visualization
 - [Plotly](https://plot.ly/) - Interactive plotting
 
 ### Web Frameworks
@@ -107,7 +94,6 @@ A comprehensive guide to Python programming for artificial intelligence, machine
 ### Project Templates
 - [Cookiecutter](https://cookiecutter.readthedocs.io/) - Project templates
 - [For Python projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#python)
-- [For Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-science)
 
 ## Testing
 
@@ -128,13 +114,11 @@ A comprehensive guide to Python programming for artificial intelligence, machine
 - [Python Cheatsheet](https://www.pythoncheatsheet.org/)
 - [PySheee: Python Cheatsheet](https://www.pythonsheets.com/)
 - [7+ Python Cheat Sheets for Beginners and Experts](https://sinxloud.com/python-cheat-sheet-beginner-advanced/)
-- [Python for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
 - [30 seconds of python](https://github.com/30-seconds/30-seconds-of-python)
 
 ### Development Tools
 - [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE
 - [VS Code](https://code.visualstudio.com/) - Code editor
-- [Jupyter](https://jupyter.org/) - Interactive computing
 - [Spyder](https://www.spyder-ide.org/) - Scientific Python development environment
 
 ### Version Control
@@ -150,3 +134,34 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 ---
 
 [Back to main repository](../README.md) | [AI Coding Tools](../blogs/ai-coding-tools/README.md)
+
+## MLOps & Deployment
+
+- [Python Fundamentals](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/python-fundamentals/python-fundamentals.md)
+
+## Data
+
+- [Data Structures & Algorithms](https://lnkd.in/gYKnJWN)
+- [Scientific Python](https://github.com/Imperial-College-Data-Science-Society/Lecture-2-Scientific-Python)
+- [How to optimize your Pandas code](https://kanoki.org/2019/01/09/how-to-optimize-your-pandas-code/)
+- [High-Performance Pandas: eval() and query()](https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html)
+- [Fast, Flexible, Easy and Intuitive: How to Speed Up Your Pandas Projects](https://realpython.com/fast-flexible-pandas)
+- [Python & Vectorization](https://towardsdatascience.com/python-vectorization-5b882eeef658?fbclid=IwAR0sS8uNZlf_iiXw3_qwvUXxh-0UlrJ_nNIFlPJ0hBSHFvGtW2y2fFETqsQ)
+- [numba.vectorize()](https://numba.pydata.org/numba-doc/dev/user/vectorize.html)
+- [Numba](http://numba.pydata.org/) - JIT compiler for Python
+- [Pandas](https://pandas.pydata.org/) - Data manipulation and analysis
+- [Seaborn](https://seaborn.pydata.org/) - Statistical data visualization
+- [For Data Science projects](https://cookiecutter.readthedocs.io/en/latest/readme.html#data-science)
+- [Python for Data Science](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
+
+## Tools & Frameworks
+
+- [Python Itertools: For faster and memory efficient code](https://kanoki.org/2019/02/08/python-itertools/)
+
+## Generative AI
+
+- [Vaex](https://vaex.io/) - Out-of-core DataFrames for Python
+
+## Notebooks
+
+- [Jupyter](https://jupyter.org/) - Interactive computing

@@ -41,15 +41,9 @@
 
 ## Tools, packages and frameworks
 - [PyTorch Geometric Temporal is a temporal (dynamic) extension library for PyTorch Geometric](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
-- [Design Space for Graph Neural Networks](https://www.linkedin.com/posts/philipvollet_nlp-pytorch-datascience-activity-6734932885041762304-ohkW)
-- [A new SOTA open source semantic annotator ‘bbw’ for tabular data with the Wikidata knowledge graph](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-wikipedia-activity-6738004505474035712-mxpr)
-- [GraphScope is a unified distributed graph computing platform](https://www.linkedin.com/posts/philipvollet_datascience-analytics-bigdata-activity-6793219722117820417-vhSv)
-- [Tweeki - Linking Named Entities on Twitter to a Knowledge Graph](https://www.linkedin.com/posts/philipvollet_twitter-data-datascience-activity-6733786978178990080-ZiD3)
 
 
 ## Misc.
-- [Difference between JOIN and UNION in SQL](https://www.geeksforgeeks.org/difference-between-join-and-union-in-sql/)
-- [Difference between COMMIT and ROLLBACK in SQL](https://www.geeksforgeeks.org/difference-between-commit-and-rollback-in-sql/)
 
 # Contributing
 
@@ -61,3 +55,15 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 Back to [Data page (table of contents)](README.md)</br>
 Back to [main page (table of contents)](../README.md)
+
+## NLP
+
+- [Design Space for Graph Neural Networks](https://www.linkedin.com/posts/philipvollet_nlp-pytorch-datascience-activity-6734932885041762304-ohkW)
+
+## Data
+
+- [A new SOTA open source semantic annotator ‘bbw’ for tabular data with the Wikidata knowledge graph](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-wikipedia-activity-6738004505474035712-mxpr)
+- [GraphScope is a unified distributed graph computing platform](https://www.linkedin.com/posts/philipvollet_datascience-analytics-bigdata-activity-6793219722117820417-vhSv)
+- [Tweeki - Linking Named Entities on Twitter to a Knowledge Graph](https://www.linkedin.com/posts/philipvollet_twitter-data-datascience-activity-6733786978178990080-ZiD3)
+- [Difference between JOIN and UNION in SQL](https://www.geeksforgeeks.org/difference-between-join-and-union-in-sql/)
+- [Difference between COMMIT and ROLLBACK in SQL](https://www.geeksforgeeks.org/difference-between-commit-and-rollback-in-sql/)

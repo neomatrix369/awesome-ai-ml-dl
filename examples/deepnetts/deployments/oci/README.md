@@ -56,13 +56,8 @@ Note the `TF_VAR` prefix, as it is a terraform convention for input variables.
 
 Here is a list of resources on where to look for each of the above resources:
 
-- [Refer to this link](https://cloud.oracle.com/tenancy)  to find out about `[TENANCY_OCID]` (look for the **OCID** field under the Tenancy Information on the page)
-- Use the left-hand [Navigation menu > Identity > Compartments](https://cloud.oracle.com/identity/compartments), select the compartment to find out about `[COMPARMENT_OCID]` where you should look for the **OCID** field
-- Go to `Profile Icon` > `User Settings` or left-hand [Navigation menu > Identity > Users](https://cloud.oracle.com/identity/users) > Select the user from the list (yourself), look for the **OCID** field to find out about `[USER_OCID]`
-- Go to [Navigation menu > Identity > Users](https://cloud.oracle.com/identity/users) > Select the user from the list (yourself), then from under **Resource**, click on **API Keys > Add API Key**. Here you can choose to either generate a new key-pair or use an existing one (choose the Public key file or paste it's content), once done, you are shown the finger print for the `[TF_VAR_fingerprint]` variable
 - And depending on the above choice, make sure you note the location of the Provate key of the key-pair from the above selection, this is needed for `[TF_VAR_private_key_path]`
 Other resources [1](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#five) | [2](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#two) | [3](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#four) | [4](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#five) (look for How to Upload the Public Key)
-- Refer to [Regions page](https://cloud.oracle.com/regions/infrastructure) to look for the Region Identifier that is relevant to your account for the `[TF_VAR_region]` field
 - `[TF_VAR_ssh_public_key]` and `[TF_VAR_ssh_private_key]` are already known to you, they are referring to the contents of the keys in `~/.ssh/id_rsa.pub` and `~/.ssh/id_rsa` files respectively.
 
 For a summary (also helps to verify the steps) of the above steps please see [here](https://www.terraform.io/docs/providers/oci/index.html).
@@ -180,21 +175,35 @@ Note that this setup does not take into account establishing a secure `http` i.e
 
 - For more information on Terraform infrastructure management see: [Terraform for OCI](https://www.terraform.io/docs/providers/oci/index.html)
 - [Terraform commands](https://www.terraform.io/docs/commands/index.html)
-- [See working example using Micronaut running on GraalVM](https://github.com/graalvm/graalvm-demos/tree/master/micronaut-webapp/deployments/oci)
 - [Ensure OCI account is created and you can log in](https://docs.oracle.com/en-us/iaas/Content/General/Reference/PaaSprereqs.htm)
 - Install OCI cli command tool (or use a language specific SDK) -- one-off task]
   - https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdks.htm#Software_Development_Kits_and_Command_Line_Interface
-    - [Download CLI](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm#Quickstart)
     + Setting up the Config File
         + [Where to Get the Tenancy's OCID and User's OCID](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#five)
         + [Regions and Availability Domains](https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm#top)
         + [SDK and CLI configuratuon File](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm)
 - How to find values of the Terraform OCI related variables
-    - [Oracle Cloud Infrastructure account](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm)
-- [What are Compartments?](https://cloud.oracle.com/identity/compartments)
 
 ---
 
 Go to [DeepNetts Example page](../../README.md) </br>
 Go to [Java/JVM Machine Learning page](../../../../reference/java-jvm.md#javajvm) </br>
 Go to [Main page](../../../../README.md)
+
+## Infrastructure & Cloud
+
+- [Refer to this link](https://cloud.oracle.com/tenancy)  to find out about `[TENANCY_OCID]` (look for the **OCID** field under the Tenancy Information on the page)
+- Use the left-hand [Navigation menu > Identity > Compartments](https://cloud.oracle.com/identity/compartments), select the compartment to find out about `[COMPARMENT_OCID]` where you should look for the **OCID** field
+- Go to `Profile Icon` > `User Settings` or left-hand [Navigation menu > Identity > Users](https://cloud.oracle.com/identity/users) > Select the user from the list (yourself), look for the **OCID** field to find out about `[USER_OCID]`
+- Go to [Navigation menu > Identity > Users](https://cloud.oracle.com/identity/users) > Select the user from the list (yourself), then from under **Resource**, click on **API Keys > Add API Key**. Here you can choose to either generate a new key-pair or use an existing one (choose the Public key file or paste it's content), once done, you are shown the finger print for the `[TF_VAR_fingerprint]` variable
+- Refer to [Regions page](https://cloud.oracle.com/regions/infrastructure) to look for the Region Identifier that is relevant to your account for the `[TF_VAR_region]` field
+    - [Oracle Cloud Infrastructure account](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apisigningkey.htm)
+- [What are Compartments?](https://cloud.oracle.com/identity/compartments)
+
+## MLOps & Deployment
+
+- [See working example using Micronaut running on GraalVM](https://github.com/graalvm/graalvm-demos/tree/master/micronaut-webapp/deployments/oci)
+
+## Tools & Frameworks
+
+    - [Download CLI](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm#Quickstart)

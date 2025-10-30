@@ -22,7 +22,6 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
     - #inferno
   - #contribute-to-virgili0
   - [👉 Feynman Learning Technique 👈](https://www.linkedin.com/posts/asif-bhat_neverstoplearning-asifbhat-activity-6639250916010717185-avMT)
-  - [👉 How to Learn #AI 👈](https://www.linkedin.com/posts/asif-bhat_datasciencepost-on-instagram-artificialintelligence-activity-6634407139324588032-DD4K)
   - [👉 Python to Neural Networks : A Guide for Beginners 👈] (https://www.linkedin.com/feed/update/urn:li:activity:6690911303441219584/)
 
 - #contributing
@@ -43,8 +42,6 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
   - [Math Fundamentals](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/math-fundamentals.md)
   - [Statistics Fundamentals](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/statistics-fundamentals.md)
   - [Python Fundamentals](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/python-fundamentals.md)
-  - [Jupyter Notebook](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/jupyter-notebook.md)
-  - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/the-data-science-process.md)
 
 #### Machine Learning
   - [What do I need for ML?](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/prerequisites.md)
@@ -56,7 +53,6 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
   - ML Study paths
     - [Machine Learning Study Path](https://github.com/virgili0/Virgilio/blob/master/LearningPaths/Machine%20Learning%20Engineer%20Career%20Path) [deadlink]
   - Computer Vision
-    - [Introduction to Computer Vision using OpenCV and Python](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
 
 #### New To Data Science
   - [Basic Python](https://github.com/virgili0/Virgilio/blob/master/NewToDataScience/PythonBasic.md) [deadlink] | [Alternative: Python Basics](https://virgili0.github.io/Virgilio/purgatorio/fundamentals/python-fundamentals.html#why-python)
@@ -68,7 +64,6 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
     - [Frame The Problem](https://github.com/virgili0/Virgilio/blob/f719225777afe22430ce62bf025c60b4cd46c076/content/purgatorio/fundamentals/the-data-science-process.md#Frame-the-problem)
     - [Usage and Integration](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/usage-and-integration.md)
     - [Starting a Data Project](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/starting-a-data-project.md)
-    - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/7b2c33031b687e75bb34f7350fa264d2bfbc277e/content/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing.md)
     - Collect and Prepare Data
       [Data Preparation](https://github.com/virgili0/Virgilio/blob/708bd547c0bd04b05ac76b25c42b0158ea632b21/content/purgatorio/collect-and-prepare-data/data-preparation.md)
       [Data Visualization](https://github.com/virgili0/Virgilio/blob/708bd547c0bd04b05ac76b25c42b0158ea632b21/content/purgatorio/collect-and-prepare-data/data-visualization.md)
@@ -78,12 +73,8 @@ This section will be dedicated to guides to learning Data Science, Machine Learn
 
 #### Deep Learning
   - [Deep Learning Theory](https://github.com/virgili0/Virgilio/blob/7b2c33031b687e75bb34f7350fa264d2bfbc277e/content/purgatorio/select-and-train-machine-learning-models/deep-learning-theory.md)
-  - [Deep Learning in Cloud](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Deep%20learning%20in%20cloud/README.md)
-  - [Object Tracking based on Deep Learning](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
-  - [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
 
 #### Natural Language Processing
-  - [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/DialogFlow.md)
 
 #### Tools
   - [Latex](https://github.com/virgili0/Virgilio/blob/708bd547c0bd04b05ac76b25c42b0158ea632b21/content/inferno/tools/latex.md)
@@ -126,3 +117,27 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 ---
 
 Back to [main page (table of contents)](README.md)
+
+## Data
+
+  - [👉 How to Learn #AI 👈](https://www.linkedin.com/posts/asif-bhat_datasciencepost-on-instagram-artificialintelligence-activity-6634407139324588032-DD4K)
+  - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/the-data-science-process.md)
+
+## Notebooks
+
+  - [Jupyter Notebook](https://github.com/virgili0/Virgilio/blob/d58b04d10d8dcd8cc887eed6074bc50e7daa7678/content/purgatorio/fundamentals/jupyter-notebook.md)
+
+## Computer Vision
+
+    - [Introduction to Computer Vision using OpenCV and Python](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Computer%20Vision/Introduction_to_Computer_Vision_using_OpenCV_and_Python.ipynb)
+  - [Object Tracking based on Deep Learning](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Computer%20Vision/Object_Tracking_based_on_Deep_Learning.ipynb)
+  - [Object Instance Segmentation using TensorFlow Framework and Cloud GPU Technology](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Computer%20Vision/Object_Instance_Segmentation_using_TensorFlow_Framework_and_Cloud_GPU_Technology.ipynb)
+
+## Infrastructure & Cloud
+
+    - [WorkSpace Setup and Cloud Computing](https://github.com/virgili0/Virgilio/blob/7b2c33031b687e75bb34f7350fa264d2bfbc277e/content/purgatorio/define-the-scope-and-ask-questions/workspace-setup-and-cloud-computing.md)
+  - [Deep Learning in Cloud](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/Deep%20learning%20in%20cloud/README.md)
+
+## Large Language Models (LLMs)
+
+  - [Chatbots - Build a complex and useful Virtual Assistant with DialogFlow and Flask](https://github.com/virgili0/Virgilio/blob/a1996ef0b8fa66e564b7115794a07183640dfb08/Topics/DialogFlow.md)

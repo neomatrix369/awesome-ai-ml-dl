@@ -5,7 +5,6 @@
 - #algorithms
 - #cambridge-spark
 - #datacamp
-- [DATAQUEST](https://www.dataquest.io/)
 - #dataiku
 - #data-science
 - #computer-vision
@@ -28,14 +27,8 @@
 ## Cambridge Spark
 
 - For Individuals
-  - [Applied Data Analytics Bootcamp/](https://cambridgespark.com/applied-data-analytics-bootcamp/)
-  - [Applied Data Science London](https://cambridgespark.com/applied-data-science-london/)
-  - [MSc Data Science](https://cambridgespark.com/msc-data-science/)
 - [Onsite courses](https://cambridgespark.com/onsite-courses/)
-- [MSc Data Science (distance learning)](https://cambridgespark.com/msc-data-science-corporate/)
-- [Data Science for Executives](https://cambridgespark.com/data-science-seminar/)
 - [Graduate Scheme](https://cambridgespark.com/graduates/)
-- [K.A.T.E: Powering success in Data Science careers](https://cambridgespark.com/kate/)
 
 ## Datacamp
 
@@ -78,25 +71,23 @@
   - [Stanford Computer Vision Lab : Teaching](http://vision.stanford.edu/teaching.html) - Contains publications other than courses (free)
   - [Introduction to CV, IBM](https://www.coursera.org/learn/introduction-computer-vision-watson-opencv) (free, paid for certification)
   - [Convolutional Neural Networks, Coursera](https://www.coursera.org/learn/convolutional-neural-networks) (free, paid for certification)
-  - [Generative Adversarial Networks (GANs) Specialization Coursera](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
 
 ### Image Processing
 
 - [Image and Video Processing course by Duke University, Coursera](https://www.coursera.org/learn/image-processing) (free, paid for certification)
 
+    - [Building and Debugging CNNs](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE9193U0/bloomberg_class_2.pdf)
 ## Fast.ai
 
 - [Practical Deep Learning for Coders, v3](https://course.fast.ai/)
 - [Part 2: Deep Learning from the Foundations](https://course.fast.ai/part2)
 - [Introduction to Machine Learning for Coders](http://course18.fast.ai/ml)
 - [Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
-- [Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/)
 - [Fastbook](https://forums.fast.ai/t/mlt-fastbook-reading-discussion-sessions-saturdays-4-6-pm-ist/69421/16) | [GitHub](https://github.com/fastai/fastbook)
 
 ## Intel
 
 - [Intel® AI Courses](https://software.intel.com/en-us/ai/courses)
-- [Featured Course: AI from the Data Center to the Edge – An Optimized Path using Intel® Architecture](https://software.seek.intel.com/DataCenter_to_Edge_REG)
 
 ### FPGA
 
@@ -106,13 +97,9 @@
 
 - ML course by [Weights & Biases | WandB](https://wandb.com)
     - [Code from the class](https://github.com/lukas/ml-class)
-    - [Setup Instructions](https://github.com/lukas/ml-class)
-    - [Slides](https://storage.googleapis.com/wandb/Bloomberg%20Class%201.pdf)
-    - [Building and Debugging CNNs](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE9193U0/bloomberg_class_2.pdf)
     - [Introduction to ML](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE3Q7NN7/bloomberg_class_3.pdf)
 - [Korbit AI ML Courses](https://bit.ly/326t38Z?fbclid=IwAR3nB_eUqcORi3t27_WgN97H3dYb21z-g6F1EIttOGXh0cQKwrEllvFfSaY)
 - [Mirror Neuron Courses](https://youtube.com/c/MirrorNeuron?fbclid=IwAR2HmFSVqxXmJl8R9WFqcoTIeQxYAMqapyR3TrU-Lw6wHE-0syaIfgfpNyA)
-- [Course material by Students of AI (Imperial College, London)](https://github.com/Imperial-College-Data-Science-Society/)
 [previous github link](https://github.com/Students-for-AI/The-Academy-of-AI), [alternative forked repo](https://github.com/DurhamAI/The-Academy-of-AI)
 - [Comprehensive list of machine learning videos by Yaz](https://github.com/yazdotai/machine-learning-video-courses)
 - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
@@ -124,7 +111,6 @@
     - [Neural Networks and Machine Learning](https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=16)
     - [The Nature of Code: Simulating Natural Systems with Processing](https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=6)
     - [Runway: Machine Learning for Creators](https://www.youtube.com/watch?v=ARnf4ilr9Hc&list=PLRqwX-V7Uu6aBhR9QrBIsyybrnK7MCcYU)
-    - [Session 12: word2vec - Programming with Text](https://www.youtube.com/watch?v=LSS_bos_TPI&list=PLRqwX-V7Uu6aQ0oh9nH8c6U1j9gCg-GdF)
     - [Machine Learning with TensorFlow, ml5.js, and Spell](https://www.youtube.com/watch?v=ggBOAPtFjYU&list=PLRqwX-V7Uu6Y6kSfxOjq5zk4gkDK8q_n1)
     - [Session 5 - Doodle Classifier - Intelligence and Learning](https://www.youtube.com/watch?v=pqY_Tn2SIVA&list=PLRqwX-V7Uu6Zs14zKVuTuit6jApJgoYZQ)
     - [Session 6 - TensorFlow.js - Intelligence and Learning](https://www.youtube.com/watch?v=Qt3ZABW5lD0&list=PLRqwX-V7Uu6YIeVA3dNxbR9PYj4wV31oQ)
@@ -143,17 +129,11 @@
   - [Week 8](https://www.youtube.com/watch?v=LDRbO9a6XPU)
   - [Week 9](https://www.youtube.com/watch?v=d12ra3b_M-0)
   - [Week 10](https://www.youtube.com/watch?v=TF1yh5PKaqI)
-- [The Neural Aesthetic (Gene Kogan)](https://www.youtube.com/watch?v=Bh5zb-IssWQ&list=PL_78NoHMtmJqYCjuxhKNLkFbg14lWfcW-)
   - [01 Introduction, the whole course "in 60 minutes"](https://www.youtube.com/watch?v=Bh5zb-IssWQ)
   - [02 Neural networks](https://www.youtube.com/watch?v=FYqsA2B-jKE)
   - [03 Neural networks](https://www.youtube.com/watch?v=Ger4Y9Ovrb4)
   - [04 Applications of neural nets](https://www.youtube.com/watch?v=zOZYCuDvJ3I)
-  - [05 Visualization, deepdream, style & texture](https://www.youtube.com/watch?v=9Ql0xyXQLt8)
-  - [06 Generative models](https://www.youtube.com/watch?v=U_u5CuLGVSc)
-  - [07 Conditional generative models](https://www.youtube.com/watch?v=ZiQNI_UwNbg)
   - [08 Recurrent neural networks](https://www.youtube.com/watch?v=HnBbsIXZ8Mo)
-  - [09 Music information retrieval, BIGGAN & GLOW](https://www.youtube.com/watch?v=kIvyex9HH0Y)
-  - [10 Reinforcement Learning & Natural Language Processing](https://www.youtube.com/watch?v=Pf_0IT5OjiI)
   - [11 Autonomous Artificial Artist](https://www.youtube.com/watch?v=Dqudnjj5wSo)
 - [Study plan to become a ML Engineer](https://lnkd.in/fdMg-AK)
 - [Machine Learning Course by Scaler](https://www.scaler.com/topics/course/free-supervised-learning-course/)
@@ -287,3 +267,35 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 ---
 
 Back to [main page (table of contents)](README.md)
+
+## Data
+
+- [DATAQUEST](https://www.dataquest.io/)
+  - [Applied Data Analytics Bootcamp/](https://cambridgespark.com/applied-data-analytics-bootcamp/)
+  - [Applied Data Science London](https://cambridgespark.com/applied-data-science-london/)
+  - [MSc Data Science](https://cambridgespark.com/msc-data-science/)
+- [MSc Data Science (distance learning)](https://cambridgespark.com/msc-data-science-corporate/)
+- [Data Science for Executives](https://cambridgespark.com/data-science-seminar/)
+- [K.A.T.E: Powering success in Data Science careers](https://cambridgespark.com/kate/)
+- [Featured Course: AI from the Data Center to the Edge – An Optimized Path using Intel® Architecture](https://software.seek.intel.com/DataCenter_to_Edge_REG)
+- [Course material by Students of AI (Imperial College, London)](https://github.com/Imperial-College-Data-Science-Society/)
+
+## Generative AI
+
+  - [Generative Adversarial Networks (GANs) Specialization Coursera](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
+- [The Neural Aesthetic (Gene Kogan)](https://www.youtube.com/watch?v=Bh5zb-IssWQ&list=PL_78NoHMtmJqYCjuxhKNLkFbg14lWfcW-)
+  - [06 Generative models](https://www.youtube.com/watch?v=U_u5CuLGVSc)
+  - [07 Conditional generative models](https://www.youtube.com/watch?v=ZiQNI_UwNbg)
+  - [09 Music information retrieval, BIGGAN & GLOW](https://www.youtube.com/watch?v=kIvyex9HH0Y)
+
+## NLP
+
+- [Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/)
+    - [Session 12: word2vec - Programming with Text](https://www.youtube.com/watch?v=LSS_bos_TPI&list=PLRqwX-V7Uu6aQ0oh9nH8c6U1j9gCg-GdF)
+  - [05 Visualization, deepdream, style & texture](https://www.youtube.com/watch?v=9Ql0xyXQLt8)
+  - [10 Reinforcement Learning & Natural Language Processing](https://www.youtube.com/watch?v=Pf_0IT5OjiI)
+
+## Large Language Models (LLMs)
+
+    - [Setup Instructions](https://github.com/lukas/ml-class)
+    - [Slides](https://storage.googleapis.com/wandb/Bloomberg%20Class%201.pdf)

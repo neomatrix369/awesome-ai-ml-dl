@@ -46,25 +46,18 @@
    - W&B Docs: https://github.com/wandb/docs
 - Additional resources
   - [Error caused by missing input_shape in your first layer](https://stackoverflow.com/questions/52690293/tensorflow-attributeerror-nonetype-object-has-no-attribute-original-name-sc)
-  - [Bloomberg summary colab notebook](https://colab.research.google.com/drive/1lfLR9WRzmjOMmnNmePys4-8WNfZ5xC90#scrollTo=wbjXyjFRaT1d)
-  - [Implementation of W&B for model param tuning](https://www.kaggle.com/robertehshi/basics-of-nfl-expost)
   - https://talktotransformer.com/ - Adam Daniel King's implementation of GPT-2 on the back of the PyTorch version
   - https://app.wandb.ai/sayakpaul/jigsaw-toxic/reports/Kaggle-Starter-Kernel---Jigsaw-Multilingual-Toxic-Comment-Classification--Vmlldzo3NjE1MQ
   - https://www.wandb.com/kaggle | https://www.youtube.com/watch?v=MFJnkgUTMrM&
   - https://www.wandb.com/articles/model-explorations-and-hyperparameter-search-with-w-b-and-kubernetes (Robert Porsch)
   - https://www.kaggle.com/robertehshi/basics-of-nfl-expost (Robert Lutz)
   - https://app.wandb.ai/cayush/pytorchlightning/reports/Use-Pytorch-Lightning-with-Weights-%26-Biases--Vmlldzo2NjQ1Mw
-  - [Automate Kaggle model training with Skorch and W&B:](https://app.wandb.ai/cayush/undefined/reports/Automate-ML-experiments-with-Skorch-and-W%26B--Vmlldzo4NTQ1NQ?utm_source=social_twitter&utm_medium=report&utm_campaign=report_author)
   - [W&B Sweep: NeRF-–-Representing-Scenes-as-Neural-Radiance-Fields-for-View-Synthesis](https://app.wandb.ai/sweep/nerf/reports/NeRF-%E2%80%93-Representing-Scenes-as-Neural-Radiance-Fields-for-View-Synthesis--Vmlldzo3ODIzMA) | [Notebook 1](https://github.com/lavanyashukla/neural_networks/blob/master/Hyperparameter_Sweeps_with_W%26B.ipynb) | [Notebook 2](https://github.com/lavanyashukla/neural_networks/blob/master/Hyperparameter_Optimization_on_a_NeRF.ipynb)
   - [Track model performance](https://app.wandb.ai/lavanyashukla/visualize-models/reports/Track-Model-Performance--Vmlldzo1NTk2MA)
-  - [Hyper parameter sweeps](https://colab.research.google.com/drive/1gKixa6hNUB8qrn1CfHirOfTEQm0qLCSS)
-  - [GPU metrics](https://app.wandb.ai/stacey/estuary/reports/System-metrics-for-model-comparison--Vmlldzo1NzI5Mg)
   - [Visualise model prediction](https://app.wandb.ai/lavanyashukla/visualize-predictions/reports/Visualize-Model-Predictions--Vmlldzo1NjM4OA/)
   - [Visualise Scikit Models](https://app.wandb.ai/lavanyashukla/visualize-sklearn/reports/Visualize-Scikit-Models--Vmlldzo0ODIzNg)
   - [Save and restore models](https://app.wandb.ai/lavanyashukla/save_and_restore/reports/Saving-and-Restoring-Models-with-W%26B--Vmlldzo3MDQ3Mw)
-  - [Keras and W&B](https://www.kaggle.com/robertehshi/basics-of-nfl-expost)
   - [Pytorch and W&B](https://app.wandb.ai/cayush/pytorchlightning/reports/Use-Pytorch-Lightning-with-Weights-%26-Biases--Vmlldzo2NjQ1Mw)
-  - [Tracking experiments](https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0)
   - Implementing W&B sweeps: [Sweeps](https://docs.wandb.com/sweeps/overview ) | [Notebook](https://colab.research.google.com/drive/1gKixa6hNUB8qrn1CfHirOfTEQm0qLCSS )
   - ...for more [see this](./wandb/More-resources.md)
 
@@ -87,3 +80,22 @@
 
 Back to [Programs and Tools](./programs-and-tools.md#programs-and-tools). <br/>
 Back to [Data page](./README.md#data).
+
+## Notebooks
+
+  - [Bloomberg summary colab notebook](https://colab.research.google.com/drive/1lfLR9WRzmjOMmnNmePys4-8WNfZ5xC90#scrollTo=wbjXyjFRaT1d)
+  - [Automate Kaggle model training with Skorch and W&B:](https://app.wandb.ai/cayush/undefined/reports/Automate-ML-experiments-with-Skorch-and-W%26B--Vmlldzo4NTQ1NQ?utm_source=social_twitter&utm_medium=report&utm_campaign=report_author)
+  - [Hyper parameter sweeps](https://colab.research.google.com/drive/1gKixa6hNUB8qrn1CfHirOfTEQm0qLCSS)
+
+## NLP
+
+  - [Implementation of W&B for model param tuning](https://www.kaggle.com/robertehshi/basics-of-nfl-expost)
+  - [Keras and W&B](https://www.kaggle.com/robertehshi/basics-of-nfl-expost)
+
+## Infrastructure & Cloud
+
+  - [GPU metrics](https://app.wandb.ai/stacey/estuary/reports/System-metrics-for-model-comparison--Vmlldzo1NzI5Mg)
+
+## Data
+
+  - [Tracking experiments](https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0)

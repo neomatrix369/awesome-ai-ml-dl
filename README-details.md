@@ -32,10 +32,7 @@
 
 ### Artificial Intelligence
 
-- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
 - [12 thought leaders on LinkedIn who are creating original content to learn Artificial Intelligence and Machine Learning](https://www.linkedin.com/posts/ajitjaokar_12-thought-leaders-on-linkedin-who-are-creating-activity-6627455043429814272-MK_n)
-- [AI Repository by Goku Mohandas](https://www.linkedin.com/posts/asif-bhat_datascience-data-dataanalysis-activity-6643083915873615872-je6g)
-- [Digital Twins: Bringing artificial intelligence to Engineering](https://www.datasciencecentral.com/profiles/blogs/digital-twins-brining-artificial-intelligence-to-engineering)
 - See [Artificial Intelligence](./reference/artificial-intelligence.md)
 - See [AI Agents](./ai-agents/)
 
@@ -53,27 +50,9 @@
   + [Running Low on Time? Use PyCaret to Build your Machine Learning Model in Seconds](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?utm_source=feed&utm_medium=feed-articles&utm_campaign=feed)
   + Build with PyCaret, Deploy with FastAPI: [LinkedIn](https://www.linkedin.com/posts/profile-moez_datascience-machinelearning-opensource-ugcPost-6792091520582377473-gNhY) | [TDS post](https://towardsdatascience.com/build-with-pycaret-deploy-with-fastapi-333c710dc786?utm_campaign=postfity&utm_content=postfity28ca7&utm_medium=social&utm_source=linkedin&gi=681655d44828)
   - [Supercharge your Machine Learning Experiments with PyCaret and Gradio](https://moez-62905.medium.com/supercharge-your-machine-learning-experiments-with-pycaret-and-gradio-5932c61f80d9?utm_medium=social&utm_source=linkedin&utm_campaign=postfity&utm_content=postfityb4ae6)
-  - [PyCaret and Streamlit: How to Create and Deploy Data Science Web App](https://towardsdatascience.com/pycaret-and-streamlit-how-to-create-and-deploy-data-science-web-app-273d205271a3?gi=2116c67d324d)
-  - [H2O Wave is a software stack for building beautiful, low-latency, realtime, browser-based applications and dashboards entirely in Python without using HTML, Javascript, or CSS](https://www.linkedin.com/posts/philipvollet_python-datascience-gui-activity-6746425913367515136-RTBv)
-  - [Introduction to Regression in Python with PyCaret](https://towardsdatascience.com/introduction-to-regression-in-python-with-pycaret-d6150b540fc4?source=search_post)
-  - [Regression with PyCaret: A better machine learning library](https://towardsdatascience.com/regression-with-pycaret-a-better-machine-learning-library-e02762a0615c?source=search_post)
-  - [Introduction to Binary Classification with PyCaret](https://towardsdatascience.com/introduction-to-binary-classification-with-pycaret-a37b3e89ad8d?source=search_post)
-  - [Classification with PyCaret: A better machine learning library](https://towardsdatascience.com/classification-with-pycaret-a-better-machine-learning-library-cff07a10a28c?source=search_post)
-  - [Predict Customer Churn (the right way) using PyCaret](https://towardsdatascience.com/predict-customer-churn-the-right-way-using-pycaret-8ba6541608ac?source=search_post---------9)
-  - [Build and deploy machine learning web app using PyCaret and Streamlit](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104?source=search_post)
-  - [Deploy Machine Learning App built using Streamlit and PyCaret on Google Kubernetes Engine](https://towardsdatascience.com/deploy-machine-learning-app-built-using-streamlit-and-pycaret-on-google-kubernetes-engine-fd7e393d99cb?source=search_post)
-  - [Easy MLOps with PyCaret + MLflow](https://towardsdatascience.com/easy-mlops-with-pycaret-mlflow-7fbcbf1e38c6?source=search_post)
-  - [Deploy PyCaret and Streamlit app using AWS Fargate — serverless infrastructure](https://towardsdatascience.com/deploy-pycaret-and-streamlit-app-using-aws-fargate-serverless-infrastructure-8b7d7c0584c2?source=search_post)
-  - [Predict Lead Score (the Right Way) Using PyCaret](https://towardsdatascience.com/predict-lead-score-the-right-way-using-pycaret-332faa780cfc?source=search_post)
-  - [Deploy PyCaret Models on Edge Devices with ONNX Runtime](https://towardsdatascience.com/deploy-pycaret-models-on-edge-devices-with-onnx-runtime-c6d060a2e1a6?source=search_post)
-  - [Deploy Machine Learning Pipeline on cloud using Docker Container](https://towardsdatascience.com/deploy-machine-learning-pipeline-on-cloud-using-docker-container-bec64458dc01?source=search_post)
-  - [Predicting Spotify Song Popularity](https://towardsdatascience.com/predicting-spotify-song-popularity-49d000f254c7?source=search_post)
-  - [Predict Crash Severity with Machine Learning?](https://medium.com/spatial-data-science/predict-crash-severity-with-machine-learning-dc9848cabcef?source=search_post)
   - [Pycaret articles on Medium](https://medium.com/search?q=pycaret)
 + Libra • Automates the end-to-end machine learning process in just one line of code: [GitHub](https://lnkd.in/g4kYRnq) | [Notebooks with tutorials](https://lnkd.in/g95uKnR) | [Docs](https://lnkd.in/g_vF72M) | [NLP Queries](https://lnkd.in/gZhufPf)
 - [GitHub is the best AutoML you will ever need 👇 👇 👇](https://www.linkedin.com/posts/profile-moez_github-is-the-best-automl-you-will-ever-need-activity-6696949164791652352-bleJ)
-- [AutoGOAL: an autoML framework (high & low level) by Alejandro Piad et al.](https://www.linkedin.com/posts/madewithml_machinelearning-artificialintelligence-madewithml-activity-6693165741547626496-mHhS)
-- [OttoML - Otto makes machine learning an intuitive, natural language experience.](https://github.com/KartikChugh/Otto)
 - [TPOT for Automated Machine Learning in Python](https://machinelearningmastery.com/tpot-for-automated-machine-learning-in-python/)
 - Abacus AI workshops
   + [Classification](https://colab.research.google.com/drive/1Rajb3bHw45k4PWvDlxsQNCd3j5WuHbIm#forceEdit=true&sandboxMode=true&scrollTo=0D9QEgVs6Ni0)
@@ -83,18 +62,13 @@
 - [How to Use AutoKeras for Classification and Regression](https://machinelearningmastery.com/autokeras-for-classification-and-regression)
 | [AutoKeras Website](https://autokeras.com/)
 - Snorkel: Interact with the modern ML stack by programmatically building and managing training datasets: [Snorkel Superglue](https://github.com/HazyResearch/snorkel-superglue) | [Author page](https://ajratner.github.io/)
-- [Build machine learning powered applications without a data scientist](https://telepath.io/)
-- [A delightful machine learning tool that allows you to train/fit, test and use models without writing code](https://github.com/nidhaloff/igel)
 - [Automated Machine Learning (AutoML) Libraries for Python](https://machinelearningmastery.com/automl-libraries-for-python/)
 - [Auto sklearn](https://github.com/automl/auto-sklearn)
 - [OpenML](https://openml.org)
 - [Lightning Flash](https://www.linkedin.com/posts/philipvollet_machinelearning-pytorch-opensource-activity-6815862293948092416-AiNY) - a collection of production ready Tasks for fast prototyping, baselining, finetuning and solving problems with deep learning built on top of PyTorch Lightning
-- [Aim](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-pytorch-activity-6732191279083511808-zqSM) - a super-easy way to record, search and compare AI experiments. With Aim you can compare 100s of experiments in no time!
 
 ### Ethics / altruistic motives
 
-- [Data science competitions to build a better world](https://www.drivendata.org/)
-- [An ethics checklist for data scientists](http://deon.drivendata.org/)
   - [python package: deon](https://pypi.org/project/deon/)
 - [👉A Practical guide to Responsible Artificial Intelligence (AI) by PwC 👈](https://www.linkedin.com/posts/asif-bhat_ai-activity-6642499836232986624-FCNj)
 - [Data ethics literacy cards](https://public.zenkit.com/i/2RH604FcHf/iK2Z5J9kr/do-you-know-your-data?v=1wyJ56INd&hide=workspaceLists) by [Anisha Fernando](https://twitter.com/techgirl_9) | [Join the Slack community](https://dataethicsinpractice.slack.com/join/shared_invite/enQtODAwMDIxMzU3MTUyLTg5YTM3ZTIyYTg3ZTU0N2M4MDhmYjE3YmRlYTUyNTA5ZWE1MTRkYmJjYTNlM2YzYTk1YWNhZmY1N2RlYzg5Y2U) | [The Private Lives of Data: YouTube video](https://www.youtube.com/watch?v=pXtQj2UNMYE)
@@ -160,6 +134,27 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./referen
   - [Learn Data Science by bitgrit](https://github.com/bitgrit-official/learndatascience)
   - **[and other related topics: Stats, Visualisations, Cheatsheets, etc...](data/README.md#data)**
 
+- [AI Repository by Goku Mohandas](https://www.linkedin.com/posts/asif-bhat_datascience-data-dataanalysis-activity-6643083915873615872-je6g)
+- [Digital Twins: Bringing artificial intelligence to Engineering](https://www.datasciencecentral.com/profiles/blogs/digital-twins-brining-artificial-intelligence-to-engineering)
+  - [PyCaret and Streamlit: How to Create and Deploy Data Science Web App](https://towardsdatascience.com/pycaret-and-streamlit-how-to-create-and-deploy-data-science-web-app-273d205271a3?gi=2116c67d324d)
+  - [H2O Wave is a software stack for building beautiful, low-latency, realtime, browser-based applications and dashboards entirely in Python without using HTML, Javascript, or CSS](https://www.linkedin.com/posts/philipvollet_python-datascience-gui-activity-6746425913367515136-RTBv)
+  - [Introduction to Regression in Python with PyCaret](https://towardsdatascience.com/introduction-to-regression-in-python-with-pycaret-d6150b540fc4?source=search_post)
+  - [Regression with PyCaret: A better machine learning library](https://towardsdatascience.com/regression-with-pycaret-a-better-machine-learning-library-e02762a0615c?source=search_post)
+  - [Introduction to Binary Classification with PyCaret](https://towardsdatascience.com/introduction-to-binary-classification-with-pycaret-a37b3e89ad8d?source=search_post)
+  - [Classification with PyCaret: A better machine learning library](https://towardsdatascience.com/classification-with-pycaret-a-better-machine-learning-library-cff07a10a28c?source=search_post)
+  - [Predict Customer Churn (the right way) using PyCaret](https://towardsdatascience.com/predict-customer-churn-the-right-way-using-pycaret-8ba6541608ac?source=search_post---------9)
+  - [Build and deploy machine learning web app using PyCaret and Streamlit](https://towardsdatascience.com/build-and-deploy-machine-learning-web-app-using-pycaret-and-streamlit-28883a569104?source=search_post)
+  - [Deploy Machine Learning App built using Streamlit and PyCaret on Google Kubernetes Engine](https://towardsdatascience.com/deploy-machine-learning-app-built-using-streamlit-and-pycaret-on-google-kubernetes-engine-fd7e393d99cb?source=search_post)
+  - [Deploy PyCaret and Streamlit app using AWS Fargate — serverless infrastructure](https://towardsdatascience.com/deploy-pycaret-and-streamlit-app-using-aws-fargate-serverless-infrastructure-8b7d7c0584c2?source=search_post)
+  - [Predict Lead Score (the Right Way) Using PyCaret](https://towardsdatascience.com/predict-lead-score-the-right-way-using-pycaret-332faa780cfc?source=search_post)
+  - [Deploy PyCaret Models on Edge Devices with ONNX Runtime](https://towardsdatascience.com/deploy-pycaret-models-on-edge-devices-with-onnx-runtime-c6d060a2e1a6?source=search_post)
+  - [Deploy Machine Learning Pipeline on cloud using Docker Container](https://towardsdatascience.com/deploy-machine-learning-pipeline-on-cloud-using-docker-container-bec64458dc01?source=search_post)
+  - [Predicting Spotify Song Popularity](https://towardsdatascience.com/predicting-spotify-song-popularity-49d000f254c7?source=search_post)
+  - [Predict Crash Severity with Machine Learning?](https://medium.com/spatial-data-science/predict-crash-severity-with-machine-learning-dc9848cabcef?source=search_post)
+- [Build machine learning powered applications without a data scientist](https://telepath.io/)
+- [Aim](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-pytorch-activity-6732191279083511808-zqSM) - a super-easy way to record, search and compare AI experiments. With Aim you can compare 100s of experiments in no time!
+- [Data science competitions to build a better world](https://www.drivendata.org/)
+- [An ethics checklist for data scientists](http://deon.drivendata.org/)
 ### Data Scientist
 
 - [How can I become a data scientist?](https://www.linkedin.com/posts/data-science-central_how-can-i-become-a-data-scientist-activity-6611453301030473728-0weA)
@@ -177,7 +172,6 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./referen
 ### Graphs
   - [PyTorch Geometric Temporal - temporal extensions PyTorch Geometric Benedek Rozemberczki](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
-  - [Graph Representation Learning Book • The field of graph representation learning has grown at an incredible (and sometimes unwieldy)](https://www.linkedin.com/posts/philipvollet_graph-representation-learning-ugcPost-6703225313507336192-emmK)
   + [Daniele Grattarola gave a great talk on his graph machine learning library Spektral. Learn how to create graph neural networks (GNNs) with ease](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-python-activity-6692653922835922944-F6kO)
   + [Towards Deeper Graph Neural Networks • Deep Adaptive Graph Neural Network (DAGNN) can be used to learn graph node representations from larger receptive fields.](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-pytorch-activity-6691433713458397186-5QLz)
   + [Graph-Powered Machine Learning • Free eBook Excerpt (Chapter: 3, 4, 7)](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-neo4j-activity-6689239970785431553-pMv3)
@@ -192,7 +186,6 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./referen
   + [Graph Programming by Uri Valevski https://bit.ly/3nhZr4w](https://www.linkedin.com/posts/towards-data-science_graph-programming-by-uri-valevski-https-activity-6718600830007742464-Ehy5)
   + [Open Graph Benchmark: Datasets for Machine Learning on Graphs -](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-analytics-activity-6715867835287109633-Y_MN)
   - [BCS APSG - 2019 02 14 How Graph Technology is Changing AI and ML at BCS London](https://www.youtube.com/watch?v=oMqP3ISPWBY)
-  - [Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph](https://www.linkedin.com/posts/philipvollet_datascience-nlp-pytorch-activity-6734350662294917120-LSsw)
   - [Graph databases](./data/README.md#databases)
     - See the [Grakn example](./examples/data/databases/graph/grakn/README.md) in the `examples/data/databases/graph/grakn` folder
 
@@ -264,3 +257,22 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 ---
 
 Back to [main page (table of contents)](README.md)
+
+## MLOps & Deployment
+
+- [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
+  - [Easy MLOps with PyCaret + MLflow](https://towardsdatascience.com/easy-mlops-with-pycaret-mlflow-7fbcbf1e38c6?source=search_post)
+
+## Tools & Frameworks
+
+- [AutoGOAL: an autoML framework (high & low level) by Alejandro Piad et al.](https://www.linkedin.com/posts/madewithml_machinelearning-artificialintelligence-madewithml-activity-6693165741547626496-mHhS)
+- [A delightful machine learning tool that allows you to train/fit, test and use models without writing code](https://github.com/nidhaloff/igel)
+
+## NLP
+
+- [OttoML - Otto makes machine learning an intuitive, natural language experience.](https://github.com/KartikChugh/Otto)
+  - [Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph](https://www.linkedin.com/posts/philipvollet_datascience-nlp-pytorch-activity-6734350662294917120-LSsw)
+
+## Infrastructure & Cloud
+
+  - [Graph Representation Learning Book • The field of graph representation learning has grown at an incredible (and sometimes unwieldy)](https://www.linkedin.com/posts/philipvollet_graph-representation-learning-ugcPost-6703225313507336192-emmK)

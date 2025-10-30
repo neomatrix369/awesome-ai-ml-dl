@@ -78,10 +78,6 @@ See [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/r
 
 - Deep Learning with Tensorflow 2.0 (MNIST)
   - [Slides](https://docs.google.com/presentation/d/11xxjf2bgQsSs8nT2orQCNLZ3PD8b0BwpXcIMAl-prew/edit?usp=sharing)
-  - [Notebook 1](https://colab.research.google.com/drive/1YH3PXYx9SzDz7tsz_99H4U8aCeTPb_JV)
-  - [Notebook 2](https://colab.research.google.com/drive/1W51JKgZovi7QJvghGZp9FLCdJxE5SmU7)
-  - [Notebook 3](https://colab.research.google.com/drive/1NfYTr-gNlUOCKedV2LRPH7ah6F9o-7re)
-  - [Github for Jupiter Notebooks](https://github.com/DanRHowarth/Tensorflow-2.0)
 
 ## Data and Data Science
 
@@ -90,8 +86,6 @@ See [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/r
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - House prices
     - [ML End-to-End Tutorial + Pandas notebook](../notebooks/data/DSfIOT_Machine_Learning_End_to_End_Tutorial.ipynb)
-    - [Regression example notebook](https://colab.research.google.com/drive/19uoDyGAxJ0zCwPT6cNb1xkYOfySNZChV)
-    - [Classification example notebook](https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt)
     - Some explanations of the above Regression & Classification examples: [as a Notebook](https://drive.google.com/file/d/1vR9fOsWkCx0PuiCH0Eiz5FG1AAHuBHa8/view) | [as a PDF file](https://drive.google.com/file/d/1U3GkVgloBd5-w4qSj0KcyhtalhDF7pgC/view)
 - [Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command line tools](https://github.com/donnemartin/data-science-ipython-notebooks)
 - [Synthetic features and outliers notebook](https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=syntheticfeatures-colab&hl=en#scrollTo=jnKgkN5fHbGy)
@@ -120,7 +114,6 @@ See [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/r
   - [Notebooks/kernels from supporters](https://github.com/neomatrix369/nlp_profiler/blob/master/CREDITS_AND_SUPPORTERS.md)
   - [Kaggle Kernel](https://github.com/neomatrix369/nlp_profiler/blob/master/notebooks/README.md#kaggle-kernels)
 - [Bag of words notebook](../domains/keras-bag-of-words-expanded-version/data-scripts-notebooks/)
-- [TFIDF notebook](https://github.com/NavyaTatikonda/awesome-ai-ml-dl/blob/master/blogs/TFIDF%20Scikit-learn.ipynb)
 
 ## Neural Networks
 
@@ -146,12 +139,18 @@ See [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/r
 
 ## Misc
 
+
+
+  - [Notebook 1](https://colab.research.google.com/drive/1YH3PXYx9SzDz7tsz_99H4U8aCeTPb_JV)
+  - [Notebook 2](https://colab.research.google.com/drive/1W51JKgZovi7QJvghGZp9FLCdJxE5SmU7)
+  - [Notebook 3](https://colab.research.google.com/drive/1NfYTr-gNlUOCKedV2LRPH7ah6F9o-7re)
+  - [Github for Jupiter Notebooks](https://github.com/DanRHowarth/Tensorflow-2.0)
+    - [Regression example notebook](https://colab.research.google.com/drive/19uoDyGAxJ0zCwPT6cNb1xkYOfySNZChV)
+    - [Classification example notebook](https://colab.research.google.com/drive/1i-fOhU87wWrzgnTV0o54MQyHmRVJK0qt)
+- [TFIDF notebook](https://github.com/NavyaTatikonda/awesome-ai-ml-dl/blob/master/blogs/TFIDF%20Scikit-learn.ipynb)
 - [ML Notebooks: hands-on](https://github.com/ageron/handson-ml)
 - [A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
 - [Dive into Machine Learning with Jupyter notebook, Python, and scikit-learn](http://hangtwenty.github.io/dive-into-machine-learning/)
-- ["The Big Bad NLP Notebooks – Quantum Stat"](https://notebooks.quantumstat.com/)
-
-
 # Contributing
 
 Contributions are very welcome, please share back with the wider community (and get credited for it)!
@@ -161,3 +160,7 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 ---
 
 #notebooks · [← Back home](../README.md)
+
+## NLP
+
+- ["The Big Bad NLP Notebooks – Quantum Stat"](https://notebooks.quantumstat.com/)

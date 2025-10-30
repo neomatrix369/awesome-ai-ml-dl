@@ -4,7 +4,6 @@
 
 - [TensorNetwork for Machine Learning](https://arxiv.org/pdf/1906.06329.pdf)
 - [Using Simulation and Domain Adaptation to Improve Efficiency of Deep Robotic Grasping](https://arxiv.org/abs/1709.07857)
-- [QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation](https://arxiv.org/abs/1806.10293)
 - [Theory III: Dynamics and Generalization in Deep Networks -- a simple solution](https://arxiv.org/abs/1903.04991)
 - [A Surprising Linear Relationship Predicts Test Performance in Deep Networks](https://arxiv.org/abs/1807.09659)
 - [TensorNetwork: A Library for Physics and Machine Learning](https://arxiv.org/abs/1905.01330) | [library](https://github.com/google/tensornetwork)
@@ -26,3 +25,7 @@
     - [Page 14 - Contributions to Science & Engineering of Intelligence.jpg](./Page\ 14\ -\ Contributions\ to\ Science\ \&\ Engineering\ of\ Intelligence.jpg)
 
 #papers-by-members-of-google-and-google-x-aka-x-team · [← Back home](../../README.md)
+
+## Computer Vision
+
+- [QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation](https://arxiv.org/abs/1806.10293)
