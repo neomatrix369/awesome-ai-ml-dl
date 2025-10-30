@@ -1,4 +1,6 @@
-# Post model-creation analysis, ML interpretation/explainability
+# 🔍 Post model-creation analysis, ML interpretation/explainability
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 ## Libraries & packages
 

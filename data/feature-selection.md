@@ -1,4 +1,6 @@
-# Feature Selection
+# 🎯 Feature Selection
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - [Feature selection with mutual information](http://www.simafore.com/blog/bid/105347/Feature-selection-with-mutual-information-Part-2-PCA-disadvantages) [deadlink]
 - Forward Feature selection: [Blog on Towards DS](https://towardsdatascience.com/feature-importance-and-forward-feature-selection-752638849962) | [Scikit learn](https://mikulskibartosz.name/forward-feature-selection-in-scikit-learn-f6476e474ddd)
