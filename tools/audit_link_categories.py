@@ -14,10 +14,10 @@ CODE_FENCE = re.compile(r"^```")
 CATEGORY_KEYWORDS: Dict[str, List[str]] = {
     "agents": ["agent", "crew", "autogen", "mcp"],
     "nlp": ["nlp", "language", "text", "bert", "huggingface", "spacy", "nltk"],
-    "computer-vision": ["vision", "image", "yolo", "cnn", "opencv"],
-    "llms": ["llm", "gpt", "llama", "mistral", "rag", "prompt"],
+    "computer-vision": ["vision", "yolo", "cnn", "opencv"],
+    "llms": ["llm", "llms", "gpt", "llama", "mistral", "rag", "prompt"],
     "generative-ai": ["generative", "diffusion", "vae", "gan", "stable-diffusion", "midjourney", "dalle"],
-    "mlops": ["mlops", "deployment", "serving", "monitoring", "kubeflow", "mlflow", "seldon", "ci/cd", "drift"],
+    "mlops": ["mlops", "deployment", "serving", "monitoring", "kubeflow", "mlflow", "seldon", "drift"],
     "data": ["data", "eda", "pandas", "dataset", "feature"],
     "notebooks": ["notebook", "kaggle", "colab", "jupyter"],
     "tools": ["tool", "framework", "library", "sdk"],

@@ -3,9 +3,10 @@
 Status: In progress
 
 ### Progress since last update
-- Findings reduced to 64 after keyword tokenization and broader ignores for expected nav.
+- Findings reduced to 58 after keyword tokenization and broader ignores for expected nav.
 
 This report flags links whose keywords suggest different categories than the current section/folder context.
+
 
 ## README-details.md
 
@@ -17,7 +18,7 @@ This report flags links whose keywords suggest different categories than the cur
 - L3: [NLP](./natural-language-processing/README.md) — section: 'Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)' — suggested: nlp
 - L33: [NLP](./domains/nlp/README.md) — section: 'Explore by domain' — suggested: nlp
 - L34: [Computer Vision](./domains/computer-vision/README.md) — section: 'Explore by domain' — suggested: computer-vision
-- L34: [LLMs](./domains/large-language-models/README.md) — section: 'Explore by domain' — suggested: nlp
+- L34: [LLMs](./domains/large-language-models/README.md) — section: 'Explore by domain' — suggested: llms, nlp
 - L35: [Generative AI](./domains/generative-ai/README.md) — section: 'Explore by domain' — suggested: generative-ai
 - L35: [MLOps & Deployment](./domains/mlops-deployment/README.md) — section: 'Explore by domain' — suggested: mlops
 - L168: [MLOps & Deployment](./domains/mlops-deployment/README.md) — section: 'Cloud & DevOps' — suggested: mlops
@@ -42,6 +43,10 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L9: [COMMON-REFERENCES.md › Official Documentation › MCP](../COMMON-REFERENCES.md#official-documentation) — section: 'Official Documentation — See [COMMON-REFERENCES.md › Official Documentation](../COMMON-REFERENCES.md#official-documentation)' — suggested: agents
 
+## data/about-Weights-and-Biases.md
+
+- L32: [Quick and Dirty CNN](./wandb/Quick-and-Dirty-CNN.py) — section: 'Weights & Biases' — suggested: computer-vision
+
 ## data/data-generation.md
 
 - L77: [Library, Framework, Models, Tools, Services](../natural-language-processing/library-framework-models-tools-services.md) — section: 'Data Augmentation' — suggested: nlp, tools
@@ -49,12 +54,6 @@ This report flags links whose keywords suggest different categories than the cur
 ## domains/keras-bag-of-words-expanded-version/generating-predictions.md
 
 - L84: [keras-bow-model.ipynb](./data-scripts-notebooks/keras-bow-model.ipynb) — section: 'Source file of the notebook' — suggested: data
-
-## examples/JuPyteR/Docker-container-instructions.md
-
-- L50: [runLocal.sh](./build-docker-image/runLocal.sh) — section: 'Run the docker container' — suggested: computer-vision
-- L50: [runLocal.sh](./build-docker-image/runLocal.sh) — section: 'Run the docker container' — suggested: computer-vision
-- L50: [buildDockerImage.sh](./build-docker-image/buildDockerImage.sh) — section: 'Run the docker container' — suggested: computer-vision
 
 ## examples/better-nlp/docs/Jupyter_notebook.md
 
@@ -80,28 +79,11 @@ This report flags links whose keywords suggest different categories than the cur
 
 ## examples/data/dataiku/README.md
 
-- L29: [push-dss-docker-image-to-hub.sh](./push-dss-docker-image-to-hub.sh) — section: 'Scripts provided' — suggested: computer-vision
+- L3: [NLP](../../../natural-language-processing/README.md) — section: 'Dataiku Data Science Studio (DSS) [![Dataiku DSS](https://img.shields.io/docker/pulls/neomatrix369/dataiku-dss.svg)](https://hub.docker.com/r/neomatrix369/dataiku-dss) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: nlp
 
 ## examples/data/dataiku/successful-run-console.md
 
 - L95: [Back to Dakaiku DSS Main Page](./README.md#dataiku-data-science-studio-dss) — section: 'Polyglot JDK (GraalVM) - JVMCI enabled' — suggested: data
-
-## examples/deepnetts/README.md
-
-- L192: [docker-image folder](docker-image) — section: 'Scripts provided' — suggested: computer-vision
-
-## examples/ensembler/README.md
-
-- L194: [docker-image folder](docker-image) — section: 'Scripts provided' — suggested: computer-vision
-
-## examples/tribuo/README.md
-
-- L182: [docker-image folder](docker-image) — section: 'Scripts provided' — suggested: computer-vision
-
-## guides.md
-
-- L3: [Data](./data/README.md) — section: 'Guides' — suggested: data
-- L3: [NLP](./natural-language-processing/README.md) — section: 'Guides' — suggested: nlp
 
 ## infrastructure/cloud-devops-infra/README.md
 
@@ -116,10 +98,14 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L75: [Notebooks from NVIDIA's RAPIDS](../infrastructure/cloud-devops-infra/gpus/rapids.md#notebooks) — section: 'RAPIDS' — suggested: infrastructure
 
+## notebooks/jupyter/data/data-generation/README.md
+
+- L26: [make-dataset-unclean.sh](./make-dataset-unclean.sh) — section: 'Scripts' — suggested: data
+
 ## papers/google-x/README.md
 
 - L3: [📊 Data](../../data/README.md) — section: 'Papers by members of Google and Google X (aka X-Team)' — suggested: data
-- L17: [Page 05 - Tensor Network - a library for ...jpg](./Page 05 - Tensor Network - a library for ...jpg) — section: 'Papers by members of Google and Google X (aka X-Team)' — suggested: tools
+- L17: [Page 05 - Tensor Network - a library for ...jpg](./Page\ 05\ -\ Tensor\ Network\ -\ a\ library\ for\ ...jpg) — section: 'Papers by members of Google and Google X (aka X-Team)' — suggested: tools
 
 ## presentations/awesome-ai-ml-dl/01-jonconf-2020/README.md
 
@@ -152,12 +138,18 @@ This report flags links whose keywords suggest different categories than the cur
 - L45: [Simple Data generation code](../../../notebooks/jupyter/data/data-generation/README.md) — section: 'Code' — suggested: data, notebooks
 - L49: [Notebooks used during the talk](../../../notebooks/jupyter/data/) — section: 'Notebooks' — suggested: data, notebooks
 
+## presentations/data/04-grakn-cosmos-2020/README.md
+
+- L5: [slides (PDF)](../../../examples/data/databases/graph/grakn/presentations/GraknCosmos2020/Naturally,-getting-productive,-my-journey-with-Grakn-and-Graql.pdf) — section: 'Slides' — suggested: data
+
+## presentations/data/05-kaggle-days-delhi-ncr-2022/README.md
+
+- L3: [📊 Data](../../../data/README.md) — section: 'Studying the limitations of statistical measurements' — suggested: data
+
 ## study-notes/README.md
 
 - L3: [Data](../data/README.md) — section: 'Study Notes' — suggested: data
 - L3: [NLP](../natural-language-processing/README.md) — section: 'Study Notes' — suggested: nlp
-- L262: [image](precision-versus-recall.png) — section: 'ML Crash course by Google' — suggested: computer-vision
-- L265: [image](confusion-matrix-table-template.png) — section: 'ML Crash course by Google' — suggested: computer-vision
 - L288: [TPU example on Cloud/DevOps/Infra page](../infrastructure/cloud-devops-infra/README.md#tpu) — section: 'ML Crash course by Google' — suggested: infrastructure
 
 ## things-to-know.md
@@ -174,4 +166,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
 
 
-Total flagged links: 64
+Total flagged links: 58
