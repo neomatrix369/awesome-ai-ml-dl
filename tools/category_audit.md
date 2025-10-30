@@ -9,7 +9,7 @@ This report flags links whose keywords suggest different categories than the cur
 
 ### Progress
 
-- Current findings: 51
+- Current findings: 41
 
 
 ## README-details.md
@@ -20,12 +20,6 @@ This report flags links whose keywords suggest different categories than the cur
 
 - L3: [Data](./data/README.md) — section: 'Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)' — suggested: data
 - L3: [NLP](./natural-language-processing/README.md) — section: 'Awesome AI-ML-DL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)' — suggested: nlp
-- L33: [NLP](./domains/nlp/README.md) — section: 'Explore by domain' — suggested: nlp
-- L34: [Computer Vision](./domains/computer-vision/README.md) — section: 'Explore by domain' — suggested: computer-vision
-- L34: [LLMs](./domains/large-language-models/README.md) — section: 'Explore by domain' — suggested: llms, nlp
-- L35: [Generative AI](./domains/generative-ai/README.md) — section: 'Explore by domain' — suggested: generative-ai
-- L35: [MLOps & Deployment](./domains/mlops-deployment/README.md) — section: 'Explore by domain' — suggested: mlops
-- L168: [MLOps & Deployment](./domains/mlops-deployment/README.md) — section: 'Cloud & DevOps' — suggested: mlops
 
 ## blogs/ai-coding-tools/claude-command-reference-card/resources-and-references.md
 
@@ -69,22 +63,10 @@ This report flags links whose keywords suggest different categories than the cur
 - L6: [HTML output of the same notebook](./Method-02-Linear-Model.html) — section: 'Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: notebooks
 - L18: [about W&B](../../../../data/about-Weights-and-Biases.md#weights--biases) — section: 'Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)' — suggested: data
 
-## examples/data/databases/graph/grakn/graql/README.md
-
-- L84: [Data](README.md#data) — section: 'Running CLI interface for PoC' — suggested: data
-
-## examples/data/dataiku/successful-run-console.md
-
-- L95: [Back to Dakaiku DSS Main Page](./README.md#dataiku-data-science-studio-dss) — section: 'Polyglot JDK (GraalVM) - JVMCI enabled' — suggested: data
-
 ## natural-language-processing/README.md
 
 - L3: [Data](../data/README.md) — section: 'Natural Language Processing (NLP)' — suggested: data
 - L3: [Cloud](../infrastructure/cloud-devops-infra/README.md) — section: 'Natural Language Processing (NLP)' — suggested: infrastructure
-
-## notebooks/jupyter/data/data-generation/README.md
-
-- L26: [make-dataset-unclean.sh](./make-dataset-unclean.sh) — section: 'Scripts' — suggested: data
 
 ## papers/google-x/README.md
 
@@ -118,7 +100,6 @@ This report flags links whose keywords suggest different categories than the cur
 ## presentations/data/02-devoxx-uk-2019/README.md
 
 - L7: [slides (PDF)](Do_we_know_our_data,_as_good_as_we_know_our_tools_.pdf) — section: 'Slides' — suggested: data
-- L45: [Simple Data generation code](../../../notebooks/jupyter/data/data-generation/README.md) — section: 'Code' — suggested: data, notebooks
 
 ## presentations/data/04-grakn-cosmos-2020/README.md
 
@@ -148,4 +129,4 @@ This report flags links whose keywords suggest different categories than the cur
 - L376: [Databases](./data/README.md#databases) — section: 'Relational database products' — suggested: data
 
 
-Total flagged links: 51
+Total flagged links: 41

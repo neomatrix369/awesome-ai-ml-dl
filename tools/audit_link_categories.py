@@ -34,6 +34,9 @@ FOLDER_CATEGORY_HINTS: List[Tuple[str, str]] = [
     ("domains/generative-ai/", "generative-ai"),
     ("domains/mlops-deployment/", "mlops"),
     ("domains/time-series/", "data"),
+    ("examples/data/", "data"),
+    ("examples/cloud-devops-infra/", "infrastructure"),
+    ("examples/better-nlp/", "nlp"),
     ("data/", "data"),
     ("notebooks/", "notebooks"),
     ("tools/", "tools"),
@@ -101,15 +104,15 @@ def audit_file(md_path: Path, include_sections: Optional[List[str]] = None) -> L
         "quick links", "core topics", "specialized areas", "reference materials",
         "at a glance", "deep dive", "what’s new", "legacy content (full index)",
         # portal headings
-        "python", "java & jvm", "other languages",
-        "ethics & governance", "data & analytics", "learning resources",
+        "python", "java & jvm", "other languages", "explore by domain",
+        "ethics & governance", "data & analytics", "learning resources", "cloud & devops",
         "tools & infrastructure", "mathematical foundations",
         "automation & mlops", "miscellaneous", "guides & tutorials", "courses & competitions",
         # topical groups
-        "development environments", "data analysis tools", "machine learning frameworks",
+        "development environments", "data analysis tools", "machine learning frameworks", "scripts",
         "cloud platforms", "specialized hardware", "automation tools", "deployment & mlops",
         # common section labels in example/docs pages
-        "resources", "additional resources", "scripts provided:", "source location",
+        "resources", "additional resources", "scripts provided:", "source location", "code", "notebooks",
         "linux / macos (docker environment)", "linux / macos (local environment)",
         # footers/meta
         "contributing", "sponsoring", "disclaimer"
