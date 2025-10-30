@@ -1,4 +1,6 @@
-# Summarise text
+# 📝 Summarise text
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 - [Gentle introduction to Text summarisation](https://www.linkedin.com/posts/ajitjaokar_a-gentle-introduction-to-text-summarization-activity-6620354936465092608-M2bI)
 - [Understand Text Summarization and create your own summarizer in python](https://towardsdatascience.com/understand-text-summarization-and-create-your-own-summarizer-in-python-b26a9f09fc70)

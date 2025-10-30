@@ -1,4 +1,6 @@
-# Sentiment analysis
+# 😊 Sentiment analysis
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 - [Keras (bag of words) post - expanded version](../domains/keras-bag-of-words-expanded-version/README.md)
 - [Movie Sentiment Analysis at MaM Study Group - sessions occur once a week](https://github.com/machine-learning-study-group/movie-sentiment-analysis)

@@ -1,4 +1,6 @@
-# General
+# 🧠 General
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 - [king - man + woman is queen; but why?](https://p.migdal.pl/2017/01/06/king-man-woman-queen-why.html)
 - [LaMachine](https://proycon.github.io/LaMachine/) - LaMachine is a unified software distribution for Natural Language Processing. Integration of numerous open-source NLP tools, programming libraries, web-services and web-applications in a single Virtual Research Environment that can be installed on a wide variety of machines (bare-metal, Virtual Machines and Docker containers).
