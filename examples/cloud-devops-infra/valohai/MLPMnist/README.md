@@ -1,6 +1,6 @@
-# mlpmnist-dl4j-example project [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# 🧪 mlpmnist-dl4j-example project [![MLPMNist using DL4J](https://img.shields.io/docker/pulls/neomatrix369/dl4j-mnist-single-layer.svg)](https://hub.docker.com/r/neomatrix369/dl4j-mnist-single-layer) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[Back to main](../../../../README.md) · [📓 Notebooks](../../../../notebooks/README.md) · [🧰 Tools](../../../../tools/README.md) · [📊 Data](../../../../data/README.md)
+[Home](../../../../README.md) · [📓 Notebooks](../../../../notebooks/README.md) · [🧰 Tools](../../../../tools/README.md) · [📊 Data](../../../../data/README.md)
 
 This area in the repo is a result of the blog post [How to do Deep Learning for Java](https://medium.com/@neomatrix369/how-to-do-deep-learning-for-java-on-the-valohai-platform-eec8ba9f71d8) | [Original post](https://blog.valohai.com/how-to-do-deep-learning-for-java-on-the-valohai-platform). Please refer to the post before considering using this repo to understand better on how to use the different aspects of it.
 
