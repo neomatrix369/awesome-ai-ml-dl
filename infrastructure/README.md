@@ -3,7 +3,7 @@
 
 ![Section](https://img.shields.io/badge/Section-Infrastructure-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
 
-Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🤖 [Agents](../ai-agents/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
+[Home](../README.md) · [📚 Data](../data/README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🤖 Agents](../ai-agents/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 ![banner](../assets/banners/infrastructure-hero.png)
 
@@ -23,6 +23,10 @@ Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Note
 - 📈 Performance profiling and benchmarking
 
 ## Related
-- 📚 Data · 🧪 Notebooks · 🧰 Tools · 🤖 Agents · 🧠 NLP
+- [📚 Data](../data/README.md)
+- [📓 Notebooks](../notebooks/README.md)
+- [🧰 Tools](../tools/README.md)
+- [🤖 Agents](../ai-agents/README.md)
+- [🧠 NLP](../natural-language-processing/README.md)
 
 #☁️-infrastructure · [← Back home](../README.md)
