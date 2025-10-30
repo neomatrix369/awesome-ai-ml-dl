@@ -1,6 +1,6 @@
-# AI Coding Tools Blog Posts
+# ✍️ AI Coding Tools Blog Posts
 
-[Back to main](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
+[Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
 
 ![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/44jde1ck0iykhfsvyhro.png)
 
