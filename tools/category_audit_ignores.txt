@@ -45,6 +45,8 @@
 # Details page anchors
 ^reference\/articles-papers-code-data-courses\.md$ | ^details page \(table of contents\)$ | \.\.\/README-details\.md#articles-papers-code-data-courses$
 ^reference\/mathematica-wolfram-Language\.md$ | ^details page \(table of contents\)$ | \.\.\/README-details\.md#mathematica--wolfram-language$
+# README-details expected cross-link to Data best practices
+^README-details\.md$ | ^Best practices \/ rules \/ an unordered.*$ | ^data\/README\.md#best-practices.*$
 # AI image / data assets referenced from reference
 ^reference\/artificial-intelligence\.md$ | ^What is a tensor\?$ | \.\.\/data\/what-is-a-tensor\.jpg$
 ^reference\/visualisation\.md$ | ^How to choose your data visualisations$ | \.\.\/data\/how-to-choose-your-data-visualisations\.jpg$
@@ -101,6 +103,9 @@
 ^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/notebooks\/README\.md$
 ^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/data\/README\.md$
 ^blogs\/ai-coding-tools\/README\.md$ | .+ | \.\.\/\.\.\/reference\/julia-python-and-r\.md$
+# Blogs COMMON-REFERENCES expected cross-links (agents docs)
+^blogs\/ai-coding-tools\/.+\/resources-and-references\.md$ | .+ | ^\.\.\/COMMON-REFERENCES\.md#official-documentation$
+^blogs\/ai-coding-tools\/.+\/cursor-ide-setup\.md$ | .+ | ^\.\/advanced-mcp-servers\.md$
 # Suppress links inside audit report files themselves
 ^tools\/category_audit.*\.md$ | .+ | .+
 # Data page expected cross-link to Programs and Tools
@@ -150,12 +155,19 @@
 ^examples\/cloud-devops-infra\/wandb\/sb-fx-competition\/README\.md$ | ^about W&B$ | ^(\.\.\/){4}data\/about-Weights-and-Biases\.md#weights--biases$
 # Devoxx talk: expected notebooks links
 ^presentations\/data\/02-devoxx-uk-2019\/README\.md$ | ^Notebooks used during the talk$ | ^(\.\.\/){2,3}notebooks\/jupyter\/data\/?$
+# Slides PDF links in presentations
+^presentations\/.+\/.+\/README\.md$ | ^slides \(PDF\)$ | \.pdf$
 # Docker-image folder links in example READMEs
 ^examples\/(deepnetts|ensembler|tribuo)\/README\.md$ | ^docker-image folder$ | ^docker-image$
 # Papers page inline image links
 ^papers\/google-x\/README\.md$ | ^Page 05 - .*\.jpg$ | \.jpg$
 # Papers page expected Data nav
 ^papers\/google-x\/README\.md$ | .+ | ^\.\.\/data\/README\.md$
+# graql README internal Data anchor
+^examples\/data\/databases\/graph\/grakn\/graql\/README\.md$ | ^Data$ | ^README\.md#data$
+# study-notes top nav expected links
+^study-notes\/README\.md$ | .+ | ^\.\.\/data\/README\.md$
+^study-notes\/README\.md$ | .+ | ^\.\.\/natural-language-processing\/README\.md$
 # Notebooks page RAPIDS link
 ^notebooks\/README\.md$ | ^Notebooks from NVIDIA's RAPIDS$ | ^\.\.\/infrastructure\/cloud-devops-infra\/gpus\/rapids\.md#notebooks$
 # Infra page "See also: Data > Programs and Tools"
