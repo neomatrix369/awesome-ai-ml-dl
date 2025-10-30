@@ -146,8 +146,9 @@
 ^guides\.md$ | .+ | ^\.\/tools\/README\.md$
 ^guides\.md$ | .+ | ^\.\/notebooks\/README\.md$
 # Presentations expected cross-links (nav to Data is OK)
-^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | .+ | ^\.\.\/\.\.\/data\/README\.md$
-^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | ^📊 Data$ | ^\.\.\/\.\.\/data\/README\.md$
+^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | .+ | ^(\.\.\/){2,4}data\/README\.md$
+^presentations\/awesome-ai-ml-dl\/.+\/README\.md$ | ^📊 Data$ | ^(\.\.\/){2,4}data\/README\.md$
+^presentations\/data\/.+\/README\.md$ | .+ | ^(\.\.\/){2,4}data\/README\.md$
 # New ignores for Docker instruction links and valohai expected Data nav
 ^examples\/JuPyteR\/Docker-container-instructions\.md$ | .+ | ^\.\/build-docker-image\/.*
 ^examples\/cloud-devops-infra\/valohai\/.*\/README\.md$ | .+ | ^\.\.\/\.\.\/data\/README\.md$
@@ -162,12 +163,26 @@
 # Papers page inline image links
 ^papers\/google-x\/README\.md$ | ^Page 05 - .*\.jpg$ | \.jpg$
 # Papers page expected Data nav
-^papers\/google-x\/README\.md$ | .+ | ^\.\.\/data\/README\.md$
+^papers\/google-x\/README\.md$ | .+ | ^(\.\.\/){2,4}data\/README\.md$
 # graql README internal Data anchor
 ^examples\/data\/databases\/graph\/grakn\/graql\/README\.md$ | ^Data$ | ^README\.md#data$
 # study-notes top nav expected links
 ^study-notes\/README\.md$ | .+ | ^\.\.\/data\/README\.md$
 ^study-notes\/README\.md$ | .+ | ^\.\.\/natural-language-processing\/README\.md$
+^study-notes\/README\.md$ | ^TPU example on Cloud\/DevOps\/Infra page$ | ^\.\.\/infrastructure\/cloud-devops-infra\/README\.md#tpu$
+
+# Blogs troubleshooting previous link within same guide
+^blogs\/ai-coding-tools\/complete-mcp-server-setup-guide\/troubleshooting\.md$ | ^← Previous: Advanced MCP Servers$ | ^\.\/advanced-mcp-servers\.md$
+
+# Ignore example W&B notebook and HTML outputs (relaxed match)
+^examples\/cloud-devops-infra\/wandb\/sb-fx-competition\/README\.md$ | ^Jupyter notebook with implementation$ | Method-02-Linear-Model\.ipynb$
+^examples\/cloud-devops-infra\/wandb\/sb-fx-competition\/README\.md$ | ^HTML output of the same notebook$ | Method-02-Linear-Model\.html$
+
+# Ignore KBoW generating-predictions notebook link
+^domains\/keras-bag-of-words-expanded-version\/generating-predictions\.md$ | ^keras-bow-model\.ipynb$ | ^\.\/data-scripts-notebooks\/keras-bow-model\.ipynb$
+
+# Data Generation page expected cross-link to NLP library/frameworks/tools/services
+^data\/data-generation\.md$ | ^Library, Framework, Models, Tools, Services$ | ^\.\.\/natural-language-processing\/library-framework-models-tools-services\.md$
 # Notebooks page RAPIDS link
 ^notebooks\/README\.md$ | ^Notebooks from NVIDIA's RAPIDS$ | ^\.\.\/infrastructure\/cloud-devops-infra\/gpus\/rapids\.md#notebooks$
 # Infra page "See also: Data > Programs and Tools"
