@@ -1,6 +1,6 @@
-# Complete Troubleshooting Guide
+# 🔧 Complete Troubleshooting Guide
 
-**[← Back to Main Guide](./post.md)**
+[Home](../../../../README.md) · [✍️ AI Coding Tools](../../README.md) · [🔧 Complete MCP Guide](./post.md)
 
 ## Overview
 

@@ -1,4 +1,8 @@
-## Resources and References — Common catalogs in [COMMON-REFERENCES.md](../COMMON-REFERENCES.md)
+# 📚 Resources and References
+
+[Home](../../../../README.md) · [✍️ AI Coding Tools](../../README.md) · [📊 Comparison Tables](./post.md)
+
+Common catalogs in [COMMON-REFERENCES.md](../COMMON-REFERENCES.md)
 
 ### Official Documentation — See [COMMON-REFERENCES.md › Official Documentation](../COMMON-REFERENCES.md#official-documentation)
 

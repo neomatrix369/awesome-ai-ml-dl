@@ -1,4 +1,6 @@
-# Cursor IDE - Complete MCP Server Setup
+# 🖱️ Cursor IDE - Complete MCP Server Setup
+
+[Home](../../../../README.md) · [✍️ AI Coding Tools](../../README.md) · [🔧 Complete MCP Guide](./post.md)
 
 ![Cursor IDE banner](https://imgs.search.brave.com/Q2uzDhe3slS3dOelWW90UrGEAg1Ff-NEoHeuLL-hvCU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmxlZXBzdGF0aWMu/Y29tL2NvbnRlbnQv/aGwtaW1hZ2VzLzIw/MjUvMDcvMTMvY3Vy/c29yLWhlYWRlci5q/cGc)
 

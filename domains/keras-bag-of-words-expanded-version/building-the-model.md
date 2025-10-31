@@ -1,4 +1,6 @@
-## Building the model
+# 🏗️ Building the model
+
+[Home](../../../README.md) · [🧠 Keras Bag of Words](../README.md) · [📊 Domains](../../README.md)
 
 ### Keras Sequential model API
 

@@ -1,4 +1,6 @@
-## Resources and References
+# 📚 Resources and References
+
+[Home](../../../../README.md) · [✍️ AI Coding Tools](../../README.md) · [📋 Command Reference](./post.md)
 
 ### Official Documentation — See common catalogs in [COMMON-REFERENCES.md](../COMMON-REFERENCES.md)
 

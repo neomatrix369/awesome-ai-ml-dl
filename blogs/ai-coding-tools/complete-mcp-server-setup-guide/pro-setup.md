@@ -1,6 +1,6 @@
-# Pro Setup & Advanced Tools
+# ⚡ Pro Setup & Advanced Tools
 
-**[← Back to Main Guide](./post.md)**
+[Home](../../../../README.md) · [✍️ AI Coding Tools](../../README.md) · [🔧 Complete MCP Guide](./post.md)
 
 #pro-setup-advanced-tools · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
 
