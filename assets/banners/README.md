@@ -1,4 +1,6 @@
-# Banners
+# 🖼️ Banners
+
+[Home](../README.md) · [📚 Data](../data/README.md) · [🧠 NLP](../natural-language-processing/README.md) · [🧰 Tools](../tools/README.md)
 
 Social/hero banners for major sections. Place PNG/JPG files here.
 
