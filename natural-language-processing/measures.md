@@ -1,5 +1,6 @@
-**Quantitative Measures for modeling Code-switching and Code-Mixing across corpora!** 💡
+# 📏 Quantitative Measures for modeling Code-switching and Code-Mixing across corpora!
 
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 Below work is the extension to the [introduction to code-mixing and code-switching](https://github.com/UmaGunturi/awesome-ai-ml-dl/blob/master/natural-language-processing/code-mixing.md), before starting to read this, it is recommended to read the previous part for better understanding of Code-Mixing!
 

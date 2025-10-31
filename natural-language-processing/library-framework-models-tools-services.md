@@ -1,4 +1,6 @@
-# Library, Framework, Models, Tools, Services
+# 🧩 Library, Framework, Models, Tools, Services
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 - [BloomsburyAI's Open Source NLP tool: Cape Webservices - backend server](https://github.com/bloomsburyai/cape-webservices) | [Rest of BloomsburyAI's Open Source NLP tool - Cape](https://www.github.com/bloomsburyai) [Bought out by FB around March/April 2019]
 - [NLP Java/JVM](../examples/nlp-java-jvm/README.md#nlp-javajvm) - docker container with Java/JVM based NLP libraries/frameworks (inspired by LaMachine, Awesome NLP and others out there)

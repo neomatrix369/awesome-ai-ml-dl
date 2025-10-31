@@ -1,4 +1,6 @@
-**Code-Mixing _ya_ Code-Switching?** 💡
+# 🌐 Code-Mixing _ya_ Code-Switching?
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 We grow up speaking and learning different languages. Although we use English the most, we always notice other languages tend to find their way into our daily conversations. Have you ever wondered why? 🤔
 
