@@ -1,12 +1,12 @@
-# Cloud, DevOps, Infra
+# ☁️ Cloud, DevOps, Infra
 
-> ☁️⚙️ Infrastructure and performance for AI/ML/DL workloads.
+> Infrastructure and performance for AI/ML/DL workloads.
 
 ![icon](https://img.shields.io/badge/Cloud-Infra-blue) ![icon](https://img.shields.io/badge/DevOps-AI%2FML-green)
 
 This section curates infrastructure, cloud, and DevOps resources for AI/ML/DL workloads. It covers compute/storage options, accelerators (CPU/GPU/TPU/IPU), platforms, tooling, and performance references with practical links.
 
-Navigation: [Home](../README.md) · [Details](../../README-details.md#general) · [Data](../../data/README.md) · [Notebooks](../../notebooks/README.md) · [Tools](../../tools/README.md)
+[Home](../../README.md) · [📚 Data](../../data/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [☁️ Infrastructure](../../infrastructure/README.md)
 
 ## Related
 - [Data](../../data/README.md)

@@ -1,4 +1,6 @@
-# Time-series
+# ⏱️ Time-series
+
+[Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📚 Data](../../data/README.md) · [📊 Domains](../../domains/README.md)
 
 - #introductory
 - #classification

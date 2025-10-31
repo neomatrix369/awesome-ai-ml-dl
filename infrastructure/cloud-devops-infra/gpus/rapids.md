@@ -1,4 +1,6 @@
-# RAPIDS
+# ⚡ RAPIDS
+
+[Home](../../../../README.md) · [📓 Notebooks](../../../../notebooks/README.md) · [🧰 Tools](../../../../tools/README.md) · [☁️ Infrastructure](../../../../infrastructure/README.md)
 
 The RAPIDS suite of software libraries, built on [CUDA-X AI](https://www.developer.nvidia.com/machine-learning), gives you the freedom to execute end-to-end data science and analytics pipelines entirely on GPUs. It relies on NVIDIA® CUDA® primitives for low-level compute optimization, but exposes that GPU parallelism and high-bandwidth memory speed through user-friendly Python interfaces. About [NVIDIA](https://www.nvidia.com/en-gb/about-nvidia/).
 

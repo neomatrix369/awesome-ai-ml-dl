@@ -1,4 +1,6 @@
-## Deep Learning
+# 🧠 Deep Learning
+
+[Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📚 Data](../../data/README.md)
 
 * [FREE! Deep learning book online - by Ian Goodfellow and Yoshua Bengio and Aaron Courville](http://www.deeplearningbook.org/)
 * [A curated list of awesome Deep Learning tutorials, projects and communities](https://github.com/josephmisiti/awesome-deep-learning)

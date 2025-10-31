@@ -1,4 +1,6 @@
-## Neural Magic
+# 🧠 Neural Magic
+
+[Home](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [☁️ Infrastructure](../../../infrastructure/README.md)
 
 - Videos
   - [Neural Magic Demo](https://www.youtube.com/watch?v=TwO8UAfu0bo)
