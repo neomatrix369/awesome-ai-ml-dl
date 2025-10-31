@@ -1,4 +1,6 @@
-# The Complete MCP Server Setup Guide: Claude Desktop, Claude Code, and Cursor
+# 🔧 The Complete MCP Server Setup Guide: Claude Desktop, Claude Code, and Cursor
+
+[Home](../../../README.md) · [✍️ AI Coding Tools](../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md)
 
 *Stop wasting time with broken configs. Here's the setup that actually works.*
 

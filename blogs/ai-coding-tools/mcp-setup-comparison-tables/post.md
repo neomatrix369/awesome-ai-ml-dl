@@ -1,4 +1,6 @@
-# MCP Setup Comparison Tables
+# 📊 MCP Setup Comparison Tables
+
+[Home](../../../README.md) · [✍️ AI Coding Tools](../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md)
 
 *Quick-reference tables for choosing tools, servers, and configurations*
 

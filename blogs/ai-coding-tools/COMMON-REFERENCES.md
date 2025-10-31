@@ -1,4 +1,6 @@
-## Common References (Claude Code, MCP, Cursor)
+# 📚 Common References (Claude Code, MCP, Cursor)
+
+[Home](../../README.md) · [✍️ AI Coding Tools](./README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md)
 
 ### Official Documentation {#official-documentation}
 
