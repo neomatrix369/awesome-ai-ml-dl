@@ -1,6 +1,6 @@
-# Courses
+# 📚 Courses
 
-[Back to main](./README.md) | [Details](./README-details.md) | [Data](./data/README.md) | [NLP](./natural-language-processing/README.md) | [Tools](./tools/README.md) | [Notebooks](./notebooks/README.md)
+[Home](./README.md) · [📚 Data](./data/README.md) · [🧠 NLP](./natural-language-processing/README.md) · [🧰 Tools](./tools/README.md) · [📓 Notebooks](./notebooks/README.md)
 
 - #algorithms
 - #cambridge-spark
