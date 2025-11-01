@@ -95,6 +95,11 @@ BANNERS = {
         "gradient": ((76, 175, 80), (129, 199, 132)),  # green range
         "pattern_alpha": 20,
     },
+    "study-notes-hero.png": {
+        "title": "Study Notes",
+        "gradient": ((255, 152, 0), (255, 193, 7)),  # amber range
+        "pattern_alpha": 18,
+    },
 }
 
 

@@ -3,6 +3,8 @@
 
 [Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [📊 Data](../data/README.md) · [🧠 NLP](../natural-language-processing/README.md) · [🧰 Tools](../tools/README.md)
 
+![banner](../assets/banners/study-notes-hero.png)
+
 ## Table of Contents
 
 - [Talk by Jakub Langr, author of GANs in Action](#talk-by-jakub-langr-author-of-gans-in-action)
@@ -16,7 +18,10 @@
 
 ---
 
-## Talk by Jakub Langr, author of GANs in Action
+## 🎤 Talk by Jakub Langr, author of GANs in Action
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
 VAE = Variable auto encoder
 Some GANs still use auto encoders as part of architecture
@@ -88,7 +93,12 @@ Generate function is trainable
 >
 >   so it's best to reduce dimensionality to begin with
 
-## ML Crash course by Google
+</details>
+
+## 📚 ML Crash course by Google
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
 [ML Crash course](https://developers.google.com/machine-learning/crash-course/prereqs-and-prework)
 
@@ -286,7 +296,12 @@ Generate function is trainable
         - TPU example
             - see [TPU example on Cloud/DevOps/Infra page](../infrastructure/cloud-devops-infra/README.md#tpu)
 
-### ML Recipe course by Josh Gordon
+</details>
+
+### 🎓 ML Recipe course by Josh Gordon
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
 - Week 1: https://www.youtube.com/watch?v=cKxRvEZd3Mw
   - Classifier ==> maps data or input (features) to label or output (target)
@@ -344,11 +359,13 @@ python scripts/label_image.py --image Bandung_Rose.jpg
 - Week 9: https://www.youtube.com/watch?v=d12ra3b_M-0
 - Week 10: https://www.youtube.com/watch?v=TF1yh5PKaqI
 
+</details>
+
 ---
 
 #study-notes · [↑ Back to top](#study-notes) · [← Back home](../README.md)
 
-## Data
+## 📊 Data
 
     - Variables, assignment, [basic data types](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator) (`int`, `float`, `bool`, `str`)
         - [List comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
@@ -359,10 +376,10 @@ python scripts/label_image.py --image Bandung_Rose.jpg
                     - This article explains more fully through an example: [https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)
       - [Stock price predictions using Python](https://towardsdatascience.com/stock-prediction-in-python-b66555171a2)
 
-## Tools & Frameworks
+## 🛠️ Tools & Frameworks
 
             - [LinearRegressor](https://www.tensorflow.org/api_docs/python/tf/estimator/LinearRegressor) interface
 
-## Infrastructure & Cloud
+## ☁️ Infrastructure & Cloud
 
             - [Measure Performance on GPU over CPU, in a notebook](https://colab.research.google.com/drive/1XmPDQu_GpwkiBioRZlreLaGVZ_BBEK5j#scrollTo=QXRh0DPiZRyG)
