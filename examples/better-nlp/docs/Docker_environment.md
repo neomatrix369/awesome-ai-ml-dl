@@ -1,4 +1,6 @@
-# Docker environment
+# 🐳 Docker environment
+
+[Home](../../../../README.md) · [🧠 NLP](../../../../natural-language-processing/README.md) · [🧪 Better NLP Examples](../../README.md) · [📓 Notebooks](../../../../notebooks/README.md)
 
 ### Setting your environment
 

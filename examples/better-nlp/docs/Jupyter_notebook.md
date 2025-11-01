@@ -1,4 +1,6 @@
-# Jupyter Notebook
+# 📓 Jupyter Notebook
+
+[Home](../../../../README.md) · [🧠 NLP](../../../../natural-language-processing/README.md) · [🧪 Better NLP Examples](../../README.md) · [📓 Notebooks](../../../../notebooks/README.md)
 
 ### Better NLP related
 

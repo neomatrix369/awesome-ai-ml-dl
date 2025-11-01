@@ -1,4 +1,6 @@
-# Successful run console
+# ✅ Successful run console
+
+[Home](../../../../README.md) · [🧪 Dataiku Examples](../../README.md) · [📚 Data](../../../../data/README.md) · [📓 Notebooks](../../../../notebooks/README.md)
 
 ![Page 1](dataiku-dss-page-01.png)
 ![Page 2](dataiku-dss-page-02.png)

@@ -1,4 +1,6 @@
-# Successful run console
+# ✅ Successful run console
+
+[Home](../../../../../../README.md) · [🧪 Grakn Examples](../../README.md) · [📚 Data](../../../../../../data/README.md) · [📓 Notebooks](../../../../../../notebooks/README.md)
 
 ## Traditional JDK (JDK8)
 

@@ -1,4 +1,8 @@
-# Tracking SB FX Competition experiments with Weights & Biases [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# 📊 Tracking SB FX Competition experiments with Weights & Biases
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+[Home](../../../../README.md) · [📚 Data](../../../../data/README.md) · [📓 Notebooks](../../../../notebooks/README.md) · [🧰 Tools](../../../../tools/README.md)
 
 [Carlo Lepelaars](https://www.github.com/carlolepelaars) and [Mani Sarkar](https://github.com/neomatrix369) competed in the [SoftBank Forex Algorithm Challenge](https://medium.com/bitgrit-data-science-publication/bitgrit-and-datagateway-partner-to-host-an-ai-competition-for-softbank-64c704efadba) organised by [Bitgrit](https://twitter.com/@bitgrit_global) on behalf of [Softbank Corp.](https://www.softbank.jp/en/corp/), please find a sample notebook (in this folder) to see how we used [Weights and Bias](https://wandb.com) to record our parameters while running experiments from within a Jupyter notebook.
 
