@@ -61,7 +61,7 @@ Navigation: [Home](./README.md) · 🗂️ [Reference](./reference/README.md) ·
 
 - Python and Data basics: [Python](./python/README.md) · [Data](./data/README.md)
 - Core topics: [ML](./reference/julia-python-and-r.md#machine-learning) · [DL](./reference/julia-python-and-r.md#deep-learning) · [NLP](./natural-language-processing/README.md)
-- Do stuff: [Notebooks](./notebooks/README.md) · [Examples](README-details.md#examples) · [Tools](./tools/README.md)
+- Do stuff: [Notebooks](./notebooks/README.md) · [Examples](./examples/README.md) · [Tools](./tools/README.md)
 
 ## Explore by domain
 
@@ -185,15 +185,19 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 ### Guides & Tutorials
 - [Guides](guides.md#guides)
-- [Tutorials](./blogs/tutorials/)
+- [Things to Know](things-to-know.md) - Essential knowledge and best practices
+- [Blogs & Articles](./blogs/README.md) - Articles, tutorials, and blog posts
+  - [AI Coding Tools](./blogs/ai-coding-tools/README.md) - Claude, MCP, Cursor setup guides
+  - [Tutorials](./blogs/tutorials/) - Step-by-step tutorials
 
 ### Reference Materials
 - [Cheatsheets](./reference/cheatsheets.md#cheatsheets)
 - [Articles, papers, code, data, courses](./reference/articles-papers-code-data-courses.md#articles-papers-code-data-courses)
-- [Presentations](README-details.md#presentations)
+- [Research Papers](./papers/google-x/README.md) - Curated Google & X-Team research papers
+- [Presentations](./presentations/README.md) - Slide decks and talk links
 - [Models](README-details.md#models)
 - [Notebooks](./notebooks/README.md#notebooks)
-- [Examples](README-details.md#examples)
+- [Examples](./examples/README.md) - Code examples and implementations
 
 ## Tools & Infrastructure
 
