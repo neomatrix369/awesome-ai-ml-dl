@@ -4,6 +4,9 @@
 
 ## Mathematics
 
+<details>
+<summary><strong>Click to expand</strong></summary>
+
 - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 - [Topic-wise notes: maths & stats](https://www.ctanujit.org/lecture-notes.html)
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
@@ -29,7 +32,12 @@
 - [Manim is an engine for precise programatic animations, designed for creating explanatory math videos](https://github.com/3b1b/manim)
 - Hessian matrix approximation: [Khan Academy](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/quadratic-approximations/a/the-hessian) | [Uni. of Buffalo | Chapter 5 Hessian](https://cedar.buffalo.edu/~srihari/CSE574/Chap5/Chap5.4-Hessian.pdf) | [Math Lectures: Hessian Example](https://www.iith.ac.in/~ashok/Maths_Lectures/TutorialB/Hessian_Examples.pdf)
 
-## Statistics
+</details>
+
+## 📈 Statistics
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
 - [Topic-wise notes: maths & stats](https://www.ctanujit.org/lecture-notes.html)
 - [5 Lesson 5 Measures Of Skewness And Kurtosis](https://sol.du.ac.in/mod/book/view.php?chapterid=1067&id=1317) [deadlink]
@@ -58,7 +66,9 @@
 - [Statistics by Chris Albon](https://chrisalbon.com/#statistics) - covering Frequentist topics
 - [See Data > Statistics section more related links](../data/README.md#statistics)
 
-## Probability and Probabilistic programming
+</details>
+
+## 🎲 Probability and Probabilistic programming
 
 - [Statistics 110: Probability](https://projects.iq.harvard.edu/stat110/home)
 - [Probabilistic Symmetry and Invariant Neural Networks](https://www.youtube.com/watch?v=u8Jt1HkWTn4) by [Benjamin Bloem-Reddy](https://www.stat.ubc.ca/~benbr/)

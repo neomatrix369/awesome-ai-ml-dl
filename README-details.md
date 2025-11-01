@@ -47,6 +47,9 @@
 
 ### Automation
 
+<details>
+<summary><strong>Click to expand</strong></summary>
+
 - [Automated Machine Learning — An Overview](https://medium.com/thinkgradient/automated-machine-learning-an-overview-5a3595d5c4b5)
 - [Automated pipelines](./things-to-know.md#automated-pipelines)
 - [Automated machine learning tools (or partial AutoML tools)](./things-to-know.md#automated-machine-learning-tools-or-partial-automl-tools)
@@ -76,6 +79,8 @@
 - [OpenML](https://openml.org)
 - [Lightning Flash](https://www.linkedin.com/posts/philipvollet_machinelearning-pytorch-opensource-activity-6815862293948092416-AiNY) - a collection of production ready Tasks for fast prototyping, baselining, finetuning and solving problems with deep learning built on top of PyTorch Lightning
 
+</details>
+
 ### Ethics / altruistic motives
 
   - [python package: deon](https://pypi.org/project/deon/)
@@ -86,7 +91,7 @@
 - [UK gov’s guidance](https://www.gov.uk/guidance/understanding-artificial-intelligence-ethics-and-safety)
 - [Google principles](https://ai.google/principles/)
 
-## Golang
+## 🐹 Golang
 
 + [Go binding for Tensorflow](https://pkg.go.dev/github.com/tensorflow/tensorflow/tensorflow/go)
 + [Why to deploy ML model with Go](https://towardsdatascience.com/why-we-deploy-machine-learning-models-with-go-not-python-a4e35ec16deb)
@@ -123,6 +128,9 @@ See [Mathematica & Wolfram Language](./reference/mathematica-wolfram-Language.md
 See [Mathematics, Statistics, Probability & Probabilistic programming](./reference/maths-stats-probability.md)
 
 ### Data
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
   - [Do we know our data...](./data/README.md#data)
     - [Data exploratory analysis](./data/README.md#data-exploratory-analysis)
@@ -164,6 +172,9 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./referen
 - [Aim](https://www.linkedin.com/posts/philipvollet_datascience-machinelearning-pytorch-activity-6732191279083511808-zqSM) - a super-easy way to record, search and compare AI experiments. With Aim you can compare 100s of experiments in no time!
 - [Data science competitions to build a better world](https://www.drivendata.org/)
 - [An ethics checklist for data scientists](http://deon.drivendata.org/)
+
+</details>
+
 ### Data Scientist
 
 - [How can I become a data scientist?](https://www.linkedin.com/posts/data-science-central_how-can-i-become-a-data-scientist-activity-6611453301030473728-0weA)
@@ -179,6 +190,10 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./referen
 
 
 ### Graphs
+
+<details>
+<summary><strong>Click to expand</strong></summary>
+
   - [PyTorch Geometric Temporal - temporal extensions PyTorch Geometric Benedek Rozemberczki](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
   - [A number of interesting links on Graph Networks by Yaz](https://github.com/yazdotai/graph-networks)
   + [Daniele Grattarola gave a great talk on his graph machine learning library Spektral. Learn how to create graph neural networks (GNNs) with ease](https://www.linkedin.com/posts/philipvollet_machinelearning-datascience-python-activity-6692653922835922944-F6kO)
@@ -197,6 +212,8 @@ See [Mathematics, Statistics, Probability & Probabilistic programming](./referen
   - [BCS APSG - 2019 02 14 How Graph Technology is Changing AI and ML at BCS London](https://www.youtube.com/watch?v=oMqP3ISPWBY)
   - [Graph databases](./data/README.md#databases)
     - See the [Grakn example](./examples/data/databases/graph/grakn/README.md) in the `examples/data/databases/graph/grakn` folder
+
+</details>
 
 ### Examples
 
@@ -267,21 +284,21 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 [↑ Back to top](#-table-of-contents) · [← Back to main page](./README.md)
 
-## MLOps & Deployment
+## 🚀 MLOps & Deployment
 
 - [Demystification of the key concepts of Artificial Intelligence and Machine Learning](https://github.com/virgili0/Virgilio/blob/master/serving/paradiso/demystification-ai-ml-dl/demystification-ai-ml-dl.md)
   - [Easy MLOps with PyCaret + MLflow](https://towardsdatascience.com/easy-mlops-with-pycaret-mlflow-7fbcbf1e38c6?source=search_post)
 
-## Tools & Frameworks
+## 🛠️ Tools & Frameworks
 
 - [AutoGOAL: an autoML framework (high & low level) by Alejandro Piad et al.](https://www.linkedin.com/posts/madewithml_machinelearning-artificialintelligence-madewithml-activity-6693165741547626496-mHhS)
 - [A delightful machine learning tool that allows you to train/fit, test and use models without writing code](https://github.com/nidhaloff/igel)
 
-## NLP
+## 🧠 NLP
 
 - [OttoML - Otto makes machine learning an intuitive, natural language experience.](https://github.com/KartikChugh/Otto)
   - [Language Generation with Multi-hop Reasoning on Commonsense Knowledge Graph](https://www.linkedin.com/posts/philipvollet_datascience-nlp-pytorch-activity-6734350662294917120-LSsw)
 
-## Infrastructure & Cloud
+## ☁️ Infrastructure & Cloud
 
   - [Graph Representation Learning Book • The field of graph representation learning has grown at an incredible (and sometimes unwieldy)](https://www.linkedin.com/posts/philipvollet_graph-representation-learning-ugcPost-6703225313507336192-emmK)

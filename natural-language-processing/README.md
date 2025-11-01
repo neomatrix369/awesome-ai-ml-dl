@@ -2,6 +2,8 @@
 
 [Home](../README.md) · [📚 Data](../data/README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🤖 Agents](../ai-agents/README.md) · ☁️ [Cloud](../infrastructure/cloud-devops-infra/README.md)
 
+![banner](../assets/banners/nlp-hero.png)
+
 This section curates NLP resources for practitioners: datasets, libraries/frameworks, learning paths, cloud examples, notebooks, and presentations. Use the quick links below to jump to specific areas.
 
 ## Related
