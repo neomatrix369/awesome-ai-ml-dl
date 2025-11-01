@@ -100,6 +100,11 @@ BANNERS = {
         "gradient": ((255, 152, 0), (255, 193, 7)),  # amber range
         "pattern_alpha": 18,
     },
+    "presentations-hero.png": {
+        "title": "Presentations",
+        "gradient": ((142, 36, 170), (233, 30, 99)),  # deep purple → pink
+        "pattern_alpha": 20,
+    },
 }
 
 

@@ -8,6 +8,8 @@ This section curates infrastructure, cloud, and DevOps resources for AI/ML/DL wo
 
 [Home](../../README.md) · [📚 Data](../../data/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [☁️ Infrastructure](../../infrastructure/README.md)
 
+![banner](../../assets/banners/infrastructure-hero.png)
+
 ## Related
 - [Data](../../data/README.md)
 - [Tools](../../tools/README.md)

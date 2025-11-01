@@ -3,6 +3,8 @@
 
 [Home](../README.md) · [🧪 Examples](../examples/apache-zeppelin/README.md) · [📓 Notebooks](../notebooks/README.md) · [📊 Data](../data/README.md) · [🧠 NLP](../natural-language-processing/README.md) · [🧰 Tools](../tools/README.md)
 
+![banner](../assets/banners/presentations-hero.png)
+
 Use this index to explore project overviews, workshops, and community talks with slides and recordings where available.
 
 ## At a glance
