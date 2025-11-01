@@ -2,29 +2,38 @@
 
 [Home](./README.md) · [🤖 AI Agents](./ai-agents/README.md) · [📚 Data](./data/README.md) · [🧠 NLP](./natural-language-processing/README.md) · [🧰 Tools](./tools/README.md) · [📓 Notebooks](./notebooks/README.md)
 
-- #general
-- #artificial-intelligence
-- #automation
-- #ethics-altruistic-motives
-- #golang
-- #java
-- #julia-python-r
-- #javascript
-- #visualisation
-- #mathematica-wolfram-language
-- #mathematics-statistics-probability-probabilistic-programming
-- #data
-- #graphs
-- #examples
-- #notebooks
-- #models
-- #articles-papers-code-data-courses
-- #other-tools
-- #presentations
-- #best-practices
-- #cheatsheets
-- #misc
-- #contributing
+## Table of Contents
+
+- [General](#general)
+- [Artificial Intelligence](#artificial-intelligence)
+- [Automation](#automation)
+- [Ethics / altruistic motives](#ethics--altruistic-motives)
+- [Golang](#golang)
+- [Java](#java)
+- [Julia, Python & R](#julia-python--r)
+- [JavaScript](#javascript)
+- [Visualisation](#visualisation)
+- [Mathematica & Wolfram Language](#mathematica--wolfram-language)
+- [Mathematics, Statistics, Probability & Probabilistic programming](#mathematics-statistics-probability--probabilistic-programming)
+- [Data](#data)
+- [Data Scientist](#data-scientist)
+- [Graphs](#graphs)
+- [Examples](#examples)
+- [Notebooks](#notebooks)
+- [Models](#models)
+- [Articles, papers, code, data, courses](#articles-papers-code-data-courses)
+- [Other Tools](#other-tools)
+- [Presentations](#presentations)
+- [Best Practices](#best-practices)
+- [Cheatsheets](#cheatsheets)
+- [Misc](#misc)
+- [Contributing](#contributing)
+- [MLOps & Deployment](#mlops--deployment)
+- [Tools & Frameworks](#tools--frameworks)
+- [NLP](#nlp)
+- [Infrastructure & Cloud](#infrastructure--cloud)
+
+[↑ Back to top](#-table-of-contents)
 
 ---
 
@@ -256,7 +265,7 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Back to [main page (table of contents)](README.md)
+[↑ Back to top](#-table-of-contents) · [← Back to main page](./README.md)
 
 ## MLOps & Deployment
 
