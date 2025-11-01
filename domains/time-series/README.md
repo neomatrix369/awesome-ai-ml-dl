@@ -20,7 +20,7 @@ Navigation: [Home](../../README.md) · [Domains](../README.md) · 📚 [Data](..
 - Methods and guides: [./time-series.md#methods-armaarimasarima-and-others](./time-series.md#methods-armaarimasarima-and-others)
 - Tools index: #tools-libraries-frameworks
 
-#⏱️-time-series-anomaly-detection · [← Back to domains](../README.md) · [← Back home](../../README.md)
+#⏱️-time-series-anomaly-detection · [↑ Back to top](#time-series--anomaly-detection) · [← Back to domains](../README.md) · [← Back home](../../README.md)
 
 ---
 

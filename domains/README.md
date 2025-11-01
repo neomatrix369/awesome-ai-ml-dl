@@ -20,4 +20,4 @@
 - ✨ [Generative AI](./generative-ai/README.md)
 - 🚀 [MLOps & Deployment](./mlops-deployment/README.md)
 
-#domains · [← Back home](../README.md)
+#domains · [↑ Back to top](#domains) · [← Back home](../README.md)

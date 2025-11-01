@@ -4,27 +4,33 @@
 
 This section will be dedicated to guides to learning Data Science, Machine Learning, Deep Learning, and the likes. The material comes from links to various sources, one of the primary ones being [Virgilio](https://github.com/virgili0/Virgilio), for those who are not familiar with it.
 
-- #virgili0
-  - #existing-guides
-    - #learning-to-learn
-    - #just-beginning
-    - #fundamentals
-    - #machine-learning
-    - #new-to-data-science
-    - #data-science-skills
-    - #deep-learning
-    - #natural-language-processing
-    - #tools
-    - #research
-  - #new-guides
-    - #paradiso
-    - #purgatorio
-    - #inferno
-  - #contribute-to-virgili0
-  - [👉 Feynman Learning Technique 👈](https://www.linkedin.com/posts/asif-bhat_neverstoplearning-asifbhat-activity-6639250916010717185-avMT)
-  - [👉 Python to Neural Networks : A Guide for Beginners 👈] (https://www.linkedin.com/feed/update/urn:li:activity:6690911303441219584/)
+## Table of Contents
 
-- #contributing
+- [Virgili0](#virgili0)
+  - [Existing guides](#existing-guides)
+    - [Learning to learn](#learning-to-learn)
+    - [Just beginning](#just-beginning)
+    - [Fundamentals](#fundamentals)
+    - [Machine Learning](#machine-learning)
+    - [New to Data Science](#new-to-data-science)
+    - [Data Science Skills](#data-science-skills)
+    - [Deep Learning](#deep-learning)
+    - [Natural Language Processing](#natural-language-processing)
+    - [Tools](#tools)
+    - [Research](#research)
+  - [New guides](#new-guides)
+    - [Paradiso](#paradiso)
+    - [Purgatorio](#purgatorio)
+    - [Inferno](#inferno)
+  - [Contribute to Virgili0](#contribute-to-virgili0)
+- [Data](#data)
+- [Notebooks](#notebooks)
+- [Computer Vision](#computer-vision)
+- [Infrastructure & Cloud](#infrastructure--cloud)
+- [Large Language Models (LLMs)](#large-language-models-llms)
+- [Contributing](#contributing)
+
+[↑ Back to top](#guides)
 
 ---
 
@@ -116,7 +122,7 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Back to [main page (table of contents)](README.md)
+[↑ Back to top](#guides) · [← Back to main page](./README.md)
 
 ## Data
 

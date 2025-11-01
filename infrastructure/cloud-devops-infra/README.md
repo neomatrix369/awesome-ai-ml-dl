@@ -15,19 +15,31 @@ This section curates infrastructure, cloud, and DevOps resources for AI/ML/DL wo
 - [AI Agents](../../ai-agents/README.md)
 - [NLP](../../natural-language-processing/README.md)
 
-- #system-infra
-- #compute-storage
-- #grid-computing-super-computing
-- #cloud-services
-- #tools
-- #cpu
-- #fpga
-- #gpu
-- #tpu
-- #ipu
-- #performance
-- #misc
-- #contributing
+## Table of Contents
+
+- [System / Infra](#system--infra)
+- [Compute & Storage](#compute--storage)
+- [Grid computing / Super computing](#grid-computing--super-computing)
+- [Cloud services](#cloud-services)
+- [Tools](#tools)
+- [CPU](#cpu)
+- [FPGA](#fpga)
+- [GPU](#gpu)
+- [TPU](#tpu)
+- [IPU](#ipu)
+- [Performance](#performance)
+- [Related](#related)
+- [Misc](#misc)
+- [Contributing](#contributing)
+- [Data](#data)
+- [NLP](#nlp)
+- [Infrastructure & Cloud](#infrastructure--cloud)
+- [Tools & Frameworks](#tools--frameworks)
+- [Notebooks](#notebooks)
+- [Generative AI](#generative-ai)
+- [Computer Vision](#computer-vision)
+
+[↑ Back to top](#cloud-devops-infra)
 
 ## System / Infra
 
@@ -199,7 +211,7 @@ Please have a look at the [CONTRIBUTING](../../CONTRIBUTING.md) guidelines, also
 
 ---
 
-#cloud-devops-infra · [← Back home](../README.md)
+#cloud-devops-infra · [↑ Back to top](#cloud-devops-infra) · [← Back home](../../README.md)
 
 ## Data
 

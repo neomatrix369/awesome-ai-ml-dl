@@ -6,7 +6,42 @@ Navigation: [Home](./README.md) · 🗂️ [Reference](./reference/README.md) ·
 
 ![banner](./assets/banners/portal-hero.png)
 
-## What’s new
+## Table of Contents
+
+- [What's new](#whats-new)
+- [Start here](#start-here)
+- [Explore by domain](#explore-by-domain)
+- [Legacy content (full index)](#legacy-content-full-index)
+  - [Python](#python)
+  - [Java & JVM](#java--jvm)
+  - [Other Languages](#other-languages)
+- [AI & Machine Learning](#ai--machine-learning)
+  - [Core Topics](#core-topics)
+  - [Specialized Areas](#specialized-areas)
+  - [Ethics & Governance](#ethics--governance)
+- [Data & Analytics](#data--analytics)
+  - [Data Science](#data-science)
+  - [Visualization](#visualization)
+- [Learning Resources](#learning-resources)
+  - [Courses & Competitions](#courses--competitions)
+  - [Guides & Tutorials](#guides--tutorials)
+  - [Reference Materials](#reference-materials-1)
+- [Tools & Infrastructure](#tools--infrastructure)
+  - [Development Tools](#development-tools)
+  - [Cloud & DevOps](#cloud--devops)
+  - [Frameworks & Libraries](#frameworks--libraries)
+  - [Testing & Quality](#testing--quality)
+- [Reference Materials](#reference-materials)
+  - [Mathematical Foundations](#mathematical-foundations)
+  - [Automation & MLOps](#automation--mlops)
+  - [Miscellaneous](#miscellaneous)
+- [Contributing](#contributing)
+- [Sponsoring](#sponsoring)
+- [Disclaimer](#disclaimer)
+
+[↑ Back to top](#awesome-ai-ml-dl)
+
+## What's new
 
 <!-- whatsnew:start -->
 - Assets: resize banners to 1200x280 and regenerate (`42671a1`)
@@ -56,6 +91,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 **Also, please [SPONSOR us, find out how-to](https://github.com/sponsors/neomatrix369)!**
 
+<details>
+<summary><strong>Legacy content (full index)</strong> - Click to expand</summary>
+
 ## Legacy content (full index)
 
 ### Python
@@ -103,6 +141,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [AI in Golang](./reference/julia-python-and-r.md#programming-in-golang)
 - [More...](./reference/julia-python-and-r.md#more)
 - [JavaScript](README-details.md#javascript)
+
+</details>
 
 ## AI & Machine Learning
 
@@ -220,3 +260,5 @@ With [GitHub's new project sponsor program](https://github.com/sponsors) you can
 - **Community Contributions:** This is a community-driven project. Content may be contributed by various individuals. If you find errors, outdated information, or have suggestions for improvements, please see our [Contributing Guidelines](CONTRIBUTING.md).
 
 **Use at Your Own Risk:** By using this repository, you acknowledge and accept these disclaimers and agree to use the information and resources at your own discretion and risk.
+
+[↑ Back to top](#awesome-ai-ml-dl)

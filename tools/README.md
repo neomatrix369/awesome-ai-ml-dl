@@ -16,13 +16,31 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 
 ## Table of Contents
 
-- #development-environments
-- #data-analysis-tools
-- #machine-learning-frameworks
-- #cloud-platforms
-- #specialized-hardware
-- #automation-tools
-- #deployment-mlops
+- [Development Environments](#development-environments)
+  - [IDEs and Editors](#ides-and-editors)
+  - [Hosted Notebook Platforms](#hosted-notebook-platforms)
+- [Data Analysis Tools](#data-analysis-tools)
+  - [Primary Tools](#primary-tools)
+  - [Specialized Libraries](#specialized-libraries)
+- [Machine Learning Frameworks](#machine-learning-frameworks)
+  - [Deep Learning](#deep-learning)
+  - [Traditional ML](#traditional-ml)
+  - [AutoML Tools](#automl-tools)
+- [Cloud Platforms](#cloud-platforms)
+  - [Major Cloud Providers](#major-cloud-providers)
+  - [ML-Specific Services](#ml-specific-services)
+- [Specialized Hardware](#specialized-hardware)
+  - [Processing Units](#processing-units)
+  - [Cloud GPU Services](#cloud-gpu-services)
+- [Automation Tools](#automation-tools)
+  - [Pipeline Automation](#pipeline-automation)
+  - [Experiment Tracking](#experiment-tracking)
+- [Deployment & MLOps](#deployment--mlops)
+  - [Model Deployment](#model-deployment)
+  - [Monitoring & Observability](#monitoring--observability)
+- [Contributing](#contributing)
+
+[↑ Back to top](#tools--frameworks)
 
 ## Development Environments
 
@@ -134,7 +152,7 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 
 ---
 
-#tools-technologies-for-aimldl · [← Back home](../README.md)
+#tools-technologies-for-aimldl · [↑ Back to top](#tools--frameworks) · [← Back home](../README.md)
 
 ## Notebooks
 

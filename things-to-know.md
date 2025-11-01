@@ -4,32 +4,44 @@
 
 As a (to-be) or (current) data scientist, data engineer, data analyst, machine learning engineer or any other professional or new-bie or student in this space, the below are useful points to know in a snapshot. They can become your learning points or fill any gaps in your understanding. Credits to the authors of the [Kaggle survey](https://google.qualtrics.com/jfe/form/SV_cSiHgVoAyExb9uR), most of the ideas are from that document.
 
----
+## Table of Contents
 
-- #important-part-of-your-role-at-work-if-work-with-data
-- #media-sources
-- #useful-blogs-to-read
-- #course-providers
-- #courses
-- #primary-tools-to-analyse-data
-- #ides
-- #hosted-notebook-products
-- #programming-languages
-- #data-visualization-libraries-or-tools
-- #specialized-hardware
-- #machine-learning-algorithms
-- #machine-learning-frameworks
-- #machine-learning-products
-- #big-data-analytics-products
-- #cloud-computing-platforms
-- #cloud-computing-products
-- #automated-pipelines
-- #automated-machine-learning-tools-or-partial-automl-tools
-- #tools-to-help-manage-machine-learning-experiments
-- #publicly-share-or-deploy-your-data-analysis-or-machine-learning-applications
-- #relational-database-products
-- #other-tools
-- #contributing
+- [Important part of your role at work (if work with data)](#important-part-of-your-role-at-work-if-work-with-data)
+- [Media sources](#media-sources)
+- [Useful blogs to read](#useful-blogs-to-read)
+- [Course providers](#course-providers)
+- [Courses](#courses)
+- [Primary tools to analyse data](#primary-tools-to-analyse-data)
+- [IDEs](#ides)
+- [Hosted Notebook products](#hosted-notebook-products)
+- [Programming languages](#programming-languages)
+- [Data visualization libraries or tools](#data-visualization-libraries-or-tools)
+- [Specialized hardware](#specialized-hardware)
+- [Machine learning Algorithms](#machine-learning-algorithms)
+- [Machine learning frameworks](#machine-learning-frameworks)
+- [Machine learning products](#machine-learning-products)
+- [Big data / analytics products](#big-data--analytics-products)
+- [Cloud computing platforms](#cloud-computing-platforms)
+- [Cloud computing products](#cloud-computing-products)
+- [Automated pipelines](#automated-pipelines)
+- [Automated machine learning tools (or partial AutoML tools)](#automated-machine-learning-tools-or-partial-automl-tools)
+- [Tools to help manage machine learning experiments](#tools-to-help-manage-machine-learning-experiments)
+- [Publicly share or deploy your data analysis or machine learning applications](#publicly-share-or-deploy-your-data-analysis-or-machine-learning-applications)
+- [Relational database products](#relational-database-products)
+- [Business intelligence tools](#business-intelligence-tools)
+- [Other Tools](#other-tools)
+- [Contributing](#contributing)
+- [Data](#data)
+- [Notebooks](#notebooks)
+- [NLP](#nlp)
+- [Infrastructure & Cloud](#infrastructure--cloud)
+- [Generative AI](#generative-ai)
+- [Large Language Models (LLMs)](#large-language-models-llms)
+- [Computer Vision](#computer-vision)
+- [Tools & Frameworks](#tools--frameworks)
+- [MLOps & Deployment](#mlops--deployment)
+
+[↑ Back to top](#things-to-know)
 
 ---
 
@@ -367,7 +379,7 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Back to [main page (table of contents)](README.md)
+[↑ Back to top](#things-to-know) · [← Back to main page](./README.md)
 
 ## Data
 

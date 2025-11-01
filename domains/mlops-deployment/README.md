@@ -25,4 +25,4 @@ Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.m
 ## Related
 - ☁️ Infrastructure · 🤖 Agents · 🧠 NLP · 🖼️ CV
 
-#🚀-mlops-deployment · [← Back to domains](../README.md) · [← Back home](../../README.md)
+#🚀-mlops-deployment · [↑ Back to top](#mlops--deployment) · [← Back to domains](../README.md) · [← Back home](../../README.md)
