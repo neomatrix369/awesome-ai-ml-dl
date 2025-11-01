@@ -1,4 +1,6 @@
-# Graql-to-English
+# 📝 Graql-to-English
+
+[Home](../../../../../../README.md) · [🧪 Grakn Examples](../../README.md) · [🧠 NLP](../../../../../../natural-language-processing/README.md) · [📚 Data](../../../../../../data/README.md)
 
 The reverse of English-to-Graql Graql queries mapping to a list of English phrases or questions.
 
