@@ -2,23 +2,37 @@
 
 [Home](./README.md) · [📚 Data](./data/README.md) · [🧠 NLP](./natural-language-processing/README.md) · [🧰 Tools](./tools/README.md) · [📓 Notebooks](./notebooks/README.md)
 
-- #algorithms
-- #cambridge-spark
-- #datacamp
-- #dataiku
-- #data-science
-- #computer-vision
-- #fastai
-- #intel
-- #fpga
-- #machine-learning
-  - #deep-learning
-    - #reinforcement-learning
-- #natural-language-processing-nlp
-- #python-best-practices
-- #python-testing
-- #statistics
-- #misc
+A curated list of courses for learning AI, ML, DL, and related topics.
+
+## Table of Contents
+
+- [Algorithms](#algorithms)
+- [Cambridge Spark](#cambridge-spark)
+- [Datacamp](#datacamp)
+- [Dataiku](#dataiku)
+- [Data Science](#data-science)
+- [Computer Vision](#computer-vision)
+  - [Image Processing](#image-processing)
+- [Fast.ai](#fastai)
+- [Intel](#intel)
+  - [FPGA](#fpga)
+- [Machine Learning](#machine-learning)
+  - [Java/JVM](#javajvm)
+  - [Deep Learning](#deep-learning)
+    - [Reinforcement Learning](#reinforcement-learning)
+- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
+- [Python: Best practices](#python-best-practices)
+- [Python: Testing](#python-testing)
+- [Statistics](#statistics)
+- [Stanford courses](#stanford-courses)
+- [Misc](#misc)
+- [Contributing](#contributing)
+- [Data](#data)
+- [Generative AI](#generative-ai)
+- [NLP](#nlp)
+- [Large Language Models (LLMs)](#large-language-models-llms)
+
+[↑ Back to top](#courses)
 
 ## Algorithms
 
@@ -266,7 +280,7 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 ---
 
-Back to [main page (table of contents)](README.md)
+[↑ Back to top](#courses) · [← Back to main page](./README.md)
 
 ## Data
 
