@@ -1,4 +1,6 @@
-# Statistics
+# 📊 Statistics
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - [An Introduction To Statistical Learning with Applications in R](https://github.com/tpn/pdfs/blob/master/An%20Introduction%20To%20Statistical%20Learning%20with%20Applications%20in%20R%20(ISLR%20Sixth%20Printing).pdf)
 - Statistical Inferencing

@@ -1,8 +1,8 @@
-# AI Agents 🤖
+# 🤖 AI Agents
 
-> 🤖 Build, orchestrate, and evaluate agentic AI systems.
+> Build, orchestrate, and evaluate agentic AI systems.
 
-Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 🤖 [Agents](./README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · ☁️ [Cloud](../infrastructure/cloud-devops-infra/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
+[Home](../README.md) · [📚 Data](../data/README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · ☁️ [Cloud](../infrastructure/cloud-devops-infra/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 ## Related
 - [Tools](../tools/README.md)

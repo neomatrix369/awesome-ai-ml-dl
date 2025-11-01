@@ -1,4 +1,6 @@
-# Machine Learning
+# 🤖 Machine Learning
+
+[Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📚 Data](../../data/README.md)
 
   - [Machine Learning Study Path](https://github.com/virgili0/Virgilio/blob/master/LearningPaths/Machine%20Learning%20Engineer%20Career%20Path)
   - [Top ML repos](https://github.com/yazdotai/top-machine-learning)

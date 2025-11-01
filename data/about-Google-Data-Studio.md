@@ -1,4 +1,6 @@
-## Google Data Studio
+# 📊 Google Data Studio
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - Signup https://datastudio.google.com/
 - Dashboarding & Data Visualization Tools - Google Data Studio - https://marketingplatform.google.com/about/data-studio/

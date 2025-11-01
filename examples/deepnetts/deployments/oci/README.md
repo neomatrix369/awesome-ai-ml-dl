@@ -1,4 +1,11 @@
-# Deployment: Infrastructure as code
+# ☁️ Deployment: Infrastructure as code (OCI)
+
+[Home](../../../../README.md) · [🧪 DeepNetts Example](../../README.md) · [📓 Notebooks](../../../../notebooks/README.md) · [🧰 Tools](../../../../tools/README.md)
+
+## At a glance
+- **Provision with Terraform**: VCN, subnet, security rules, compute
+- **Bootstrap**: init and provision scripts to run notebooks in Docker
+- **Ops**: helpers to get IP/URL, retry, and destroy resources
 
 The scripts in this folder give the ability to provision and manage compute capacity using [Oracle Cloud Infrastructure](https://docs.cloud.oracle.com/iaas/Content/services.htm), in
 order to deploy the docker container and run the notebook in it.

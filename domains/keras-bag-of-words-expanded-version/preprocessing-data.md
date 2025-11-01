@@ -1,4 +1,6 @@
-### Preprocessing data
+# 🧹 Preprocessing data
+
+[Home](../../../README.md) · [🧠 Keras Bag of Words](../README.md) · [📊 Domains](../../README.md)
 
 #### Wikipedia
 

@@ -1,6 +1,6 @@
-# MCP Frameworks, Tutorials, and Tools for AI Agent Development
+# 🛠️ MCP Frameworks, Tutorials, and Tools for AI Agent Development
 
-[Back to main](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
+[Home](../../README.md) · [🤖 AI Agents](../../ai-agents/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📊 Data](../../data/README.md)
 
 This document provides a curated list of Model Context Protocol (MCP) frameworks, tutorials, tools, and platforms relevant to the development of AI agents.
 

@@ -1,4 +1,6 @@
-**Named Entity Recognition** 🤔
+# 🏷️ Named Entity Recognition (NER)
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 Considering recent increases in computing power and decreases in the costs of data storage, data scientists and developers can build large knowledge bases that contain millions of entities and hundreds of millions of facts about them. These knowledge bases are key contributors to intelligent computer behavior. Surprisingly, Named Entity Recognition operates at the back of many popular technologies such as smart assistants (Siri, Google Now), machine reading, and deep interpretation of natural language. This post gives you a brief introduction to Named Entity Recognition and uses cases related.
 

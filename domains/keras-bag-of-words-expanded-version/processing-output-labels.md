@@ -1,4 +1,6 @@
-## Processing output labels
+# 🏷️ Processing output labels
+
+[Home](../../../README.md) · [🧠 Keras Bag of Words](../README.md) · [📊 Domains](../../README.md)
 
 ### Representations
 

@@ -1,4 +1,6 @@
-# Pandas Profiling
+# 📊 Pandas Profiling
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 Generates profile reports from a pandas DataFrame.
 

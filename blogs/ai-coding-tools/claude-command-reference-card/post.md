@@ -1,4 +1,6 @@
-# The Claude Command Reference Card
+# 📋 The Claude Command Reference Card
+
+[Home](../../../README.md) · [✍️ AI Coding Tools](../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md)
 
 *Your essential guide to Claude Code CLI commands, shortcuts, and MCP servers*
 

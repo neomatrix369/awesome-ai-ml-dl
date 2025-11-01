@@ -1,4 +1,6 @@
-# Metaphor detection
+# 💭 Metaphor detection
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
    - [Code for the paper "Neural Metaphor Detection in Context"](https://github.com/NLPAssignment/metaphor-detection)
    - [Grasping the Finer Point:A Supervised Similarity Network for Metaphor Detection](https://arxiv.org/pdf/1709.00575)

@@ -1,4 +1,7 @@
-# Mathematica & Wolfram Language
+# 🧮 Mathematica & Wolfram Language
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
+
  - General
     - [Mathematica](https://www.wolfram.com/mathematica/)
     - [Mathematica for home/hobbyist/individuals (pricing)](https://www.wolfram.com/mathematica/pricing/home-hobby-individuals.php)

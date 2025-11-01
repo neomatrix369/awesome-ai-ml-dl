@@ -1,4 +1,6 @@
-# Graql
+# 🧱 Graql
+
+[Home](../../../../../../README.md) · [📚 Data](../../../../../../data/README.md) · [🧰 Tools](../../../../../../tools/README.md)
 
 Speaking Graql!
 

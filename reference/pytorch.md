@@ -1,4 +1,6 @@
-# PyTorch
+# 🔥 PyTorch
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 PyTorch is an open source machine learning library based on the [Torch library](http://torch.ch/), used for applications such as computer vision and natural language processing.
 

@@ -1,6 +1,6 @@
-# Table of Contents
+# 📑 Table of Contents
 
-[Back to main](./README.md) | [AI Agents](./ai-agents/) | [Data](./data/README.md) | [NLP](./natural-language-processing/README.md) | [Tools](./tools/README.md) | [Notebooks](./notebooks/README.md)
+[Home](./README.md) · [🤖 AI Agents](./ai-agents/README.md) · [📚 Data](./data/README.md) · [🧠 NLP](./natural-language-processing/README.md) · [🧰 Tools](./tools/README.md) · [📓 Notebooks](./notebooks/README.md)
 
 - #general
 - #artificial-intelligence

@@ -1,4 +1,6 @@
-## H2O Driverless AI
+# 🎯 H2O Driverless AI
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - Download from https://s3.amazonaws.com/artifacts.h2o.ai/releases/ai/h2o/dai/rel-1.4.2-9/index.html
 - Installation

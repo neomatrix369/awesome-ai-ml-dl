@@ -1,4 +1,6 @@
-## Weights & Biases
+# ⚖️ Weights & Biases
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - [https://www.wandb.com/](https://www.wandb.com/)
 - W&B is a key piece of our fast-paced, cutting-edge, large-scale research workflow: great flexibility, performance, and user experience.

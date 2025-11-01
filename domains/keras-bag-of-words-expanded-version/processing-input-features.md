@@ -1,4 +1,6 @@
-### Processing input features
+# 📥 Processing input features
+
+[Home](../../../README.md) · [🧠 Keras Bag of Words](../README.md) · [📊 Domains](../../README.md)
 
 **Install pandas**
 

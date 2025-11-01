@@ -1,6 +1,6 @@
-# Advanced MCP Servers
+# 🚀 Advanced MCP Servers
 
-**[← Back to Main Guide](./post.md)**
+[Home](../../../../README.md) · [✍️ AI Coding Tools](../../README.md) · [🔧 Complete MCP Guide](./post.md)
 
 #advanced-mcp-servers · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
 

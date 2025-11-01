@@ -1,4 +1,6 @@
-# ML on Code/Programm/Source Code
+# 💻 ML on Code/Programm/Source Code
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - [Talk: Learning to Type by Liam Atkinson](https://lara.epfl.ch/~kuncak/Learning_to_Type_S1360006.mp4) at the [ml4p.org](https://ml4p.org) conference in 2018 [deadlink]
 - [Awesome ML on Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)

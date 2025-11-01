@@ -1,4 +1,6 @@
-## Naturally, getting productive, my journey with Grakn and Graql
+# 🧱 Naturally, getting productive, my journey with Grakn and Graql
+
+[Home](../../../../../../README.md) · [🧱 Grakn & Graql](../README.md) · [📚 Data](../../../../../../data/README.md)
 
 ### Slides
 

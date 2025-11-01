@@ -1,6 +1,6 @@
-# Python for AI/ML/DL
+# 🐍 Python for AI/ML/DL
 
-[Back to main](../README.md) | [Details](../README-details.md) | [Tools](../tools/README.md) | [Notebooks](../notebooks/README.md)
+[Home](../README.md) · [📚 Data](../data/README.md) · [🧠 NLP](../natural-language-processing/README.md) · [🧰 Tools](../tools/README.md) · [📓 Notebooks](../notebooks/README.md)
 
 A comprehensive guide to Python programming for artificial intelligence, machine learning, and deep learning.
 

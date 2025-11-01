@@ -1,4 +1,6 @@
-### Metrics
+# 📊 Metrics
+
+[Home](../../../README.md) · [🧠 Keras Bag of Words](../README.md) · [📊 Domains](../../README.md)
 
 Accuracy, tells us the percentage of comments it assigned the correct label to (results after running the test set against the model that has been trained with the training set)
 

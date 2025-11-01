@@ -1,4 +1,6 @@
-## Microstrategy
+# 📈 Microstrategy
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - Download desktop app from https://www.microstrategy.com/us/get-started/desktop (Mac or Windows)
 - Install app and run it

@@ -1,4 +1,6 @@
-# Articles, papers, code, data, courses
+# 📚 Articles, papers, code, data, courses
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📊 Data](../data/README.md)
 
   - [Papers, code, data by Yaz](https://github.com/yazdotai/paper-code-data)
   - [Awesome AI Papers by Yaz (empty atm)](https://github.com/yazdotai/awesome-ai-papers)

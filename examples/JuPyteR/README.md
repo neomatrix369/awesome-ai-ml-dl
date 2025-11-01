@@ -1,6 +1,11 @@
-# JuPyteR [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# 📓 JuPyteR [![Jupyter-Java](https://img.shields.io/docker/pulls/neomatrix369/jupyter-java.svg)](https://hub.docker.com/r/neomatrix369/jupyter-java) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[Back to main](../../README.md) | [Details](../../README-details.md) | [Data](../../data/README.md) | [NLP](../../natural-language-processing/README.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
+[Home](../../README.md) · [📚 Data](../../data/README.md) · [🧠 NLP](../../natural-language-processing/README.md) · [🧰 Tools](../../tools/README.md) · [📓 Notebooks](../../notebooks/README.md)
+
+## At a glance
+- **JVM kernels**: Java, Scala, Kotlin support alongside Python/R/Julia
+- **Automated setup**: scripts to install notebooks and kernels
+- **Manual steps**: kernel install via CLI with examples
 
 [JuPyteR notebooks](https://jupyter.org/) also gives us the facility to write notebooks using Java, Scala and other JVM and non-JVM languages in addition to Python, R and Julia.
 

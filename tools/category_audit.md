@@ -1,5 +1,6 @@
-# Link Categorization Audit
+# 🔍 Link Categorization Audit
 
+[Home](../README.md) · [🧰 Tools](./README.md) · [📚 Data](../data/README.md) · [📓 Notebooks](../notebooks/README.md)
 
 Status: In progress
 

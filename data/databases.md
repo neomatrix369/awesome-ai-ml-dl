@@ -1,4 +1,6 @@
-# Databases
+# 💾 Databases
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 ### Graph Databases
 - [Grakn and Graql](http://grakn.ai/) - not just graphs, or graph database but knowledge graphs | [Docs | Quick start](https://dev.grakn.ai/docs/general/quickstart) | [GitHub](https://github.com/graknlabs/grakn) | [Videos](https://www.youtube.com/channel/UCtZKw0RFof3x23KqGtW3yDA) | [Blogs](https://blog.grakn.ai/) | [DiscordApp](https://discordapp.com/invite/graknlabs) | [Discuss](https://discuss.grakn.ai/) | ~[Slack](https://grakn.ai/slack)~ | [Videos](https://youtube.com/c/graknlabs)

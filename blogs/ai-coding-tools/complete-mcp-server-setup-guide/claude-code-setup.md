@@ -1,4 +1,6 @@
-# Claude Code (CLI) - Complete MCP Server Setup
+# 💻 Claude Code (CLI) - Complete MCP Server Setup
+
+[Home](../../../../README.md) · [✍️ AI Coding Tools](../../README.md) · [🔧 Complete MCP Guide](./post.md)
 
 ![Claude Code (CLI) banner](https://imgs.search.brave.com/gZQp4Hm5LrtpUUle5Qr9EKczgGs87l5v5GUODDN-pDc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1X2Rw/Nmszay9zdHlsZXMv/YmFubmVyQmFja2dy/b3VuZEltYWdlX2I0/cDB0YWNhM3NiZjEu/cG5n)
 

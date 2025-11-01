@@ -1,6 +1,6 @@
-# Visualisation
+# 📊 Visualisation
 
-Navigation: [Home](../README.md) · [Data](../data/README.md#data) · [Notebooks](../notebooks/README.md) · [Presentations](../presentations/README.md) · [Tools](../tools/README.md)
+[Home](../README.md) · [📚 Data](../data/README.md) · [📓 Notebooks](../notebooks/README.md) · [🖥️ Presentations](../presentations/README.md) · [🧰 Tools](../tools/README.md)
 
 ## Tools, Libraries, Packages, Frameworks
   - [Vega: a grammar of interactive graphics](https://skillsmatter.com/skillscasts/12257-vega-a-grammar-of-interactive-graphics) | [Vega: Homepage](https://vega.github.io) | [Vega: GitHub](https://github.com/vega) | [Vega-lite](https://vega.github.io/vega-lite/)

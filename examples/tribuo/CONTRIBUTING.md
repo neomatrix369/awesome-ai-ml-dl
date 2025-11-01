@@ -1,4 +1,6 @@
-# Contribution Guidelines
+# 🤝 Contribution Guidelines
+
+[Home](../../../README.md) · [🧪 Tribuo Examples](../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md)
 
 At the moment there isn't a lot written or spoken about this subject but nevertheless we would like consider links that are useful for the wider community, so we think the below would help:
 

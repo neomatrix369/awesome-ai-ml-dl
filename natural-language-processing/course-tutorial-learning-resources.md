@@ -1,4 +1,6 @@
-# Courses, Tutorial, Learning resource
+# 📚 Courses, Tutorial, Learning resource
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [🧠 NLP](../natural-language-processing/README.md)
 
 - [Citation Needed: A Taxonomy and Algorithmic Assessment of Wikipedia's Verifiability](https://arxiv.org/abs/1902.11116)
 - See [Natural Language Processing (NLP)](../courses.md#naturallanguageprocessing-nlp) in [Courses](../courses.md#courses)

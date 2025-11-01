@@ -1,5 +1,6 @@
-#### Reinforcement Learning
+# 🎮 Reinforcement Learning
 
+[Home](../../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [📚 Data](../../data/README.md)
 
 - [Reinforcement learning resources curated resources](https://github.com/aikorea/awesome-rl)
   - AlphaZero, LeelaZero & Alpha Go

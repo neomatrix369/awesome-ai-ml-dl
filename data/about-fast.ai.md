@@ -1,4 +1,6 @@
-## fast.ai
+# ⚡ fast.ai
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - http://fast.ai
 - Free Library + course material to learn AI, ML, DL quickly

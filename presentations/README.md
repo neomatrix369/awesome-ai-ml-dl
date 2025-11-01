@@ -1,8 +1,14 @@
-# Presentations
+# 🖥️ Presentations
+> Slide decks and talk links across AI/ML/DL, Data, and NLP.
 
-Navigation: [Home](../README.md) · [Details](../README-details.md#general) · 🖥️ [Presentations](./README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md) · 🧠 [NLP](../natural-language-processing/README.md)
+[Home](../README.md) · [🧪 Examples](../examples/apache-zeppelin/README.md) · [📓 Notebooks](../notebooks/README.md) · [📊 Data](../data/README.md) · [🧠 NLP](../natural-language-processing/README.md) · [🧰 Tools](../tools/README.md)
 
-A directory of slide decks and talk links across AI/ML/DL, Data, and NLP topics. Use these to explore project overviews, workshops, and community talks with slides and recordings where available.
+Use this index to explore project overviews, workshops, and community talks with slides and recordings where available.
+
+## At a glance
+- **Talks with slides**: curated links to PDFs and recordings
+- **Workshop materials**: notebooks and code when available
+- **Related**: jump to notebooks, examples, and data resources
 
 ## Related
 - [Notebooks](../notebooks/README.md)

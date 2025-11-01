@@ -1,4 +1,6 @@
-# Examples and results
+# 📊 Examples and results
+
+[Home](../../../../README.md) · [🧠 NLP](../../../../natural-language-processing/README.md) · [🧪 Better NLP Examples](../../README.md) · [📓 Notebooks](../../../../notebooks/README.md)
 
 ### Extracts entities from text
 

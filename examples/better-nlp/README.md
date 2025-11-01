@@ -1,6 +1,11 @@
-# Better NLP [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# 🧠 Better NLP [![Better NLP](https://img.shields.io/docker/pulls/neomatrix369/better-nlp.svg)](https://hub.docker.com/r/neomatrix369/better-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[Back to main](../../README.md) | [Details](../../README-details.md) | [Data](../../data/README.md) | [NLP](../../natural-language-processing/README.md) | [Tools](../../tools/README.md) | [Notebooks](../../notebooks/README.md)
+[Home](../../README.md) · [📚 Data](../../data/README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md) · [🧠 NLP](../../natural-language-processing/README.md)
+
+## At a glance
+- **Wrapper library**: SpaCy, Textacy, and utilities
+- **Multiple environments**: Docker and local setup
+- **Notebooks**: Jupyter, Colab, Kaggle kernels
 
 This is a wrapper program/library that encapsulates a couple of NLP libraries that are popular among the AI and ML communities.
 

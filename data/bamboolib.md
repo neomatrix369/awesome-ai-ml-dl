@@ -1,4 +1,6 @@
-# Bamboolib
+# 🐼 Bamboolib
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 A GUI for pandas.
 

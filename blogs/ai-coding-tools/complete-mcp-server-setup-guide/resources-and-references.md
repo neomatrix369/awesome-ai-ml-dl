@@ -1,4 +1,6 @@
-## Resources and References
+# 📚 Resources and References
+
+[Home](../../../../README.md) · [✍️ AI Coding Tools](../../README.md) · [🔧 Complete MCP Guide](./post.md)
 
 <summary><strong>Official Documentation & Resources</strong> — See common catalogs in [COMMON-REFERENCES.md](../COMMON-REFERENCES.md)
 

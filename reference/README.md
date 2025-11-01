@@ -3,7 +3,7 @@
 
 ![Section](https://img.shields.io/badge/Section-Reference-blue) ![Status](https://img.shields.io/badge/Status-Updated-green)
 
-Navigation: [Home](../README.md) · 📚 [Data](../data/README.md) · 🧪 [Notebooks](../notebooks/README.md) · 🛠️ [Tools](../tools/README.md)
+[Home](../README.md) · [📚 Data](../data/README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md)
 
 ![banner](../assets/banners/reference-hero.png)
 

@@ -1,4 +1,6 @@
-## Generating predictions
+# 🔮 Generating predictions
+
+[Home](../../../README.md) · [🧠 Keras Bag of Words](../README.md) · [📊 Domains](../../README.md)
 
 Generating predictions from our test set (10 posts):
 

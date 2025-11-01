@@ -1,4 +1,6 @@
-# Courses / books
+# 📖 Courses / books
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 ## Courses
 

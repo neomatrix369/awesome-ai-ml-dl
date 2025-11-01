@@ -1,6 +1,6 @@
-## From backend development to machine learning
+# 🖥️ From backend development to machine learning
 
-[Back to main](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
+[Home](../../../README.md) · [📓 Notebooks](../../../notebooks/README.md) · [🧰 Tools](../../../tools/README.md) · [📊 Data](../../../data/README.md)
 
 
 ### Slides

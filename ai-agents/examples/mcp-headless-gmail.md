@@ -1,4 +1,6 @@
-## Bary's MCP Headless Gmail Server
+# 📧 Bary's MCP Headless Gmail Server
+
+[Home](../../README.md) · [🤖 AI Agents](../README.md) · [📓 Notebooks](../../notebooks/README.md) · [🧰 Tools](../../tools/README.md)
 
 A specific example of an MCP (Model Context Protocol) server is Bary Huang's `mcp-headless-gmail`. This server allows AI agents to interact with Gmail for tasks like reading and sending emails without requiring local credential or token setup directly on the machine running the agent.
 

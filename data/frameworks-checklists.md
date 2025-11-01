@@ -1,4 +1,6 @@
-# Framework(s) / checklist(s)
+# 📋 Framework(s) / checklist(s)
+
+[Home](../README.md) · [📓 Notebooks](../notebooks/README.md) · [🧰 Tools](../tools/README.md) · [📚 Data](../data/README.md)
 
 - [Data Mining: Practical ML Tools and Techniques by Witten, Frank and Mark 3rd edition](https://www.wi.hs-wismar.de/~cleve/vorl/projects/dm/ss13/HierarClustern/Literatur/WittenFrank-DM-3rd.pdf)
 - See [Courses](../courses.md#courses)
