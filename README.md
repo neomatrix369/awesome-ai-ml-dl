@@ -193,7 +193,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 ### Reference Materials
 - [Cheatsheets](./reference/cheatsheets.md#cheatsheets)
 - [Articles, papers, code, data, courses](./reference/articles-papers-code-data-courses.md#articles-papers-code-data-courses)
-- [Research Papers](./papers/google-x/README.md) - Curated Google & X-Team research papers
+- [Research Papers](./papers/README.md) - Curated research papers and academic resources
 - [Presentations](./presentations/README.md) - Slide decks and talk links
 - [Models](README-details.md#models)
 - [Notebooks](./notebooks/README.md#notebooks)

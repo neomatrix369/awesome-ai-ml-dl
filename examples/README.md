@@ -25,20 +25,20 @@ Practical code examples and implementations demonstrating AI/ML/DL concepts, fra
 
 ### Data & Infrastructure
 
-- **[Data Examples](./data/)** - Data processing, databases, and feature engineering examples
+- **[Data Examples](./data/README.md)** - Data processing, databases, and feature engineering examples
   - Graph databases (Grakn)
   - Dataiku DSS
   - Feature importance filtering
 
 ### Cloud & Deployment
 
-- **[Cloud DevOps Infra](./cloud-devops-infra/)** - Cloud deployment examples
+- **[Cloud DevOps Infra](./cloud-devops-infra/README.md)** - Cloud deployment examples
   - Valohai (MLPMnist, NLP-CUDA)
   - Weights & Biases integration
 
 ### Python
 
-- **[Python Examples](./python/)** - Python framework examples
+- **[Python Examples](./python/README.md)** - Python framework examples
   - Streamlit applications
 
 ## Related
