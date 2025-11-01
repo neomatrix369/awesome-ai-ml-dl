@@ -20,6 +20,7 @@ NLP using DL4J (cuda): [![NLP using DL4J (cuda)](https://img.shields.io/docker/p
 ## Table of Contents
 
 - [General](#general)
+- [Named Entity Recognition (NER)](./ner.md)
 - [Datasets](#datasets)
 - [Java/JVM](#javajvm)
 - [Courses, Tutorial, Learning resources](#courses-tutorial-learning-resources)

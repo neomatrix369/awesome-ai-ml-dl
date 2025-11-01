@@ -92,4 +92,4 @@ Side-by-side comparison of MCP server setup across Claude Desktop, Claude Code, 
 
 ---
 
-#ai-coding-tools-blog-posts · [← Back home](../../README.md)
+[↑ Back to top](#ai-coding-tools-blog-posts) · [← Back home](../../README.md)

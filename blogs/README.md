@@ -24,6 +24,10 @@ Curated blog posts, articles, and tutorials covering AI/ML/DL tools, techniques,
   - Framework-specific guides
   - Best practices and workflows
 
+### Specialized Guides
+
+- **[Keras Bag of Words - Expanded Version](./keras-bag-of-words-expanded-version/README.md)** - Comprehensive guide to Keras Bag of Words implementation
+
 ### Ethics & Governance
 
 - **[Ethics & Governance](./ethics-governance/README.md)** - Articles on AI ethics, responsible AI, and governance

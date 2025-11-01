@@ -26,6 +26,7 @@
 - [Feature engineering](#feature-engineering)
 - [Feature Selection](#feature-selection)
 - [Hyperparameter tuning](#hyperparameter-tuning)
+- [Model creation](#model-creation)
 - [Post model-creation analysis, ML interpretation/explainability](#post-model-creation-analysis-ml-interpretationexplainability)
 - [Model deployment](#model-deployment)
 - [Statistics](#statistics)
@@ -153,6 +154,9 @@ See [Feature Selection](./feature-selection.md)
 - [Hyperparameter optimization for Neural Networks](http://neupy.com/2016/12/17/hyperparameter_optimization_for_neural_networks.html#id24)
 - [Tune Hyperparameters Easily with W&B Sweeps](https://www.youtube.com/watch?v=9zrmUIlScdY)
 
+
+## Model creation
+- [Model Creation](./model-creation.md) - Resources on model creation, ensemble methods, and model evaluation
 
 ## Post model-creation analysis, ML interpretation/explainability
 - [Pruning: DL models](https://www.subhadityamukherjee.me/2020/09/25/Pruning.html)

@@ -31,4 +31,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-#presentations · [← Back home](../README.md)
+[↑ Back to top](#presentations) · [← Back home](../README.md)
