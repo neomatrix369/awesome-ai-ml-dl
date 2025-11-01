@@ -25,4 +25,4 @@ Navigation: [Home](../../README.md) · [📓 Notebooks](../../notebooks/README.m
 ## Related
 - ✨ GenAI · 🏗️ LLMs · 🧠 NLP · ☁️ Infrastructure
 
-#🖼️-computer-vision-cv · [← Back to domains](../README.md) · [← Back home](../../README.md)
+#🖼️-computer-vision-cv · [↑ Back to top](#computer-vision-cv) · [← Back to domains](../README.md) · [← Back home](../../README.md)

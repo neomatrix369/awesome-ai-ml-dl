@@ -10,6 +10,26 @@ A hub for notebooks and kernels across topics: examples, Kaggle links, RAPIDS, D
 
 ![banner](../assets/banners/notebooks-hero.png)
 
+## Table of Contents
+
+- [At a glance](#at-a-glance)
+- [Notebook Applications and Extensions](#notebook-applications-and-extensions)
+- [Kaggle notebooks/kernels](#kaggle-notebookskernels)
+- [RAPIDS](#rapids)
+- [Deep Learning](#deep-learning)
+- [Data and Data Science](#data-and-data-science)
+- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
+- [Neural Networks](#neural-networks)
+- [Reinforcement Learning](#reinforcement-learning)
+- [Time-series](#time-series)
+- [GANs](#gans)
+- [Related](#related-1)
+- [Misc](#misc)
+- [Contributing](#contributing)
+- [NLP](#nlp)
+
+[↑ Back to top](#notebooks)
+
 ## At a glance
 - **Kaggle and Colab**: curated kernels and examples
 - **Topic hubs**: Data, NLP, RL, GANs, Time-series
@@ -164,7 +184,7 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-#notebooks · [← Back home](../README.md)
+#notebooks · [↑ Back to top](#notebooks) · [← Back home](../README.md)
 
 ## NLP
 

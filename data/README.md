@@ -8,6 +8,45 @@
 
 ![banner](../assets/banners/data-hero.png)
 
+## Table of Contents
+
+- [At a glance](#at-a-glance)
+- [Ethics / altruistic motives](#ethics--altruistic-motives)
+- [Data Science](#data-science)
+- [Datasets and sources of raw data](#datasets-and-sources-of-raw-data)
+- [Data Collection](#data-collection)
+- [Hypothesis](#hypothesis)
+- [Data Exploratory Analysis](#data-exploratory-analysis)
+- [Data preparation](#data-preparation)
+  - [Data Cleaning](#data-cleaning)
+  - [Data preprocessing / Data Wrangling](#data-preprocessing--data-wrangling)
+- [Data Generation](#data-generation)
+- [Feature Extraction](#feature-extraction)
+- [Feature Importance](#feature-importance)
+- [Feature engineering](#feature-engineering)
+- [Feature Selection](#feature-selection)
+- [Hyperparameter tuning](#hyperparameter-tuning)
+- [Post model-creation analysis, ML interpretation/explainability](#post-model-creation-analysis-ml-interpretationexplainability)
+- [Model deployment](#model-deployment)
+- [Statistics](#statistics)
+- [Visualisation](#visualisation)
+- [Common mistakes when training models (data related)](#common-mistakes-when-training-models-data-related)
+- [Presentations](#presentations)
+- [Cheatsheets](#cheatsheets)
+- [Courses / books](#courses--books)
+- [Best practices / rules / an unordered list of high level or low level guidelines](#best-practices--rules--an-unordered-list-of-high-level-or-low-level-guidelines)
+- [Framework(s) / checklist(s)](#frameworks--checklists)
+- [Notebooks](#notebooks)
+- [Programs and Tools](#programs-and-tools)
+- [Databases](#databases)
+- [References](#references)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [MLOps & Deployment](#mlops--deployment)
+- [NLP](#nlp)
+
+[↑ Back to top](#data)
+
 ## At a glance
 - **Workflows**: collection, EDA, prep, generation, features
 - **Guides**: statistics, visualization, best practices
@@ -22,40 +61,6 @@
 Page dedicated to data exploratory analysis, preparation, cleaning, pre-processing / wrangling, generation, feature engineering and other related topics
 
 The question to ask ourselves: _Do we know our data...?_
-
----
-
-- [Ethics / altruistic motives](./README.md#ethics--altruistic-motives)
-- [Data Science](./README.md#data-science)
-- [Datasets and sources of raw data](./README.md#datasets-and-sources-of-raw-data)
-- [Data Collection](./README.md#data-collection)
-- [Hypothesis](./README.md#hypothesis)
-- [Data Exploratory Analysis](./README.md#data-exploratory-analysis)
-- [Data preparation](./README.md#data-preparation)
-    + [Data Cleaning](./data-preparation.md#data-cleaning)
-    + [Data preprocessing / Data Wrangling](./data-preparation.md#data-preprocessing--data-wrangling)
-- [Data Generation](./README.md#data-generation)
-- [Feature Extraction](./README.md#feature-extraction)
-- [Feature Importance](./README.md#feature-importance)
-- [Feature Engineering](./README.md#feature-engineering)
-- [Feature Selection](./README.md#feature-selection)
-- #hyperparameter-tuning
-- [Post model-creation analysis, ML interpretation/explainability](./README.md#post-model-creation-analysis-ml-interpretationexplainability)
-- [Model deployment](./README.md#model-deployment)
-- [Statistics](./README.md#statistics)
-- [Visualisation](./README.md#visualisation)
-- [Common mistakes when training models (data related)](./README.md#common-mistakes-when-training-models-data-related)
-- [Presentations](./README.md#presentations)
-- [Cheatsheets](./README.md#cheatsheets)
-- [Courses / books](./README.md#courses--books)
-- [Best practices / rules / an unordered list of high level or low level guidelines](./README.md#best-practices--rules--an-unordered-list-of-high-level-or-low-level-guidelines)
-- [Framework(s) / checklist(s)](./README.md#frameworks--checklists)
-- [Notebooks](../notebooks/README.md#notebooks)
-- [Programs and Tools](./README.md#programs-and-tools)
-- [Databases](./README.md#databases)
-- [References](./README.md#references)
-- [Credits](./README.md#credits)
-- [Contributing](./README.md#contributing)
 
 ---
 
@@ -241,7 +246,7 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-#data · [← Back home](../README.md)
+#data · [↑ Back to top](#data) · [← Back home](../README.md)
 
 ## MLOps & Deployment
 

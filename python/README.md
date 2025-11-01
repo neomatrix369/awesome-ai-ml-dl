@@ -6,12 +6,38 @@ A comprehensive guide to Python programming for artificial intelligence, machine
 
 ## Table of Contents
 
-- #learning-python
-- #performance-optimization
-- #libraries-frameworks
-- #best-practices
-- #testing
-- #tools-resources
+- [Learning Python](#learning-python)
+  - [Basics & Fundamentals](#basics--fundamentals)
+  - [Online Python REPLs & Editors](#online-python-repls--editors)
+  - [Intermediate & Advanced](#intermediate--advanced)
+- [Performance & Optimization](#performance--optimization)
+  - [Profiling & Analysis](#profiling--analysis)
+  - [Speed Optimization](#speed-optimization)
+  - [Vectorization](#vectorization)
+  - [Parallel Processing](#parallel-processing)
+- [Libraries & Frameworks](#libraries--frameworks)
+  - [Core Libraries](#core-libraries)
+  - [Web Frameworks](#web-frameworks)
+  - [ML/AI Libraries](#mlai-libraries)
+- [Best Practices](#best-practices)
+  - [Code Quality](#code-quality)
+  - [Static Analysis](#static-analysis)
+  - [Project Templates](#project-templates)
+- [Testing](#testing)
+  - [Testing Frameworks](#testing-frameworks)
+  - [Testing Resources](#testing-resources)
+- [Tools & Resources](#tools--resources)
+  - [Cheatsheets](#cheatsheets)
+  - [Development Tools](#development-tools)
+  - [Version Control](#version-control)
+- [Contributing](#contributing)
+- [MLOps & Deployment](#mlops--deployment)
+- [Data](#data)
+- [Tools & Frameworks](#tools--frameworks)
+- [Generative AI](#generative-ai)
+- [Notebooks](#notebooks)
+
+[↑ Back to top](#python-for-aimldl)
 
 ## Learning Python
 
@@ -133,7 +159,7 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 
 ---
 
-[Back to main repository](../README.md) | [AI Coding Tools](../blogs/ai-coding-tools/README.md)
+[↑ Back to top](#python-for-aimldl) · [← Back to main repository](../README.md) · [🧰 AI Coding Tools](../blogs/ai-coding-tools/README.md)
 
 ## MLOps & Deployment
 
