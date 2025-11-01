@@ -12,6 +12,24 @@
 
 This document outlines key concepts and components related to building AI agents.
 
+## Table of Contents
+
+- [APIs](#apis)
+- [Context and Instructions](#context-and-instructions)
+- [Tool Calls](#tool-calls)
+- [MCP (Model-View-Controller-Presenter)](#mcp-model-view-controller-presenter)
+- [Pydantic](#pydantic)
+- [MCP Integration with SSE and Stdio](#mcp-integration-with-sse-and-stdio)
+- [Anonymous Agents and Feedback Loops](#anonymous-agents-and-feedback-loops)
+- [Agentic AI](#agentic-ai)
+- [Tools and Frameworks for Building AI Agents](#tools-and-frameworks-for-building-ai-agents)
+- [Examples](#examples)
+- [Related](#related-1)
+- [Additional Resources](#additional-resources)
+- [Contributing](#contributing)
+
+[↑ Back to top](#ai-agents)
+
 ## APIs
 
 Application Programming Interfaces (APIs) are crucial for AI agents to interact with external services and data sources. Some popular APIs and libraries used in AI agent development include:
@@ -109,4 +127,4 @@ Please have a look at the [CONTRIBUTING](../CONTRIBUTING.md) guidelines, also ha
 
 ---
 
-#ai-agents-🤖 · [← Back home](../README.md)
+#ai-agents-🤖 · [↑ Back to top](#ai-agents) · [← Back home](../README.md)
