@@ -19,7 +19,10 @@
 
 ---
 
-  ## General
+  ## 🌐 General
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
    - [Python Toolkit Used for Two Kaggle Top 10% Leaderboard Positions](https://www.reddit.com/r/deeplearning/comments/agx7qr/my_python_toolkit_that_i_used_for_two_kaggle_top/)
    - [Jeff Heaton's Kaggle boosting work](https://github.com/jeffheaton/jh-kaggle-util)
@@ -226,6 +229,8 @@
   - See [Algorithms](../courses.md#algorithms) under [Courses](../courses.md#courses)
   - [What is Data Science: The Definitive Guide](https://www.scaler.com/topics/what-is-data-science/)
 
+</details>
+
   ## Machine Learning
 
   See [Machine Learning](./julia-python-and-r/machine-learning.md)
@@ -249,11 +254,11 @@
 
   - Building Recommendation Engines in Python: [Github](https://github.com/maxhumber/BRE) | [Slides](https://on24static.akamaized.net/event/24/06/92/4/rt/1/documents/resourceList1603467800300/presentation.pdf) | [KataCoda: LightFM](https://learning.oreilly.com/scenarios/scikit-learn-build-a/9781492087755/) | [Katacoda - Build an Implicit Feedback Recommendation Engine](https://learning.oreilly.com/scenarios/spotlight-build-an/9781492087748/) | [Katacoda - Scikit Learn](https://learning.oreilly.com/scenarios/lightfm-build-an/9781492087731/)
 
-## Programming in Python
+## 🐍 Programming in Python
 
 See [Programming in Python](../Programming-in-Python.md)
 
-## Programming in R
+## 📊 Programming in R
 
 - [Debugging in R](https://www.geeksforgeeks.org/debugging-in-r-programming/)
 - [ANOVA Test in R Programming](https://www.geeksforgeeks.org/anova-test-in-r-programming/)
@@ -275,11 +280,11 @@ See [Programming in Python](../Programming-in-Python.md)
 + [Feature Engineering in R Programming](https://www.geeksforgeeks.org/feature-engineering-in-r-programming/)
 
 
-## Visualisation
+## 📈 Visualisation
 
 See [Visualisation](./visualisation.md#visualisation)
 
-## More...
+## ➕ More...
 
   - Julia: See [this link](https://github.com/josephmisiti/awesome-machine-learning#julia) for more Julia related ML links
   - Python: See [this link](https://github.com/josephmisiti/awesome-machine-learning#python) for more Python related ML links

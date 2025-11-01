@@ -32,7 +32,10 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
 ---
 
-## Business / General / Semi-technical
+## 💼 Business / General / Semi-technical
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
   - [Extract business value from DS](https://www.forbes.com/sites/oracle/2018/12/05/how-to-extract-business-value-from-data-science-its-all-about-the-teamwork/#6ad2f23a651c) ([Tweet](https://twitter.com/java/status/1070610044926930944))
   - [Why Java and the JVM Will Dominate the Future of Machine Learning, AI, and Big Data](https://www.youtube.com/watch?v=Ytja2JuVMlw&feature=youtu.be) ([Tweet](https://twitter.com/DeepNetts/status/1060684337962762240))
@@ -55,7 +58,9 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [Oracle AI blog posts](https://blogs.oracle.com/ai/)
   - [Java AI libraries with Gluon Mobile](https://gluonhq.com/java-ai-libraries-with-gluon-mobile/)
 
-## Classifier / decision trees
+</details>
+
+## 🌳 Classifier / decision trees
 
   - [Email Spam Detector java Application with ApacheSpark](http://ramok.tech/2017/09/26/email-spam-classifier-java-application-with-spark/) ([Tweet](https://twitter.com/Klevis_Ramo/status/913067204094103552))
   - [Guide to Artificial Intelligence: Automating Decision-Making](https://dzone.com/guides/artificial-intelligence-automating-decision-making) ([Tweet](https://twitter.com/java/status/1029592519967830016))
@@ -76,11 +81,11 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
   - [GraalVM + Machine Learning](https://www.youtube.com/watch?v=6Q2TP-QO4SU) ([Tweet](https://twitter.com/DevoxxUA/status/1074680378357616640))
   - [Deploying Bespoke AI using fnproj - KADlytics by Miminal](https://blogs.oracle.com/startup/deploying-bespoke-ai-using-fn-project-kadlytics-by-miminal) ([Tweet]( https://twitter.com/java/status/1034474482751221761))
 
-## Natural Language Processing (NLP)
+## 🧠 Natural Language Processing (NLP)
 
   - See [Java/JVM](../natural-language-processing/java-jvm.md#javajvm) in [Natural Language Processing (NLP)](../natural-language-processing/README.md#natural-language-processing-nlp)
 
-## Neural Networks
+## 🧠 Neural Networks
 
   - [Introduction to Neural Network Architectures](https://towardsdatascience.com/neural-network-architectures-156e5bad51ba) ([Tweet](https://twitter.com/java/status/953492326877356032))
   - [Neural Networks explained by MIT](https://www.csail.mit.edu/news/explained-neural-networks) ([Tweet](https://twitter.com/java/status/929216367361798144))
@@ -104,7 +109,7 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 
   - [Tutorial on Collaborative Filtering (CF) in Java – a machine learning technique used by recommendation systems](https://www.baeldung.com/java-collaborative-filtering-recommendations) ([Tweet](https://twitter.com/java/status/985150431549632513))
 
-## Data Science
+## 📊 Data Science
 
 - [The Data Science Process](https://github.com/virgili0/Virgilio/blob/master/serving/purgatorio/fundamentals/the-data-science-process/the-data-science-process.md)
    - Also see [Data Science](../data/README.md#data-science)
@@ -112,7 +117,10 @@ MLPMNist using DL4J: [![MLPMNist using DL4J](https://img.shields.io/docker/pulls
 - [Virgilio - Your new Mentor for Data Science E-Learning](https://github.com/clone95/Virgilio)
 - [Introduction to Data Science](https://www.youtube.com/watch?v=HEN6FBRuElE) | [Other Data Science Stuff related videos](https://www.youtube.com/channel/UCTe3bYxbzhstIRuIuGQz7UQ)
 
-## Machine Learning
+## 🤖 Machine Learning
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
 Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learning-frameworks) for a consolidated overview.
 
@@ -160,7 +168,12 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
 
   - [Java implementation of Reinforcement Learning algorithms as described in the book "Reinforcement Learning: An Introduction" by Sutton](https://github.com/chen0040/java-reinforcement-learning)
 
-## Tools & Libraries, Other Resources
+</details>
+
+## 🛠️ Tools & Libraries, Other Resources
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
   - [PyTorch for Java](pytorch.md#java)
   - [Best AI tools and libraries](https://skymind.ai/wiki/automl-automated-machine-learning-ai) ([Tweet](https://twitter.com/java/status/1069459966740836352))
@@ -176,6 +189,8 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
   - [Tensorflow SIG](https://gitter.im/tensorflow/sig-io)
   - [Apache MXNet is a deep learning framework designed for both efficiency and flexibility. It allows you to mix symbolic and imperative programming to maximize efficiency and productivity.](https://www.linkedin.com/posts/philipvollet_deeplearning-apache-opensource-activity-6695531619316486144-2K9V)
   - [Tornedo VM](https://github.com/beehive-lab/TornadoVM)
+
+</details>
 
 ## Java Specification Requests
 
@@ -217,7 +232,7 @@ Also see [Tools > Machine Learning Frameworks](../tools/README.md#machine-learni
   - [Scala related ML links](https://github.com/josephmisiti/awesome-machine-learning#scala)
   - [Scala resources by Chris Albon](https://chrisalbon.com/#scala)
 
-## Visualisation
+## 📈 Visualisation
 
 See [Visualisation](./visualisation.md#visualisation)
 

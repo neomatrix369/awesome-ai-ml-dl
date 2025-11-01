@@ -80,6 +80,21 @@ BANNERS = {
         "gradient": ((255, 204, 0), (255, 159, 28)),  # warm yellow range
         "pattern_alpha": 22,
     },
+    "guides-hero.png": {
+        "title": "Guides",
+        "gradient": ((156, 39, 176), (233, 30, 99)),  # purple → pink
+        "pattern_alpha": 20,
+    },
+    "courses-hero.png": {
+        "title": "Courses",
+        "gradient": ((33, 150, 243), (3, 169, 244)),  # blue range
+        "pattern_alpha": 18,
+    },
+    "things-to-know-hero.png": {
+        "title": "Things to Know",
+        "gradient": ((76, 175, 80), (129, 199, 132)),  # green range
+        "pattern_alpha": 20,
+    },
 }
 
 
@@ -128,7 +143,7 @@ def draw_subtle_pattern(img: Image.Image, alpha: int = 18) -> None:
     img.alpha_composite(overlay)
 
 
-def draw_banner(filename: str, title: str) -> None:
+def draw_banner(filename: str, title: str, style: dict) -> None:
     # Create RGBA for compositing effects
     img = Image.new("RGBA", SIZE, (0, 0, 0, 0))
     # Background gradient
@@ -181,8 +196,7 @@ def draw_banner(filename: str, title: str) -> None:
 def main() -> None:
     count = 0
     for filename, style in BANNERS.items():
-        globals()["style"] = style  # simple pass to draw_banner
-        draw_banner(filename, style["title"])
+        draw_banner(filename, style["title"], style)
         count += 1
     print(f"Generated {count} banners in {OUTPUT_DIR}")
 

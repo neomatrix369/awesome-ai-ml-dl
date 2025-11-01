@@ -2,6 +2,8 @@
 
 [Home](./README.md) · [📚 Data](./data/README.md) · [🧠 NLP](./natural-language-processing/README.md) · [🧰 Tools](./tools/README.md) · [📓 Notebooks](./notebooks/README.md)
 
+![banner](./assets/banners/courses-hero.png)
+
 A curated list of courses for learning AI, ML, DL, and related topics.
 
 ## Table of Contents
@@ -34,25 +36,28 @@ A curated list of courses for learning AI, ML, DL, and related topics.
 
 [↑ Back to top](#courses)
 
-## Algorithms
+## 🔀 Algorithms
 
 - [Algorithms at Coursera by Wayne and Sedgewick](https://www.coursera.org/course/algs4partI) | [2](https://www.coursera.org/browse/computer-science/algorithms)
 
-## Cambridge Spark
+## 🎓 Cambridge Spark
 
 - For Individuals
 - [Onsite courses](https://cambridgespark.com/onsite-courses/)
 - [Graduate Scheme](https://cambridgespark.com/graduates/)
 
-## Datacamp
+## 📊 Datacamp
 
 - [Recommended Courses by Datacamp](https://www.datacamp.com/courses/)
 
-## Dataiku
+## 🔧 Dataiku
 
 - [Dataiku Teachable](http://dataiku.teachable.com/courses)
 
-## Data Science
+## 📊 Data Science
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
 - [Data Science Primer](https://elitedatascience.com/primer)
 - [Coursera course: Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning?recoOrder=20&utm_medium=email&utm_source=recommendations&utm_campaign=u0faoCsqEemEkbug8nMVQQ)
@@ -79,7 +84,12 @@ A curated list of courses for learning AI, ML, DL, and related topics.
 - [ChaiEDA Sessions: 2x Weekly (Silent) EDA Practise Group](https://www.kaggle.com/getting-started/170570)
 - [Data Science Course by Scaler](https://www.scaler.com/topics/course/python-for-data-science/)
 
-## Computer Vision
+</details>
+
+## 🖼️ Computer Vision
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
 - [Introduction to Computer Vision, Udacity, GeorgiaTech](https://www.udacity.com/course/introduction-to-computer-vision--ud810) (free, paid for certification)
   - [Stanford Computer Vision Lab : Teaching](http://vision.stanford.edu/teaching.html) - Contains publications other than courses (free)
@@ -91,7 +101,9 @@ A curated list of courses for learning AI, ML, DL, and related topics.
 - [Image and Video Processing course by Duke University, Coursera](https://www.coursera.org/learn/image-processing) (free, paid for certification)
 
     - [Building and Debugging CNNs](https://wb-ml.slack.com/files/UN2SL6G7Q/FNE9193U0/bloomberg_class_2.pdf)
-## Fast.ai
+
+</details>
+## ⚡ Fast.ai
 
 - [Practical Deep Learning for Coders, v3](https://course.fast.ai/)
 - [Part 2: Deep Learning from the Foundations](https://course.fast.ai/part2)
@@ -99,7 +111,7 @@ A curated list of courses for learning AI, ML, DL, and related topics.
 - [Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra/blob/master/README.md)
 - [Fastbook](https://forums.fast.ai/t/mlt-fastbook-reading-discussion-sessions-saturdays-4-6-pm-ist/69421/16) | [GitHub](https://github.com/fastai/fastbook)
 
-## Intel
+## 💻 Intel
 
 - [Intel® AI Courses](https://software.intel.com/en-us/ai/courses)
 
@@ -107,7 +119,10 @@ A curated list of courses for learning AI, ML, DL, and related topics.
 
 - [Intel AI Developer Program - Deep Learning Inference With Intel® FPGAs](https://software.intel.com/en-us/ai/courses/deep-learning-inference-fpga)
 
-## Machine Learning
+## 🤖 Machine Learning
+
+<details>
+<summary><strong>Click to expand</strong></summary>
 
 - ML course by [Weights & Biases | WandB](https://wandb.com)
     - [Code from the class](https://github.com/lukas/ml-class)
@@ -165,21 +180,23 @@ A curated list of courses for learning AI, ML, DL, and related topics.
 
 - Reinforcement Learning Crash Course by Central London Data Science meetup - [GitHub repo](https://github.com/central-ldn-data-sci/CrashCourseRL) | [Slides](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/Crash%20Course%20in%20Reinforcement%20Learning.pdf) | Notebooks: [1](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/CrashCourseRL.ipynb) | [2](https://github.com/central-ldn-data-sci/CrashCourseRL/blob/master/crash_course_reinforcement_learning.ipynb) | [3](https://www.kaggle.com/blairyoung/crash-course-in-reinforcement-learning)
 
-## Natural Language Processing (NLP)
+</details>
+
+## 🧠 Natural Language Processing (NLP)
 
 - [How to Get Started with Deep Learning for Natural Language Processing (7-Day Mini-Course)](https://machinelearningmastery.com/crash-course-deep-learning-natural-language-processing/)
 - [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing)
 
 
-## Python: Best practices
+## 🐍 Python: Best practices
 
 - [Pluralsight: Python Best Practices for Code Quality](https://www.pluralsight.com/courses/python-best-practices-code-quality)
 
-## Python: Testing
+## 🧪 Python: Testing
 
 - [Udemy Course: Automated Software Testing with Python](https://www.udemy.com/automated-software-testing-with-python/)
 
-## Statistics
+## 📈 Statistics
 
 - Statistics courses at [Coursera](https://www.coursera.org/courses?query=statistics&)
 - [Udemy](https://www.udemy.com/courses/search/?src=ukw&q=statistics)
@@ -188,7 +205,7 @@ A curated list of courses for learning AI, ML, DL, and related topics.
 - [Stanford University](https://online.stanford.edu/courses?keywords=statistics)
 - [Statistical Inference [course]](https://www.coursera.org/learn/statistical-inference)
 
-## Stanford courses
+## 🎓 Stanford courses
 Deep Learning
 
 [http://web.stanford.edu/class/cs230/](http://web.stanford.edu/class/cs230/)
@@ -267,7 +284,7 @@ CS 221: Artificial Intelligence: Principles and Techniques
 
 [https://stanford-cs221.github.io/autumn2019/](https://stanford-cs221.github.io/autumn2019/)
 
-## Misc
+## 📦 Misc
 
 - [Check out 50 most popular massive open online courses](https://www.onlinecoursereport.com/the-50-most-popular-moocs-of-all-time/) ([Tweet](https://twitter.com/java/status/984844161969983489))
 - [Restart from basics, here's the learning path](https://www.linkedin.com/posts/nabihbawazir_restart-from-basics-heres-the-learning-activity-6615929791243747328-reH6)
@@ -282,7 +299,7 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 
 [↑ Back to top](#courses) · [← Back to main page](./README.md)
 
-## Data
+## 📊 Data
 
 - [DATAQUEST](https://www.dataquest.io/)
   - [Applied Data Analytics Bootcamp/](https://cambridgespark.com/applied-data-analytics-bootcamp/)
@@ -294,7 +311,7 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
 - [Featured Course: AI from the Data Center to the Edge – An Optimized Path using Intel® Architecture](https://software.seek.intel.com/DataCenter_to_Edge_REG)
 - [Course material by Students of AI (Imperial College, London)](https://github.com/Imperial-College-Data-Science-Society/)
 
-## Generative AI
+## ✨ Generative AI
 
   - [Generative Adversarial Networks (GANs) Specialization Coursera](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
 - [The Neural Aesthetic (Gene Kogan)](https://www.youtube.com/watch?v=Bh5zb-IssWQ&list=PL_78NoHMtmJqYCjuxhKNLkFbg14lWfcW-)
@@ -302,14 +319,14 @@ Please have a look at the [CONTRIBUTING](CONTRIBUTING.md) guidelines, also have 
   - [07 Conditional generative models](https://www.youtube.com/watch?v=ZiQNI_UwNbg)
   - [09 Music information retrieval, BIGGAN & GLOW](https://www.youtube.com/watch?v=kIvyex9HH0Y)
 
-## NLP
+## 🧠 NLP
 
 - [Code-First Introduction to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/)
     - [Session 12: word2vec - Programming with Text](https://www.youtube.com/watch?v=LSS_bos_TPI&list=PLRqwX-V7Uu6aQ0oh9nH8c6U1j9gCg-GdF)
   - [05 Visualization, deepdream, style & texture](https://www.youtube.com/watch?v=9Ql0xyXQLt8)
   - [10 Reinforcement Learning & Natural Language Processing](https://www.youtube.com/watch?v=Pf_0IT5OjiI)
 
-## Large Language Models (LLMs)
+## 🏗️ Large Language Models (LLMs)
 
     - [Setup Instructions](https://github.com/lukas/ml-class)
     - [Slides](https://storage.googleapis.com/wandb/Bloomberg%20Class%201.pdf)
