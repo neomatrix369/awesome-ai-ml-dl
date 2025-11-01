@@ -186,7 +186,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 ### Guides & Tutorials
 - [Guides](guides.md#guides)
 - [Things to Know](things-to-know.md) - Essential knowledge and best practices
-- [Tutorials](./blogs/tutorials/)
+- [Blogs & Articles](./blogs/README.md) - Articles, tutorials, and blog posts
+  - [AI Coding Tools](./blogs/ai-coding-tools/README.md) - Claude, MCP, Cursor setup guides
+  - [Tutorials](./blogs/tutorials/) - Step-by-step tutorials
 
 ### Reference Materials
 - [Cheatsheets](./reference/cheatsheets.md#cheatsheets)
