@@ -20,4 +20,7 @@
 - ✨ [Generative AI](./generative-ai/README.md)
 - 🚀 [MLOps & Deployment](./mlops-deployment/README.md)
 
+## Specialized Domains
+- 📚 [Keras Bag of Words - Expanded Version](./keras-bag-of-words-expanded-version/README.md) — Comprehensive Keras BoW implementation guide
+
 #domains · [↑ Back to top](#domains) · [← Back home](../README.md)

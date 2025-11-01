@@ -72,7 +72,7 @@ This section highlights specific open-source MCP server and client implementatio
 This list is not exhaustive but provides a good starting point for developers looking to build AI agents using MCP principles.
 The field is rapidly evolving, so it's recommended to also follow communities and publications in the AI space for the latest developments.
 
-#mcp-frameworks-tutorials-and-tools-for-ai-agent-development · [← Back home](../../README.md)
+[↑ Back to top](#mcp-frameworks-tutorials-and-tools-for-ai-agent-development) · [← Back home](../../README.md)
 
 ## AI Agents
 
