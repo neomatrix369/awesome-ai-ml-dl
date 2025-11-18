@@ -239,7 +239,7 @@ SEMAPHORE_LIMIT=10
 # From mcp_server/ directory
 docker compose up  # FalkorDB (default)
 
-# OR for Neo4j
+# OR for Neo4j (Recommended)
 docker compose -f docker/docker-compose-neo4j.yml up
 ```
 
