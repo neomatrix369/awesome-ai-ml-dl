@@ -239,8 +239,81 @@ SEMAPHORE_LIMIT=10
 # From mcp_server/ directory
 docker compose up  # FalkorDB (default)
 
-# OR for Neo4j
+# OR for Neo4j (Recommended)
 docker compose -f docker/docker-compose-neo4j.yml up
+```
+
+```bash
+ docker compose -f docker/docker-compose-neo4j.yml up
+[+] Running 3/3
+ ✔ Network docker_default           Created                                                                                                          0.0s
+ ✔ Container docker-neo4j-1         Created                                                                                                          0.1s
+ ✔ Container docker-graphiti-mcp-1  Created                                                                                                          0.1s
+Attaching to graphiti-mcp-1, neo4j-1
+neo4j-1  | Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+neo4j-1  | 2025-11-17 22:36:46.867+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+neo4j-1  | 2025-11-17 22:36:46.881+0000 INFO  Starting...
+neo4j-1  | 2025-11-17 22:36:47.453+0000 INFO  This instance is ServerId{e2d78b3e} (e2d78b3e-c510-4c0d-9c77-1010d4534156)
+neo4j-1  | 2025-11-17 22:36:48.095+0000 INFO  ======== Neo4j 5.26.0 ========
+neo4j-1  | 2025-11-17 22:36:49.375+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+neo4j-1  | 2025-11-17 22:36:49.435+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+neo4j-1  | 2025-11-17 22:36:49.817+0000 INFO  HTTP enabled on 0.0.0.0:7474.
+neo4j-1  | 2025-11-17 22:36:49.817+0000 INFO  Remote interface available at http://localhost:7474/
+neo4j-1  | 2025-11-17 22:36:49.819+0000 INFO  id: A628B434E49B1C7F12BD7A5AE439EDA5EE736E093A3DC3DFAE9197ED726D955A
+neo4j-1  | 2025-11-17 22:36:49.819+0000 INFO  name: system
+neo4j-1  | 2025-11-17 22:36:49.819+0000 INFO  creationDate: 2025-11-03T23:49:34.19Z
+neo4j-1  | 2025-11-17 22:36:49.820+0000 INFO  Started.
+graphiti-mcp-1  | Downloading pygments (1.2MiB)
+graphiti-mcp-1  | Downloading faker (1.9MiB)
+graphiti-mcp-1  |  Downloading pygments
+graphiti-mcp-1  |  Downloading faker
+graphiti-mcp-1  | Installed 11 packages in 64ms
+graphiti-mcp-1  | Bytecode compiled 3353 files in 379ms
+graphiti-mcp-1  | 2025-11-17 22:36:55 - graphiti_mcp_server - INFO - Using configuration:
+graphiti-mcp-1  | 2025-11-17 22:36:55 - graphiti_mcp_server - INFO -   - LLM: openai / gpt-5-mini
+graphiti-mcp-1  | 2025-11-17 22:36:55 - graphiti_mcp_server - INFO -   - Embedder: openai / text-embedding-3-small
+graphiti-mcp-1  | 2025-11-17 22:36:55 - graphiti_mcp_server - INFO -   - Database: neo4j
+graphiti-mcp-1  | 2025-11-17 22:36:55 - graphiti_mcp_server - INFO -   - Group ID: main
+graphiti-mcp-1  | 2025-11-17 22:36:55 - graphiti_mcp_server - INFO -   - Transport: http
+graphiti-mcp-1  | 2025-11-17 22:36:55 - graphiti_mcp_server - INFO -   - Graphiti Core: unknown
+graphiti-mcp-1  | 2025-11-17 22:36:55 - services.factories - INFO - Creating OpenAI client
+graphiti-mcp-1  | 2025-11-17 22:36:55 - services.factories - INFO - Creating OpenAI Embedder client
+graphiti-mcp-1  | 2025-11-17 22:36:56 - neo4j.notifications - INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX entity_uuid IF NOT EXISTS FOR (e:Entity) ON (e.uuid)` has no effect.} {description: `RANGE INDEX entity_uuid FOR (e:Entity) ON (e.uuid)` already exists.} {position: None} for query: 'CREATE INDEX entity_uuid IF NOT EXISTS FOR (n:Entity) ON (n.uuid)'
+graphiti-mcp-1  | 2025-11-17 22:36:56 - neo4j.notifications - INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE RANGE INDEX episode_group_id IF NOT EXISTS FOR (e:Episodic) ON (e.group_id)` has no effect.} {description: `RANGE INDEX episode_group_id FOR (e:Episodic) ON (e.group_id)` already exists.} {position: None} for query: 'CREATE INDEX episode_group_id IF NOT EXISTS FOR (n:Episodic) ON (n.group_id)'
+.
+.
+.
+<---snipped--->
+.
+.
+.
+graphiti-mcp-1  | 2025-11-17 22:36:56 - neo4j.notifications - INFO - Received notification from DBMS server: {severity: INFORMATION} {code: Neo.ClientNotification.Schema.IndexOrConstraintAlreadyExists} {category: SCHEMA} {title: `CREATE FULLTEXT INDEX community_name IF NOT EXISTS FOR (e:Community) ON EACH [e.name, e.group_id]` has no effect.} {description: `FULLTEXT INDEX community_name FOR (e:Community) ON EACH [e.name, e.group_id]` already exists.} {position: None} for query: 'CREATE FULLTEXT INDEX community_name IF NOT EXISTS\n        FOR (n:Community) ON EACH [n.name, n.group_id]'
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - Successfully initialized Graphiti client
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - Using LLM provider: openai / gpt-5-mini
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - Using Embedder provider: openai
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - Using custom entity types: Preference, Requirement, Procedure, Location, Event, Organization, Document, Topic, Object
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - Using database: neo4j
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - Using group_id: main
+graphiti-mcp-1  | 2025-11-17 22:36:56 - services.queue_service - INFO - Queue service initialized with graphiti client
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - Starting MCP server with transport: http
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - Running MCP server with streamable HTTP transport on 0.0.0.0:8000
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - ============================================================
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - MCP Server Access Information:
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO -   Base URL: http://localhost:8000/
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO -   MCP Endpoint: http://localhost:8000/mcp/
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO -   Transport: HTTP (streamable)
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - ============================================================
+graphiti-mcp-1  | 2025-11-17 22:36:56 - graphiti_mcp_server - INFO - For MCP clients, connect to the /mcp/ endpoint above
+graphiti-mcp-1  | INFO:     127.0.0.1:46478 - "GET /health HTTP/1.1" 200 OK
+graphiti-mcp-1  | INFO:     127.0.0.1:35128 - "GET /health HTTP/1.1" 200 OK
+graphiti-mcp-1  | INFO:     127.0.0.1:50026 - "GET /health HTTP/1.1" 200 OK
+.
+.
+.
+<---snipped--->
+.
+.
+.
 ```
 
 **Config for MCP Client**:
