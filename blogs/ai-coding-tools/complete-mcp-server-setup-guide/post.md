@@ -29,11 +29,11 @@ This guide fixes that. One comprehensive walkthrough for all three tools.
 
 Before we dive into setup, understand what you're installing:
 
-| Tool | Best For | Interface | Config Location |
-|------|----------|-----------|-----------------|
-| **Claude Desktop** | GUI workflows, exploring projects | Desktop app | `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac) |
-| **Claude Code** | Terminal workflows, CI/CD, scripting | CLI | `~/.claude.json` |
-| **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `~/.cursor/mcp.json` (global settings) |
+| Tool | Best For | Interface | Config Location (macOS) | Config Location (Windows) | Config Location (Linux) |
+|------|----------|-----------|------------------------|---------------------------|------------------------|
+| **Claude Desktop** | GUI workflows, exploring projects | Desktop app | `~/Library/Application Support/Claude/claude_desktop_config.json` | `%APPDATA%\Claude\claude_desktop_config.json` | `~/.config/Claude/claude_desktop_config.json` |
+| **Claude Code** | Terminal workflows, CI/CD, scripting | CLI | `~/.claude.json` | `%USERPROFILE%\.claude.json` | `~/.claude.json` |
+| **Cursor IDE** | Full IDE experience, VS Code users | Desktop IDE | `~/.cursor/mcp.json` | `%USERPROFILE%\.cursor\mcp.json` | `~/.cursor/mcp.json` |
 
 **Architecture**
 
@@ -220,6 +220,11 @@ Each guide is comprehensive and includes installation, configuration, verificati
 
 **After setting up Option 2 (Shared Memory):**
 
+### Pin memory MCP server, move memory to single source
+1. Ask each of the AI tools to "Remember to always use 'xyz' memory MCP server to read and write memories from and into"
+2. Check if it remembers which memory server to always read from and write to?
+3. (optional) if memories is/are in one or more sources, ask the AI tools to read all memories from the source MCP servers (by their names) and write/move them to the target memory MCP server, permanently
+Advanced MCP Servers
 ### Test Memory Across Tools
 
 1. **Store info in one tool**: In Claude Desktop, ask "Remember my project is AcmeApp with React"

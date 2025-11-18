@@ -4,11 +4,9 @@
 
 ![Claude Desktop banner](https://imgs.search.brave.com/HnOLHlZIE1DrZyaFFXeaVgON7AY7sCx5Md1tF10t62E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90ZWNo/Y3J1bmNoLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNC8x/MC91bm5hbWVkLTcu/cG5nP3c9Njgw)
 
-<img src="https://imgs.search.brave.com/HnOLHlZIE1DrZyaFFXeaVgON7AY7sCx5Md1tF10t62E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90ZWNo/Y3J1bmNoLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyNC8x/MC91bm5hbWVkLTcu/cG5nP3c9Njgw" alt="Claude Desktop banner" width="500" height="100">
-
 **[← Back to Main Guide](./post.md)** | **[Next: Claude Code Setup →](./claude-code-setup.md)**
 
-#claude-desktop---complete-mcp-server-setup · [← Back home](../../../README.md) · [← Back to blogs](../README.md)
+[← Back home](../../../README.md) · [← Back to blogs](../README.md)
 
 ## Overview
 
@@ -21,15 +19,15 @@ Claude Desktop is Anthropic's official desktop application for Claude, providing
 ## Installation
 
 **macOS:**
-- Download from [claude.ai](https://claude.ai)
+- Download from [claude.com](https://claude.com/download)
 - Or install via Homebrew: `brew install --cask claude`
 
 **Windows:**
-- Download from [claude.ai](https://claude.ai)
+- Download from [claude.com](https://claude.com/download)
 - Run the installer
 
 **Linux:**
-- AppImage available from [claude.ai](https://claude.ai)
+- AppImage available from [claude.com](https://claude.com/download)
 
 ---
 
@@ -337,7 +335,7 @@ npm install -g @modelcontextprotocol/server-sequential-thinking
 }
 ```
 
-**Install the server:**
+**Install the mcp-cursor server:**
 ```bash
 npm install -g mcp-cursor
 ```
@@ -445,6 +443,8 @@ tail -f ~/.config/Claude/logs/mcp*.log
 **Look for:**
 - ✅ **Success indicators**: "MCP server started", "Connected to server"
 - ❌ **Error indicators**: "Failed to start", "Connection refused", "File not found"
+
+See [Advanced MCP Servers](advanced-mcp-servers.md#overview) for other MCP servers including additional types of memory.
 
 ### Step 5: Troubleshooting Common Issues
 

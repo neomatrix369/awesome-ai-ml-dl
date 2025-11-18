@@ -403,6 +403,8 @@ What's my current project name?
 2. Look for MCP-related messages in the console
 3. Check for any error messages
 
+See [Advanced MCP Servers](advanced-mcp-servers.md#overview) for other MCP servers including additional types of memory.
+
 ### Step 5: Troubleshooting
 
 **If MCP servers don't appear in settings:**

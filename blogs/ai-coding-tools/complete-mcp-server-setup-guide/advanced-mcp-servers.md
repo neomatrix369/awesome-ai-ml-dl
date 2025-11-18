@@ -49,7 +49,7 @@ npm install -g @modelcontextprotocol/server-filesystem
 
 ---
 
-## Sequential Thinking (Advanced Reasoning)
+## Sequential Thinking
 
 **When**: Complex problem-solving, multi-step tasks.
 
@@ -75,6 +75,207 @@ npm install -g @modelcontextprotocol/server-sequential-thinking
 ```
 
 **Usage**: In any tool, ask "Use sequential thinking to break down this problem..."
+
+## Advanced Reasoning
+
+**When**: Enhanced problem-solving with confidence tracking, meta-cognitive reflection, and hypothesis testing.
+
+**What it provides**:
+- Confidence scoring (0.0-1.0 scale) for reasoning quality
+- Meta-cognitive reflection capabilities
+- Hypothesis formulation and testing
+- Named reasoning contexts (memory libraries) for different projects
+- JSON-serializable workflow storage
+
+**Installation**:
+```bash
+git clone https://github.com/angrysky56/advanced-reasoning-mcp.git
+cd advanced-reasoning-mcp
+npm install
+npm run build
+```
+
+**Config** (add to existing `mcpServers`):
+```json
+"advanced-reasoning": {
+  "command": "node",
+  "args": ["/absolute/path/to/advanced-reasoning-mcp/build/index.js"]
+}
+```
+
+**Note for Claude Code**: Add `"type": "stdio"`:
+```json
+"advanced-reasoning": {
+  "command": "node",
+  "args": ["/absolute/path/to/advanced-reasoning-mcp/build/index.js"],
+  "type": "stdio"
+}
+```
+
+**Usage**:
+- Main tool: `advanced_reasoning` for enhanced reasoning with cognitive features
+- Create memory libraries: `create_memory_library` for separate reasoning contexts
+- Store workflows: `create_system_json` for reusable JSON workflows
+
+**Platform Paths**:
+| OS | Example Path |
+|----|--------------|
+| **macOS** | `/Users/YOUR_USERNAME/advanced-reasoning-mcp/build/index.js` |
+| **Windows** | `C:\Users\YOUR_USERNAME\advanced-reasoning-mcp\build\index.js` |
+| **Linux** | `/home/YOUR_USERNAME/advanced-reasoning-mcp/build/index.js` |
+
+---
+
+## Thinking Patterns
+
+**When**: Structured reasoning across systematic thinking, mental models, scientific analysis, and collaborative problem-solving.
+
+**What it provides**:
+- Sequential planning and problem decomposition
+- Decision frameworks and domain modeling
+- Hypothesis testing and critical evaluation
+- Multi-perspective problem-solving
+- Visual reasoning and temporal modeling
+- Stochastic algorithms for uncertainty handling
+
+**Installation**:
+```bash
+npm install -g @emmahyde/thinking-patterns
+```
+
+**Config** (add to existing `mcpServers`):
+```json
+"thinking-patterns": {
+  "command": "npx",
+  "args": ["-y", "@emmahyde/thinking-patterns"]
+}
+```
+
+**Note for Claude Code**: Add `"type": "stdio"`:
+```json
+"thinking-patterns": {
+  "command": "npx",
+  "args": ["-y", "@emmahyde/thinking-patterns"],
+  "type": "stdio"
+}
+```
+
+**Alternative Installation (Cursor with Smithery)**:
+```bash
+npx -y @smithery/cli install @emmahyde/thinking-patterns --client cursor
+```
+
+**Usage**: The server enforces structural consistency through interactive schema validation across six reasoning categories:
+- Systematic Thinking
+- Mental Models
+- Scientific Analysis
+- Collaborative Reasoning
+- Advanced Cognitive Patterns
+- Probabilistic Optimization
+
+---
+
+## Graphiti Memory
+
+**When**: You need a temporal knowledge graph for evolving user interactions and cross-session memory persistence.
+
+**What it provides**:
+- Temporal knowledge graph with historical metadata
+- Custom entity definitions (Requirements, Preferences, Procedures)
+- Cross-session memory persistence
+- Real-time graph updates
+- Structured data storage with Pydantic models
+
+**Requirements**:
+- Python environment (managed via `uv`)
+- Database: FalkorDB (default) or Neo4j
+- API keys for LLM provider (OpenAI, Anthropic, Gemini, or Groq)
+
+**Installation**:
+```bash
+# Clone repository
+git clone https://github.com/getzep/graphiti.git
+cd graphiti/mcp_server
+
+# Install uv (Python package manager)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install dependencies
+uv sync
+
+# Optional: Install additional LLM providers
+uv sync --extra providers
+```
+
+**Environment Setup**:
+
+Create `.env` file or copy the `.env.example` to `.env` in `mcp_server/` directory:
+```bash
+# Required: Choose your LLM provider
+OPENAI_API_KEY=your-openai-key
+# OR
+ANTHROPIC_API_KEY=your-anthropic-key
+# OR
+GOOGLE_API_KEY=your-gemini-key
+# OR
+GROQ_API_KEY=your-groq-key
+
+# Optional: Azure OpenAI
+AZURE_OPENAI_API_KEY=your-azure-key
+AZURE_OPENAI_ENDPOINT=your-azure-endpoint
+AZURE_OPENAI_DEPLOYMENT=your-deployment-name
+
+# Optional: Neo4j (if not using FalkorDB)
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=your-password
+
+# Optional: Concurrency control
+SEMAPHORE_LIMIT=10
+```
+
+**Start Database**:
+```bash
+# From mcp_server/ directory
+docker compose up  # FalkorDB (default)
+
+# OR for Neo4j
+docker compose -f docker/docker-compose-neo4j.yml up
+```
+
+**Config for MCP Client**:
+
+**Note**: Graphiti uses HTTP transport, not stdio. The MCP server runs at `http://localhost:8000/mcp/`
+
+For Claude Code/Claude Desktop/Cursor (HTTP connection):
+```json
+"graphiti-memory": {
+  "type": "stdio",
+  "command": "npx",
+  "args": [
+    "mcp-remote",
+    "http://127.0.0.1:8000/mcp/"
+  ]
+}
+```
+
+**Platform-Specific Paths**:
+| OS | Clone Location Example |
+|----|------------------------|
+| **macOS** | `/Users/YOUR_USERNAME/graphiti/mcp_server` |
+| **Windows** | `C:\Users\YOUR_USERNAME\graphiti\mcp_server` |
+| **Linux** | `/home/YOUR_USERNAME/graphiti/mcp_server` |
+
+**Usage**:
+- Query Graphiti before taking actions
+- Add and update entities in the knowledge graph
+- Define custom entities for your domain (Requirements, Preferences, etc.)
+- Memory persists across sessions automatically
+
+**Important Notes**:
+- Adjust `SEMAPHORE_LIMIT` based on your LLM provider's rate limits
+- Database must be running before starting the MCP server
+- Use `.env` file for API keys (never commit to version control)
 
 ---
 
