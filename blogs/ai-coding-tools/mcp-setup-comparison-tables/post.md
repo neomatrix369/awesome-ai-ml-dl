@@ -228,9 +228,9 @@
 
 | OS | Path Format | Example |
 |----|-------------|---------|
-| **macOS** | Forward slashes | `/Users/username/claude-mcp-configs/memory.json` |
-| **Windows** | Double backslashes | `C:\\Users\\username\\claude-mcp-configs\\memory.json` |
-| **Linux** | Forward slashes | `/home/username/claude-mcp-configs/memory.json` |
+| **macOS** | Forward slashes | `/Users/YOUR_USERNAME/claude-mcp-configs/memory.json` |
+| **Windows** | Double backslashes | `C:\\Users\\YOUR_USERNAME\\claude-mcp-configs\\memory.json` |
+| **Linux** | Forward slashes | `/home/YOUR_USERNAME/claude-mcp-configs/memory.json` |
 
 **Important**: Always use absolute paths in config files, not environment variables like `~` or `%USERPROFILE%`
 

@@ -409,6 +409,8 @@ claude mcp test memory
 claude mcp logs
 ```
 
+See [Advanced MCP Servers](advanced-mcp-servers.md#overview) for other MCP servers including additional types of memory.
+
 ### Step 5: Troubleshooting
 
 **If `claude mcp list` shows no servers:**
