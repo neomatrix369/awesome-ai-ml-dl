@@ -44,6 +44,8 @@ Back to [main page (table of contents)](../../README.md)
 
   - [Gym: a toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
   - [Dopamine is a research framework for fast prototyping of Reinforcement Learning algorithms](https://github.com/google/dopamine)
+  - [ML-PPO: Clean PyTorch implementation of Proximal Policy Optimization with GAE, parallel environments, continuous/discrete action spaces](https://github.com/KeepALifeUS/ml-ppo)
+  - [ML-DQN: Rainbow DQN implementation featuring Double DQN, Dueling architecture, Prioritized Experience Replay, Noisy Networks](https://github.com/KeepALifeUS/ml-dqn)
 
 #### Data
 
