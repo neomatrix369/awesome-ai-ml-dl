@@ -25,6 +25,7 @@
 
 ## Clean / ready-to-use datasets
 
+- [AI Job Displacement Tracker](https://github.com/noahaust2/ai-displacement-tracker) - Structured, source-backed dataset tracking 96 AI-attributed workforce reductions (457K workers affected, 13 countries, 13 sectors). Every entry includes source URLs, attribution tier, and job functions. Available in JSON and CSV.
 - [Boston Housing Dataset (archive contains clean dataset)](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/tag/v0.1) | [Download](https://github.com/neomatrix369/awesome-ai-ml-dl/releases/download/v0.1/boston_housing_dataset.zip)
 - Google Dataset Search:
   - https://toolbox.google.com/datasetsearch
