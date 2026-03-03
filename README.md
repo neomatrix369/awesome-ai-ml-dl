@@ -220,6 +220,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 ### Testing & Quality
 - [Tests & Testing](./reference/julia-python-and-r.md#testing)
 - [Best Practices](README-details.md#best-practices)
+- [WFGY Problem Map](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md) - Structured 16-problem checklist for diagnosing common RAG and LLM failure modes.
 
 ## Reference Materials
 
