@@ -119,6 +119,7 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 - [Paperspace](https://www.paperspace.com/) - GPU cloud computing
 - [Vast.ai](https://vast.ai/) - GPU rental platform
 - [Lambda Labs](https://lambdalabs.com/) - GPU cloud instances
+- [Deploybase](https://deploybase.ai/) - Track real-time GPU and LLM pricing across all cloud and inference providers
 
 ## Automation Tools
 
