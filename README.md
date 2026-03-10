@@ -164,6 +164,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 ### Ethics & Governance
 - [Ethics / altruistic motives](README-details.md#ethics--altruistic-motives)
 - [Ethics & Governance](./blogs/ethics-governance/README.md)
+- [AI Displacement Tracker](https://github.com/noahaust2/ai-displacement-tracker) - Structured dataset tracking 121 AI-attributed workforce displacement events across 15 countries (496,000+ workers). Source-verified with two-tier attribution methodology. CC-BY-4.0.
 
 ## Data & Analytics
 
