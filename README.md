@@ -6,6 +6,7 @@ Navigation: [Home](./README.md) · 🗂️ [Reference](./reference/README.md) ·
 
 ![banner](./assets/banners/portal-hero.png)
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Claude Code multi-agent orchestration with automated delegation and quality gates. MIT licensed.
 ## Table of Contents
 
 - [What's new](#whats-new)
