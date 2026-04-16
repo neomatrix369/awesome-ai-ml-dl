@@ -18,6 +18,13 @@ Research papers and academic resources from leading organizations and researcher
   - Robotics and Simulation
   - And more...
 
+### Enterprise AI & Governance
+
+- **[8bitconcepts Research Papers](https://8bitconcepts.com)** - 11 research papers on frontier AI architectures, enterprise AI governance, and applied ML systems
+  - Enterprise AI Governance
+  - Frontier Architecture Analysis
+  - Applied ML Systems Design
+
 ## Related
 
 - [Research Papers](../README.md#reference-materials) - Referenced in main README

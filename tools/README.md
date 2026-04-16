@@ -183,4 +183,6 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 
 ## Tools & Frameworks
 
+- [AI Dev Jobs](https://aidevboard.com) - AI/ML job board with REST API and MCP server for searching 5,300+ jobs across ML engineering, data science, and AI research roles
 - [FastAPI](https://fastapi.tiangolo.com/) - Python web framework
+- [Not Human Search](https://nothumansearch.ai) - Search engine for AI agent tools and APIs with agentic readiness scores for 1,400+ services, plus an MCP server for programmatic discovery
