@@ -221,6 +221,8 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Tests & Testing](./reference/julia-python-and-r.md#testing)
 - [Best Practices](README-details.md#best-practices)
 - [WFGY Problem Map](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md) - Structured 16-problem checklist for diagnosing common RAG and LLM failure modes.
+- [Future AGI](https://github.com/future-agi/future-agi) - Open-source self-hostable end-to-end agent engineering and optimization platform unifying tracing, evaluation, simulation, datasets, gateway, and guardrails in one feedback loop.
+- [Future AGI ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge augmentation, and guardrail scanners (jailbreak, PII, prompt-injection); AutoEval pipelines with CI/CD support.
 
 ## Reference Materials
 
