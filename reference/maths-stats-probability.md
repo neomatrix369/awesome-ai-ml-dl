@@ -12,6 +12,7 @@
 - Abductive Learning: Towards Bridging Machine Learning and Logical Reasoning: [Slides](http://daiwz.net/org/slides/ABL-meetup.html) | [Video](https://www.youtube.com/watch?v=ETHrFxiFIUM) | [GitHub](https://github.com/AbductiveLearning/ABL-HED)
 - [Quick math references](https://www.linkedin.com/posts/asif-bhat_mathematics-quick-reference-activity-6621165265302458368-XRFB)
 - [Mathematics for Machine Learning](https://lnkd.in/edgvceK)
+- [The Math Behind Artificial Intelligence](https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book/)
 - [👏Linear Algebra👏 by Jim Hefferon](https://www.linkedin.com/posts/asif-bhat_linear-algebra-activity-6621491653905608704-8gkg)
 - [#Tensor #Calculus for Deep learning which is used in Google #Tensorflow. Designed by Prof. Dr. Cornelis P. Dullemond](https://www.linkedin.com/posts/ashishpatel2604_tensor-calculus-for-deep-learning-activity-6602889964453756928-Y7Nk)
 - [”A Beginner's Guide to the Mathematics of Neural Networks”](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&rep=rep1&type=pdf) [LinkedIn Post](https://www.linkedin.com/posts/montrealai_artificialintelligence-deeplearning-neuralnetworks-activity-6637386735531683840-9RGJ)
