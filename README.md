@@ -207,6 +207,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [AI Coding Tools](./blogs/ai-coding-tools/README.md) - Claude, MCP, Cursor resources
 - [AI Coding Tools References](./blogs/ai-coding-tools/COMMON-REFERENCES.md) - MCP, Claude, Cursor resources
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - MCP server for trust scoring AI agent wallets on Solana. Zero-install: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 ### Cloud & DevOps
 - [Cloud, DevOps, Infra](infrastructure/cloud-devops-infra/README.md#cloud-devops-infra)
 - [Cloud Infrastructure](./infrastructure/README.md)
