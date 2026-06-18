@@ -144,6 +144,7 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 - [Grafana](https://grafana.com/) - Analytics and monitoring
 - [Evidently AI](https://www.evidentlyai.com/) - ML monitoring
 - [Arize](https://arize.com/) - ML observability platform
+- [Future AGI](https://github.com/future-agi/future-agi) - LLM and agent observability platform with 70+ eval metrics and guardrails
 
 ---
 
