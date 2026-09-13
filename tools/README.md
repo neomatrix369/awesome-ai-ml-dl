@@ -46,6 +46,7 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 
 ### IDEs and Editors
 - [VS Code](https://code.visualstudio.com/) - Popular code editor with AI extensions
+- [Toprank](https://github.com/nowork-studio/toprank) - Open-source MIT Claude Code plugin with 9 SEO and Google Ads skills; connects Google Search Console, PageSpeed Insights, and the Google Ads API to ship fixes like meta tag rewrites, JSON-LD schema generation, keyword bid adjustments, and CMS content pushes
 - [PyCharm](https://www.jetbrains.com/pycharm/) - Python IDE with ML support
 - [Spyder](https://www.spyder-ide.org/) - Scientific Python development environment
 - [RStudio](https://rstudio.com/) - R development environment
