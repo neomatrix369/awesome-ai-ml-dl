@@ -2,6 +2,8 @@
 
 Navigation: [Home](./README.md) · 🗂️ [Reference](./reference/README.md) · ☁️ [Infrastructure](./infrastructure/README.md) · 📓 [Notebooks](./notebooks/README.md) · 🧰 [Tools](./tools/README.md) · 📊 [Data](./data/README.md) · 🤖 [Agents](./ai-agents/README.md) · 🧠 [NLP](./natural-language-processing/README.md)
 
+- [ContinueWith](https://continuewith.ai) - Let visitors continue any website page inside ChatGPT, Claude, Gemini, Grok, Perplexity, Mistral, and other AI assistants in one click.
+
 > Learn, build, and explore AI/ML/DL with curated guides, domains, tools, and examples.
 
 ![banner](./assets/banners/portal-hero.png)
