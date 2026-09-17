@@ -143,6 +143,7 @@ A comprehensive guide to tools, technologies, and platforms used in artificial i
 ### Monitoring & Observability
 - [Prometheus](https://prometheus.io/) - Monitoring system
 - [Grafana](https://grafana.com/) - Analytics and monitoring
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records an agent run as it actually crossed the model provider boundary and replays it offline, byte-for-byte, with no model called; unlike Prometheus, Grafana, Evidently AI and Arize above, which summarise application-level logs, metrics and cost, it captures the raw request/response stream at the provider edge, so a failed run can be reproduced exactly and forked from any checkpoint onto a different model
 - [Evidently AI](https://www.evidentlyai.com/) - ML monitoring
 - [Arize](https://arize.com/) - ML observability platform
 
