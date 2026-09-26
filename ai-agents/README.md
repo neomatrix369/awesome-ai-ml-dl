@@ -123,6 +123,7 @@ Several tools and frameworks have emerged to simplify the development of AI agen
 ## Additional Resources
 
 - For a curated list of MCP frameworks, tutorials, and tools relevant to AI agent development, please see our [MCPs, Tutorials, and Tools list](./resources/).
+- For real-world AI agent security incidents (prompt injection, exploited MCP servers, poisoned agent packages, agents deleting production data), each linked to its primary sources, see the [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive).
 
 # Contributing
 
