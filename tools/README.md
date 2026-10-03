@@ -176,6 +176,7 @@ Contributions are very welcome! Please see our [Contributing Guidelines](../CONT
 - [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) - ML platform
 - [Docker](https://www.docker.com/) - Containerization
 - [Kubernetes](https://kubernetes.io/) - Container orchestration
+- [LayerSmith](https://github.com/r0lfi/layersmith) - Self-hosted OCI image builder with a web UI, remote TUI and CLI, Docker or Podman backends, optional LLM training templates, and air-gap bundles.
 
 ## MLOps & Deployment
 
