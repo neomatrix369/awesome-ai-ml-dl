@@ -216,6 +216,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 
 ### Frameworks & Libraries
 - [Frameworks & Libraries](./tools/README.md#machine-learning-frameworks)
+- [5dive](https://github.com/5dive-ai/5dive) - Runs a team of AI coding agents on your own Linux server, each agent a Linux user running Claude Code, Codex or another official CLI as a systemd service. Unlike worktree orchestrators, the agents keep running between tasks and hand each other work through a shared task queue.
 - [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 - [YYLO](https://github.com/yylo-dev/yylo) - Open-source command-line orchestrator for coding agents that runs each task in a dedicated git worktree with a typed task ledger and validation, review, and merge boundaries
 - [Machine Learning](./reference/julia-python-and-r.md#machine-learning)
