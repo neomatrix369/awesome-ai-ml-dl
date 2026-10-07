@@ -190,6 +190,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Things to Know](things-to-know.md) - Essential knowledge and best practices
 - [Blogs & Articles](./blogs/README.md) - Articles, tutorials, and blog posts
   - [AI Coding Tools](./blogs/ai-coding-tools/README.md) - Claude, MCP, Cursor setup guides
+  - [Chronicle](https://epoch.founden.co/?utm_source=awesome-ai-ml-dl&utm_medium=listing) - Interactive timeline of AI history from 1943 to today, with a sourced research dossier for each milestone and the event index published as an open CC BY 4.0 dataset
   - [PulseMark](https://pulsemark.ai) - Daily AI news, model benchmarks, developer tool comparisons, and tutorials for ML practitioners
   - [Tutorials](./blogs/tutorials/) - Step-by-step tutorials
 
