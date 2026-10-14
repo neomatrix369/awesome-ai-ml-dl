@@ -190,6 +190,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Things to Know](things-to-know.md) - Essential knowledge and best practices
 - [Blogs & Articles](./blogs/README.md) - Articles, tutorials, and blog posts
   - [AI Coding Tools](./blogs/ai-coding-tools/README.md) - Claude, MCP, Cursor setup guides
+  - [Digest AI](https://digestai.news) - Free AI news site that merges reports from about 78 sources into one story per event with every source linked, plus RSS and a JSON API
   - [PulseMark](https://pulsemark.ai) - Daily AI news, model benchmarks, developer tool comparisons, and tutorials for ML practitioners
   - [Tutorials](./blogs/tutorials/) - Step-by-step tutorials
 
