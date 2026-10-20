@@ -6,6 +6,7 @@
 
         + [Useful NLP and competition resources](https://www.kaggle.com/c/tweet-sentiment-extraction/discussion/159520)
         + [My popular discussions](https://www.kaggle.com/c/tweet-sentiment-extraction/discussion/159361)
+- [AI Competition Radar](https://www.aicompetition.dev/en) - Free aggregator of AI/ML competitions and hackathons with official registration links, favorites, and a forum.
 - [Bitgrit competition platform](https://bitgrit.net/competition/)
 - [CrowdAI](https://www.crowdai.org/challenges?challenge_filter=active)
 - [Crowd Analytix](https://www.crowdanalytix.com/community)
