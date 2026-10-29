@@ -10,7 +10,7 @@
 - [Gun: A realtime, decentralized, offline-first, mutable graph database engine](https://github.com/amark/gun)
 - [Cayley: An open-source graph database](https://github.com/cayleygraph/cayley)
 - [TerminusDB](https://terminusdb.com/) -  A database for data people. Structured, semantically meaningful data for rapid delivery of data driven applications. Join the data-centric revolution!
-- [AgensGraph](http://www.agensgraph.org) - AgensGraph, a transactional graph database based on PostgreSQL | [GitHub](https://github.com/bitnine-oss/agensgraph)
+- [AgensGraph](https://tech.skaiworldwide.com/docs/) - AgensGraph, a multi-model graph database based on PostgreSQL with SQL, openCypher and ISO GQL | [GitHub](https://github.com/skaiworldwide-oss/agensgraph)
 - [ArangoDB](https://www.arangodb.com/) - 🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions | [GitHub](https://github.com/arangodb/arangodb)
 - [MemGraph](https://memgraph.com/) - Open source projects from the world's fastest graph database. | [GitHub](https://github.com/memgraph)
 - [TigerGraph](https://www.tigergraph.com/) - TigerGraph is the fastest and most scalable graph database analytics platform—and the only native parallel graph database. Previously GraphSQL | [GitHub](https://github.com/tigergraph)
