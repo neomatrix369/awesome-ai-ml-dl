@@ -192,6 +192,9 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
   - [AI Coding Tools](./blogs/ai-coding-tools/README.md) - Claude, MCP, Cursor setup guides
   - [PulseMark](https://pulsemark.ai) - Daily AI news, model benchmarks, developer tool comparisons, and tutorials for ML practitioners
   - [Tutorials](./blogs/tutorials/) - Step-by-step tutorials
+- [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
+- [TeslaWraps](https://teslawraps.design) - Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit…
+- [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
 
 ### Reference Materials
 - [Cheatsheets](./reference/cheatsheets.md#cheatsheets)
