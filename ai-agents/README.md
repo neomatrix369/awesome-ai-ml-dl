@@ -108,6 +108,7 @@ Several tools and frameworks have emerged to simplify the development of AI agen
 *   **Google A2A (Agents for Automation):** While specific public details might vary, Google has research and products focused on AI agents for automating tasks and processes.
 *   **Google GenAI (Generative AI):** Google offers a suite of Generative AI tools and models (e.g., Gemini) that can be the core "Model" component of AI agents, providing powerful language understanding and generation capabilities. This includes Vertex AI for building and deploying AI models.
 *   **[grugbot420](https://github.com/grug-group420/grugbot420):** A neuromorphic cognitive engine in Julia for multi-model AI orchestration. Deploys domain-expert AI specimens through architectural configuration rather than traditional training. MIT licensed.
+*   **[Cadence](https://github.com/muellerberndt/cadence):** A brain-inspired Python library for agents that learn from live experience while they act, using local plasticity instead of backpropagation, with working, associative and episodic memory built in. GPL-3.0 licensed. [Paper](https://philpapers.org/rec/MUECAP-2)
 *   **Other tools:** Many other specialized tools exist for aspects like vector databases (e.g., Pinecone, Weaviate) for semantic search, workflow orchestration (e.g., Apache Airflow with AI plugins), and more.
 
 ## Examples
