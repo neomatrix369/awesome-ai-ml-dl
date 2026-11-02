@@ -186,6 +186,7 @@ Awesome Artificial Intelligence, Machine Learning and Deep Learning as we learn 
 - [Study notes](./study-notes/README.md#study-notes)
 
 ### Guides & Tutorials
+- [Awesome AI Engineer Interview](https://github.com/Johnnnmai/awesome-ai-engineer-interview) - Data-driven AI/ML engineer interview field guide built from 2,445 real job descriptions and 51 company processes, with a free [answer self-checker](https://johnnnmai.github.io/ai-engineer-interview-questions/answer-check/).
 - [Guides](guides.md#guides)
 - [Things to Know](things-to-know.md) - Essential knowledge and best practices
 - [Blogs & Articles](./blogs/README.md) - Articles, tutorials, and blog posts
