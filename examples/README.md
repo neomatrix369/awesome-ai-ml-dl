@@ -40,6 +40,7 @@ Practical code examples and implementations demonstrating AI/ML/DL concepts, fra
 
 - **[Python Examples](./python/README.md)** - Python framework examples
   - Streamlit applications
+- **[Tiny ML Lab](https://github.com/RishabhPande/tiny-ml-lab)** - NumPy-only ML implementations with TODO workbooks, numeric tests and failure-case exercises.
 
 ## Related
 
