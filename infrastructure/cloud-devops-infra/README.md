@@ -70,6 +70,7 @@ This section curates infrastructure, cloud, and DevOps resources for AI/ML/DL wo
 reproducible research
   - [valohai](https://www.valohai.com/) | [docs](https://docs.valohai.com/) | [blogs](https://blog.valohai.com) | [GitHub](https://github.com/valohai) | [Videos](https://www.youtube.com/channel/UCiR8Fpv6jRNphaZ99PnIuFg) | [Showcase](https://valohai.com/showcase/) | [Slack](http://community-slack.valohai.com/) | [@valohaiai](https://twitter.com/@valohaiai) - Valohai is a machine learning platform. It runs your experiments in the cloud, tracks your experiment history and streamlines data science workflows. DEEP LEARNING MANAGEMENT PLATFORM. Machine Orchestration, Version Control and Pipeline Management for Deep Learning.
   - [Lambda Cloud GPU Instances](https://lambdalabs.com/service/gpu-cloud) - GPU Instances for Deep Learning & Machine Learning
+  - [Apidly Cloud](https://apidly.com/) - GPU servers billed by the second with ready-made templates (Jupyter, ComfyUI, vLLM, Ollama), spending limits and idle auto-stop
   - [NavOps](http://www.univa.com/products/navops.php) - Cloud Migration for HPC | [Datasheet](http://www.univa.com/resources/files/univa-navops-launch-datasheet.pdf)
   - [Verne Global: HPC Cloud](https://verneglobal.com/solutions/hpc-cloud) | [NVIDIA DGX Ready](https://verneglobal.com/dgxready)
   - [Weights and Biases](https://wandb.com) | [Learn more about WandB](../../data/about-Weights-and-Biases.md)
